@@ -1,0 +1,23 @@
+{
+  "catalog_version": 1,
+  "portal": "https://docs.frappe.io/",
+  "discovery": "https://docs.frappe.io/sitemap.xml",
+  "page_source_kind": "official-markdown-export-endpoint",
+  "page_source_url_pattern": "<canonical-page-url>.md",
+  "source_evidence": "Rendered official pages advertise a text/markdown alternate URL. The endpoint returns Markdown frontmatter with title, space, URL, and updated date.",
+  "source_version_policy": "SHA-256 digest of the official Markdown export detects content changes; updated date is retained separately when provided by page frontmatter.",
+  "products": {
+    "framework": {"official_url": "https://docs.frappe.io/framework", "legacy_repository": "https://github.com/frappe/frappe_docs", "legacy_repository_archived": true, "live_source": "docs.frappe.io/framework/<page>.md"},
+    "erpnext": {"official_url": "https://docs.frappe.io/erpnext", "live_source": "docs.frappe.io/erpnext/<page>.md"},
+    "helpdesk": {"official_url": "https://docs.frappe.io/helpdesk", "live_source": "docs.frappe.io/helpdesk/<page>.md"},
+    "insights": {"official_url": "https://docs.frappe.io/insights", "live_source": "docs.frappe.io/insights/<page>.md"},
+    "crm": {"official_url": "https://docs.frappe.io/crm", "live_source": "docs.frappe.io/crm/<page>.md"},
+    "hr": {"official_url": "https://docs.frappe.io/hr", "live_source": "docs.frappe.io/hr/<page>.md"},
+    "wiki": {"official_url": "https://docs.frappe.io/wiki-v2", "live_source": "docs.frappe.io/wiki-v2/<page>.md"},
+    "builder": {"official_url": "https://docs.frappe.io/builder", "live_source": "docs.frappe.io/builder/<page>.md"},
+    "learning": {"official_url": "https://docs.frappe.io/learning", "live_source": "docs.frappe.io/learning/<page>.md"},
+    "drive": {"official_url": "https://docs.frappe.io/drive", "live_source": "docs.frappe.io/drive/<page>.md"},
+    "other": {"official_url": "https://docs.frappe.io/index", "live_source": "Per-page URL recorded in manifest"}
+  },
+  "legal": {"software_license": "Wiki software license and archived frappe_docs MIT license are separate from live documentation content", "content_license": "Per-source review required; no blanket permission inferred", "attribution": "Required per published Persian page", "unofficial_translation_notice": true}
+}
