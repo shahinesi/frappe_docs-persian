@@ -1,0 +1,71 @@
+---
+title: "یکپارچه‌سازی Amazon SP-API"
+slug: "amazon_integration"
+source_url: "https://docs.frappe.io/erpnext/amazon_integration"
+source_id: "erpnext/amazon_integration"
+source_version: "a63a8a5503465313869141851be8f462236b4e6a041ece31d998e7ae41070808"
+---
+
+Amazon Connector کالاها و سفارش‌های فروش را از بازارگاه Amazon دریافت می‌کند.
+
+## راه‌اندازی رابط Amazon SP-API
+
+Amazon Connector از ERPNext جدا شده و به‌صورت یک برنامهٔ Frappe در [بازارگاه Frappe Cloud](https://frappecloud.com/marketplace/apps/ecommerce_integrations) در دسترس است.
+
+### نصب برنامه
+
+- اگر سایت ERPNext شما روی Frappe Cloud میزبانی می‌شود، می‌توانید برنامه را از داشبورد سایت نصب کنید. برنامه در [بازارگاه Frappe Cloud](https://frappecloud.com/marketplace/apps/ecommerce_integrations) موجود است.
+- اگر سایت شما را Frappe میزبانی می‌کند، برای نصب برنامه یک درخواست پشتیبانی ثبت کنید.
+- اگر ERPNext را خودتان میزبانی می‌کنید، برنامه را با Frappe bench نصب کنید. برای نصب برنامه‌های Frappe به [مستندات bench](https://frappeframework.com/docs/user/en/bench/frappe-commands#app-installation) مراجعه کنید:
+
+  ```sh
+  bench get-app ecommerce_integrations --branch main
+  ```
+
+مخزن برنامه در GitHub میزبانی می‌شود: [github.com/frappe/ecommerce_integrations](https://github.com/frappe/ecommerce_integrations/).
+
+### تنظیم اعتبارنامه‌ها در ERPNext
+
+پس از ثبت‌نام به‌عنوان فروشنده در وب‌سایت Amazon، می‌توانید اعتبارنامه‌های توسعه‌دهنده را از Amazon Seller Central درخواست کنید. برای جزئیات بیشتر، [وب‌سایت توسعه‌دهندگان Amazon](https://developer.amazonservices.com/) را ببینید.
+
+#### 1. تنظیم اعتبارنامه‌های SP-API
+
+موارد زیر را وارد کنید: IAM ARN، Refresh Token، Client ID، Client Secret، AWS Access Key، AWS Secret Key و کشور.
+
+[مشاهدهٔ تصویر رسمی اعتبارنامه‌ها](https://docs.frappe.io/files/Credentials.png)
+
+#### 2. تنظیم جزئیات سفارش
+
+شرکت، انبار، گروه قلم والد، فهرست قیمت، گروه مشتری، منطقه، نوع مشتری و گروه حساب را تنظیم کنید. گروه حساب برای ثبت کمیسیون‌ها، مالیات‌ها و هزینه‌های دیگری استفاده می‌شود که Amazon دریافت می‌کند.
+
+[مشاهدهٔ تصویر رسمی تنظیم جزئیات سفارش](https://docs.frappe.io/files/Screenshot%20from%202023-07-31%2013-51-36.png)
+
+#### 3. تنظیم پیکربندی‌های همگام‌سازی
+
+با تعیین **پس از تاریخ** (After Date)، می‌توانید سفارش‌هایی را همگام‌سازی کنید که پس از تاریخ مشخصی ایجاد شده‌اند. اگر مقدار زیادی دادهٔ تاریخی وارد می‌کنید، پیشنهاد می‌شود از تاریخ‌های جدیدتر به قدیمی‌تر پیش بروید و داده‌ها را در بخش‌های کوچک وارد کنید.
+
+[مشاهدهٔ تصویر رسمی تنظیم همگام‌سازی](https://docs.frappe.io/files/Screenshot%20from%202023-07-31%2013-45-15.png)
+
+پس از تکمیل همهٔ پیکربندی‌ها، **فعال است** (Is Active) را انتخاب و تنظیمات را ذخیره کنید. سپس یکپارچه‌سازی آمادهٔ استفاده است.
+
+#### 4. نگاشت اقلام Amazon به ERPNext
+
+برای نگاشت اقلام Amazon به اقلام متناظر ERPNext می‌توان از ASIN و SellerSKU استفاده کرد. برای نمونه، اگر اقلام از قبل در سامانه و از طریق یکپارچه‌سازی‌های دیگر ایجاد شده‌اند، می‌توانید با قابلیت سفارشی‌سازی فرم، فیلدی سفارشی در فرم اصلی قلم بسازید و ASIN یا SellerSKU را در آن ذخیره کنید.
+
+هنگام همگام‌سازی سفارش‌ها از Amazon، سامانه با استفاده از فیلدی که در جدول **نگاشت قلم Amazon ـ ERPNext** (Amazon - ERPNext Item Mapping) برای یافتن کد قلم تنظیم شده، کد قلم را پیدا می‌کند. اگر قلمی در جدول نگاشت پیدا نشود، با علامت‌زدن گزینهٔ **اگر قلم وجود ندارد، آن را ایجاد کن** (Create Item If Not Exists) می‌توانید قلم تازه‌ای بسازید.
+
+[مشاهدهٔ تصویر رسمی نگاشت اقلام](https://docs.frappe.io/files/Screenshot%20from%202023-07-31%2013-52-50.png)
+
+#### 5. همگام‌سازی سفارش‌ها
+
+برای همگام‌سازی سفارش‌های فروش، این دکمه را بزنید. پس از همگام‌سازی موفق، سفارش‌های Amazon را به‌صورت سفارش فروش در ERPNext خواهید دید. همچنین می‌توانید زمان‌بندی‌ای تنظیم کنید تا سفارش‌ها خودکار همگام‌سازی شوند.
+
+اگر حساب توسعه‌دهندهٔ شما به اطلاعات شناسایی شخصی دسترسی نداشته باشد، نام مشتری به‌صورت ترکیبی از `BuyerName` و شناسهٔ سفارش (`Order ID`) یا شناسهٔ ایمیل بازارگاه ذخیره می‌شود.
+
+[مشاهدهٔ تصویر رسمی سفارش فروش](https://docs.frappe.io/files/Sales%20Order.png)
+
+## نکته
+
+Connector لغو سفارش را مدیریت نمی‌کند. اگر سفارشی را در Amazon لغو کنید، باید سفارش فروش مربوط و اسناد دیگر را به‌صورت دستی در ERPNext لغو کنید.
+
+منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/amazon_integration). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های رسمی پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.
