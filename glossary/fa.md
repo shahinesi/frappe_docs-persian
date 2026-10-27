@@ -5,6 +5,10 @@
 | DocType | DocType (نوع سند) | نام فنی حفظ شود؛ در توضیح عمومی «نوع سند» به‌کار رود. |
 | Docstatus | وضعیت سند (`docstatus`) | یکی از Draft، Submitted یا Cancelled است؛ مقدار فنی در کد دست‌نخورده بماند. |
 | Document | سند | رکوردی از یک DocType. |
+| Child Table | جدول فرزند (Child Table) | جدول ردیف‌هایی که به سند والد تعلق دارند؛ نام فیلد جدول و DocType فرزند ترجمه نشود. |
+| Jinja | Jinja | زبان قالب‌بندی؛ عبارت‌ها و متغیرهای قالب در نمونه‌کد عیناً حفظ شوند. |
+| Print Format | قالب چاپ (Print Format) | قالب نمایش یا چاپ سند در Frappe؛ نام فنی حفظ شود. |
+| Notification | اعلان (Notification) | سند پیکربندی ارسال اعلان در ERPNext؛ نام DocType و برچسب فنی حفظ شود. |
 | Workspace | فضای کاری | نام فنی Workspace در متن API حفظ شود. |
 | Web Form | Web Form (فرم وب) | نام DocType و برچسب فنی حفظ شود؛ در توضیح عمومی «فرم وب» به‌کار رود. |
 | Web Form Request | درخواست Web Form | سندی برای تولید پیوند خصوصی با کلید دسترسی به فرم. |
