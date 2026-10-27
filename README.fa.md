@@ -5,7 +5,7 @@
 ## ساختار
 
 - `content/fa/<product>/`: صفحات فارسی؛ Markdown و ساختار پوشه‌ای سازگار با Wiki Git Sync.
-- `sources/`: فهرست منابع رسمی و manifest صفحات عمومی.
+- `sources/`: فهرست منابع رسمی، manifest و snapshot Markdown صفحه‌های ترجمه‌شده.
 - `glossary/`: واژه‌نامهٔ مشترک فارسی.
 - `scripts/`: کشف و به‌روزرسانی manifest، اعتبارسنجی محتوا و گزارش پیشرفت.
 
@@ -19,13 +19,13 @@
 
 ## Manifest و همگام‌سازی
 
-`sources/manifest.json` از sitemap عمومی رسمی ساخته می‌شود. برای هر URL یک endpoint رسمی Markdown به‌شکل `<page-url>.md` ثبت شده است. اسکریپت واکشی، `title`, `space`, تاریخ `updated` و SHA-256 محتوای اصلی را از frontmatter/بدنهٔ endpoint می‌خواند اما متن اصلی را در مخزن ذخیره نمی‌کند. اجرای عادی `node scripts/hydrate-source-metadata.mjs` همهٔ endpointها را بررسی می‌کند؛ اگر فرایند نیمه‌کاره ماند، `node scripts/hydrate-source-metadata.mjs --resume` را اجرا کنید تا صفحه‌های موفق checkpointشده دوباره درخواست نشوند. URLهایی که از sitemap حذف شوند در manifest باقی می‌مانند و برای بازبینی علامت می‌خورند.
+`sources/manifest.json` از sitemap عمومی رسمی ساخته می‌شود. برای هر URL یک endpoint رسمی Markdown به‌شکل `<page-url>.md` ثبت شده است. اجرای `node scripts/hydrate-source-metadata.mjs` فراداده و digest را برای همهٔ endpointها واکشی می‌کند؛ `--resume` ادامهٔ اجرای نیمه‌تمام را ممکن می‌کند. برای snapshot کامل منبع، `node scripts/sync-source-snapshots.mjs --all` را اجرا کنید؛ برای تازه‌سازی کم‌درخواست فقط صفحه‌هایی که ترجمه دارند، از `--translated-only` استفاده کنید. URLهایی که از sitemap حذف شوند در manifest باقی می‌مانند و برای بازبینی علامت می‌خورند.
 
-صفحه‌ای که digest آن عوض شود به `needs_update` می‌رود؛ متن فارسی تغییر نمی‌کند. خطاهای دریافت جداگانه در `sources/retrieval-errors.json` ثبت می‌شوند. وضعیت اولیهٔ همهٔ ترجمه‌ها `not_started` است.
+اگر snapshot قبلی موجود باشد و digest عوض شود، صفحه به `needs_update` می‌رود؛ فایل فارسی هیچ‌وقت توسط sync بازنویسی یا حذف نمی‌شود. خطاهای دریافت جداگانه در `sources/retrieval-errors.json` ثبت می‌شوند. وضعیت اولیهٔ همهٔ ترجمه‌ها `not_started` است.
 
 ## مجوز و انتساب
 
-مجوز نرم‌افزار از مجوز محتوای هر منبع جداست. مجوز منبع پیش از بازنشر بررسی شود؛ مجوز MIT مخزن قدیمی به منابع زنده تعمیم داده نمی‌شود. هر صفحه باید مبدأ و پیوند آن را ذکر کند و مجموعه به‌عنوان ترجمه‌ای غیررسمی معرفی شود.
+مجوز نرم‌افزار از مجوز محتوای هر منبع جداست. سیاست فعلی Frappe، مستندات را CC BY-SA معرفی می‌کند اما نسخه را مشخص نمی‌کند؛ عکس‌ها، گرافیک‌ها و نشان‌های تجاری مشمول مجوز جداگانه‌اند. هر صفحه باید مبدأ و پیوند آن را ذکر کند، اقتباس‌بودن و شرایط ShareAlike را اعلام کند و مجموعه به‌عنوان ترجمه‌ای غیررسمی معرفی شود. جزئیات در `CONTENT-LICENSE.md` و `sources/README.md` آمده است.
 
 
 نسخهٔ منبع در manifest، SHA-256 خروجی رسمی Markdown است و commit گیت محسوب نمی‌شود. برای گزارش عددی از `node scripts/report-progress.mjs` و برای کنترل صفحات فارسی از `node scripts/validate-content.mjs` استفاده کنید.

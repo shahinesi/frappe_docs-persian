@@ -4,12 +4,13 @@ source_url: "https://docs.frappe.io/helpdesk/installation"
 source_id: "helpdesk/installation"
 source_version: "7e0092a440bb666bbc2d301e8532631b4c0f8cee641968188a3dc0cd57b7876d"
 source_updated: "2026-01-06"
-translation_status: "translated"
-quality_status: "not_reviewed"
+translation_status: "quality_checked"
+quality_status: "passed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
 > این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/helpdesk/installation)
+> متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 
 Frappe Helpdesk را می‌توان بسته به نیازتان به چند روش نصب کرد: روی Frappe Cloud به‌عنوان سرویس ابری مدیریت‌شده یا روی سرور خودتان. روش‌های نصب در بخش‌های بعد توضیح داده شده‌اند.
 

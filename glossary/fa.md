@@ -27,3 +27,10 @@
 | Sync | همگام‌سازی | یکدست در تمام محصولات. |
 | Site | سایت | در معنای Frappe site؛ نه وب‌سایت مگر بافت عمومی. |
 | Bench | Bench | ابزار خط فرمان Frappe؛ نام محصول ترجمه نشود. |
+| Allow on Submit | Allow on Submit (ویرایش پس از ثبت) | نام ویژگی فنی و برچسب UI حفظ شود؛ توضیح فارسی در متن بیاید. |
+| Accounting Period | دورهٔ حسابداری | نام DocType فنی `Accounting Period` حفظ شود. |
+| Closed Documents | اسناد بسته‌شده | عنوان جدول تنظیمات ERPNext؛ نام فیلد فنی در صورت نیاز حفظ شود. |
+| Agent | کارشناس پشتیبانی | در Frappe Helpdesk برای نقش agent؛ از «عامل» استفاده نشود. |
+| Ticket | تیکت | در Helpdesk؛ با سندهای مالی ERPNext اشتباه نشود. |
+| Workbook | کارپوشه | در Insights برای فضای کاری تحلیل؛ نام فنی `Workbook` حفظ شود. |
+| Chart | نمودار | نوع نمایش داده در Insights؛ API و نام DocType دست‌نخورده بماند. |

@@ -46,6 +46,8 @@ for (const file of pages) {
     }
   }
   if (!/منبع|Source:/i.test(body.slice(fm[0].length))) failures.push(`${relative}: missing visible source attribution`);
+  if (!/ترجمهٔ غیررسمی/.test(body)) failures.push(`${relative}: missing unofficial-translation notice`);
+  if (!/تحت شرایط CC BY-SA/.test(body)) failures.push(`${relative}: missing ShareAlike attribution notice`);
   const fences = [...body.matchAll(/^\s*```/gm)].length;
   if (fences % 2 !== 0) failures.push(`${relative}: unbalanced fenced code block`);
 }

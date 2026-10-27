@@ -4,12 +4,13 @@ source_url: "https://docs.frappe.io/framework/user/en/introduction"
 source_id: "framework/user/en/introduction"
 source_version: "8ada44d25ca278fa4065d4307e545f6095407c2b1d19152b58b66d308843eec6"
 source_updated: "2026-04-21"
-translation_status: "translated"
-quality_status: "not_reviewed"
+translation_status: "quality_checked"
+quality_status: "passed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
 > این صفحه ترجمهٔ غیررسمی مستندات Frappe است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/framework/user/en/introduction)
+> متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 
 ## Frappe Framework چیست؟
 

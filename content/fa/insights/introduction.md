@@ -4,12 +4,13 @@ source_url: "https://docs.frappe.io/insights/introduction"
 source_id: "insights/introduction"
 source_version: "a2570ba5d212b6f299e613e0ed8d790b9b153be16c75b3d49e6fdf4f657ded67"
 source_updated: "2026-01-06"
-translation_status: "translated"
-quality_status: "not_reviewed"
+translation_status: "quality_checked"
+quality_status: "passed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
 > این صفحه ترجمهٔ غیررسمی مستندات Frappe Insights است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/insights/introduction)
+> متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 
 ## Insights چیست؟
 
