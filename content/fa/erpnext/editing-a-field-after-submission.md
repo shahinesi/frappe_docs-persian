@@ -1,0 +1,31 @@
+---
+title: "ویرایش یک فیلد پس از ثبت نهایی سند"
+slug: "editing-a-field-after-submission"
+source_url: "https://docs.frappe.io/erpnext/editing-a-field-after-submission"
+source_id: "erpnext/editing-a-field-after-submission"
+source_version: "12cdb2881d4da991cf3afe19ad13554ea09dae5c32700c8d13a0155b6dd4f005"
+source_updated: "2026-03-04"
+translation_status: "quality_checked"
+quality_status: "passed"
+license_status: "CC BY-SA (version unspecified by source policy)"
+---
+
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/editing-a-field-after-submission)
+> طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
+>
+> تصویرها در این مخزن بازنشر نشده‌اند و پیوندشان به فایل‌های میزبان منبع اشاره می‌کند.
+
+در ERPNext پس از ثبت نهایی یک سند، معمولاً فقط با لغو و سپس اصلاح آن (**Cancel > Amend**) می‌توان سند را ویرایش کرد. بااین‌حال، قابلیت **Allow on Submit** اجازه می‌دهد برخی فیلدها (فیلدهای سفارشی) پس از ثبت نهایی همچنان قابل ویرایش باشند. برای نمونه، یک فیلد سفارشی با نام **Supplier ID** در Supplier Quotation ساخته‌ایم. برای اجازه‌دادن به ویرایش این فیلد پس از ثبت نهایی، مراحل زیر را دنبال کنید:
+
+1. به **Settings > Customize Form** بروید و نوع فرم را انتخاب کنید (در این نمونه Supplier Quotation).
+2. جزئیات ردیف فیلد را باز کنید و گزینهٔ **Allow on Submit** را علامت بزنید.
+
+![فعال‌کردن Allow on Submit در تنظیمات فیلد](https://docs.frappe.io/files/hyYfSoc.png)
+
+![گزینهٔ Allow on Submit](https://docs.frappe.io/files/dp37Dab.png)
+
+3. **Update** را انتخاب کنید.
+
+این تنظیم اجازه می‌دهد فیلد حتی پس از ثبت نهایی سند و بدون اصلاح (Amend) آن ویرایش شود.
+
+> **یادداشت:** قابلیت **Allow on Submit** فقط برای فیلدهای غیراستاندارد (فیلدهای سفارشی) کار می‌کند.
