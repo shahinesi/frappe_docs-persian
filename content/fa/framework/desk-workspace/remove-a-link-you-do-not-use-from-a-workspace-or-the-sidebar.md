@@ -1,0 +1,54 @@
+---
+title: "حذف پیوندی که در فضای کاری یا نوار کناری لازم ندارید"
+slug: "remove-a-link-you-do-not-use-from-a-workspace-or-the-sidebar"
+source_url: "https://docs.frappe.io/framework/desk-workspace/remove-a-link-you-do-not-use-from-a-workspace-or-the-sidebar"
+source_id: "framework/desk-workspace/remove-a-link-you-do-not-use-from-a-workspace-or-the-sidebar"
+source_version: "157ad617909261c1f2192ca8ce22b72909ded620031f615dd79ee883cefed1e6"
+source_updated: "2026-10-13"
+translation_status: "quality_checked"
+quality_status: "passed"
+license_status: "CC BY-SA (version unspecified by source policy)"
+---
+
+می‌توانید پیوند DocTypeای را که کاربران به آن نیاز ندارند، مانند **Material Request** در **Buying**، از تنظیمات حذف کنید. برای این کار نیازی به تغییر کد نیست.
+
+## پیش‌نیازها
+
+- برای تغییر فضای کاری یا نوار کناریِ همهٔ کاربران، به نقش **Workspace Manager** نیاز دارید. نقش **System Manager** این نقش را شامل نمی‌شود. آن را از مسیر **User → Roles** اضافه کنید.
+- مراحل این راهنما برای Frappe v16 هستند.
+
+## پیوند کجا نمایش داده می‌شود؟
+
+پیوند DocType می‌تواند در دو بخش یک ماژول نمایش داده شود:
+
+- **نوار کناری سمت چپ:** یک رکورد جداگانه با نام **Workspace Sidebar** است. برای نمونه، هر ماژول یک مورد مانند **Buying** دارد.
+- **کارت فضای کاری:** صفحهٔ اصلی ماژول است؛ برای نمونه، کارت **Buying** در بخش **Reports & Masters**.
+
+هر بخش فهرست پیوندهای جداگانه‌ای دارد. اگر پیوند را از یکی حذف کنید، در دیگری باقی می‌ماند. برای حذف کامل آن، مراحل هر دو بخش را انجام دهید.
+
+حذف پیوند فقط آن را پنهان می‌کند؛ DocType، رکوردهای آن یا مجوزهای کاربران حذف نمی‌شوند. کاربران همچنان می‌توانند فهرست را از نوار جست‌وجو یا با نشانی مستقیم آن باز کنند. بنابراین این کار به‌تنهایی مانع دسترسی کاربران به DocType نمی‌شود.
+
+## حذف پیوند از کارت فضای کاری
+
+مراحل را در ویدئوی زیر ببینید:
+
+![ضبط مراحل حذف پیوند از کارت فضای کاری](/files/Screen%20Recording%202026-10-13%20at%204.39.59%E2%80%AFPM.mov)
+
+1. ماژول را باز کنید؛ برای نمونه **Buying**.
+2. در گوشهٔ بالا سمت راست، روی **···** و سپس **Edit** کلیک کنید. فضای کاری در حالت ویرایش باز می‌شود.
+3. نشانگر را روی کارتی که پیوند را دارد ببرید؛ برای نمونه کارت **Buying**. روی نماد مداد کارت کلیک کنید تا پنجرهٔ **Edit Links** باز شود.
+4. در بخش **Card Links**، روی نماد مدادِ ردیف پیوند موردنظر، مثلاً **Material Request**، کلیک کنید. پنجرهٔ **Editing Row** باز می‌شود.
+5. روی **Delete** کلیک کنید. ردیف از **Card Links** حذف می‌شود.
+6. دکمهٔ ذخیره را بزنید تا پنجرهٔ **Edit Links** بسته شود.
+7. در گوشهٔ بالا سمت راست، روی **Save** کلیک کنید.
+
+پس از آن، پیوند در کارت نمایش داده نمی‌شود.
+
+## مطالب مرتبط
+
+- [فضای کاری (Workspace)](https://docs.frappe.io/erpnext/workspace)
+- [کاربران و مجوزها](https://docs.frappe.io/framework/user/en/basics/users-and-permissions)
+
+---
+
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/framework/desk-workspace/remove-a-link-you-do-not-use-from-a-workspace-or-the-sidebar). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.
