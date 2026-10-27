@@ -1,8 +1,14 @@
 import { readFile } from 'node:fs/promises';
 const manifest = JSON.parse(await readFile(new URL('../sources/manifest.json', import.meta.url), 'utf8'));
-const products = ['framework','erpnext','helpdesk','insights','crm','hr','wiki','builder','learning','drive','other'];
-const rows = products.map((product) => {
-  const pages = manifest.pages.filter((page) => page.section === product);
+const groups = [
+  { product: 'framework', sections: ['framework'] },
+  { product: 'erpnext', sections: ['erpnext'] },
+  { product: 'helpdesk', sections: ['helpdesk'] },
+  { product: 'insights', sections: ['insights'] },
+  { product: 'other', sections: ['crm','hr','wiki','builder','learning','drive','other'] },
+];
+const rows = groups.map(({ product, sections }) => {
+  const pages = manifest.pages.filter((page) => sections.includes(page.section));
   const translated = pages.filter((page) => ['translated','quality_checked','published'].includes(page.translation_status)).length;
   const quality = pages.filter((page) => ['quality_checked','published'].includes(page.translation_status) && page.quality_status === 'passed').length;
   const published = pages.filter((page) => page.published && page.translation_status === 'published').length;
