@@ -36637,10 +36637,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "e00271bf731fa5db12d78990474804cc933785226da50207a318fcf31387418a",
       "source_modified": "2026-03-03",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/insights/creating-date-table.md",
       "discovered_at": "2026-10-27T05:52:36.589Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/insights/articles/creating-date-table.md",
@@ -36650,9 +36650,12 @@
       "source_metadata_status": "fetched",
       "source_repository": null,
       "source_sitemap_lastmod": "2026-03-03",
-      "license_status": "unverified",
+      "license_status": "CC BY-SA (version unspecified by source policy)",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "quality_reviewed_at": "2026-10-27",
+      "source_snapshot_path": "sources/insights/articles/creating-date-table.md",
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/insights/articles/migrate-from-v2-to-v3",
