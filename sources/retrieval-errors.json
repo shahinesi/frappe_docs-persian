@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T07:12:19.389Z",
+  "generated_at": "2026-10-27T07:15:22.381Z",
   "error_count": 122,
   "errors": [
     {
@@ -13,333 +13,8 @@
       "error": "HTTP 404"
     },
     {
-      "url": "https://docs.frappe.io/erpnext/new-wiki-page",
-      "markdown_url": "https://docs.frappe.io/erpnext/new-wiki-page.md",
-      "error": "HTTP 404"
-    },
-    {
       "url": "https://docs.frappe.io/crm/profile",
       "markdown_url": "https://docs.frappe.io/crm/profile.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/advance-payments",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/advance-payments.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/bill-of-materials",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/bill-of-materials.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/batch-inventory",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/batch-inventory.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/budgeting",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/budgeting.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/bulk-update",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/bulk-update.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/chart-of-accounts",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/chart-of-accounts.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/customer-and-supplier",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/customer-and-supplier.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/data-import-tool",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/data-import-tool.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/discounts",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/discounts.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/drop-ship",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/drop-ship.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/distributors",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/distributors.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/education",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/education.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/email-account",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/email-account.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/employee",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/employee.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/email-inbox",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/email-inbox.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/employee-advance",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/employee-advance.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/expense-claim",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/expense-claim.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/field-customization",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/field-customization.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/file-manager",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/file-manager.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/fixed-assets",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/fixed-assets.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/item",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/item.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/item-variant",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/item-variant.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/lead-to-quotation",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/lead-to-quotation.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/leave-management",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/leave-management.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/manufacturing-engineer-to-order",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/manufacturing-engineer-to-order.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/manufacturing-make-to-order",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/manufacturing-make-to-order.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/material-request",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/material-request.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/navigation",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/navigation.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/newsletter",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/newsletter.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/opening-account-balances",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/opening-account-balances.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/opening-invoice-creation-tool",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/opening-invoice-creation-tool.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/opening-stock",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/opening-stock.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/payment-terms",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/payment-terms.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/point-of-sale",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/point-of-sale.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/pricing-rule",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/pricing-rule.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/printing-and-branding",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/printing-and-branding.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/product-bundle",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/product-bundle.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/publish-items-on-website",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/publish-items-on-website.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/project-and-task",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/project-and-task.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/request-for-quotation",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/request-for-quotation.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/report-builder",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/report-builder.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/sales-cycle",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/sales-cycle.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/retailers",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/retailers.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/quality-inspection",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/quality-inspection.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/purchase-cycle",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/purchase-cycle.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/serialized-inventory",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/serialized-inventory.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/services",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/services.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/shopping-cart",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/shopping-cart.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/stock-entries",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/stock-entries.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/subcontracting",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/subcontracting.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/taxes",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/taxes.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/user-and-permission",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/user-and-permission.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/work-order",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/work-order.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/workflow",
-      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/workflow.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v13/user/manual/en/erpnext_integration/twilio-integration",
-      "markdown_url": "https://docs.frappe.io/erpnext/v13/user/manual/en/erpnext_integration/twilio-integration.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v13/user/manual/en/human-resources/articles/income-tax-calculation-in-erpnext",
-      "markdown_url": "https://docs.frappe.io/erpnext/v13/user/manual/en/human-resources/articles/income-tax-calculation-in-erpnext.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v13/user/manual/en/setting-up/articles/how-to-change-a-users-email-id",
-      "markdown_url": "https://docs.frappe.io/erpnext/v13/user/manual/en/setting-up/articles/how-to-change-a-users-email-id.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v13/user/manual/en/accounts/articles/common_party_accounting",
-      "markdown_url": "https://docs.frappe.io/erpnext/v13/user/manual/en/accounts/articles/common_party_accounting.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v13/user/manual/en/stock/articles/stock-balance-and-stock-account-balance-not-in-sync",
-      "markdown_url": "https://docs.frappe.io/erpnext/v13/user/manual/en/stock/articles/stock-balance-and-stock-account-balance-not-in-sync.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v13/user/manual/iniciar",
-      "markdown_url": "https://docs.frappe.io/erpnext/v13/user/manual/iniciar.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v13/user/manual/new_wiki_page",
-      "markdown_url": "https://docs.frappe.io/erpnext/v13/user/manual/new_wiki_page.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v14/user/manual/iniciar",
-      "markdown_url": "https://docs.frappe.io/erpnext/v14/user/manual/iniciar.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/erpnext/v14/user/manual/new_wiki_page",
-      "markdown_url": "https://docs.frappe.io/erpnext/v14/user/manual/new_wiki_page.md",
       "error": "HTTP 404"
     },
     {
@@ -610,6 +285,331 @@
     {
       "url": "https://docs.frappe.io/framework/v15/user/en/new-wiki-page",
       "markdown_url": "https://docs.frappe.io/framework/v15/user/en/new-wiki-page.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/new-wiki-page",
+      "markdown_url": "https://docs.frappe.io/erpnext/new-wiki-page.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/advance-payments",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/advance-payments.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/bill-of-materials",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/bill-of-materials.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/budgeting",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/budgeting.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/bulk-update",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/bulk-update.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/chart-of-accounts",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/chart-of-accounts.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/batch-inventory",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/batch-inventory.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/data-import-tool",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/data-import-tool.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/distributors",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/distributors.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/discounts",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/discounts.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/customer-and-supplier",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/customer-and-supplier.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/drop-ship",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/drop-ship.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/email-account",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/email-account.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/education",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/education.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/email-inbox",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/email-inbox.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/expense-claim",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/expense-claim.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/employee-advance",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/employee-advance.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/field-customization",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/field-customization.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/employee",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/employee.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/file-manager",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/file-manager.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/fixed-assets",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/fixed-assets.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/item",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/item.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/lead-to-quotation",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/lead-to-quotation.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/item-variant",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/item-variant.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/leave-management",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/leave-management.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/manufacturing-engineer-to-order",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/manufacturing-engineer-to-order.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/material-request",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/material-request.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/navigation",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/navigation.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/manufacturing-make-to-order",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/manufacturing-make-to-order.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/newsletter",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/newsletter.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/opening-invoice-creation-tool",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/opening-invoice-creation-tool.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/opening-account-balances",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/opening-account-balances.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/opening-stock",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/opening-stock.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/payment-terms",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/payment-terms.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/pricing-rule",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/pricing-rule.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/printing-and-branding",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/printing-and-branding.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/point-of-sale",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/point-of-sale.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/product-bundle",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/product-bundle.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/publish-items-on-website",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/publish-items-on-website.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/purchase-cycle",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/purchase-cycle.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/report-builder",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/report-builder.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/request-for-quotation",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/request-for-quotation.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/project-and-task",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/project-and-task.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/retailers",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/retailers.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/sales-cycle",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/sales-cycle.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/quality-inspection",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/quality-inspection.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/serialized-inventory",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/serialized-inventory.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/services",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/services.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/stock-entries",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/stock-entries.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/subcontracting",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/subcontracting.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/taxes",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/taxes.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/user-and-permission",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/user-and-permission.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/shopping-cart",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/shopping-cart.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/work-order",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/work-order.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/workflow",
+      "markdown_url": "https://docs.frappe.io/erpnext/v12/user/videos/learn/workflow.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v13/user/manual/en/accounts/articles/common_party_accounting",
+      "markdown_url": "https://docs.frappe.io/erpnext/v13/user/manual/en/accounts/articles/common_party_accounting.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v13/user/manual/en/erpnext_integration/twilio-integration",
+      "markdown_url": "https://docs.frappe.io/erpnext/v13/user/manual/en/erpnext_integration/twilio-integration.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v13/user/manual/en/human-resources/articles/income-tax-calculation-in-erpnext",
+      "markdown_url": "https://docs.frappe.io/erpnext/v13/user/manual/en/human-resources/articles/income-tax-calculation-in-erpnext.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v13/user/manual/en/setting-up/articles/how-to-change-a-users-email-id",
+      "markdown_url": "https://docs.frappe.io/erpnext/v13/user/manual/en/setting-up/articles/how-to-change-a-users-email-id.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v13/user/manual/en/stock/articles/stock-balance-and-stock-account-balance-not-in-sync",
+      "markdown_url": "https://docs.frappe.io/erpnext/v13/user/manual/en/stock/articles/stock-balance-and-stock-account-balance-not-in-sync.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v13/user/manual/new_wiki_page",
+      "markdown_url": "https://docs.frappe.io/erpnext/v13/user/manual/new_wiki_page.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v13/user/manual/iniciar",
+      "markdown_url": "https://docs.frappe.io/erpnext/v13/user/manual/iniciar.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v14/user/manual/iniciar",
+      "markdown_url": "https://docs.frappe.io/erpnext/v14/user/manual/iniciar.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/v14/user/manual/new_wiki_page",
+      "markdown_url": "https://docs.frappe.io/erpnext/v14/user/manual/new_wiki_page.md",
       "error": "Error: HTTP 404"
     }
   ]
