@@ -1677,10 +1677,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "7fc92e3fa2d1d02b6760a415be8fd7c303efd4f82b1950519f4edcaaa2795530",
       "source_modified": "2026-08-14",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/erpnext/accounting-for-bad-debts.md",
       "discovered_at": "2026-10-27T05:52:36.59Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/erpnext/accounting-for-bad-debts.md",
@@ -1693,7 +1693,8 @@
       "license_status": "unverified",
       "attribution_required": true,
       "unofficial_translation": true,
-      "snapshot_status": "fetched"
+      "snapshot_status": "fetched",
+      "quality_reviewed_at": "2026-10-27"
     },
     {
       "url": "https://docs.frappe.io/erpnext/accounting-introduction",
