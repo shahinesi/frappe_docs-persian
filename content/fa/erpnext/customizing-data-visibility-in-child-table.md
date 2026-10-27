@@ -1,0 +1,34 @@
+---
+title: "نمایش داده در جدول‌های فرزند"
+slug: "customizing-data-visibility-in-child-table"
+source_url: "https://docs.frappe.io/erpnext/customizing-data-visibility-in-child-table"
+source_id: "erpnext/customizing-data-visibility-in-child-table"
+source_version: "4a2331b5920745fb4dab26d23c1a025b8026c5c8c3c3e0efe4838071952ff62d"
+source_updated: "2026-03-04"
+translation_status: "quality_checked"
+quality_status: "passed"
+license_status: "CC BY-SA (version unspecified by source policy)"
+---
+
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/customizing-data-visibility-in-child-table)
+> متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
+>
+> تصویرهای صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.
+
+ERPNext قابلیتی به نام **Editable Grid** دارد. این قابلیت به کاربر اجازه می‌دهد بدون بازکردن کادر محاوره‌ای یا فرم جداگانه برای هر ردیف، مقدارها را مستقیماً در جدول فرزند وارد کند.
+
+وقتی Editable Grid فعال باشد، جدول Quotation Item به این شکل نمایش داده می‌شود و حداکثر چهار ستون دارد.
+
+در تنظیم پیش‌فرض، فقط چهار ستون در جدول فرزند فهرست می‌شوند. برای افزودن ستون‌های بیشتر به خود Editable Grid، مراحل زیر را انجام دهید.
+
+برای آنکه فیلدی به‌صورت ستون جدول اضافه شود، در فیلد **Column** برای آن مقداری وارد کنید. همچنین مطمئن شوید ویژگی **Is List View** برای همان فیلد فعال است.
+
+بر اساس مقداری که در فیلد Column وارد می‌کنید، ستون‌ها به جدول فرزند افزوده می‌شوند. دقت کنید مجموع مقدارهای واردشده در فیلد Column از 10 بیشتر نشود. مقدار Column عرض آن ستون را نیز تعیین می‌کند.
+
+## تغییر به Un-editable Grid
+
+برای نمایش مقدارهای بیشتری در پیش‌نمایش جدول Quotation Item، می‌توانید Editable Grid را برای DocTypeِ Quotation Item غیرفعال کنید.
+
+پس از غیرفعال‌کردن Editable Grid برای Quotation Item، مقدارها در پیش‌نمایش جدول به شکل دیگری نمایش داده می‌شوند.
+
+برای آنکه مقدار یک فیلد مشخص در پیش‌نمایش دیده شود، در ابزار Customize Form مطمئن شوید ویژگی **In List View** برای همان فیلد فعال است.
