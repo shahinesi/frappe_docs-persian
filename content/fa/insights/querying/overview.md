@@ -1,0 +1,66 @@
+---
+title: "نمای کلی پرس‌وجوها"
+slug: "overview"
+source_url: "https://docs.frappe.io/insights/querying/overview"
+source_id: "insights/querying/overview"
+source_version: "66e2679a205292ea1856c7e7c1ad2672f2a38112b8f5c750db036cedd64f4698"
+source_updated: "2026-01-06"
+translation_status: "quality_checked"
+quality_status: "passed"
+license_status: "CC BY-SA (version unspecified by source policy)"
+---
+
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Insights است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/insights/querying/overview)
+> متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
+>
+> ویدیو و تصاویر رابط کاربری صفحهٔ منبع پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.
+
+## پرس‌وجو چیست؟
+
+پرس‌وجوها داده‌ها را از پایگاه‌های شما دریافت و تبدیل می‌کنند. می‌توانید پرس‌وجو را مانند دستور تهیه‌ای برای به‌دست‌آوردن دادهٔ دقیق موردنیازتان در نظر بگیرید. کار را از یک جدول شروع می‌کنید و سپس گام‌هایی برای پالایش، محاسبه و سازمان‌دهی داده به آن می‌افزایید.
+
+در Insights سه روش برای ساخت پرس‌وجو وجود دارد:
+
+1. **Query Builder**: رابط دیداری و بدون کدنویسی؛ برای بیشتر کاربران پیشنهاد می‌شود.
+2. **SQL Editor**: نوشتن مستقیم SQL؛ برای کاربران مسلط به SQL.
+3. **Script Editor**: نوشتن اسکریپت Python برای تبدیل‌های پیچیده.
+
+## ساخت نخستین پرس‌وجو
+
+<video controls width="100%" height="auto"><source src="https://docs.frappe.io/files/query.mp4" type="video/mp4"></video>
+
+### آغاز یک پرس‌وجوی تازه
+
+#### 1. بازکردن Workbook
+
+1. روی زبانهٔ **Queries** کلیک کنید.
+2. روی **New Query** کلیک کنید.
+3. نوع پرس‌وجو را انتخاب کنید:
+   - **Visual Query Builder**: ساخت دیداری.
+   - **SQL Editor**: نوشتن SQL.
+   - **Script Editor**: نوشتن Python.
+
+![Query Builder](https://docs.frappe.io/files/Query_Builderfe073a.jpeg)
+
+در این راهنما روی Query Builder تمرکز می‌کنیم، چون شروع کار با آن آسان‌تر است.
+
+#### 2. انتخاب منبع داده
+
+1. روی **Select a table** کلیک کنید.
+2. اتصال پایگاه دادهٔ خود را انتخاب کنید.
+3. برای شروع، یک جدول برگزینید.
+
+![انتخاب جدول](https://docs.frappe.io/files/select%20table.jpeg)
+
+می‌توانید جدولی از این منابع انتخاب کنید:
+
+- Demo Data
+- Site DB
+- Uploads
+- پرس‌وجوهای دیگر در همان Workbook
+
+اکنون آماده‌اید عملیات را روی جدول انجام دهید.
+
+---
+
+**منبع:** [مستندات رسمی Frappe Insights](https://docs.frappe.io/insights/querying/overview). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. ویدیو و تصاویر اصلی در این مخزن بازنشر نشده‌اند.
