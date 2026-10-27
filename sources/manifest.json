@@ -24119,10 +24119,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "ec900549d43d752862e2af552fc68f9f8e26e07bca8c83edf70e1f550681314c",
       "source_modified": "2026-07-04",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/framework/help/event-streaming.md",
       "discovered_at": "2026-10-27T05:52:36.588Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/framework/help/event-streaming.md",
@@ -24132,10 +24132,12 @@
       "source_metadata_status": "fetched",
       "source_repository": null,
       "source_sitemap_lastmod": "2026-07-04",
-      "license_status": "unverified",
+      "license_status": "CC BY-SA (version unspecified by source policy)",
       "attribution_required": true,
       "unofficial_translation": true,
-      "snapshot_status": "fetched"
+      "snapshot_status": "fetched",
+      "quality_reviewed_at": "2026-10-27",
+      "source_snapshot_path": "sources/framework/help/event-streaming.md"
     },
     {
       "url": "https://docs.frappe.io/framework/help/im-not-receiving-a-password-reset-login-link-or-two-factor-authentication-email",
