@@ -1805,10 +1805,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "8b1af2eaf4cc34bc9b1e3d7e48fe37cb8657c6cb75316f0454272d758fe09ad6",
       "source_modified": "2026-08-14",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/erpnext/accounting-reports.md",
       "discovered_at": "2026-10-27T05:52:36.594Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/erpnext/accounting-reports.md",
@@ -1821,7 +1821,8 @@
       "license_status": "unverified",
       "attribution_required": true,
       "unofficial_translation": true,
-      "snapshot_status": "fetched"
+      "snapshot_status": "fetched",
+      "quality_reviewed_at": "2026-10-27"
     },
     {
       "url": "https://docs.frappe.io/erpnext/accounting-setup-checklist",
