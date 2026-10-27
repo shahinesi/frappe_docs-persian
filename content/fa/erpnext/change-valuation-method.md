@@ -1,0 +1,23 @@
+---
+title: "تغییر روش ارزش‌گذاری موجودی"
+slug: "change-valuation-method"
+source_url: "https://docs.frappe.io/erpnext/change-valuation-method"
+source_id: "erpnext/change-valuation-method"
+source_version: "499266eda7cec009a799d84c821288cdadf4f3846cb79caa9aaed770dc9ee2d1"
+source_updated: "2026-02-20"
+translation_status: "quality_checked"
+quality_status: "passed"
+license_status: "CC BY-SA (version unspecified by source policy)"
+---
+
+در ERPNext، اگر برای کالاها تراکنش موجودی ثبت شده باشد، کاربران می‌توانند روش ارزش‌گذاری را از **FIFO** به **Moving Average** تغییر دهند؛ اما تغییر از Moving Average به FIFO ممکن نیست.
+
+اگر کاربر روش ارزش‌گذاری کالایی را از FIFO به Moving Average تغییر دهد، سیستم برای تراکنش‌های خروجی جدید از Moving Average استفاده می‌کند. همچنین اگر کاربر تراکنشی با تاریخ گذشته ثبت کند، همهٔ تراکنش‌هایی که پس از آن تراکنشِ تاریخ‌گذشته ایجاد شده‌اند، با روش Moving Average دوباره ثبت (repost) می‌شوند. در نتیجه، ممکن است مقدار ماندهٔ پایان برخی تراکنش‌های قبلی تغییر کند.
+
+برای پیشگیری از این وضعیت، می‌توانید تراکنش‌های موجودی را تا پیش از یک تاریخ مشخص قفل کنید. برای این کار، تاریخ **Stock Frozen Up To** را در تنظیمات موجودی تعیین کنید.
+
+![تنظیم تاریخ ثابت‌ماندن تراکنش‌های موجودی](/files/Screenshot%202025-04-29%20at%204.38.39%20PM.png)
+
+---
+
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/change-valuation-method). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.

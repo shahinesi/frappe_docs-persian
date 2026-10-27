@@ -43,6 +43,9 @@
 | Stock Balance | ماندهٔ موجودی (Stock Balance) | نام گزارش فنی در ERPNext حفظ شود. |
 | Opening Stock | موجودی افتتاحیه (Opening Stock) | ماندهٔ موجودی در ابتدای بازهٔ گزارش. |
 | Stock Ledger Entry | ردیف دفتر موجودی (Stock Ledger Entry) | نام DocType فنی حفظ شود. |
+| FIFO | FIFO (اولین‌وارد، اولین‌خارج) | روش ارزش‌گذاری موجودی؛ سرواژهٔ فنی حفظ شود. |
+| Moving Average | میانگین متحرک (Moving Average) | روش ارزش‌گذاری موجودی ERPNext؛ نام UI حفظ شود. |
+| Stock Frozen Up To | Stock Frozen Up To (ثابت‌ماندن موجودی تا تاریخ) | نام فیلد تنظیمات موجودی حفظ شود. |
 | Sales Order | سفارش فروش | نام سند ERPNext. |
 | Purchase Order | سفارش خرید | نام سند ERPNext. |
 | Lead | سرنخ | با فرصت فروش اشتباه نشود. |
