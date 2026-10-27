@@ -3005,10 +3005,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "a7153ec0dc19f5a0a77b791385e099bc6cb8b65906a0e6b9ba801d0f97dfb2d7",
       "source_modified": "2026-07-25",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/erpnext/assistance-sales-purchase-between-companies.md",
       "discovered_at": "2026-10-27T05:52:36.591Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/erpnext/assistance-sales-purchase-between-companies.md",
@@ -3018,10 +3018,12 @@
       "source_metadata_status": "fetched",
       "source_repository": null,
       "source_sitemap_lastmod": "2026-07-25",
-      "license_status": "unverified",
+      "license_status": "CC BY-SA (version unspecified by source policy)",
       "attribution_required": true,
       "unofficial_translation": true,
-      "snapshot_status": "fetched"
+      "snapshot_status": "fetched",
+      "quality_reviewed_at": "2026-10-27",
+      "source_integrity_note": "Official page title metadata says \"Create a Sales Invoice without an Item Code\", while the page H1 and body are \"Drop Ship Between Subsidiary Companies\"; translation follows the current page H1/body. Confirmed on docs.frappe.io on 2026-10-27."
     },
     {
       "url": "https://docs.frappe.io/erpnext/authorization-rule",
