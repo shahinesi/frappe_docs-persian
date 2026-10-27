@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "sitemap_url": "https://docs.frappe.io/sitemap.xml",
-  "retrieved_at": "2026-10-27T06:41:39.573Z",
+  "retrieved_at": "2026-10-27T06:43:31.098Z",
   "page_count": 2017,
   "pages": [
     {
@@ -1625,9 +1625,10 @@
       "source_metadata_status": "fetched",
       "source_repository": null,
       "source_sitemap_lastmod": "2026-08-14",
-      "license_status": "unverified",
+      "license_status": "CC BY-SA (version unspecified by source policy)",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/erpnext/accounting-entries",
@@ -22800,10 +22801,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "8b16041175dcc1a841f2f6a58ead86971f9e7fa10670fe223a2307fb6eadc831",
       "source_modified": "2026-07-05",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/framework/doctypes/docstatus.md",
       "discovered_at": "2026-10-27T05:52:36.59Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/framework/doctypes/docstatus.md",
@@ -22813,9 +22814,11 @@
       "source_metadata_status": "fetched",
       "source_repository": null,
       "source_sitemap_lastmod": "2026-07-05",
-      "license_status": "unverified",
+      "license_status": "CC BY-SA (version unspecified by source policy)",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "quality_reviewed_at": "2026-10-27",
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/framework/doctypes/doctype-layout",
@@ -29594,10 +29597,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "2ccc45923f1ebec8b77942d912089e784d486414a3b03a809395012fe56d2f04",
       "source_modified": "2026-05-28",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/helpdesk/assignment-rule.md",
       "discovered_at": "2026-10-27T05:52:36.574Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/helpdesk/assignment-rule.md",
@@ -29607,9 +29610,11 @@
       "source_metadata_status": "fetched",
       "source_repository": null,
       "source_sitemap_lastmod": "2026-05-28",
-      "license_status": "unverified",
+      "license_status": "CC BY-SA (version unspecified by source policy)",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "quality_reviewed_at": "2026-10-27",
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/comment",
@@ -35121,9 +35126,10 @@
       "source_metadata_status": "fetched",
       "source_repository": null,
       "source_sitemap_lastmod": "2026-01-06",
-      "license_status": "unverified",
+      "license_status": "CC BY-SA (version unspecified by source policy)",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/insights/charts/overview",
