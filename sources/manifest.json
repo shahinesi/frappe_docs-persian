@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "sitemap_url": "https://docs.frappe.io/sitemap.xml",
-  "retrieved_at": "2026-10-27T06:43:31.098Z",
+  "retrieved_at": "2026-10-27T06:46:04.583Z",
   "page_count": 2017,
   "pages": [
     {
@@ -1612,10 +1612,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "b65abb0a6641c2c7fa394f7100bf1894efd21d740427b2c89bd4b1e7fd5751c3",
       "source_modified": "2026-08-14",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/erpnext/accounting-dimensions.md",
       "discovered_at": "2026-10-27T05:52:36.593Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/erpnext/accounting-dimensions.md",
@@ -1628,7 +1628,8 @@
       "license_status": "CC BY-SA (version unspecified by source policy)",
       "attribution_required": true,
       "unofficial_translation": true,
-      "snapshot_status": "fetched"
+      "snapshot_status": "fetched",
+      "quality_reviewed_at": "2026-10-27"
     },
     {
       "url": "https://docs.frappe.io/erpnext/accounting-entries",
@@ -35113,10 +35114,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "f4bd7f87035e92b03f22857fb776e07e0ab4fd23045a17a7d880f8940b0bb36e",
       "source_modified": "2026-01-06",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "translated",
+      "quality_status": "source_review_required",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/insights/charts/chart-types-explained.md",
       "discovered_at": "2026-10-27T05:52:36.573Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/insights/charts/chart-types-explained.md",
