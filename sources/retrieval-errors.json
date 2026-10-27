@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T07:03:20.250Z",
+  "generated_at": "2026-10-27T07:12:19.389Z",
   "error_count": 122,
   "errors": [
     {
@@ -343,66 +343,6 @@
       "error": "HTTP 404"
     },
     {
-      "url": "https://docs.frappe.io/framework/user/en/basics/doctypes/frameworktatus",
-      "markdown_url": "https://docs.frappe.io/framework/user/en/basics/doctypes/frameworktatus.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/framework/user/en/desk/workspace",
-      "markdown_url": "https://docs.frappe.io/framework/user/en/desk/workspace.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/framework/user/en/desk/workspace/access",
-      "markdown_url": "https://docs.frappe.io/framework/user/en/desk/workspace/access.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/framework/user/en/desk/workspace/customization",
-      "markdown_url": "https://docs.frappe.io/framework/user/en/desk/workspace/customization.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/framework/user/en/hidden-features/desk",
-      "markdown_url": "https://docs.frappe.io/framework/user/en/hidden-features/desk.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/framework/user/en/desk/workspace/blocks",
-      "markdown_url": "https://docs.frappe.io/framework/user/en/desk/workspace/blocks.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/framework/user/en/rate-limiting",
-      "markdown_url": "https://docs.frappe.io/framework/user/en/rate-limiting.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/framework/user/en/guides/data/using-data-migration-tool",
-      "markdown_url": "https://docs.frappe.io/framework/user/en/guides/data/using-data-migration-tool.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/framework/v13/user/en/bench/guides/manual-setup",
-      "markdown_url": "https://docs.frappe.io/framework/v13/user/en/bench/guides/manual-setup.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/framework/v14/user/en/document_template",
-      "markdown_url": "https://docs.frappe.io/framework/v14/user/en/document_template.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/framework/v13/user/en/guides/basics/contribute_translations",
-      "markdown_url": "https://docs.frappe.io/framework/v13/user/en/guides/basics/contribute_translations.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/framework/v14/user/en/new-wiki-page",
-      "markdown_url": "https://docs.frappe.io/framework/v14/user/en/new-wiki-page.md",
-      "error": "HTTP 404"
-    },
-    {
       "url": "https://docs.frappe.io/helpdesk/quick-first-steps",
       "markdown_url": "https://docs.frappe.io/helpdesk/quick-first-steps.md",
       "error": "HTTP 404"
@@ -410,11 +350,6 @@
     {
       "url": "https://docs.frappe.io/helpdesk/customer-portal",
       "markdown_url": "https://docs.frappe.io/helpdesk/customer-portal.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/framework/v15/user/en/new-wiki-page",
-      "markdown_url": "https://docs.frappe.io/framework/v15/user/en/new-wiki-page.md",
       "error": "HTTP 404"
     },
     {
@@ -610,6 +545,71 @@
     {
       "url": "https://docs.frappe.io/hr/income-tax-calculation-in-erpnext",
       "markdown_url": "https://docs.frappe.io/hr/income-tax-calculation-in-erpnext.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/framework/user/en/basics/doctypes/frameworktatus",
+      "markdown_url": "https://docs.frappe.io/framework/user/en/basics/doctypes/frameworktatus.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/framework/user/en/desk/workspace/access",
+      "markdown_url": "https://docs.frappe.io/framework/user/en/desk/workspace/access.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/framework/user/en/desk/workspace/blocks",
+      "markdown_url": "https://docs.frappe.io/framework/user/en/desk/workspace/blocks.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/framework/user/en/desk/workspace/customization",
+      "markdown_url": "https://docs.frappe.io/framework/user/en/desk/workspace/customization.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/framework/user/en/desk/workspace",
+      "markdown_url": "https://docs.frappe.io/framework/user/en/desk/workspace.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/framework/user/en/guides/data/using-data-migration-tool",
+      "markdown_url": "https://docs.frappe.io/framework/user/en/guides/data/using-data-migration-tool.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/framework/user/en/hidden-features/desk",
+      "markdown_url": "https://docs.frappe.io/framework/user/en/hidden-features/desk.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/framework/user/en/rate-limiting",
+      "markdown_url": "https://docs.frappe.io/framework/user/en/rate-limiting.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/framework/v13/user/en/bench/guides/manual-setup",
+      "markdown_url": "https://docs.frappe.io/framework/v13/user/en/bench/guides/manual-setup.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/framework/v13/user/en/guides/basics/contribute_translations",
+      "markdown_url": "https://docs.frappe.io/framework/v13/user/en/guides/basics/contribute_translations.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/framework/v14/user/en/document_template",
+      "markdown_url": "https://docs.frappe.io/framework/v14/user/en/document_template.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/framework/v14/user/en/new-wiki-page",
+      "markdown_url": "https://docs.frappe.io/framework/v14/user/en/new-wiki-page.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/framework/v15/user/en/new-wiki-page",
+      "markdown_url": "https://docs.frappe.io/framework/v15/user/en/new-wiki-page.md",
       "error": "Error: HTTP 404"
     }
   ]
