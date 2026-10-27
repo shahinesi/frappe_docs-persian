@@ -23786,10 +23786,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "002609eaca63c99d4a2317e345aedcc948f5f5d72c92dc41d48b2fc4084facfb",
       "source_modified": "2026-09-29",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/framework/deployment/rate-limiting.md",
       "discovered_at": "2026-10-27T05:52:36.587Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/framework/deployment/rate-limiting.md",
@@ -23799,10 +23799,12 @@
       "source_metadata_status": "fetched",
       "source_repository": null,
       "source_sitemap_lastmod": "2026-09-29",
-      "license_status": "unverified",
+      "license_status": "CC BY-SA (version unspecified by source policy)",
       "attribution_required": true,
       "unofficial_translation": true,
-      "snapshot_status": "fetched"
+      "snapshot_status": "fetched",
+      "quality_reviewed_at": "2026-10-27",
+      "source_snapshot_path": "sources/framework/deployment/rate-limiting.md"
     },
     {
       "url": "https://docs.frappe.io/framework/desk-reports/excel-xlsx-export-styling",
