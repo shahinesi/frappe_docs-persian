@@ -6,6 +6,8 @@
 | Docstatus | وضعیت سند (`docstatus`) | یکی از Draft، Submitted یا Cancelled است؛ مقدار فنی در کد دست‌نخورده بماند. |
 | Document | سند | رکوردی از یک DocType. |
 | Workspace | فضای کاری | نام فنی Workspace در متن API حفظ شود. |
+| Web Form | Web Form (فرم وب) | نام DocType و برچسب فنی حفظ شود؛ در توضیح عمومی «فرم وب» به‌کار رود. |
+| Web Form Request | درخواست Web Form | سندی برای تولید پیوند خصوصی با کلید دسترسی به فرم. |
 | Workspace Manager | مدیر فضای کاری (Workspace Manager) | نام نقش دسترسی حفظ شود؛ System Manager به‌تنهایی این نقش را ندارد. |
 | Sidebar | نوار کناری | در UI برای نوار پیمایش کنار میزکار. |
 | Workspace Sidebar | نوار کناری فضای کاری (Workspace Sidebar) | نام رکورد فنی حفظ شود. |
