@@ -1,0 +1,40 @@
+---
+title: "واکنش به دیدگاه‌ها"
+slug: "comment-reactions"
+source_url: "https://docs.frappe.io/helpdesk/helpdesk/other-features/comment-reactions"
+source_id: "helpdesk/helpdesk/other-features/comment-reactions"
+source_version: "f413c5e24d9ed704b8fa912312a7d2e5c0bd2e374f7ebc65bd84e89d1951bac7"
+source_updated: "2026-05-28"
+translation_status: "quality_checked"
+quality_status: "passed"
+license_status: "CC BY-SA (version unspecified by source policy)"
+---
+
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/helpdesk/helpdesk/other-features/comment-reactions)
+> متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
+>
+> تصاویر رابط کاربری صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.
+
+واکنش به دیدگاه‌ها به کاربران امکان می‌دهد با ایموجی به دیدگاه‌ها پاسخ دهند. این قابلیت راهی سریع برای تأیید یا واکنش به بازخورد فراهم می‌کند و با کم‌کردن پاسخ‌های متنی کوتاه، رشتهٔ گفت‌وگوی تیکت را مختصر نگه می‌دارد.
+
+## فعال‌کردن واکنش به دیدگاه‌ها
+
+1. از نوار کناری به **Settings** بروید.
+2. در **App Settings**، زبانهٔ **General** را باز کنید.
+3. در بخش **Ticket settings**، گزینهٔ **Enable comment reactions** را پیدا کنید.
+4. کلید آن را روشن کنید.
+5. در گوشهٔ بالا و سمت راست صفحه روی **Save** بزنید.
+
+## افزودن واکنش
+
+1. صفحهٔ یک تیکت را باز کنید.
+2. زیر هر دیدگاه، **Reaction Icon** (نماد چهره با علامت به‌علاوه) را پیدا کنید.
+3. از انتخاب‌گر، ایموجی دلخواه را برگزینید.
+
+## اعلان‌های واکنش به دیدگاه
+
+وقتی کسی به دیدگاه شما واکنش نشان دهد، اعلانی دریافت می‌کنید. با کلیک روی اعلان، مستقیماً به همان دیدگاه می‌روید.
+
+---
+
+**منبع:** [مستندات رسمی Frappe Helpdesk](https://docs.frappe.io/helpdesk/helpdesk/other-features/comment-reactions). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر اصلی در این مخزن بازنشر نشده‌اند.
