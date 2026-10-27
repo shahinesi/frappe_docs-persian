@@ -31003,10 +31003,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "5ba7c27cff89bccf437fb199fc98f194b29a42870e1ae414f53b4607f9a9daeb",
       "source_modified": "2026-05-28",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/helpdesk/comment.md",
       "discovered_at": "2026-10-27T05:52:36.579Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/helpdesk/comment.md",
@@ -31016,9 +31016,12 @@
       "source_metadata_status": "fetched",
       "source_repository": null,
       "source_sitemap_lastmod": "2026-05-28",
-      "license_status": "unverified",
+      "license_status": "CC BY-SA (version unspecified by source policy)",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "quality_reviewed_at": "2026-10-27",
+      "source_snapshot_path": "sources/helpdesk/comment.md",
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/contact",
