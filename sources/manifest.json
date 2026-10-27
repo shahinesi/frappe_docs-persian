@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "sitemap_url": "https://docs.frappe.io/sitemap.xml",
-  "retrieved_at": "2026-10-27T07:03:20.227Z",
+  "retrieved_at": "2026-10-27T07:06:00.266Z",
   "page_count": 2017,
   "pages": [
     {
@@ -4793,10 +4793,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "7173722dd98e84fb44053b95b02dbf68744be5a8899c5473dce5ffe664dc333c",
       "source_modified": "2026-08-14",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/erpnext/company-setup.md",
       "discovered_at": "2026-10-27T05:52:36.594Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/erpnext/company-setup.md",
@@ -4808,7 +4808,8 @@
       "source_sitemap_lastmod": "2026-08-14",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/erpnext/company-wise-naming-series",
@@ -9610,7 +9611,8 @@
       "source_sitemap_lastmod": "2026-03-12",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/erpnext/item_group_wise_product_listing",
@@ -13712,7 +13714,8 @@
       "source_sitemap_lastmod": "2026-10-22",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/erpnext/purchase-receipt",
@@ -15128,7 +15131,8 @@
       "source_sitemap_lastmod": "2026-10-14",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/erpnext/sales-order-type",
