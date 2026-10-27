@@ -40,6 +40,9 @@
 | Reporting Currency | ارز گزارش‌گیری | ارز افزوده برای گزارش‌ها در کنار ارز پایهٔ شرکت. |
 | Supplier | تأمین‌کننده | نگارش ثابت در همهٔ محصولات. |
 | Item | کالا | در ERPNext؛ شناسهٔ `Item` حفظ شود. |
+| Stock Balance | ماندهٔ موجودی (Stock Balance) | نام گزارش فنی در ERPNext حفظ شود. |
+| Opening Stock | موجودی افتتاحیه (Opening Stock) | ماندهٔ موجودی در ابتدای بازهٔ گزارش. |
+| Stock Ledger Entry | ردیف دفتر موجودی (Stock Ledger Entry) | نام DocType فنی حفظ شود. |
 | Sales Order | سفارش فروش | نام سند ERPNext. |
 | Purchase Order | سفارش خرید | نام سند ERPNext. |
 | Lead | سرنخ | با فرصت فروش اشتباه نشود. |
