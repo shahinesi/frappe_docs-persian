@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "sitemap_url": "https://docs.frappe.io/sitemap.xml",
-  "retrieved_at": "2026-10-27T06:56:48.879Z",
+  "retrieved_at": "2026-10-27T06:58:17.823Z",
   "page_count": 2017,
   "pages": [
     {
@@ -35746,7 +35746,8 @@
       "source_sitemap_lastmod": "2026-05-12",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/learning/add-a-lesson",
@@ -35768,7 +35769,9 @@
       "source_sitemap_lastmod": "2025-04-10",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "unavailable",
+      "snapshot_error": "Error: HTTP 404"
     },
     {
       "url": "https://docs.frappe.io/learning/add-a-program",
@@ -35792,7 +35795,8 @@
       "source_sitemap_lastmod": "2026-02-24",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/learning/assessments/programming-exercise",
@@ -35816,7 +35820,8 @@
       "source_sitemap_lastmod": "2026-02-24",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/learning/assignments",
@@ -35840,7 +35845,8 @@
       "source_sitemap_lastmod": "2026-02-24",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/learning/badges",
@@ -35864,7 +35870,8 @@
       "source_sitemap_lastmod": "2026-02-24",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/learning/basic-settings/branding",
@@ -35888,7 +35895,8 @@
       "source_sitemap_lastmod": "2026-02-25",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/learning/basic-settings/navigating-learning-portal",
@@ -35912,7 +35920,8 @@
       "source_sitemap_lastmod": "2026-05-06",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/learning/core-concepts/courses",
@@ -35936,7 +35945,8 @@
       "source_sitemap_lastmod": "2026-02-25",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/learning/course-creation/add-a-preview-video",
@@ -35960,7 +35970,8 @@
       "source_sitemap_lastmod": "2026-02-25",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/learning/course-creation/adding-a-lesson/add-interactive-content",
@@ -35984,7 +35995,8 @@
       "source_sitemap_lastmod": "2026-04-08",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/learning/course-creation/adding-a-lesson/add-video-content",
@@ -36008,7 +36020,8 @@
       "source_sitemap_lastmod": "2026-04-08",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/learning/course-creation/adding-a-lesson/adding-google-content",
@@ -36032,7 +36045,8 @@
       "source_sitemap_lastmod": "2026-02-24",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/learning/course-creation/adding-a-lesson/adding-simple-content",
@@ -36056,7 +36070,8 @@
       "source_sitemap_lastmod": "2026-02-25",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/learning/course-creation/deleting-content",
@@ -36080,7 +36095,8 @@
       "source_sitemap_lastmod": "2026-04-08",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/learning/course-creation/duplicating-a-course",
@@ -36104,7 +36120,8 @@
       "source_sitemap_lastmod": "2026-04-07",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/learning/create-a-batch",
@@ -36128,7 +36145,8 @@
       "source_sitemap_lastmod": "2026-02-06",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/learning/create-a-course",
@@ -36137,10 +36155,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "fcd201005cc6631209c0d47c39a8367beacc4865def471d4b493e8d339fb3557",
       "source_modified": "2026-04-08",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/learning/create-a-course.md",
       "discovered_at": "2026-10-27T05:52:36.586Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/learning/create-a-course.md",
@@ -36152,7 +36170,8 @@
       "source_sitemap_lastmod": "2026-04-08",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/learning/create-a-live-class",
@@ -36176,7 +36195,8 @@
       "source_sitemap_lastmod": "2026-05-06",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/learning/falcon-self-hosting-guide",
@@ -36200,7 +36220,8 @@
       "source_sitemap_lastmod": "2026-02-06",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/learning/get-started/installation",
@@ -36209,10 +36230,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "4307dcbfa5abe0f571c8e572a6984b75ba37c3a1baedcb9d180f59b90d9051ed",
       "source_modified": "2026-08-27",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/learning/installation.md",
       "discovered_at": "2026-10-27T05:52:36.589Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/learning/get-started/installation.md",
@@ -36224,7 +36245,8 @@
       "source_sitemap_lastmod": "2026-08-27",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/learning/introduction",
@@ -36233,10 +36255,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "05cffffbbd362f1f77ee22bc59e64f5cbb4c953363cd71777763a3be71679000",
       "source_modified": "2026-02-24",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/learning/introduction.md",
       "discovered_at": "2026-10-27T05:52:36.573Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/learning/introduction.md",
@@ -36248,7 +36270,8 @@
       "source_sitemap_lastmod": "2026-02-24",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/learning/issue-a-certificate",
@@ -36272,7 +36295,8 @@
       "source_sitemap_lastmod": "2026-02-24",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/learning/job-listing/create-a-job-listing",
@@ -36296,7 +36320,8 @@
       "source_sitemap_lastmod": "2026-02-25",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/learning/others/course-progress-calculation",
@@ -36320,7 +36345,8 @@
       "source_sitemap_lastmod": "2026-04-15",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/learning/others/custom-base-path",
@@ -36344,7 +36370,8 @@
       "source_sitemap_lastmod": "2026-02-24",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/learning/others/frequently-asked-questions",
@@ -36368,7 +36395,8 @@
       "source_sitemap_lastmod": "2026-08-27",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/learning/quizzes",
@@ -36392,7 +36420,8 @@
       "source_sitemap_lastmod": "2026-02-24",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/learning/roles",
@@ -36416,7 +36445,8 @@
       "source_sitemap_lastmod": "2026-05-12",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/learning/setting-up",
@@ -36440,7 +36470,8 @@
       "source_sitemap_lastmod": "2026-02-25",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/learning/setting-up-payment-gateway",
@@ -36464,7 +36495,8 @@
       "source_sitemap_lastmod": "2026-02-24",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/learning/setup-guide/your-first-steps-with-frappe-learning",
@@ -36488,7 +36520,8 @@
       "source_sitemap_lastmod": "2026-09-26",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/learning/updates-on-frappe-learning",
@@ -36510,7 +36543,9 @@
       "source_sitemap_lastmod": "2025-04-10",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "unavailable",
+      "snapshot_error": "Error: HTTP 404"
     },
     {
       "url": "https://docs.frappe.io",

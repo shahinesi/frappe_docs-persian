@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T06:02:23.809Z",
+  "generated_at": "2026-10-27T06:58:17.848Z",
   "error_count": 122,
   "errors": [
     {
@@ -413,11 +413,6 @@
       "error": "HTTP 404"
     },
     {
-      "url": "https://docs.frappe.io/learning/add-a-lesson",
-      "markdown_url": "https://docs.frappe.io/learning/add-a-lesson.md",
-      "error": "HTTP 404"
-    },
-    {
       "url": "https://docs.frappe.io/hr/income-tax-calculation-in-erpnext",
       "markdown_url": "https://docs.frappe.io/hr/income-tax-calculation-in-erpnext.md",
       "error": "HTTP 404"
@@ -430,11 +425,6 @@
     {
       "url": "https://docs.frappe.io/hr/how-to-process-payroll-in-erpnext",
       "markdown_url": "https://docs.frappe.io/hr/how-to-process-payroll-in-erpnext.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/learning/updates-on-frappe-learning",
-      "markdown_url": "https://docs.frappe.io/learning/updates-on-frappe-learning.md",
       "error": "HTTP 404"
     },
     {
@@ -611,6 +601,16 @@
       "url": "https://docs.frappe.io/slides/introduction",
       "markdown_url": "https://docs.frappe.io/slides/introduction.md",
       "error": "HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/learning/add-a-lesson",
+      "markdown_url": "https://docs.frappe.io/learning/add-a-lesson.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/learning/updates-on-frappe-learning",
+      "markdown_url": "https://docs.frappe.io/learning/updates-on-frappe-learning.md",
+      "error": "Error: HTTP 404"
     }
   ]
 }
