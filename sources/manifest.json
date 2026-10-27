@@ -4254,10 +4254,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "6f259ef4ef3ca77d1de443731ddc11fb78b4cb99d021a672e6525f9b56e4df6f",
       "source_modified": "2026-10-22",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/erpnext/buying.md",
       "discovered_at": "2026-10-27T05:52:36.595Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/erpnext/buying.md",
@@ -4267,10 +4267,11 @@
       "source_metadata_status": "fetched",
       "source_repository": null,
       "source_sitemap_lastmod": "2026-10-22",
-      "license_status": "unverified",
+      "license_status": "CC BY-SA (version unspecified by source policy)",
       "attribution_required": true,
       "unofficial_translation": true,
-      "snapshot_status": "fetched"
+      "snapshot_status": "fetched",
+      "quality_reviewed_at": "2026-10-27"
     },
     {
       "url": "https://docs.frappe.io/erpnext/buying_reports",
