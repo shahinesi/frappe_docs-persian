@@ -1,0 +1,62 @@
+---
+title: "Create Payroll Entry with Timesheets"
+space: "Frappe HR"
+url: "https://docs.frappe.io/hr/create-payroll-entry-with-timesheets"
+updated: "2026-02-04"
+---
+
+**Use Case:** An employee's overtime is recorded using timesheets, and the employee needs to be compensated for the same during payroll apart from his usual salary.
+
+**Steps:**
+
+1) Create an Employee.
+
+2) Create a Salary Component called "Overtime" of type Earning.
+
+![](https://docs.erpnext.com/files/IKY5KnC.png)  
+
+
+3) Create a Salary Structure and include "Overtime" with amount set to 0.
+
+4) In the Salary Structure itself, select the "Salary Slip Based on Timesheet" checkbox, select Salary Component as "Overtime" and enter the Hour Rate.
+
+![](https://docs.erpnext.com/files/RSBGOUP.png)  
+
+
+5) Submit the Salary Structure and assign this Salary Structure to an Employee via Salary Structure Assignment.
+
+![](https://docs.erpnext.com/files/qj9KVAu.png)  
+
+
+6) Create Timesheets for this Employee through the Timesheet DocType.
+
+![](https://docs.erpnext.com/files/xtdKq6i.png)  
+
+
+![](https://docs.erpnext.com/files/W7vYYWt.png)  
+
+
+In the above example shown, the Employee has worked overtime for a total of 8 hours in the month of January.
+
+  
+
+
+7) Create a new Payroll Entry for the month of January and select the "Salary Slip Based on Timesheet" checkbox. Save. Click on the "Get Employees" button. Next, click on "Create Salary Slips".
+
+  
+
+
+The Salary Slip of the employee will fetch all the timesheets (if any) of that employee created for that particular month and calculate the Overtime Component in the Salary Slip accordingly.
+
+![](https://docs.erpnext.com/files/oZ1rr5x.png)  
+
+
+![](https://docs.erpnext.com/files/1QoJVGc.png)  
+
+
+  
+
+
+  
+
+

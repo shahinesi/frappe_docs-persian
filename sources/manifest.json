@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "sitemap_url": "https://docs.frappe.io/sitemap.xml",
-  "retrieved_at": "2026-10-27T06:59:54.877Z",
+  "retrieved_at": "2026-10-27T07:03:20.227Z",
   "page_count": 2017,
   "pages": [
     {
@@ -30775,7 +30775,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/appointment-letter",
@@ -30799,7 +30800,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/appraisal",
@@ -30823,7 +30825,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/appraisal-cycle",
@@ -30847,7 +30850,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/appraisal-overview-report",
@@ -30871,7 +30875,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/appraisal-template",
@@ -30895,7 +30900,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/arrears",
@@ -30919,7 +30925,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/attendance",
@@ -30943,7 +30950,8 @@
       "source_sitemap_lastmod": "2026-10-23",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/attendance-request",
@@ -30967,7 +30975,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/auto-attendance",
@@ -30991,7 +31000,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/branch",
@@ -31000,10 +31010,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "307f38c5097af083b485be7118b5744da84d646e92c4b151227cdee5310000b2",
       "source_modified": "2026-10-07",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/hr/branch.md",
       "discovered_at": "2026-10-27T05:52:36.578Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/hr/branch.md",
@@ -31015,7 +31025,8 @@
       "source_sitemap_lastmod": "2026-10-07",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/compensatory-leave-request",
@@ -31039,7 +31050,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/configuring-earned-leave",
@@ -31063,7 +31075,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/create-payroll-entry-with-timesheets",
@@ -31087,7 +31100,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/daily-work-summary-group",
@@ -31111,7 +31125,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/department",
@@ -31135,7 +31150,8 @@
       "source_sitemap_lastmod": "2026-10-07",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/department-wise-leave-approval-in-erpnext",
@@ -31159,7 +31175,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/designation",
@@ -31168,10 +31185,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "035d0a3bb2e4554a7c48ed84de55b5bfb1af2837f125165ef34adfa89147de6c",
       "source_modified": "2026-09-30",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/hr/designation.md",
       "discovered_at": "2026-10-27T05:52:36.578Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/hr/designation.md",
@@ -31183,7 +31200,8 @@
       "source_sitemap_lastmod": "2026-09-30",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/earned-leaves",
@@ -31207,7 +31225,8 @@
       "source_sitemap_lastmod": "2026-02-26",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/employee",
@@ -31231,7 +31250,8 @@
       "source_sitemap_lastmod": "2026-10-07",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/employee-advance",
@@ -31255,7 +31275,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/employee-attendance-tool",
@@ -31279,7 +31300,8 @@
       "source_sitemap_lastmod": "2026-10-01",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/employee-benefit-application",
@@ -31303,7 +31325,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/employee-benefit-claim",
@@ -31327,7 +31350,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/employee-checkin",
@@ -31351,7 +31375,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/employee-flexible-benefits",
@@ -31375,7 +31400,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/employee-grade",
@@ -31399,7 +31425,8 @@
       "source_sitemap_lastmod": "2026-10-07",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/employee-group",
@@ -31408,10 +31435,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "5ff080973ec3a67616d5de3ea0a938c7b5256f6286594d492269ed392ab249e8",
       "source_modified": "2026-10-07",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/hr/employee-group.md",
       "discovered_at": "2026-10-27T05:52:36.583Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/hr/employee-group.md",
@@ -31423,7 +31450,8 @@
       "source_sitemap_lastmod": "2026-10-07",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/employee-health-insurance",
@@ -31447,7 +31475,8 @@
       "source_sitemap_lastmod": "2026-10-07",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/employee-incentive",
@@ -31471,7 +31500,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/employee-lifecycle-management",
@@ -31495,7 +31525,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/employee-onboarding",
@@ -31519,7 +31550,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/employee-other-income",
@@ -31543,7 +31575,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/employee-performance-feedback",
@@ -31567,7 +31600,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/employee-promotion",
@@ -31591,7 +31625,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/employee-referral",
@@ -31615,7 +31650,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/employee-separation",
@@ -31639,7 +31675,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/employee-skill-map",
@@ -31663,7 +31700,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/employee-tax-exemption-declaration",
@@ -31687,7 +31725,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/employee-tax-exemption-proof-submission",
@@ -31711,7 +31750,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/employee-transfer",
@@ -31735,7 +31775,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/employment-type",
@@ -31744,10 +31785,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "2c807ebce931be49689b3e151832f51d74f3b58b5a3063d4ad461c5f2345a9fe",
       "source_modified": "2026-10-07",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/hr/employment-type.md",
       "discovered_at": "2026-10-27T05:52:36.583Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/hr/employment-type.md",
@@ -31759,7 +31800,8 @@
       "source_sitemap_lastmod": "2026-10-07",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/exit-interview",
@@ -31783,7 +31825,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/expense-claim",
@@ -31807,7 +31850,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/fleet-management",
@@ -31831,7 +31875,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/frappe-hr-mobile/help-articles/why-are-salary-slips-not-showing-in-the-frappe-hr-mobile-app",
@@ -31855,7 +31900,8 @@
       "source_sitemap_lastmod": "2026-10-23",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/frappe-hr-mobile/help-articles/why-dont-my-custom-fields-show-in-the-frappe-hr-mobile-app",
@@ -31879,7 +31925,8 @@
       "source_sitemap_lastmod": "2026-10-25",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/full-and-final-statement",
@@ -31903,7 +31950,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/goal",
@@ -31927,7 +31975,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/gratuity",
@@ -31951,7 +32000,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/gratuity-rule",
@@ -31975,7 +32025,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/holiday-list",
@@ -31999,7 +32050,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/how-to-encash-unused-leaves-using-salary-slips",
@@ -32023,7 +32075,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/how-to-process-payroll-in-erpnext",
@@ -32045,7 +32098,9 @@
       "source_sitemap_lastmod": "2025-04-10",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "unavailable",
+      "snapshot_error": "Error: HTTP 404"
     },
     {
       "url": "https://docs.frappe.io/hr/how-to-process-payroll-in-frappehr",
@@ -32069,7 +32124,8 @@
       "source_sitemap_lastmod": "2026-02-09",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/hr-settings",
@@ -32093,7 +32149,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/hr/leave-management/holiday-list-assignment",
@@ -32117,7 +32174,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/hr/leave-management/leave-adjustment",
@@ -32141,7 +32199,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/human-resource-setup",
@@ -32165,7 +32224,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/human-resources-reports",
@@ -32189,7 +32249,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/income-tax-calculation-in-erpnext",
@@ -32211,7 +32272,9 @@
       "source_sitemap_lastmod": "2025-04-10",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "unavailable",
+      "snapshot_error": "Error: HTTP 404"
     },
     {
       "url": "https://docs.frappe.io/hr/income-tax-calculation-in-frappehr",
@@ -32235,7 +32298,8 @@
       "source_sitemap_lastmod": "2026-02-09",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/income-tax-slab",
@@ -32259,7 +32323,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/india-payroll/employee-provident-fund",
@@ -32283,7 +32348,8 @@
       "source_sitemap_lastmod": "2026-07-09",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/india-payroll/employee-state-insurance",
@@ -32307,7 +32373,8 @@
       "source_sitemap_lastmod": "2026-10-05",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/india-payroll/introduction",
@@ -32331,7 +32398,8 @@
       "source_sitemap_lastmod": "2026-06-24",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/india-payroll/labour-welfare-fund",
@@ -32355,7 +32423,8 @@
       "source_sitemap_lastmod": "2026-07-09",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/india-payroll/multi-company-settings",
@@ -32379,7 +32448,8 @@
       "source_sitemap_lastmod": "2026-08-31",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/india-payroll/professional-tax",
@@ -32403,7 +32473,8 @@
       "source_sitemap_lastmod": "2026-07-03",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/india-payroll/reports",
@@ -32427,7 +32498,8 @@
       "source_sitemap_lastmod": "2026-07-09",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/india-payroll/syncing-tds-challans",
@@ -32451,7 +32523,8 @@
       "source_sitemap_lastmod": "2026-10-21",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/india-payroll/tax-regime-selector",
@@ -32475,7 +32548,8 @@
       "source_sitemap_lastmod": "2026-07-03",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/india-payroll/tds-filing",
@@ -32499,7 +32573,8 @@
       "source_sitemap_lastmod": "2026-08-31",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/integrating-frappe-hr-with-biometric-attendance-devices",
@@ -32523,7 +32598,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/interview",
@@ -32547,7 +32623,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/interview-feedback",
@@ -32571,7 +32648,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/interview-management",
@@ -32595,7 +32673,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/interview-round",
@@ -32619,7 +32698,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/interview-type",
@@ -32643,7 +32723,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/introduction",
@@ -32693,7 +32774,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/job-offer",
@@ -32717,7 +32799,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/job-opening",
@@ -32741,7 +32824,8 @@
       "source_sitemap_lastmod": "2026-08-10",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/job-portal",
@@ -32765,7 +32849,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/job-requisition",
@@ -32789,7 +32874,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/leave-allocation",
@@ -32813,7 +32899,8 @@
       "source_sitemap_lastmod": "2026-02-26",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/leave-allocation-after-compensatory-leave-request",
@@ -32837,7 +32924,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/leave-application",
@@ -32861,7 +32949,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/leave-block-list",
@@ -32885,7 +32974,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/leave-calculation-in-salary-slip",
@@ -32909,7 +32999,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/leave-control-panel",
@@ -32933,7 +33024,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/leave-encashment",
@@ -32957,7 +33049,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/leave-ledger-entry",
@@ -32981,7 +33074,8 @@
       "source_sitemap_lastmod": "2026-02-26",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/leave-ledger-report",
@@ -33005,7 +33099,8 @@
       "source_sitemap_lastmod": "2026-02-26",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/leave-management/help-articles/half-day-leave-and-attendance",
@@ -33029,7 +33124,8 @@
       "source_sitemap_lastmod": "2026-09-29",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/leave-management/help-articles/how-do-i-edit-a-leave-policy-or-leave-policy-assignment-after-submitting-it",
@@ -33053,7 +33149,8 @@
       "source_sitemap_lastmod": "2026-10-25",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/leave-management/help-articles/how-do-i-set-up-carry-forward-and-expiry-of-unused-leave",
@@ -33077,7 +33174,8 @@
       "source_sitemap_lastmod": "2026-10-25",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/leave-management/help-articles/how-do-i-stop-approvers-from-approving-their-own-leave",
@@ -33101,7 +33199,8 @@
       "source_sitemap_lastmod": "2026-10-23",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/leave-management/help-articles/how-to-sanction-leave-encashment-amount-in-salary-slip",
@@ -33125,7 +33224,8 @@
       "source_sitemap_lastmod": "2026-09-29",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/leave-management/help-articles/leave-calculation-in-salary-slip",
@@ -33149,7 +33249,8 @@
       "source_sitemap_lastmod": "2026-07-05",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/leave-management/help-articles/leave-policy-assignment-and-allocation",
@@ -33173,7 +33274,8 @@
       "source_sitemap_lastmod": "2026-09-29",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/leave-management/help-articles/setting-employee-wise-leave-approver",
@@ -33197,7 +33299,8 @@
       "source_sitemap_lastmod": "2026-09-29",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/leave-management/help-articles/why-does-my-leave-application-ask-for-a-holiday-list-assignment",
@@ -33221,7 +33324,8 @@
       "source_sitemap_lastmod": "2026-10-25",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/leave-management/help-articles/why-is-the-leave-type-list-empty-in-my-leave-application",
@@ -33245,7 +33349,8 @@
       "source_sitemap_lastmod": "2026-10-23",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/leave-period",
@@ -33269,7 +33374,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/leave-policy",
@@ -33293,7 +33399,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/leave-policy-assignment",
@@ -33317,7 +33424,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/leave-type",
@@ -33341,7 +33449,8 @@
       "source_sitemap_lastmod": "2026-07-15",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/leaves",
@@ -33365,7 +33474,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/loan",
@@ -33389,7 +33499,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/loan-application",
@@ -33413,7 +33524,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/loan-type",
@@ -33437,7 +33549,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/mobile-app-installation",
@@ -33461,7 +33574,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/multicurrency-employee-advance-expense-claim",
@@ -33485,7 +33599,8 @@
       "source_sitemap_lastmod": "2026-04-03",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/organization-management/help-articles/how-do-i-set-up-change-or-rename-employee-ids",
@@ -33509,7 +33624,8 @@
       "source_sitemap_lastmod": "2026-10-13",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/organization-management/help-articles/what-happens-to-the-user-account-when-i-change-an-employees-status",
@@ -33533,7 +33649,8 @@
       "source_sitemap_lastmod": "2026-10-24",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/organization-management/help-articles/where-is-the-holiday-list-field-on-the-employee-form-in-v16",
@@ -33557,7 +33674,8 @@
       "source_sitemap_lastmod": "2026-10-25",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/organization-management/help-articles/why-are-birthday-and-work-anniversary-reminders-not-sent-to-everyone",
@@ -33581,7 +33699,8 @@
       "source_sitemap_lastmod": "2026-10-25",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/organizational-chart",
@@ -33605,7 +33724,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/overtime",
@@ -33629,7 +33749,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/payroll-articles/make-bank-entry-from-payroll-entry",
@@ -33653,7 +33774,8 @@
       "source_sitemap_lastmod": "2026-07-02",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/payroll-correction",
@@ -33677,7 +33799,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/payroll-entry",
@@ -33701,7 +33824,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/payroll-management",
@@ -33725,7 +33849,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/payroll-period",
@@ -33749,7 +33874,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/payroll-settings",
@@ -33773,7 +33899,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/payroll-setup",
@@ -33797,7 +33924,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/project-profitability-report",
@@ -33821,7 +33949,8 @@
       "source_sitemap_lastmod": "2026-02-16",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/push-notification",
@@ -33845,7 +33974,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/recruitment",
@@ -33869,7 +33999,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/recruitment/help-articles/how-do-i-post-job-openings-to-linkedin-or-indeed",
@@ -33893,7 +34024,8 @@
       "source_sitemap_lastmod": "2026-10-24",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/reports/employee-advance-summary",
@@ -33917,7 +34049,8 @@
       "source_sitemap_lastmod": "2026-10-06",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/reports/employee-analytics",
@@ -33941,7 +34074,8 @@
       "source_sitemap_lastmod": "2026-10-06",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/reports/employee-ctc-break-up",
@@ -33965,7 +34099,8 @@
       "source_sitemap_lastmod": "2026-06-24",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/reports/employee-hours-utilization-based-on-timesheet",
@@ -33989,7 +34124,8 @@
       "source_sitemap_lastmod": "2026-10-06",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/reports/employee-information",
@@ -34013,7 +34149,8 @@
       "source_sitemap_lastmod": "2026-10-06",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/reports/employee-leave-balance-summary",
@@ -34037,7 +34174,8 @@
       "source_sitemap_lastmod": "2026-10-06",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/reports/income-tax-computation-report",
@@ -34061,7 +34199,8 @@
       "source_sitemap_lastmod": "2026-10-06",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/reports/income-tax-deductions",
@@ -34085,7 +34224,8 @@
       "source_sitemap_lastmod": "2026-10-06",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/reports/recruitment-analytics",
@@ -34109,7 +34249,8 @@
       "source_sitemap_lastmod": "2026-10-06",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/reports/salary-payments-based-on-payment-mode",
@@ -34133,7 +34274,8 @@
       "source_sitemap_lastmod": "2026-10-06",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/reports/salary-payments-via-ecs",
@@ -34157,7 +34299,8 @@
       "source_sitemap_lastmod": "2026-10-06",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/retention-bonus",
@@ -34181,7 +34324,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/roster",
@@ -34205,7 +34349,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/salary-component",
@@ -34229,7 +34374,8 @@
       "source_sitemap_lastmod": "2026-06-24",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/salary-payouts/help-articles/can-i-run-more-than-one-salary-slip-or-payroll-entry-in-a-month",
@@ -34253,7 +34399,8 @@
       "source_sitemap_lastmod": "2026-10-24",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/salary-payouts/help-articles/how-do-i-cancel-or-delete-a-payroll-entry",
@@ -34277,7 +34424,8 @@
       "source_sitemap_lastmod": "2026-10-25",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/salary-payouts/help-articles/how-do-i-write-formulas-for-slab-based-tax-seniority-and-other-salary-components",
@@ -34301,7 +34449,8 @@
       "source_sitemap_lastmod": "2026-10-25",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/salary-payouts/help-articles/why-are-statistical-salary-components-showing-in-payroll-accounting-entries",
@@ -34325,7 +34474,8 @@
       "source_sitemap_lastmod": "2026-10-25",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/salary-payouts/help-articles/why-doesnt-payroll-entry-fetch-all-my-employees",
@@ -34349,7 +34499,8 @@
       "source_sitemap_lastmod": "2026-10-25",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/salary-slip",
@@ -34373,7 +34524,8 @@
       "source_sitemap_lastmod": "2026-07-05",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/salary-structure",
@@ -34397,7 +34549,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/salary-structure-and-payroll",
@@ -34421,7 +34574,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/salary-structure-assignment",
@@ -34445,7 +34599,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/salary-structure-assignment-tool",
@@ -34469,7 +34624,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/setting-employee-wise-leave-approver",
@@ -34493,7 +34649,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/setting-flexible-benefits-against-a-benefit-claim",
@@ -34517,7 +34674,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/setting-up-income-tax-deduction",
@@ -34541,7 +34699,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/shift-assignment",
@@ -34565,7 +34724,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/shift-assignment-tool",
@@ -34589,7 +34749,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/shift-location",
@@ -34613,7 +34774,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/shift-management",
@@ -34637,7 +34799,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/shift-management/help-articles/why-do-my-shift-assignments-keep-turning-inactive",
@@ -34661,7 +34824,8 @@
       "source_sitemap_lastmod": "2026-10-13",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/shift-request",
@@ -34685,7 +34849,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/shift-schedule",
@@ -34709,7 +34874,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/shift-schedule-assignment",
@@ -34733,7 +34899,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/shift-type",
@@ -34757,7 +34924,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/staffing-plan",
@@ -34781,7 +34949,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/training-event",
@@ -34805,7 +34974,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/training-feedback",
@@ -34829,7 +34999,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/training-program",
@@ -34853,7 +35024,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/training-result",
@@ -34877,7 +35049,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/travel-request",
@@ -34901,7 +35074,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/upload-attendance",
@@ -34925,7 +35099,8 @@
       "source_sitemap_lastmod": "2026-02-28",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/user-permission-based-on-hierarchy",
@@ -34949,7 +35124,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/using-auto-attendance",
@@ -34973,7 +35149,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/vehicle",
@@ -34997,7 +35174,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/vehicle-log",
@@ -35021,7 +35199,8 @@
       "source_sitemap_lastmod": "2026-05-29",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/videos",
@@ -35045,7 +35224,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/working-days-calculation-in-the-salary-slip",
@@ -35069,7 +35249,8 @@
       "source_sitemap_lastmod": "2026-02-04",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/insights/articles/creating-date-table",
