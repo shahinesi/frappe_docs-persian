@@ -2511,10 +2511,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "685d54758b37ac637ebaa05c16362092932b0b03068d170cf27b8ca5ec43eab4",
       "source_modified": "2026-07-23",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/erpnext/appointment.md",
       "discovered_at": "2026-10-27T05:52:36.595Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/erpnext/appointment.md",
@@ -2524,10 +2524,11 @@
       "source_metadata_status": "fetched",
       "source_repository": null,
       "source_sitemap_lastmod": "2026-07-23",
-      "license_status": "unverified",
+      "license_status": "CC BY-SA (version unspecified by source policy)",
       "attribution_required": true,
       "unofficial_translation": true,
-      "snapshot_status": "fetched"
+      "snapshot_status": "fetched",
+      "quality_reviewed_at": "2026-10-27"
     },
     {
       "url": "https://docs.frappe.io/erpnext/appointment-booking-settings",
