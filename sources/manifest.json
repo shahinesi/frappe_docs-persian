@@ -1932,10 +1932,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "0f70223eea24f52a7d4bd0d495733d02e398bf3b0f0cfce0b20b4f89f28a04c7",
       "source_modified": "2026-10-22",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/erpnext/accounts-settings.md",
       "discovered_at": "2026-10-27T05:52:36.595Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/erpnext/accounts-settings.md",
@@ -1948,7 +1948,8 @@
       "license_status": "unverified",
       "attribution_required": true,
       "unofficial_translation": true,
-      "snapshot_status": "fetched"
+      "snapshot_status": "fetched",
+      "quality_reviewed_at": "2026-10-27"
     },
     {
       "url": "https://docs.frappe.io/erpnext/activity-cost",
