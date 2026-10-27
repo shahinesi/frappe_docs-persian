@@ -1,5 +1,6 @@
 ---
 title: "انتخاب نمودار مناسب"
+slug: "انتخاب-نمودار-مناسب"
 source_url: "https://docs.frappe.io/insights/charts/chart-types-explained"
 source_id: "insights/charts/chart-types-explained"
 source_version: "f4bd7f87035e92b03f22857fb776e07e0ab4fd23045a17a7d880f8940b0bb36e"

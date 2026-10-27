@@ -1,5 +1,6 @@
 ---
 title: "معرفی Wiki"
+slug: "معرفی"
 source_url: "https://docs.frappe.io/wiki-v2/introduction"
 source_id: "wiki-v2/introduction"
 source_version: "4186d2f40884c349c1dae9421954109537d1353e963a72f8985abd790fcca78e"

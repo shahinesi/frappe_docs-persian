@@ -1,5 +1,6 @@
 ---
 title: "معرفی Frappe HR"
+slug: "معرفی"
 source_url: "https://docs.frappe.io/hr/introduction"
 source_id: "hr/introduction"
 source_version: "8716ff2c5cd24c2bc2b55b30dcf1326007698fde9c39a83801c4e7085f4296d0"

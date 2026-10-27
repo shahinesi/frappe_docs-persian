@@ -1,5 +1,6 @@
 ---
 title: "دورهٔ حسابداری"
+slug: "دوره-حسابداری"
 source_url: "https://docs.frappe.io/erpnext/accounting-period"
 source_id: "erpnext/accounting-period"
 source_version: "f71c9aca7b9bceefdba84bde20a69f728598cf09c382549f2e4c9a4c4ebf8b42"
@@ -16,7 +17,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 شرکت Nova Industries صورت‌های مالی آوریل تا ژوئن را تأیید کرده است. تیم مالی می‌خواهد ارقام این دوره ثابت بمانند، درحالی‌که ثبت تراکنش‌های ژوئیه ادامه دارد. یک **Accounting Period** انواع سندهای قابل‌ثبت را برای بازهٔ زمانی پایان‌یافته قفل می‌کند و مانع می‌شود فاکتور دیرهنگام، لغو یا اصلاح سند، گزارش‌هایی را که پیش‌تر بررسی شده‌اند تغییر دهد.
 
-این قفل انتخابی است: خودتان تعیین می‌کنید کدام انواع سند بسته شوند. این قابلیت با [Period Closing Voucher](/erpnext/period-closing-voucher) که سود یا زیان را منتقل می‌کند، و [قفل‌کردن ورودی‌های حسابداری](/erpnext/freeze-accounting-entries) که محدودیت گسترده‌تری بر ثبت بر اساس تاریخ اعمال می‌کند، تفاوت دارد.
+این قفل انتخابی است: خودتان تعیین می‌کنید کدام انواع سند بسته شوند. این قابلیت با [Period Closing Voucher](https://docs.frappe.io/erpnext/period-closing-voucher) که سود یا زیان را منتقل می‌کند، و [قفل‌کردن ورودی‌های حسابداری](https://docs.frappe.io/erpnext/freeze-accounting-entries) که محدودیت گسترده‌تری بر ثبت بر اساس تاریخ اعمال می‌کند، تفاوت دارد.
 
 ## پیش از شروع
 
@@ -68,6 +69,6 @@ Accounting Period را باز کنید و مطمئن شوید `DocType` دقیق
 ## موضوعات مرتبط
 
 - [مروری بر حسابداری](/erpnext/accounting/introduction)
-- [Chart of Accounts](/erpnext/chart-of-accounts)
-- [General Ledger](/erpnext/general-ledger)
-- [Fiscal Year](/erpnext/fiscal-year)
+- [Chart of Accounts](https://docs.frappe.io/erpnext/chart-of-accounts)
+- [General Ledger](https://docs.frappe.io/erpnext/general-ledger)
+- [Fiscal Year](https://docs.frappe.io/erpnext/fiscal-year)

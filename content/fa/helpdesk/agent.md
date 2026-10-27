@@ -1,5 +1,6 @@
 ---
 title: "کارشناس پشتیبانی"
+slug: "کارشناس-پشتیبانی"
 source_url: "https://docs.frappe.io/helpdesk/agent"
 source_id: "helpdesk/agent"
 source_version: "004fc1c69f2d15520095715bcb134a81b166efeda46730f90b765b35f8bf7153"

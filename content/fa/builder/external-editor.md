@@ -1,0 +1,30 @@
+---
+title: "ویرایشگر خارجی"
+slug: "ویرایشگر-خارجی"
+source_url: "https://docs.frappe.io/builder/external-editor"
+source_id: "builder/external-editor"
+source_version: "4c0f5dccfb46d218c6f3ee8e8773082c63162f87a5ec389b58c94b7ec303f401"
+---
+
+می‌توانید اسکریپت‌های Builder را در VS Code یا یکی از نسخه‌های مشتق‌شدهٔ آن ویرایش کنید. این راهنما راه‌اندازی اتصال به ویرایشگر خارجی و رفع مشکلات رایج آن را توضیح می‌دهد.
+
+## راه‌اندازی
+
+1. در Marketplace مربوط به VS Code یا ویرایشگر دلخواهتان، افزونهٔ «Frappe Script Editor» را پیدا و نصب کنید.
+2. راه‌اندازی افزونه را طبق [این راهنما](https://github.com/frappe/frappe-script-editor#setup) انجام دهید.
+3. در تنظیمات Builder، بخش Developer Settings را باز کنید.
+4. دکمهٔ **Request Access** را بزنید و در پنجرهٔ بازشده **Allow** را انتخاب کنید.
+5. برای بازکردن اسکریپت در ویرایشگر خارجی، روی بلوک راست‌کلیک کنید و «Open Client Script in Windsurf» را بزنید. نام ویرایشگر در این گزینه متناسب با ویرایشگر شما تغییر می‌کند.
+
+تصاویر صفحهٔ منبع در این ترجمه بازنشر نشده‌اند؛ راهنمای تصویری را در [صفحهٔ رسمی](https://docs.frappe.io/builder/external-editor) ببینید.
+
+## مشکلات رایج
+
+### دکمهٔ Request Access دیده نمی‌شود
+
+1. در نوار نشانی، روی نماد تنظیمات کنار نشانی سایت کلیک کنید.
+2. گزینهٔ **Apps on device** را فعال کنید. با این کار به Builder اجازه می‌دهید ویرایشگر خارجی را مستقیم باز کند و دیگر نیازی به زدن دوبارهٔ **Request Access** نیست.
+3. دکمهٔ **Reset Permission** را بزنید، سایت را دوباره بارگذاری کنید؛ اکنون دکمه باید دیده شود.
+
+---
+منبع: [مستندات رسمی Frappe Builder](https://docs.frappe.io/builder/external-editor). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

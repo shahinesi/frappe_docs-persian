@@ -1,5 +1,6 @@
 ---
 title: "معرفی Frappe Drive"
+slug: "معرفی"
 source_url: "https://docs.frappe.io/drive/introduction"
 source_id: "drive/introduction"
 source_version: "d6d8eedbc394918c6cdbcfbffbc59cc018f30198f7ab5ba00bd92d2b5cf0c996"
@@ -60,7 +61,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## نصب
 
-برای نصب، [راهنمای شروع سریع Drive](/drive/quick-start) را ببینید.
+برای نصب، [راهنمای شروع سریع Drive](https://docs.frappe.io/drive/quick-start) را ببینید.
 
 ## یادگیری و ارتباط
 

@@ -1,5 +1,6 @@
 ---
 title: "معرفی"
+slug: "معرفی"
 source_url: "https://docs.frappe.io/insights/introduction"
 source_id: "insights/introduction"
 source_version: "a2570ba5d212b6f299e613e0ed8d790b9b153be16c75b3d49e6fdf4f657ded67"

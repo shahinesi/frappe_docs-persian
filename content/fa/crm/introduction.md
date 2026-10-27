@@ -1,5 +1,6 @@
 ---
 title: "معرفی Frappe CRM"
+slug: "معرفی"
 source_url: "https://docs.frappe.io/crm/introduction"
 source_id: "crm/introduction"
 source_version: "e299f99cf3f51031d107520f2157e0e6a83c0da669a2fbf921eafb5bc10889aa"

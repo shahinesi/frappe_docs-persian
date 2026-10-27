@@ -1,5 +1,6 @@
 ---
 title: "وضعیت سند (Docstatus)"
+slug: "وضعیت-سند"
 source_url: "https://docs.frappe.io/framework/doctypes/docstatus"
 source_id: "framework/doctypes/docstatus"
 source_version: "8b16041175dcc1a841f2f6a58ead86971f9e7fa10670fe223a2307fb6eadc831"

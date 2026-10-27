@@ -1,0 +1,45 @@
+sidebar:
+  - label: "چارچوب Frappe"
+    slug: "framework"
+    autogenerate:
+      directory: "framework"
+  - label: "ERPNext"
+    slug: "erpnext"
+    autogenerate:
+      directory: "erpnext"
+  - label: "Helpdesk"
+    slug: "helpdesk"
+    autogenerate:
+      directory: "helpdesk"
+  - label: "Insights"
+    slug: "insights"
+    autogenerate:
+      directory: "insights"
+  - label: "CRM"
+    slug: "crm"
+    autogenerate:
+      directory: "crm"
+  - label: "منابع انسانی"
+    slug: "hr"
+    autogenerate:
+      directory: "hr"
+  - label: "Wiki"
+    slug: "wiki"
+    autogenerate:
+      directory: "wiki"
+  - label: "Builder"
+    slug: "builder"
+    autogenerate:
+      directory: "builder"
+  - label: "Learning"
+    slug: "learning"
+    autogenerate:
+      directory: "learning"
+  - label: "Drive"
+    slug: "drive"
+    autogenerate:
+      directory: "drive"
+  - label: "سایر محصولات"
+    slug: "other"
+    autogenerate:
+      directory: "other"

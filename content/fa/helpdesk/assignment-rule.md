@@ -1,5 +1,6 @@
 ---
 title: "قاعدهٔ تخصیص"
+slug: "قاعده-تخصیص"
 source_url: "https://docs.frappe.io/helpdesk/assignment-rule"
 source_id: "helpdesk/assignment-rule"
 source_version: "2ccc45923f1ebec8b77942d912089e784d486414a3b03a809395012fe56d2f04"

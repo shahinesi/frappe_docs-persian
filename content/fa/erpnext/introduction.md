@@ -1,5 +1,6 @@
 ---
 title: "معرفی"
+slug: "معرفی"
 source_url: "https://docs.frappe.io/erpnext/introduction"
 source_id: "erpnext/introduction"
 source_version: "50a44f62c37890e432408f7ec924e11a95b6702c5ef933749b82dec4ad890290"

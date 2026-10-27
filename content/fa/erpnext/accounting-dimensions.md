@@ -1,5 +1,6 @@
 ---
 title: "ابعاد حسابداری"
+slug: "ابعاد-حسابداری"
 source_url: "https://docs.frappe.io/erpnext/accounting-dimensions"
 source_id: "erpnext/accounting-dimensions"
 source_version: "b65abb0a6641c2c7fa394f7100bf1894efd21d740427b2c89bd4b1e7fd5751c3"
@@ -14,17 +15,17 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 >
 > تصاویر صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.
 
-فرض کنید Apple می‌خواهد بداند کدام‌یک از iPhone، Mac یا Services بیشترین سود را ایجاد می‌کند و عملکرد قارهٔ آمریکا، اروپا یا چین بزرگ چگونه است. اگر برای هر محصول و منطقه حساب‌های جداگانهٔ فروش، هزینهٔ سفر، بانک و دریافتنی بسازید، [Chart of Accounts](/erpnext/chart-of-accounts) بسیار بزرگ و نگه‌داری آن دشوار می‌شود.
+فرض کنید Apple می‌خواهد بداند کدام‌یک از iPhone، Mac یا Services بیشترین سود را ایجاد می‌کند و عملکرد قارهٔ آمریکا، اروپا یا چین بزرگ چگونه است. اگر برای هر محصول و منطقه حساب‌های جداگانهٔ فروش، هزینهٔ سفر، بانک و دریافتنی بسازید، [Chart of Accounts](https://docs.frappe.io/erpnext/chart-of-accounts) بسیار بزرگ و نگه‌داری آن دشوار می‌شود.
 
 **Accounting Dimensions** با افزودن زمینهٔ کسب‌وکار به همان ردیف حسابداری، این مسئله را حل می‌کنند. برای نمونه، Apple می‌تواند فروش را با `Product Line = iPhone` و `Region = Americas` برچسب بزند و سپس گزارش‌های مالی را بر اساس هر بُعد فیلتر کند؛ بدون آن‌که حساب‌های دفترکل را تکرار کند. این مثال صرفاً برای توضیح کاربرد ابعاد در شرکتی بزرگ با محصولات متنوع است و ادعایی دربارهٔ سامانهٔ حسابداری داخلی Apple نیست.
 
 حساب نشان می‌دهد چه اتفاقی افتاده است؛ مثلاً فروش یا هزینهٔ تبلیغات. بُعد مشخص می‌کند رویداد به کدام محصول یا منطقه مربوط بوده است. در نتیجه، یک مجموعه‌حساب مرتب می‌تواند به پرسش‌های مدیریتی گوناگون پاسخ دهد.
 
-ERPNext از قبل [Cost Center](/erpnext/cost-center) و [Project](/erpnext/project) را به‌عنوان بُعد می‌شناسد. هرگاه به بخش‌بندی دیگری نیاز دارید، یک Accounting Dimension قابل‌پیکربندی بسازید. در نمونهٔ این راهنما، شرکت Nova Electronics Trading از **Department** برای مقایسهٔ فروش، عملیات و تیم‌های دیگر استفاده می‌کند و در عین حال یک مجموعه‌حساب درآمد، هزینه، دارایی و بدهی را حفظ می‌کند.
+ERPNext از قبل [Cost Center](https://docs.frappe.io/erpnext/cost-center) و [Project](https://docs.frappe.io/erpnext/project) را به‌عنوان بُعد می‌شناسد. هرگاه به بخش‌بندی دیگری نیاز دارید، یک Accounting Dimension قابل‌پیکربندی بسازید. در نمونهٔ این راهنما، شرکت Nova Electronics Trading از **Department** برای مقایسهٔ فروش، عملیات و تیم‌های دیگر استفاده می‌کند و در عین حال یک مجموعه‌حساب درآمد، هزینه، دارایی و بدهی را حفظ می‌کند.
 
 ## پیش از شروع
 
-ابتدا رکوردهایی را بسازید که مقادیر بُعد از آن‌ها گرفته می‌شود. Accounting Dimension باید به یک `DocType` ارجاع دهد؛ بنابراین بُعد Department از رکوردهای موجود [Department](/hr/department) استفاده می‌کند. برای مفهومی تازه مانند Product Line، پیش از پیکربندی بُعد یک `DocType` سفارشی مناسب بسازید و مقادیرش را وارد کنید.
+ابتدا رکوردهایی را بسازید که مقادیر بُعد از آن‌ها گرفته می‌شود. Accounting Dimension باید به یک `DocType` ارجاع دهد؛ بنابراین بُعد Department از رکوردهای موجود [Department](https://docs.frappe.io/hr/department) استفاده می‌کند. برای مفهومی تازه مانند Product Line، پیش از پیکربندی بُعد یک `DocType` سفارشی مناسب بسازید و مقادیرش را وارد کنید.
 
 به نقش Accounts Manager یا System Manager نیاز دارید. تصمیم بگیرید که بُعد فقط برای تحلیل باشد یا ورود آن در هر ثبت سود و زیان یا ترازنامه اجباری شود. تنظیم‌های اجباری بر ثبت تراکنش اثر می‌گذارند؛ پس پیش از فعال‌کردن آن‌ها برای کاربران روزانه، با فاکتورها، پرداخت‌ها و اسناد روزنامهٔ نمونه آزمایش کنید.
 
@@ -55,13 +56,13 @@ ERPNext از قبل [Cost Center](/erpnext/cost-center) و [Project](/erpnext/pr
 
 ## استفاده از ابعاد در تراکنش‌ها
 
-پس از پایان کار پس‌زمینهٔ ایجاد فیلدها، بُعد تازه در بخش Accounting Dimensions تراکنش‌های پشتیبانی‌شده ظاهر می‌شود؛ مانند [Sales Invoice](/erpnext/sales-invoice)، [Purchase Invoice](/erpnext/purchase-invoice)، [Payment Entry](/erpnext/payment-entry) و [Journal Entry](/erpnext/journal-entry). پیش از ثبت تراکنش، مقداری را انتخاب کنید که آن را توصیف می‌کند.
+پس از پایان کار پس‌زمینهٔ ایجاد فیلدها، بُعد تازه در بخش Accounting Dimensions تراکنش‌های پشتیبانی‌شده ظاهر می‌شود؛ مانند [Sales Invoice](https://docs.frappe.io/erpnext/sales-invoice)، [Purchase Invoice](https://docs.frappe.io/erpnext/purchase-invoice)، [Payment Entry](https://docs.frappe.io/erpnext/payment-entry) و [Journal Entry](https://docs.frappe.io/erpnext/journal-entry). پیش از ثبت تراکنش، مقداری را انتخاب کنید که آن را توصیف می‌کند.
 
-اگر ERPNext بُعد را در ردیف کالا یا حسابداری نمایش می‌دهد، وقتی یک سند چند دپارتمان یا بخش را دربرمی‌گیرد از مقدارهای سطح ردیف استفاده کنید. مقدار سطح سند زمانی مناسب است که کل تراکنش به یک بخش تعلق دارد. پس از ثبت، ردیف‌های [General Ledger](/erpnext/general-ledger) تولیدشده را بررسی کنید تا بُعد به خطوط بدهکار و بستانکار موردنظر رسیده باشد.
+اگر ERPNext بُعد را در ردیف کالا یا حسابداری نمایش می‌دهد، وقتی یک سند چند دپارتمان یا بخش را دربرمی‌گیرد از مقدارهای سطح ردیف استفاده کنید. مقدار سطح سند زمانی مناسب است که کل تراکنش به یک بخش تعلق دارد. پس از ثبت، ردیف‌های [General Ledger](https://docs.frappe.io/erpnext/general-ledger) تولیدشده را بررسی کنید تا بُعد به خطوط بدهکار و بستانکار موردنظر رسیده باشد.
 
 ## فیلترکردن گزارش‌های حسابداری بر اساس بُعد
 
-بُعد تولیدشده به فیلتر گزارش‌های پشتیبانی‌شده تبدیل می‌شود. برای دیدن ثبت‌های جزئی، Department را در General Ledger انتخاب کنید؛ یا برای تحلیل یک بخش، آن را در [Profit and Loss Statement](/erpnext/profit-and-loss-report) و [Balance Sheet](/erpnext/balance-sheet) به‌کار ببرید. نتیجهٔ گزارش فقط ردیف‌هایی را شامل می‌شود که با همان مقدار بُعد ثبت شده‌اند.
+بُعد تولیدشده به فیلتر گزارش‌های پشتیبانی‌شده تبدیل می‌شود. برای دیدن ثبت‌های جزئی، Department را در General Ledger انتخاب کنید؛ یا برای تحلیل یک بخش، آن را در [Profit and Loss Statement](https://docs.frappe.io/erpnext/profit-and-loss-report) و [Balance Sheet](https://docs.frappe.io/erpnext/balance-sheet) به‌کار ببرید. نتیجهٔ گزارش فقط ردیف‌هایی را شامل می‌شود که با همان مقدار بُعد ثبت شده‌اند.
 
 Accounting Dimensions تراکنش‌های قدیمی را به‌صورت عطف‌به‌ماسبق برچسب نمی‌زنند. اگر در ثبت‌های پیشین مقدار Department وجود ندارد، فیلتر Department آن‌ها را نشان نمی‌دهد. راه‌اندازی بُعد را یک تغییر کنترل‌شدهٔ حسابداری بدانید و از قبل دربارهٔ مقایسه با داده‌های تاریخی تصمیم بگیرید.
 
@@ -109,7 +110,7 @@ Accounting Dimensions تراکنش‌های قدیمی را به‌صورت عط
 
 ## موضوعات مرتبط
 
-- [فیلترهای Accounting Dimensions](/erpnext/accounting-dimension-filter)
-- [Cost Center](/erpnext/cost-center)
-- [Budget](/erpnext/budget)
-- [گزارش‌های حسابداری](/erpnext/accounting-reports)
+- [فیلترهای Accounting Dimensions](https://docs.frappe.io/erpnext/accounting-dimension-filter)
+- [Cost Center](https://docs.frappe.io/erpnext/cost-center)
+- [Budget](https://docs.frappe.io/erpnext/budget)
+- [گزارش‌های حسابداری](https://docs.frappe.io/erpnext/accounting-reports)

@@ -1,5 +1,6 @@
 ---
 title: "ویرایش فیلد پس از ثبت سند"
+slug: "ویرایش-فیلد-پس-از-ثبت-سند"
 source_url: "https://docs.frappe.io/framework/doctypes/allow-on-submit"
 source_id: "framework/doctypes/allow-on-submit"
 source_version: "4faca3388ffd3e4642f78229163bb0964025dbd35b63e2338fac6e59126507e4"

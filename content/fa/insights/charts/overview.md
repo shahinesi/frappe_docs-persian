@@ -1,5 +1,6 @@
 ---
 title: "مروری بر نمودارها"
+slug: "مرور-نمودارها"
 source_url: "https://docs.frappe.io/insights/charts/overview"
 source_id: "insights/charts/overview"
 source_version: "0c3dba717f2850faabcc42e8f20eaac3239794781dfeebaba7973ea9ccba901b"

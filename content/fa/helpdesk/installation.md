@@ -1,5 +1,6 @@
 ---
 title: "نصب"
+slug: "نصب"
 source_url: "https://docs.frappe.io/helpdesk/installation"
 source_id: "helpdesk/installation"
 source_version: "7e0092a440bb666bbc2d301e8532631b4c0f8cee641968188a3dc0cd57b7876d"

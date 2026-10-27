@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "sitemap_url": "https://docs.frappe.io/sitemap.xml",
-  "retrieved_at": "2026-10-27T06:50:58.616Z",
+  "retrieved_at": "2026-10-27T06:56:48.879Z",
   "page_count": 2017,
   "pages": [
     {
@@ -11,8 +11,8 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "6c860a421d87982945871919f9a2eaac84b313cafbca54e028f61991352ccc37",
       "source_modified": "2026-09-29",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
       "discovered_at": "2026-10-27T05:52:36.586Z",
       "source_status": "present",
@@ -25,7 +25,9 @@
       "source_sitemap_lastmod": "2026-09-29",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "translation_path": "content/fa/builder/data-script.md",
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/builder/external-editor",
@@ -34,10 +36,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "4c0f5dccfb46d218c6f3ee8e8773082c63162f87a5ec389b58c94b7ec303f401",
       "source_modified": "2026-05-13",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/builder/external-editor.md",
       "discovered_at": "2026-10-27T05:52:36.588Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/builder/external-editor.md",
@@ -49,7 +51,8 @@
       "source_sitemap_lastmod": "2026-05-13",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/builder/introduction",
@@ -58,10 +61,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "3f87741bdc1b09c4c1023a28cddca8b1f764c1199faf34d71f7e4ba70615a40b",
       "source_modified": "2026-01-06",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/builder/introduction.md",
       "discovered_at": "2026-10-27T05:52:36.577Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/builder/introduction.md",
@@ -73,7 +76,8 @@
       "source_sitemap_lastmod": "2026-01-06",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/builder/setting-up",
@@ -82,10 +86,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "010ebee287c51215da22d628bd4b22df06e6c004ef0d2ffc0aa000b7bfe1b3a5",
       "source_modified": "2026-06-10",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/builder/setting-up.md",
       "discovered_at": "2026-10-27T05:52:36.577Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/builder/setting-up.md",
@@ -97,7 +101,8 @@
       "source_sitemap_lastmod": "2026-06-10",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/assignment-rule",
@@ -23231,7 +23236,8 @@
       "source_sitemap_lastmod": "2025-04-10",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/framework/keyboard-shortcuts",
