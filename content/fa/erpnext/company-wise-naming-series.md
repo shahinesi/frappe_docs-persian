@@ -1,0 +1,37 @@
+---
+title: "سری نام‌گذاری به‌تفکیک شرکت"
+slug: "company-wise-naming-series"
+source_url: "https://docs.frappe.io/erpnext/company-wise-naming-series"
+source_id: "erpnext/company-wise-naming-series"
+source_version: "765e439996711e35b6422ec7eecbff68dd7f016c6df5709f7fcefb6c8de5021b"
+source_updated: "2026-03-04"
+translation_status: "quality_checked"
+quality_status: "passed"
+license_status: "CC BY-SA (version unspecified by source policy)"
+---
+
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/company-wise-naming-series)
+> متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
+>
+> تصویرهای صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.
+
+فرض کنید از چند شرکت در یک سایت استفاده می‌کنید و می‌خواهید سندهای متعلق به هر شرکت سری نام‌گذاری جداگانه داشته باشند. برای نمونه، سه شرکت دارید:
+
+- Company A
+- Company B
+- Company C
+
+می‌خواهید سری نام‌گذاری اسنادی مانند Sales Invoice و Purchase Order برای هر شرکت جدا باشد. مثلاً سری Sales Invoice برای Company A برابر `SINV-A-0001` و برای Company B برابر `SINV-B-0001` باشد. این کار را می‌توانید با سفارشی‌سازی زیر انجام دهید:
+
+1. DocTypeای را که می‌خواهید سری‌هایش بر اساس شرکت متفاوت باشد باز کنید و وارد Customize Form آن شوید. در این مثال، نوع **Sales Invoice** را انتخاب می‌کنیم.
+2. در Customize Form، زیر فیلد **Company** فیلد دیگری اضافه و نام آن را `Abbr` بگذارید. در ورودی **Fetch From** مقدار `company.abbr` را وارد کنید.
+
+   در صورت نیاز، این فیلد را پنهان نگه دارید.
+
+3. در همان Customize Form، ردیف **Naming Series** را پیدا و باز کنید. در کادر **Options**، در خطی تازه گزینهٔ دیگری اضافه کنید. برای نمونهٔ Sales Invoice مقدار `SINV-.abbr.-.####` را وارد و آن را به‌عنوان پیش‌فرض تنظیم کنید.
+
+پس از انجام این کار، روی **Update** کلیک کنید.
+
+اکنون یک Sales Invoice جدید بسازید. شرکت را انتخاب کنید؛ سری نام‌گذاری به‌طور خودکار بر اساس مخفف شرکت به‌روز می‌شود.
+
+**منبع:** [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/company-wise-naming-series). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر اصلی در این مخزن بازنشر نشده‌اند.
