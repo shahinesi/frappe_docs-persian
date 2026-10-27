@@ -1,0 +1,40 @@
+---
+title: "مرخصی استحقاقی"
+slug: "earned-leaves"
+source_url: "https://docs.frappe.io/hr/earned-leaves"
+source_id: "hr/earned-leaves"
+source_version: "9661e95fd695f1057b828b2090b5d7a0e6a5084b64a969cc268ef9540ab3c230"
+source_updated: "2026-02-26"
+translation_status: "quality_checked"
+quality_status: "passed"
+license_status: "CC BY-SA (version unspecified by source policy)"
+---
+
+مرخصی استحقاقی نوعی مرخصی است که در فاصله‌های زمانی مشخص به کارمند تعلق می‌گیرد. می‌توانید آن را از طریق Leave Type پیکربندی کنید. پس از تنظیم Leave Type به‌عنوان مرخصی استحقاقی، باید موارد زیر را ایجاد کنید:
+
+- **Leave Period**
+
+  ![تنظیم Leave Period](https://frappehr.com/files/MI9ZPNM.png)
+
+- **Leave Policy**
+
+  ![تنظیم Leave Policy](https://frappehr.com/files/CX0uqps.png)
+
+- **Leave Policy Assignment**
+
+  ![تنظیم Leave Policy Assignment](https://frappehr.com/files/ZxOw5L4.png)
+
+## 2. زمان‌بندی مرخصی استحقاقی
+
+1. با ساختن Leave Policy Assignment، Leave Allocationهای مرتبط ایجاد می‌شوند. در تخصیص مربوط به مرخصی استحقاقی، زمان‌بندی روزهایی که مرخصی به کارمند تعلق می‌گیرد از پیش نمایش داده می‌شود.
+2. روزهای مرخصی‌ای که با موفقیت تخصیص یافته‌اند، به رنگ سبز نمایش داده می‌شوند.
+
+   ![روزهای مرخصی استحقاقی تخصیص‌یافته](https://docs.frappe.io/files/Screenshot%202026-01-08%20at%2012.06.41.png)
+
+3. اگر به هر دلیلی کار پس‌زمینه نتواند روزهای مرخصی را تخصیص دهد، ایمیلی همراه با فهرست تخصیص‌های ناموفق برای مدیران منابع انسانی فرستاده می‌شود. مدیران منابع انسانی می‌توانند از داخل Leave Allocation، تخصیص‌های ناموفق را دوباره امتحان کنند.
+
+   ![امکان تلاش دوباره برای تخصیص‌های ناموفق](https://docs.frappe.io/files/Arc%202025-06-01%2021%3A43%3A37%20-%20Frame%20215.png)
+
+---
+
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe HR است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/hr/earned-leaves). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.
