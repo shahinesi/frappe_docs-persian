@@ -23684,10 +23684,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "a970ea6a3baec81409684cd154dd58e22d48958da3be05e6c4d842d6130994b5",
       "source_modified": "2026-09-30",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/framework/steps-and-actions.md",
       "discovered_at": "2026-10-27T05:52:36.587Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/framework/automations/steps-and-actions.md",
@@ -23697,10 +23697,11 @@
       "source_metadata_status": "fetched",
       "source_repository": null,
       "source_sitemap_lastmod": "2026-09-30",
-      "license_status": "unverified",
+      "license_status": "CC BY-SA (version unspecified by source policy)",
       "attribution_required": true,
       "unofficial_translation": true,
-      "snapshot_status": "fetched"
+      "snapshot_status": "fetched",
+      "quality_reviewed_at": "2026-10-27"
     },
     {
       "url": "https://docs.frappe.io/framework/automations/triggers-and-conditions",
