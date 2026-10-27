@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "sitemap_url": "https://docs.frappe.io/sitemap.xml",
-  "retrieved_at": "2026-10-27T07:15:22.364Z",
+  "retrieved_at": "2026-10-27T13:32:49.146Z",
   "page_count": 2017,
   "pages": [
     {
@@ -31162,10 +31162,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "3db537d7572a78e53cd70542b30ce0aa21588a2b7369ca089dfb229ae456aede",
       "source_modified": "2026-10-23",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/helpdesk/custom-views.md",
       "discovered_at": "2026-10-27T05:52:36.578Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/helpdesk/custom-views.md",
@@ -31177,7 +31177,8 @@
       "source_sitemap_lastmod": "2026-10-23",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/customer",
@@ -31201,7 +31202,8 @@
       "source_sitemap_lastmod": "2026-10-23",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/customer-organizations",
@@ -31225,7 +31227,8 @@
       "source_sitemap_lastmod": "2026-10-23",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/customer-portal",
@@ -31247,7 +31250,9 @@
       "source_sitemap_lastmod": "2025-08-20",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "unavailable",
+      "snapshot_error": "Error: HTTP 404"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/customers-contacts",
@@ -31271,7 +31276,8 @@
       "source_sitemap_lastmod": "2026-10-23",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/customization/email-preferences",
@@ -31295,7 +31301,8 @@
       "source_sitemap_lastmod": "2026-10-23",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/customization/perm-levels-in-helpdesk",
@@ -31319,7 +31326,8 @@
       "source_sitemap_lastmod": "2026-10-23",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/email-communication",
@@ -31343,7 +31351,8 @@
       "source_sitemap_lastmod": "2026-05-28",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/email-notifications",
@@ -31367,7 +31376,8 @@
       "source_sitemap_lastmod": "2026-10-23",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/exotel",
@@ -31391,7 +31401,8 @@
       "source_sitemap_lastmod": "2026-05-21",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/faq",
@@ -31415,7 +31426,8 @@
       "source_sitemap_lastmod": "2026-01-06",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/faq/setting-up-outlook-for-frappe",
@@ -31439,7 +31451,8 @@
       "source_sitemap_lastmod": "2026-09-23",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/field-dependency",
@@ -31463,7 +31476,8 @@
       "source_sitemap_lastmod": "2026-09-29",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/helpdesk/customization/outside-working-hours-banner",
@@ -31487,7 +31501,8 @@
       "source_sitemap_lastmod": "2026-10-23",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/helpdesk/other-features/comment-reactions",
@@ -31511,7 +31526,8 @@
       "source_sitemap_lastmod": "2026-05-28",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/installation",
@@ -31561,7 +31577,8 @@
       "source_sitemap_lastmod": "2026-06-11",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/inviting-agents",
@@ -31585,7 +31602,8 @@
       "source_sitemap_lastmod": "2026-01-06",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/knowledge-base",
@@ -31609,7 +31627,8 @@
       "source_sitemap_lastmod": "2026-10-23",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/knowledge-base-settings",
@@ -31633,7 +31652,8 @@
       "source_sitemap_lastmod": "2026-10-23",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/lesson-1-your-first-ticket",
@@ -31657,7 +31677,8 @@
       "source_sitemap_lastmod": "2026-10-23",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/lesson-2understanding-ticket-view",
@@ -31681,7 +31702,8 @@
       "source_sitemap_lastmod": "2026-01-16",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/lesson-3-agents-teams",
@@ -31705,7 +31727,8 @@
       "source_sitemap_lastmod": "2026-01-06",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/lesson-4-knowledge-base",
@@ -31729,7 +31752,8 @@
       "source_sitemap_lastmod": "2026-10-23",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/notification",
@@ -31753,7 +31777,8 @@
       "source_sitemap_lastmod": "2026-05-28",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/other-features/agent-availability",
@@ -31777,7 +31802,8 @@
       "source_sitemap_lastmod": "2026-06-08",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/other-features/agent-home-page",
@@ -31801,7 +31827,8 @@
       "source_sitemap_lastmod": "2026-05-28",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/other-features/bulk-reply",
@@ -31825,7 +31852,8 @@
       "source_sitemap_lastmod": "2026-05-29",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/pwa-installation",
@@ -31849,7 +31877,8 @@
       "source_sitemap_lastmod": "2026-01-06",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/quick-first-steps",
@@ -31871,7 +31900,9 @@
       "source_sitemap_lastmod": "2025-04-21",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "unavailable",
+      "snapshot_error": "Error: HTTP 404"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/saved-replies",
@@ -31895,7 +31926,8 @@
       "source_sitemap_lastmod": "2026-10-23",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/service-level-agreement",
@@ -31919,7 +31951,8 @@
       "source_sitemap_lastmod": "2026-10-23",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/setting-up",
@@ -31943,7 +31976,8 @@
       "source_sitemap_lastmod": "2026-01-06",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/settings",
@@ -31967,7 +32001,8 @@
       "source_sitemap_lastmod": "2026-10-23",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/team",
@@ -31991,7 +32026,8 @@
       "source_sitemap_lastmod": "2026-01-06",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/ticket",
@@ -32015,7 +32051,8 @@
       "source_sitemap_lastmod": "2026-08-03",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/ticket-priority",
@@ -32039,7 +32076,8 @@
       "source_sitemap_lastmod": "2026-10-23",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/ticket-routing",
@@ -32063,7 +32101,8 @@
       "source_sitemap_lastmod": "2026-10-23",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/ticket-status",
@@ -32087,7 +32126,8 @@
       "source_sitemap_lastmod": "2026-10-23",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/ticket-type",
@@ -32111,7 +32151,8 @@
       "source_sitemap_lastmod": "2026-10-23",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/tickets-not-being-created",
@@ -32135,7 +32176,8 @@
       "source_sitemap_lastmod": "2026-01-06",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/twilio",
@@ -32159,7 +32201,8 @@
       "source_sitemap_lastmod": "2026-05-21",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/understanding-the-customer-portal",
@@ -32183,7 +32226,8 @@
       "source_sitemap_lastmod": "2026-10-23",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/helpdesk/your-first-steps-with-frappe-helpdesk",
@@ -32207,7 +32251,8 @@
       "source_sitemap_lastmod": "2026-10-23",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/hr/additional-salary",

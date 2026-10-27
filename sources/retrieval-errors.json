@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T07:15:22.381Z",
+  "generated_at": "2026-10-27T13:32:49.159Z",
   "error_count": 122,
   "errors": [
     {
@@ -15,16 +15,6 @@
     {
       "url": "https://docs.frappe.io/crm/profile",
       "markdown_url": "https://docs.frappe.io/crm/profile.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/helpdesk/quick-first-steps",
-      "markdown_url": "https://docs.frappe.io/helpdesk/quick-first-steps.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/helpdesk/customer-portal",
-      "markdown_url": "https://docs.frappe.io/helpdesk/customer-portal.md",
       "error": "HTTP 404"
     },
     {
@@ -610,6 +600,16 @@
     {
       "url": "https://docs.frappe.io/erpnext/v14/user/manual/new_wiki_page",
       "markdown_url": "https://docs.frappe.io/erpnext/v14/user/manual/new_wiki_page.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/helpdesk/customer-portal",
+      "markdown_url": "https://docs.frappe.io/helpdesk/customer-portal.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/helpdesk/quick-first-steps",
+      "markdown_url": "https://docs.frappe.io/helpdesk/quick-first-steps.md",
       "error": "Error: HTTP 404"
     }
   ]
