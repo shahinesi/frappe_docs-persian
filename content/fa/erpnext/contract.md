@@ -1,0 +1,100 @@
+---
+title: "قرارداد"
+slug: "contract"
+source_url: "https://docs.frappe.io/erpnext/contract"
+source_id: "erpnext/contract"
+source_version: "c6a50df40a81f9b4656d63b45d9118ce30619c8ad1f7504aaa67fcb7591738b0"
+source_updated: "2026-07-23"
+translation_status: "quality_checked"
+quality_status: "passed"
+license_status: "CC BY-SA (version unspecified by source policy)"
+---
+
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/contract)
+> متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
+>
+> تصویر و پویانمایی صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.
+
+**قرارداد توافقی الزام‌آور از نظر قانونی میان تأمین‌کننده و مشتری دربارهٔ فروش محصول یا خدمت است.**
+
+قرارداد از نظر قانونی لازم‌الاجراست، چون شرایط و تأییدهای مقرر در قانون را دارد. این توافق معمولاً شامل مبادلهٔ کالا، خدمات، پول یا تعهد به هرکدام از آن‌هاست.
+
+برای بازکردن فهرست قراردادها، به این مسیر بروید:
+
+**Home > Sales Pipeline > Contract**
+
+## ایجاد قرارداد
+
+- فهرست Contract را باز و **New** را انتخاب کنید.
+- Customer را برگزینید.
+- **Contract Terms** را وارد کنید. برای دریافت آسان‌تر مفاد، می‌توانید الگویی نیز بسازید.
+- ذخیره کنید.
+
+**Party User:** کارمند شرکت شما که با مشتری در ارتباط است.
+
+### وضعیت‌ها
+
+- **Unsigned:** مشتری هنوز قرارداد را امضا نکرده است.
+- **Active:** قرارداد امضا شده و در بازهٔ قرارداد فعال است.
+- **Inactive:** بازهٔ قرارداد پایان یافته و قرارداد دیگر معتبر نیست.
+
+## قابلیت‌ها
+
+### بازهٔ قرارداد
+
+تاریخ‌های آغاز و پایان، بازه‌ای را مشخص می‌کنند که قرارداد در آن معتبر است.
+
+### جزئیات امضاکننده
+
+وقتی چک‌باکس **Signed** را علامت بزنید تا نشان دهید مشتری قرارداد را امضا و تأیید کرده است، این بخش نمایش داده می‌شود.
+
+- **Signee:** نام شخصی را وارد کنید که قرارداد را امضا کرده است.
+- **Signed On:** تاریخ امضای قرارداد را وارد کنید.
+
+### جزئیات قرارداد
+
+مفاد قرارداد را در فیلد **Contract Terms** وارد کنید. می‌توانید **Contract Template** بسازید و آن را برای دریافت خودکار مفاد انتخاب کنید.
+
+### جزئیات انجام تعهد
+
+اگر قرارداد مستلزم انجام تعهدی از طرف تأمین‌کننده (یعنی شرکت شما) باشد، می‌توانید جزئیات را در جدول **Fulfilment Terms** ثبت کنید.
+
+- **Requirement:** تعهدی را وارد کنید که باید انجام شود؛ برای نمونه، «نصب».
+- **Notes:** هر توضیحی دربارهٔ آن تعهد را وارد کنید.
+
+### الگوی قرارداد
+
+الگوی قرارداد چارچوبی استاندارد از قرارداد است که هنوز جزئیات اختصاصی در آن نیامده‌اند. برای ساخت الگوی تازه به این مسیر بروید:
+
+**Home > CRM > Contract Template**
+
+می‌توانید با Jinja الگو بسازید. برای نمونه:
+
+```jinja
+The parties enter into this contract on {{ start_date }}.
+```
+
+وقتی با این الگو قرارداد تازه‌ای می‌سازید، `{{ start_date }}` با تاریخی جایگزین می‌شود که در فیلدی با همین نام وارد کرده‌اید.
+
+### ارجاع‌ها
+
+اگر قرارداد را می‌توان به تراکنشی در ERPNext پیوند داد، نوع تراکنش و خود تراکنش را انتخاب کنید. سندهای قابل‌پیوند عبارت‌اند از:
+
+- Quotation
+- Project
+- Sales Order
+- Purchase Order
+- Sales Invoice
+- Purchase Invoice
+
+## موضوعات مرتبط
+
+- [Quotation](https://docs.frappe.io/erpnext/quotation)
+- [Purchase Order](https://docs.frappe.io/erpnext/purchase-order)
+- [Sales Order](https://docs.frappe.io/erpnext/sales-order)
+- [Purchase Receipt](https://docs.frappe.io/erpnext/purchase-receipt)
+- [Delivery Note](https://docs.frappe.io/erpnext/delivery-note)
+- [Sales Invoice](https://docs.frappe.io/erpnext/sales-invoice)
+- [Purchase Invoice](https://docs.frappe.io/erpnext/purchase-invoice)
+
+**منبع:** [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/contract). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویرها و پویانمایی اصلی در این مخزن بازنشر نشده‌اند.
