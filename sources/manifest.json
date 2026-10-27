@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "sitemap_url": "https://docs.frappe.io/sitemap.xml",
-  "retrieved_at": "2026-10-27T06:58:17.823Z",
+  "retrieved_at": "2026-10-27T06:59:54.877Z",
   "page_count": 2017,
   "pages": [
     {
@@ -47995,7 +47995,8 @@
       "source_sitemap_lastmod": "2026-01-13",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/wiki-v2/check-page-revisions",
@@ -48019,7 +48020,8 @@
       "source_sitemap_lastmod": "2026-01-13",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/wiki-v2/how-to-contribute",
@@ -48028,10 +48030,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "49aa5fead92c5b1c7fbf1c1f0d9b0eacc2513efdd305c3e7b0cf89d4485e2c1b",
       "source_modified": "2026-01-19",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/wiki/how-to-contribute.md",
       "discovered_at": "2026-10-27T05:52:36.59Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/wiki-v2/how-to-contribute.md",
@@ -48043,7 +48045,8 @@
       "source_sitemap_lastmod": "2026-01-19",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/wiki-v2/install-locally",
@@ -48067,7 +48070,8 @@
       "source_sitemap_lastmod": "2026-01-13",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/wiki-v2/introduction",
@@ -48102,10 +48106,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "a8f67186b15e7f33bcf53ea37bb612a80a7cd9ca6fa8d59d0dfe2c44963a98fe",
       "source_modified": "2026-01-13",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/wiki/new-wiki-group.md",
       "discovered_at": "2026-10-27T05:52:36.59Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/wiki-v2/new-wiki-group.md",
@@ -48117,7 +48121,8 @@
       "source_sitemap_lastmod": "2026-01-13",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/wiki-v2/new-wiki-page",
@@ -48126,10 +48131,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "f5a011e224b0882f0736ae38fc51d5cf7704e79da71ed943f29c4efd678e4a3b",
       "source_modified": "2026-01-13",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/wiki/new-wiki-page.md",
       "discovered_at": "2026-10-27T05:52:36.59Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/wiki-v2/new-wiki-page.md",
@@ -48141,7 +48146,8 @@
       "source_sitemap_lastmod": "2026-01-13",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/wiki-v2/use-on-frappe-cloud",
@@ -48165,7 +48171,8 @@
       "source_sitemap_lastmod": "2026-01-13",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/wiki-v2/wiki-migration-guide",
@@ -48189,7 +48196,8 @@
       "source_sitemap_lastmod": "2026-01-13",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/wiki-v2/wiki-settings",
@@ -48213,7 +48221,8 @@
       "source_sitemap_lastmod": "2026-01-13",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/wiki-v2/wiki-space",
@@ -48237,7 +48246,8 @@
       "source_sitemap_lastmod": "2026-01-13",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     }
   ]
 }
