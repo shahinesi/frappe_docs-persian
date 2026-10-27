@@ -14,11 +14,13 @@ Nova Electronics Trading کالا را نسیه به Northstar Retail فروخت
 
 برای بررسی ریسک اعتباری مشتری، پیگیری فاکتورهای سررسیدگذشته، رسیدگی به بستانکاری‌های تخصیص‌نیافته و برآورد وجه دریافتی از Accounts Receivable استفاده کنید.
 
+![گزارش Accounts Receivable با مانده‌ها و سن مطالبات مشتریان Nova](https://novacompanies.m.frappe.cloud/files/docs-accounting-reports-20260814-accounts-receivable.png)
+
 ## Accounts Payable
 
 برای برنامه‌ریزی پرداخت به تأمین‌کنندگان، مدیریت جریان نقدی، استفاده از فرصت تخفیف پرداخت زودهنگام و جلوگیری از عقب‌افتادن پرداخت‌ها از Accounts Payable استفاده کنید.
 
-تصاویر گزارش‌های نمونه در [مستندات رسمی](https://docs.frappe.io/erpnext/accounts-receivable-and-payable) موجودند و در این مخزن بازنشر نشده‌اند.
+![گزارش Accounts Payable با مانده‌ها و سن بدهی تأمین‌کنندگان Nova](https://novacompanies.m.frappe.cloud/files/docs-accounting-reports-20260814-accounts-payable.png)
 
 ## اجرای هر یک از گزارش‌ها
 
@@ -69,7 +71,7 @@ Nova Electronics Trading کالا را نسیه به Northstar Retail فروخت
 3. **حساب‌ها را بررسی کنید.** گزارش فقط حساب‌های دریافتنی یا پرداختنی را نشان می‌دهد. پیش‌پرداخت‌هایی که در حساب پیش‌پرداخت جداگانه ثبت شده‌اند (وقتی در Company گزینهٔ **Book Advance Payments in Separate Party Account** روشن است) فقط پس از تطبیق با فاکتورها دیده می‌شوند.
 4. **Payment Ledger Entryهای ناقص را بازسازی کنید.** اگر یک Voucher در General Ledger هست اما در گزارش دیده نمی‌شود، Payment Ledger Entryهای آن ناقص یا نادرست‌اند. **Repost Payment Ledger** را باز کنید، Company و Voucher Type را انتخاب کنید، Voucherها را با **Add Manually** اضافه و Submit کنید. منتظر بمانید تا **Repost Status** به **Completed** برسد.
 
-تصویر فیلترهای گزارش در [راهنمای رسمی](https://docs.frappe.io/erpnext/accounts-receivable-and-payable) آمده است و در این مخزن بازنشر نشده است.
+![فیلترهای گزارش Accounts Receivable](https://docs.frappe.io/files/ar-report-filters.png)
 
 ### طرف تجاری با ماندهٔ صفر، مبلغ تسویه‌نشده نشان می‌دهد
 
