@@ -1,0 +1,52 @@
+---
+title: "ترجمه‌های سفارشی در قالب‌های چاپ"
+slug: "custom-translations"
+source_url: "https://docs.frappe.io/erpnext/custom-translations"
+source_id: "erpnext/custom-translations"
+source_version: "5d9fabdeb6a4aca8be6567ba61c1e915148e52e9787aa9db01adfcade82fb51e"
+source_updated: "2026-03-02"
+translation_status: "quality_checked"
+quality_status: "passed"
+license_status: "CC BY-SA (version unspecified by source policy)"
+---
+
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/custom-translations)
+> متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
+>
+> تصویرهای صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.
+
+با استفاده از Custom Translations، کاربر می‌تواند سند مشتری یا تأمین‌کننده را به زبان محلی او چاپ کند.
+
+برای مثال، اگر مشتریانی از آلمان و فرانسه دارید که پیش‌فاکتور را به زبان آلمانی یا فرانسوی می‌خواهند، می‌توانید سند را با Custom Translations به همان زبان‌ها آماده کنید.
+
+## 1. تنظیم زبان
+
+در اطلاعات پایهٔ Customer، زبان پیش‌فرض را انتخاب کنید؛ برای نمونه، زبان پیش‌فرض Customer را **Spanish** بگذارید.
+
+به همین روش می‌توانید زبان پیش‌فرض را در اطلاعات پایهٔ Supplier نیز تنظیم کنید.
+
+### 1.1 پیش‌نمایش چاپ به زبان طرف تجاری
+
+در پیش‌نمایش چاپ یک تراکنش، مقدارها به زبان طرف تجاری ترجمه می‌شوند.
+
+برای نمونه، پیش‌نمایش چاپ Quotation مشتری به زبان پیش‌فرض Customer نمایش داده می‌شود.
+
+پیش‌نمایش چاپ Quotation تأمین‌کننده نیز به زبان پیش‌فرض Supplier نمایش داده می‌شود.
+
+### 1.2 تغییر زبان چاپ در پیش‌نمایش
+
+کاربر می‌تواند در نمای چاپ، زبان دیگری انتخاب کند.
+
+## 2. ترجمهٔ سفارشی
+
+کاربران می‌توانند ترجمه‌های دلخواهشان را در فرم Custom Translations تعریف کنند. برای نمونه، اگر می‌خواهید توضیح یک محصول به زبان مشتری (اسپانیایی) باشد، یک ترجمهٔ تازه بسازید، زبان را Spanish انتخاب کنید و متن مبدأ و ترجمه‌شده را وارد کنید.
+
+> Home > Customization > Other > Custom Translations > New
+
+ترجمه زمانی اعمال می‌شود که کاربر در پیش‌نمایش چاپ Quotation تأمین‌کننده، زبان Spanish را انتخاب کند. توجه کنید توضیح قلم دوم ترجمه نمی‌شود، چون برای آن در فهرست Translation رکوردی ایجاد نشده است.
+
+## موضوعات مرتبط
+
+- [Address Template](/erpnext/address-template)
+- [Quotation](/erpnext/quotation)
+- [Sales Order](/erpnext/sales-order)
