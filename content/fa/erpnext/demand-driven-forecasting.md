@@ -1,0 +1,46 @@
+---
+title: "پیش‌بینی با هموارسازی نمایی"
+slug: "demand-driven-forecasting"
+source_url: "https://docs.frappe.io/erpnext/demand-driven-forecasting"
+source_id: "erpnext/demand-driven-forecasting"
+source_version: "d30e5b91fdb660c14573eacd3e6ac42c27c19e4d34a90aa48c5c7c77d7f5fef8"
+source_updated: "2026-03-02"
+translation_status: "quality_checked"
+quality_status: "passed"
+license_status: "CC BY-SA (version unspecified by source policy)"
+---
+
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/demand-driven-forecasting)
+> طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
+>
+> تصویرها در این مخزن بازنشر نشده‌اند و پیوند آن‌ها به فایل‌های سایت رسمی اشاره می‌کند.
+
+برای بازکردن گزارش Forecasting، به مسیر زیر بروید:
+
+> Home > Manufacturing > Reports > Forecasting
+
+![پیش‌بینی تولید](https://docs.frappe.io/files/production-forecasting-using-sales-order.png)
+
+پیش‌بینی با روش هموارسازی نمایی و بر پایهٔ داده‌های گذشتهٔ Sales Order، Delivery Note یا Quotation محاسبه می‌شود. فرمول روش هموارسازی نمایی در تصویر زیر آمده است:
+
+![فرمول هموارسازی نمایی](https://docs.frappe.io/files/exponential-smoothing-formula041d6b.png)
+
+با روش هموارسازی نمایی، سیستم برای هر دوره پیش‌بینی انجام می‌دهد و از همان دادهٔ پیش‌بینی برای برآورد دورهٔ بعدی استفاده می‌کند.
+
+## روش هموارسازی نمایی چگونه کار می‌کند؟
+
+![نمونهٔ فرایند هموارسازی نمایی](https://docs.frappe.io/files/exponential-smoothing-formula-e.png)
+
+در مثال بالا، دادهٔ یک سال سفارش فروش را به‌صورت ماهانه در نظر گرفته‌ایم. پیش‌بینی ماه اول بر اساس میانگین کل سفارش‌ها محاسبه می‌شود. از ماه دوم به بعد، اختلاف **Total Order** ماه گذشته با **Forecast Value** در مقدار **Smoothing Constant** (عددی بین 0 و 1) ضرب می‌شود.
+
+مقدار پیش‌فرض **Smoothing Constant** برابر 0.3 است و معمولاً پیش‌بینی کارآمدی ارائه می‌کند. اختلاف Total Order و Forecast Value ماه گذشته «خطای پیش‌بینی» نام دارد. این خطا به مقدار پیش‌بینی همان ماه افزوده می‌شود تا پیش‌بینی ماه بعد به دست آید.
+
+## فیلترها چگونه کار می‌کنند؟
+
+1. **Company:** با این فیلتر، کاربر می‌تواند پیش‌بینی را برای یک شرکت مشخص انجام دهد.
+2. **From Date و To Date:** سیستم برای این بازه پیش‌بینی می‌کند. تاریخ شروع پیش‌فرض، تاریخ جاری و تاریخ پایان پیش‌فرض، یک سال پس از تاریخ جاری است.
+3. **Based On Document:** سیستم به‌طور پیش‌فرض از داده‌های گذشتهٔ Sales Order استفاده می‌کند. می‌توانید سند دیگری مانند Delivery Note یا Quotation را برای پیش‌بینی انتخاب کنید.
+4. **Based On:** دادهٔ پیش‌بینی بر اساس مقدار یا مبلغ نمایش داده می‌شود.
+5. **Based On Data (in years):** پیش‌بینی به داده‌های گذشته نیاز دارد؛ این فیلتر تعیین می‌کند سیستم داده‌های چند سال گذشته را بررسی کند.
+6. **Periodicity:** می‌توانید دادهٔ پیش‌بینی را ماهانه، فصلی، شش‌ماهه یا سالانه ببینید. برای خوانایی بهتر، داده‌های قدیمی پیش‌بینی در نمای ماهانه نمایش داده نمی‌شوند.
+7. **Smoothing Constant:** این مقدار در محاسبهٔ پیش‌بینی استفاده می‌شود و باید بین 0 و 1 باشد.
