@@ -1,0 +1,59 @@
+---
+title: "نامهٔ انتصاب"
+slug: "appointment-letter"
+source_url: "https://docs.frappe.io/hr/appointment-letter"
+source_id: "hr/appointment-letter"
+source_version: "119a69b2f260e11b9a42fbdb7f2b6da702fc76ae1a3232bc13a5d45745803081"
+source_updated: "2026-02-04"
+translation_status: "quality_checked"
+quality_status: "passed"
+license_status: "CC BY-SA (version unspecified by source policy)"
+---
+
+> این قابلیت از نسخهٔ 13 معرفی شده است.
+
+**نامهٔ انتصاب** نامه‌ای است که کارفرما برای دعوت از نامزد انتخاب‌شده به پیوستن به سازمان در یک موقعیت شغلی مشخص می‌نویسد.
+
+در Frappe HR می‌توانید برای نامزدها نامهٔ انتصاب بسازید. برای دسترسی به آن، به این مسیر بروید:
+
+> Home > Human Resource > Recruitment > Appointment Letter
+
+## 1. پیش‌نیاز
+
+پیش از ساخت نامهٔ انتصاب، بهتر است مورد زیر را ایجاد کرده باشید:
+
+- [Job Applicant](https://docs.frappe.io/hr/job-applicant)
+
+## 2. ساخت نامهٔ انتصاب
+
+1. به فهرست Appointment Letter بروید و **New** را بزنید.
+2. **Job Applicant** و **Appointment Date** را انتخاب کنید.
+3. بخش‌های **Introduction**، **Terms** و **Closing Statement** را دستی پر کنید یا برای پرشدن خودکار محتوا، یک Appointment Letter Template انتخاب کنید. می‌توانید قالب‌های تازه‌ای بسازید تا بعداً به‌آسانی انتخابشان کنید.
+4. روی **Save** کلیک کنید.
+5. پس از ذخیره، برای دیدن و ذخیره‌کردن PDF نامه، به **Print View** بروید.
+
+![نامهٔ انتصاب در Frappe HR](https://frappehr.com/files/appointment-letter.png)
+
+> **توجه:** نامهٔ انتصاب را فقط می‌توان برای یک [Job Applicant](https://docs.frappe.io/hr/job-applicant) ساخت.
+
+## 3. قابلیت‌ها
+
+### 3.1 قالب نامهٔ انتصاب
+
+1. به فهرست Appointment Letter Template بروید و **New** را بزنید.
+2. بخش‌های **Introduction**، **Terms** و **Closing Statement** را پر کنید.
+3. روی **Save** کلیک کنید.
+
+![قالب نامهٔ انتصاب](https://frappehr.com/files/appointment-letter-template.png)
+
+> **توجه:** با انتخاب Appointment Letter Template در فرم Appointment Letter، محتوای قالب به‌طور خودکار پر می‌شود.
+
+### 3.2 قالب چاپ
+
+می‌توانید قالب چاپی جدیدی بسازید یا از قالب‌های چاپ استاندارد موجود استفاده کنید.
+
+![قالب چاپ استاندارد نامهٔ انتصاب](https://frappehr.com/files/standard-appointment-letter.png)
+
+---
+
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe HR است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/hr/appointment-letter). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.
