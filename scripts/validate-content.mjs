@@ -5,6 +5,7 @@ import path from 'node:path';
 const root = new URL('../', import.meta.url);
 const contentRoot = new URL('../content/fa/', import.meta.url);
 const manifest = JSON.parse(await readFile(new URL('../sources/manifest.json', import.meta.url), 'utf8'));
+const uiTermSnapshot = JSON.parse(await readFile(new URL('../sources/ui-terms.json', import.meta.url), 'utf8'));
 const byUrl = new Map(manifest.pages.map((page) => [page.url, page]));
 const byOfficialPath = new Map(manifest.pages.map((page) => {
   const url = new URL(page.url);
@@ -13,6 +14,38 @@ const byOfficialPath = new Map(manifest.pages.map((page) => {
 const failures = [];
 const pages = [];
 const genericLinkLabel = /^(?:مستندات رسمی(?:\s+.+)?|مستندات|صفحه(?:ٔ|‌ی|ی)? رسمی|راهنمای «.*» در .+|این صفحه|این راهنما|این سند|اینجا|برای اطلاعات بیشتر|برای جزئیات بیشتر|بیشتر بخوانید|کلیک کنید|مشاهده کنید|راهنمای رسمی|this page|this guide|this document|here|read more|learn more|click here|official documentation|documentation)$/i;
+const localeStacks = {
+  framework: ['framework'], erpnext: ['framework', 'erpnext'], hr: ['framework', 'erpnext', 'hr'],
+  helpdesk: ['framework', 'helpdesk'], insights: ['framework', 'insights'], crm: ['framework', 'crm'],
+  builder: ['framework', 'builder'], learning: ['framework', 'learning'], drive: ['framework', 'drive'],
+  wiki: ['framework', 'wiki'], other: ['framework'],
+};
+const glossary = await readFile(new URL('../glossary/fa.md', import.meta.url), 'utf8');
+const glossaryTerms = Object.fromEntries([...glossary.matchAll(/^\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|/gm)]
+  .filter(([, source, translation]) => source.trim() !== 'English' && /[\u0600-\u06FF]/.test(translation))
+  .map(([, source, translation]) => [source.trim().replaceAll('`', '').replaceAll('**', ''), translation.trim()]));
+const productUiTermCache = new Map();
+function getProductUiTerms(product) {
+  if (productUiTermCache.has(product)) return productUiTermCache.get(product);
+  const productLocales = localeStacks[product] || ['framework'];
+  const terms = { ...glossaryTerms };
+  for (const locale of productLocales) Object.assign(terms, uiTermSnapshot.terms[locale] || {});
+  for (const curated of uiTermSnapshot.curated_terms || []) {
+    if (!productLocales.includes(curated.product)) continue;
+    if (curated.source_label && curated.translation) terms[curated.source_label] = curated.translation;
+    Object.assign(terms, curated.source_labels || {});
+  }
+  const phraseTerms = Object.entries(terms)
+    .filter(([english, persian]) => english.includes(' ') && /[A-Za-z]/.test(english) && /[\u0600-\u06FF]/.test(persian))
+    .sort(([left], [right]) => right.length - left.length);
+  const phraseLookup = new Map(phraseTerms.map(([english, persian]) => [english.toLowerCase(), persian]));
+  const phrasePattern = phraseTerms.length
+    ? new RegExp(`(?:با|از|بر اساس|در)\\s+(${phraseTerms.map(([english]) => english.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})\\s*$`, 'i')
+    : null;
+  const result = { terms, phraseLookup, phrasePattern };
+  productUiTermCache.set(product, result);
+  return result;
+}
 async function walk(dir) {
   for (const item of await readdir(dir, { withFileTypes: true })) {
     const target = new URL(item.name + (item.isDirectory() ? '/' : ''), dir);
@@ -54,6 +87,20 @@ for (const file of pages) {
   if (!/ترجمهٔ غیررسمی/.test(body)) failures.push(`${relative}: missing unofficial-translation notice`);
   if (!/تحت شرایط CC BY-SA/.test(body)) failures.push(`${relative}: missing ShareAlike attribution notice`);
   const visibleMarkdown = body.replace(/```[\s\S]*?```|~~~[\s\S]*?~~~/g, '').replace(/`[^`\n]*`/g, '');
+  const product = relative.match(/^content\/fa\/([^/]+)\//)?.[1];
+  const { terms: productTerms, phraseLookup, phrasePattern } = getProductUiTerms(product);
+  for (const line of visibleMarkdown.split(/\r?\n/)) {
+    const bareListLabel = line.match(/^\s*(?:[-*+]|\d+[.)])\s+([A-Z][A-Za-z0-9 &/'()-]*)\s*$/)?.[1]?.trim();
+    if (bareListLabel && productTerms[bareListLabel] && /[\u0600-\u06FF]/.test(productTerms[bareListLabel])) {
+      failures.push(`${relative}: visible list label "${bareListLabel}" has a Persian UI translation "${productTerms[bareListLabel]}"`);
+    }
+    const heading = line.match(/^\s*#{1,6}\s+(.+)$/)?.[1];
+    const untranslatedHeadingLabel = heading && /[\u0600-\u06FF]/.test(heading) ? heading.match(phrasePattern || /$^/)?.[1] : null;
+    if (untranslatedHeadingLabel) {
+      const persianLabel = phraseLookup.get(untranslatedHeadingLabel.toLowerCase());
+      failures.push(`${relative}: heading contains the untranslated UI label "${untranslatedHeadingLabel}"; use "${persianLabel}"`);
+    }
+  }
   for (const [, label, wrappedHref] of visibleMarkdown.matchAll(/(?<!!)\[([^\]]+)\]\((<[^>]+>|[^\s)]+)(?:[^)]*)\)/g)) {
     const href = wrappedHref.replace(/^<|>$/g, '');
     const pointsToExternalSite = /^[a-z]+:/i.test(href);
