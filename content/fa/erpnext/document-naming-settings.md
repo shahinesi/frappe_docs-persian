@@ -1,5 +1,5 @@
 ---
-title: "تنظیمات نام‌گذاری سندها (Naming Series)"
+title: "تنظیمات نام‌گذاری سندها (سری نام‌گذاری)"
 slug: "document-naming-settings"
 source_url: "https://docs.frappe.io/erpnext/document-naming-settings"
 source_id: "erpnext/document-naming-settings"
@@ -27,20 +27,20 @@ ERPNext اجازه می‌دهد برای سندها پیشوند بسازید �
 
 الگوی Naming Series را از مسیر زیر تعریف یا انتخاب کنید:
 
-> صفحهٔ اصلی > Settings > سند Naming Settings
+> صفحهٔ اصلی > تنظیمات > سند تنظیمات نام‌گذاری
 
 ## 1. تنظیم Naming Series برای سندها
 
 1. تراکنشی را انتخاب کنید که می‌خواهید برایش سری بسازید. سیستم سری فعلی را در کادر متن نشان می‌دهد.
 2. سری را به‌دلخواه ویرایش کنید و برای هر سری پیشوندی یکتا در نظر بگیرید. نخستین پیشوند، پیشوند پیش‌فرض است. هر Naming Series جدید را در خطی جداگانه وارد کنید. سری‌های تازه در سند در دسترس قرار می‌گیرند.
 
-![تنظیمات سند Naming Settings](https://docs.frappe.io/files/document_naming_settings.gif)
+![تنظیمات سند تنظیمات نام‌گذاری](https://docs.frappe.io/files/document_naming_settings.gif)
 
 3. اگر می‌خواهید کاربر هر بار سری را صریحاً انتخاب کند و از سری پیش‌فرض استفاده نشود، گزینهٔ **User must always select** را علامت بزنید.
 4. برای تغییر نقطهٔ شروع یک سری، نام سری و شمارهٔ آغازین را در بخش **Update Series** وارد کنید.
 5. برای به‌روزرسانی مجموعهٔ Naming Series سند انتخاب‌شده، **به‌روزرسانی** را انتخاب کنید.
 
-> توجه: برای دیدن Naming Series تازه، به **Settings > Reload** بروید.
+> توجه: برای دیدن Naming Series تازه، به **تنظیمات > بارگذاری مجدد** بروید.
 
 ## 2. درج سال مالی در Naming Series
 

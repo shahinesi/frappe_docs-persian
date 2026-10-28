@@ -21,7 +21,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای ایجاد کمپین ایمیل، به مسیر زیر بروید:
 
-> صفحهٔ اصلی > CRM > Campaign > کمپین ایمیل
+> صفحهٔ اصلی > CRM > کمپین > کمپین ایمیل
 
 ## پیش‌نیازها
 

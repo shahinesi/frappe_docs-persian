@@ -6,9 +6,9 @@ source_id: "erpnext/bom-search"
 source_version: "9cdaada33d7dedf2a87a6ccf10d775b09d410d01b963d9d79efb3cb5d9a103f6"
 ---
 
-برای دسترسی به گزارش **BOM Search** به مسیر زیر بروید:
+برای دسترسی به گزارش **جست‌وجوی BOM** به مسیر زیر بروید:
 
-> صفحهٔ اصلی > Manufacturing > Reports > BOM Search گزارش
+> صفحهٔ اصلی > تولید > گزارش‌ها > گزارش جست‌وجوی BOM
 
 ![گزارش جست‌وجوی BOM](https://docs.frappe.io/files/bom-search.png)
 

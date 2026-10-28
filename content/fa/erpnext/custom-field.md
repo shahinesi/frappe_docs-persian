@@ -21,7 +21,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای دسترسی به فیلد سفارشی، به این مسیر بروید:
 
-> صفحهٔ اصلی > Customization > Form Customization > فیلد سفارشی
+> صفحهٔ اصلی > سفارشی‌سازی > سفارشی‌سازی فرم > فیلد سفارشی
 
 همچنین می‌توانید از نمای فهرست هر DocType، گزینهٔ Customize را در منو انتخاب کنید.
 

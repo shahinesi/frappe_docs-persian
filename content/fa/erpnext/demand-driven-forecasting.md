@@ -17,7 +17,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای بازکردن گزارش Forecasting، به مسیر زیر بروید:
 
-> صفحهٔ اصلی > Manufacturing > Reports > Forecasting
+> صفحهٔ اصلی > تولید > گزارش‌ها > پیش‌بینی
 
 ![پیش‌بینی تولید](https://docs.frappe.io/files/production-forecasting-using-sales-order.png)
 

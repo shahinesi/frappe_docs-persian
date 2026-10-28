@@ -17,7 +17,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای دسترسی به سند ثبت خرابی، به مسیر زیر بروید:
 
-> صفحهٔ اصلی > Manufacturing > Production > ثبت خرابی
+> صفحهٔ اصلی > تولید > تولید > ثبت خرابی
 
 ![سند ثبت خرابی](https://docs.frappe.io/files/downtime-entry.png)
 

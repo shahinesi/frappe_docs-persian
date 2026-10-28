@@ -17,7 +17,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای دسترسی به گزارش تجزیه و تحلیل زمان خرابی، به مسیر زیر بروید:
 
-> صفحهٔ اصلی > Manufacturing > Reports > تجزیه و تحلیل زمان خرابی
+> صفحهٔ اصلی > تولید > گزارش‌ها > تجزیه و تحلیل زمان خرابی
 
 ![گزارش تجزیه و تحلیل زمان خرابی](https://docs.frappe.io/files/downtime-analysis.png)
 

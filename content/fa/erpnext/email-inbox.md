@@ -44,7 +44,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای افزودن دامنه ایمیل تازه، به مسیر زیر بروید:
 
-> صفحهٔ اصلی > Settings > Emails > دامنه ایمیل > جدید
+> صفحهٔ اصلی > تنظیمات > ایمیل ها > دامنه ایمیل > جدید
 
 ![دامنه ایمیل](https://docs.frappe.io/files/email-domain.png)
 

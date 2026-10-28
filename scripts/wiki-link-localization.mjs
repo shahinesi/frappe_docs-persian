@@ -97,6 +97,14 @@ function localizeBareListLabels(text, terms, counters, mixedEntries = [], phrase
 	});
 }
 
+function localizeBreadcrumbs(text, terms, counters, mixedEntries = [], phraseTerms = terms) {
+	return text.replace(/^(\s*>\s*)([^\r\n]+)$/gm, (line, prefix, breadcrumb) => {
+		if (!breadcrumb.includes(' > ')) return line;
+		const localized = breadcrumb.split(' > ').map((segment) => localizeDisplayLabel(segment, terms, counters, mixedEntries, phraseTerms)).join(' > ');
+		return `${prefix}${localized}`;
+	});
+}
+
 function normalizeRepoPath(value) {
 	return path.posix.normalize(value.replaceAll('\\', '/')).replace(/^\.\//, '');
 }
@@ -286,7 +294,7 @@ export function prepareMarkdownLinks(markdown, {
 		const token = match[0];
 		const index = match.index ?? 0;
 		const plainText = body.slice(lastIndex, index);
-		result += localizeBareListLabels(replaceUiTerms(plainText, bodyTerms, counters, mixedEntries), allTerms, counters, mixedEntries, phraseTerms);
+		result += localizeBreadcrumbs(localizeBareListLabels(replaceUiTerms(plainText, bodyTerms, counters, mixedEntries), allTerms, counters, mixedEntries, phraseTerms), allTerms, counters, mixedEntries, phraseTerms);
 		if (token.startsWith('```') || token.startsWith('`')) {
 			result += token;
 		} else if (token.startsWith('![')) {
@@ -310,7 +318,7 @@ export function prepareMarkdownLinks(markdown, {
 		lastIndex = index + token.length;
 	}
 	const trailingText = body.slice(lastIndex);
-	result += localizeBareListLabels(replaceUiTerms(trailingText, bodyTerms, counters, mixedEntries), allTerms, counters, mixedEntries, phraseTerms);
+	result += localizeBreadcrumbs(localizeBareListLabels(replaceUiTerms(trailingText, bodyTerms, counters, mixedEntries), allTerms, counters, mixedEntries, phraseTerms), allTerms, counters, mixedEntries, phraseTerms);
 	return { markdown: prefix + result, counters, reviewIssues };
 }
 

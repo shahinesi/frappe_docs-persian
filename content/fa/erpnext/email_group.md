@@ -23,7 +23,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای بازکردن فهرست گروه ایمیل، به مسیر زیر بروید:
 
-> صفحهٔ اصلی > Settings > Email > گروه ایمیل
+> صفحهٔ اصلی > تنظیمات > ایمیل > گروه ایمیل
 
 ## ایجاد گروه ایمیل
 

@@ -21,7 +21,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای دسترسی به تنظیمات CRM، به این مسیر بروید:
 
-> صفحهٔ اصلی > CRM > Settings > تنظیمات CRM
+> صفحهٔ اصلی > CRM > تنظیمات > تنظیمات CRM
 
 ## سرنخ
 

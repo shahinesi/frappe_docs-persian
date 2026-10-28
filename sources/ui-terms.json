@@ -457,6 +457,174 @@
         "کمک?": "کمک؟"
       },
       "basis": "Manually reviewed mixed-language UI labels and status messages found in the current Persian Helpdesk pages. Technical identifiers, protocols, brands and version values are preserved."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Support",
+      "translation": "پشتیبانی",
+      "basis": "بازبینی دستی برای یکدست‌سازی برچسب‌های رابط در متن فارسی؛ شناسه‌های فنی مانند BOM حفظ شده‌اند."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Customize ERPNext",
+      "translation": "سفارشی‌سازی ERPNext",
+      "basis": "بازبینی دستی برای یکدست‌سازی برچسب‌های رابط در متن فارسی؛ شناسه‌های فنی مانند BOM حفظ شده‌اند."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Branding and Printing",
+      "translation": "برند و چاپ",
+      "basis": "بازبینی دستی برای یکدست‌سازی برچسب‌های رابط در متن فارسی؛ شناسه‌های فنی مانند BOM حفظ شده‌اند."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Print Headings",
+      "translation": "عنوان‌های چاپ",
+      "basis": "بازبینی دستی برای یکدست‌سازی برچسب‌های رابط در متن فارسی؛ شناسه‌های فنی مانند BOM حفظ شده‌اند."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Production Planning Tool",
+      "translation": "ابزار برنامه‌ریزی تولید",
+      "basis": "بازبینی دستی برای یکدست‌سازی برچسب‌های رابط در متن فارسی؛ شناسه‌های فنی مانند BOM حفظ شده‌اند."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "BOM Search",
+      "translation": "جست‌وجوی BOM",
+      "basis": "بازبینی دستی برای یکدست‌سازی برچسب‌های رابط در متن فارسی؛ شناسه‌های فنی مانند BOM حفظ شده‌اند."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "BOM Stock Report",
+      "translation": "گزارش موجودی BOM",
+      "basis": "بازبینی دستی برای یکدست‌سازی برچسب‌های رابط در متن فارسی؛ شناسه‌های فنی مانند BOM حفظ شده‌اند."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "BOM Operation Time",
+      "translation": "زمان عملیات BOM",
+      "basis": "بازبینی دستی برای یکدست‌سازی برچسب‌های رابط در متن فارسی؛ شناسه‌های فنی مانند BOM حفظ شده‌اند."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "BOM Comparison Tool",
+      "translation": "ابزار مقایسهٔ BOM",
+      "basis": "بازبینی دستی برای یکدست‌سازی برچسب‌های رابط در متن فارسی؛ شناسه‌های فنی مانند BOM حفظ شده‌اند."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "BOM Stock Analysis",
+      "translation": "تحلیل موجودی BOM",
+      "basis": "بازبینی دستی برای یکدست‌سازی برچسب‌های رابط در متن فارسی؛ شناسه‌های فنی مانند BOM حفظ شده‌اند."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Detailed Mode",
+      "translation": "حالت تفصیلی",
+      "basis": "بازبینی دستی برای یکدست‌سازی برچسب‌های رابط در متن فارسی؛ شناسه‌های فنی مانند BOM حفظ شده‌اند."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Summarised Mode",
+      "translation": "حالت خلاصه",
+      "basis": "بازبینی دستی برای یکدست‌سازی برچسب‌های رابط در متن فارسی؛ شناسه‌های فنی مانند BOM حفظ شده‌اند."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Bulk Update",
+      "translation": "به‌روزرسانی گروهی",
+      "basis": "برگردان بازبینی‌شده برای مسیر ناوبری رابط؛ شناسه‌های فنی و نام محصول حفظ می‌شوند."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Getting Started",
+      "translation": "شروع به کار",
+      "basis": "برگردان بازبینی‌شده برای مسیر ناوبری رابط؛ شناسه‌های فنی و نام محصول حفظ می‌شوند."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Serial Number",
+      "translation": "شمارهٔ سریال",
+      "basis": "برگردان بازبینی‌شده برای مسیر ناوبری رابط؛ شناسه‌های فنی و نام محصول حفظ می‌شوند."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Form Customization",
+      "translation": "سفارشی‌سازی فرم",
+      "basis": "برگردان بازبینی‌شده برای مسیر ناوبری رابط؛ شناسه‌های فنی و نام محصول حفظ می‌شوند."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Other",
+      "translation": "سایر",
+      "basis": "برگردان بازبینی‌شده برای مسیر ناوبری رابط؛ شناسه‌های فنی و نام محصول حفظ می‌شوند."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Custom Translations",
+      "translation": "ترجمه‌های سفارشی",
+      "basis": "برگردان بازبینی‌شده برای مسیر ناوبری رابط؛ شناسه‌های فنی و نام محصول حفظ می‌شوند."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Items and Pricing",
+      "translation": "کالاها و قیمت‌گذاری",
+      "basis": "برگردان بازبینی‌شده برای مسیر ناوبری رابط؛ شناسه‌های فنی و نام محصول حفظ می‌شوند."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Stock Transactions",
+      "translation": "تراکنش‌های موجودی",
+      "basis": "برگردان بازبینی‌شده برای مسیر ناوبری رابط؛ شناسه‌های فنی و نام محصول حفظ می‌شوند."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Forecasting",
+      "translation": "پیش‌بینی",
+      "basis": "برگردان بازبینی‌شده برای مسیر ناوبری رابط؛ شناسه‌های فنی و نام محصول حفظ می‌شوند."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Naming Settings",
+      "translation": "تنظیمات نام‌گذاری",
+      "basis": "برگردان بازبینی‌شده برای مسیر ناوبری رابط؛ شناسه‌های فنی و نام محصول حفظ می‌شوند."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Production",
+      "translation": "تولید",
+      "basis": "برگردان بازبینی‌شده برای مسیر ناوبری رابط؛ شناسه‌های فنی و نام محصول حفظ می‌شوند."
+    },
+    {
+      "product": "hr",
+      "source_label": "Payroll",
+      "translation": "حقوق و دستمزد",
+      "basis": "برگردان بازبینی‌شده برای مسیر ناوبری رابط؛ شناسه‌های فنی و نام محصول حفظ می‌شوند."
+    },
+    {
+      "product": "hr",
+      "source_label": "Human Resource",
+      "translation": "منابع انسانی",
+      "basis": "برگردان بازبینی‌شده برای مسیر ناوبری رابط؛ شناسه‌های فنی و نام محصول حفظ می‌شوند."
+    },
+    {
+      "product": "hr",
+      "source_label": "Performance",
+      "translation": "عملکرد",
+      "basis": "برگردان بازبینی‌شده برای مسیر ناوبری رابط؛ شناسه‌های فنی و نام محصول حفظ می‌شوند."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "عملیات BOM Time",
+      "translation": "زمان عملیات BOM",
+      "basis": "اصلاح عبارت ترکیبی باقی‌مانده در مسیر یا عنوان رابط، با حفظ شناسهٔ فنی BOM."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "نمودار of مراکز هزینه",
+      "translation": "نمودار مراکز هزینه",
+      "basis": "اصلاح عبارت ترکیبی باقی‌مانده در مسیر یا عنوان رابط، با حفظ شناسهٔ فنی BOM."
     }
   ],
   "source_files": {

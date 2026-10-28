@@ -328,6 +328,16 @@ test('translates standalone UI labels in Markdown lists without changing example
 	assert.equal(result.markdown, '- کارمند\n- دپارتمان\n- شعبه\n- Nova Electronics Trading');
 });
 
+test('localizes UI labels in navigation breadcrumbs while preserving code identifiers', () => {
+	const result = prepareMarkdownLinks('> صفحهٔ اصلی > Manufacturing > Tools > BOM Update Tool\n\n`Warehouse`', {
+		currentPath: 'content/fa/erpnext/example.md',
+		manifest: { pages: [] },
+		terms: {},
+		uiTerms: { Manufacturing: 'تولید', Tools: 'ابزارها', 'BOM Update Tool': 'ابزار به‌روزرسانی BOM' },
+	});
+	assert.equal(result.markdown, '> صفحهٔ اصلی > تولید > ابزارها > ابزار به‌روزرسانی BOM\n\n`Warehouse`');
+});
+
 test('localizes a linked label nested inside bold markup', () => {
 	const result = prepareMarkdownLinks('**[Branch](https://docs.frappe.io/hr/branch)**', {
 		currentPath: 'content/fa/hr/example.md',

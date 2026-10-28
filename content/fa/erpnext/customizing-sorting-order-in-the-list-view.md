@@ -21,7 +21,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 #### گام 1: رفتن به سفارشی‌سازی فرم
 
-> صفحهٔ اصلی > Customization > Form Customization > سفارشی‌سازی فرم
+> صفحهٔ اصلی > سفارشی‌سازی > سفارشی‌سازی فرم > سفارشی‌سازی فرم
 
 #### گام 2: انتخاب نوع سند
 

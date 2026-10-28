@@ -19,7 +19,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای دسترسی به فهرست الگوی ایمیل، به مسیر زیر بروید:
 
-> صفحهٔ اصلی > Settings > Email > الگوی ایمیل
+> صفحهٔ اصلی > تنظیمات > ایمیل > الگوی ایمیل
 
 ## 1. ایجاد الگوی ایمیل
 

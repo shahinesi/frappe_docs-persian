@@ -84,7 +84,13 @@ let changedFiles = 0;
 for (const [currentPath, page] of pages) {
 	const product = currentPath.match(/^content\/fa\/([^/]+)\//)?.[1];
 	const productTerms = {};
-	for (const locale of localeStacks[product] || ['framework']) Object.assign(productTerms, uiTermSnapshot.terms[locale] || {});
+	const productLocales = localeStacks[product] || ['framework'];
+	for (const locale of productLocales) Object.assign(productTerms, uiTermSnapshot.terms[locale] || {});
+	for (const curated of uiTermSnapshot.curated_terms || []) {
+		if (!productLocales.includes(curated.product)) continue;
+		if (curated.source_label && curated.translation) productTerms[curated.source_label] = curated.translation;
+		Object.assign(productTerms, curated.source_labels || {});
+	}
 	const prepared = prepareMarkdownLinks(page.markdown, {
 		currentPath,
 		manifest,

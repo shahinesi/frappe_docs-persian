@@ -21,7 +21,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای دیدن فهرست یادداشت تحویل، به این مسیر بروید:
 
-> صفحهٔ اصلی > موجودی > موجودی Transactions > یادداشت تحویل
+> صفحهٔ اصلی > موجودی > تراکنش‌های موجودی > یادداشت تحویل
 
 ![جریان کار یادداشت تحویل](https://docs.frappe.io/files/delivery-note-flow.png)
 
