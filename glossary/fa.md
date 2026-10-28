@@ -153,6 +153,8 @@
 | Employee Other Income | سایر درآمدهای کارمند | برچسب رابط رسمی Frappe HR؛ در API نام DocType حفظ شود. |
 | Employee Health Insurance | بیمه سلامت کارکنان | برچسب رابط رسمی Frappe HR؛ نام DocType در API حفظ شود. |
 | Employee Incentive | مشوق کارکنان | برچسب رابط رسمی Frappe HR؛ نام DocType در API حفظ شود. |
+| Employee Promotion | ارتقای کارمند | برچسب رابط رسمی Frappe HR؛ نام DocType در API حفظ شود. |
+| Employee Transfer | انتقال کارمند | برچسب رابط رسمی Frappe HR؛ نام DocType در API حفظ شود. |
 | Appraisal | ارزیابی عملکرد | چرخه و سند بررسی عملکرد کارکنان. |
 | Appraisal Template | الگوی ارزیابی عملکرد | قالب شامل KRA و معیارهای بازخورد برای امتیازدهی. |
 | Appraisal Cycle | چرخهٔ ارزیابی عملکرد | بازه و فرایند برنامه‌ریزی ارزیابی کارکنان. |
