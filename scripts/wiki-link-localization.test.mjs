@@ -318,6 +318,16 @@ test('translates single-word locale terms in visible labels without changing sam
 	assert.equal(result.markdown, '**کارمند**; Nova Electronics Trading uses **Nova Commercial Customers**.');
 });
 
+test('translates standalone UI labels in Markdown lists without changing example names', () => {
+	const result = prepareMarkdownLinks('- Employee\n- Department\n- Branch\n- Nova Electronics Trading', {
+		currentPath: 'content/fa/hr/example.md',
+		manifest: { pages: [] },
+		terms: {},
+		uiTerms: { Employee: 'کارمند', Department: 'دپارتمان', Branch: 'شعبه' },
+	});
+	assert.equal(result.markdown, '- کارمند\n- دپارتمان\n- شعبه\n- Nova Electronics Trading');
+});
+
 test('localizes a linked label nested inside bold markup', () => {
 	const result = prepareMarkdownLinks('**[Branch](https://docs.frappe.io/hr/branch)**', {
 		currentPath: 'content/fa/hr/example.md',

@@ -88,6 +88,15 @@ function localizeDisplayLabel(text, terms, counters, mixedEntries = [], phraseTe
 	return result;
 }
 
+function localizeBareListLabels(text, terms, counters, mixedEntries = [], phraseTerms = terms) {
+	return text.replace(/^(\s*(?:[-*+]|\d+[.)])\s+)([A-Z][A-Za-z0-9 &/'()-]*)(\s*)$/gm, (line, prefix, label, suffix) => {
+		const translation = terms[label.trim()];
+		if (!translation || !FA_LETTER.test(translation)) return line;
+		if (counters) counters.localizedLabels++;
+		return `${prefix}${translation}${suffix}`;
+	});
+}
+
 function normalizeRepoPath(value) {
 	return path.posix.normalize(value.replaceAll('\\', '/')).replace(/^\.\//, '');
 }
@@ -276,7 +285,8 @@ export function prepareMarkdownLinks(markdown, {
 	for (const match of body.matchAll(MARKDOWN_TOKEN)) {
 		const token = match[0];
 		const index = match.index ?? 0;
-		result += replaceUiTerms(body.slice(lastIndex, index), bodyTerms, counters, mixedEntries);
+		const plainText = body.slice(lastIndex, index);
+		result += localizeBareListLabels(replaceUiTerms(plainText, bodyTerms, counters, mixedEntries), allTerms, counters, mixedEntries, phraseTerms);
 		if (token.startsWith('```') || token.startsWith('`')) {
 			result += token;
 		} else if (token.startsWith('![')) {
@@ -299,7 +309,8 @@ export function prepareMarkdownLinks(markdown, {
 		}
 		lastIndex = index + token.length;
 	}
-	result += replaceUiTerms(body.slice(lastIndex), bodyTerms, counters, mixedEntries);
+	const trailingText = body.slice(lastIndex);
+	result += localizeBareListLabels(replaceUiTerms(trailingText, bodyTerms, counters, mixedEntries), allTerms, counters, mixedEntries, phraseTerms);
 	return { markdown: prefix + result, counters, reviewIssues };
 }
 
