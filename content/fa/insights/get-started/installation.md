@@ -32,7 +32,7 @@ Frappe Insights را می‌توان به چند روش، متناسب با نی
 2. برای نصب Frappe Insights این فرمان را اجرا کنید:
 
     python3 ./easy-install.py deploy \
-        --پروژه=insights_prod_setup \
+        --project=insights_prod_setup \
         --email=your_email.example.com \
         --image=ghcr.io/frappe/insights \
         --version=stable \
@@ -56,8 +56,8 @@ Frappe Insights را می‌توان به چند روش، متناسب با نی
 
 می‌توانید Frappe Insights را مانند هر اپ دیگری از Frappe نصب کنید. برای دریافت و نصب اپ این فرمان‌ها را اجرا کنید:
 
-    bench get-app insights --شاخه version-3
-    bench --سایت your_سایت_name install-app insights
+    bench get-app insights --branch version-3
+    bench --site your_site_name install-app insights
 
 ### هنگام نصب با مشکل روبه‌رو شده‌ام. چه کار کنم؟
 

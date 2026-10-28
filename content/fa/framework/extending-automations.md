@@ -14,8 +14,8 @@ source_version: "7d12de95b341951022a6ccf746df1082f3585e37231ca2da537d7785fac5fa2
 
     from frappe.automation_engine import emit
 
-    def on_معامله_won(معامله):
-        emit("crm.معامله_won", doc=معامله, payload={"amount": معامله.معامله_value})
+    def on_deal_won(deal):
+        emit("crm.deal_won", doc=deal, payload={"amount": deal.deal_value})
 
 | آرگومان | توضیح |
 | --- | --- |
@@ -33,13 +33,13 @@ source_version: "7d12de95b341951022a6ccf746df1082f3585e37231ca2da537d7785fac5fa2
 
 ### ازسرگیری جریان منتظر
 
-یک جریان می‌تواند ایمیلی بفرستد و سپس در **WaitForEvent** برای <code>crm.email_replied</code> با کلید تطبیق <code>{{ doc.name }}</code> منتظر بماند. با رسیدن پاسخ، اپ شما همان رخداد را با همان کلید منتشر می‌کند:
+یک جریان می‌تواند ایمیلی بفرستد و سپس در گام **WaitForEvent** برای <code>crm.email_replied</code> با کلید تطبیق <code>{{ doc.name }}</code> منتظر بماند. با رسیدن پاسخ، اپ شما همان رخداد را با همان کلید منتشر می‌کند:
 
     emit(
-        "crm.ایمیل_replied",
-        doc=سرنخ,
-        payload={"communication": comm.نام},
-        correlation_key=سرنخ.نام,
+        "crm.email_replied",
+        doc=lead,
+        payload={"communication": comm.name},
+        correlation_key=lead.name,
     )
 
 اجرای منتظر بی‌درنگ از سر گرفته می‌شود و گام‌های بعدی می‌توانند payload را از <code>context["event"]["payload"]</code> بخوانند.
@@ -49,12 +49,12 @@ source_version: "7d12de95b341951022a6ccf746df1082f3585e37231ca2da537d7785fac5fa2
 <code>emit()</code> فقط رخدادهایی را می‌پذیرد که یک اپ نصب‌شده ثبت کرده باشد؛ مگر آن‌که گزینهٔ **اجازهٔ رخدادهای ثبت‌نشده** در تنظیمات خودکارسازی فعال باشد. رخدادها را در <code>hooks.py</code> به‌صورت نام ساده یا همراه فراداده‌ای ثبت کنید که رابط‌های سازنده بتوانند نمایش دهند:
 
     automation_events = [
-        "crm.معامله_won",
+        "crm.deal_won",
         {
-            "crm.ایمیل_replied": {
-                "label": "ایمیل replied",
-                "description": "A contact replied to an ایمیل sent from CRM",
-                "subject": {"doctype_key": "reference_doctype", "نام_key": "reference_نام", "doctypes": ["CRM سرنخ", "CRM معامله"]},
+            "crm.email_replied": {
+                "label": "Email replied",
+                "description": "A contact replied to an email sent from CRM",
+                "subject": {"doctype_key": "reference_doctype", "name_key": "reference_name", "doctypes": ["CRM Lead", "CRM Deal"]},
             }
         },
     ]
@@ -69,15 +69,15 @@ source_version: "7d12de95b341951022a6ccf746df1082f3585e37231ca2da537d7785fac5fa2
     from typing import ClassVar
 
     import frappe
-    from frappe.automation_engine.اقدامات.base import AutomationAction, AutomationParamError, render_value
+    from frappe.automation_engine.actions.base import AutomationAction, AutomationParamError, render_value
 
 
     class PostToChannel(AutomationAction):
-        اقدام_type = "PostToChannel"
+        action_type = "PostToChannel"
         label = "Post to Channel"
         description = "Post a message to a team channel."
         transactional = False  # it calls an external service
-        params_schema: ClassVar[فهرست] = [
+        params_schema: ClassVar[list] = [
             {"fieldname": "channel", "label": "Channel", "fieldtype": "Data", "reqd": 1},
             {"fieldname": "message", "label": "Message", "fieldtype": "Small Text", "reqd": 1},
         ]
@@ -93,7 +93,8 @@ source_version: "7d12de95b341951022a6ccf746df1082f3585e37231ca2da537d7785fac5fa2
 
 در <code>hooks.py</code> ثبت کنید:
 
-    automation_اقدامات = ["my_app.automation.PostToChannel"]
+    # hooks.py
+    automation_actions = ["my_app.automation.PostToChannel"]
 
 ویژگی‌های کلاس:
 
@@ -111,7 +112,7 @@ source_version: "7d12de95b341951022a6ccf746df1082f3585e37231ca2da537d7785fac5fa2
 
 - <code>validate(params, doctype)</code>: هنگام ذخیرهٔ جریان و پیش از هر اجرا فراخوانی می‌شود. برای اشاره به پارامتر نامعتبر، <code>AutomationParamError</code> را همراه <code>fieldname</code> ایجاد کنید.
 - <code>execute(doc, params, context)</code>: کار را انجام می‌دهد. برای گزارش اجرا یک رشتهٔ کوتاه برگردانید یا دیکشنری‌ای با کلید <code>detail</code> و خروجی‌های موردنیاز گام‌های بعدی برگردانید تا از <code>context["steps"][step_key]</code> خوانده شوند.
-- <code>output_doctype(params)</code>: اگر کنش رکوردی می‌سازد، DocType آن را برگردانید. سپس **نام مستعار خروجی** (`Output Alias`) گام می‌تواند به رکورد جدید اشاره کند و گام‌های بعدی بر همان اساس اعتبارسنجی می‌شوند.
+- <code>output_doctype(params)</code>: اگر کنش رکوردی می‌سازد، DocType آن را برگردانید. سپس **نام مستعار خروجی** گام می‌تواند به رکورد جدید اشاره کند و گام‌های بعدی بر همان اساس اعتبارسنجی می‌شوند.
 
 کنش با کاربر **اجرا به‌عنوان** (`Run As`) جریان اجرا می‌شود؛ بنابراین بررسی‌های عادی مجوز اعمال می‌شوند. <code>frappe.db.commit()</code> را فراخوانی نکنید؛ تراکنش در اختیار موتور است. برای مکث‌دادن به اجرا از درون کنش، <code>StopAutomation("reason", resume_after=seconds)</code> را ایجاد کنید.
 
@@ -127,18 +128,19 @@ source_version: "7d12de95b341951022a6ccf746df1082f3585e37231ca2da537d7785fac5fa2
             if source_doctype != "Communication":
                 return []
             return [{
-                "نام": "sender_سرنخ",
-                "label": "سرنخ (by sender ایمیل)",
-                "هدف_doctype": "CRM سرنخ",
+                "name": "sender_lead",
+                "label": "Lead (by sender email)",
+                "target_doctype": "CRM Lead",
                 "cardinality": "one",
             }]
 
         def resolve(self, source_doc, relationship, params):
-            نام = frappe.db.get_value("CRM سرنخ", {"ایمیل": source_doc.sender})
-            return [{"doctype": "CRM سرنخ", "نام": نام}] if نام else []
+            name = frappe.db.get_value("CRM Lead", {"email": source_doc.sender})
+            return [{"doctype": "CRM Lead", "name": name}] if name else []
 
 در <code>hooks.py</code> ثبت کنید:
 
+    # hooks.py
     automation_relationships = ["my_app.automation.ContactRelationships"]
     automation_relationship_ignore = ["My Log DocType"]
 
@@ -149,13 +151,13 @@ source_version: "7d12de95b341951022a6ccf746df1082f3585e37231ca2da537d7785fac5fa2
 
 ## جلوگیری از اجرا و بررسی وضعیت خودکارسازی‌ها
 
-    from frappe.automation_engine import is_فعال, skip_automations
+    from frappe.automation_engine import is_enabled, skip_automations
 
-    if is_فعال():
+    if is_enabled():
         ...
 
     with skip_automations():
-        doc.ذخیره()  # برای این ذخیره هیچ جریان خودکارسازی اجرا نمی‌شود
+        doc.save()  # no Automation Flow fires for this save
 
 ---
 

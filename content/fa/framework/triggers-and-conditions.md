@@ -66,19 +66,19 @@ source_version: "006e8db381b3e2a6745d60e65c353846d7b79478d11ecd5a551488bef10a43d
 
 برای نمونه، در جریانی برای سرنخ:
 
-- *Status* برابر <code>Open</code> باشد.
+- *وضعیت* برابر «باز» باشد.
 - *Source* مقدار داشته باشد.
-- *Annual Revenue* بیشتر از <code>1000000</code> باشد.
+- *درآمد سالانه* بیشتر از <code>1000000</code> باشد.
 
 اگر فیلد تطبیقی تعیین نشود، جریان با همهٔ اسناد از آن نوع مطابقت می‌کند.
 
 ## شرط پیشرفته
 
-برای منطقی که در فیلدهای تطبیق قابل بیان نیست، در **عبارت پیشرفته با Python** عبارتی به زبان Python بنویسید. سند با نام <code>doc</code> در دسترس است و عبارت با ارزیاب امن Frappe ارزیابی می‌شود؛ بنابراین تابع‌های کمکی <code>frappe.utils</code> نیز در دسترس‌اند.
+برای منطقی که در فیلدهای تطبیق قابل بیان نیست، در **عبارت پیشرفته با پایتون** عبارتی به زبان پایتون بنویسید. سند با نام <code>doc</code> در دسترس است و عبارت با ارزیاب امن Frappe ارزیابی می‌شود؛ بنابراین تابع‌های کمکی <code>frappe.utils</code> نیز در دسترس‌اند.
 
     doc.status == "Open" or doc.priority == "High"
 
-    doc.grand_total > 50000 and doc.مشتری_group != "Internal"
+    doc.grand_total > 50000 and doc.customer_group != "Internal"
 
 فیلدهای تطبیق **و** عبارت باید هر دو درست باشند. اگر عبارت خطا ایجاد کند، سند منطبق در نظر گرفته نمی‌شود و خطا در لاگ خطا ثبت می‌شود.
 
@@ -111,7 +111,7 @@ source_version: "006e8db381b3e2a6745d60e65c353846d7b79478d11ecd5a551488bef10a43d
     from frappe.automation_engine import skip_automations
 
     with skip_automations():
-        doc.ذخیره()
+        doc.save()
 
 ---
 

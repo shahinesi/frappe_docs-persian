@@ -65,9 +65,9 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ## نمونه
 
     results = frappe.db.get_all(
-        "سفارش فروش",
+        "Sales Order",
         filters={"docstatus": 1},
-        fields=["مشتری", "transaction_date", "grand_total"],
+        fields=["customer", "transaction_date", "grand_total"],
         limit_page_length=0,
     )
 

@@ -64,7 +64,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
    - <code>customer_state</code>
 6. نام پرس‌وجو را «داده‌های فروش» بگذارید.
 
-![پرس‌وجوی Sales Data](https://docs.frappe.io/files/sales-data-query.png)
+![پرس‌وجوی داده‌های فروش](https://docs.frappe.io/files/sales-data-query.png)
 
 ## 3. ساخت نمودارها
 
