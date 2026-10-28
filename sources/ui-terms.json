@@ -202,6 +202,198 @@
       "basis": "Localized the visible ticket-priority field label; the exact fieldname is retained in inline code."
     },
     {
+      "product": "framework",
+      "source_label": "Output Alias",
+      "translation": "نام مستعار خروجی",
+      "basis": "Localized the visible automation-step field; docs retain its source label in inline code at first technical mention."
+    },
+    {
+      "product": "framework",
+      "source_label": "Run As",
+      "translation": "اجرا به‌عنوان",
+      "basis": "Localized the visible automation execution-identity setting; docs retain its source label in inline code at first technical mention."
+    },
+    {
+      "product": "framework",
+      "source_label": "Automation User",
+      "translation": "کاربر خودکارسازی",
+      "basis": "Localized the visible automation-user field and choice."
+    },
+    {
+      "product": "framework",
+      "source_label": "Triggering User",
+      "translation": "کاربر آغازگر",
+      "basis": "Localized the visible automation execution-user choice."
+    },
+    {
+      "product": "framework",
+      "source_label": "Step Condition",
+      "translation": "شرط گام",
+      "basis": "Localized the visible automation-step condition field; docs retain its source label in inline code at first technical mention."
+    },
+    {
+      "product": "framework",
+      "source_label": "Parent Step",
+      "translation": "گام والد",
+      "basis": "Localized the visible automation-step parent field."
+    },
+    {
+      "product": "framework",
+      "source_label": "Step Type",
+      "translation": "نوع گام",
+      "basis": "Localized the visible automation-step type field."
+    },
+    {
+      "product": "framework",
+      "source_label": "If",
+      "translation": "اگر",
+      "basis": "Localized the visible automation branch label."
+    },
+    {
+      "product": "framework",
+      "source_label": "Else",
+      "translation": "وگرنه",
+      "basis": "Localized the visible automation branch label."
+    },
+    {
+      "product": "framework",
+      "source_label": "Only If Creator",
+      "translation": "فقط اگر ایجادکننده باشد",
+      "basis": "Localized the visible export permission option."
+    },
+    {
+      "product": "framework",
+      "source_label": "Key required",
+      "translation": "کلید الزامی",
+      "basis": "Localized the visible Web Form option; docs retain its source label in inline code at first technical mention."
+    },
+    {
+      "product": "framework",
+      "source_label": "Buying",
+      "translation": "خرید",
+      "basis": "Uses the Persian ERPNext locale label for the Buying workspace demonstrated in the Framework workspace guide."
+    },
+    {
+      "product": "framework",
+      "source_label": "Material Request",
+      "translation": "درخواست مواد",
+      "basis": "Uses the Persian ERPNext locale label for the linked DocType demonstrated in the Framework workspace guide."
+    },
+    {
+      "product": "framework",
+      "source_label": "Event Payload Limit",
+      "translation": "حد بار دادهٔ رخداد",
+      "basis": "Localized the visible automation setting that limits the size of event data."
+    },
+    {
+      "product": "framework",
+      "source_label": "Revalidate on Run",
+      "translation": "بازاعتبارسنجی هنگام اجرا",
+      "basis": "Localized the visible automation trigger option."
+    },
+    {
+      "product": "framework",
+      "source_label": "Date Offset (Days)",
+      "translation": "فاصلهٔ تاریخ (روز)",
+      "basis": "Localized the visible date-trigger offset field."
+    },
+    {
+      "product": "framework",
+      "source_label": "Date Direction",
+      "translation": "جهت تاریخ",
+      "basis": "Localized the visible date-trigger direction field."
+    },
+    {
+      "product": "framework",
+      "source_label": "Cron Expression",
+      "translation": "عبارت Cron",
+      "basis": "Localized the scheduled-trigger field while retaining the established technical term Cron."
+    },
+    {
+      "product": "framework",
+      "source_label": "Next Run",
+      "translation": "اجرای بعدی",
+      "basis": "Localized the next scheduled execution indicator."
+    },
+    {
+      "product": "framework",
+      "source_label": "Manual",
+      "translation": "دستی",
+      "basis": "Localized the manual automation trigger type."
+    },
+    {
+      "product": "framework",
+      "source_label": "Relationships",
+      "translation": "ارتباط‌ها",
+      "basis": "Localized the visible automation relationships configuration section."
+    },
+    {
+      "product": "framework",
+      "source_label": "Doc Values",
+      "translation": "مقادیر سند",
+      "basis": "Localized the visible Web Form field group; docs retain the source label in inline code at first technical mention."
+    },
+    {
+      "product": "framework",
+      "source_label": "Guest",
+      "translation": "مهمان",
+      "basis": "Localized the visible system user type."
+    },
+    {
+      "product": "framework",
+      "source_label": "Menu (⋮)",
+      "translation": "منو (⋮)",
+      "basis": "Localized the visible form menu label while preserving the icon."
+    },
+    {
+      "product": "framework",
+      "source_label": "Forgot Password",
+      "translation": "فراموشی گذرواژه",
+      "basis": "Localized the visible login recovery link."
+    },
+    {
+      "product": "framework",
+      "source_label": "Event Producer",
+      "translation": "تولیدکنندهٔ رخداد",
+      "basis": "Localized the legacy event-streaming site role."
+    },
+    {
+      "product": "framework",
+      "source_label": "Event Consumer",
+      "translation": "مصرف‌کنندهٔ رخداد",
+      "basis": "Localized the legacy event-streaming site role."
+    },
+    {
+      "product": "framework",
+      "source_label": "Developer Mode",
+      "translation": "حالت توسعه‌دهنده",
+      "basis": "Localized the visible development setting; the site-config key remains in code."
+    },
+    {
+      "product": "framework",
+      "source_label": "Single",
+      "translation": "تک‌نمونه",
+      "basis": "Localized the visible DocType type and retain its exact name in inline code at first technical mention."
+    },
+    {
+      "product": "framework",
+      "source_label": "Perm Type",
+      "translation": "نوع مجوز",
+      "basis": "Localized the visible permission table column."
+    },
+    {
+      "product": "framework",
+      "source_label": "Approve",
+      "translation": "تأیید",
+      "basis": "Localized the visible permission action."
+    },
+    {
+      "product": "framework",
+      "source_label": "User → Roles",
+      "translation": "کاربر → نقش‌ها",
+      "basis": "Localized the visible navigation path for user-role assignment."
+    },
+    {
       "product": "erpnext",
       "source_label": "Price Lists",
       "translation": "لیست‌های قیمت",
