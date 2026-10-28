@@ -34,7 +34,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ```js
 const actions = [{
-"label": "Open in Desk",
+"label": "بازکردن در میزکار",
 "onClick": () => {
 let URL = `https://frappehelpdesk.frappe.cloud/app/hd-ticket/${doc.name}`
 window.open(URL, '_blank')
@@ -50,36 +50,36 @@ window.open(URL, '_blank')
 
 ### کنش‌های گروه‌بندی‌شده
 
-این کد گروهی از دکمه‌ها را زیر منوی سه‌نقطه‌ای با عنوان **افزودن** پنهان می‌کند. با کلیک روی **بازکردن تحلیل هفتگی** یا **بازکردن تحلیل مقاله** تابع onClick متناظر اجرا می‌شود (تعریف توابع در جای دیگری انجام می‌شود).
+این کد گروهی از دکمه‌ها را زیر منوی سه‌نقطه‌ای با عنوان **افزودن** پنهان می‌کند. با کلیک روی **بازکردن تحلیل هفتگی** یا **بازکردن تحلیل مقاله‌ها** تابع onClick متناظر اجرا می‌شود (تعریف توابع در جای دیگری انجام می‌شود).
 
 ![اسکریپت منوی سه‌نقطه‌ای](https://docs.frappe.io/files/Three%20dots%20script.png)
 
 ```js
 const actions = [
 {
-group: 'Reports',
+group: 'گزارش‌ها',
 hideLabel: true,
 options: [
 {
-label: 'Open Weekly Analysis',
+label: 'بازکردن تحلیل هفتگی',
 onClick: () => {},
 },
 {
-label: 'Open Articles Analytics',
+label: 'بازکردن تحلیل مقاله‌ها',
 onClick: () => {},
 },
 ],
 },
 {
-group: 'Ticket',
+group: 'تیکت',
 options: [
 {
-label: 'Create a new ticket',
+label: 'ایجاد تیکت جدید',
 onClick: () => {},
 },
-// suggest some action other than open in fc
+// پیشنهادی: کنشی غیر از بازکردن در Frappe Cloud
 {
-label: 'Open Customer Details',
+label: 'نمایش جزئیات مشتری',
 onClick: () => {},
 },
 ],
@@ -97,16 +97,16 @@ onClick: () => {},
 
 ```js
 const actions = [{
-"buttonLabel": "Reports",
-"group": "Add",
+"buttonLabel": "گزارش‌ها",
+"group": "افزودن",
 "hideLabel": true,
 "options": [
 {
-label: 'Open Weekly Analysis',
+label: 'بازکردن تحلیل هفتگی',
 onClick: () => {},
 },
 {
-label: 'Open Articles Analytics',
+label: 'بازکردن تحلیل مقاله‌ها',
 onClick: () => {},
 },
 ]
@@ -159,7 +159,7 @@ onClick: () => {},
 
 ## نمونه: کنش‌های سفارشی برای مدیریت تیکت
 
-این نمونه چند کنش سفارشی برای مدیریت معاملهها را نشان می‌دهد:
+این نمونه چند کنش سفارشی برای مدیریت تیکت‌ها را نشان می‌دهد:
 
 ![نمونهٔ پنجره‌های کنش](https://docs.frappe.io/files/Dialogs.gif)
 
@@ -174,32 +174,32 @@ function setupForm({
 }) {
   const actions = [
     {
-      group: "Actions",
+      group: "اقدام‌ها",
       hideLabel: true,
       options: [
         {
-          label: "Open FC Info",
+          label: "نمایش اطلاعات Frappe Cloud",
           onClick: () => {
-            // Call API to get custom information
+            // برای دریافت اطلاعات سفارشی، API را فراخوانی کنید
             call("show_custom_info", {
               ticket: doc.name,
-              // Include relevant fields for fetching data
+              // فیلدهای لازم برای دریافت داده را اضافه کنید
             }).then((data) => {
               if (data.name) {
                 $dialog({
                   title: data?.title,
                   message: data?.message,
-                  html: data?.html, // this field can be in HTML format
+                  html: data?.html, // این فیلد می‌تواند قالب HTML داشته باشد
                   actions: [
                     {
-                      label: "Open in FC",
+                      label: "بازکردن در Frappe Cloud",
                       variant: "solid",
                       onClick() {
                         let URL = `http://helpdesk:8010/app/hd-ticket/${doc?.name}`;
                         window.open(URL, "_blank");
                       },
                     },
-                    //   add more actions
+                    //   افزودن کنش‌های دیگر
                   ],
                 });
               }
@@ -207,20 +207,20 @@ function setupForm({
           },
         },
         {
-          label: "Close this ticket",
+          label: "بستن این تیکت",
           onClick: () => {
             $dialog({
-              title: "Close this ticket?",
-              message: "Are you sure you want to mark this close this ticket?",
+              title: "این تیکت بسته شود؟",
+              message: "مطمئن هستید که می‌خواهید این تیکت را ببندید؟",
               actions: [
                 {
-                  label: "Close",
+                  label: "بستن",
                   theme: "red",
                   variant: "solid",
                   onClick({ close }) {
                     updateField("status", "Closed", () => {
                       createToast({
-                        title: "Ticket has been closed",
+                        title: "تیکت بسته شد",
                         icon: "alert-circle",
                       });
                       close();
@@ -228,7 +228,7 @@ function setupForm({
                   },
                 },
                 {
-                  label: "Cancel",
+                  label: "لغو",
                   variant: "outline",
                   onClick({ close }) {
                     close();
@@ -243,14 +243,14 @@ function setupForm({
   ];
   if (doc.status !== "Closed") {
     actions.push({
-      label: "Close the ticket",
+      label: "بستن تیکت",
       onClick: () => {
         $dialog({
-          title: `Close ticket: ${doc.name}`,
-          message: "Are you sure you want to close this ticket?",
+          title: `بستن تیکت: ${doc.name}`,
+          message: "مطمئن هستید که می‌خواهید این تیکت را ببندید؟",
           actions: [
             {
-              label: "Close",
+              label: "بستن",
               theme: "red",
               variant: "solid",
               onClick({ close }) {
@@ -259,7 +259,7 @@ function setupForm({
               },
             },
             {
-              label: "Cancel",
+              label: "لغو",
               variant: "outline",
               onClick({ close }) {
                 close();
