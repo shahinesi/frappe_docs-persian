@@ -55,7 +55,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ![تغییر وضعیت حضور و غیاب](https://frappehr.com/files/changed%20status.png)
 
-می‌توان ارسال درخواست را با [گردش‌کارها](https://docs.erpnext.com/docs/v14/user/manual/en/setting-up/workflows) کنترل کرد تا پیش از اعمال، تأیید شود.
+می‌توان ارسال درخواست را با [گردش‌کارها](https://docs.frappe.io/erpnext/workflows) کنترل کرد تا پیش از اعمال، تأیید شود.
 
 ### 3.2 درخواست گروهی برای حضور و غیاب
 

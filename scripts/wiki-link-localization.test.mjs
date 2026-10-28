@@ -84,6 +84,26 @@ test('resolves canonical aliases outside the main product section list', () => {
 	assert.equal(result.markdown, '[شاخه](branch.md)');
 });
 
+test('maps legacy docs.erpnext.com URLs through their verified redirect to a translated target', () => {
+	const source = {
+		pages: [{
+			url: 'https://docs.frappe.io/erpnext/chart-of-accounts',
+			section: 'erpnext',
+			source_title: 'Chart of Accounts',
+			translation_path: 'content/fa/erpnext/chart-of-accounts.md',
+		}],
+	};
+	const result = prepareMarkdownLinks('[درخت حساب‌ها](https://docs.erpnext.com/docs/user/manual/en/chart-of-accounts)', {
+		currentPath: 'content/fa/hr/expense-claim.md',
+		manifest: source,
+		aliases: new Map([['/docs/user/manual/en/chart-of-accounts', '/erpnext/chart-of-accounts']]),
+		titles: new Map([['content/fa/erpnext/chart-of-accounts.md', 'درخت حساب‌ها']]),
+		terms: {},
+	});
+	assert.equal(result.markdown, '[درخت حساب‌ها](../erpnext/chart-of-accounts.md)');
+	assert.equal(result.counters.localizedUrls, 1);
+});
+
 test('treats translated labels containing the word source as normal page links', () => {
 	const leadSource = {
 		pages: [{

@@ -28,7 +28,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ![افزودن فیلدهای سفارشی برای نشانی](https://docs.frappe.io/files/q90efZM.png)
 
-برای آشنایی با ساخت فیلد سفارشی در DocType، راهنمای [فیلدهای سفارشی در ERPNext](https://docs.erpnext.com/docs/v13/user/manual/en/customize-erpnext/custom-field) را ببینید.
+برای آشنایی با ساخت فیلد سفارشی در DocType، راهنمای [فیلدهای سفارشی در ERPNext](custom-field.md) را ببینید.
 
 پس از این گام، DocType انتخاب‌شده باید دو فیلد جدید داشته باشد؛ مانند نمونهٔ زیر:
 

@@ -98,7 +98,7 @@ function getOfficialPage(href, byPath, aliases = new Map()) {
 		const url = href.startsWith('/')
 			? new URL(href, 'https://docs.frappe.io')
 			: new URL(href);
-		if (url.hostname.toLowerCase() !== 'docs.frappe.io') return null;
+		if (!['docs.frappe.io', 'docs.erpnext.com'].includes(url.hostname.toLowerCase())) return null;
 		if (url.pathname.startsWith('/files/')) return null;
 		const pathname = decodeURI(url.pathname).replace(/\/$/, '').replace(/\.md$/i, '');
 		const section = pathname.split('/')[1];

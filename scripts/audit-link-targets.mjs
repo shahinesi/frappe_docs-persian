@@ -29,10 +29,11 @@ async function walk(directory) {
 				const href = match[1].replace(/^<|>$/g, '');
 				try {
 					const url = href.startsWith('/') ? new URL(href, 'https://docs.frappe.io') : new URL(href);
-					if (url.hostname !== 'docs.frappe.io' || url.pathname.startsWith('/files/')) continue;
+					if (!['docs.frappe.io', 'docs.erpnext.com'].includes(url.hostname) || url.pathname.startsWith('/files/')) continue;
 					const pagePath = normalizePath(url.pathname);
-					if (knownPaths.has(pagePath)) continue;
-					const canonical = `https://docs.frappe.io${url.pathname.replace(/\/$/, '')}`;
+					if (url.hostname === 'docs.frappe.io' && knownPaths.has(pagePath)) continue;
+					url.hash = '';
+					const canonical = url.href.replace(/\/$/, '');
 					const file = path.relative(root, absolute).replaceAll('\\', '/');
 					if (!found.has(canonical)) found.set(canonical, new Set());
 					found.get(canonical).add(file);

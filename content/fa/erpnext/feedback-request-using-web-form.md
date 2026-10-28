@@ -30,7 +30,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ![نمونهٔ DocType سفارشی برای امتیازدهی](https://docs.frappe.io/files/oUDbd8e.png)
 
 1. در فیلدهای نخست، DocTypeهایی را فهرست کنید که می‌خواهید برایشان امتیاز ثبت شود.
-2. در فیلد **سند Name**، نام فیلد نخست، یعنی `document`، را وارد کنید تا این فیلد به یک [لینک پویا](https://docs.erpnext.com/docs/v14/user/manual/en/customize-erpnext/articles/dynamic-link-fields) تبدیل شود.
+2. در فیلد **سند Name**، نام فیلد نخست، یعنی `document`، را وارد کنید تا این فیلد به یک [لینک پویا](dynamic-link-fields.md) تبدیل شود.
 3. یک فیلد **Rating** اضافه کنید. در صورت نیاز می‌توانید فیلد داده یا انتخابی دیگری هم برای ثبت امتیاز در نظر بگیرید.
 
 ## ساخت فرم وب بازخورد
