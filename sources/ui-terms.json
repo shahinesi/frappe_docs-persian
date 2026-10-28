@@ -10,6 +10,34 @@
       "basis": "Reviewed Persian destination title for the official Framework page; used to make links identify their actual destination."
     },
     {
+      "product": "wiki",
+      "source_labels": {
+        "Add Wiki Space": "افزودن فضای Wiki",
+        "Add Group": "افزودن گروه",
+        "Revisions": "بازبینی‌ها",
+        "Install Now": "نصب اکنون"
+      },
+      "basis": "Reviewed visible Wiki and Marketplace controls; the Wiki repository has no Persian locale for these labels."
+    },
+    {
+      "product": "erpnext",
+      "source_labels": {
+        "Search bar": "نوار جست‌وجو",
+        "E Commerce Settings": "تنظیمات فروشگاه اینترنتی",
+        "Item Search Settings": "تنظیمات جست‌وجوی کالا",
+        "Enable Redisearch": "فعال‌کردن RediSearch"
+      },
+      "basis": "Reviewed visible ERPNext controls; the exact labels are absent from the current Persian locale snapshot."
+    },
+    {
+      "product": "helpdesk",
+      "source_labels": {
+        "Agent Manager": "مدیر کارشناسان پشتیبانی",
+        "Admin": "مدیر سامانه"
+      },
+      "basis": "Reviewed Helpdesk role labels; these labels are absent from the current Persian locale snapshot."
+    },
+    {
       "product": "crm",
       "source_label": "CRM Lead",
       "translation": "سرنخ",

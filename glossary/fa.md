@@ -19,6 +19,12 @@
 | Add Group | افزودن گروه | برچسب دکمه در نوار کناری Wiki؛ مخزن Wiki فاقد locale فارسی بود. |
 | Revisions | بازبینی‌ها | گزینهٔ نمایش بازبینی‌های صفحه در منوی Wiki؛ مخزن Wiki فاقد locale فارسی بود. |
 | Install Now | نصب اکنون | دکمهٔ نصب برنامه در Frappe Cloud Marketplace. |
+| Search bar | نوار جست‌وجو | برچسب رابط جست‌وجوی فروشگاه اینترنتی. |
+| E Commerce Settings | تنظیمات فروشگاه اینترنتی | مسیر رابط در تنظیمات ERPNext. |
+| Item Search Settings | تنظیمات جست‌وجوی کالا | بخش تنظیمات جست‌وجوی فروشگاه اینترنتی. |
+| Enable Redisearch | فعال‌کردن RediSearch | برچسب گزینهٔ فعال‌سازی نمایهٔ جست‌وجو. |
+| Agent Manager | مدیر کارشناسان پشتیبانی | نقش مدیریتی در Helpdesk؛ برچسب locale فارسی در snapshot موجود نبود. |
+| Admin | مدیر سامانه | نقش مدیریت در Helpdesk؛ برچسب locale فارسی در snapshot موجود نبود. |
 | Web Form | Web Form (فرم وب) | نام DocType و برچسب فنی حفظ شود؛ در توضیح عمومی «فرم وب» به‌کار رود. |
 | Web Form Request | درخواست Web Form | سندی برای تولید پیوند خصوصی با کلید دسترسی به فرم. |
 | Workspace Manager | مدیر محیط کار (Workspace Manager) | ترجمهٔ فعلی رابط رسمی؛ نام فنی نقش در کد محفوظ بماند. |
