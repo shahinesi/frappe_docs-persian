@@ -1831,6 +1831,138 @@
         "Enable بازخورد": "فعال‌کردن بازخورد"
       },
       "basis": "برگردان یکدست برچسب‌های تنظیمات رابط Wiki؛ نام فنی RediSearch حفظ شده است."
+    },
+    {
+      "product": "helpdesk",
+      "source_label": "Reviews",
+      "translation": "بازخوردها",
+      "basis": "Manual contextual UI label for the recent customer feedback widget; the current Helpdesk Persian locale provides no non-empty translation for this label."
+    },
+    {
+      "product": "helpdesk",
+      "source_label": "Set as Primary",
+      "translation": "تنظیم به‌عنوان اصلی",
+      "basis": "Manual Persian label; the current Helpdesk Persian locale entry is empty."
+    },
+    {
+      "product": "helpdesk",
+      "source_label": "Message Body",
+      "translation": "متن پیام",
+      "basis": "Manual Persian label for the email editor field; the current Helpdesk Persian locale has no non-empty matching label."
+    },
+    {
+      "product": "helpdesk",
+      "source_label": "Canned Responses",
+      "translation": "پاسخ‌های آماده",
+      "basis": "Manual Persian label for saved response snippets; no matching non-empty Helpdesk locale entry."
+    },
+    {
+      "product": "helpdesk",
+      "source_label": "Use ASCII encoding for the password",
+      "translation": "استفاده از کدگذاری ASCII برای گذرواژه",
+      "basis": "Manual Persian label; preserve ASCII as the technical encoding name."
+    },
+    {
+      "product": "helpdesk",
+      "source_label": "Add Holiday",
+      "translation": "افزودن تعطیلی",
+      "basis": "Manual contextual UI label; the current Helpdesk Persian locale entry is empty."
+    },
+    {
+      "product": "helpdesk",
+      "source_label": "Assignment conditions",
+      "translation": "شرایط تخصیص",
+      "basis": "Use the existing official Helpdesk translation for the matching Assignment Conditions label."
+    },
+    {
+      "product": "insights",
+      "source_label": "General Access",
+      "translation": "دسترسی عمومی",
+      "basis": "Manual Persian label for dashboard sharing scope; no non-empty matching Insights locale entry."
+    },
+    {
+      "product": "insights",
+      "source_label": "Add People",
+      "translation": "افزودن افراد",
+      "basis": "Manual Persian label for the dashboard sharing action; no non-empty matching Insights locale entry."
+    },
+    {
+      "product": "insights",
+      "source_label": "Copy Link",
+      "translation": "کپی پیوند",
+      "basis": "Use the existing Persian UI term, scoped here to Insights because product locale stacks are isolated."
+    },
+    {
+      "product": "insights",
+      "source_label": "Get Embed Code",
+      "translation": "دریافت کد جاسازی",
+      "basis": "Manual Persian label for the dashboard embed action; no non-empty matching Insights locale entry."
+    },
+    {
+      "product": "insights",
+      "source_label": "Refresh Tables",
+      "translation": "تازه‌کردن جدول‌ها",
+      "basis": "Manual Persian label; the current Insights Persian locale entry is empty."
+    },
+    {
+      "product": "insights",
+      "source_label": "Update Table Links",
+      "translation": "به‌روزرسانی پیوندهای جدول",
+      "basis": "Manual Persian label; the current Insights Persian locale entry is empty."
+    },
+    {
+      "product": "insights",
+      "source_label": "Use Secure Connection",
+      "translation": "استفاده از اتصال امن",
+      "basis": "Manual Persian label for the SSL connection option; the matching locale message is empty."
+    },
+    {
+      "product": "insights",
+      "source_label": "Open in v3",
+      "translation": "بازکردن در نسخهٔ ۳",
+      "basis": "Manual Persian label; keep the version number, localize the visible action."
+    },
+    {
+      "product": "insights",
+      "source_label": "Force Run",
+      "translation": "اجرای اجباری",
+      "basis": "Manual Persian label for bypassing the query cache."
+    },
+    {
+      "product": "insights",
+      "source_label": "hostname",
+      "translation": "نام میزبان",
+      "basis": "Manual Persian label for the database host field."
+    },
+    {
+      "product": "insights",
+      "source_label": "username",
+      "translation": "نام کاربری",
+      "basis": "Manual Persian label for the database username field."
+    },
+    {
+      "product": "insights",
+      "source_label": "password",
+      "translation": "گذرواژه",
+      "basis": "Manual Persian label for the database password field."
+    },
+    {
+      "product": "insights",
+      "source_label": "Private",
+      "translation": "خصوصی",
+      "basis": "Reuse the established Persian privacy option for the Insights sharing scope."
+    },
+    {
+      "product": "insights",
+      "source_label": "Organization",
+      "translation": "سازمان",
+      "basis": "Manual Persian label for the Insights dashboard sharing scope."
+    },
+    {
+      "product": "insights",
+      "source_label": "Public",
+      "translation": "عمومی",
+      "basis": "Reuse the established Persian public-sharing option."
     }
   ],
   "source_files": {
@@ -3217,7 +3349,7 @@
       "Link Cards": "کارت‌های پیوند",
       "Marketing": "بازار یابی",
       "Accounting Dimension": "بُعد حسابداری",
-      "Accounting Dimension Filter": "فیلتر بُعد حسابداری",
+      "Accounting Dimension Filter": "فیلتر ابعاد حسابداری",
       "Add Accounting Dimension": "افزودن بُعد حسابداری",
       "Add Accounting Dimension Filter": "افزودن فیلتر بُعد حسابداری",
       "بُعد حسابداری Filter": "فیلتر بُعد حسابداری",
@@ -3233,7 +3365,6 @@
       "Mandatory For Balance Sheet": "اجباری برای ترازنامه",
       "Dimension Defaults": "پیش‌فرض‌های ابعاد",
       "Default Dimension": "ابعاد پیش‌فرض",
-      "Accounting Dimension Filter": "فیلتر ابعاد حسابداری",
       "Dimension Name": "نام ابعاد",
       "Profit and Loss Statement": "صورت سود و زیان",
       "Update Stock": "به‌روزرسانی موجودی",
