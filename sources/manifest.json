@@ -32888,10 +32888,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "eb55becb64f92d03413f8081a3dac50a3bdb73e83f7f151f6a0e7c5b50ae2b41",
       "source_modified": "2026-02-04",
-      "translation_status": "not_started",
+      "translation_status": "translated",
       "quality_status": "not_reviewed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/hr/employee-checkin.md",
       "discovered_at": "2026-10-27T05:52:36.575Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/hr/employee-checkin.md",
@@ -32904,7 +32904,8 @@
       "license_status": "unverified",
       "attribution_required": true,
       "unofficial_translation": true,
-      "snapshot_status": "fetched"
+      "snapshot_status": "fetched",
+      "source_snapshot_path": "sources/hr/employee-checkin.md"
     },
     {
       "url": "https://docs.frappe.io/hr/employee-flexible-benefits",
@@ -36237,10 +36238,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "ef07fded0d6e94e4a72dfbe3c11c60b1c6ee61ae82808b414f06264597715e1d",
       "source_modified": "2026-02-04",
-      "translation_status": "not_started",
+      "translation_status": "translated",
       "quality_status": "not_reviewed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/hr/shift-assignment.md",
       "discovered_at": "2026-10-27T05:52:36.583Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/hr/shift-assignment.md",
@@ -36253,7 +36254,8 @@
       "license_status": "unverified",
       "attribution_required": true,
       "unofficial_translation": true,
-      "snapshot_status": "fetched"
+      "snapshot_status": "fetched",
+      "source_snapshot_path": "sources/hr/shift-assignment.md"
     },
     {
       "url": "https://docs.frappe.io/hr/shift-assignment-tool",
@@ -36437,10 +36439,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "c1289f454fe4e770a32292912dac46dcf90513e1f36e7acf60f99d17f6d99cb7",
       "source_modified": "2026-02-04",
-      "translation_status": "not_started",
+      "translation_status": "translated",
       "quality_status": "not_reviewed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/hr/shift-type.md",
       "discovered_at": "2026-10-27T05:52:36.586Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/hr/shift-type.md",
@@ -36453,7 +36455,8 @@
       "license_status": "unverified",
       "attribution_required": true,
       "unofficial_translation": true,
-      "snapshot_status": "fetched"
+      "snapshot_status": "fetched",
+      "source_snapshot_path": "sources/hr/shift-type.md"
     },
     {
       "url": "https://docs.frappe.io/hr/staffing-plan",
