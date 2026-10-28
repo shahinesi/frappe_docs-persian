@@ -70,4 +70,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ---
 
-**منبع:** [مستندات رسمی Frappe Helpdesk](https://docs.frappe.io/helpdesk/other-features/bulk-reply). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.
+**منبع:** [پاسخ گروهی](https://docs.frappe.io/helpdesk/other-features/bulk-reply). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

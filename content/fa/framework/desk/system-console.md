@@ -6,7 +6,7 @@ source_id: "framework/user/en/desk/scripting/system-console"
 source_version: "d4cb3e4bfd2cfeca7a6448f62d5ac6ee9f366c92fa8bac6859374bfe01942de1"
 ---
 
-کنسول سیستم برای اجرای فرمان‌های Python و عیب‌یابی بر پایهٔ [راهنمای «Script API» در Frappe Framework](https://docs.frappe.io/framework/user/en/desk/scripting/script-api) به‌کار می‌رود. استفاده از آن فقط برای کاربرانی با نقش **مدیر سیستم** مجاز است.
+کنسول سیستم برای اجرای فرمان‌های Python و عیب‌یابی بر پایهٔ [API اسکریپت](https://docs.frappe.io/framework/user/en/desk/scripting/script-api) به‌کار می‌رود. استفاده از آن فقط برای کاربرانی با نقش **مدیر سیستم** مجاز است.
 
 برای بازکردن کنسول سیستم، نام آن را در نوار جست‌وجو وارد و جست‌وجو کنید.
 
@@ -14,7 +14,7 @@ source_version: "d4cb3e4bfd2cfeca7a6448f62d5ac6ee9f366c92fa8bac6859374bfe01942de
 
 ### API
 
-متدهایی که [راهنمای «Script API» در Frappe Framework](https://docs.frappe.io/framework/user/en/desk/scripting/script-api) در دسترس می‌گذارد، از طریق کنسول سیستم قابل اجرا هستند.
+متدهایی که [API اسکریپت](https://docs.frappe.io/framework/user/en/desk/scripting/script-api) در دسترس می‌گذارد، از طریق کنسول سیستم قابل اجرا هستند.
 
 ### ثبت پاسخ در گزارش
 

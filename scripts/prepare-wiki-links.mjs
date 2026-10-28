@@ -15,6 +15,7 @@ const localeStacks = {
 	wiki: ['framework'], other: ['framework'],
 };
 const linkAudit = JSON.parse(await readFile(path.join(root, 'sources', 'link-target-audit.json'), 'utf8'));
+const linkTitleOverrides = JSON.parse(await readFile(path.join(root, 'sources', 'link-title-overrides.json'), 'utf8'));
 const curatedAliases = JSON.parse(await readFile(path.join(root, 'sources', 'link-aliases.json'), 'utf8'));
 const aliases = new Map();
 const manifestPaths = new Set(manifest.pages.map((page) => new URL(page.url).pathname.replace(/\/$/, '')));
@@ -84,7 +85,15 @@ for (const [currentPath, page] of pages) {
 	const product = currentPath.match(/^content\/fa\/([^/]+)\//)?.[1];
 	const productTerms = {};
 	for (const locale of localeStacks[product] || ['framework']) Object.assign(productTerms, uiTermSnapshot.terms[locale] || {});
-	const prepared = prepareMarkdownLinks(page.markdown, { currentPath, manifest, aliases, titles, terms, uiTerms: productTerms });
+	const prepared = prepareMarkdownLinks(page.markdown, {
+		currentPath,
+		manifest,
+		aliases,
+		titles,
+		terms,
+		uiTerms: productTerms,
+		linkLabels: linkTitleOverrides.descriptions,
+	});
 	for (const [key, value] of Object.entries(prepared.counters)) totals[key] += value;
 	reviewIssues.push(...prepared.reviewIssues);
 	if (prepared.markdown === page.markdown) continue;

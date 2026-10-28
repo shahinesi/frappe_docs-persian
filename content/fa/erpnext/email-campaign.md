@@ -104,4 +104,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - [سرنخ](https://docs.frappe.io/erpnext/lead)
 - [مخاطب (Contact)](contact.md)
 
-بعدی: [راهنمای «Newsletter» در ERPNext](https://docs.frappe.io/erpnext/newsletter)
+بعدی: [خبرنامه](https://docs.frappe.io/erpnext/newsletter)

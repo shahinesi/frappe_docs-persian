@@ -41,6 +41,16 @@ test('replaces a generic product label with the translated title of its destinat
 	assert.equal(result.markdown, '[شاخه](branch.md)');
 });
 
+test('resolves any official documentation label from its destination URL', () => {
+	const result = prepareMarkdownLinks('[مستندات رسمی Frappe Helpdesk](https://docs.frappe.io/hr/branch)', {
+		currentPath: 'content/fa/hr/example.md',
+		manifest,
+		titles: new Map([['content/fa/hr/branch.md', 'شاخه']]),
+		terms: {},
+	});
+	assert.equal(result.markdown, '[شاخه](branch.md)');
+});
+
 test('uses the translated page title for a generic self-source attribution link', () => {
 	const sourceUrl = 'https://docs.frappe.io/hr/branch';
 	const result = prepareMarkdownLinks(`منبع: [مستندات رسمی Frappe HR](${sourceUrl})`, {
@@ -166,6 +176,18 @@ test('uses the translated source title for an untranslated destination when avai
 		terms: { Employee: 'کارمند' },
 	});
 	assert.equal(result.markdown, '[کارمند](https://docs.frappe.io/hr/employee)');
+});
+
+test('uses address-keyed Persian labels for official pages that are not translated yet', () => {
+	const url = 'https://docs.frappe.io/erpnext/newsletter';
+	const result = prepareMarkdownLinks('[راهنمای «Newsletter» در ERPNext](' + url + ')', {
+		currentPath: 'content/fa/erpnext/example.md',
+		manifest: { pages: [{ url, section: 'erpnext', source_title: 'Newsletter', translation_path: null }] },
+		titles: new Map(),
+		terms: {},
+		linkLabels: { '/erpnext/newsletter': 'خبرنامه' },
+	});
+	assert.equal(result.markdown, '[خبرنامه](' + url + ')');
 });
 
 test('repairs partial product translations using the full locale term', () => {

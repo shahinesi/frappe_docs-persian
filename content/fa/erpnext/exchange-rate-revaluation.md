@@ -175,6 +175,6 @@ ERPNext حساب‌های ارزی واجد شرایط، مانده‌های ح�
 
 - [حسابداری چندارزی](https://docs.frappe.io/erpnext/multi-currency-accounting)
 - [نرخ تبدیل ارز (تبدیل ارز)](currency-exchange.md)
-- [مدیریت اختلاف نرخ ارز](https://docs.frappe.io/erpnext/manage-foreign-exchange-difference)
+- [مدیریت اختلاف تسعیر ارز](https://docs.frappe.io/erpnext/manage-foreign-exchange-difference)
 - [ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry)
 - [گزارش‌های حسابداری](accounting-reports.md)

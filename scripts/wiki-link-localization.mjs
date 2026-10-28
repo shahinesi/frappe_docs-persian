@@ -126,10 +126,10 @@ function productLinkLabel(section) {
 }
 
 function isGenericPageLabel(label) {
-	return /^مستندات رسمی (?:ERPNext|Frappe|Frappe Framework|Frappe HR|Helpdesk|Insights|Frappe Builder|Frappe CRM|Frappe Drive|Frappe Learning|Frappe Wiki)$/.test(label.trim())
+	return /^مستندات رسمی(?:\s+.+)?$/.test(label.trim())
 		|| /^مستندات$/.test(label.trim())
 		|| /^صفحه(?:ٔ|‌ی|ی)? رسمی$/.test(label.trim())
-		|| /^راهنمای «.*» در (?:ERPNext|Frappe Framework|Frappe HR|Frappe Helpdesk|Insights|Frappe CRM|Frappe Builder|Frappe Learning|Frappe Drive)$/.test(label.trim());
+		|| /^راهنمای «.*» در .+$/.test(label.trim());
 }
 
 function localizeImageAlt(token, terms, counters, mixedEntries, phraseTerms) {
@@ -140,7 +140,7 @@ function localizeImageAlt(token, terms, counters, mixedEntries, phraseTerms) {
 	return `![${alt}]${match[2]}`;
 }
 
-function rewriteLink(token, { currentPath, byPath, byTranslationPath, titles, terms, mixedEntries, phraseTerms, counters, reviewIssues }) {
+function rewriteLink(token, { currentPath, byPath, byTranslationPath, titles, linkLabels, terms, mixedEntries, phraseTerms, counters, reviewIssues }) {
 	const match = token.match(/^(\[)([^\]]*)(\]\()(<[^>]+>|[^\s)]+)([^)]*)(\))$/);
 	if (!match) return token;
 	const [, open, originalLabel, close, wrappedHref, suffix, end] = match;
@@ -214,6 +214,9 @@ function rewriteLink(token, { currentPath, byPath, byTranslationPath, titles, te
 			}
 		}
 	}
+	if (official?.page && !official.page.translation_path && !isAttribution && linkLabels?.[official.pathname]) {
+		label = linkLabels[official.pathname];
+	}
 
 	const rawTranslatedTitle = targetPath ? titles.get(targetPath) : null;
 	const translatedTitle = rawTranslatedTitle
@@ -236,6 +239,7 @@ export function prepareMarkdownLinks(markdown, {
 	titles = new Map(),
 	terms = {},
 	uiTerms = {},
+	linkLabels = {},
 }) {
 	const byPath = new Map();
 	const byTranslationPath = new Map();
@@ -279,6 +283,7 @@ export function prepareMarkdownLinks(markdown, {
 				byPath,
 				byTranslationPath,
 				titles,
+				linkLabels,
 				terms: allTerms,
 				mixedEntries,
 				phraseTerms,

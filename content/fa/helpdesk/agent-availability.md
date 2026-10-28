@@ -97,4 +97,4 @@ Helpdesk در قواعد **Round Robin**، **Load Balancing** و **Weighted Dist
 
 ---
 
-**منبع:** [مستندات رسمی Frappe Helpdesk](https://docs.frappe.io/helpdesk/other-features/agent-availability). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویرها و پویانمایی‌های اصلی در این مخزن بازنشر نشده‌اند.
+**منبع:** [وضعیت دسترس‌پذیری کارشناس](https://docs.frappe.io/helpdesk/other-features/agent-availability). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویرها و پویانمایی‌های اصلی در این مخزن بازنشر نشده‌اند.

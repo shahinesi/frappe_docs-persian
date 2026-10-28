@@ -102,4 +102,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ---
 
-**منبع:** [مستندات رسمی Frappe Insights](https://docs.frappe.io/insights/connect-data/add-data-source). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.
+**منبع:** [افزودن منبع داده](https://docs.frappe.io/insights/connect-data/add-data-source). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

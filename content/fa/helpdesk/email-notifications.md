@@ -37,7 +37,7 @@ Helpdesk بر اساس فعالیت‌های کاربران ایمیل‌های�
 فیلد محتوا از قالب‌های Jinja پشتیبانی می‌کند. متغیرهای پویای قابل‌استفاده عبارت‌اند از:
 
 - `url` از نوع `str`: نشانی فرم بازخورد.
-- `doc` از نوع `HDTicket`: سند تیکت پشتیبانی. همهٔ فیلدهای DocType [راهنمای «Understanding DocTypes» در Frappe Framework](https://docs.frappe.io/framework/user/en/basics/doctypes) در دسترس‌اند.
+- `doc` از نوع `HDTicket`: سند تیکت پشتیبانی. همهٔ فیلدهای DocType [آشنایی با DocTypeها](https://docs.frappe.io/framework/user/en/basics/doctypes) در دسترس‌اند.
 
 ## Acknowledgement
 
@@ -79,4 +79,4 @@ Helpdesk بر اساس فعالیت‌های کاربران ایمیل‌های�
 
 ---
 
-**منبع:** [مستندات رسمی Frappe Helpdesk](https://docs.frappe.io/helpdesk/email-notifications). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر اصلی در این مخزن بازنشر نشده‌اند.
+**منبع:** [اعلان‌های ایمیلی](https://docs.frappe.io/helpdesk/email-notifications). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر اصلی در این مخزن بازنشر نشده‌اند.

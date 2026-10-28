@@ -87,7 +87,7 @@ https://shop.example.com/products/aerobook-14?cc=SUMMER20
 - تاریخ‌های پیش از اعتبار، در طول اعتبار و پس از آن؛
 - مرز تعداد مجاز استفاده؛
 - تسویه‌حساب کاربر واردشده و مهمان، اگر هر دو پشتیبانی می‌شوند؛
-- [راهنمای «Create Promotional Schemes and Discount Slabs» در ERPNext](https://docs.frappe.io/erpnext/promotional-scheme) یا تخفیف خودکار دیگری که ممکن است با این کوپن هم‌پوشانی داشته باشد.
+- [ایجاد طرح‌های تشویقی و پلکان تخفیف](https://docs.frappe.io/erpnext/promotional-scheme) یا تخفیف خودکار دیگری که ممکن است با این کوپن هم‌پوشانی داشته باشد.
 
 ## عیب‌یابی
 
@@ -120,7 +120,7 @@ https://shop.example.com/products/aerobook-14?cc=SUMMER20
 ## موضوعات مرتبط
 
 - [قانون قیمت گذاری](https://docs.frappe.io/erpnext/pricing-rule)
-- [راهنمای «Create Promotional Schemes and Discount Slabs» در ERPNext](https://docs.frappe.io/erpnext/promotional-scheme)
+- [ایجاد طرح‌های تشویقی و پلکان تخفیف](https://docs.frappe.io/erpnext/promotional-scheme)
 - [اعمال تخفیف](applying-discount.md)
 - [سبد خرید](https://docs.frappe.io/erpnext/shopping-cart)
 - [سفارش فروش](sales-order.md)

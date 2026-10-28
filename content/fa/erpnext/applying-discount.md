@@ -6,7 +6,7 @@ source_id: "erpnext/applying-discount"
 source_version: "648c3eeb571263a99f5825c166e69b2e14baed203be161d9f08328583a21797d"
 ---
 
-ERPNext از تخفیف برای هر قلم یا برای جمع کل تراکنش پشتیبانی می‌کند. برای یک تصمیم تجاری موردی، تخفیف دستی وارد کنید. اگر قرار است شرایط واجدبودن به‌طور خودکار ارزیابی شود، از [قاعدهٔ قیمت‌گذاری](https://docs.frappe.io/erpnext/pricing-rule)، [طرح تشویقی](https://docs.frappe.io/erpnext/promotional-scheme) یا [کد تخفیف](coupon-code.md) استفاده کنید.
+ERPNext از تخفیف برای هر قلم یا برای جمع کل تراکنش پشتیبانی می‌کند. برای یک تصمیم تجاری موردی، تخفیف دستی وارد کنید. اگر قرار است شرایط واجدبودن به‌طور خودکار ارزیابی شود، از [قاعدهٔ قیمت‌گذاری](https://docs.frappe.io/erpnext/pricing-rule)، [ایجاد طرح‌های تشویقی و پلکان تخفیف](https://docs.frappe.io/erpnext/promotional-scheme) یا [کد تخفیف](coupon-code.md) استفاده کنید.
 
 ## پیش از شروع
 
@@ -101,7 +101,7 @@ ERPNext تخفیف را با توجه به جمع پس از مالیات‌ها 
 ## موضوعات مرتبط
 
 - [قاعدهٔ قیمت‌گذاری](https://docs.frappe.io/erpnext/pricing-rule)
-- [طرح تشویقی](https://docs.frappe.io/erpnext/promotional-scheme)
+- [ایجاد طرح‌های تشویقی و پلکان تخفیف](https://docs.frappe.io/erpnext/promotional-scheme)
 - [کد تخفیف](coupon-code.md)
 - [افزودن حاشیهٔ سود](adding-margin.md)
 - [تنظیمات فروش](https://docs.frappe.io/erpnext/selling-settings)

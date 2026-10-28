@@ -91,7 +91,7 @@ ERPNext مبلغ مشارکت را از مجموع خالص تراکنش محا�
 
 ## بررسی عملکرد و پاداش تیم
 
-برای تأیید انتساب تراکنش به فروشنده، از [راهنمای «Add Sales Persons to Sales Transactions» در ERPNext](https://docs.frappe.io/erpnext/sales-persons-in-the-sales-transactions) و گزارش‌های فروش مربوط استفاده کنید. اگر سازمان هدف مقداری یا مبلغی را بر اساس سال مالی و گروه آیتم نیز پیگیری می‌کند، [شخص فروش Target Allocation](https://docs.frappe.io/erpnext/sales-person-target-allocation) را به‌کار ببرید.
+برای تأیید انتساب تراکنش به فروشنده، از [افزودن کارشناسان فروش به تراکنش‌های فروش](https://docs.frappe.io/erpnext/sales-persons-in-the-sales-transactions) و گزارش‌های فروش مربوط استفاده کنید. اگر سازمان هدف مقداری یا مبلغی را بر اساس سال مالی و گروه آیتم نیز پیگیری می‌کند، [شخص فروش Target Allocation](https://docs.frappe.io/erpnext/sales-person-target-allocation) را به‌کار ببرید.
 
 فیلد پاداش فقط مبلغی را در سطح تراکنش ثبت می‌کند. به‌طور خودکار مؤلفهٔ حقوق، فیش حقوق، هزینه، بدهی پرداختنی یا پرداخت ایجاد نمی‌کند.
 
@@ -110,7 +110,7 @@ ERPNext مبلغ مشارکت را از مجموع خالص تراکنش محا�
 
 پیش از پیاده‌سازی، سیاست را مستند کنید. به‌جای اسکریپت کلاینت بدون نسخه‌بندی، سفارشی‌سازی سمت سرور یا Custom App نگه‌داری‌شده و آزموده‌شده را ترجیح دهید. محاسبهٔ صرفاً سمت کاربر ممکن است با واردسازی، یکپارچه‌سازی، کار پس‌زمینه یا تراکنش ساخته‌شده از API دور زده شود.
 
-اگر سفارشی‌سازی فنی لازم است، [اسکریپت سرور](https://docs.frappe.io/framework/user/en/desk/scripting/server-script) و [راهنمای «Create an App» در Frappe Framework](https://docs.frappe.io/framework/user/en/tutorial/create-an-app) را ببینید.
+اگر سفارشی‌سازی فنی لازم است، [اسکریپت سرور](https://docs.frappe.io/framework/user/en/desk/scripting/server-script) و [ایجاد یک برنامه](https://docs.frappe.io/framework/user/en/tutorial/create-an-app) را ببینید.
 
 ## اثر حسابداری و حقوق و دستمزد
 
@@ -172,7 +172,7 @@ ERPNext مبلغ مشارکت را از مجموع خالص تراکنش محا�
 ## موضوعات مرتبط
 
 - [شخص فروش](https://docs.frappe.io/erpnext/sales-person)
-- [راهنمای «Add Sales Persons to Sales Transactions» در ERPNext](https://docs.frappe.io/erpnext/sales-persons-in-the-sales-transactions)
+- [افزودن کارشناسان فروش به تراکنش‌های فروش](https://docs.frappe.io/erpnext/sales-persons-in-the-sales-transactions)
 - [شخص فروش Target Allocation](https://docs.frappe.io/erpnext/sales-person-target-allocation)
 
 منبع: [محاسبهٔ پاداش تیم فروش](https://docs.frappe.io/erpnext/calculate-incentive-for-sales-team). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویر به فایل مستندات پیوند داده شده و در این مخزن بازنشر نشده است.

@@ -29,7 +29,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 گزارش قیف فروش نمایی بصری و تحلیلی از قیف فروش شما نشان می‌دهد و کمک می‌کند وضعیت و پیشرفت سرنخها و فرصت فروشها را در مراحل مختلف فرایند فروش درک کنید.
 
-برای جزئیات بیشتر، [راهنمای «CRM Analytics» در ERPNext](https://docs.frappe.io/erpnext/sales_funnel) را ببینید.
+برای جزئیات بیشتر، [تحلیل‌های CRM](https://docs.frappe.io/erpnext/sales_funnel) را ببینید.
 
 ### سرنخ‌های بالقوهٔ پیگیری‌شده اما تبدیل‌نشده
 

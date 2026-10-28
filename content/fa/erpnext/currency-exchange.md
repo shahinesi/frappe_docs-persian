@@ -126,5 +126,5 @@ ERPNext پیش از درخواست از ارائه‌دهندهٔ آنلاین �
 - [ارز (Currency)](currency.md)
 - [چند ارزی Setup](https://docs.frappe.io/erpnext/multi-currency-setup)
 - [تنظیمات نرخ تبدیل ارز](currency-exchange-settings.md)
-- [راهنمای «Manage Foreign Exchange Difference» در ERPNext](https://docs.frappe.io/erpnext/manage-foreign-exchange-difference)
+- [مدیریت اختلاف تسعیر ارز](https://docs.frappe.io/erpnext/manage-foreign-exchange-difference)
 - [تجدید ارزیابی نرخ ارز](exchange-rate-revaluation.md)

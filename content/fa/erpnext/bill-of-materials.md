@@ -29,7 +29,7 @@ BOM فهرست همهٔ مواد (خریدنی یا تولیدی) و عملیا�
 پیش از ایجاد و استفاده از BOM بهتر است ابتدا موارد زیر را بسازید:
 
 - [کالا](item.md)
-- [عملیات](https://docs.frappe.io/erpnext/operation)
+- [عملیات تولید](https://docs.frappe.io/erpnext/operation)
 - [ایستگاه کاری](https://docs.frappe.io/erpnext/workstation)
 - [مسیریابی](https://docs.frappe.io/erpnext/routing)
 
@@ -73,7 +73,7 @@ BOM فهرست همهٔ مواد (خریدنی یا تولیدی) و عملیا�
 
 ### 2.2 BOM همراه با عملیات
 
-برای افزودن [عملیات](https://docs.frappe.io/erpnext/operation)، گزینهٔ **با عملیات** را فعال کنید. سپس جدول عملیات نمایش داده می‌شود. این گزینه برای پیگیری هزینهٔ عملیات‌های مختلف تولید [کالا](item.md) مفید است. با تنظیم یک الگو در رکورد اصلی [مسیریابی](https://docs.frappe.io/erpnext/routing)، می‌توانید عملیات‌ها را به‌آسانی اضافه کنید.
+برای افزودن [عملیات تولید](https://docs.frappe.io/erpnext/operation)، گزینهٔ **با عملیات** را فعال کنید. سپس جدول عملیات نمایش داده می‌شود. این گزینه برای پیگیری هزینهٔ عملیات‌های مختلف تولید [کالا](item.md) مفید است. با تنظیم یک الگو در رکورد اصلی [مسیریابی](https://docs.frappe.io/erpnext/routing)، می‌توانید عملیات‌ها را به‌آسانی اضافه کنید.
 
 ![جدول عملیات در BOM](https://docs.frappe.io/files/bom-operations.png)
 

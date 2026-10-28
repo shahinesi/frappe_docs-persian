@@ -76,12 +76,12 @@ source_version: "919c94ecd67499a6a637f7643e712df3e498d53042f1028eecfadd4a75df6d3
 
 قانون حمل و نقل می‌تواند بر اساس ارزش خالص یا وزن خالص، هزینه‌ای را انتخاب کند. پیش از ثبت نهایی، ردیف مالیات and Charges ایجادشده را بررسی کنید.
 
-برای هزینه‌های قابل‌استفادهٔ مجدد، [الگوی مالیات و هزینه‌های خرید](https://docs.frappe.io/erpnext/purchase-taxes-and-charges-template) را پیکربندی کنید. سپس [انواع در Tax Template](https://docs.frappe.io/erpnext/types-in-tax-template)، [اثر مالیات یا هزینه بر جمع سند و ارزش‌گذاری](difference-in-total-and-valuation-in-tax-and-charges.md) و [اعمال مالیات بر مالیات یا هزینهٔ دیگر](https://docs.frappe.io/erpnext/how-to-apply-tax-on-tax) را ببینید. نتیجه را در [سفارش خرید](purchase-order.md) یا [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice) اعمال کنید، موجودی دریافتی را از طریق [رسید خرید](https://docs.frappe.io/erpnext/purchase-receipt) بررسی کنید، برای هزینه‌های بعدی [سند مالی بهای تمام‌شده در مقصد](https://docs.frappe.io/erpnext/landed-cost-voucher) را به‌کار ببرید، بازه‌های ارزشی را با [قانون حمل و نقل](https://docs.frappe.io/erpnext/shipping-rule) خودکار کنید و سیاست را در [تنظیمات خرید](buying-settings.md) تأیید کنید.
+برای هزینه‌های قابل‌استفادهٔ مجدد، [الگوی مالیات و هزینه‌های خرید](https://docs.frappe.io/erpnext/purchase-taxes-and-charges-template) را پیکربندی کنید. سپس [انواع در الگوی مالیات](https://docs.frappe.io/erpnext/types-in-tax-template)، [اثر مالیات یا هزینه بر جمع سند و ارزش‌گذاری](difference-in-total-and-valuation-in-tax-and-charges.md) و [اعمال مالیات بر مالیات یا هزینهٔ دیگر](https://docs.frappe.io/erpnext/how-to-apply-tax-on-tax) را ببینید. نتیجه را در [سفارش خرید](purchase-order.md) یا [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice) اعمال کنید، موجودی دریافتی را از طریق [رسید خرید](https://docs.frappe.io/erpnext/purchase-receipt) بررسی کنید، برای هزینه‌های بعدی [سند مالی بهای تمام‌شده در مقصد](https://docs.frappe.io/erpnext/landed-cost-voucher) را به‌کار ببرید، بازه‌های ارزشی را با [قانون حمل و نقل](https://docs.frappe.io/erpnext/shipping-rule) خودکار کنید و سیاست را در [تنظیمات خرید](buying-settings.md) تأیید کنید.
 
 ## موضوعات مرتبط
 
 - [الگوی مالیات و هزینه‌های خرید](https://docs.frappe.io/erpnext/purchase-taxes-and-charges-template)
-- [انواع در Tax Template](https://docs.frappe.io/erpnext/types-in-tax-template)
+- [انواع در الگوی مالیات](https://docs.frappe.io/erpnext/types-in-tax-template)
 - [اثر مالیات یا هزینه بر جمع سند و ارزش‌گذاری](difference-in-total-and-valuation-in-tax-and-charges.md)
 - [اعمال مالیات بر مالیات یا هزینهٔ دیگر](https://docs.frappe.io/erpnext/how-to-apply-tax-on-tax)
 - [سند مالی بهای تمام‌شده در مقصد](https://docs.frappe.io/erpnext/landed-cost-voucher)

@@ -49,4 +49,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ---
 
-**منبع:** [مستندات رسمی Frappe Helpdesk](https://docs.frappe.io/helpdesk/customization/email-preferences). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر و ویدئوهای اصلی در این مخزن بازنشر نشده‌اند.
+**منبع:** [ترجیحات ایمیل](https://docs.frappe.io/helpdesk/customization/email-preferences). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر و ویدئوهای اصلی در این مخزن بازنشر نشده‌اند.

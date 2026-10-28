@@ -37,4 +37,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ---
 
-**منبع:** [مستندات رسمی Frappe Helpdesk](https://docs.frappe.io/helpdesk/helpdesk/other-features/comment-reactions). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر اصلی در این مخزن بازنشر نشده‌اند.
+**منبع:** [واکنش به دیدگاه‌ها](https://docs.frappe.io/helpdesk/helpdesk/other-features/comment-reactions). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر اصلی در این مخزن بازنشر نشده‌اند.

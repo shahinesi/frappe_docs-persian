@@ -50,7 +50,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 | ارزش گذاری | افزایش نمی‌یابد | افزایش می‌یابد | کرایه‌ای که جداگانه پرداخت شده، اما از طریق این رسید یا فاکتور به موجودی تخصیص می‌یابد. |
 | ارزش گذاری و کل | افزایش می‌یابد | افزایش می‌یابد | تأمین‌کننده کرایه را دریافت می‌کند و کرایه بخشی از بهای تمام‌شدهٔ موجودی است. |
 
-**نوع** تعیین می‌کند ERPNext مبلغ ردیف را چگونه محاسبه کند. **در نظر گرفتن مالیات یا عوارض برای** تعیین می‌کند آن مبلغ کجا اثر بگذارد. این‌ها دو انتخاب جداگانه‌اند. برای روش‌های محاسبه، [راهنمای «Types in Tax Template» در ERPNext](https://docs.frappe.io/erpnext/types-in-tax-template) را ببینید.
+**نوع** تعیین می‌کند ERPNext مبلغ ردیف را چگونه محاسبه کند. **در نظر گرفتن مالیات یا عوارض برای** تعیین می‌کند آن مبلغ کجا اثر بگذارد. این‌ها دو انتخاب جداگانه‌اند. برای روش‌های محاسبه، [انواع در الگوی مالیات](https://docs.frappe.io/erpnext/types-in-tax-template) را ببینید.
 
 ## افزودن هزینه‌ای که فقط بر Total اثر می‌گذارد
 
@@ -185,5 +185,5 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice)
 - [رسید خرید](https://docs.frappe.io/erpnext/purchase-receipt)
 - [سند مالی بهای تمام‌شده در مقصد](https://docs.frappe.io/erpnext/landed-cost-voucher)
-- [راهنمای «Types in Tax Template» در ERPNext](https://docs.frappe.io/erpnext/types-in-tax-template)
-- [راهنمای «Perpetual Inventory» در ERPNext](https://docs.frappe.io/erpnext/perpetual-inventory)
+- [انواع در الگوی مالیات](https://docs.frappe.io/erpnext/types-in-tax-template)
+- [موجودی دائمی](https://docs.frappe.io/erpnext/perpetual-inventory)

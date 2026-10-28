@@ -98,4 +98,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ---
 
-**منبع:** [مستندات رسمی Frappe Helpdesk](https://docs.frappe.io/helpdesk/other-features/agent-home-page). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویر اصلی در این مخزن بازنشر نشده است.
+**منبع:** [صفحهٔ خانهٔ کارشناس](https://docs.frappe.io/helpdesk/other-features/agent-home-page). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویر اصلی در این مخزن بازنشر نشده است.

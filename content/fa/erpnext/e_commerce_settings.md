@@ -60,7 +60,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ### تنظیمات تسویه‌حساب
 
 1. **Enable Checkout**: اگر تسویه‌حساب غیرفعال باشد، مشتری پس از افزودن کالا به سبد خرید می‌تواند **درخواست برای پیش‌فاکتور** را انتخاب کند و پیش‌فاکتور (پیش‌فاکتور) بگیرد. اگر فعال باشد، با انتخاب **Place Order** در سبد خرید، یک [سفارش فروش](sales-order.md) ایجاد می‌شود.
-2. **حساب درگاه پرداخت**: برای فعال‌بودن تسویه‌حساب، باید [راهنمای «Setting up PayPal» در ERPNext](https://docs.frappe.io/erpnext/paypal-integration) یا [راهنمای «RazorPay Integration» در ERPNext](https://docs.frappe.io/erpnext/razorpay-integration) را راه‌اندازی کرده باشید.
+2. **حساب درگاه پرداخت**: برای فعال‌بودن تسویه‌حساب، باید [راه‌اندازی PayPal](https://docs.frappe.io/erpnext/paypal-integration) یا [یکپارچه‌سازی Razorpay](https://docs.frappe.io/erpnext/razorpay-integration) را راه‌اندازی کرده باشید.
 3. **پرداخت Success Url**: پس از تکمیل پرداخت، کاربر را به گزینهٔ انتخاب‌شده هدایت می‌کند.
 4. **Show Price in پیش‌فاکتور**: اگر تسویه‌حساب غیرفعال باشد، می‌توانید تعیین کنید که قیمت کالاهای وب‌سایت در پیش‌فاکتور نمایش داده شود یا نه.
 5. **ذخیره Quotations as Draft**: اگر تسویه‌حساب غیرفعال باشد، پس از انتخاب **درخواست برای پیش‌فاکتور** تعیین می‌کند که پیش‌فاکتور خودکار ثبت نهایی شود یا در وضعیت Draft بماند.

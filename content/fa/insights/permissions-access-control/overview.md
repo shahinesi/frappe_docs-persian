@@ -33,4 +33,4 @@ Insights سه سطح کنترل دسترسی دارد:
 
 ---
 
-**منبع:** [مستندات رسمی Frappe Insights](https://docs.frappe.io/insights/permissions-access-control/overview). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.
+**منبع:** [نمای کلی کنترل دسترسی](https://docs.frappe.io/insights/permissions-access-control/overview). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

@@ -133,4 +133,4 @@ https://your_site.com/api/method/frappe.integrations.doctype.connected_app.conne
 
 ---
 
-**منبع:** [مستندات رسمی Frappe Helpdesk](https://docs.frappe.io/helpdesk/faq/setting-up-outlook-for-frappe). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر اصلی در این مخزن بازنشر نشده‌اند.
+**منبع:** [اتصال Outlook به Frappe Helpdesk با OAuth](https://docs.frappe.io/helpdesk/faq/setting-up-outlook-for-frappe). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر اصلی در این مخزن بازنشر نشده‌اند.

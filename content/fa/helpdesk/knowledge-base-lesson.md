@@ -42,4 +42,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ---
 
-**منبع:** [مستندات رسمی Frappe Helpdesk](https://docs.frappe.io/helpdesk/lesson-4-knowledge-base). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویر و ویدئوی اصلی در این مخزن بازنشر نشده‌اند.
+**منبع:** [پایگاه دانش](https://docs.frappe.io/helpdesk/lesson-4-knowledge-base). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویر و ویدئوی اصلی در این مخزن بازنشر نشده‌اند.

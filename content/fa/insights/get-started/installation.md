@@ -65,4 +65,4 @@ Frappe Insights را می‌توان به چند روش، متناسب با نی
 
 ---
 
-**منبع:** [مستندات رسمی Frappe Insights](https://docs.frappe.io/insights/get-started/installation). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.
+**منبع:** [نصب](https://docs.frappe.io/insights/get-started/installation). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

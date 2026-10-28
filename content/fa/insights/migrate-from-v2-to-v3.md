@@ -159,4 +159,4 @@ bench --site <your-site> set-config insights_allow_legacy_v2_upgrade 1
 
 ---
 
-**منبع:** [مستندات رسمی Frappe Insights](https://docs.frappe.io/insights/articles/migrate-from-v2-to-v3). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.
+**منبع:** [مهاجرت از نسخهٔ 2 به نسخهٔ 3](https://docs.frappe.io/insights/articles/migrate-from-v2-to-v3). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

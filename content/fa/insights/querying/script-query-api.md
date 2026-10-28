@@ -58,7 +58,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## نکته‌ها
 
-- این صفحه APIهای رایج را فهرست می‌کند. همهٔ APIهای خواندنی موجود در sandbox مربوط به اسکریپت سرور چارچوب نیز در دسترس‌اند؛ به [مستندات API مربوط به اسکریپت سرور](https://docs.frappe.io/framework/user/en/desk/scripting/script-api) مراجعه کنید.
+- این صفحه APIهای رایج را فهرست می‌کند. همهٔ APIهای خواندنی موجود در sandbox مربوط به اسکریپت سرور چارچوب نیز در دسترس‌اند؛ به [API اسکریپت](https://docs.frappe.io/framework/user/en/desk/scripting/script-api) مراجعه کنید.
 - <code>frappe.db.sql</code> فقط دستورهای <code>select</code> و <code>explain</code> را اجرا می‌کند.
 - نتیجه‌ها برای 5 دقیقه cache می‌شوند. کلید cache شامل کد، مقدار متغیرها و فیلترهای زمان اجرا است. برای نادیده‌گرفتن cache از **Force Run** استفاده کنید.
 
@@ -78,4 +78,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ---
 
-**منبع:** [مستندات رسمی Frappe Insights](https://docs.frappe.io/insights/querying/script-query-api). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.
+**منبع:** [API پرس‌وجوی اسکریپتی](https://docs.frappe.io/insights/querying/script-query-api). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

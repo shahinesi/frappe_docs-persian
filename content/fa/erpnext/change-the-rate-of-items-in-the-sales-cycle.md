@@ -66,7 +66,7 @@ ERPNext می‌تواند بررسی کند که نرخ کالا هنگام ان
 
 - قیمت کالا و فهرست قیمت؛
 - [قواعد قیمت‌گذاری](https://docs.frappe.io/erpnext/pricing-rule)؛
-- [طرح‌های تبلیغاتی](https://docs.frappe.io/erpnext/promotional-scheme)؛
+- [ایجاد طرح‌های تشویقی و پلکان تخفیف](https://docs.frappe.io/erpnext/promotional-scheme)؛
 - حاشیهٔ سود یا تخفیف در سطح کالا؛
 - تخفیف اضافی؛
 - تبدیل ارز؛

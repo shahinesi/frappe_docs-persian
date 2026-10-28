@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "descriptions": {
+    "/erpnext/operation": "عملیات تولید",
+    "/erpnext/sales-persons-in-the-sales-transactions": "افزودن کارشناسان فروش به تراکنش‌های فروش",
+    "/framework/user/en/tutorial/create-an-app": "ایجاد یک برنامه",
+    "/erpnext/promotional-scheme": "ایجاد طرح‌های تشویقی و پلکان تخفیف",
+    "/erpnext/newsletter": "خبرنامه",
+    "/erpnext/sales_funnel": "تحلیل‌های CRM",
+    "/erpnext/managing-transactions-in-multiple-currencies": "مدیریت تراکنش‌های چندارزی",
+    "/erpnext/manage-foreign-exchange-difference": "مدیریت اختلاف تسعیر ارز",
+    "/erpnext/types-in-tax-template": "انواع در الگوی مالیات",
+    "/erpnext/perpetual-inventory": "موجودی دائمی",
+    "/erpnext/module-settings": "تنظیمات ماژول",
+    "/erpnext/paypal-integration": "راه‌اندازی PayPal",
+    "/erpnext/razorpay-integration": "یکپارچه‌سازی Razorpay",
+    "/erpnext/naming-series": "سری نام‌گذاری",
+    "/erpnext/homepage": "صفحهٔ اصلی",
+    "/erpnext/incoterm-and-named-place": "ثبت اینکوترمز و مکان‌های نام‌گذاری‌شده",
+    "/framework/user/en/guides/integration/webhooks": "وب‌هوک‌ها",
+    "/framework/user/en/desk/scripting/script-api": "API اسکریپت",
+    "/framework/user/en/basics/doctypes": "آشنایی با DocTypeها"
+  }
+}
