@@ -2,7 +2,7 @@ import path from 'node:path';
 
 const MARKDOWN_TOKEN = /```[\s\S]*?```|`[^`\n]*`|<code\b[^>]*>[\s\S]*?<\/code\s*>|<pre\b[^>]*>[\s\S]*?<\/pre\s*>|!\[[^\]]*\]\([^)]*\)|\[[^\]]*\]\([^)]*\)|\*\*(?![^*\n]*(?:\]\(|`))[^*\n]+\*\*/gi;
 const FA_LETTER = /[\u0600-\u06FF]/;
-const ATTRIBUTION_LABEL = /(منبع|مشاهده.{0,8}منبع|\bsource\b)/i;
+const ATTRIBUTION_LABEL = /^(?:منبع رسمی|منبع اصلی|مشاهده\s*(?:ٔ|ی|ِ)?\s*منبع(?:\s*(?:ٔ|ی|ِ)?\s*اصلی)?|صفحهٔ منبع|original source|source)$/i;
 const mixedEntriesCache = new Map();
 const compiledTermsCache = new Map();
 const compiledTermsObjectCache = new WeakMap();

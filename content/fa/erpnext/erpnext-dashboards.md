@@ -35,7 +35,7 @@ ERPNext داشبوردها، صفحه‌های تحلیل، گزارش‌ها و
 
 - [گزارش‌های فروش](https://docs.frappe.io/erpnext/sales-analytics): بررسی تحلیل‌ها و گزارش‌های فروش.
 - [گزارش وضعیت شرایط پرداخت](https://docs.frappe.io/erpnext/payment_terms_status_report): پیگیری وضعیت شرایط پرداخت در تراکنش‌ها.
-- [گزارش کالاها و سودآوری بر اساس برند](/erpnext/brandwise-items-and-profitability-report): تحلیل سودآوری بر پایهٔ برند و کالا.
+- [گزارش کالاها و سودآوری بر اساس برند](brandwise-items-and-profitability-report.md): تحلیل سودآوری بر پایهٔ برند و کالا.
 - [تعیین هدف فروش شرکت](https://docs.frappe.io/erpnext/setting-company-sales-goal): تعیین و پیگیری هدف‌های فروش شرکت.
 
 ## داشبورد خرید و گزارش‌های تأمین
@@ -129,7 +129,7 @@ ERPNext داشبوردها، صفحه‌های تحلیل، گزارش‌ها و
 
 ERPNext با ابزارهای گزارش‌گیری و داشبورد در اکوسیستم Frappe نیز کار می‌کند. این ابزارها زمانی مفیدند که گزارش استاندارد کافی نیست و تیم به نمودارهای سفارشی، شاخص‌های گروه‌بندی‌شده یا تحلیل میان‌ماژولی نیاز دارد.
 
-- [تحلیل ERPNext](/erpnext/analytics): بررسی قابلیت‌های تحلیلی ERPNext.
+- [تحلیل فروش](https://docs.frappe.io/erpnext/sales-analytics): بررسی قابلیت‌های تحلیلی ERPNext.
 - [داشبوردهای Insights](../insights/dashboards/overview.md): ساخت داشبورد با Frappe Insights.
 - [نمای کلی داشبوردهای Insights](../insights/dashboards/overview.md): آشنایی با مفاهیم داشبورد در Insights.
 - [ساخت نخستین داشبورد](../insights/dashboards/creating-your-first-dashboard.md): ایجاد داشبورد سفارشی در Insights.
@@ -155,7 +155,7 @@ ERPNext با ابزارهای گزارش‌گیری و داشبورد در اک�
 
 ## موضوعات مرتبط
 
-- [تحلیل ERPNext](/erpnext/analytics)
+- [تحلیل فروش](https://docs.frappe.io/erpnext/sales-analytics)
 - [گزارش‌های حسابداری](accounting-reports.md)
 - [گزارش‌های فروش](https://docs.frappe.io/erpnext/sales-analytics)
 - [گزارش‌های خرید](buying_reports.md)

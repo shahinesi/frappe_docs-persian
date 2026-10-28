@@ -109,4 +109,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - [یادداشت تحویل (سند تحویل)](delivery-note.md)
 - [صورتحساب فروش](https://docs.frappe.io/erpnext/sales-invoice)
 - [مرجوعی فروش](https://docs.frappe.io/erpnext/sales-return)
-- [ارسال مستقیم بین شرکت‌های زیرمجموعه](/erpnext/drop-ship-between-subsidiary-companies)
+- [فاکتورهای بین‌شرکتی](https://docs.frappe.io/erpnext/inter-company-invoices)

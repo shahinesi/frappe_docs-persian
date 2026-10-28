@@ -52,6 +52,26 @@ test('resolves canonical aliases outside the main product section list', () => {
 	assert.equal(result.markdown, '[شاخه](branch.md)');
 });
 
+test('treats translated labels containing the word source as normal page links', () => {
+	const leadSource = {
+		pages: [{
+			url: 'https://docs.frappe.io/erpnext/lead_source',
+			section: 'erpnext',
+			source_title: 'Lead Source',
+			translation_path: null,
+		}],
+	};
+	const result = prepareMarkdownLinks('[منبع سرنخ](/erpnext/lead-source)', {
+		currentPath: 'content/fa/erpnext/crm.md',
+		manifest: leadSource,
+		aliases: new Map([['/erpnext/lead-source', '/erpnext/lead_source']]),
+		terms: {},
+	});
+	assert.equal(result.markdown, '[منبع سرنخ](https://docs.frappe.io/erpnext/lead_source)');
+	assert.equal(result.counters.changedUrls, 1);
+	assert.equal(result.reviewIssues.length, 0);
+});
+
 test('reports an official URL that is absent from the manifest for repair', () => {
 	const result = prepareMarkdownLinks('[P&L](https://docs.frappe.io/erpnext/profit-and-loss-statement)', {
 		currentPath: 'content/fa/erpnext/example.md',

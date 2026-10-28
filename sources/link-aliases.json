@@ -27,6 +27,11 @@
     "/erpnext/role-permission-manager": "/erpnext/role-based-permissions",
     "/erpnext/validate-and-correct-the-migration": "/erpnext/validate-the-migration",
     "/erpnext/incoterm": "/erpnext/incoterm-and-named-place",
-    "/recurring-sales-orders-with-auto-repeat": "/erpnext/auto-repeat-recurring-orders-and-invoices"
+    "/recurring-sales-orders-with-auto-repeat": "/erpnext/auto-repeat-recurring-orders-and-invoices",
+    "/erpnext/purchase-analytics": "/erpnext/buying_reports",
+    "/erpnext/crm-reports": "/erpnext/crm_reports",
+    "/erpnext/crm-analytics": "/erpnext/sales_funnel",
+    "/erpnext/sales-reports": "/erpnext/sales-analytics",
+    "/erpnext/drop-ship-between-subsidiary-companies": "/erpnext/inter-company-invoices"
   }
 }
