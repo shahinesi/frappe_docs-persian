@@ -417,6 +417,27 @@ test('localizes exact UI labels in plain table cells and preserves code cells', 
 	assert.equal(result.markdown, '| لغو شده | تکمیل شده |\n| --- | --- |\n| `Cancelled` | `Completed` |');
 });
 
+test('localizes visible document status mentions while preserving code identifiers', () => {
+	const input = 'سند را در وضعیت Draft نگه دارید. مقدار API برابر `Draft` است.';
+	const result = prepareMarkdownLinks(input, {
+		currentPath: 'content/fa/erpnext/example.md',
+		manifest: { pages: [] },
+		terms: {},
+		uiTerms: { Draft: 'پیش‌نویس' },
+	});
+	assert.equal(result.markdown, 'سند را در وضعیت پیش‌نویس نگه دارید. مقدار API برابر `Draft` است.');
+});
+
+test('localizes punctuated bold status labels', () => {
+	const result = prepareMarkdownLinks('**Draft:** **Completed:** **Cancelled:**', {
+		currentPath: 'content/fa/erpnext/example.md',
+		manifest: { pages: [] },
+		terms: {},
+		uiTerms: { Draft: 'پیش‌نویس', Completed: 'تکمیل شده', Cancelled: 'لغو شده' },
+	});
+	assert.equal(result.markdown, '**پیش‌نویس:** **تکمیل شده:** **لغو شده:**');
+});
+
 test('translates standalone UI labels in Markdown lists without changing example names', () => {
 	const result = prepareMarkdownLinks('- Employee\n- Department\n- Branch\n- Nova Electronics Trading', {
 		currentPath: 'content/fa/hr/example.md',

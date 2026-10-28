@@ -85,6 +85,11 @@ function localizeDisplayLabel(text, terms, counters, mixedEntries = [], phraseTe
 	if (/^\/[A-Za-z0-9._~!$&'()*+,;=:@%/-]+$/.test(trimmedText)
 		|| /^[a-z][A-Za-z0-9]*(?:_[A-Za-z0-9]+)+$/.test(trimmedText)) return text;
 	if (FA_LETTER.test(text) && !/[A-Za-z]/.test(text)) return text;
+	const punctuated = trimmedText.match(/^([\s\S]*?)([:!?.,;])$/);
+	if (punctuated?.[1] && terms[punctuated[1]]) {
+		if (counters) counters.translatedTerms++;
+		return `${text.slice(0, text.indexOf(trimmedText))}${terms[punctuated[1]]}${punctuated[2]}${text.slice(text.indexOf(trimmedText) + trimmedText.length)}`;
+	}
 	let result = replaceUiTerms(text, phraseTerms, counters, mixedEntries);
 	const trimmed = text.trim();
 	const exactTranslation = terms[trimmed];
@@ -114,6 +119,17 @@ function replaceKnownUiEntities(text, terms, counters) {
 		if (counters) counters.translatedTerms++;
 		const persianSuffix = suffix === 'های' ? '‌های' : suffix === 'ها' ? '‌ها' : suffix ? 'ی' : '';
 		return `${lookup.get(label)}${persianSuffix}`;
+	});
+}
+
+function localizeStatusMentions(text, terms, counters) {
+	const statuses = ['Draft', 'Submitted', 'Cancelled', 'Completed', 'Pending', 'Unreconciled', 'Reconciled', 'Settled']
+		.filter((status) => terms[status] && FA_LETTER.test(terms[status]));
+	if (!statuses.length) return text;
+	const pattern = new RegExp(`(?<![A-Za-z0-9_])(${statuses.map(escapeRegExp).join('|')})(?![A-Za-z0-9_])`, 'g');
+	return text.replace(pattern, (match) => {
+		if (counters) counters.translatedTerms++;
+		return terms[match];
 	});
 }
 
@@ -337,7 +353,7 @@ export function prepareMarkdownLinks(markdown, {
 		const token = match[0];
 		const index = match.index ?? 0;
 		const plainText = localizePlainTableCells(body.slice(lastIndex, index), allTerms, counters);
-		result += localizeBreadcrumbs(localizeBareListLabels(replaceKnownUiEntities(replaceUiTerms(plainText, bodyTerms, counters, mixedEntries), allTerms, counters), allTerms, counters, mixedEntries, phraseTerms), allTerms, counters, mixedEntries, phraseTerms);
+		result += localizeBreadcrumbs(localizeBareListLabels(replaceKnownUiEntities(localizeStatusMentions(replaceUiTerms(plainText, bodyTerms, counters, mixedEntries), allTerms, counters), allTerms, counters), allTerms, counters, mixedEntries, phraseTerms), allTerms, counters, mixedEntries, phraseTerms);
 		if (token.startsWith('```') || token.startsWith('`')) {
 			result += token;
 		} else if (token.startsWith('![')) {
@@ -361,7 +377,7 @@ export function prepareMarkdownLinks(markdown, {
 		lastIndex = index + token.length;
 	}
 	const trailingText = localizePlainTableCells(body.slice(lastIndex), allTerms, counters);
-	result += localizeBreadcrumbs(localizeBareListLabels(replaceKnownUiEntities(replaceUiTerms(trailingText, bodyTerms, counters, mixedEntries), allTerms, counters), allTerms, counters, mixedEntries, phraseTerms), allTerms, counters, mixedEntries, phraseTerms);
+	result += localizeBreadcrumbs(localizeBareListLabels(replaceKnownUiEntities(localizeStatusMentions(replaceUiTerms(trailingText, bodyTerms, counters, mixedEntries), allTerms, counters), allTerms, counters), allTerms, counters, mixedEntries, phraseTerms), allTerms, counters, mixedEntries, phraseTerms);
 	result = result.replace(/\*\*([^*\r\n]+)\*\*\s+\(([^()\r\n]+)\)/gu, (match, label, sourceLabel) => {
 		if (!/[A-Za-z]/.test(sourceLabel)) return match;
 		if (sourceLabel.startsWith('`') && sourceLabel.endsWith('`')) return match;
