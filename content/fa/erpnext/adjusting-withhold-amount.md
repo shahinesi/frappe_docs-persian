@@ -83,7 +83,7 @@ source_version: "c0e21554cc8d204c4a7fc702c7a90f903e0e094568e5f5279c658b001f6c3c6
 | حساب | Input Tax بستانکار یا حساب دریافتنی مالیات تکلیفیِ تأییدشده |
 | مرکز هزینه | Main یا مرکز هزینه موردنیاز سیاست حسابداری شما |
 | مبلغ | $34.95 |
-| Description | مالیات تکلیفی که مشتری از پرداخت فاکتور نگه داشته است |
+| شرح | مالیات تکلیفی که مشتری از پرداخت فاکتور نگه داشته است |
 
 [تصویر حساب مالیات تکلیفی، مبلغ، مرکز هزینه و توضیحات](https://novacompanies.m.frappe.cloud/files/docs-tax-compliance-20260803-taxes-compliance-adjusting-withhold-amount-payment-entry-deduction-fields.png)
 

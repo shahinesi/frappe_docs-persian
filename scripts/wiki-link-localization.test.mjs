@@ -406,6 +406,17 @@ test('translates single-word locale terms in visible labels without changing sam
 	assert.equal(result.markdown, '**کارمند**; Nova Electronics Trading uses **Nova Commercial Customers**.');
 });
 
+test('localizes exact UI labels in plain table cells and preserves code cells', () => {
+	const input = '| Cancelled | Completed |\n| --- | --- |\n| `Cancelled` | `Completed` |';
+	const result = prepareMarkdownLinks(input, {
+		currentPath: 'content/fa/erpnext/example.md',
+		manifest: { pages: [] },
+		terms: {},
+		uiTerms: { Cancelled: 'لغو شده', Completed: 'تکمیل شده' },
+	});
+	assert.equal(result.markdown, '| لغو شده | تکمیل شده |\n| --- | --- |\n| `Cancelled` | `Completed` |');
+});
+
 test('translates standalone UI labels in Markdown lists without changing example names', () => {
 	const result = prepareMarkdownLinks('- Employee\n- Department\n- Branch\n- Nova Electronics Trading', {
 		currentPath: 'content/fa/hr/example.md',

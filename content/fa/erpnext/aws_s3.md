@@ -70,20 +70,20 @@ source_version: "2587f12de3904b67a15070da279002596c973bd6d4e0611952799b8c47ef8a2
 4. مخزنی با قفل‌کردن شیء فعال بسازید: `mc mb MY_ALIAS/BUCKET_NAME --with-lock --region nbg1`. این کار کمک می‌کند نسخه‌های پشتیبان را تصادفاً حذف نکنید.
 5. دورهٔ قفل‌کردن شیء را روی 90 روز تنظیم کنید: `mc retention set GOVERNANCE 90d --default MY_ALIAS/BUCKET_NAME`
 6. درستی پیکربندی را بررسی کنید: `mc retention info --json --default MY_ALIAS/BUCKET_NAME`
-7. تنظیمات را در **S3 Backup Settings** وارد کنید:
-   1. *Endpoint URL*: [https://nbg1.your-objectstorage.com/](https://nbg1.your-objectstorage.com/)
-   2. *Bucket Name*: `BUCKET_NAME`
-   3. *کلید دسترسی ID*: `YOUR_S3_KEY`
-   4. *کلید دسترسی Secret*: `YOUR_S3_SECRET`
+7. تنظیمات را در **تنظیمات پشتیبان‌گیری S3** (`S3 Backup Settings`) وارد کنید:
+   1. *نشانی نقطهٔ پایانی* (`Endpoint URL`): [https://nbg1.your-objectstorage.com/](https://nbg1.your-objectstorage.com/)
+   2. *نام مخزن* (`Bucket Name`): `BUCKET_NAME`
+   3. *شناسهٔ کلید دسترسی* (`Access Key ID`): `YOUR_S3_KEY`
+   4. *کلید محرمانهٔ دسترسی* (`Access Key Secret`): `YOUR_S3_SECRET`
 
 ## راه‌اندازی ERPNext
 
-- **S3 Backup Settings** را باز کنید.
-- گزینهٔ «Enable Automatic Backup» را فعال کنید.
+- **تنظیمات پشتیبان‌گیری S3** را باز کنید.
+- گزینهٔ «فعال‌کردن پشتیبان‌گیری خودکار» (`Enable Automatic Backup`) را فعال کنید.
 - کلید دسترسی و مقدار محرمانهٔ AWS را وارد کنید.
-- نشانی ایمیلی را برای دریافت اعلان هنگام شکست پشتیبان‌گیری مشخص کنید. اگر برای پشتیبان‌گیری‌های موفق هم ایمیل می‌خواهید، گزینهٔ «ایمیل بفرست for Successful Backup» را فعال کنید.
+- نشانی ایمیلی را برای دریافت اعلان هنگام شکست پشتیبان‌گیری مشخص کنید. اگر برای پشتیبان‌گیری‌های موفق هم ایمیل می‌خواهید، گزینهٔ «ارسال ایمیل برای پشتیبان‌گیری موفق» را فعال کنید.
 - نام مخزنی را که در مرحلهٔ 1 ساخته‌اید وارد کنید.
-- تناوب تهیه و بارگذاری نسخه‌های پشتیبان را انتخاب کنید. این بازه می‌تواند از ماهانه تا روزانه باشد. اگر فقط پشتیبان‌گیری دستی می‌خواهید، تناوب را روی «None» بگذارید.
+- تناوب تهیه و بارگذاری نسخه‌های پشتیبان را انتخاب کنید. این بازه می‌تواند از ماهانه تا روزانه باشد. اگر فقط پشتیبان‌گیری دستی می‌خواهید، تناوب را روی «هیچ‌کدام» (`None`) بگذارید.
 
 ![تنظیمات پشتیبان‌گیری S3 در ERPNext](https://docs.frappe.io/files/s3_backup_settings.png)
 

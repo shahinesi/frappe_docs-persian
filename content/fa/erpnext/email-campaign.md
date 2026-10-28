@@ -71,7 +71,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ![پیوند لغو اشتراک](https://docs.frappe.io/files/unsubscribe-link.png)
 
-پس از لغو اشتراک، وضعیت سند کمپین ایمیل به **Unsubscribed** تغییر می‌کند.
+پس از لغو اشتراک، وضعیت سند کمپین ایمیل به **لغو اشتراک** (`Unsubscribed`) تغییر می‌کند.
 
 ![وضعیت لغو اشتراک](https://docs.frappe.io/files/email-campaign-unsubscribed.png)
 
@@ -93,8 +93,8 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 - **زمان‌بندی شده است**: کارزار هنوز آغاز نشده و برای **تاریخ شروع** آینده زمان‌بندی شده است.
 - **در حال انجام**: در فاصلهٔ **تاریخ شروع** تا **تاریخ پایان** کارزار.
-- **تکمیل شده**: پس از **تاریخ پایان** وضعیت به Completed تغییر می‌کند.
-- **Unsubscribed**: سرنخ یا مخاطب اشتراک خود را از کارزار لغو کرده است.
+- **تکمیل شده**: پس از **تاریخ پایان** وضعیت به تکمیل شده تغییر می‌کند.
+- **لغو اشتراک**: سرنخ یا مخاطب اشتراک خود را از کارزار لغو کرده است.
 
 ![وضعیت کمپین ایمیل](https://docs.frappe.io/files/email-campaign-status.png)
 

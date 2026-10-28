@@ -125,6 +125,24 @@ function localizeBreadcrumbs(text, terms, counters, mixedEntries = [], phraseTer
 	});
 }
 
+function localizePlainTableCells(text, terms, counters) {
+	return text.replace(/^[ \t]*\|[^\r\n]*\|[ \t]*$/gm, (line) => {
+		if (/`|<\/?(?:code|pre)\b|!\[|\[[^\]]+\]\(/i.test(line)) return line;
+		const cells = line.split('|');
+		if (cells.length < 4) return line;
+		return cells.map((cell, index) => {
+			if (index === 0 || index === cells.length - 1) return cell;
+			const match = cell.match(/^(\s*)([\s\S]*?)(\s*)$/);
+			const label = match?.[2] || '';
+			if (!label || /^:?-{2,}:?$/.test(label) || /[*<>\[\]`]/.test(label)) return cell;
+			const translation = terms[label];
+			if (!translation || !FA_LETTER.test(translation)) return cell;
+			if (counters) counters.translatedTerms++;
+			return `${match[1]}${translation}${match[3]}`;
+		}).join('|');
+	});
+}
+
 function normalizeRepoPath(value) {
 	return path.posix.normalize(value.replaceAll('\\', '/')).replace(/^\.\//, '');
 }
@@ -318,7 +336,7 @@ export function prepareMarkdownLinks(markdown, {
 	for (const match of body.matchAll(MARKDOWN_TOKEN)) {
 		const token = match[0];
 		const index = match.index ?? 0;
-		const plainText = body.slice(lastIndex, index);
+		const plainText = localizePlainTableCells(body.slice(lastIndex, index), allTerms, counters);
 		result += localizeBreadcrumbs(localizeBareListLabels(replaceKnownUiEntities(replaceUiTerms(plainText, bodyTerms, counters, mixedEntries), allTerms, counters), allTerms, counters, mixedEntries, phraseTerms), allTerms, counters, mixedEntries, phraseTerms);
 		if (token.startsWith('```') || token.startsWith('`')) {
 			result += token;
@@ -342,7 +360,7 @@ export function prepareMarkdownLinks(markdown, {
 		}
 		lastIndex = index + token.length;
 	}
-	const trailingText = body.slice(lastIndex);
+	const trailingText = localizePlainTableCells(body.slice(lastIndex), allTerms, counters);
 	result += localizeBreadcrumbs(localizeBareListLabels(replaceKnownUiEntities(replaceUiTerms(trailingText, bodyTerms, counters, mixedEntries), allTerms, counters), allTerms, counters, mixedEntries, phraseTerms), allTerms, counters, mixedEntries, phraseTerms);
 	result = result.replace(/\*\*([^*\r\n]+)\*\*\s+\(([^()\r\n]+)\)/gu, (match, label, sourceLabel) => {
 		if (!/[A-Za-z]/.test(sourceLabel)) return match;

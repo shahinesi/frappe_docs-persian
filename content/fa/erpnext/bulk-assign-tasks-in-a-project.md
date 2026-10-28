@@ -20,9 +20,9 @@ source_version: "ceaaf89b27d922eab4c1ed523e85215f4a599ecd89370c9fc8937e81e6f53c1
 
 ![انتخاب Taskها برای واگذاری گروهی](https://docs.frappe.io/files/mpSG2p6.png)
 
-5. به **Actions > Assign To** بروید و کاربری را که باید Taskها به او واگذار شوند انتخاب کنید.
+5. به **اقدام‌ها > واگذاری به** بروید و کاربری را که باید Taskها به او واگذار شوند انتخاب کنید.
 
-![انتخاب Assign To از منوی Actions](https://docs.frappe.io/files/GZFTC86.png)
+![انتخاب گزینهٔ واگذاری به از منوی اقدام‌ها](https://docs.frappe.io/files/GZFTC86.png)
 
 ![انتخاب کاربر برای واگذاری Taskها](https://docs.frappe.io/files/5pvnr02.png)
 

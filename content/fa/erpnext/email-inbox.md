@@ -58,7 +58,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ![گذرواژهٔ ایمیل](https://docs.frappe.io/files/email-password.png)
 
-> اگر حساب کاربری ایمیل را برای صندوق ورودی ایمیل یک کاربر می‌سازید، فیلد **Append To** را خالی بگذارید.
+> اگر حساب کاربری ایمیل را برای صندوق ورودی ایمیل یک کاربر می‌سازید، فیلد **افزودن به** را خالی بگذارید.
 
 برای جزئیات بیشتر، [حساب ایمیل](email-account.md) را بخوانید.
 

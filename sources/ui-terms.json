@@ -761,6 +761,342 @@
     },
     {
       "product": "erpnext",
+      "source_label": "Show Cumulative",
+      "translation": "نمایش تجمعی",
+      "basis": "Localized the visible Budget Variance report option."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Actions > Assign To",
+      "translation": "اقدام‌ها > واگذاری به",
+      "basis": "Localized the visible bulk-assignment menu path."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Menu > Import",
+      "translation": "منو > درون‌بُرد",
+      "basis": "Localized the visible document menu path for data import."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Map Columns",
+      "translation": "نگاشت ستون‌ها",
+      "basis": "Localized the visible data-import action."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Follow",
+      "translation": "دنبال‌کردن",
+      "basis": "Localized the visible document-follow action."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Menu > Customize",
+      "translation": "منو > سفارشی‌سازی",
+      "basis": "Localized the visible document menu path for form customization."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "User must always select",
+      "translation": "کاربر باید هر بار انتخاب کند",
+      "basis": "Localized the visible naming-series option."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Update Series",
+      "translation": "به‌روزرسانی سری",
+      "basis": "Localized the visible naming-series section label."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Update Series Number",
+      "translation": "به‌روزرسانی شماره سری",
+      "basis": "Localized the visible naming-series action."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Vendor ID",
+      "translation": "شناسهٔ فروشنده",
+      "basis": "Localized the visible supplier field label."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Prefix",
+      "translation": "پیشوند",
+      "basis": "Localized the visible naming-series field label."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Set Number of Backups",
+      "translation": "تنظیم تعداد نسخه‌های پشتیبان",
+      "basis": "Localized the visible backup setting action."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Download Files Backup",
+      "translation": "بارگیری نسخهٔ پشتیبان فایل‌ها",
+      "basis": "Localized the visible backup download action."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Take Backup Now",
+      "translation": "تهیهٔ نسخهٔ پشتیبان اکنون",
+      "basis": "Localized the visible Dropbox backup action."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Enable Email Dropbox",
+      "translation": "فعال‌کردن صندوق ورودی ایمیل",
+      "basis": "Localized the visible Email Dropbox option."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Append To",
+      "translation": "افزودن به",
+      "basis": "Localized the visible Email Account link field."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Version Log",
+      "translation": "گزارش نسخه",
+      "basis": "Localized the visible document version report name."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Use HTML",
+      "translation": "استفاده از HTML",
+      "basis": "Localized the visible Email Template editor option while retaining the technical format name."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Add Subscribers",
+      "translation": "افزودن مشترکان",
+      "basis": "Localized the visible Email Group action."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Import Subscribers",
+      "translation": "درون‌بُرد مشترکان",
+      "basis": "Localized the visible Email Group action."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Energy Point Rule",
+      "translation": "قاعدهٔ امتیاز انرژی",
+      "basis": "Localized the visible Energy Point Rule DocType label."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "For سند Event",
+      "translation": "برای رخداد سند",
+      "basis": "Localized the mixed-language Energy Point Rule event field label."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Points",
+      "translation": "امتیازها",
+      "basis": "Localized the visible Energy Point Rule points field."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Allot Points To Assigned Users",
+      "translation": "اختصاص امتیاز به کاربران واگذارشده",
+      "basis": "Localized the visible Energy Point Rule option."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "User فیلد",
+      "translation": "فیلد کاربر",
+      "basis": "Localized the mixed-language Energy Point Rule user field label."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Multiplier فیلد",
+      "translation": "فیلد ضریب",
+      "basis": "Localized the mixed-language Energy Point Rule multiplier field label."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Condition",
+      "translation": "شرط",
+      "basis": "Localized the visible Energy Point Rule condition field."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Conditions",
+      "translation": "شرط‌ها",
+      "basis": "Localized the visible Energy Point Rule conditions field."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Apply Only Once",
+      "translation": "اعمال فقط یک‌بار",
+      "basis": "Localized the visible Energy Point Rule option."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Cancel",
+      "translation": "لغو",
+      "basis": "Localized the visible document event option in Energy Point Rules."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Custom",
+      "translation": "سفارشی",
+      "basis": "Localized the visible custom event option in Energy Point Rules."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Menu > Rename",
+      "translation": "منو > تغییر نام",
+      "basis": "Localized the visible document menu path for renaming a record."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "5 Records",
+      "translation": "5 رکورد",
+      "basis": "Localized the visible data-import sample export size while preserving canonical ASCII digits."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Warnings",
+      "translation": "هشدارها",
+      "basis": "Localized the visible data-import validation tab."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "شامل in Import Template",
+      "translation": "گنجانده در الگوی درون‌بُرد",
+      "basis": "Localized the mixed-language data-import template option."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Start Import",
+      "translation": "شروع درون‌بُرد",
+      "basis": "Localized the visible data-import action."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Import Log",
+      "translation": "گزارش درون‌بُرد",
+      "basis": "Localized the visible data-import log section."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "S3 Backup Settings",
+      "translation": "تنظیمات پشتیبان‌گیری S3",
+      "basis": "Localized the visible S3 Backup Settings DocType label while retaining S3 as the technical product name."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Enable Automatic Backup",
+      "translation": "فعال‌کردن پشتیبان‌گیری خودکار",
+      "basis": "Localized the visible S3 backup option."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Endpoint URL",
+      "translation": "نشانی نقطهٔ پایانی",
+      "basis": "Localized the visible S3 endpoint field label."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Bucket Name",
+      "translation": "نام مخزن",
+      "basis": "Localized the visible S3 bucket field label."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "ایمیل بفرست for Successful Backup",
+      "translation": "ارسال ایمیل برای پشتیبان‌گیری موفق",
+      "basis": "Localized the mixed-language successful-backup email option."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "ادغام with existing",
+      "translation": "ادغام با مورد موجود",
+      "basis": "Localized the mixed-language bulk-rename option."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Reply-To",
+      "translation": "پاسخ به",
+      "basis": "Localized the visible email reply-address field label."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Primary email",
+      "translation": "ایمیل اصلی",
+      "basis": "Localized the visible preferred-contact field label."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "primary phone",
+      "translation": "تلفن اصلی",
+      "basis": "Localized the visible preferred-contact field label."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Unsubscribed",
+      "translation": "لغو اشتراک",
+      "basis": "Localized the visible Email Campaign status."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Completed",
+      "translation": "تکمیل شده",
+      "basis": "Localized the visible Email Campaign status."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Cc",
+      "translation": "رونوشت",
+      "basis": "Localized the visible email recipient field label while preserving the standard header name at first use."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Bcc",
+      "translation": "رونوشت پنهان",
+      "basis": "Localized the visible email recipient field label while preserving the standard header name at first use."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Signature",
+      "translation": "امضا",
+      "basis": "Localized the visible Signature field type."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Email Server",
+      "translation": "سرور ایمیل",
+      "basis": "Localized the visible Email Domain configuration field."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "SMTP Server",
+      "translation": "سرور SMTP",
+      "basis": "Localized the visible outbound email server field while retaining SMTP."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Default port",
+      "translation": "درگاه پیش‌فرض",
+      "basis": "Localized the visible email server port field."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Example آدرس ایمیل",
+      "translation": "نمونهٔ نشانی ایمیل",
+      "basis": "Localized the mixed-language Email Domain example field."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "افزودن ایمیل‌های ارسالی به پوشهٔ Sent",
+      "translation": "افزودن ایمیل‌های ارسالی به پوشهٔ ارسال‌شده",
+      "basis": "Localized the mixed-language sent-mail folder option."
+    },
+    {
+      "product": "erpnext",
       "source_label": "Price Lists",
       "translation": "لیست‌های قیمت",
       "basis": "The current ERPNext locale translates the singular label Price List as لیست قیمت; this plural page title is curated for natural Persian wording."
