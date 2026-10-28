@@ -19,7 +19,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## 1. مسیردهی بر اساس نوع تیکت
 
-نام فیلد `agent_group` در رابط کاربری به‌صورت **Team** نمایش داده می‌شود.
+نام فیلد `agent_group` در رابط کاربری به‌صورت **تیم** نمایش داده می‌شود.
 
 ```python
 if (doc.ticket_type == "Bug"):
@@ -32,7 +32,7 @@ else:
     doc.agent_group = "Product Experts"
 ```
 
-## 2. مسیردهی بر اساس email_account
+## 2. مسیردهی بر اساس ایمیل_حساب
 
 ```python 
 if (doc.email_account == "Accounting"):

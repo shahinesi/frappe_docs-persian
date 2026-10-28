@@ -23,7 +23,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 2. نام آن را «Sales Performance» بگذارید.
 3. روی **پرس‌وجو Builder** کلیک کنید.
 
-![Workbook جدید](https://docs.frappe.io/files/new-workbook.png)
+![کارپوشه جدید](https://docs.frappe.io/files/new-workbook.png)
 
 ## 2. ایجاد پرس‌وجوی پایه
 
@@ -44,24 +44,24 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 3. دوباره **Add Operation** و سپس **Join Table** را انتخاب کنید.
    - جدول <code>customers</code> را انتخاب کنید.
    - نوع پیوند: Left Join
-   - شرط پیوند: <code>مشتری_id = مشتری_id</code>
-   - ستون: <code>مشتری_state</code>
+   - شرط پیوند: <code>customer_id = customer_id</code>
+   - ستون: <code>customer_state</code>
 
 ### پالایش و انتخاب ستون‌ها
 
-4. روی **Add Operation** و سپس **Filter Rows** کلیک کنید.
+4. روی **Add Operation** و سپس **فیلتر ردیف‌ها** کلیک کنید.
    - ستون: <code>order_status</code>
    - شرط: Equals
    - مقدار: <code>"delivered"</code>
 5. روی **Add Operation** و سپس **Choose Columns** کلیک کنید و ستون‌های زیر را انتخاب کنید:
    - <code>order_id</code>
-   - <code>order_کالا_id</code>
+   - <code>order_item_id</code>
    - <code>order_status</code>
    - <code>order_purchase_timestamp</code>
    - <code>price</code>
    - <code>freight_value</code>
    - <code>product_category_name</code>
-   - <code>مشتری_state</code>
+   - <code>customer_state</code>
 6. نام پرس‌وجو را «Sales Data» بگذارید.
 
 ![پرس‌وجوی Sales Data](https://docs.frappe.io/files/sales-data-query.png)
@@ -99,7 +99,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 - روی **+ جدید نمودار** کلیک کنید.
 - نوع نمودار: Line
-- عنوان: «Monthly Revenue»
+- عنوان: «ماهانه Revenue»
 - محور X: <code>order_purchase_timestamp</code>
 - محور Y:
   - تابع: Sum of
@@ -126,12 +126,12 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 - روی **+ جدید نمودار** کلیک کنید.
 - نوع نمودار: Table
-- عنوان: «Quarterly Revenue by State»
+- عنوان: «فصلی Revenue by State»
 - ردیف‌ها:
   - ستون: <code>order_purchase_timestamp</code>
   - آیکون چرخ‌دنده را بزنید، برچسب را «Quarter» و دقت زمانی را «Quarter» تعیین کنید.
 - ستون‌ها:
-  - ستون: <code>مشتری_state</code>
+  - ستون: <code>customer_state</code>
   - آیکون چرخ‌دنده را بزنید و برچسب را «State» قرار دهید.
 - مقادیر:
   - تابع: Sum of
@@ -150,14 +150,14 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 2. عنوان را «Sales Performance داشبورد» بگذارید.
 3. نمودارها را از پنل سمت چپ بکشید و در داشبورد رها کنید:
    - ردیف اول: نمودار «Sales Overview»
-   - ردیف دوم: نمودارهای «Monthly Revenue» و «Revenue by Category»
-   - ردیف سوم: نمودار «Quarterly Revenue by State»
+   - ردیف دوم: نمودارهای «ماهانه Revenue» و «Revenue by Category»
+   - ردیف سوم: نمودار «فصلی Revenue by State»
 4. فیلترهای داشبورد را اعمال کنید:
-   - در گوشهٔ بالا سمت راست روی دکمهٔ **Filter** کلیک کنید.
-   - در پنجرهٔ فیلتر روی **Add Filter** کلیک کنید.
+   - در گوشهٔ بالا سمت راست روی دکمهٔ **فیلتر** کلیک کنید.
+   - در پنجرهٔ فیلتر روی **افزودن فیلتر** کلیک کنید.
    - <code>product_category_name</code> را به‌عنوان ستون فیلتر انتخاب کنید.
    - <code>health_beauty</code> را به‌عنوان مقدار فیلتر برگزینید.
-   - روی **Apply Filter** کلیک کنید.
+   - روی **Apply فیلتر** کلیک کنید.
 
 ![داشبورد فروش](https://docs.frappe.io/files/sales-performance-dashboard.png)
 

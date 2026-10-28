@@ -21,16 +21,16 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای بازکردن فهرست قراردادها، به این مسیر بروید:
 
-**صفحهٔ اصلی > Sales Pipeline > Contract**
+**صفحهٔ اصلی > فروش Pipeline > قرارداد**
 
 ## ایجاد قرارداد
 
-- فهرست Contract را باز و **جدید** را انتخاب کنید.
+- فهرست قرارداد را باز و **جدید** را انتخاب کنید.
 - مشتری را برگزینید.
-- **Contract Terms** را وارد کنید. برای دریافت آسان‌تر مفاد، می‌توانید الگویی نیز بسازید.
+- **شرایط قرارداد** را وارد کنید. برای دریافت آسان‌تر مفاد، می‌توانید الگویی نیز بسازید.
 - ذخیره کنید.
 
-**Party User:** کارمند شرکت شما که با مشتری در ارتباط است.
+**طرف User:** کارمند شرکت شما که با مشتری در ارتباط است.
 
 ### وضعیت‌ها
 
@@ -46,18 +46,18 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### جزئیات امضاکننده
 
-وقتی چک‌باکس **Signed** را علامت بزنید تا نشان دهید مشتری قرارداد را امضا و تأیید کرده است، این بخش نمایش داده می‌شود.
+وقتی چک‌باکس **امضاء شده** را علامت بزنید تا نشان دهید مشتری قرارداد را امضا و تأیید کرده است، این بخش نمایش داده می‌شود.
 
 - **Signee:** نام شخصی را وارد کنید که قرارداد را امضا کرده است.
-- **Signed On:** تاریخ امضای قرارداد را وارد کنید.
+- **امضاء شده On:** تاریخ امضای قرارداد را وارد کنید.
 
 ### جزئیات قرارداد
 
-مفاد قرارداد را در فیلد **Contract Terms** وارد کنید. می‌توانید **Contract Template** بسازید و آن را برای دریافت خودکار مفاد انتخاب کنید.
+مفاد قرارداد را در فیلد **شرایط قرارداد** وارد کنید. می‌توانید **الگوی قرارداد** بسازید و آن را برای دریافت خودکار مفاد انتخاب کنید.
 
 ### جزئیات انجام تعهد
 
-اگر قرارداد مستلزم انجام تعهدی از طرف تأمین‌کننده (یعنی شرکت شما) باشد، می‌توانید جزئیات را در جدول **Fulfilment Terms** ثبت کنید.
+اگر قرارداد مستلزم انجام تعهدی از طرف تأمین‌کننده (یعنی شرکت شما) باشد، می‌توانید جزئیات را در جدول **شرایط تحقق** ثبت کنید.
 
 - **Requirement:** تعهدی را وارد کنید که باید انجام شود؛ برای نمونه، «نصب».
 - **Notes:** هر توضیحی دربارهٔ آن تعهد را وارد کنید.
@@ -66,7 +66,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 الگوی قرارداد چارچوبی استاندارد از قرارداد است که هنوز جزئیات اختصاصی در آن نیامده‌اند. برای ساخت الگوی تازه به این مسیر بروید:
 
-**صفحهٔ اصلی > CRM > Contract Template**
+**صفحهٔ اصلی > CRM > الگوی قرارداد**
 
 می‌توانید با Jinja الگو بسازید. برای نمونه:
 
@@ -80,21 +80,21 @@ The parties enter into this contract on {{ start_date }}.
 
 اگر قرارداد را می‌توان به تراکنشی در ERPNext پیوند داد، نوع تراکنش و خود تراکنش را انتخاب کنید. سندهای قابل‌پیوند عبارت‌اند از:
 
-- Quotation
-- Project
+- پیش‌فاکتور
+- پروژه
 - سفارش فروش
 - سفارش خرید
-- Sales Invoice
-- Purchase Invoice
+- فاکتور فروش
+- فاکتور خرید
 
 ## موضوعات مرتبط
 
-- [راهنمای «Quotation | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/quotation)
+- [پیش‌فاکتور](https://docs.frappe.io/erpnext/quotation)
 - [سفارش خرید](purchase-order.md)
 - [سفارش فروش](sales-order.md)
-- [راهنمای «Purchase Receipt | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-receipt)
-- [Delivery Note (سند تحویل)](delivery-note.md)
-- [راهنمای «Sales Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/sales-invoice)
-- [راهنمای «Purchase Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-invoice)
+- [رسید خرید](https://docs.frappe.io/erpnext/purchase-receipt)
+- [یادداشت تحویل (سند تحویل)](delivery-note.md)
+- [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice)
+- [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice)
 
 **منبع:** [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/contract). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویرها و پویانمایی اصلی در این مخزن بازنشر نشده‌اند.

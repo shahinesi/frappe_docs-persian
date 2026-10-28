@@ -55,7 +55,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### 2.1 مقایسهٔ نرخ‌های ارسال
 
-پس از ثبت نهایی [راهنمای «Shipment\n» در ERPNext](https://docs.frappe.io/erpnext/shipment)، اگر برنامه نصب شده باشد، دکمهٔ **Fetch Shipping Rates** ظاهر می‌شود. با انتخاب آن، فهرستی از سرویس‌ها به‌همراه ارائه‌دهندگان و نرخ‌هایشان نمایش داده می‌شود.
+پس از ثبت نهایی [حمل و نقل](https://docs.frappe.io/erpnext/shipment)، اگر برنامه نصب شده باشد، دکمهٔ **Fetch Shipping Rates** ظاهر می‌شود. با انتخاب آن، فهرستی از سرویس‌ها به‌همراه ارائه‌دهندگان و نرخ‌هایشان نمایش داده می‌شود.
 
 ![دریافت نرخ‌های ارسال](https://docs.frappe.io/files/fetch_rates.png)
 
@@ -75,19 +75,19 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ![سرویس ترجیحی](https://docs.frappe.io/files/preferred_service.png)
 
-### 2.2 ایجاد Shipment
+### 2.2 ایجاد حمل و نقل
 
-پس از مقایسهٔ نرخ‌ها، برای استفاده از یکی از سرویس‌ها، در ردیف مربوط دکمهٔ **Select** را بزنید. در نتیجه Shipment به‌طور خودکار در پلتفرم ارائه‌دهندهٔ سرویس ایجاد می‌شود.
+پس از مقایسهٔ نرخ‌ها، برای استفاده از یکی از سرویس‌ها، در ردیف مربوط دکمهٔ **Select** را بزنید. در نتیجه حمل و نقل به‌طور خودکار در پلتفرم ارائه‌دهندهٔ سرویس ایجاد می‌شود.
 
-بخش **Shipment Information** با توجه به Shipment ایجادشده خودکار به‌روزرسانی خواهد شد.
+بخش **اطلاعات حمل و نقل** با توجه به حمل و نقل ایجادشده خودکار به‌روزرسانی خواهد شد.
 
-![ایجاد Shipment](https://docs.frappe.io/files/create_shipment.gif)
+![ایجاد حمل و نقل](https://docs.frappe.io/files/create_shipment.gif)
 
-همچنین می‌توانید با فیلد **Shipment ID** تراکنش را در پلتفرم ارائه‌دهندهٔ سرویس جست‌وجو کنید.
+همچنین می‌توانید با فیلد **شناسه حمل و نقل** تراکنش را در پلتفرم ارائه‌دهندهٔ سرویس جست‌وجو کنید.
 
 ### 2.3 چاپ برچسب
 
-برای نمایش دکمهٔ **Print Shipping Label**، ابتدا باید **Shipment ID** در رکورد فعلی تولید شده باشد.
+برای نمایش دکمهٔ **Print Shipping Label**، ابتدا باید **شناسه حمل و نقل** در رکورد فعلی تولید شده باشد.
 
 ![دکمهٔ چاپ برچسب ارسال](https://docs.frappe.io/files/print_label_button.png)
 
@@ -95,6 +95,6 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ![نمونهٔ برچسب ارسال](https://docs.frappe.io/files/dummy_shipping_label.png)
 
-برای پیگیری وضعیت Shipment نیز **View > Track Status** را انتخاب کنید.
+برای پیگیری وضعیت حمل و نقل نیز **View > Track Status** را انتخاب کنید.
 
 > **یادداشت:** ممکن است پلتفرم‌های یکپارچه‌شده در منطقهٔ شما خدمات ارائه نکنند. برای بررسی، پیوند مربوط به هر پلتفرم را ببینید.

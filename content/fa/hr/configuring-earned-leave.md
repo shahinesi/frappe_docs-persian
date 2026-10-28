@@ -16,19 +16,19 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 - **نوع مرخصی**
 
-  ![تنظیم Leave Type](https://frappehr.com/files/4KilVPP.png)
+  ![تنظیم نوع مرخصی](https://frappehr.com/files/4KilVPP.png)
 
 - **دورهٔ مرخصی**
 
-  ![تنظیم Leave Period](https://frappehr.com/files/MI9ZPNM.png)
+  ![تنظیم دوره مرخصی](https://frappehr.com/files/MI9ZPNM.png)
 
 - **سیاست مرخصی**
 
-  ![تنظیم Leave Policy](https://frappehr.com/files/CX0uqps.png)
+  ![تنظیم سیاست مرخصی](https://frappehr.com/files/CX0uqps.png)
 
 - **تخصیص سیاست مرخصی**
 
-  ![تنظیم Leave Policy Assignment](https://frappehr.com/files/ZxOw5L4.png)
+  ![تنظیم تخصیص سیاست مرخصی](https://frappehr.com/files/ZxOw5L4.png)
 
 ## 2. پیکربندی مرخصی استحقاقی
 

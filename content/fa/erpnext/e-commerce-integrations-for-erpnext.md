@@ -27,10 +27,10 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ## گردش‌کارهای رایج یکپارچه‌سازی
 
 - **همگام‌سازی کاتالوگ:** جزئیات کالا، قیمت، تصویر، وضعیت و درجهٔ کالا و موجودی را از ERPNext به پلتفرم بفرستید.
-- **همگام‌سازی سفارش:** هنگام ثبت سفارش، سفارش فروش یا Sales Invoice را در ERPNext ایجاد کنید.
+- **همگام‌سازی سفارش:** هنگام ثبت سفارش، سفارش فروش یا فاکتور فروش را در ERPNext ایجاد کنید.
 - **همگام‌سازی موجودی:** هنگام رزرو، فروش، مرجوعی، بازسازی یا بازگشت کالا به موجودی قابل‌فروش، پلتفرم را به‌روزرسانی کنید.
 - **همگام‌سازی آماده‌سازی سفارش:** جزئیات محموله و رهگیری را از ERPNext به پلتفرم برگردانید.
-- **مرجوعی و بازخرید:** کالاهای دریافتی را با Stock Entry، Purchase Receipt، Quality Inspection یا DocTypeهای سفارشی پیگیری کنید.
+- **مرجوعی و بازخرید:** کالاهای دریافتی را با ثبت موجودی، رسید خرید، بازرسی کیفیت یا DocTypeهای سفارشی پیگیری کنید.
 
 ## گزینه‌های آمادهٔ بازارگاه
 
@@ -57,5 +57,5 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - [REST API فریم‌ورک Frappe](https://docs.frappe.io/framework/user/en/api/rest)
 - [سفارش فروش](sales-order.md)
 - [کالا](item.md)
-- [راهنمای «Stock Entry» در ERPNext](https://docs.frappe.io/erpnext/stock-entry)
+- [ثبت موجودی](https://docs.frappe.io/erpnext/stock-entry)
 - [Frappe Cloud Marketplace](https://cloud.frappe.io/marketplace)

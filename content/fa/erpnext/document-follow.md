@@ -48,7 +48,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 نمونهٔ اعلان ایمیلی سند Follow:
 
-![نمونهٔ اعلان ایمیلی Document Follow](https://docs.frappe.io/files/document-follow-email.png)
+![نمونهٔ اعلان ایمیلی سند Follow](https://docs.frappe.io/files/document-follow-email.png)
 
 ## 2. موضوعات مرتبط
 

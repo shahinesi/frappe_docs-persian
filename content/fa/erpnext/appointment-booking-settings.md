@@ -6,7 +6,7 @@ source_id: "erpnext/appointment-booking-settings"
 source_version: "c26913669b256749b8825f6774d4df3de9fb793527a7da6c2c58654bba0d4ea2"
 ---
 
-همهٔ تنظیمات مربوط به رزرو قرار ملاقات را در **تنظیمات رزرو قرار ملاقات** (Appointment Booking Settings) پیدا می‌کنید.
+همهٔ تنظیمات مربوط به رزرو قرار ملاقات را در **تنظیمات رزرو قرار ملاقات** (تنظیمات رزرو قرار) پیدا می‌کنید.
 
 [مشاهدهٔ تصویر رسمی تنظیمات رزرو قرار ملاقات](https://docs.frappe.io/files/appointment-booking-settings.png)
 

@@ -15,7 +15,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 >
 > تصویرهای صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.
 
-**Contact** نمایندهٔ شخصی است که با او ارتباط دارید. Contact می‌تواند به [مشتری](customer.md)، [تأمین‌کننده](https://docs.frappe.io/erpnext/supplier)، سرنخ، سهام‌دار، [راهنمای «Sales Partner Commission | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/sales-partner) یا کاربر پیوند بخورد؛ یک شخص می‌تواند به بیش از یک طرف تجاری مرتبط باشد.
+**Contact** نمایندهٔ شخصی است که با او ارتباط دارید. Contact می‌تواند به [مشتری](customer.md)، [تأمین‌کننده](https://docs.frappe.io/erpnext/supplier)، سرنخ، سهام‌دار، [راهنمای «Sales Partner Commission» در ERPNext](https://docs.frappe.io/erpnext/sales-partner) یا کاربر پیوند بخورد؛ یک شخص می‌تواند به بیش از یک طرف تجاری مرتبط باشد.
 
 شخص را به‌صورت یک Contact نگه دارید و برای ارتباط‌های تجاری او از پیوندها استفاده کنید. این کار وقتی یک نفر نمایندهٔ چند سازمان است، از تکرار شماره تلفن و نشانی‌های ایمیل جلوگیری می‌کند.
 
@@ -48,7 +48,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ساده‌ترین روش برای ساخت Contact وابسته به یک طرف، ایجاد آن در کنار [Address]های پیوندخوردهٔ آن طرف است:
 
 1. مشتری یا تأمین‌کننده را باز کنید.
-2. **Address & Contact** را انتخاب کنید.
+2. **آدرس و تماس** را انتخاب کنید.
 3. **جدید Contact** را انتخاب کنید.
 4. اطلاعات شخص را وارد و ذخیره کنید.
 
@@ -85,7 +85,7 @@ ERPNext به‌طور خودکار Dynamic Link را به طرف تجاری مب
 
 ## Contact اصلی و تراکنش‌ها
 
-وقتی چند Contact به یک طرف تجاری پیوند دارند، گیرندهٔ معمول را به‌عنوان Contact اصلی تعیین کنید. ERPNext می‌تواند آن Contact را به‌طور خودکار در [راهنمای «Quotation | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/quotation)، [سفارش فروش](sales-order.md)، [راهنمای «Sales Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/sales-invoice) یا سند پشتیبانی‌شدهٔ دیگری انتخاب کند.
+وقتی چند Contact به یک طرف تجاری پیوند دارند، گیرندهٔ معمول را به‌عنوان Contact اصلی تعیین کنید. ERPNext می‌تواند آن Contact را به‌طور خودکار در [پیش‌فاکتور](https://docs.frappe.io/erpnext/quotation)، [سفارش فروش](sales-order.md)، [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice) یا سند پشتیبانی‌شدهٔ دیگری انتخاب کند.
 
 کاربران می‌توانند برای یک تراکنش خاص Contact پیوندخوردهٔ دیگری انتخاب کنند. تغییر Contact اصلی بر انتخاب‌های بعدی اثر می‌گذارد؛ اسناد ثبت‌نهایی‌شده را بازنویسی نمی‌کند.
 
@@ -120,7 +120,7 @@ Contact ذخیره می‌شود و ثبت نهایی ندارد. پس از ذخ
 | **Open** | برای ارتباط در دسترس است یا در آن مشارکت دارد. |
 | **Replied** | در زمینهٔ ارتباط ثبت‌شده پاسخ داده است. |
 | **Primary** | Contact ترجیحی برای یک طرف تجاری پیوندخورده است. |
-| **Portal User** | به حساب User با دسترسی مجاز به پورتال متصل است. |
+| **کاربر پورتال** | به حساب User با دسترسی مجاز به پورتال متصل است. |
 
 ## عیب‌یابی
 

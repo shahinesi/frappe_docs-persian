@@ -6,7 +6,7 @@ source_id: "erpnext/bom-stock-analysis"
 source_version: "f2a57c5f57bfd8af4b34addf8e12f8a8cfc27f72af66229e7c8cfa691a7f75ab"
 ---
 
-**BOM Stock Analysis** گزارشی تولیدی در ERPNext است که برای یک فهرست مواد (BOM) مشخص می‌کند آیا مواد اولیهٔ کافی برای اجرای برنامهٔ تولید دارید یا نه.
+**BOM موجودی Analysis** گزارشی تولیدی در ERPNext است که برای یک فهرست مواد (BOM) مشخص می‌کند آیا مواد اولیهٔ کافی برای اجرای برنامهٔ تولید دارید یا نه.
 
 این گزارش در دو حالت کار می‌کند:
 
@@ -15,7 +15,7 @@ source_version: "f2a57c5f57bfd8af4b34addf8e12f8a8cfc27f72af66229e7c8cfa691a7f75a
 
 برای دسترسی به گزارش:
 
-> صفحهٔ اصلی > Manufacturing > Reports > BOM Stock Analysis
+> صفحهٔ اصلی > Manufacturing > Reports > BOM موجودی Analysis
 
 ### حالت Detailed
 
@@ -25,7 +25,7 @@ source_version: "f2a57c5f57bfd8af4b34addf8e12f8a8cfc27f72af66229e7c8cfa691a7f75a
 با واردکردن مقدار در **FG کالا to make**، گزارش مستقیماً وارد حالت Detailed می‌شود.
 :::
 
-**Maximum producible کالا** بیشترین تعداد اقلامی را مشخص می‌کند که با توجه به موجودی مواد اولیه می‌توان تولید کرد. رنگ سبز نشان می‌دهد که با توجه به **Required Qty to make**، تولید قلم نهایی (FG کالا) ممکن است. اگر مقدار FG قابل‌تولید از مقدار **Required qty** کمتر باشد، مقدار با رنگ قرمز نمایش داده می‌شود.
+**Maximum producible کالا** بیشترین تعداد اقلامی را مشخص می‌کند که با توجه به موجودی مواد اولیه می‌توان تولید کرد. رنگ سبز نشان می‌دهد که با توجه به **Required مقدار to make**، تولید قلم نهایی (FG کالا) ممکن است. اگر مقدار FG قابل‌تولید از مقدار **Required مقدار** کمتر باشد، مقدار با رنگ قرمز نمایش داده می‌شود.
 
 ![گزارش تحلیل موجودی BOM در حالت Detailed](https://docs.frappe.io/files/image0bb381.png)
 

@@ -20,7 +20,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای بازکردن پنل میانبرهای صفحه‌کلید، **شیفت + /** را فشار دهید. این پنل میانبرهای سراسریِ در دسترس در میزکار را فهرست می‌کند.
 
-![پنل میانبرهای صفحه‌کلید در Frappe Desk](/files/keyboard-shortcuts-keyboard-shortcuts-panel-in-frappe-desk.webp)
+![پنل میانبرهای صفحه‌کلید در Frappe میزکار](/files/keyboard-shortcuts-keyboard-shortcuts-panel-in-frappe-desk.webp)
 
 ## میانبرهای سراسری
 
@@ -42,7 +42,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای بازکردن Awesomebar، **⌘ + K** یا **⌘ + G** را فشار دهید. نام صفحه، گزارش، نوع سند یا رکورد موردنظر را تایپ کنید؛ سپس با کلیدهای جهت‌نما میان نتیجه‌ها حرکت کنید و برای انتخاب نتیجه، **Enter** را بزنید.
 
-![نتایج جست‌وجوی Awesomebar در Frappe Desk](/files/keyboard-shortcuts-awesomebar-search-results-in-frappe-desk.webp)
+![نتایج جست‌وجوی Awesomebar در Frappe میزکار](/files/keyboard-shortcuts-awesomebar-search-results-in-frappe-desk.webp)
 
 ## پیمایش نتیجه‌های جست‌وجو
 

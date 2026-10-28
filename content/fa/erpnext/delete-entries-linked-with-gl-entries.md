@@ -25,13 +25,13 @@ ERPNext مانع حذف فاکتور لغوشدهٔ شرکت Nova Industries م�
 
 ## فعال‌کردن تنظیم
 
-1. **Accounts Settings** را باز کنید.
-2. گزینهٔ **Delete Accounting and Stock Ledger Entries on deletion of Transaction** را پیدا کنید.
+1. **تنظیمات حساب‌ها** را باز کنید.
+2. گزینهٔ **حذف ثبت‌های حسابداری و دفتر موجودی هنگام حذف تراکنش** را پیدا کنید.
 3. آن را فعال کنید، ذخیره کنید و صفحه را دوباره بارگذاری کنید.
 4. فقط سند لغوشدهٔ موردنظر را حذف کنید.
 5. اگر فعال‌سازی برای پاک‌سازی یک‌باره تأیید شده بود، پس از پایان کار تنظیم را دوباره غیرفعال کنید.
 
-![گزینهٔ Accounts Settings برای حذف ردیف‌های مرتبط دفتر کل حسابداری و موجودی](https://novacompanies.m.frappe.cloud/files/final-accounting-20260814-delete-linked-ledger-setting.png)
+![گزینهٔ تنظیمات حساب‌ها برای حذف ردیف‌های مرتبط دفتر کل حسابداری و موجودی](https://novacompanies.m.frappe.cloud/files/final-accounting-20260814-delete-linked-ledger-setting.png)
 
 ## عیب‌یابی
 
@@ -48,6 +48,6 @@ ERPNext مانع حذف فاکتور لغوشدهٔ شرکت Nova Industries م�
 ## موضوعات مرتبط
 
 - [مروری بر حسابداری](/erpnext/accounting/introduction)
-- [Chart of Accounts](chart-of-accounts.md)
+- [درخت حساب‌ها](chart-of-accounts.md)
 - [دفترکل](https://docs.frappe.io/erpnext/general-ledger)
-- [راهنمای «Fiscal Year | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/fiscal-year)
+- [سال مالی](https://docs.frappe.io/erpnext/fiscal-year)

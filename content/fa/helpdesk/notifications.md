@@ -19,8 +19,8 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## دسترسی به اعلان‌ها
 
-1. گزینهٔ **Notifications** را در نوار کناری پیدا کنید.
-2. برای بازکردن **Notifications Panel** روی آن بزنید.
+1. گزینهٔ **اعلان‌ها** را در نوار کناری پیدا کنید.
+2. برای بازکردن **اعلان‌ها Panel** روی آن بزنید.
 
 ## آشنایی با اعلان‌ها
 

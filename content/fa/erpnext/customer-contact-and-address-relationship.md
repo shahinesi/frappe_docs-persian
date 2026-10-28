@@ -56,7 +56,7 @@ Nova Electronics Trading به **Summit Digital Stores** می‌فروشد. ERPNe
 - **Address ترجیحی صورتحساب:** دفتر Harbor Avenue
 - **Address ترجیحی ارسال:** انبار Meridian Parkway
 
-وقتی کاربر برای Summit Digital Stores یک [راهنمای «Quotation | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/quotation) یا [سفارش فروش](sales-order.md) می‌سازد، ERPNext می‌تواند Morgan Lee و Addressهای ترجیحی را دریافت کند. اگر تراکنش به آن نیاز داشته باشد، کاربر همچنان می‌تواند Taylor Brooks یا Address پیوندخوردهٔ دیگری را انتخاب کند.
+وقتی کاربر برای Summit Digital Stores یک [پیش‌فاکتور](https://docs.frappe.io/erpnext/quotation) یا [سفارش فروش](sales-order.md) می‌سازد، ERPNext می‌تواند Morgan Lee و Addressهای ترجیحی را دریافت کند. اگر تراکنش به آن نیاز داشته باشد، کاربر همچنان می‌تواند Taylor Brooks یا Address پیوندخوردهٔ دیگری را انتخاب کند.
 
 ## انتخاب رکوردهای اصلی
 

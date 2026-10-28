@@ -25,7 +25,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 پس از پایان راهنمای راه‌اندازی، به صفحهٔ کارپوشههای Insights هدایت می‌شوید. در آنجا یک کارپوشه نمونه را می‌بینید که بر اساس داده‌های نمایشی ساخته شده است.
 
-![فهرست Workbookها](https://docs.frappe.io/files/insights-workbook-list.png)
+![فهرست کارپوشهها](https://docs.frappe.io/files/insights-workbook-list.png)
 
 *کارپوشه نمونه*
 

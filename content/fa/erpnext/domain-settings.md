@@ -75,9 +75,9 @@ Domain نمایانگر یک زمینهٔ کسب‌وکار است و می‌ت�
 
 ## موضوعات مرتبط
 
-- [راهنمای «Module Settings | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/module-settings)
+- [راهنمای «Module Settings» در ERPNext](https://docs.frappe.io/erpnext/module-settings)
 - [نقش Based Permissions](https://docs.frappe.io/erpnext/role-based-permissions)
 - [راهنمای «User Permissions» در ERPNext](https://docs.frappe.io/erpnext/user-permissions)
 - [فضای کاری](https://docs.frappe.io/erpnext/workspace)
-- [راهنمای «System Settings | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/system-settings)
+- [راهنمای «System Settings» در ERPNext](https://docs.frappe.io/erpnext/system-settings)
 - [افزودن کاربران](adding-users.md)

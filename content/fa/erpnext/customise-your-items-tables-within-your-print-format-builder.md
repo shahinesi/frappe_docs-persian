@@ -27,6 +27,6 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 پس از انتخاب ستون‌های دلخواه، **Update** را بزنید و پس از هر اصلاح دیگری در Print Format، تغییرات را **ذخیره** کنید.
 
-صفحه را تازه‌سازی و Print Format تازه‌ساخته‌شده را انتخاب کنید؛ در نمونهٔ منبع، این قالب **Purchase Receipt** است. پس از بازکردن Print Format تازه، تغییرات در جدول Items دیده می‌شوند.
+صفحه را تازه‌سازی و Print Format تازه‌ساخته‌شده را انتخاب کنید؛ در نمونهٔ منبع، این قالب **رسید خرید** است. پس از بازکردن Print Format تازه، تغییرات در جدول Items دیده می‌شوند.
 
 برای دیدن تفاوت **Standard Print Format** با قالبی که ساخته‌اید، کافی است روی Print Format Templates موجود کلیک کنید.

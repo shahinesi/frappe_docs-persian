@@ -31,15 +31,15 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 4. KRAها (Key Result Areas) و وزن هرکدام را اضافه کنید.
 5. معیارهایی را اضافه کنید که بر اساس آن‌ها در Performance بازخورد و Self ارزیابی عملکرد به کارکنان امتیاز داده می‌شود.
 
-![نمونهٔ Appraisal Template](https://frappehr.com/files/appraisal-template9d1d22.png)
+![نمونهٔ الگوی ارزیابی](https://frappehr.com/files/appraisal-template9d1d22.png)
 
 پس از ساخت الگوها، آن‌ها را به عنوان شغلیهای مربوط پیوند دهید.
 
-![پیوند الگو به Designation](https://frappehr.com/files/template-link.png)
+![پیوند الگو به عنوان شغلی](https://frappehr.com/files/template-link.png)
 
 یک الگو را می‌توان به چند عنوان شغلی پیوند داد.
 
-![پیوند یک الگو به چند Designation](https://frappehr.com/files/template-link-2.png)
+![پیوند یک الگو به چند عنوان شغلی](https://frappehr.com/files/template-link-2.png)
 
 ## 3. موضوعات مرتبط
 

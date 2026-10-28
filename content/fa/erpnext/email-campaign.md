@@ -15,71 +15,71 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 >
 > تصویرها در این مخزن بازنشر نشده‌اند و پیوندشان به فایل‌های میزبان منبع اشاره می‌کند.
 
-**Email Campaign** مجموعه‌ای هماهنگ از ایمیل‌هاست که طبق برنامه‌ای مشخص برای سرنخ‌ها یا مخاطبان ارسال می‌شود.
+**کمپین ایمیل** مجموعه‌ای هماهنگ از ایمیل‌هاست که طبق برنامه‌ای مشخص برای سرنخ‌ها یا مخاطبان ارسال می‌شود.
 
 کارزارهای ایمیلی همچنان از راه‌های مؤثر برای ارتباط با مشتریان، مخاطبان یا سرنخ‌ها و حفظ تعامل آن‌ها هستند. برای نمونه، می‌توانید برای معرفی محصول به مشتریان کارزاری بسازید که در هر ایمیل یکی از قابلیت‌های جالب محصول را معرفی کند.
 
-برای ایجاد Email Campaign، به مسیر زیر بروید:
+برای ایجاد کمپین ایمیل، به مسیر زیر بروید:
 
-> صفحهٔ اصلی > CRM > Campaign > Email Campaign
+> صفحهٔ اصلی > CRM > Campaign > کمپین ایمیل
 
 ## پیش‌نیازها
 
-پیش از ایجاد و استفاده از Email Campaign، موارد زیر را بسازید:
+پیش از ایجاد و استفاده از کمپین ایمیل، موارد زیر را بسازید:
 
 - [کارزار بازاریابی](campaign.md)
 - [سرنخ](https://docs.frappe.io/erpnext/lead)، [مخاطب (Contact)](contact.md) یا [گروه ایمیل](email_group.md)
 
-## ایجاد Email Campaign
+## ایجاد کمپین ایمیل
 
-- فهرست Email Campaign را باز و **جدید** را انتخاب کنید.
-- [کارزار بازاریابی](campaign.md)ای را انتخاب کنید که می‌خواهید برای آن Email Campaign بسازید.
+- فهرست کمپین ایمیل را باز و **جدید** را انتخاب کنید.
+- [کارزار بازاریابی](campaign.md)ای را انتخاب کنید که می‌خواهید برای آن کمپین ایمیل بسازید.
 - **Start Date** کارزار را تعیین کنید.
-- در **Email Campaign For** مشخص کنید کارزار برای سرنخ، Contact یا Email Group باشد تا بتوانید به چند مخاطب ایمیل بفرستید.
+- در **کمپین ایمیل For** مشخص کنید کارزار برای سرنخ، Contact یا Email Group باشد تا بتوانید به چند مخاطب ایمیل بفرستید.
 - در **Recipient**، سرنخ، Contact یا Email Group موردنظر را انتخاب کنید.
 - در **Sender**، کاربر سامانه‌ای را انتخاب کنید که ایمیل‌ها را می‌فرستد.
 - سند را ذخیره کنید.
 
-![سند Email Campaign](https://docs.frappe.io/files/email-campaign.png)
+![سند کمپین ایمیل](https://docs.frappe.io/files/email-campaign.png)
 
 کارزار ایمیلی بالا به برنامهٔ زیر برای Campaign وابسته است:
 
 ![برنامهٔ زمانی Campaign](https://docs.frappe.io/files/campaign-email-schedule.png)
 
-> **یادداشت:** فیلد **Send After (days)** در Campaign مشخص می‌کند ایمیل چند روز پس از **Start Date** کارزار ارسال شود. متن منبع می‌گوید **End Date** نمونه `26-07-2019` و 4 روز پس از **Start Date** برابر `22-07-2029` است؛ این دو تاریخ با فاصلهٔ اعلام‌شده سازگار نیستند.
+> **یادداشت:** فیلد **ارسال پس از (بر حسب روز)** در Campaign مشخص می‌کند ایمیل چند روز پس از **Start Date** کارزار ارسال شود. متن منبع می‌گوید **End Date** نمونه `26-07-2019` و 4 روز پس از **Start Date** برابر `22-07-2029` است؛ این دو تاریخ با فاصلهٔ اعلام‌شده سازگار نیستند.
 
-### ایجاد چند Email Campaign برای یک Campaign
+### ایجاد چند کمپین ایمیل برای یک Campaign
 
-همچنین می‌توانید از طریق داشبورد Campaign، برای سرنخ‌ها یا مخاطبان متفاوت و برای یک Campaign واحد، چند Email Campaign ایجاد کنید.
+همچنین می‌توانید از طریق داشبورد Campaign، برای سرنخ‌ها یا مخاطبان متفاوت و برای یک Campaign واحد، چند کمپین ایمیل ایجاد کنید.
 
-- Campaignای را باز کنید که می‌خواهید برایش Email Campaign بسازید.
+- Campaignای را باز کنید که می‌خواهید برایش کمپین ایمیل بسازید.
 - برای ایجاد کارزار تازه، علامت + کنار Email Campaigns را انتخاب کنید.
 
-![ایجاد Email Campaign از داشبورد](https://docs.frappe.io/files/campaign-dashboard.png)
+![ایجاد کمپین ایمیل از داشبورد](https://docs.frappe.io/files/campaign-dashboard.png)
 
 ## قابلیت‌ها
 
 ### ارتباط پیوندخورده
 
-هنگامی که ایمیل برای سرنخ یا مخاطب مربوط ارسال می‌شود، Communication به سند Email Campaign پیوند می‌خورد. می‌توانید همهٔ ایمیل‌های ارسال‌شده را در سند مشاهده کنید.
+هنگامی که ایمیل برای سرنخ یا مخاطب مربوط ارسال می‌شود، Communication به سند کمپین ایمیل پیوند می‌خورد. می‌توانید همهٔ ایمیل‌های ارسال‌شده را در سند مشاهده کنید.
 
 ![ارتباط پیوندخورده با کارزار ایمیلی](https://docs.frappe.io/files/email-campaign-linked-comm.png)
 
-### لغو اشتراک از Email Campaign
+### لغو اشتراک از کمپین ایمیل
 
-اگر سرنخ یا Contact دیگر نخواهد ایمیل‌های مربوط به کارزار را دریافت کند، می‌تواند با پیوند لغو اشتراکی که در ایمیل آمده است از Email Campaign خارج شود.
+اگر سرنخ یا Contact دیگر نخواهد ایمیل‌های مربوط به کارزار را دریافت کند، می‌تواند با پیوند لغو اشتراکی که در ایمیل آمده است از کمپین ایمیل خارج شود.
 
 ![پیوند لغو اشتراک](https://docs.frappe.io/files/unsubscribe-link.png)
 
-پس از لغو اشتراک، وضعیت سند Email Campaign به **Unsubscribed** تغییر می‌کند.
+پس از لغو اشتراک، وضعیت سند کمپین ایمیل به **Unsubscribed** تغییر می‌کند.
 
 ![وضعیت لغو اشتراک](https://docs.frappe.io/files/email-campaign-unsubscribed.png)
 
 ### استفاده از فیلدهای سرنخ یا Contact در قالب ایمیل
 
-قالب ایمیل به سندی دسترسی دارد که در فیلد **Email Campaign For** مشخص کرده‌اید. برای نمایش فیلدهای سند سرنخ یا Contact در قالب، از الگوی `doc.fieldname` استفاده کنید.
+قالب ایمیل به سندی دسترسی دارد که در فیلد **کمپین ایمیل For** مشخص کرده‌اید. برای نمایش فیلدهای سند سرنخ یا Contact در قالب، از الگوی `doc.fieldname` استفاده کنید.
 
-برای نمونه، اگر **Email Campaign For** برابر Contact باشد، می‌توانید نام کوچک مخاطب را در قالب ایمیل با `doc.first_name` درج کنید؛ همان‌طور که در تصویر زیر آمده است:
+برای نمونه، اگر **کمپین ایمیل For** برابر Contact باشد، می‌توانید نام کوچک مخاطب را در قالب ایمیل با `doc.first_name` درج کنید؛ همان‌طور که در تصویر زیر آمده است:
 
 ![داده‌های سند در قالب ایمیل](https://docs.frappe.io/files/email-template-doc.png)
 
@@ -96,7 +96,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - **Completed**: پس از **End Date** وضعیت به Completed تغییر می‌کند.
 - **Unsubscribed**: سرنخ یا Contact اشتراک خود را از کارزار لغو کرده است.
 
-![وضعیت Email Campaign](https://docs.frappe.io/files/email-campaign-status.png)
+![وضعیت کمپین ایمیل](https://docs.frappe.io/files/email-campaign-status.png)
 
 ## موضوعات مرتبط
 
@@ -104,4 +104,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - [سرنخ](https://docs.frappe.io/erpnext/lead)
 - [مخاطب (Contact)](contact.md)
 
-بعدی: [راهنمای «Newsletter | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/newsletter)
+بعدی: [راهنمای «Newsletter» در ERPNext](https://docs.frappe.io/erpnext/newsletter)

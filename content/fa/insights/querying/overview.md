@@ -27,20 +27,20 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## ساخت نخستین پرس‌وجو
 
-<video controls width="100%" height="auto"><source src="https://docs.frappe.io/files/پرس‌وجو.mp4" type="video/mp4"></video>
+<video controls width="100%" height="auto"><منبع src="https://docs.frappe.io/files/پرس‌وجو.mp4" type="video/mp4"></video>
 
 ### آغاز یک پرس‌وجوی تازه
 
 #### 1. بازکردن کارپوشه
 
-1. روی زبانهٔ **Queries** کلیک کنید.
+1. روی زبانهٔ **پرس‌وجوها** کلیک کنید.
 2. روی **جدید پرس‌وجو** کلیک کنید.
 3. نوع پرس‌وجو را انتخاب کنید:
    - **Visual پرس‌وجو Builder**: ساخت دیداری.
    - **SQL Editor**: نوشتن SQL.
    - **Script Editor**: نوشتن Python.
 
-![Query Builder](https://docs.frappe.io/files/Query_Builderfe073a.jpeg)
+![پرس‌وجو Builder](https://docs.frappe.io/files/Query_Builderfe073a.jpeg)
 
 در این راهنما روی پرس‌وجو Builder تمرکز می‌کنیم، چون شروع کار با آن آسان‌تر است.
 

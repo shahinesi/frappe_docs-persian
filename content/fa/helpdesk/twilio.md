@@ -23,8 +23,8 @@ Twilio یک پلتفرم ارتباطی ابری است که به کسب‌وک�
 
 1. **اشتراک Twilio:** یک اشتراک فعال Twilio تهیه کنید. برای جزئیات، مستندات Twilio را ببینید.
 2. **اطلاعات دسترسی Twilio:** از حساب Twilio خود `Account SID`، `Auth Token` و شمارهٔ موبایل Twilio را بردارید.
-3. **Settings:** منوی کشویی کنار نشان برند در گوشهٔ بالا و سمت چپ را باز و **Settings** را انتخاب کنید.
-4. **Telephony Settings:** به **Telephony Settings** بروید و Twilio را فعال کنید. `Account SID`، `Auth Token` و شمارهٔ Twilio را وارد کنید. در این مرحله می‌توانید ضبط تماس را نیز فعال کنید.
+3. **تنظیمات:** منوی کشویی کنار نشان برند در گوشهٔ بالا و سمت چپ را باز و **تنظیمات** را انتخاب کنید.
+4. **Telephony تنظیمات:** به **Telephony تنظیمات** بروید و Twilio را فعال کنید. `Account SID`، `Auth Token` و شمارهٔ Twilio را وارد کنید. در این مرحله می‌توانید ضبط تماس را نیز فعال کنید.
 
 ## پیکربندی API در Twilio
 
@@ -32,7 +32,7 @@ Twilio یک پلتفرم ارتباطی ابری است که به کسب‌وک�
 
 ### نشانی API تماس ورودی
 
-در **Phone Numbers → Manage → Active Numbers** شمارهٔ موبایل خود را انتخاب کنید. در فرم **Voice Configuration**، در بخش **A call comes in** نشانی زیر را در فیلد URL وارد کنید:
+در **تلفن Numbers → Manage → فعال Numbers** شمارهٔ موبایل خود را انتخاب کنید. در فرم **Voice Configuration**، در بخش **A call comes in** نشانی زیر را در فیلد URL وارد کنید:
 
 ```text
 https://<yoursitename>/api/method/telephony.twilio.api.twilio_incoming_call_handler
@@ -42,7 +42,7 @@ https://<yoursitename>/api/method/telephony.twilio.api.twilio_incoming_call_hand
 
 ### نشانی API تماس خروجی
 
-به **Phone Numbers → Manage → TwiML apps** بروید و برنامهٔ خود را انتخاب کنید. در **Voice Configuration → Request URL** نشانی زیر را وارد کنید:
+به **تلفن Numbers → Manage → TwiML apps** بروید و برنامهٔ خود را انتخاب کنید. در **Voice Configuration → Request URL** نشانی زیر را وارد کنید:
 
 ```text
 https://<yoursitename>/api/method/telephony.twilio.api.voice

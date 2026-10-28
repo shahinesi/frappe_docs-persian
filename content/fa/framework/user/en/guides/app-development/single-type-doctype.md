@@ -21,7 +21,7 @@ DocTypeهای **Single** جدول جداگانه‌ای ندارند و فقط �
 
 #### نمونه‌ها
 
-در Frappe، **System Settings** و **Customize Form** از نوع Single هستند.
+در Frappe، **تنظیمات سیستم** و **سفارشی‌سازی فرم** از نوع Single هستند.
 
 برای توضیحات بیشتر، راهنمای [DocType تکی](../../basics/doctypes/single-doctype.md) را ببینید.
 

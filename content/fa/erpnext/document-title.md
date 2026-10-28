@@ -17,7 +17,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 **می‌توانید عنوان سندها را بر اساس ویژگی‌هایشان سفارشی کنید تا در نمای فهرست، اطلاعات معناداری نمایش داده شود.**
 
-برای نمونه، عنوان پیش‌فرض یک Quotation نام مشتری است؛ اما اگر با تعداد کمی مشتری کار می‌کنید و برای هرکدام تعداد زیادی پیش‌فاکتور می‌فرستید، ممکن است بخواهید عنوان را سفارشی کنید.
+برای نمونه، عنوان پیش‌فرض یک پیش‌فاکتور نام مشتری است؛ اما اگر با تعداد کمی مشتری کار می‌کنید و برای هرکدام تعداد زیادی پیش‌فاکتور می‌فرستید، ممکن است بخواهید عنوان را سفارشی کنید.
 
 ![عنوان سند](https://docs.frappe.io/files/document-title.png)
 
@@ -39,7 +39,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 همچنین می‌توانید از طریق Customize Form یک فیلد مشخص را به‌عنوان **Title فیلد** تعیین کنید.
 
-![Title Field در تنظیمات نما](https://docs.frappe.io/files/title-field-in-view-settings.png)
+![Title فیلد در تنظیمات نما](https://docs.frappe.io/files/title-field-in-view-settings.png)
 
 ## عنوان ثابت یا قابل ویرایش
 

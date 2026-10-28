@@ -54,4 +54,4 @@ Frappe CRM برای شما مناسب است اگر:
 - [گروه عمومی Telegram](https://t.me/frappecrm)
 - [تالار گفت‌وگوی Frappe CRM](https://discuss.frappe.io/c/business-apps/frappe-crm/82)
 - [وب‌سایت](https://frappe.io/crm)
-- [YouTube](https://www.youtube.com/channel/UCn3bV5kx77HsVwtnlCeEi_A)
+- [یوتیوب](https://www.youtube.com/channel/UCn3bV5kx77HsVwtnlCeEi_A)

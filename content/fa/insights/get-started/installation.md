@@ -32,7 +32,7 @@ Frappe Insights را می‌توان به چند روش، متناسب با نی
 2. برای نصب Frappe Insights این فرمان را اجرا کنید:
 
     python3 ./easy-install.py deploy \
-        --project=insights_prod_setup \
+        --پروژه=insights_prod_setup \
         --email=your_email.example.com \
         --image=ghcr.io/frappe/insights \
         --version=stable \

@@ -23,8 +23,8 @@ Exotel یک پلتفرم تلفن ابری است که به کسب‌وکاره�
 
 1. **اشتراک Exotel:** یک اشتراک فعال Exotel تهیه کنید. برای جزئیات به مستندات Exotel مراجعه کنید.
 2. **اطلاعات دسترسی Exotel:** از حساب Exotel خود این اطلاعات را بردارید: `Account SID`، `Subdomain`، `API Key`، `API Token` و شمارهٔ موبایل Exotel (`Exophones`).
-3. **Settings:** منوی کشویی کنار نشان برند در بالا و سمت چپ را باز و **Settings** را انتخاب کنید.
-4. **Telephony Settings:** به **Telephony Settings** بروید و Exotel را فعال کنید. `Account SID`، `Subdomain`، `API Key`، `API Token`، `Webhook verify token`، شمارهٔ Exotel و شمارهٔ شخصی خود را وارد کنید. مقدار `Webhook verify token` دلخواه است و بعداً در پیکربندی گردش تماس ورودی Exotel استفاده خواهد شد. در همین مرحله می‌توانید ضبط تماس را نیز فعال کنید.
+3. **تنظیمات:** منوی کشویی کنار نشان برند در بالا و سمت چپ را باز و **تنظیمات** را انتخاب کنید.
+4. **Telephony تنظیمات:** به **Telephony تنظیمات** بروید و Exotel را فعال کنید. `Account SID`، `Subdomain`، `API Key`، `API Token`، `Webhook verify token`، شمارهٔ Exotel و شمارهٔ شخصی خود را وارد کنید. مقدار `Webhook verify token` دلخواه است و بعداً در پیکربندی گردش تماس ورودی Exotel استفاده خواهد شد. در همین مرحله می‌توانید ضبط تماس را نیز فعال کنید.
 
 ## پیکربندی گردش تماس ورودی Exotel
 
@@ -37,7 +37,7 @@ Exotel یک پلتفرم تلفن ابری است که به کسب‌وکاره�
 3. گردش تماس را مطابق نیازتان تنظیم کنید. برای آشنایی با اجزای آن می‌توانید راهنماهای [Dial Whom](https://support.exotel.com/support/solutions/articles/3000088074-working-with-connect-applet-dial-whom-)، [Passthru](https://support.exotel.com/support/solutions/articles/48283-working-with-passthru-applet) و [appletهای Flow Builder](https://developer.exotel.com/applet) را ببینید.
 4. در **Dial Whom**، گروه کاربری را انتخاب کنید. گروه می‌تواند چند کارشناس داشته باشد. تماس ورودی به ترتیب افزودن اعضا به کارشناسان این گروه ارجاع می‌شود.
 5. روش توزیع تماس‌ها را نیز تنظیم کنید.
-6. در API اتصال و بخش **Create popup...**، نشانی زیر را به‌عنوان URL مربوط به Callback API جای‌گذاری کنید. به‌جای `<webhook-verify-token>` همان توکنی را بگذارید که در مرحلهٔ 4 راه‌اندازی Exotel ثبت کردید:
+6. در API اتصال و بخش **ایجاد کردن popup...**، نشانی زیر را به‌عنوان URL مربوط به Callback API جای‌گذاری کنید. به‌جای `<webhook-verify-token>` همان توکنی را بگذارید که در مرحلهٔ 4 راه‌اندازی Exotel ثبت کردید:
 
    ```text
    https://<yoursitename>/api/method/telephony.exotel.handler.handle_request?key=<webhook-verify-token>
@@ -56,7 +56,7 @@ Exotel یک پلتفرم تلفن ابری است که به کسب‌وکاره�
 
 ## برقراری تماس
 
-در صفحهٔ تیکت، بالای جزئیات تیکت در بخش سمت راست دکمهٔ تماس وجود دارد. برای آغاز تماس از آن استفاده کنید؛ ابتدا مطمئن شوید فیلد **Mobile No** در بخش **Person** شامل کد کشور است.
+در صفحهٔ تیکت، بالای جزئیات تیکت در بخش سمت راست دکمهٔ تماس وجود دارد. برای آغاز تماس از آن استفاده کنید؛ ابتدا مطمئن شوید فیلد **شماره موبایل** در بخش **Person** شامل کد کشور است.
 
 > پیش از برقراری تماس، فرایند KYC خود را در Exotel تکمیل کنید. راهنمای [آزمایش تماس خروجی در حساب‌های آزمایشی](https://support.exotel.com/support/solutions/articles/110606-trial-accounts-how-do-i-test-outbound-calling-) را ببینید.
 

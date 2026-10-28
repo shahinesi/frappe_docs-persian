@@ -15,9 +15,9 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ## مراحل
 
 1. یک کارمند بسازید.
-2. یک مؤلفهٔ حقوق با نام **اضافه‌کاری** و از نوع **Earning** بسازید.
+2. یک مؤلفهٔ حقوق با نام **اضافه‌کاری** و از نوع **درآمد** بسازید.
 
-   ![ساخت مؤلفهٔ حقوق Overtime](https://docs.erpnext.com/files/IKY5KnC.png)
+   ![ساخت مؤلفهٔ حقوق اضافه کاری](https://docs.erpnext.com/files/IKY5KnC.png)
 
 3. یک ساختار حقوق بسازید و **اضافه‌کاری** را با مبلغ 0 در آن بگنجانید.
 4. در خود ساختار حقوق، گزینهٔ **فیش حقوق بر اساس برگهٔ زمان‌کار** را علامت بزنید، **اضافه‌کاری** را به‌عنوان مؤلفهٔ حقوق انتخاب کنید و **نرخ ساعتی** را وارد کنید.
@@ -40,9 +40,9 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 فیش حقوق کارمند همهٔ Timesheetهایی را که او برای همان ماه ساخته است دریافت می‌کند و بر همان اساس مؤلفهٔ اضافه‌کاری را در فیش حقوق محاسبه می‌کند.
 
-![محاسبهٔ مؤلفهٔ Overtime در فیش حقوق](https://docs.erpnext.com/files/oZ1rr5x.png)
+![محاسبهٔ مؤلفهٔ اضافه کاری در فیش حقوق](https://docs.erpnext.com/files/oZ1rr5x.png)
 
-![Salary Slip محاسبه‌شده بر اساس Timesheet](https://docs.erpnext.com/files/1QoJVGc.png)
+![فیش حقوق محاسبه‌شده بر اساس Timesheet](https://docs.erpnext.com/files/1QoJVGc.png)
 
 ---
 

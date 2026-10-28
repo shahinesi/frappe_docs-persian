@@ -76,5 +76,5 @@ https://<your-site>/api/method/erpnext.erpnext_integrations.exotel_integration.h
 
 - از Awesome Bar به **Exotel Settings** بروید.
 - **Exotel SID** و **Exotel Token** را وارد کنید. کلید API و Token مربوط به Exotel را در [داشبورد Exotel](https://my.exotel.com/apisettings/site#api-credentials) می‌یابید.
-- به **Communication Medium** بروید.
+- به **رسانه ارتباطی** بروید.
 - ExoPhone خود را اضافه و برای آن برنامهٔ زمان‌بندی تعیین کنید. کارکنان بر اساس این برنامه پنجرهٔ بازشو را دریافت می‌کنند.

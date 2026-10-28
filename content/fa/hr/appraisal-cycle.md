@@ -25,12 +25,12 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ## 2. ساخت چرخهٔ ارزیابی عملکرد
 
 1. به فهرست چرخهٔ ارزیابی عملکرد بروید و روی **جدید** کلیک کنید.
-2. **Cycle Name** را وارد کنید.
+2. **نام چرخه** را وارد کنید.
 3. **شرکت** را انتخاب و تاریخ‌های شروع و پایان را تعیین کنید.
 4. **KRA Evaluation Method** را انتخاب کنید:
-   - **Automated Based on Goal Progress** (پیش‌فرض): امتیاز KRA/Goal بر اساس میزان تکمیل Goalهای پیوندخورده به آن KRA به‌طور خودکار محاسبه می‌شود. برای جزئیات بیشتر به [راهنمای «Goal» در Frappe HR](https://docs.frappe.io/hr/goal) مراجعه کنید.
+   - **خودکار بر اساس پیشرفت هدف** (پیش‌فرض): امتیاز KRA/Goal بر اساس میزان تکمیل Goalهای پیوندخورده به آن KRA به‌طور خودکار محاسبه می‌شود. برای جزئیات بیشتر به [راهنمای «Goal» در Frappe HR](https://docs.frappe.io/hr/goal) مراجعه کنید.
    - **Manual Rating:** می‌توانید Goalها/KRAها را دستی امتیازدهی کنید. این روش ارزیابی اصلی تا نسخهٔ v13 بود.
-5. به‌طور پیش‌فرض، **Final Score** میانگین Goal Score، بازخورد Score و Self ارزیابی عملکرد Score است. برای محاسبهٔ امتیاز نهایی با فرمول خودتان، **Calculate Final Score based on Formala** را فعال و عبارت فرمول را وارد کنید.
+5. به‌طور پیش‌فرض، **نمره نهایی** میانگین Goal Score، بازخورد Score و Self ارزیابی عملکرد Score است. برای محاسبهٔ امتیاز نهایی با فرمول خودتان، **Calculate نمره نهایی based on Formala** را فعال و عبارت فرمول را وارد کنید.
 
 ![تنظیم چرخهٔ ارزیابی عملکرد](https://frappehr.com/files/0UPkmBl.png)
 
@@ -46,7 +46,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 4. **ایجاد ارزیابی** را کلیک کنید تا برای کارکنان انتخاب‌شده سندهای ارزیابی عملکرد ساخته شوند.
 5. برای شروع چرخه، **Start** را بزنید.
 
-![ساخت Appraisalها از چرخه](https://frappehr.com/files/create-appraisalsaa9d04.gif)
+![ساخت ارزیابیها از چرخه](https://frappehr.com/files/create-appraisalsaa9d04.gif)
 
 اگر کارمندی پس از شروع چرخه به سازمان بپیوندد، می‌توانید یکی از این کارها را انجام دهید:
 

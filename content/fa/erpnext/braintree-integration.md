@@ -20,15 +20,15 @@ source_version: "f236909f52573872f0470b583552e812430ac3bd8deac74d2d7befac441abbe
 
 ![تنظیمات Braintree](https://docs.frappe.io/files/braintree_account.png)
 
-پس از فعال‌سازی سرویس، سامانه یک رکورد Payment Gateway و یک سرفصل حساب با نوع حساب Bank در Chart of Accounts ایجاد می‌کند.
+پس از فعال‌سازی سرویس، سامانه یک رکورد پرداخت Gateway و یک سرفصل حساب با نوع حساب بانک در درخت حساب‌ها ایجاد می‌کند.
 
-![حساب Braintree در Chart of Accounts](https://docs.frappe.io/files/braintree_coa.png)
+![حساب Braintree در درخت حساب‌ها](https://docs.frappe.io/files/braintree_coa.png)
 
 همچنین یک حساب درگاه پرداخت ایجاد می‌شود. در صورت نیاز می‌توانید حساب بانکی پیش‌فرض را تغییر دهید و برای درخواست پرداخت، الگو بسازید.
 
 ![حساب درگاه پرداخت Braintree](https://docs.frappe.io/files/payment_gateway_account_braintree.png)
 
-پس از پیکربندی Payment Gateway Account، سامانهٔ شما می‌تواند پرداخت‌های آنلاین را از طریق Braintree بپذیرد.
+پس از پیکربندی حساب درگاه پرداخت، سامانهٔ شما می‌تواند پرداخت‌های آنلاین را از طریق Braintree بپذیرد.
 
 ## ارزهای تراکنش پشتیبانی‌شده
 

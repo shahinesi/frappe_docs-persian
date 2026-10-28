@@ -7,6 +7,7 @@ import { getPageTitle, normalizeRepoPath, prepareMarkdownLinks } from './wiki-li
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const contentRoot = path.join(root, 'content', 'fa');
 const manifest = JSON.parse(await readFile(path.join(root, 'sources', 'manifest.json'), 'utf8'));
+const uiTermSnapshot = JSON.parse(await readFile(path.join(root, 'sources', 'ui-terms.json'), 'utf8'));
 const linkAudit = JSON.parse(await readFile(path.join(root, 'sources', 'link-target-audit.json'), 'utf8'));
 const aliases = new Map();
 const manifestPaths = new Set(manifest.pages.map((page) => new URL(page.url).pathname.replace(/\/$/, '')));
@@ -28,6 +29,18 @@ for (const line of glossary.split(/\r?\n/)) {
 }
 
 const files = [];
+async function writeWithRetry(file, contents) {
+	for (let attempt = 0; ; attempt++) {
+		try {
+			await writeFile(file, contents, 'utf8');
+			return;
+		} catch (error) {
+			if (attempt >= 7 || !['UNKNOWN', 'EBUSY', 'EPERM'].includes(error.code)) throw error;
+			await new Promise((resolve) => setTimeout(resolve, 150 * (attempt + 1)));
+		}
+	}
+}
+
 async function walk(directory) {
 	for (const entry of await readdir(directory, { withFileTypes: true })) {
 		const absolute = path.join(directory, entry.name);
@@ -58,13 +71,15 @@ const reviewIssues = [];
 const changedPaths = new Set();
 let changedFiles = 0;
 for (const [currentPath, page] of pages) {
-	const prepared = prepareMarkdownLinks(page.markdown, { currentPath, manifest, aliases, titles, terms });
+	const product = currentPath.match(/^content\/fa\/([^/]+)\//)?.[1];
+	const productTerms = { ...terms, ...(uiTermSnapshot.terms[product] || {}) };
+	const prepared = prepareMarkdownLinks(page.markdown, { currentPath, manifest, aliases, titles, terms: productTerms });
 	for (const [key, value] of Object.entries(prepared.counters)) totals[key] += value;
 	reviewIssues.push(...prepared.reviewIssues);
 	if (prepared.markdown === page.markdown) continue;
 	changedFiles++;
 	changedPaths.add(currentPath);
-	if (!dryRun) await writeFile(page.absolute, prepared.markdown, 'utf8');
+	if (!dryRun) await writeWithRetry(page.absolute, prepared.markdown);
 }
 
 let pagesMarkedForReview = 0;

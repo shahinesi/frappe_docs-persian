@@ -1,6 +1,6 @@
 import path from 'node:path';
 
-const MARKDOWN_TOKEN = /```[\s\S]*?```|`[^`\n]*`|!\[[^\]]*\]\([^)]*\)|\[[^\]]*\]\([^)]*\)/g;
+const MARKDOWN_TOKEN = /```[\s\S]*?```|`[^`\n]*`|<code\b[^>]*>[\s\S]*?<\/code\s*>|<pre\b[^>]*>[\s\S]*?<\/pre\s*>|!\[[^\]]*\]\([^)]*\)|\[[^\]]*\]\([^)]*\)/gi;
 const FA_LETTER = /[\u0600-\u06FF]/;
 const ATTRIBUTION_LABEL = /(منبع|مشاهده.{0,8}منبع|\bsource\b)/i;
 
@@ -15,7 +15,7 @@ export function replaceUiTerms(text, terms, counters) {
 		if (!english || !persian) continue;
 		const pattern = new RegExp(`(?<![A-Za-z0-9])${escapeRegExp(english)}(?![A-Za-z0-9])`, 'gi');
 		if (counters) counters.translatedTerms += [...result.matchAll(pattern)].length;
-		result = result.replace(pattern, persian);
+		result = result.replace(pattern, (match) => match === match.toUpperCase() && english !== match ? match : persian);
 	}
 	return result;
 }
@@ -26,7 +26,7 @@ function normalizeRepoPath(value) {
 
 function getPageTitle(value) {
 	const match = value.match(/^title:\s*["']?([^\r\n"']+)["']?\s*$/m);
-	return match?.[1]?.trim() || null;
+	return match?.[1]?.replaceAll('\\n', ' ').replaceAll('\\r', ' ').replace(/[\r\n]+/g, ' ').trim() || null;
 }
 
 function getOfficialPage(href, byPath, aliases) {
@@ -61,12 +61,20 @@ function productLinkLabel(section) {
 	return labels[section] || 'مستندات رسمی Frappe';
 }
 
+function localizeImageAlt(token, terms, counters) {
+	const match = token.match(/^!\[([^\]]*)\](\(.*\))$/);
+	if (!match) return token;
+	const alt = replaceUiTerms(match[1], terms, counters);
+	if (alt !== match[1]) counters.localizedLabels++;
+	return `![${alt}]${match[2]}`;
+}
+
 function rewriteLink(token, { currentPath, byPath, byTranslationPath, titles, terms, counters, reviewIssues }) {
 	const match = token.match(/^(\[)([^\]]*)(\]\()(<[^>]+>|[^\s)]+)([^)]*)(\))$/);
 	if (!match) return token;
 	const [, open, originalLabel, close, wrappedHref, suffix, end] = match;
 	const href = wrappedHref.replace(/^<|>$/g, '');
-	let label = replaceUiTerms(originalLabel, terms, counters);
+	let label = replaceUiTerms(originalLabel, terms, counters).replaceAll('\\n', ' ').replaceAll('\\r', ' ').trim();
 	let nextHref = href;
 	let targetPath = null;
 	const official = getOfficialPage(href, byPath);
@@ -87,9 +95,11 @@ function rewriteLink(token, { currentPath, byPath, byTranslationPath, titles, te
 			if (!FA_LETTER.test(label) && !isAttribution) label = productLinkLabel(section);
 		} else if (page && !isAttribution) {
 			nextHref = `${page.url}${hash}`;
-			const isGenericProductLabel = /^مستندات رسمی (?:ERPNext|Frappe|Frappe Framework|Frappe HR|Helpdesk|Insights|Frappe Builder|Frappe CRM|Frappe Drive|Frappe Learning|Frappe Wiki)$/.test(originalLabel.trim());
+			const isGenericProductLabel = /^مستندات رسمی (?:ERPNext|Frappe|Frappe Framework|Frappe HR|Helpdesk|Insights|Frappe Builder|Frappe CRM|Frappe Drive|Frappe Learning|Frappe Wiki)$/.test(originalLabel.trim())
+				|| /^راهنمای «.*» در (?:ERPNext|Frappe Framework|Frappe HR|Frappe Helpdesk|Insights|Frappe CRM|Frappe Builder|Frappe Learning|Frappe Drive)$/.test(originalLabel.trim());
 			if (!FA_LETTER.test(label) || isGenericProductLabel) {
-				const sourceTitle = page.source_title ? replaceUiTerms(page.source_title, terms) : '';
+				const cleanSourceTitle = (page.source_title || '').replaceAll('\\n', ' ').replaceAll('\\r', ' ').replace(/[\r\n]+/g, ' ').replace(/\s*\|\s*(?:ERPNext|Frappe Framework|Frappe HR|Frappe Helpdesk|Insights|Frappe CRM|Frappe Builder|Frappe Learning|Frappe Drive) Documentation\s*$/i, '').trim();
+				const sourceTitle = cleanSourceTitle ? replaceUiTerms(cleanSourceTitle, terms) : '';
 				label = FA_LETTER.test(sourceTitle)
 					? sourceTitle
 					: `راهنمای «${sourceTitle || label}» در ${productLinkLabel(page.section).replace(/^مستندات رسمی /, '')}`;
@@ -164,8 +174,10 @@ export function prepareMarkdownLinks(markdown, {
 		const token = match[0];
 		const index = match.index ?? 0;
 		result += replaceUiTerms(body.slice(lastIndex, index), terms, counters);
-		if (token.startsWith('```') || token.startsWith('`') || token.startsWith('![')) {
+		if (token.startsWith('```') || token.startsWith('`')) {
 			result += token;
+		} else if (token.startsWith('![')) {
+			result += localizeImageAlt(token, terms, counters);
 		} else {
 			result += rewriteLink(token, {
 				currentPath,

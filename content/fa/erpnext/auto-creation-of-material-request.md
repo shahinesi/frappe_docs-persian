@@ -26,7 +26,7 @@ source_version: "ba6e367fcfc5d1c1af0c03ca8e8a3b2cbc5c4bba19b6462fac37bd7f68d6cdb
 
 اگر ایجاد خودکار درخواست مواد با شکست مواجه شود، خطای رخ‌داده به کاربر دارای نقش مدیر خرید اطلاع داده می‌شود. یکی از پیام‌های خطای رایج این است:
 
-**An error occurred for certain Items while creating Material Requests based on Re-order level.** **Date 01-04-2016 not in any Fiscal Year.**
+**An error occurred for certain Items while creating درخواست مواد based on Re-order level.** **Date 01-04-2016 not in any سال مالی.**
 
 یکی از علت‌های احتمالی خطا می‌تواند سال مالی باشد. برای اطلاعات بیشتر، [خطای سال مالی](https://docs.frappe.io/erpnext/fiscal-year-error.html) را ببینید.
 

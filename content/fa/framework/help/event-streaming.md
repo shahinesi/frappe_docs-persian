@@ -21,7 +21,7 @@ Event Streaming قابلیتی در Frappe بود که تغییرات سندها
 
 ## وضعیت در نسخهٔ 15 و جدیدتر
 
-از نسخهٔ 15 به بعد، Event Streaming به‌عنوان قابلیتی که در هسته نگهداری شود پشتیبانی نمی‌شود. در نسخهٔ 14 فریم‌ورک Frappe، کد Event Streaming در مسیر `frappe/event_streaming` قرار داشت. در نسخهٔ 15، Frappe وصله‌ای برای حذف ماژول Event Streaming و DocTypeهای آن افزود؛ از جمله Event Producer، Event Consumer، Event Update Log و DocTypeهای نگاشت مرتبط.
+از نسخهٔ 15 به بعد، Event Streaming به‌عنوان قابلیتی که در هسته نگهداری شود پشتیبانی نمی‌شود. در نسخهٔ 14 فریم‌ورک Frappe، کد Event Streaming در مسیر `frappe/event_streaming` قرار داشت. در نسخهٔ 15، Frappe وصله‌ای برای حذف ماژول Event Streaming و DocTypeهای آن افزود؛ از جمله Event Producer، Event Consumer، Event به‌روزرسانی Log و DocTypeهای نگاشت مرتبط.
 
 ## برنامهٔ جداگانه
 
@@ -31,7 +31,7 @@ Event Streaming قابلیتی در Frappe بود که تغییرات سندها
 
 - **REST API:** برای یکپارچه‌سازی‌های صریح میان ERPNext و سامانه‌های دیگر از REST API در Frappe استفاده کنید.
 - **Webhooks:** هنگامی از webhook استفاده کنید که سامانه‌ای دیگر باید پس از ایجاد یا به‌روزرسانی سند آگاه شود.
-- **Background Jobs:** برای منطق همگام‌سازی‌ای که به تلاش مجدد، گزارش‌ها و رسیدگی به خطا نیاز دارد، از کارهای زمان‌بندی‌شده یا صف‌شده استفاده کنید.
+- **کارهای پس‌زمینه:** برای منطق همگام‌سازی‌ای که به تلاش مجدد، گزارش‌ها و رسیدگی به خطا نیاز دارد، از کارهای زمان‌بندی‌شده یا صف‌شده استفاده کنید.
 - **برنامه‌های یکپارچه‌سازی سفارشی:** اگر نگاشت داده، مدیریت تعارض یا قواعد کسب‌وکار باید با دقت کنترل شوند، برنامه‌ای سفارشی بسازید.
 
 ## موارد احتیاط
@@ -44,7 +44,7 @@ Event Streaming قابلیتی در Frappe بود که تغییرات سندها
 - [وصلهٔ حذف Event Streaming در نسخهٔ 15 فریم‌ورک Frappe](https://github.com/frappe/frappe/blob/version-15/frappe/patches/v15_0/remove_event_streaming.py)
 - [REST API در Frappe](https://docs.frappe.io/framework/user/en/api/rest)
 - [راهنمای «Webhooks» در Frappe Framework](https://docs.frappe.io/framework/user/en/guides/integration/webhooks)
-- [راهنمای «Background Jobs» در Frappe Framework](https://docs.frappe.io/framework/user/en/api/background_jobs)
+- [کارهای پس‌زمینه](https://docs.frappe.io/framework/user/en/api/background_jobs)
 
 ---
 

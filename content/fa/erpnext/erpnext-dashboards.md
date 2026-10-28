@@ -59,13 +59,13 @@ ERPNext داشبوردها، صفحه‌های تحلیل، گزارش‌ها و
 
 ## داشبورد و گزارش‌های تولید
 
-داشبوردها و گزارش‌های تولید به تیم‌های تولید کمک می‌کنند Work Orderها، برنامه‌ریزی تولید، BOMها، عملیات و نیازمندی‌های مواد را پایش کنند.
+داشبوردها و گزارش‌های تولید به تیم‌های تولید کمک می‌کنند دستور کارها، برنامه‌ریزی تولید، BOMها، عملیات و نیازمندی‌های مواد را پایش کنند.
 
 - [داشبورد تولید](https://docs.frappe.io/erpnext/manufacturing-dashboard): بررسی فعالیت‌های تولید در نمایی شبیه داشبورد.
 - [گزارش‌های تولید](https://docs.frappe.io/erpnext/manufacturing-reports): فهرست گزارش‌های تولید.
 - [تحلیل تولید](https://docs.frappe.io/erpnext/production-analytics): تحلیل روندهای تولید.
 - [گزارش برنامه‌ریزی تولید](https://docs.frappe.io/erpnext/production-planning-report): بررسی داده‌های برنامه‌ریزی تولید.
-- [گزارش Work Orderهای باز](https://docs.frappe.io/erpnext/open-work-orders): پیگیری Work Orderهای باز.
+- [گزارش دستور کارهای باز](https://docs.frappe.io/erpnext/open-work-orders): پیگیری دستور کارهای باز.
 - [گزارش موجودی BOM](bom-stock-report.md): بررسی موجودی مرتبط با BOM.
 - [گزارش محل استفاده از کالا](https://docs.frappe.io/erpnext/item-where-used-report): یافتن محل استفاده از کالا در BOMها.
 
@@ -98,7 +98,7 @@ ERPNext داشبوردها، صفحه‌های تحلیل، گزارش‌ها و
 داشبوردها و گزارش‌های دارایی به تیم‌های مالی و عملیاتی کمک می‌کنند دارایی‌های ثابت، استهلاک، جابه‌جایی دارایی و حسابداری دارایی را بررسی کنند.
 
 - [گزارش‌های دارایی](asset-reports.md): بررسی گزارش‌های مرتبط با دارایی.
-- [استفاده از Finance Book برای استهلاک دارایی](https://docs.frappe.io/erpnext/using-finance-book-for-asset-depreciation): آشنایی با گزارش استهلاک بر اساس Finance Book.
+- [استفاده از دفتر مالی برای استهلاک دارایی](https://docs.frappe.io/erpnext/using-finance-book-for-asset-depreciation): آشنایی با گزارش استهلاک بر اساس دفتر مالی.
 
 ## داشبوردهای منابع انسانی و حقوق و دستمزد
 

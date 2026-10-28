@@ -16,25 +16,25 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 در Frappe HR می‌توانید برای نامزدها نامهٔ انتصاب بسازید. برای دسترسی به آن، به این مسیر بروید:
 
-> صفحهٔ اصلی > Human Resource > Recruitment > نامهٔ انتصاب
+> صفحهٔ اصلی > Human Resource > استخدام > نامهٔ انتصاب
 
 ## 1. پیش‌نیاز
 
 پیش از ساخت نامهٔ انتصاب، بهتر است مورد زیر را ایجاد کرده باشید:
 
-- [راهنمای «Job Applicant» در Frappe HR](https://docs.frappe.io/hr/job-applicant)
+- [متقاضی کار](https://docs.frappe.io/hr/job-applicant)
 
 ## 2. ساخت نامهٔ انتصاب
 
 1. به فهرست نامهٔ انتصاب بروید و **جدید** را بزنید.
-2. **Job Applicant** و **Appointment Date** را انتخاب کنید.
+2. **متقاضی کار** و **تاریخ انتصاب** را انتخاب کنید.
 3. بخش‌های **Introduction**، **Terms** و **Closing Statement** را دستی پر کنید یا برای پرشدن خودکار محتوا، یک نامهٔ انتصاب Template انتخاب کنید. می‌توانید قالب‌های تازه‌ای بسازید تا بعداً به‌آسانی انتخابشان کنید.
 4. روی **ذخیره** کلیک کنید.
 5. پس از ذخیره، برای دیدن و ذخیره‌کردن PDF نامه، به **Print View** بروید.
 
 ![نامهٔ انتصاب در Frappe HR](https://frappehr.com/files/appointment-letter.png)
 
-> **توجه:** نامهٔ انتصاب را فقط می‌توان برای یک [راهنمای «Job Applicant» در Frappe HR](https://docs.frappe.io/hr/job-applicant) ساخت.
+> **توجه:** نامهٔ انتصاب را فقط می‌توان برای یک [متقاضی کار](https://docs.frappe.io/hr/job-applicant) ساخت.
 
 ## 3. قابلیت‌ها
 

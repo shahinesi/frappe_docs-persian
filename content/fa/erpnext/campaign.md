@@ -29,26 +29,26 @@ source_version: "e8aebe861554e45abf04faf1f5122b42aa965f3974df4a3513862139a986240
 
 ## قابلیت‌ها
 
-### برچسب‌گذاری Campaign در سرنخ، فرصت فروش و Quotation
+### برچسب‌گذاری Campaign در سرنخ، فرصت فروش و پیش‌فاکتور
 
-وقتی کارزار بازاریابی باعث ایجاد سرنخ یا فرصت فروش می‌شود، هنگام ایجاد [سرنخ](https://docs.frappe.io/erpnext/lead) یا [فرصت فروش](https://docs.frappe.io/erpnext/opportunity) می‌توانید Campaign را به آن پیوند دهید. Campaign را می‌توان در [راهنمای «Quotation | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/quotation) نیز مشخص کرد.
+وقتی کارزار بازاریابی باعث ایجاد سرنخ یا فرصت فروش می‌شود، هنگام ایجاد [سرنخ](https://docs.frappe.io/erpnext/lead) یا [فرصت فروش](https://docs.frappe.io/erpnext/opportunity) می‌توانید Campaign را به آن پیوند دهید. Campaign را می‌توان در [پیش‌فاکتور](https://docs.frappe.io/erpnext/quotation) نیز مشخص کرد.
 
 این کار با محاسبهٔ بازگشت سرمایه (ROI)، سنجش اثربخشی کارزار بازاریابی را ممکن می‌کند.
 
-![Campaign در Lead](https://docs.frappe.io/files/campaign-in-lead.png)
+![Campaign در سرنخ](https://docs.frappe.io/files/campaign-in-lead.png)
 
 ### مشاهدهٔ سرنخهای ایجادشده از یک Campaign
 
-- در Campaign، دکمهٔ **View Leads** را انتخاب کنید.
+- در Campaign، دکمهٔ **مشاهده سرنخ ها** را انتخاب کنید.
 
 ![Campaign - View Leads](https://docs.frappe.io/files/campaign-view-leads.png)
 
 - فهرستی فیلترشده از سرنخهای ایجادشده برای آن کارزار نمایش داده می‌شود.
 - با کلیک روی **جدید** می‌توانید سرنخهای جدیدی نیز برای همان کارزار بسازید.
 
-![Campaign - New Lead](https://docs.frappe.io/files/campaign-new-lead.png)
+![Campaign - جدید سرنخ](https://docs.frappe.io/files/campaign-new-lead.png)
 
-### تنظیم زمان‌بندی ایمیل برای Email Campaign
+### تنظیم زمان‌بندی ایمیل برای کمپین ایمیل
 
 اگر می‌خواهید از طریق ایمیل برای سرنخها یا مخاطبان خود کارزار اجرا کنید، از [کارزار ایمیلی](email-campaign.md) استفاده کنید.
 
@@ -60,11 +60,11 @@ source_version: "e8aebe861554e45abf04faf1f5122b42aa965f3974df4a3513862139a986240
 
 ![Campaign - Email Template](https://docs.frappe.io/files/email-template.png)
 
-- در **Send After (days)**، تعداد روزهایی را مشخص کنید که پس از آن ایمیل مربوطه ارسال می‌شود. با استفاده از این فیلد، روز ارسال نسبت به **Start Date** در **Email Campaign** محاسبه می‌شود.
+- در **ارسال پس از (بر حسب روز)**، تعداد روزهایی را مشخص کنید که پس از آن ایمیل مربوطه ارسال می‌شود. با استفاده از این فیلد، روز ارسال نسبت به **Start Date** در **کمپین ایمیل** محاسبه می‌شود.
 
 ### داشبورد
 
-داشبورد Campaign همهٔ Email Campaignها و پست‌های شبکه‌های اجتماعیِ پیوندخورده با Campaign را نشان می‌دهد. همچنین از همین‌جا می‌توانید Email Campaign یا Social Media Post جدیدی بسازید.
+داشبورد Campaign همهٔ کمپین ایمیلها و پست‌های شبکه‌های اجتماعیِ پیوندخورده با Campaign را نشان می‌دهد. همچنین از همین‌جا می‌توانید کمپین ایمیل یا Social Media Post جدیدی بسازید.
 
 ![داشبورد Campaign](https://docs.frappe.io/files/campaign-dashboard.png)
 
@@ -72,7 +72,7 @@ source_version: "e8aebe861554e45abf04faf1f5122b42aa965f3974df4a3513862139a986240
 
 - [سرنخ](https://docs.frappe.io/erpnext/lead)
 - [فرصت فروش](https://docs.frappe.io/erpnext/opportunity)
-- [راهنمای «Quotation | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/quotation)
+- [پیش‌فاکتور](https://docs.frappe.io/erpnext/quotation)
 - [کارزار ایمیلی](email-campaign.md)
 
 بعدی: [کارزار ایمیلی](email-campaign.md)

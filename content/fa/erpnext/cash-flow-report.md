@@ -12,9 +12,9 @@ source_version: "39c05ee491be9c8c5166f2f8cf6f624bb09f516ad4b69113999179fc3aac2c7
 
 ## اجرای گزارش جریان نقدی
 
-1. بخش **Accounting** را باز کنید و **Cash Flow** را انتخاب کنید.
+1. بخش **حسابداری** را باز کنید و **جریان نقدی** را انتخاب کنید.
 2. **Nova Industries** و سال مالی یا بازهٔ تاریخ موردنظر را انتخاب کنید.
-3. دوره‌بندی و در صورت نیاز [راهنمای «Finance Book | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/finance-book)، [مرکز هزینه](cost-center.md)، Project، دپارتمان یا [بُعد حسابداری](accounting-dimensions.md) را مشخص کنید.
+3. دوره‌بندی و در صورت نیاز [دفتر مالی](https://docs.frappe.io/erpnext/finance-book)، [مرکز هزینه](cost-center.md)، پروژه، دپارتمان یا [بُعد حسابداری](accounting-dimensions.md) را مشخص کنید.
 4. اگر تطبیق وجه نقد به مانده‌های ابتدا و انتها نیاز دارد، گزینه‌های مربوط را فعال کنید.
 5. گزارش را تازه‌سازی کنید و منتظر بمانید تا جمع‌ها، نمودار و بخش‌های گزارش بارگذاری شوند.
 
@@ -41,13 +41,13 @@ source_version: "39c05ee491be9c8c5166f2f8cf6f624bb09f516ad4b69113999179fc3aac2c7
 
 ## ردیابی یک ردیف تا شواهد حسابداری
 
-برای بررسی گردش حساب [دفتر کل](https://docs.frappe.io/erpnext/general-ledger)، حساب یا مقدار پشتیبان را انتخاب کنید. اگر یک تغییر بااهمیت را توضیح می‌دهند، [راهنمای «Payment Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-entry)های منبع و [راهنمای «Journal Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/journal-entry)های تأییدشده را بررسی کنید. ردیف‌های سرمایهٔ در گردش تغییرات بین تاریخ‌های گزارش‌گیری را نشان می‌دهند؛ بنابراین حساب‌های مرتبط در ترازنامه و گزارش‌های طرف حساب را نیز مقایسه کنید.
+برای بررسی گردش حساب [دفتر کل](https://docs.frappe.io/erpnext/general-ledger)، حساب یا مقدار پشتیبان را انتخاب کنید. اگر یک تغییر بااهمیت را توضیح می‌دهند، [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)های منبع و [ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry)های تأییدشده را بررسی کنید. ردیف‌های سرمایهٔ در گردش تغییرات بین تاریخ‌های گزارش‌گیری را نشان می‌دهند؛ بنابراین حساب‌های مرتبط در ترازنامه و گزارش‌های طرف حساب را نیز مقایسه کنید.
 
 ![گزارش دفتر کل که اسناد حسابداری پشت تغییرات جریان نقدی را نشان می‌دهد](https://novacompanies.m.frappe.cloud/files/docs-20260814-nova-industries-cash-flow-gl-evidence.png)
 
 ## قالب‌های پیش‌فرض و سفارشی
 
-گزارش استاندارد حساب‌ها را با منطق صورت‌های مالی ERPNext دسته‌بندی می‌کند. اگر سازمان به برچسب‌های تأییدشده یا دسته‌بندی دقیق‌تری نیاز دارد، [Customise Cash Flow گزارش](customise-cash-flow-report.md) را پیکربندی کنید. در موارد پشتیبانی‌شده، [Financial گزارش Template](https://docs.frappe.io/erpnext/financial-report-template) می‌تواند نحوهٔ ارائه را کنترل کند. سفارشی‌سازی، دسته‌بندی و چیدمان را تغییر می‌دهد، نه اسناد دفتر کل را.
+گزارش استاندارد حساب‌ها را با منطق صورت‌های مالی ERPNext دسته‌بندی می‌کند. اگر سازمان به برچسب‌های تأییدشده یا دسته‌بندی دقیق‌تری نیاز دارد، [Customise جریان نقدی گزارش](customise-cash-flow-report.md) را پیکربندی کنید. در موارد پشتیبانی‌شده، [Financial گزارش Template](https://docs.frappe.io/erpnext/financial-report-template) می‌تواند نحوهٔ ارائه را کنترل کند. سفارشی‌سازی، دسته‌بندی و چیدمان را تغییر می‌دهد، نه اسناد دفتر کل را.
 
 ## عیب‌یابی
 
@@ -61,7 +61,7 @@ source_version: "39c05ee491be9c8c5166f2f8cf6f624bb09f516ad4b69113999179fc3aac2c7
 
 ### تغییر خالص با مانده‌های نقدی تطبیق ندارد
 
-شرکت، تاریخ‌ها، Finance Book، ارز، ابعاد و گزینه‌های ماندهٔ ابتدا یا انتهای دوره را با هم تطبیق دهید. حساب‌های بانکی یا نقدی حذف‌شده و نگاشت‌های سفارشی هم‌پوشان را بررسی کنید.
+شرکت، تاریخ‌ها، دفتر مالی، ارز، ابعاد و گزینه‌های ماندهٔ ابتدا یا انتهای دوره را با هم تطبیق دهید. حساب‌های بانکی یا نقدی حذف‌شده و نگاشت‌های سفارشی هم‌پوشان را بررسی کنید.
 
 ## پرسش‌های متداول
 
@@ -84,7 +84,7 @@ source_version: "39c05ee491be9c8c5166f2f8cf6f624bb09f516ad4b69113999179fc3aac2c7
 - [ترازنامه](balance-sheet.md)
 - [حساب‌های دریافتنی](https://docs.frappe.io/erpnext/accounts-receivable)
 - [حساب‌های پرداختنی](https://docs.frappe.io/erpnext/accounts-payable)
-- [Customise Cash Flow گزارش](customise-cash-flow-report.md)
+- [Customise جریان نقدی گزارش](customise-cash-flow-report.md)
 
 ---
 

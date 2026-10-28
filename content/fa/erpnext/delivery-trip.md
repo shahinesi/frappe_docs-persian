@@ -15,24 +15,24 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 >
 > تصویرهای منبع در این مخزن بازنشر نشده‌اند و پیوند آن‌ها به فایل‌های سایت رسمی اشاره می‌کند.
 
-یک Delivery Trip تحویل سفارش‌های مشتریان را با یک وسیلهٔ نقلیه ثبت می‌کند.
+یک سفر تحویل تحویل سفارش‌های مشتریان را با یک وسیلهٔ نقلیه ثبت می‌کند.
 
-می‌توانید چند توقف را نیز اضافه کنید و Delivery Note ثبت‌نهایی‌شده را به مشتری مربوط پیوند دهید.
+می‌توانید چند توقف را نیز اضافه کنید و یادداشت تحویل ثبت‌نهایی‌شده را به مشتری مربوط پیوند دهید.
 
-## 1. ایجاد Delivery Trip
+## 1. ایجاد سفر تحویل
 
-می‌توانید از یک [Delivery Note (سند تحویل)](delivery-note.md) و با انتخاب **Create > Delivery Trip**، مسیر تحویل ایجاد کنید.
+می‌توانید از یک [یادداشت تحویل (سند تحویل)](delivery-note.md) و با انتخاب **Create > سفر تحویل**، مسیر تحویل ایجاد کنید.
 
-1. به **Stock > Stock Transactions > Delivery Trip > جدید** بروید.
+1. به **موجودی > موجودی Transactions > سفر تحویل > جدید** بروید.
 1. راننده و وسیلهٔ نقلیه را انتخاب کنید؛ اگر هنوز تعریف نشده‌اند، آن‌ها را ایجاد کنید.
 1. تاریخ، تاریخ حرکت و ساعت حرکت را وارد کنید.
-1. مشتریان را برای توقف‌های تحویل اضافه کنید. اگر نشانی مشتری از قبل ثبت شده باشد، به‌طور خودکار دریافت می‌شود. همچنین می‌توانید با انتخاب **Get customers from > Delivery Note** مشتریان را از یک Delivery Note دریافت کنید. پیش از ثبت نهایی، با دکمهٔ **افزودن ردیف** توقف‌های بیشتری اضافه کنید.
+1. مشتریان را برای توقف‌های تحویل اضافه کنید. اگر نشانی مشتری از قبل ثبت شده باشد، به‌طور خودکار دریافت می‌شود. همچنین می‌توانید با انتخاب **Get customers from > یادداشت تحویل** مشتریان را از یک یادداشت تحویل دریافت کنید. پیش از ثبت نهایی، با دکمهٔ **افزودن ردیف** توقف‌های بیشتری اضافه کنید.
 
 ![فهرست توقف‌های تحویل](https://docs.frappe.io/files/delivery_stops.png)
 
 1. سند را ذخیره و ثبت نهایی کنید.
 
-![سند Delivery Trip](https://docs.frappe.io/files/delivery_trip.png)
+![سند سفر تحویل](https://docs.frappe.io/files/delivery_trip.png)
 
 ## 2. قابلیت‌ها
 
@@ -46,5 +46,5 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## موضوعات مرتبط
 
-1. [راهنمای «Packing Slip\n» در ERPNext](https://docs.frappe.io/erpnext/packing-slip)
-1. [راهنمای «Shipping Rule\n» در ERPNext](https://docs.frappe.io/erpnext/shipping-rule)
+1. [برگه بسته بندی](https://docs.frappe.io/erpnext/packing-slip)
+1. [قانون حمل و نقل](https://docs.frappe.io/erpnext/shipping-rule)
