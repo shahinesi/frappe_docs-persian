@@ -661,7 +661,36 @@
         "سندهای Draft": "سندهای پیش‌نویس",
         "تراکنش‌های Draft": "تراکنش‌های پیش‌نویس",
         "Draftها": "پیش‌نویس‌ها",
-        "Manual": "دستی"
+        "Manual": "دستی",
+        "Send Password Update Notification": "ارسال اعلان تغییر گذرواژه",
+        "Log out from all devices while changing Password": "خروج از همهٔ دستگاه‌ها هنگام تغییر گذرواژه",
+        "Send Notifications for Email threads": "ارسال اعلان برای رشته‌های ایمیل",
+        "Login After": "ورود پس از",
+        "Login Before": "ورود پیش از",
+        "Restrict IP": "محدودکردن IP",
+        "Reset OTP Secret": "بازنشانی رمز محرمانهٔ OTP",
+        "on Creation": "هنگام ایجاد",
+        "Based On": "بر اساس",
+        "Add Asset Category": "افزودن دستهٔ دارایی",
+        "IT Equipment": "تجهیزات فناوری اطلاعات",
+        "Production Equipment": "تجهیزات تولید",
+        "Capital Work in Progress Account": "حساب کار سرمایه‌ای در جریان تکمیل",
+        "Total Number of Depreciation Entries": "تعداد کل ثبت‌های استهلاک",
+        "Depreciation Frequency (Months)": "تناوب استهلاک (ماه)",
+        "For Income Tax": "برای مالیات بر درآمد",
+        "Add Address Template": "افزودن الگوی نشانی",
+        "Select Columns": "انتخاب ستون‌ها",
+        "Create User Email": "ایجاد حساب ایمیل کاربر",
+        "Reset To Default": "بازنشانی به پیش‌فرض",
+        "Allow over delivery or receipt upto this percent": "مجازبودن تحویل یا دریافت بیش از مقدار سفارش تا این درصد",
+        "Account Paid From": "حساب پرداخت از",
+        "Account Paid To": "حساب پرداخت به",
+        "حساب‌های پرداخت شده From": "حساب پرداخت از",
+        "پرداخت شده To": "پرداخت به",
+        "Daily Pro Rata": "تناسب روزانه",
+        "Statutory Reporting": "گزارش‌دهی قانونی",
+        "Opportunities": "فرصت‌ها",
+        "Capital در جریان تولید": "کار سرمایه‌ای در جریان تکمیل"
       },
       "basis": "برگردان‌های یکدست‌شده از برچسب‌های رابط DocType و سفارشی‌سازی فرم ERPNext که در واژه‌نامهٔ بالادستی ترجمهٔ فارسی نداشتند؛ شناسه‌های فنی و نمونه‌کد دست‌نخورده می‌مانند."
     },
@@ -670,6 +699,24 @@
       "source_label": "Employee Attendance",
       "translation": "حضور و غیاب کارکنان",
       "basis": "برگردان دقیق موجودیت رابط HR برای استفاده در عنوان‌ها و متن‌های ترکیبی؛ Employee، Department و Branch نیز از واژه‌نامهٔ رسمی فارسی HR می‌آیند."
+    },
+    {
+      "product": "wiki",
+      "source_labels": {
+        "Light Mode Logo": "نشان‌وارهٔ حالت روشن",
+        "Add Dark Mode": "افزودن حالت تاریک",
+        "Dark Mode Logo": "نشان‌وارهٔ حالت تاریک",
+        "Default Wiki Space": "فضای پیش‌فرض ویکی",
+        "Enable Table of Content": "فعال‌کردن فهرست مطالب",
+        "Disable guest access": "غیرفعال‌کردن دسترسی مهمان",
+        "Navbar Items": "گزینه‌های نوار پیمایش",
+        "App switcher list": "فهرست تعویض برنامه",
+        "Add Search Bar": "افزودن نوار جست‌وجو",
+        "Use Redisearch for Search": "استفاده از RediSearch برای جست‌وجو",
+        "Enable Feedback": "فعال‌کردن بازخورد",
+        "Enable بازخورد": "فعال‌کردن بازخورد"
+      },
+      "basis": "برگردان یکدست برچسب‌های تنظیمات رابط Wiki؛ نام فنی RediSearch حفظ شده است."
     }
   ],
   "source_files": {
