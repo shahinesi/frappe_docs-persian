@@ -48,7 +48,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 1. [حضور و غیاب](attendance.md)
 2. [درخواست حضور و غیاب](attendance-request.md)
 3. [آپلود حضور و غیاب](upload-attendance.md)
-4. [مدیریت شیفت‌ها](https://docs.frappe.io/hr/shift-management)
+4. [مدیریت شیفت‌ها](shift-management.md)
 5. [حضور و غیاب خودکار](auto-attendance.md)
 
 ---
