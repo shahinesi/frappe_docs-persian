@@ -625,6 +625,34 @@
       "source_label": "نمودار of مراکز هزینه",
       "translation": "نمودار مراکز هزینه",
       "basis": "اصلاح عبارت ترکیبی باقی‌مانده در مسیر یا عنوان رابط، با حفظ شناسهٔ فنی BOM."
+    },
+    {
+      "product": "erpnext",
+      "source_labels": {
+        "Change Label": "تغییر برچسب",
+        "Form Type": "نوع فرم",
+        "Document Title": "عنوان سند",
+        "Image Field": "فیلد تصویر",
+        "Attach Image": "پیوست تصویر",
+        "Hide Copy": "پنهان‌کردن کپی",
+        "Is Table": "جدول است",
+        "Reset Layout": "بازنشانی چیدمان",
+        "More Properties": "ویژگی‌های بیشتر",
+        "Fetch If Empty": "واکشی در صورت خالی‌بودن",
+        "Role Based Permissions": "مجوزهای مبتنی بر نقش",
+        "Hide in Print": "پنهان‌کردن در چاپ",
+        "Report Hide": "پنهان‌کردن در گزارش",
+        "Ignore XSS Filter": "چشم‌پوشی از پالایهٔ XSS",
+        "Rename Fieldname": "تغییر نام فیلد",
+        "Title Case": "حروف آغازین بزرگ",
+        "UPPER CASE": "حروف بزرگ",
+        "Naming Series": "سری نام‌گذاری",
+        "Website View": "نمای وب‌سایت",
+        "Is Single": "تکی است",
+        "Custom Form": "فرم سفارشی",
+        "Customize": "سفارشی‌سازی"
+      },
+      "basis": "برگردان‌های یکدست‌شده از برچسب‌های رابط DocType و سفارشی‌سازی فرم ERPNext که در واژه‌نامهٔ بالادستی ترجمهٔ فارسی نداشتند؛ شناسه‌های فنی و نمونه‌کد دست‌نخورده می‌مانند."
     }
   ],
   "source_files": {

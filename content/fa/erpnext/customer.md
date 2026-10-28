@@ -23,7 +23,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 پیش از ساخت رکورد، این موارد را تأیید کنید:
 
-- روش تولید شناسه‌های مشتری در [تنظیمات فروش](https://docs.frappe.io/erpnext/selling-settings). ERPNext می‌تواند از نام مشتری یا یک naming series استفاده کند.
+- روش تولید شناسه‌های مشتری در [تنظیمات فروش](https://docs.frappe.io/erpnext/selling-settings). ERPNext می‌تواند از نام مشتری یا یک سری نام‌گذاری استفاده کند.
 - [گروه مشتریان](customer-group.md) درست؛ مانند Commercial، Government یا گروهی که برای ساختار گزارش‌گیری شما طراحی شده است.
 - [قلمرو](https://docs.frappe.io/erpnext/territory)، ارز صورتحساب، فهرست قیمت، شرایط پرداخت و سیاست اعتباری مورد انتظار مشتری.
 - اینکه طرف تجاری شرکت، فرد، مشارکت یا یکی از شرکت‌های خودتان است.
