@@ -3832,7 +3832,21 @@
       "1 hour": "1 ساعت",
       "4 hours": "4 ساعت",
       "Workday": "روز کاری",
-      "End Time": "زمان پایان"
+      "End Time": "زمان پایان",
+      "Editable after creation": "پس از ایجاد قابل ویرایش",
+      "Visible به": "قابل‌نمایش برای",
+      "Raise a تیکت": "ثبت تیکت",
+      "Change access": "تغییر دسترسی",
+      "Copy link": "کپی پیوند",
+      "My تیکت‌ها": "تیکت‌های من",
+      "Allow organization management": "اجازهٔ مدیریت سازمان",
+      "Allow member invites": "اجازهٔ دعوت از اعضا",
+      "Disable Signup": "غیرفعال‌کردن ثبت‌نام",
+      "On this page": "در این صفحه",
+      "Mixed": "ترکیبی",
+      "First Response": "نخستین پاسخ",
+      "Request Access": "درخواست دسترسی",
+      "Copy Link": "کپی پیوند"
     },
     "insights": {
       "Charts": "نمودار",
