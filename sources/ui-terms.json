@@ -1922,6 +1922,27 @@
       "basis": "برگردان برچسب‌های رابط و اصطلاحات گردش‌کار ERPNext؛ شناسهٔ DocType حفظ شده است."
     },
     {
+      "product": "erpnext",
+      "source_labels": {
+        "Form Customize": "سفارشی‌سازی فرم",
+        "User List": "فهرست کاربران",
+        "Link with تأمین‌کننده": "پیوند با تأمین‌کننده",
+        "Add a جدید Rule": "افزودن قاعدهٔ جدید",
+        "قیمت آیتم Settings": "تنظیمات قیمت کالا",
+        "Maintain Same نرخ Throughout فروش Cycle": "حفظ نرخ یکسان در سراسر چرخهٔ فروش",
+        "Action If Same نرخ Is Not Maintained": "اقدام هنگام حفظ‌نشدن نرخ یکسان",
+        "Total and ارزش گذاری": "جمع و ارزش‌گذاری",
+        "Show/Hide Modules": "نمایش/پنهان‌کردن ماژول‌ها"
+      },
+      "basis": "بازنویسی طبیعی برچسب‌ها و مسیرهای رابط ERPNext که در محتوای قدیمی به‌صورت ترکیبی آمده بودند؛ شناسه‌های فنی در کد حفظ می‌شوند."
+    },
+    {
+      "product": "framework",
+      "source_label": "Webhooks",
+      "translation": "وب‌هوک‌ها",
+      "basis": "برگردان فارسی متداول نام رابط/قابلیت؛ نام پروتکل در کد یا نمونه‌ها حفظ می‌شود."
+    },
+    {
       "product": "wiki",
       "source_labels": {
         "Wiki Space": "فضای ویکی",

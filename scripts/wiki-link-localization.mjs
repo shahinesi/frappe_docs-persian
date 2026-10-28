@@ -93,6 +93,19 @@ function localizeDisplayLabel(text, terms, counters, mixedEntries = [], phraseTe
 	});
 	const restoreCode = (value) => value.replace(/\uE000(\d+)\uE001/g, (marker, index) => protectedTokens[Number(index)] ?? marker);
 	text = protectCode(text);
+	const labelSeparators = [' > ', ' → ', ' / '];
+	for (const separator of labelSeparators) {
+		if (!text.includes(separator)) continue;
+		const localized = text.split(separator)
+			.map((part) => replaceKnownUiEntities(
+				localizeDisplayLabel(part, terms, counters, mixedEntries, phraseTerms),
+				terms,
+				counters,
+				['User'],
+			))
+			.join(separator);
+		if (localized !== text) return restoreCode(localized);
+	}
 	const trimmedText = text.trim();
 	if (/^\/[A-Za-z0-9._~!$&'()*+,;=:@%/-]+$/.test(trimmedText)
 		|| /^[a-z][A-Za-z0-9]*(?:_[A-Za-z0-9]+)+$/.test(trimmedText)) return restoreCode(text);
@@ -106,6 +119,7 @@ function localizeDisplayLabel(text, terms, counters, mixedEntries = [], phraseTe
 	const trimmed = text.trim();
 	const exactTranslation = terms[trimmed];
 	if (exactTranslation) result = result.replace(trimmed, exactTranslation);
+	result = replaceKnownUiEntities(result, terms, counters);
 	return restoreCode(result);
 }
 
@@ -118,8 +132,7 @@ function localizeBareListLabels(text, terms, counters, mixedEntries = [], phrase
 	});
 }
 
-function replaceKnownUiEntities(text, terms, counters) {
-	const labels = ['Contact', 'Address', 'Warehouse', 'Campaign', 'Communication', 'Currency', 'Employee', 'Department', 'Branch', 'Payroll', 'Performance', 'Settings'];
+function replaceKnownUiEntities(text, terms, counters, labels = ['Contact', 'Address', 'Warehouse', 'Campaign', 'Communication', 'Currency', 'Employee', 'Department', 'Branch', 'Payroll', 'Performance', 'Settings']) {
 	const entries = labels.filter((label) => terms[label] && FA_LETTER.test(terms[label]));
 	if (!entries.length) return text;
 	const pattern = new RegExp(`(?<![\\p{L}\\p{N}])(${entries.map(escapeRegExp).join('|')})(های|ها|ای|ی)?(?![\\p{L}\\p{N}])`, 'gu');

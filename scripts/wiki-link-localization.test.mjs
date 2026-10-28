@@ -100,6 +100,30 @@ test('applies a complete UI label before translating its shared English suffix',
 	assert.equal(result.markdown, '## تغییر به جدول غیرقابل‌ویرایش');
 });
 
+test('localizes individual UI labels inside mixed-language navigation paths', () => {
+	const result = prepareMarkdownLinks([
+		'**خرید > Settings > تنظیمات خرید**',
+		'**Create > Return / یادداشت بدهکاری**',
+		'**بازکردن User → Menu → Rename**',
+	].join('\n'), {
+		currentPath: 'content/fa/erpnext/example.md',
+		manifest,
+		uiTerms: {
+			Settings: 'تنظیمات',
+			Create: 'ایجاد کردن',
+			Return: 'برگشت',
+			User: 'کاربر',
+			Menu: 'منو',
+			Rename: 'تغییر نام',
+		},
+	});
+	assert.equal(result.markdown, [
+		'**خرید > تنظیمات > تنظیمات خرید**',
+		'**ایجاد کردن > برگشت / یادداشت بدهکاری**',
+		'**بازکردن کاربر → منو → تغییر نام**',
+	].join('\n'));
+});
+
 test('replaces product documentation labels with the title of the linked destination', () => {
 	const sourceUrl = 'https://docs.frappe.io/framework/user/en/basics/users-and-permissions';
 	const result = prepareMarkdownLinks(`[مستندات Frappe Framework](${sourceUrl})`, {

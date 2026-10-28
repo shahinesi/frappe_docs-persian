@@ -29,7 +29,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## بررسی نرخ های مبادله قدیمی را مجاز کنید
 
-به **حسابداری > Settings > تنظیمات حساب‌ها** بروید و بخش تنظیمات تبدیل ارز را پیدا کنید.
+به **حسابداری > تنظیمات > تنظیمات حساب‌ها** بروید و بخش تنظیمات تبدیل ارز را پیدا کنید.
 
 ![گزینهٔ نرخ های مبادله قدیمی را مجاز کنید در تنظیمات حساب‌ها](https://novacompanies.m.frappe.cloud/files/docs-multi-currency-2026-accounts-settings-allow-stale-rate.png)
 

@@ -10,7 +10,7 @@ quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [تفاوت Lead، Contact و Customer](https://docs.frappe.io/erpnext/difference_between_lead_contact_and_customer)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [تفاوت Lead، مخاطب و Customer](https://docs.frappe.io/erpnext/difference_between_lead_contact_and_customer)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 
 سرنخ، مخاطب و مشتری در ERPNext بخش‌های متفاوتی از یک رابطهٔ تجاری را نشان می‌دهند. به‌جای آنکه این سه DocType را به‌جای یکدیگر به‌کار ببرید، رکورد متناسب با نقش فعلی طرف را انتخاب کنید.

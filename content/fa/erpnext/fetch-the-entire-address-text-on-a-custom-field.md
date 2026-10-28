@@ -78,4 +78,4 @@ frappe.ui.form.on("DocType Name", "address_link_field", function(frm, cdt, cdn) 
 
 از این پس با انتخاب یک نشانی در فیلد Link سفارشی، متن کامل آن در فیلد سفارشی فقط‌خواندنی نمایش داده می‌شود.
 
-![نمایش نشانی کامل پس از انتخاب Address](https://docs.frappe.io/files/W3kxhT2.gif)
+![نمایش نشانی کامل پس از انتخاب آدرس](https://docs.frappe.io/files/W3kxhT2.gif)

@@ -10,7 +10,7 @@ quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [رابطهٔ Customer، Contact و Address](https://docs.frappe.io/erpnext/customer-contact-and-address-relationship)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [رابطهٔ Customer، مخاطب و آدرس](https://docs.frappe.io/erpnext/customer-contact-and-address-relationship)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > این صفحه تصویر ندارد.
@@ -39,8 +39,8 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 یک شرکت، حتی اگر اشخاص یا مکان‌هایش تغییر کنند، می‌تواند همان مشتری باقی بماند. جداسازی رکوردها این واقعیت را بازتاب می‌دهد.
 
-- **یک مشتری می‌تواند چند Contact داشته باشد.** مدیر خرید ممکن است پیش‌فاکتورها را دریافت کند و مخاطب حساب‌های پرداختنی صورتحساب‌ها را.
-- **یک مشتری می‌تواند چند Address داشته باشد.** دفتر مرکزی ممکن است برای صورتحساب استفاده شود و کالا به انبار یا شعبهٔ خرده‌فروشی تحویل شود.
+- **یک مشتری می‌تواند چند مخاطب داشته باشد.** مدیر خرید ممکن است پیش‌فاکتورها را دریافت کند و مخاطب حساب‌های پرداختنی صورتحساب‌ها را.
+- **یک مشتری می‌تواند چند آدرس داشته باشد.** دفتر مرکزی ممکن است برای صورتحساب استفاده شود و کالا به انبار یا شعبهٔ خرده‌فروشی تحویل شود.
 - **اشخاص و مکان‌ها می‌توانند مستقل از هم تغییر کنند.** می‌توانید مخاطب را عوض کنید یا محل تحویل اضافه کنید، بدون آنکه مشتری دیگری بسازید و سابقهٔ فروش را تقسیم کنید.
 - **تراکنش‌ها می‌توانند ترکیب مناسب را به‌کار ببرند.** یک سفارش فروش می‌تواند از مخاطب و آدرس ارسال خاصی استفاده کند، در حالی که سفارش بعدی همان مشتری از مورد دیگری بهره ببرد.
 
@@ -51,10 +51,10 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 Nova Electronics Trading به **Summit Digital Stores** می‌فروشد. ERPNext می‌تواند رابطه را این‌گونه مدل کند:
 
 - **مشتری:** Summit Digital Stores
-- **Contact اصلی:** Morgan Lee، مدیر خرید
-- **Contact دیگر:** Taylor Brooks، حساب‌های پرداختنی
-- **Address ترجیحی صورتحساب:** دفتر Harbor Avenue
-- **Address ترجیحی ارسال:** انبار Meridian Parkway
+- **مخاطب اصلی:** Morgan Lee، مدیر خرید
+- **مخاطب دیگر:** Taylor Brooks، حساب‌های پرداختنی
+- **آدرس ترجیحی صورتحساب:** دفتر Harbor Avenue
+- **آدرس ترجیحی ارسال:** انبار Meridian Parkway
 
 وقتی کاربر برای Summit Digital Stores یک [پیش‌فاکتور](https://docs.frappe.io/erpnext/quotation) یا [سفارش فروش](sales-order.md) می‌سازد، ERPNext می‌تواند Morgan Lee و آدرس‌های ترجیحی را دریافت کند. اگر تراکنش به آن نیاز داشته باشد، کاربر همچنان می‌تواند Taylor Brooks یا آدرس پیوندخوردهٔ دیگری را انتخاب کند.
 
@@ -122,4 +122,4 @@ Nova Electronics Trading به **Summit Digital Stores** می‌فروشد. ERPNe
 - [مخاطب](contact.md)
 - [نشانی](address.md)
 - [الگوی نشانی](address-template.md)
-- [تفاوت Lead، Contact و Customer](difference_between_lead_contact_and_customer.md)
+- [تفاوت Lead، مخاطب و Customer](difference_between_lead_contact_and_customer.md)
