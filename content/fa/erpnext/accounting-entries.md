@@ -43,7 +43,7 @@ source_version: "435e57b6dc9bbb1927291e211a0fd2bdf66a4d2b9c1eabe491f8f21a8406d9b
 
 ![ثبت سرمایه‌گذاری مالک به‌صورت ثبت در دفتر روزنامه متوازن در ERPNext](https://novacompanies.m.frappe.cloud/files/accounting-entries-20260802-accounting-entries-owner-investment.png)
 
-پس از ارسال، از **View > Ledger** دو ردیف متوازن دفترکل را ببینید.
+پس از ارسال، از **مشاهده > دفتر کل** دو ردیف متوازن دفترکل را ببینید.
 
 ![ثبت‌های دفتر کل ایجادشده برای سرمایه‌گذاری مالک](https://novacompanies.m.frappe.cloud/files/accounting-entries-20260802-accounting-entries-owner-investment-ledger.png)
 
@@ -96,7 +96,7 @@ source_version: "435e57b6dc9bbb1927291e211a0fd2bdf66a4d2b9c1eabe491f8f21a8406d9b
 
 ![اقلام موجودی در فاکتور فروش ثبت‌شدهٔ ERPNext](https://novacompanies.m.frappe.cloud/files/accounting-entries-20260802-accounting-entries-sales-invoice.png)
 
-نقطهٔ کنار کالا Code دسترس‌پذیری موجودی را یک‌نگاه نشان می‌دهد: سبز یعنی موجود و قرمز یعنی ناموجود.
+نقطهٔ کنار کد کالا دسترس‌پذیری موجودی را یک‌نگاه نشان می‌دهد: سبز یعنی موجود و قرمز یعنی ناموجود.
 
 هنگامی که مشتری پرداخت می‌کند، ثبت پرداخت مرتبط با فاکتور را ارسال کنید. ERPNext بانک را بدهکار و حساب‌های دریافتنی را بستانکار می‌کند و مبلغ تسویه‌نشدهٔ فاکتور کاهش می‌یابد.
 
@@ -161,7 +161,7 @@ source_version: "435e57b6dc9bbb1927291e211a0fd2bdf66a4d2b9c1eabe491f8f21a8406d9b
 
 ## بررسی ثبت‌های حسابداری
 
-سند ثبت‌شده را باز کنید و **View > Ledger** را انتخاب کنید. همچنین می‌توانید گزارش دفترکل را اجرا و بر اساس شرکت، نوع Voucher یا شمارهٔ آن فیلتر کنید.
+سند ثبت‌شده را باز کنید و **مشاهده > دفتر کل** را انتخاب کنید. همچنین می‌توانید گزارش دفترکل را اجرا و بر اساس شرکت، نوع Voucher یا شمارهٔ آن فیلتر کنید.
 
 بررسی کنید که:
 

@@ -47,9 +47,9 @@ source_version: "a970ea6a3baec81409684cd154dd58e22d48958da3be05e6c4d842d6130994b
 | شماره | Step Type | کنش | Parent Step | شاخه |
 | ---: | --- | --- | ---: | --- |
 | 1 | If | شرط <code>doc.grand_total &gt; 10000</code> |  |  |
-| 2 | اقدام | اختصاص دادن به User: <code>manager@example.com</code> | 1 | If |
-| 3 | اقدام | اختصاص دادن به User: <code>sales@example.com</code> | 1 | Else |
-| 4 | اقدام | Send اعلان |  |  |
+| 2 | اقدام | اختصاص به کاربر: <code>manager@example.com</code> | 1 | If |
+| 3 | اقدام | اختصاص به کاربر: <code>sales@example.com</code> | 1 | Else |
+| 4 | اقدام | ارسال اعلان |  |  |
 
 گام‌های If را می‌توان تو‌در‌تو قرار داد. شاخه فقط یک‌بار، هنگام رسیدن اجرا به گام If، تعیین می‌شود و پس از Wait دوباره ارزیابی نمی‌شود.
 
@@ -69,9 +69,9 @@ source_version: "a970ea6a3baec81409684cd154dd58e22d48958da3be05e6c4d842d6130994b
 | --- | --- | --- |
 | **Set فیلد Value** | یک یا چند فیلد مقصد را تنظیم و سند را ذخیره می‌کند. | <code>field</code> و <code>value</code> یا <code>values</code> به‌شکل نگاشت. |
 | **Increment فیلد Value** | مقداری عددی به یک فیلد عددی می‌افزاید. | <code>field</code> و <code>amount</code>؛ برای تفریق مقدار منفی بدهید. |
-| **Create سند** | سند جدیدی از هر نوع درج می‌کند. | <code>doctype</code> و <code>values</code>. |
-| **Send اعلان** | ایمیل یا اعلان سامانه می‌فرستد. | <code>channel</code> (مقدار <code>email</code> یا <code>System</code>)، <code>recipients</code>، <code>subject</code> و <code>message</code> یا <code>email_template</code>. |
-| **اختصاص دادن به User** | رکورد مقصد را به یک یا چند کاربر واگذار می‌کند. | <code>assign_to</code> و <code>description</code>. |
+| **ایجاد سند** | سند جدیدی از هر نوع درج می‌کند. | <code>doctype</code> و <code>values</code>. |
+| **ارسال اعلان** | ایمیل یا اعلان سامانه می‌فرستد. | <code>channel</code> (مقدار <code>email</code> یا <code>System</code>)، <code>recipients</code>، <code>subject</code> و <code>message</code> یا <code>email_template</code>. |
+| **اختصاص به کاربر** | رکورد مقصد را به یک یا چند کاربر واگذار می‌کند. | <code>assign_to</code> و <code>description</code>. |
 | **Call Webhook** | درخواست HTTP می‌فرستد. | <code>url</code>، <code>method</code>، <code>headers</code>، <code>payload</code> و <code>timeout</code>. |
 | **Run Script** | کد Python اجرا می‌کند. | <code>server_script</code> (یک API اسکریپت سرور) یا <code>script</code> درون‌خطی. |
 
@@ -121,11 +121,11 @@ source_version: "a970ea6a3baec81409684cd154dd58e22d48958da3be05e6c4d842d6130994b
 
 فیلدهای پیوند، Dynamic پیوند و پیوند جدول فرزند به‌طور خودکار و با نام فیلد در دسترس‌اند. نام پیوندهای معکوس به‌شکل <code>&lt;doctype&gt;_via_&lt;field&gt;</code> است؛ برای نمونه <code>crm_deal_via_lead</code>. اپ‌ها می‌توانند رابطه‌های بیشتری ثبت کنند؛ به [گسترش خودکارسازی‌ها](extending-automations.md) مراجعه کنید.
 
-گام **Create سند** همچنین می‌تواند **Output Alias** تعیین کند. گام‌های بعدی می‌توانند سند ایجادشده را به‌عنوان مقصد بگیرند.
+گام **ایجاد سند** همچنین می‌تواند **Output Alias** تعیین کند. گام‌های بعدی می‌توانند سند ایجادشده را به‌عنوان مقصد بگیرند.
 
 ## مدیریت خطا
 
-- **توقف on Error** (به‌طور پیش‌فرض روشن): نخستین گام ناموفق، اجرا را متوقف می‌کند و وضعیت آن **ناموفق** می‌شود. برای ادامهٔ اجرا این گزینه را خاموش کنید؛ در این صورت وضعیت اجرا **Partially ناموفق** خواهد بود.
+- **توقف on Error** (به‌طور پیش‌فرض روشن): نخستین گام ناموفق، اجرا را متوقف می‌کند و وضعیت آن **ناموفق** می‌شود. برای ادامهٔ اجرا این گزینه را خاموش کنید؛ در این صورت وضعیت اجرا **تاحدی ناموفق** خواهد بود.
 - هر گام در savepoint جداگانه اجرا می‌شود؛ بنابراین تغییرات پایگاه دادهٔ گام ناموفق بازگردانده می‌شود، اما تغییرات گام‌های قبلی باقی می‌مانند.
 - **Call Webhook** و **Run Script** می‌توانند به بیرون از پایگاه داده دسترسی پیدا کنند. پس از اجرای یکی از آن‌ها، جریان از ابتدا دوباره اجرا نمی‌شود تا مثلاً webhook دوبار فرستاده نشود.
 - **Call Webhook** نشانی‌های شبکهٔ خصوصی و داخلی را نمی‌پذیرد و حداکثر پنج تغییرمسیر را دنبال می‌کند. کد پاسخ 400 یا بالاتر باعث شکست گام می‌شود.

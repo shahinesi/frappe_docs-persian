@@ -47,7 +47,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 #### گام 2: افزودن فیلد لینک پویا
 
-نوع این Custom فیلد را **لینک پویا** قرار دهید. در فیلد Option، نام فیلد DocType Link را وارد کنید.
+نوع این فیلد سفارشی را **لینک پویا** قرار دهید. در فیلد Option، نام فیلد DocType Link را وارد کنید.
 
 ![فیلد Dynamic سفارشی](https://docs.frappe.io/files/customize-dynamic-link-2.gif)
 

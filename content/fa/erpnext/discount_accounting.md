@@ -64,10 +64,10 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 1. کالا را باز کنید.
 2. زبانهٔ **حسابداری** را انتخاب کنید.
-3. در **کالا Defaults**، ردیف شرکت را پیدا کنید.
+3. در **پیش‌فرض‌های کالا**، ردیف شرکت را پیدا کنید.
 4. نماد مداد را انتخاب کنید تا ویرایشگر کامل ردیف باز شود.
 
-![ردیف کالا Defaults با نماد مداد](https://novacompanies.m.frappe.cloud/files/docs-gl-2026-discount-accounting-item-default-row.png)
+![ردیف پیش‌فرض‌های کالا با نماد مداد](https://novacompanies.m.frappe.cloud/files/docs-gl-2026-discount-accounting-item-default-row.png)
 
 5. **حساب تخفیف** را روی حساب شرکت بگذارید که باید تخفیف‌های سطح کالا و فاکتور به آن منظور شوند.
 6. کالا را ذخیره کنید.
@@ -115,7 +115,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 1. مبلغ تخفیف‌ها، مالیات، جمع کل و حساب تخفیفها را بازبینی کنید.
 2. فاکتور فروش را ذخیره و ثبت نهایی کنید.
-3. **View > Ledger** را باز کنید یا گزارش دفترکل را برای voucher فاکتور اجرا کنید.
+3. **مشاهده > دفتر کل** را باز کنید یا گزارش دفترکل را برای voucher فاکتور اجرا کنید.
 
 در مثال ثبت‌نهایی‌شده، جمع کل و ماندهٔ پرداخت‌نشده 1,195.29 دلار است.
 

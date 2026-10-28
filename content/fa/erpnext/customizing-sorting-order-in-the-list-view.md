@@ -23,7 +23,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 > صفحهٔ اصلی > Customization > Form Customization > سفارشی‌سازی فرم
 
-#### گام 2: انتخاب DocType
+#### گام 2: انتخاب نوع سند
 
 نوع سندی را انتخاب کنید که می‌خواهید ترتیب مرتب‌سازی آن را سفارشی کنید.
 

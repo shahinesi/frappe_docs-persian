@@ -20,7 +20,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 برای ایجاد امضای الکترونیکی، مراحل زیر را انجام دهید:
 
 1. DocType را باز کنید و به **سفارشی‌سازی فرم** بروید.
-2. در نمای Form یا جدول Fields، فیلدی تازه با نام Signature بسازید و **فیلد Type** را روی **Signature** قرار دهید.
+2. در نمای Form یا جدول Fields، فیلدی تازه با نام Signature بسازید و **نوع فیلد** را روی **Signature** قرار دهید.
 
 ![انتخاب نوع فیلد Signature](https://docs.frappe.io/files/Screenshot%202024-06-21%20at%205.32.17%20PM.png)
 

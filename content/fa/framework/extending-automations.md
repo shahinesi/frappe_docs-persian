@@ -20,7 +20,7 @@ source_version: "7d12de95b341951022a6ccf746df1082f3585e37231ca2da537d7785fac5fa2
 | آرگومان | توضیح |
 | --- | --- |
 | <code>event</code> | نام رخداد؛ از نام نقطه‌دار با پیشوند اپ مانند <code>crm.deal_won</code> استفاده کنید. |
-| <code>doc</code> | سندی که رخداد دربارهٔ آن است. جریان‌های Custom Event که سند Type دارند، روی همین سند اجرا می‌شوند. |
+| <code>doc</code> | سندی که رخداد دربارهٔ آن است. جریان‌های Custom Event که نوع سند دارند، روی همین سند اجرا می‌شوند. |
 | <code>payload</code> | دیکشنری قابل‌تبدیل به JSON. جریان‌ها آن را در قالب‌ها با نام <code>payload</code> و در شرط‌ها با <code>context["payload"]</code> می‌خوانند. |
 | <code>correlation_key</code> | اجراهایی را از سر می‌گیرد که در گام **WaitForEvent** متناظر مکث کرده‌اند. |
 
