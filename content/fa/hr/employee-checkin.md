@@ -44,7 +44,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### 2.2. اتصال Frappe HR به دستگاه‌های بیومتریک
 
-اگر از دستگاه بیومتریک برای ثبت ورود و خروج کارکنان استفاده می‌کنید، می‌توانید داده‌های آن را برای ایجاد رکورد در Frappe HR به‌کار ببرید. جزئیات در راهنمای [اتصال Frappe HR به دستگاه‌های حضور و غیاب بیومتریک](https://docs.frappe.io/hr/integrating-frappe-hr-with-biometric-attendance-devices) آمده است.
+اگر از دستگاه بیومتریک برای ثبت ورود و خروج کارکنان استفاده می‌کنید، می‌توانید داده‌های آن را برای ایجاد رکورد در Frappe HR به‌کار ببرید. جزئیات در راهنمای [اتصال Frappe HR به دستگاه‌های حضور و غیاب بیومتریک](integrating-frappe-hr-with-biometric-attendance-devices.md) آمده است.
 
 ## 3. قابلیت‌ها
 

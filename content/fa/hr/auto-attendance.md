@@ -41,7 +41,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 پس از انجام مراحل بالا، رکوردهای [ورود و خروج کارمند](employee-checkin.md) را وارد یا همگام‌سازی کنید تا ثبت خودکار حضور و غیاب آغاز شود.
 
-برای آشنایی با ورود رکوردها از سامانهٔ خارجی، راهنمای [اتصال Frappe HR به دستگاه‌های حضور و غیاب بیومتریک](https://docs.frappe.io/hr/integrating-frappe-hr-with-biometric-attendance-devices) را ببینید.
+برای آشنایی با ورود رکوردها از سامانهٔ خارجی، راهنمای [اتصال Frappe HR به دستگاه‌های حضور و غیاب بیومتریک](integrating-frappe-hr-with-biometric-attendance-devices.md) را ببینید.
 
 ## پرسش‌های متداول
 
