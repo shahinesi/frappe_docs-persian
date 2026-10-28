@@ -168,6 +168,7 @@ function productLinkLabel(section) {
 
 function isGenericPageLabel(label) {
 	return /^مستندات رسمی(?:\s+.+)?$/.test(label.trim())
+		|| /^مستندات\s+(?:Frappe\s+)?(?:ERPNext|Framework|Helpdesk|Insights|CRM|HR|Wiki|Builder|Learning|Drive|Education)(?:\s+.*)?$/i.test(label.trim())
 		|| /^مستندات$/.test(label.trim())
 		|| /^صفحه(?:ٔ|‌ی|ی)? رسمی$/.test(label.trim())
 		|| /^راهنمای «.*» در .+$/.test(label.trim())

@@ -46,4 +46,4 @@ Frappe Education گردش‌کارهای ویژهٔ آموزش را به ERPNext
 
 - [Frappe Education در GitHub](https://github.com/frappe/education)
 - [وب‌سایت Frappe Education](https://frappe.io/education)
-- [مستندات Frappe Education](https://docs.frappe.io/education/introduction)
+- [معرفی](https://docs.frappe.io/education/introduction)

@@ -4,6 +4,12 @@
   "method": "Exact UI labels found in upstream source Markdown and page titles, matched to non-fuzzy non-empty msgstr entries in each product locale. Framework locale terms are inherited by Frappe apps; product locales override them. Reviewed curated terms are applied last and take precedence over upstream entries.",
   "curated_terms": [
     {
+      "product": "framework",
+      "source_label": "Users and Permissions",
+      "translation": "کاربران و مجوزها",
+      "basis": "Reviewed Persian destination title for the official Framework page; used to make links identify their actual destination."
+    },
+    {
       "product": "erpnext",
       "source_label": "Price Lists",
       "translation": "لیست‌های قیمت",

@@ -51,6 +51,16 @@ test('resolves any official documentation label from its destination URL', () =>
 	assert.equal(result.markdown, '[شاخه](branch.md)');
 });
 
+test('replaces product documentation labels with the title of the linked destination', () => {
+	const sourceUrl = 'https://docs.frappe.io/framework/user/en/basics/users-and-permissions';
+	const result = prepareMarkdownLinks(`[مستندات Frappe Framework](${sourceUrl})`, {
+		currentPath: 'content/fa/helpdesk/example.md',
+		manifest: { pages: [{ url: sourceUrl, section: 'framework', source_title: 'Users and Permissions', translation_path: null }] },
+		terms: { 'Users and Permissions': 'کاربران و مجوزها' },
+	});
+	assert.equal(result.markdown, `[کاربران و مجوزها](${sourceUrl})`);
+});
+
 test('uses the translated page title for a generic self-source attribution link', () => {
 	const sourceUrl = 'https://docs.frappe.io/hr/branch';
 	const result = prepareMarkdownLinks(`منبع: [مستندات رسمی Frappe HR](${sourceUrl})`, {
