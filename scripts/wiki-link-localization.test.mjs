@@ -200,6 +200,18 @@ test('uses the translated source title for an untranslated destination when avai
 	assert.equal(result.markdown, '[کارمند](https://docs.frappe.io/hr/employee)');
 });
 
+test('localizes a mixed official destination title from its source address record', () => {
+	const url = 'https://docs.frappe.io/erpnext/work-order';
+	const result = prepareMarkdownLinks(`[مستندات رسمی ERPNext](${url})`, {
+		currentPath: 'content/fa/erpnext/bill-of-materials.md',
+		manifest: { pages: [{ url, section: 'erpnext', source_title: 'Create and process a Work Order | ERPNext', translation_path: null }] },
+		titles: new Map(),
+		terms: {},
+		uiTerms: { 'Create and process a Work Order | ERPNext': 'ایجاد و پردازش دستور کار' },
+	});
+	assert.equal(result.markdown, `[ایجاد و پردازش دستور کار](${url})`);
+});
+
 test('uses address-keyed Persian labels for official pages that are not translated yet', () => {
 	const url = 'https://docs.frappe.io/erpnext/newsletter';
 	const result = prepareMarkdownLinks('[راهنمای «Newsletter» در ERPNext](' + url + ')', {

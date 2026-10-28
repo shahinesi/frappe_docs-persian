@@ -385,7 +385,7 @@ BOM کالای نهایی از چهار قلم مجموعه استفاده می�
 
 ![عملیات BOM](https://docs.frappe.io/files/bom-creator-bom-operations.webp)
 
-وقتی از این BOM یک [Create and process a دستور کار | ERPNext](https://docs.frappe.io/erpnext/work-order) بسازید، هر کارت کار قلم خروجی عملیات مربوط به خود را تولید می‌کند.
+وقتی از این BOM یک [ایجاد و پردازش دستور کار](https://docs.frappe.io/erpnext/work-order) بسازید، هر کارت کار قلم خروجی عملیات مربوط به خود را تولید می‌کند.
 
 ## 9. وضعیت‌ها
 
@@ -405,7 +405,7 @@ BOM کالای نهایی از چهار قلم مجموعه استفاده می�
 2. [عملیات تولید](https://docs.frappe.io/erpnext/operation)
 3. [نوع ایستگاه کاری](https://docs.frappe.io/erpnext/workstation_type)
 4. [مسیریابی](https://docs.frappe.io/erpnext/routing)
-5. [Create and process a دستور کار | ERPNext](https://docs.frappe.io/erpnext/work-order)
+5. [ایجاد و پردازش دستور کار](https://docs.frappe.io/erpnext/work-order)
 6. [کارت کار](https://docs.frappe.io/erpnext/job-card)
 
 منبع: [BOM Creator جدید](https://docs.frappe.io/erpnext/bom-creator-new). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر و ویدئوها به فایل‌های رسمی مستندات پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.
