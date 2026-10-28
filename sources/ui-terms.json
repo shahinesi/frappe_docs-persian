@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T08:25:19.030Z",
+  "generated_at": "2026-10-28T08:27:28.900Z",
   "method": "Exact UI labels found in upstream source Markdown and page titles, matched to non-fuzzy non-empty msgstr entries in each product locale. Framework locale terms are inherited by Frappe apps; product locales override them. Reviewed curated terms are applied last and take precedence over upstream entries.",
   "curated_terms": [
     {
@@ -3645,7 +3645,23 @@
       "Applicant Name": "نام متقاضی",
       "Application Status": "وضعیت برنامه",
       "Net Pay": "پرداخت خالص",
-      "Account No": "شماره حساب"
+      "Account No": "شماره حساب",
+      "Overwrite ساختار حقوق Amount": "جایگزینی مبلغ ساختار حقوق",
+      "Calculate نمره نهایی بر اساس Formala": "محاسبهٔ امتیاز نهایی بر اساس فرمول",
+      "کارمند بازخورد Criteria:": "معیارهای بازخورد کارمند:",
+      "ساختار حقوق Assignment": "تخصیص ساختار حقوق",
+      "HR > Payroll > معوقات": "منابع انسانی > حقوق و دستمزد > معوقات",
+      "کار RQ": "کار پس‌زمینه",
+      "History In شرکت": "تاریخچه در شرکت",
+      "کارمند ID": "شناسهٔ کارمند",
+      "Work از تاریخ": "تاریخ شروع کار",
+      "مرخصی استحقاقی Frequency": "تناوب مرخصی استحقاقی",
+      "Closing Statement": "عبارت پایانی",
+      "Print View": "نمای چاپ",
+      "KRA Evaluation Method": "روش ارزیابی KRA",
+      "Attendance Device ID": "شناسهٔ دستگاه حضور و غیاب",
+      "کارمند Name": "نام کارمند",
+      "تاریخ شروع کار": "تاریخ کار در روز تعطیل"
     },
     "helpdesk": {
       "HD Customer": "مشتری",

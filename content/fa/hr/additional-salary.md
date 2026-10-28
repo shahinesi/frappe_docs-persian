@@ -34,7 +34,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 5. **تاریخ حقوق و دستمزد** را وارد کنید. اگر تاریخ حقوق و دستمزد حقوق اضافی در بازه‌ای باشد که حقوق و دستمزد پردازش می‌شود، مبلغ به درآمدها یا کسورات اضافه خواهد شد.
 6. سند را **ذخیره** و سپس **ارسال** کنید.
 
-اگر می‌خواهید مبلغ مؤلفهٔ حقوق اضافی جایگزین مبلغ آن در ساختار حقوق شود، گزینهٔ **Overwrite ساختار حقوق Amount** را علامت بزنید. همچنین اگر باید کل مالیات مؤلفهٔ حقوق اضافی در همان تاریخ پرداخت کسر شود، گزینهٔ **کسر مالیات کامل در تاریخ انتخاب شده حقوق و دستمزد** را انتخاب کنید.
+اگر می‌خواهید مبلغ مؤلفهٔ حقوق اضافی جایگزین مبلغ آن در ساختار حقوق شود، گزینهٔ **جایگزینی مبلغ ساختار حقوق** را علامت بزنید. همچنین اگر باید کل مالیات مؤلفهٔ حقوق اضافی در همان تاریخ پرداخت کسر شود، گزینهٔ **کسر مالیات کامل در تاریخ انتخاب شده حقوق و دستمزد** را انتخاب کنید.
 
 ![حقوق اضافی در Frappe HR](https://frappehr.com/files/additional-salary.png)
 
@@ -49,7 +49,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 1. [پاداش نگهداشت](https://docs.frappe.io/hr/retention-bonus)
 2. [مشوق کارکنان](employee-incentive.md)
 3. [ساختار حقوق](https://docs.frappe.io/hr/salary-structure)
-4. [ساختار حقوق Assignment](https://docs.frappe.io/hr/salary-structure-assignment)
+4. [تخصیص ساختار حقوق](https://docs.frappe.io/hr/salary-structure-assignment)
 5. [سند پردازش حقوق و دستمزد](https://docs.frappe.io/hr/payroll-entry)
 6. [دوره حقوق و دستمزد](https://docs.frappe.io/hr/payroll-period)
 

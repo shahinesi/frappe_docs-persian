@@ -24,7 +24,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
    ![تنظیم نرخ ساعتی برای اضافه‌کاری](https://docs.erpnext.com/files/RSBGOUP.png)
 
-5. ساختار حقوق را ثبت نهایی کنید و از طریق ساختار حقوق Assignment آن را به کارمند اختصاص دهید.
+5. ساختار حقوق را ثبت نهایی کنید و از طریق تخصیص ساختار حقوق آن را به کارمند اختصاص دهید.
 
    ![تخصیص ساختار حقوق و دستمزد به کارمند](https://docs.erpnext.com/files/qj9KVAu.png)
 
