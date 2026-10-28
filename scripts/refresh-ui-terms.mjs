@@ -102,6 +102,8 @@ function extractCandidates(markdown, set) {
 		addCandidate(set, match[1] || match[2]);
 	}
 	for (const line of body.split(/\r?\n/)) {
+		const heading = line.match(/^\s*#{1,6}\s+(.+?)\s*#*\s*$/);
+		if (heading) addCandidate(set, heading[1].replace(/\*\*/g, '').replace(/`/g, ''));
 		const item = line.match(/^\s*(?:[-*+]\s+|\d+[.)]\s+)([^|:]{1,120})\s*$/);
 		if (item) addCandidate(set, item[1].replace(/\*\*/g, '').replace(/`/g, ''));
 		if (line.includes('|')) {

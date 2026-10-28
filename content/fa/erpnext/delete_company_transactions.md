@@ -30,7 +30,7 @@ ERPNext امکان حذف همهٔ تراکنش‌های مرتبط با یک ش
 3. در صورت نیاز جدول **DocType های حذف شده** را تغییر دهید.
 4. سند را ذخیره و ثبت نهایی کنید.
 
-![فرم Transaction Deletion Record](https://docs.frappe.io/files/imageaf22f8.png)
+![فرم رکورد حذف تراکنش](https://docs.frappe.io/files/imageaf22f8.png)
 
 جدول **خلاصه** نام DocTypeهایی را که رکوردهایشان حذف شده و تعداد رکوردهای حذف‌شده را نشان می‌دهد.
 
