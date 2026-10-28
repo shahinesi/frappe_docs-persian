@@ -30,7 +30,7 @@ Amazon Connector از ERPNext جدا شده و به‌صورت یک برنامه
 
 #### 1. تنظیم اعتبارنامه‌های SP-API
 
-موارد زیر را وارد کنید: IAM ARN، Refresh Token، شناسه کلاینت، سیکرت کلاینت، AWS Access Key، AWS Secret Key و کشور.
+موارد زیر را وارد کنید: IAM ARN، Refresh Token، شناسه کلاینت، سیکرت کلاینت، AWS کلید دسترسی، AWS Secret Key و کشور.
 
 [مشاهدهٔ تصویر رسمی اعتبارنامه‌ها](https://docs.frappe.io/files/Credentials.png)
 

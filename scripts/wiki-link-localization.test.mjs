@@ -140,6 +140,15 @@ test('matches translated composite terms without consuming an English plural suf
 	assert.equal(result.markdown, '**همه گروه‌های مشتری**');
 });
 
+test('does not match a mixed Persian term at the start of a longer Persian word', () => {
+	const result = prepareMarkdownLinks('PDF نامه', {
+		currentPath: 'content/fa/hr/appointment-letter.md',
+		manifest: { pages: [] },
+		terms: { Name: 'نام', Letter: 'نامه', 'PDF Name': 'نام PDF' },
+	});
+	assert.equal(result.markdown, 'PDF نامه');
+});
+
 test('applies longer UI terms after repairing their translated subterms', () => {
 	const result = prepareMarkdownLinks('**مشتری Group Name**', {
 		currentPath: 'content/fa/erpnext/customer-group.md',

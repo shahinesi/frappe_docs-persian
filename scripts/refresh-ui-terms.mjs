@@ -156,6 +156,13 @@ for (const [product, localeStack] of Object.entries(productLocales)) {
 			if (translated) collected[candidate] = translated;
 		}
 	}
+	for (const entry of previous.curated_terms || []) {
+		if (entry.product !== product) continue;
+		if (entry.source_label && entry.translation) collected[entry.source_label] = entry.translation;
+		for (const [sourceLabel, translation] of Object.entries(entry.source_labels || {})) {
+			if (translation) collected[sourceLabel] = translation;
+		}
+	}
 	terms[product] = collected;
 	counts[product] = { source_candidates: candidates[product].size, translated_terms: Object.keys(collected).length };
 }
@@ -163,7 +170,7 @@ for (const [product, localeStack] of Object.entries(productLocales)) {
 const updated = {
 	schema_version: 1,
 	generated_at: new Date().toISOString(),
-	method: 'Exact UI labels found in upstream source Markdown and page titles, matched to non-fuzzy non-empty msgstr entries in each product locale. Framework locale terms are inherited by Frappe apps; product locales override them. Existing reviewed terms are retained.',
+	method: 'Exact UI labels found in upstream source Markdown and page titles, matched to non-fuzzy non-empty msgstr entries in each product locale. Framework locale terms are inherited by Frappe apps; product locales override them. Reviewed curated terms are applied last and take precedence over upstream entries.',
 	curated_terms: previous.curated_terms || [],
 	source_files: sourceFiles,
 	terms,

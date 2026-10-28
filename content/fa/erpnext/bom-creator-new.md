@@ -383,7 +383,7 @@ BOM کالای نهایی از چهار قلم مجموعه استفاده می�
 
 سامانه یک BOM می‌سازد و **Track Semi کالاهای تمام شده** را فعال می‌کند. هر ردیف عملیات، **Output کالا** همان گام را دارد و عملیات آخر کالای نهایی را تولید می‌کند. خروجی گام قبلی در BOM با **گسترده نشود** مشخص می‌شود تا BOM دیگری از آن قلم باز نشود.
 
-![BOM عملیات](https://docs.frappe.io/files/bom-creator-bom-operations.webp)
+![عملیات BOM](https://docs.frappe.io/files/bom-creator-bom-operations.webp)
 
 وقتی از این BOM یک [Create and process a دستور کار | ERPNext](https://docs.frappe.io/erpnext/work-order) بسازید، هر کارت کار قلم خروجی عملیات مربوط به خود را تولید می‌کند.
 

@@ -6,9 +6,9 @@ source_id: "erpnext/bom-operation-time"
 source_version: "281bacc0ad88980507dfadd8f4a12e6d82b38d85e7a01332da43c25f2469439f"
 ---
 
-برای دسترسی به گزارش **BOM عملیات Time** به مسیر زیر بروید:
+برای دسترسی به گزارش **عملیات BOM Time** به مسیر زیر بروید:
 
-> صفحهٔ اصلی > Manufacturing > Reports > BOM عملیات Time
+> صفحهٔ اصلی > Manufacturing > Reports > عملیات BOM Time
 
 ![گزارش زمان عملیات BOM](https://docs.frappe.io/files/bom-operations-time.png)
 

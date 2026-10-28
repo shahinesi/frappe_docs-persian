@@ -73,8 +73,8 @@ source_version: "2587f12de3904b67a15070da279002596c973bd6d4e0611952799b8c47ef8a2
 7. تنظیمات را در **S3 Backup Settings** وارد کنید:
    1. *Endpoint URL*: [https://nbg1.your-objectstorage.com/](https://nbg1.your-objectstorage.com/)
    2. *Bucket Name*: `BUCKET_NAME`
-   3. *Access Key ID*: `YOUR_S3_KEY`
-   4. *Access Key Secret*: `YOUR_S3_SECRET`
+   3. *کلید دسترسی ID*: `YOUR_S3_KEY`
+   4. *کلید دسترسی Secret*: `YOUR_S3_SECRET`
 
 ## راه‌اندازی ERPNext
 

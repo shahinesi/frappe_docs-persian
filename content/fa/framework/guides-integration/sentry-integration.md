@@ -75,7 +75,7 @@ SDK سرور با یکپارچه‌سازی‌های پیش‌فرض Sentry خا
 
 | فیلد در Sentry | محتوا |
 |---|---|
-| User ID | نام سایت؛ برای نمونه `"erp.example.com"` |
+| شناسه کاربر | نام سایت؛ برای نمونه `"erp.example.com"` |
 | برچسب `frappe_user` | کاربر واردشده؛ برای نمونه `[jane@example.com](mailto:jane@example.com)` یا `Guest` |
 | برچسب `frappe_trace_id` | سرآیند `X-Frappe-Request-ID`، اگر درخواست آن را داشته باشد |
 | Request | URL، متد، پرس‌وجو string و سرآیندها. SDK مقدار `Cookie`، `Authorization` و سرآیندهای حساس دیگر را حذف می‌کند. IP کاربر ارسال نمی‌شود. |

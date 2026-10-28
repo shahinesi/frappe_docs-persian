@@ -58,9 +58,9 @@ export function replaceUiTerms(text, terms, counters, mixedEntries = []) {
 	let result = text;
 	for (const [partial, persian] of mixedEntries) {
 		if (!partial || !result.includes(partial)) continue;
-		const leftBoundary = /^[A-Za-z0-9]/.test(partial) ? '(?<![A-Za-z0-9])' : '';
-		const rightBoundary = /[A-Za-z0-9]$/.test(partial) ? '(?![A-Za-z0-9])' : '';
-		const pattern = new RegExp(`${leftBoundary}${escapeRegExp(partial)}${rightBoundary}`, 'g');
+		const leftBoundary = /^[\p{L}\p{N}_]/u.test(partial) ? '(?<![\\p{L}\\p{N}_])' : '';
+		const rightBoundary = /[\p{L}\p{N}_]$/u.test(partial) ? '(?![\\p{L}\\p{N}_])' : '';
+		const pattern = new RegExp(`${leftBoundary}${escapeRegExp(partial)}${rightBoundary}`, 'gu');
 		const count = [...result.matchAll(pattern)].length;
 		if (counters) counters.translatedTerms += count;
 		result = result.replace(pattern, persian);
