@@ -74,7 +74,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 1. [ابزار حضور و غیاب کارکنان](employee-attendance-tool.md)
 2. [مدیریت شیفت‌ها](https://docs.frappe.io/hr/shift-management)
 3. [حضور و غیاب خودکار](auto-attendance.md)
-4. [آپلود حضور و غیاب](https://docs.frappe.io/hr/upload-attendance)
+4. [آپلود حضور و غیاب](upload-attendance.md)
 5. [حضور و غیاب](attendance.md)
 
 ---
