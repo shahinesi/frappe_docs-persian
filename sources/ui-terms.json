@@ -2028,6 +2028,21 @@
         "Print Format Templates": "قالب‌های چاپ"
       },
       "basis": "Reviewed Persian labels for the visible template name and print format selector in ERPNext documentation."
+    },
+    {
+      "product": "erpnext",
+      "source_labels": {
+        "Deleted Documents": "اسناد حذف‌شده",
+        "Total Order": "مجموع سفارش‌ها",
+        "Forecast Value": "مقدار پیش‌بینی",
+        "Data (in years)": "داده‌های گذشته (به سال)",
+        "Doc Status": "وضعیت سند",
+        "Rating": "امتیاز",
+        "Banking": "بانکداری",
+        "Add Bank": "افزودن بانک",
+        "Fix These Steps": "اصلاح این مراحل"
+      },
+      "basis": "Reviewed Persian labels for ERPNext controls and chart values found in translated documentation; technical identifiers are kept where needed."
     }
   ],
   "source_files": {

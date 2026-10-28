@@ -41,10 +41,10 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ![لغو سند وابسته پیش از سند والد](https://docs.frappe.io/files/Screenshot%202023-12-27%20at%2012.37.51%20PM.png)
 
-سندهای حذف‌شده از DocType مربوط ناپدید می‌شوند، اما در بخش **Deleted Documents** قابل مشاهده‌اند. از آنجا می‌توان آن‌ها را برای همیشه حذف کرد یا بازیابی کرد.
+سندهای حذف‌شده از DocType مربوط ناپدید می‌شوند، اما در بخش **اسناد حذف‌شده** قابل مشاهده‌اند. از آنجا می‌توان آن‌ها را برای همیشه حذف کرد یا بازیابی کرد.
 
 ![فهرست اسناد حذف‌شده](https://docs.frappe.io/files/Screenshot%202023-12-27%20at%2012.53.50%20PM.png)
 
-سندهای بازیابی‌شده در Deleted Documents مشخص شده‌اند.
+سندهای بازیابی‌شده در بخش **اسناد حذف‌شده** مشخص شده‌اند.
 
-![نمایش سندهای بازیابی‌شده در Deleted Documents](https://docs.frappe.io/files/Screenshot%202024-08-26%20at%204.53.00%20PM.png)
+![نمایش سندهای بازیابی‌شده در اسناد حذف‌شده](https://docs.frappe.io/files/Screenshot%202024-08-26%20at%204.53.00%20PM.png)

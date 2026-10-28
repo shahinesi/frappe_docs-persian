@@ -20,7 +20,7 @@ source_version: "eb3ae3d17b726eb4abbcbcee4ed5b77e10cf5c6121b596aa4804aa8ffbf4eb8
 
 ## ایجاد حساب بانکی
 
-1. به **حسابداری > Banking > حساب بانکی** بروید.
+1. به **حسابداری > بانکداری > حساب بانکی** بروید.
 2. **افزودن حساب بانکی** را انتخاب کنید.
 
 ![فهرست حساب‌های بانکی با گزینهٔ افزودن حساب بانکی مشخص‌شده](https://novacompanies.m.frappe.cloud/files/banking-04-bank-account-list.png)
