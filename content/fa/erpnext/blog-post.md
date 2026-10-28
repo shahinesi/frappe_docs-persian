@@ -25,7 +25,7 @@ source_version: "64058ea0cb49351bbd37eed633c1d30567db08b9ef6af1c25f2e59efcf7e3f1
 
 ![نوشتهٔ جدید وبلاگ](https://docs.frappe.io/files/new-blog-post.png)
 
-می‌توانید نوشته را با ویرایشگر متن غنی، Markdown یا HTML بنویسید. برای صفحه‌های محتوایی ساده، متن غنی و Markdown گزینه‌های مناسبی هستند. [روش افزودن تصویر به وبلاگ را اینجا ببینید](https://docs.frappe.io/erpnext/web-page#images).
+می‌توانید نوشته را با ویرایشگر متن غنی، Markdown یا HTML بنویسید. برای صفحه‌های محتوایی ساده، متن غنی و Markdown گزینه‌های مناسبی هستند. روش افزودن تصویر را در بخش مربوط به تصاویرِ [صفحهٔ وب](https://docs.frappe.io/erpnext/web-page#images) ببینید.
 
 > Markdown را در چند دقیقه با [راهنمای جامع Markdown](https://guides.github.com/features/mastering-markdown/) یاد بگیرید.
 
