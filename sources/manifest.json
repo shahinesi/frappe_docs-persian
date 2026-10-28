@@ -8291,10 +8291,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "f84be822505168758bfc860fa98961e6853ba24dc7c0acfecfcb6ec216228c8e",
       "source_modified": "2026-03-04",
-      "translation_status": "not_started",
+      "translation_status": "translated",
       "quality_status": "not_reviewed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/erpnext/field-types.md",
       "discovered_at": "2026-10-27T05:52:36.59Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/erpnext/field-types.md",
@@ -8304,10 +8304,11 @@
       "source_metadata_status": "fetched",
       "source_repository": null,
       "source_sitemap_lastmod": "2026-03-04",
-      "license_status": "unverified",
+      "license_status": "CC BY-SA (version unspecified by source policy)",
       "attribution_required": true,
       "unofficial_translation": true,
-      "snapshot_status": "fetched"
+      "snapshot_status": "fetched",
+      "source_snapshot_path": "sources/erpnext/field-types.md"
     },
     {
       "url": "https://docs.frappe.io/erpnext/fifo-and-moving-average",
@@ -8667,10 +8668,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "f6ea0f15032f34690a83bc63efd9cb678a78bd1d42c01d70b5934786deb0d6fc",
       "source_modified": "2026-08-14",
-      "translation_status": "not_started",
+      "translation_status": "translated",
       "quality_status": "not_reviewed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/erpnext/getting-started-with-erpnext.md",
       "discovered_at": "2026-10-27T05:52:36.595Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/erpnext/getting-started-with-erpnext.md",
@@ -8680,10 +8681,11 @@
       "source_metadata_status": "fetched",
       "source_repository": null,
       "source_sitemap_lastmod": "2026-08-14",
-      "license_status": "unverified",
+      "license_status": "CC BY-SA (version unspecified by source policy)",
       "attribution_required": true,
       "unofficial_translation": true,
-      "snapshot_status": "fetched"
+      "snapshot_status": "fetched",
+      "source_snapshot_path": "sources/erpnext/getting-started-with-erpnext.md"
     },
     {
       "url": "https://docs.frappe.io/erpnext/global-defaults",
