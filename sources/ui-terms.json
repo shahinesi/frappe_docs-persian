@@ -1878,6 +1878,21 @@
       "basis": "برگردان برچسب رابط چرخهٔ ارزیابی عملکرد بر پایهٔ واژه‌نامهٔ رسمی فارسی HR."
     },
     {
+      "product": "framework",
+      "source_labels": {
+        "OAuth Bearer Token": "توکن حامل OAuth",
+        "Social Key Login": "ورود با کلید اجتماعی"
+      },
+      "basis": "ترجمهٔ توضیحی نام DocTypeها در مستندات OAuth2؛ شناسه‌های فنی در متن داخل کد حفظ می‌شوند."
+    },
+    {
+      "product": "insights",
+      "source_labels": {
+        "Insights Table Import Log": "گزارش درون‌برد جدول‌های Insights"
+      },
+      "basis": "ترجمهٔ برچسب قابل‌مشاهدهٔ گزارش درون‌برد؛ نام فنی DocType در متن داخل کد حفظ می‌شود."
+    },
+    {
       "product": "learning",
       "source_labels": {
         "All Fields": "همهٔ فیلدها"
@@ -1897,6 +1912,10 @@
         "BOM Explorer": "کاوشگر BOM",
         "Editable Grid": "جدول قابل‌ویرایش",
         "Un-editable Grid": "جدول غیرقابل‌ویرایش",
+        "Price Discount": "تخفیف قیمت",
+        "Product Discount": "تخفیف محصول",
+        "Spanish": "اسپانیایی",
+        "DATEV CSV Export": "خروجی CSV در DATEV",
         "Perpetual Inventory": "موجودی دائمی",
         "Periodic Inventory": "موجودی ادواری"
       },

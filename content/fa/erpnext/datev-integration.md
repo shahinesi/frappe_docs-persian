@@ -22,7 +22,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ## قابلیت‌ها
 
 - **DATEV Unternehmen Online:** اسناد ثبت‌نهایی‌شده را از طریق ایمیل به DATEV Unternehmen Online می‌فرستد. اسناد خروجی را می‌توان به PDF تبدیل کرد و برای اسناد ورودی، فایل‌های پیوست‌شده قابل ارسال‌اند.
-- **DATEV CSV Export:** ثبت‌های خام دفترکل را از ERPNext در قالب CSVِ DATEV خروجی می‌گیرد.
+- **خروجی CSV در DATEV:** ثبت‌های خام دفترکل را از ERPNext در قالب CSVِ DATEV خروجی می‌گیرد.
 - **تحویل به مشاور مالیاتی:** گزارش DATEV را همراه با اطلاعات پایه به‌صورت فایل ZIP خروجی می‌گیرد تا در سامانهٔ DATEV مشاور مالیاتی وارد شود.
 
 ## خلاصهٔ راه‌اندازی
