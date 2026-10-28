@@ -73,7 +73,7 @@ source_version: "68dd17e983e527082b31e05ced1cd21bd4657e70f3c2df61ea9574d79ea393f
 حاشیهٔ سود و تخفیف برای نیازهای متفاوت قیمت‌گذاری هستند:
 
 - حاشیهٔ سود، افزایش قیمت را به نرخ فهرست قیمت اضافه می‌کند.
-- [اعمال تخفیف](https://docs.frappe.io/erpnext/applying-discount) قیمت یا مبلغ کل را کاهش می‌دهد.
+- [اعمال تخفیف](applying-discount.md) قیمت یا مبلغ کل را کاهش می‌دهد.
 - نرخ ثابت در قاعدهٔ قیمت‌گذاری می‌تواند جایگزین نرخ دریافت‌شده شود.
 
 بدون سیاست قیمت‌گذاری مستند، این روش‌ها را بی‌برنامه با هم ترکیب نکنید. کاربران باید بتوانند توضیح دهند نرخ نهایی چگونه به‌دست آمده است.
@@ -115,7 +115,7 @@ source_version: "68dd17e983e527082b31e05ced1cd21bd4657e70f3c2df61ea9574d79ea393f
 - [فهرست‌های قیمت](https://docs.frappe.io/erpnext/price-lists)
 - [قیمت قلم](https://docs.frappe.io/erpnext/item-price)
 - [قاعدهٔ قیمت‌گذاری](https://docs.frappe.io/erpnext/pricing-rule)
-- [اعمال تخفیف](https://docs.frappe.io/erpnext/applying-discount)
-- [تغییر نرخ اقلام در چرخهٔ فروش](https://docs.frappe.io/erpnext/change-the-rate-of-items-in-the-sales-cycle)
+- [اعمال تخفیف](applying-discount.md)
+- [تغییر نرخ اقلام در چرخهٔ فروش](change-the-rate-of-items-in-the-sales-cycle.md)
 
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/adding-margin). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های منبع پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

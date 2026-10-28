@@ -24,7 +24,7 @@ source_version: "c0e21554cc8d204c4a7fc702c7a90f903e0e094568e5f5279c658b001f6c3c6
 
 موارد زیر را آماده کنید:
 
-- [Sales Invoice](https://docs.frappe.io/erpnext/sales-invoice) با ماندهٔ تسویه‌نشده که Submit شده باشد؛
+- [راهنمای «Sales Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/sales-invoice) با ماندهٔ تسویه‌نشده که ارسال شده باشد؛
 - مبلغ حوالهٔ بانکی مشتری؛
 - مبلغ تأییدشدهٔ کسرشده؛
 - حساب دارایی مناسب در [Chart of Accounts](chart-of-accounts.md)، مانند Withholding Tax Receivable؛
@@ -32,7 +32,7 @@ source_version: "c0e21554cc8d204c4a7fc702c7a90f903e0e094568e5f5279c658b001f6c3c6
 
 حساب دریافتنی، اعتبار مالیاتیِ موردانتظار از مرجع مالیاتی یا مبلغی را ثبت می‌کند که گواهی مشتری آن را اثبات کرده است. از حسابدار بپرسید این حساب در Chart of Accounts شما کجا قرار بگیرد و چگونه باید تطبیق داده شود.
 
-این روش با پیکربندی [Tax Withholding Category](https://docs.frappe.io/erpnext/tax-withholding-category) برای کسورات خودکار تأمین‌کننده یا قواعد منطقه‌ای دریافت مالیات متفاوت است. اینجا مبلغی را ثبت می‌کنید که مشتری قبلاً از پرداخت خود کسر کرده است.
+این روش با پیکربندی [راهنمای «Tax Withholding Category» در ERPNext](https://docs.frappe.io/erpnext/tax-withholding-category) برای کسورات خودکار تأمین‌کننده یا قواعد منطقه‌ای دریافت مالیات متفاوت است. اینجا مبلغی را ثبت می‌کنید که مشتری قبلاً از پرداخت خود کسر کرده است.
 
 ## بررسی ماندهٔ تسویه‌نشدهٔ فاکتور
 
@@ -44,7 +44,7 @@ Sales Invoice را باز کنید و Grand Total و Outstanding Amount فعلی
 
 ## ایجاد Payment Entry از فاکتور
 
-از فاکتور Submitشده، **Create > Payment** را انتخاب کنید. ERPNext یک [Payment Entry](https://docs.frappe.io/erpnext/payment-entry) با Payment Type برابر **Receive**، به‌همراه Customer، حساب دریافتنی، حساب بانک و ارجاع فاکتور باز می‌کند.
+از فاکتور ارسالشده، **Create > Payment** را انتخاب کنید. ERPNext یک [راهنمای «Payment Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-entry) با Payment Type برابر **Receive**، به‌همراه مشتری، حساب دریافتنی، حساب بانک و ارجاع فاکتور باز می‌کند.
 
 می‌توانید Payment Entry را از فهرست هم بسازید، اما شروع از خود فاکتور احتمال انتخاب Party یا ارجاع اشتباه را کم می‌کند.
 
@@ -98,23 +98,23 @@ Sales Invoice را باز کنید و Grand Total و Outstanding Amount فعلی
 - Payment Deductions or Loss برابر 34.95 دلار است؛
 - Difference Amount برابر 0.00 دلار است.
 
-Draft را ذخیره و پیش از Submit هر سه مؤلفه را بررسی کنید. اگر Difference Amount صفر نیست، ثبت تراز نشده است.
+Draft را ذخیره و پیش از ارسال هر سه مؤلفه را بررسی کنید. اگر Difference Amount صفر نیست، ثبت تراز نشده است.
 
 در مثال قدیمی‌تر ERPNext از فاکتور 20,000 دلاری، دریافت بانکی 19,600 دلاری و تعدیل مالیات تکلیفی 400 دلاری استفاده شده بود. همان الگو برقرار است:
 
 `$19,600 bank + $400 withholding receivable = $20,000 invoice allocation`
 
-## Submit و بررسی نتیجه
+## ارسال و بررسی نتیجه
 
-Payment Entry را Submit و سپس Sales Invoice را دوباره باز کنید. مبلغ تسویه‌نشده باید به‌اندازهٔ کل مبلغ تخصیص‌یافته کاهش یابد، نه فقط وجه نقد دریافتی.
+Payment Entry را ارسال و سپس Sales Invoice را دوباره باز کنید. مبلغ تسویه‌نشده باید به‌اندازهٔ کل مبلغ تخصیص‌یافته کاهش یابد، نه فقط وجه نقد دریافتی.
 
-[General Ledger](https://docs.frappe.io/erpnext/general-ledger) را بررسی کنید:
+[دفترکل کل](https://docs.frappe.io/erpnext/general-ledger) را بررسی کنید:
 
 1. Bank به‌اندازهٔ وجه نقد دریافتی بدهکار شده باشد.
 2. دریافتنی مالیات تکلیفی به‌اندازهٔ مبلغ نگه‌داشته‌شده بدهکار شده باشد.
 3. دریافتنی مشتری به‌اندازهٔ کل مبلغ تخصیص‌یافتهٔ فاکتور بستانکار شده باشد.
 
-ماندهٔ [Accounts Receivable](/erpnext/accounts-receivable) مشتری را نیز بررسی کنید. اگر مبلغ کسرشده به‌درستی به‌عنوان تسویه پذیرفته شده، فاکتور نباید بخشی تسویه‌نشده باقی مانده باشد.
+ماندهٔ [حساب‌های دریافتنی](/erpnext/accounts-receivable) مشتری را نیز بررسی کنید. اگر مبلغ کسرشده به‌درستی به‌عنوان تسویه پذیرفته شده، فاکتور نباید بخشی تسویه‌نشده باقی مانده باشد.
 
 حساب دریافتنی مالیات تکلیفی را با گواهی‌ها و اظهارنامه‌های قانونی تطبیق دهید. افزایش مانده بدون مدرک پشتیبان می‌تواند نشانهٔ گواهی‌های مفقود یا ثبت تعدیل نادرست باشد.
 
@@ -124,15 +124,15 @@ Payment Entry را Submit و سپس Sales Invoice را دوباره باز کن�
 
 - پرداخت عادیِ کمتر که مشتری همچنان بدهکار آن است؛ فقط وجه نقد را تخصیص دهید و مانده را باز بگذارید.
 - تخفیف تجاری؛ از گردش‌کار تأییدشدهٔ تخفیف یا Write Off و حساب درست استفاده کنید.
-- کارمزد بانکی که شرکت شما پرداخت می‌کند؛ از حساب کارمزد بانکیِ پشتیبانی‌شده در فرایند [Bank Reconciliation](https://docs.frappe.io/erpnext/bank-reconciliation) استفاده کنید.
-- تفاوت ارز؛ روش مناسب [Exchange Gain or Loss](https://docs.frappe.io/erpnext/multi-currency-accounting) را به‌کار ببرید.
+- کارمزد بانکی که شرکت شما پرداخت می‌کند؛ از حساب کارمزد بانکیِ پشتیبانی‌شده در فرایند [تطبیق بانکی](bank-reconciliation.md) استفاده کنید.
+- تفاوت ارز؛ روش مناسب [راهنمای «Multi Currency Accounting | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/multi-currency-accounting) را به‌کار ببرید.
 - مالیاتی که هنگام پرداخت به تأمین‌کننده کسر می‌کنید؛ گردش‌کار مالیات تکلیفی تأمین‌کننده را که در Tax Withholding Category توضیح داده شده دنبال کنید.
 
-## اصلاح تعدیلِ Submitشده
+## اصلاح تعدیلِ ارسالشده
 
 Payment Entry ثبت‌شده را مستقیم ویرایش نکنید. اگر مبلغ مالیات تکلیفی، حساب یا تخصیص اشتباه است، در صورت مجازبودن سند را لغو و اصلاح کنید. اگر مدرک بعدی نحوهٔ حسابداری را تغییر داد، از اصلاح حسابداریِ تأییدشده همراه با ارجاع روشن به سندهای اصلی استفاده کنید.
 
-فقط برای صفرکردن ماندهٔ فاکتور، [Journal Entry](https://docs.frappe.io/erpnext/journal-entry) نامرتبط ثبت نکنید. اصلاح باید ارجاع‌های Party و رد حسابرسی قابل‌ردگیری را حفظ کند.
+فقط برای صفرکردن ماندهٔ فاکتور، [راهنمای «Journal Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/journal-entry) نامرتبط ثبت نکنید. اصلاح باید ارجاع‌های Party و رد حسابرسی قابل‌ردگیری را حفظ کند.
 
 ## عیب‌یابی
 
@@ -142,7 +142,7 @@ Payment Entry ثبت‌شده را مستقیم ویرایش نکنید. اگر 
 
 ### بخشی از فاکتور همچنان تسویه‌نشده است
 
-بررسی کنید Allocated Amount برابر کل مبلغ تسویه‌شده باشد و Payment Entry Submit شده باشد. ردیف کسر به‌تنهایی فاکتور را تخصیص نمی‌دهد.
+بررسی کنید Allocated Amount برابر کل مبلغ تسویه‌شده باشد و Payment Entry ارسال شده باشد. ردیف کسر به‌تنهایی فاکتور را تخصیص نمی‌دهد.
 
 ### Difference Amount صفر نیست
 
@@ -176,12 +176,12 @@ Payment Entry ثبت‌شده را مستقیم ویرایش نکنید. اگر 
 
 ## موضوعات مرتبط
 
-- [Payment Entry](https://docs.frappe.io/erpnext/payment-entry)
-- [Sales Invoice](https://docs.frappe.io/erpnext/sales-invoice)
-- [Tax Withholding Category](https://docs.frappe.io/erpnext/tax-withholding-category)
-- [Payment Reconciliation](https://docs.frappe.io/erpnext/payment-reconciliation)
-- [General Ledger](https://docs.frappe.io/erpnext/general-ledger)
-- [Accounts Receivable](/erpnext/accounts-receivable)
+- [راهنمای «Payment Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-entry)
+- [راهنمای «Sales Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/sales-invoice)
+- [راهنمای «Tax Withholding Category» در ERPNext](https://docs.frappe.io/erpnext/tax-withholding-category)
+- [راهنمای «Payment Reconciliation | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-reconciliation)
+- [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger)
+- [حساب‌های دریافتنی](/erpnext/accounts-receivable)
 
 ---
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/adjusting-withhold-amount). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویرهای اصلی فقط به فایل‌های رسمی پیوند داده شده‌اند و در مخزن بازنشر نشده‌اند.

@@ -21,7 +21,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای تنظیم Email Digest، به مسیر زیر بروید:
 
-> Home > Settings > Email Digest
+> صفحهٔ اصلی > Settings > Email Digest
 
 1. نامی برای خلاصهٔ ایمیل وارد کنید.
 2. تناوب ارسال ایمیل‌ها را تعیین کنید.
@@ -35,5 +35,5 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### موضوعات مرتبط
 
-- [گزارش‌های ایمیلی خودکار](/erpnext/auto-email-reports)
-- [ارسال ایمیل](/erpnext/sending-email)
+- [گزارش‌های ایمیلی خودکار](auto-email-reports.md)
+- [ارسال ایمیل](https://docs.frappe.io/erpnext/sending-email)

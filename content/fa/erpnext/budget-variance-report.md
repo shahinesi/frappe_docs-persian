@@ -8,15 +8,15 @@ source_version: "e879c533d3631c3b5d8a02b53ec40b18bf5369457b4596ea4b6098f1412f03b
 
 شرکت Nova Electronics Trading بودجهٔ بازاریابی 120,000 دلاری را تصویب کرده که ماهانه 10,000 دلار توزیع شده است. تا پایان مارس، تیم 27,500 دلار هزینه کرده است. مدیر مالی پاسخ یک پرسش را می‌خواهد: هزینهٔ بازاریابی از برنامه جلوتر است، عقب‌تر است یا دقیقاً مطابق آن پیش می‌رود؟
 
-**Budget Variance Report**، [Budget](budget.md) مصوب را کنار هزینه‌های واقعی قرار می‌دهد. Nova می‌تواند مبلغ برنامه‌ریزی‌شده، مبلغ ثبت‌شده در تراکنش‌های حسابداری و تفاوت هر دوره را ببیند. انحراف مثبت یا منفی فقط وقتی معنا دارد که ابتدا مطمئن شوید سازمان شما علامت گزارش را چگونه تفسیر می‌کند؛ بنابراین نخست بررسی کنید هزینهٔ واقعی از بودجه بیشتر است یا کمتر.
+**Budget Variance گزارش**، [بودجه](budget.md) مصوب را کنار هزینه‌های واقعی قرار می‌دهد. Nova می‌تواند مبلغ برنامه‌ریزی‌شده، مبلغ ثبت‌شده در تراکنش‌های حسابداری و تفاوت هر دوره را ببیند. انحراف مثبت یا منفی فقط وقتی معنا دارد که ابتدا مطمئن شوید سازمان شما علامت گزارش را چگونه تفسیر می‌کند؛ بنابراین نخست بررسی کنید هزینهٔ واقعی از بودجه بیشتر است یا کمتر.
 
 ## پیش از شروع
 
-برای [Cost Center](cost-center.md)، [Project](project.md) یا [Accounting Dimension](accounting-dimensions.md) موردنیاز Budget بسازید و ثبت نهایی کنید. مقدارهای واقعی از تراکنش‌های ثبت‌نهایی‌شده‌ای می‌آیند که به همان [Account](chart-of-accounts.md)، شرکت، دوره و بخش گزارش‌گیری ثبت شده‌اند.
+برای [مرکز هزینه](cost-center.md)، [راهنمای «Project\n» در ERPNext](https://docs.frappe.io/erpnext/project) یا [بُعد حسابداری](accounting-dimensions.md) موردنیاز Budget بسازید و ثبت نهایی کنید. مقدارهای واقعی از تراکنش‌های ثبت‌نهایی‌شده‌ای می‌آیند که به همان [Chart of Accounts](chart-of-accounts.md)، شرکت، دوره و بخش گزارش‌گیری ثبت شده‌اند.
 
 ## بررسی عملکرد بودجه
 
-از بخش Accounting، **Budget Variance Report** را باز کنید. Company، Fiscal Year، Budget Against و تناوب گزارش‌گیری را انتخاب کنید. برای بررسی‌های اجرایی Monthly و برای نمای سطح‌بالا Quarterly یا Yearly را انتخاب کنید.
+از بخش Accounting، **Budget Variance گزارش** را باز کنید. شرکت، Fiscal Year، Budget Against و تناوب گزارش‌گیری را انتخاب کنید. برای بررسی‌های اجرایی Monthly و برای نمای سطح‌بالا Quarterly یا Yearly را انتخاب کنید.
 
 ![گزارش انحراف بودجه با مقایسهٔ بودجهٔ 120,000 دلاری و هزینهٔ واقعی بازاریابی 27,500 دلاری](https://novacompanies.m.frappe.cloud/files/budgets-capital-equity-20260814-budget-variance-report.png)
 
@@ -31,17 +31,17 @@ source_version: "e879c533d3631c3b5d8a02b53ec40b18bf5369457b4596ea4b6098f1412f03b
 | Variance | تفاوت مبلغ برنامه‌ریزی‌شده و مبلغ واقعی. |
 | مقادیر تجمعی | بودجهٔ جاری، مبلغ واقعی و انحراف انباشته تا آن دوره. |
 
-اگر هزینهٔ واقعی ناقص به‌نظر می‌رسد، [General Ledger](general-ledger.md) را برای همان حساب، تاریخ‌ها و Cost Center بررسی کنید. یک [Journal Entry](journal-entry.md)، [Purchase Invoice](purchase-invoice.md) یا تراکنش هزینهٔ ثبت‌نهایی‌شدهٔ دیگر فقط وقتی در گزارش می‌آید که ابعاد آن با Budget مطابقت داشته باشند.
+اگر هزینهٔ واقعی ناقص به‌نظر می‌رسد، [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger) را برای همان حساب، تاریخ‌ها و Cost Center بررسی کنید. یک [راهنمای «Journal Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/journal-entry)، [راهنمای «Purchase Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-invoice) یا تراکنش هزینهٔ ثبت‌نهایی‌شدهٔ دیگر فقط وقتی در گزارش می‌آید که ابعاد آن با Budget مطابقت داشته باشند.
 
 ## عیب‌یابی
 
 ### گزارش خالی است
 
-وجود Budget ثبت‌نهایی‌شده برای Company، Fiscal Year، حساب و بخش گزارش‌گیری انتخاب‌شده را بررسی کنید. این گزارش بر مبنای Budget ساخته می‌شود؛ بنابراین هزینه‌های واقعی به‌تنهایی ردیفی ایجاد نمی‌کنند.
+وجود Budget ثبت‌نهایی‌شده برای شرکت، Fiscal Year، حساب و بخش گزارش‌گیری انتخاب‌شده را بررسی کنید. این گزارش بر مبنای Budget ساخته می‌شود؛ بنابراین هزینه‌های واقعی به‌تنهایی ردیفی ایجاد نمی‌کنند.
 
 ### مبلغ واقعی کمتر از انتظار است
 
-بررسی کنید تراکنش‌های مفقود از Cost Center، Project، Account، Posting Date یا بُعد حسابداری دیگری استفاده نکرده باشند. گزارش و General Ledger را با فیلترهای یکسان مقایسه کنید.
+بررسی کنید تراکنش‌های مفقود از Cost Center، Project، Account، Posting Date یا بُعد حسابداری دیگری استفاده نکرده باشند. گزارش و دفترکل کل را با فیلترهای یکسان مقایسه کنید.
 
 ## پرسش‌های رایج
 
@@ -55,9 +55,9 @@ source_version: "e879c533d3631c3b5d8a02b53ec40b18bf5369457b4596ea4b6098f1412f03b
 
 ## موضوعات مرتبط
 
-- [Budget](budget.md)
-- [Budget Revision](budget-revision.md)
-- [Cost Center and Budgeting](https://docs.frappe.io/erpnext/cost-center-and-budgeting)
-- [Accounting Reports](https://docs.frappe.io/erpnext/accounting-reports)
+- [بودجه](budget.md)
+- [بازنگری بودجه](budget-revision.md)
+- [مرکز هزینه و بودجه‌بندی](cost-center-and-budgeting.md)
+- [گزارش‌های حسابداری](accounting-reports.md)
 
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/budget-variance-report). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویر به فایل رسمی مستندات پیوند داده شده و در این مخزن بازنشر نشده است.

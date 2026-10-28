@@ -34,7 +34,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## تفاوت پیش‌فرض کشور با پیش‌فرض‌های سامانه
 
-رکورد Country داده‌های مرجع در سطح کشور را نگه می‌دارد. [System Settings](https://docs.frappe.io/erpnext/system-settings) زبان سایت، منطقهٔ زمانی، قالب تاریخ و قالب عدد پیش‌فرض سایت را کنترل می‌کند. [Global Defaults](https://docs.frappe.io/erpnext/global-defaults) و ترجیحات کاربر نیز می‌توانند آنچه کاربر می‌بیند تعیین کنند. اگر قالب‌بندی غیرمنتظره است، هر سه بخش را بررسی کنید.
+رکورد Country داده‌های مرجع در سطح کشور را نگه می‌دارد. [راهنمای «System Settings | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/system-settings) زبان سایت، منطقهٔ زمانی، قالب تاریخ و قالب عدد پیش‌فرض سایت را کنترل می‌کند. [راهنمای «Global Defaults/ERPNext Settings | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/global-defaults) و ترجیحات کاربر نیز می‌توانند آنچه کاربر می‌بیند تعیین کنند. اگر قالب‌بندی غیرمنتظره است، هر سه بخش را بررسی کنید.
 
 ## عیب‌یابی
 
@@ -58,10 +58,10 @@ System Settings و زبان یا محلی (locale) کاربر را بررسی ک
 
 ## موضوعات مرتبط
 
-- [شرکت](https://docs.frappe.io/erpnext/company-setup)
-- [System Settings](https://docs.frappe.io/erpnext/system-settings)
-- [Global Defaults](https://docs.frappe.io/erpnext/global-defaults)
-- [نشانی](https://docs.frappe.io/erpnext/address)
-- [ارز](https://docs.frappe.io/erpnext/currency)
+- [شرکت](company-setup.md)
+- [راهنمای «System Settings | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/system-settings)
+- [راهنمای «Global Defaults/ERPNext Settings | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/global-defaults)
+- [نشانی](address.md)
+- [ارز](currency.md)
 
 **منبع:** [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/country). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر اصلی در این مخزن بازنشر نشده‌اند.

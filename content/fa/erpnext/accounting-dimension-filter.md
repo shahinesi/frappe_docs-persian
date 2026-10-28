@@ -10,56 +10,56 @@ source_version: "cc3bd7e5f63695cb139bbe45b541e59b84c795a3e01ac0d9fce8de96ad7d5a8
 
 هنگام ثبت هزینه، کسی به‌اشتباه **Mac** و **Engineering** را انتخاب می‌کند. مبلغ پرداخت همچنان درست است و حساب‌ها تراز می‌مانند؛ اما گزارش‌های Apple روایت نادرستی دارند: می‌گویند تیم مهندسی Mac مبلغ 1,000 دلار هزینه کرده، درحالی‌که پول برای تبلیغ iPhone خرج شده است.
 
-Accounting Dimension Filter از این خطا جلوگیری می‌کند. Apple می‌تواند قاعده‌ای بسازد که بگوید: «وقتی از حساب تبلیغ iPhone استفاده می‌شود، محصول iPhone و یک واحد مجاز انتخاب شود.» اگر کسی مقدار نادرستی برگزیند، ERPNext پیش از Submit تراکنش را متوقف می‌کند.
+بُعد حسابداری Filter از این خطا جلوگیری می‌کند. Apple می‌تواند قاعده‌ای بسازد که بگوید: «وقتی از حساب تبلیغ iPhone استفاده می‌شود، محصول iPhone و یک واحد مجاز انتخاب شود.» اگر کسی مقدار نادرستی برگزیند، ERPNext پیش از ارسال تراکنش را متوقف می‌کند.
 
 به این ترتیب، کارمند لازم نیست همهٔ قواعد حسابداری را به خاطر بسپارد؛ ERPNext هنگام ورود تراکنش او را راهنمایی می‌کند. پایان ماه، تیم مالی می‌تواند مطمئن باشد که گزارش‌های iPhone و Marketing هزینهٔ درست 1,000 دلاری را نشان می‌دهند.
 
-[Accounting Dimensions](accounting-dimensions.md) مشخص می‌کنند پول برای کدام محصول یا واحد دریافت یا خرج شده است. Accounting Dimension Filter اطمینان می‌دهد کاربران برای حساب، مقدارهای مجاز را انتخاب می‌کنند. ماجرای Apple فقط یک مثال ساده است و شرحی از سیستم حسابداری واقعی Apple نیست.
+[ابعاد حسابداری](accounting-dimensions.md) مشخص می‌کنند پول برای کدام محصول یا واحد دریافت یا خرج شده است. بُعد حسابداری Filter اطمینان می‌دهد کاربران برای حساب، مقدارهای مجاز را انتخاب می‌کنند. ماجرای Apple فقط یک مثال ساده است و شرحی از سیستم حسابداری واقعی Apple نیست.
 
 در مثال عملی زیر، Nova Electronics Trading درآمد را بر اساس واحد ثبت می‌کند. حساب Sales - NET باید از واحد Sales استفاده کند. فیلتر این قاعده را در ERPNext اعمال می‌کند تا کاربران مجبور نباشند آن را برای هر فاکتور یا Journal Entry به خاطر بسپارند.
 
 ## پیش از شروع
 
-ابتدا Accounting Dimension لازم را بسازید و فعال کنید. همچنین مقدارهایی را که کاربران انتخاب خواهند کرد ایجاد کنید؛ برای نمونه Sales، Service یا Operations.
+ابتدا بُعد حسابداری لازم را بسازید و فعال کنید. همچنین مقدارهایی را که کاربران انتخاب خواهند کرد ایجاد کنید؛ برای نمونه Sales، Service یا Operations.
 
 حساب‌های دفتری‌ای را که باید کنترل شوند مشخص کنید. یک فیلتر می‌تواند روی یک یا چند حساب اعمال شود و مقدارهای انتخابی را مجاز یا ممنوع کند.
 
-## ایجاد Accounting Dimension Filter
+## ایجاد بُعد حسابداری Filter
 
-فهرست Accounting Dimension Filter را باز کنید و **Add Accounting Dimension Filter** را انتخاب کنید.
+فهرست بُعد حسابداری Filter را باز کنید و **Add بُعد حسابداری Filter** را انتخاب کنید.
 
-[تصویر فهرست Accounting Dimension Filter در ERPNext](https://docs.frappe.io/files/accounting-dimension-filter-list.webp)
+[تصویر فهرست بُعد حسابداری Filter در ERPNext](https://docs.frappe.io/files/accounting-dimension-filter-list.webp)
 
-**Accounting Dimension** و **Company** را انتخاب کنید. **Apply restriction on dimension values** را فعال کنید و تعیین کنید ERPNext مقدارها را چگونه تفسیر کند:
+**بُعد حسابداری** و **شرکت** را انتخاب کنید. **Apply restriction on dimension values** را فعال کنید و تعیین کنید ERPNext مقدارها را چگونه تفسیر کند:
 
 - **Allow**: فقط مقدارهای فهرست‌شده در فیلتر برای حساب‌های انتخابی قابل‌استفاده‌اند.
 - **Restrict**: مقدارهای فهرست‌شده در فیلتر برای حساب‌های انتخابی قابل‌استفاده نیستند.
 
 وقتی فهرست مقدارهای مجاز کوتاه و پایدار است، از **Allow** استفاده کنید. اگر بیشتر مقدارها معتبرند و فقط باید چند ترکیب مسدود شوند، **Restrict** را انتخاب کنید.
 
-[تصویر فیلتر Accounting Dimension برای واحد Nova Electronics Trading](https://docs.frappe.io/files/filter-basis-and-rule.webp)
+[تصویر فیلتر بُعد حسابداری برای واحد Nova Electronics Trading](https://docs.frappe.io/files/filter-basis-and-rule.webp)
 
 ### انتخاب حساب‌ها
 
 در **Applicable On Account** همهٔ حساب‌هایی را اضافه کنید که این قاعده بر آن‌ها اعمال می‌شود. اگر بُعد برای ثبت در آن حساب همیشه لازم است، **Is Mandatory** را انتخاب کنید.
 
-در این مثال، Sales - NET اجباری است. هر تراکنشی که به این حساب درآمد ثبت می‌شود باید مقدار Department پذیرفته‌شده‌ای داشته باشد.
+در این مثال، Sales - NET اجباری است. هر تراکنشی که به این حساب درآمد ثبت می‌شود باید مقدار دپارتمان پذیرفته‌شده‌ای داشته باشد.
 
-[تصویر حساب اجباری انتخاب‌شده در Accounting Dimension Filter](https://docs.frappe.io/files/filter-accounts.webp)
+[تصویر حساب اجباری انتخاب‌شده در بُعد حسابداری Filter](https://docs.frappe.io/files/filter-accounts.webp)
 
 ### انتخاب مقدارهای بُعد
 
 در **Applicable Dimension** مقدارهایی را اضافه کنید که ERPNext باید مجاز یا ممنوع کند. معنای این فهرست به گزینهٔ انتخاب‌شده در **Allow Or Restrict Dimension** بستگی دارد.
 
-فیلتر را ذخیره کنید. Accounting Dimension Filter رکورد پیکربندی است و به Submit نیاز ندارد.
+فیلتر را ذخیره کنید. بُعد حسابداری Filter رکورد پیکربندی است و به ارسال نیاز ندارد.
 
-[تصویر مقدار مجاز Department در Accounting Dimension Filter](https://docs.frappe.io/files/filter-allowed-values.webp)
+[تصویر مقدار مجاز دپارتمان در بُعد حسابداری Filter](https://docs.frappe.io/files/filter-allowed-values.webp)
 
 ## نحوهٔ کار فیلتر در تراکنش‌ها
 
 وقتی یکی از ردیف‌های تراکنش از حسابی استفاده کند که فیلتر بر آن اعمال می‌شود، ERPNext مقدار بُعد آن را بررسی می‌کند. در قاعدهٔ Allow، مقدارهای خارج از فهرست مجاز رد می‌شوند؛ در قاعدهٔ Restrict، مقدارهای داخل فهرست ممنوع رد می‌شوند.
 
-اگر **Is Mandatory** انتخاب شده باشد، ERPNext در صورت خالی‌بودن بُعد نیز از Submit جلوگیری می‌کند. این بررسی در سطح ردیف حسابداری انجام می‌شود؛ نکته‌ای مهم برای سندهایی که چند حساب درآمد، هزینه، دارایی یا بدهی دارند.
+اگر **Is Mandatory** انتخاب شده باشد، ERPNext در صورت خالی‌بودن بُعد نیز از ارسال جلوگیری می‌کند. این بررسی در سطح ردیف حسابداری انجام می‌شود؛ نکته‌ای مهم برای سندهایی که چند حساب درآمد، هزینه، دارایی یا بدهی دارند.
 
 فیلتر مبلغ، مالیات، حرکت موجودی یا حساب ثبت را تغییر نمی‌دهد. فقط طبقه‌بندی حسابداریِ پیوست‌شده به ثبت را اعتبارسنجی می‌کند.
 
@@ -67,8 +67,8 @@ Accounting Dimension Filter از این خطا جلوگیری می‌کند. App
 
 | فیلد | چیزی که کنترل می‌کند |
 |---|---|
-| Accounting Dimension | بُعدی که مقدارهایش بررسی می‌شوند؛ مانند Department یا Business Unit. |
-| Company | شرکتی که قاعده در آن اعمال می‌شود. |
+| بُعد حسابداری | بُعدی که مقدارهایش بررسی می‌شوند؛ مانند دپارتمان یا Business Unit. |
+| شرکت | شرکتی که قاعده در آن اعمال می‌شود. |
 | Disabled | فیلتر را موقتاً بدون حذف‌کردن متوقف می‌کند. |
 | Apply restriction on dimension values | قواعد مجاز یا ممنوع‌کردن مقدارها را فعال می‌کند. |
 | Allow Or Restrict Dimension | مشخص می‌کند مقدارهای فهرست‌شده مجاز باشند یا مسدود شوند. |
@@ -92,7 +92,7 @@ Accounting Dimension Filter از این خطا جلوگیری می‌کند. App
 
 ### مقدار معتبر در فهرست نیست
 
-بررسی کنید فیلتر از Allow استفاده می‌کند یا Restrict، شرکت درستی انتخاب شده و مقدار در جدول Applicable Dimension وجود دارد. همچنین فعال‌بودن Accounting Dimension و مقدار آن را تأیید کنید.
+بررسی کنید فیلتر از Allow استفاده می‌کند یا Restrict، شرکت درستی انتخاب شده و مقدار در جدول Applicable Dimension وجود دارد. همچنین فعال‌بودن بُعد حسابداری و مقدار آن را تأیید کنید.
 
 ### به‌نظر می‌رسد فیلتر اثری ندارد
 
@@ -102,11 +102,11 @@ Accounting Dimension Filter از این خطا جلوگیری می‌کند. App
 
 ### آیا فیلتر ثبت‌های دفترکل موجود را تغییر می‌دهد؟
 
-فیلتر تراکنش‌های جدید یا اصلاح‌شده را اعتبارسنجی می‌کند. ثبت‌های دفترکلِ Submitشدهٔ موجود بدون تغییر می‌مانند.
+فیلتر تراکنش‌های جدید یا اصلاح‌شده را اعتبارسنجی می‌کند. ثبت‌های دفترکلِ ارسالشدهٔ موجود بدون تغییر می‌مانند.
 
 ### آیا می‌توانم برای شرکت‌های مختلف قواعد متفاوتی بسازم؟
 
-هر فیلتر مختص یک Company است؛ بنابراین در پیکربندی چندشرکتی می‌توان کنترل‌های حسابداری متفاوتی داشت.
+هر فیلتر مختص یک شرکت است؛ بنابراین در پیکربندی چندشرکتی می‌توان کنترل‌های حسابداری متفاوتی داشت.
 
 ### از Allow استفاده کنم یا Restrict؟
 
@@ -118,12 +118,12 @@ Accounting Dimension Filter از این خطا جلوگیری می‌کند. App
 
 ## موضوعات مرتبط
 
-- [Accounting Dimensions](accounting-dimensions.md)
-- [Cost Center](https://docs.frappe.io/erpnext/cost-center)
-- [General Ledger](https://docs.frappe.io/erpnext/general-ledger)
-- [Journal Entry](https://docs.frappe.io/erpnext/journal-entry)
-- [Sales Invoice](https://docs.frappe.io/erpnext/sales-invoice)
-- [Budget](/erpnext/budgeting)
+- [ابعاد حسابداری](accounting-dimensions.md)
+- [مرکز هزینه](cost-center.md)
+- [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger)
+- [راهنمای «Journal Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/journal-entry)
+- [راهنمای «Sales Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/sales-invoice)
+- [بودجه](budget.md)
 
 ---
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/accounting-dimension-filter). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویرهای اصلی فقط به منبع رسمی پیوند داده شده‌اند و در مخزن بازنشر نشده‌اند.

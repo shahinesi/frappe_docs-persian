@@ -12,11 +12,11 @@ source_version: "1cc883b8da3ebf4f1c3e2da2fb23c737472eabbd8aeda9e6f782c7f0c04501a
 
 ## آشنایی با چرخهٔ عمر دارایی
 
-1. [دسته‌بندی دارایی](https://docs.frappe.io/erpnext/asset-category) را با حساب‌های درست دارایی، استهلاک انباشته، هزینه و کار در جریان سرمایه‌ای تعریف کنید.
-2. مکان‌های فیزیکی را در ساختار درختی [مکان دارایی](https://docs.frappe.io/erpnext/asset-location) سازمان‌دهی کنید.
+1. [دسته‌بندی دارایی](../asset-category.md) را با حساب‌های درست دارایی، استهلاک انباشته، هزینه و کار در جریان سرمایه‌ای تعریف کنید.
+2. مکان‌های فیزیکی را در ساختار درختی [مکان دارایی](../asset-location.md) سازمان‌دهی کنید.
 3. یک کالا را به‌عنوان دارایی ثابت مشخص کنید، سپس آن را بخرید یا برای دارایی موجود رکورد بسازید.
 4. دارایی را در چرخهٔ بهره‌برداری قرار دهید و برنامهٔ استهلاک آن را بررسی کنید.
-5. در طول عمر دارایی، تخصیص، [جابجایی](https://docs.frappe.io/erpnext/asset-movement)، [نگهداری](https://docs.frappe.io/erpnext/asset-maintenance)، [تعمیر](https://docs.frappe.io/erpnext/asset-repair) و تعدیل ارزش را ثبت کنید.
+5. در طول عمر دارایی، تخصیص، [جابجایی](../asset-movement.md)، [نگهداری](../asset-maintenance.md)، [تعمیر](../asset-repair.md) و تعدیل ارزش را ثبت کنید.
 6. چرخهٔ عمر را با [فروش](https://docs.frappe.io/erpnext/selling-an-asset) یا [اسقاط](https://docs.frappe.io/erpnext/scrapping-an-asset) دارایی به پایان برسانید.
 
 ![فهرست دارایی‌های ERPNext برای Nova Industries شامل لپ‌تاپ‌ها و تجهیزات تولید](https://novacompanies.m.frappe.cloud/files/01-assets-overview-list.png)
@@ -55,17 +55,17 @@ source_version: "1cc883b8da3ebf4f1c3e2da2fb23c737472eabbd8aeda9e6f782c7f0c04501a
 
 ### دفتر کامل دارایی‌ها را کجا می‌توانم ببینم؟
 
-از [دفتر دارایی ثابت](https://docs.frappe.io/erpnext/asset-reports) و گزارش‌های مرتبط دارایی استفاده کنید.
+از [دفتر دارایی ثابت](../asset-reports.md) و گزارش‌های مرتبط دارایی استفاده کنید.
 
 ## موضوعات مرتبط
 
-- [دسته‌بندی دارایی](https://docs.frappe.io/erpnext/asset-category)
-- [مکان دارایی](https://docs.frappe.io/erpnext/asset-location)
-- [دارایی](https://docs.frappe.io/erpnext/asset)
+- [دسته‌بندی دارایی](../asset-category.md)
+- [مکان دارایی](../asset-location.md)
+- [دارایی](../asset.md)
 - [خرید دارایی](https://docs.frappe.io/erpnext/purchasing-an-asset)
-- [استهلاک](https://docs.frappe.io/erpnext/asset-depreciation)
-- [جابجایی دارایی](https://docs.frappe.io/erpnext/asset-movement)
-- [تعمیر دارایی](https://docs.frappe.io/erpnext/asset-repair)
-- [گزارش‌های دارایی](https://docs.frappe.io/erpnext/asset-reports)
+- [استهلاک](../asset-depreciation.md)
+- [جابجایی دارایی](../asset-movement.md)
+- [تعمیر دارایی](../asset-repair.md)
+- [گزارش‌های دارایی](../asset-reports.md)
 
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/assets/introduction). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های رسمی پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

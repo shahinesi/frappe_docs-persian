@@ -21,7 +21,7 @@ Nova Industries در نخستین روز هر ماه برای Northstar Retail،
 1. Auto Repeat را باز کنید و رکورد جدیدی بسازید.
 2. نوع سند مرجع و سفارش یا فاکتور مشخصی را که باید تکرار شود انتخاب کنید.
 3. تاریخ شروع و، در صورت پایان قرارداد، تاریخ پایان را تعیین کنید.
-4. گزینهٔ Submit on Creation را فقط زمانی فعال کنید که تراکنش تولیدشده به بررسی دستی نیاز نداشته باشد.
+4. گزینهٔ ارسال on Creation را فقط زمانی فعال کنید که تراکنش تولیدشده به بررسی دستی نیاز نداشته باشد.
 
 ![سند مرجع و تنظیمات ایجاد Auto Repeat](https://novacompanies.m.frappe.cloud/files/sales-receivables-auto-repeat-recurring-orders-and-invoices-auto-repeat-details.png)
 
@@ -58,7 +58,7 @@ Nova Industries در نخستین روز هر ماه برای Northstar Retail،
 ## موضوعات مرتبط
 
 - [نمای کلی حسابداری](https://docs.frappe.io/erpnext/accounting/introduction)
-- [جدول حساب‌ها](https://docs.frappe.io/erpnext/chart-of-accounts)
+- [جدول حساب‌ها](chart-of-accounts.md)
 - [دفتر کل](https://docs.frappe.io/erpnext/general-ledger)
 - [سال مالی](https://docs.frappe.io/erpnext/fiscal-year)
 

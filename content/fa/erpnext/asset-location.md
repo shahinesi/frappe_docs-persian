@@ -15,7 +15,7 @@ source_version: "0f7aa1b9909b619918ab283c11799ed46999655f53cac3fefc48b3eac567f09
 1. **محل دارایی** را در نمای درختی باز کنید.
 2. گروهی مانند **مکان‌های شرکت Nova** (Nova Facilities) ایجاد کنید.
 3. مکان‌های عملیاتی مانند **دفتر مرکزی Nova**، **خط بسته‌بندی** و **کارگاه خدمات** را زیر آن اضافه کنید.
-4. هرگاه دارایی جابه‌جا می‌شود، از [جابجایی دارایی](https://docs.frappe.io/erpnext/asset-movement) استفاده کنید تا تاریخچه قابل‌حسابرسی باقی بماند.
+4. هرگاه دارایی جابه‌جا می‌شود، از [جابجایی دارایی](asset-movement.md) استفاده کنید تا تاریخچه قابل‌حسابرسی باقی بماند.
 
 [مشاهدهٔ تصویر رسمی: درخت محل دارایی برای مکان‌های شرکت Nova Industries](https://novacompanies.m.frappe.cloud/files/05-asset-location-tree.png)
 
@@ -57,13 +57,13 @@ source_version: "0f7aa1b9909b619918ab283c11799ed46999655f53cac3fefc48b3eac567f09
 
 ## موضوعات مرتبط
 
-- [دستهٔ دارایی](https://docs.frappe.io/erpnext/asset-category)
-- [محل دارایی](https://docs.frappe.io/erpnext/asset-location)
-- [دارایی](https://docs.frappe.io/erpnext/asset)
+- [دستهٔ دارایی](asset-category.md)
+- [محل دارایی](asset-location.md)
+- [دارایی](asset.md)
 - [خرید دارایی](https://docs.frappe.io/erpnext/purchasing-an-asset)
-- [استهلاک](https://docs.frappe.io/erpnext/asset-depreciation)
-- [جابجایی دارایی](https://docs.frappe.io/erpnext/asset-movement)
-- [تعمیر دارایی](https://docs.frappe.io/erpnext/asset-repair)
-- [گزارش‌های دارایی](https://docs.frappe.io/erpnext/asset-reports)
+- [استهلاک](asset-depreciation.md)
+- [جابجایی دارایی](asset-movement.md)
+- [تعمیر دارایی](asset-repair.md)
+- [گزارش‌های دارایی](asset-reports.md)
 
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/asset-location). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویر به فایل منبع پیوند داده شده و در این مخزن بازنشر نشده است.

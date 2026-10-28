@@ -64,6 +64,6 @@ ERPNext به شما کمک می‌کند:
 ## یادگیری و جامعهٔ کاربری
 
 1. [Frappe School](https://frappe.school/) — دوره‌های نگه‌دارندگان پروژه و جامعه برای یادگیری Frappe Framework و ERPNext.
-2. [مستندات](https://docs.frappe.io/erpnext) — مستندات جامع ERPNext.
+2. [مستندات](introduction.md) — مستندات جامع ERPNext.
 3. [تالار گفت‌وگوی کاربران ERPNext](https://discuss.frappe.io/c/erpnext/6) — گفت‌وگو با کاربران و ارائه‌دهندگان خدمات ERPNext.
 4. [گروه تلگرام](https://t.me/erpnext_public) — دریافت کمک از جامعهٔ کاربران.

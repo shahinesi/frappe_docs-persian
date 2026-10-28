@@ -17,19 +17,19 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 شرکت Northstar Retail یک تلفن را پس می‌دهد، پس از آنکه Nova Industries، Sales Invoice را ارسال کرده است. Nova باید بدهی مشتری را کاهش دهد و اگر تلفن فیزیکی برگردانده شده، آن را به موجودی انبار بازگرداند. ویرایش یا حذف صورتحساب اصلی، آنچه واقعاً رخ داده را از سابقه پنهان می‌کند.
 
-**Credit Note** اصلاح را ثبت می‌کند و در عین حال فروش اصلی و سابقهٔ حسابرسی آن را نگه می‌دارد. این سند می‌تواند ماندهٔ باز Customer را کاهش دهد، درآمد و مالیات مربوط را معکوس کند و در صورت نیاز کالای برگشتی را به Warehouse بازگرداند.
+**Credit Note** اصلاح را ثبت می‌کند و در عین حال فروش اصلی و سابقهٔ حسابرسی آن را نگه می‌دارد. این سند می‌تواند ماندهٔ باز مشتری را کاهش دهد، درآمد و مالیات مربوط را معکوس کند و در صورت نیاز کالای برگشتی را به Warehouse بازگرداند.
 
 در ERPNext، Credit Note یک Sales Invoice است که به‌عنوان برگشت علامت خورده و مقدار و مبلغ منفی دارد. از آن برای برگشت کامل یا جزئی، کاهش قیمت توافق‌شده یا اصلاح دیگری پس از صدور صورتحساب استفاده کنید. این راهنما نحوهٔ ساخت آن از صورتحساب اصلی و تصمیم‌گیری دربارهٔ بازپرداخت، تخصیص یا نگه‌داشتن اعتبار حاصل را توضیح می‌دهد.
 
 ## پیش از شروع
 
-[Sales Invoice](https://docs.frappe.io/erpnext/sales-invoice) اصلی و ارسال‌شده را پیدا کنید. اگر کالا به انبار برمی‌گردد، Warehouse دریافت‌کننده را مشخص کنید. اگر مشتری قبلاً پرداخت کرده، تصمیم بگیرید اعتبار بازپرداخت شود یا به صورتحساب دیگری تخصیص یابد.
+[راهنمای «Sales Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/sales-invoice) اصلی و ارسال‌شده را پیدا کنید. اگر کالا به انبار برمی‌گردد، Warehouse دریافت‌کننده را مشخص کنید. اگر مشتری قبلاً پرداخت کرده، تصمیم بگیرید اعتبار بازپرداخت شود یا به صورتحساب دیگری تخصیص یابد.
 
 ## ساخت Credit Note از Sales Invoice
 
 1. Sales Invoice اصلی را باز کنید.
 2. **Create > Return / Credit Note** را انتخاب کنید.
-3. Customer، Company، تاریخ ثبت، انبار برگشت و صورتحساب مرجع را بررسی کنید.
+3. مشتری، شرکت، تاریخ ثبت، انبار برگشت و صورتحساب مرجع را بررسی کنید.
 4. فقط ردیف‌های برگشتی را نگه دارید و مقدار برگشتی را وارد کنید. ERPNext مقدارها و مبلغ‌های برگشت را منفی نشان می‌دهد.
 5. اگر کالاها فیزیکی به موجودی برمی‌گردند، **Update Stock** را فعال کنید.
 6. مالیات‌ها و جمع مبلغ‌ها را بررسی و سپس سند را ذخیره و ارسال کنید.
@@ -46,13 +46,13 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## بازپرداخت یا تخصیص اعتبار
 
-پس از ارسال، Credit Note یک دریافتنی منفی برای Customer ایجاد می‌کند.
+پس از ارسال، Credit Note یک دریافتنی منفی برای مشتری ایجاد می‌کند.
 
-- برای بازپرداخت به مشتری، یک [Payment Entry](https://docs.frappe.io/erpnext/payment-entry) در برابر Credit Note بسازید.
-- برای استفاده از اعتبار در Sales Invoice دیگری، آن را از طریق [Payment Reconciliation](https://docs.frappe.io/erpnext/payment-reconciliation) یا Journal Entryای با ارجاع درست تخصیص دهید.
+- برای بازپرداخت به مشتری، یک [راهنمای «Payment Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-entry) در برابر Credit Note بسازید.
+- برای استفاده از اعتبار در Sales Invoice دیگری، آن را از طریق [راهنمای «Payment Reconciliation | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-reconciliation) یا Journal Entryای با ارجاع درست تخصیص دهید.
 - برای نگه‌داشتن اعتبار جهت خرید آینده، آن را تا آماده‌شدن صورتحساب بعدی تخصیص‌نیافته بگذارید.
 
-همیشه هم به Credit Note و هم به صورتحسابی که تسویه می‌شود ارجاع دهید. ثبت کلی در دفترکل Customer بدون ارجاع سند، اسناد باز را جداگانه نمی‌بندد.
+همیشه هم به Credit Note و هم به صورتحسابی که تسویه می‌شود ارجاع دهید. ثبت کلی در دفترکل مشتری بدون ارجاع سند، اسناد باز را جداگانه نمی‌بندد.
 
 ## اثر بر دفترکل و موجودی
 
@@ -77,17 +77,17 @@ Credit Noteهای قبلی مربوط به همان صورتحساب را برر
 
 پیش از ارسال، **Update Stock** را خاموش کنید. برای اصلاحی که فقط قیمت را تغییر می‌دهد، برگشت انبار ثبت نکنید.
 
-**Customer هنوز ماندهٔ باز دارد**
+**مشتری هنوز ماندهٔ باز دارد**
 
-گزارش Accounts Receivable را باز و بررسی کنید Credit Note یا بازپرداخت به سند درست تخصیص یافته باشد.
+گزارش حساب‌های دریافتنی را باز و بررسی کنید Credit Note یا بازپرداخت به سند درست تخصیص یافته باشد.
 
 ## موضوعات مرتبط
 
-- [Sales Invoice](https://docs.frappe.io/erpnext/sales-invoice)
+- [راهنمای «Sales Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/sales-invoice)
 - [برگشت فروش](https://docs.frappe.io/erpnext/sales-return)
-- [Payment Entry](https://docs.frappe.io/erpnext/payment-entry)
-- [Payment Reconciliation](https://docs.frappe.io/erpnext/payment-reconciliation)
-- [حساب‌های دریافتنی](https://docs.frappe.io/erpnext/accounts-receivables)
-- [Debit Note](https://docs.frappe.io/erpnext/debit-note)
+- [راهنمای «Payment Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-entry)
+- [راهنمای «Payment Reconciliation | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-reconciliation)
+- [حساب‌های دریافتنی](accounts-receivables.md)
+- [یادداشت بدهکار (Debit Note)](debit-note.md)
 
 **منبع:** [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/credit-note). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر اصلی در این مخزن بازنشر نشده‌اند.

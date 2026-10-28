@@ -19,7 +19,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای دریافت تازه‌ترین نسخهٔ پشتیبان پایگاه داده، به مسیر زیر بروید:
 
-> Home > Download Backups
+> صفحهٔ اصلی > Download Backups
 
 فهرست نسخه‌های پشتیبان قابل دریافت هر 8 ساعت به‌روز می‌شود. برای بارگیری نسخهٔ مربوط به زمان مشخص، پیوند آن را انتخاب کنید.
 

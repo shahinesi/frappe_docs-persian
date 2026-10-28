@@ -12,11 +12,11 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 محدودکردن دسترسی به یک فیلد بر اساس نقش را می‌توان با **Perm Level** پیکربندی کرد؛ قابلیتی که بیشتر سازمان‌ها به آن نیاز دارند. برای تعیین Perm Level، فرم مربوطه را باز و آن را با Customize Form سفارشی کنید.
 
-فرض کنید سازمان نمی‌خواهد کارمند دارای نقش **Accounts User** هنگام ساخت **Sales Invoice** بتواند **Item Rate** را ویرایش کند. برای این کار، می‌توان فیلد **Item Rate** را فقط‌خواندنی کرد.
+فرض کنید سازمان نمی‌خواهد کارمند دارای نقش **Accounts User** هنگام ساخت **Sales Invoice** بتواند **کالا Rate** را ویرایش کند. برای این کار، می‌توان فیلد **کالا Rate** را فقط‌خواندنی کرد.
 
 #### مرحلهٔ 1: سفارشی‌سازی فرم
 
-برای این کار، **Customize Form** را باز کنید، در **DocType** مقدار **Sales Invoice Item** را انتخاب کنید، به فیلد **Item Rate** بروید و بخش آن را باز کنید.
+برای این کار، **Customize Form** را باز کنید، در **DocType** مقدار **Sales Invoice کالا** را انتخاب کنید، به فیلد **کالا Rate** بروید و بخش آن را باز کنید.
 
 ![بازکردن تنظیمات Item Rate در Customize Form](/files/6eFVMRc.gif)
 
@@ -28,17 +28,17 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 #### مرحلهٔ 3: تعریف قاعدهٔ مجوز
 
-پس از ذخیره، در **Role Permission Manager** روی **Add a New Rule** کلیک کنید و Document Type و Role را انتخاب کنید؛ در این مثال، **Accounts User**. مقدار Perm Level را روی 2 بگذارید و برای کارمند دسترسی **Read** اعطا کنید.
+پس از ذخیره، در **نقش مجوز Manager** روی **Add a جدید Rule** کلیک کنید و سند Type و نقش را انتخاب کنید؛ در این مثال، **Accounts User**. مقدار Perm Level را روی 2 بگذارید و برای کارمند دسترسی **Read** اعطا کنید.
 
 ![افزودن قاعدهٔ مجوز برای نقش](/files/jACnHrX.png)
 
-پس از ساخت قاعده‌ای با Perm Level برابر 2، Role Permissions Manager آن را به این شکل نمایش می‌دهد:
+پس از ساخت قاعده‌ای با Perm Level برابر 2، نقش Permissions Manager آن را به این شکل نمایش می‌دهد:
 
 ![قاعدهٔ جدید در Role Permissions Manager](/files/qCYWDfK.png)
 
 #### مرحلهٔ 4: بررسی نما
 
-اکنون در Sales Invoice، کاربر می‌تواند فیلد Item Rate را فقط بخواند؛ مقدار این فیلد به‌طور خودکار از Price List دریافت می‌شود.
+اکنون در Sales Invoice، کاربر می‌تواند فیلد کالا Rate را فقط بخواند؛ مقدار این فیلد به‌طور خودکار از Price List دریافت می‌شود.
 
 ![نمای Item Rate به‌صورت فقط‌خواندنی در Sales Invoice](/files/86CqBf1.png)
 

@@ -23,15 +23,15 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای نمونه، در Nova Industries صورتحساب‌های مشتریان معمولاً در حساب بدهکاران، صورتحساب‌های تأمین‌کنندگان در حساب بستانکاران و دریافت‌های بانکی در حساب بانکی شرکت ثبت می‌شوند. با تعیین یک‌بارهٔ این پیش‌فرض‌ها، تیم حسابداری مجبور نیست هر بار همان دفترکل را انتخاب کند و احتمال طبقه‌بندی متفاوت تراکنش‌های مشابه توسط کاربران مختلف کاهش می‌یابد.
 
-پیش‌فرض‌ها همهٔ تراکنش‌ها را بازنویسی نمی‌کنند. ERPNext معتبرترین مقدار مشخصی را که پیدا می‌کند به‌کار می‌برد و سپس به رکورد Company برمی‌گردد. این صفحه پیش‌فرض‌های مهم، محل پیکربندی و روش بررسی حساب‌های انتخاب‌شده را توضیح می‌دهد.
+پیش‌فرض‌ها همهٔ تراکنش‌ها را بازنویسی نمی‌کنند. ERPNext معتبرترین مقدار مشخصی را که پیدا می‌کند به‌کار می‌برد و سپس به رکورد شرکت برمی‌گردد. این صفحه پیش‌فرض‌های مهم، محل پیکربندی و روش بررسی حساب‌های انتخاب‌شده را توضیح می‌دهد.
 
 ## پیش از شروع
 
-برای شرکت، [Chart of Accounts](https://docs.frappe.io/erpnext/chart-of-accounts)، [Fiscal Year](https://docs.frappe.io/erpnext/fiscal-year) و [Cost Center](https://docs.frappe.io/erpnext/cost-center) را ایجاد کنید. حساب‌ها باید به همان شرکت تعلق داشته باشند.
+برای شرکت، [Chart of Accounts](chart-of-accounts.md)، [راهنمای «Fiscal Year | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/fiscal-year) و [مرکز هزینه](cost-center.md) را ایجاد کنید. حساب‌ها باید به همان شرکت تعلق داشته باشند.
 
 ## پیکربندی حساب‌های پیش‌فرض طرف حساب
 
-**Company** را باز کنید، شرکت را انتخاب و به زبانهٔ **Accounts** بروید.
+**شرکت** را باز کنید، شرکت را انتخاب و به زبانهٔ **Accounts** بروید.
 
 | فیلد | کاربرد |
 | --- | --- |
@@ -40,7 +40,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 | Default Cash Account | پرداخت‌ها و دریافت‌های نقدی |
 | Default Bank Account | پرداخت‌ها و دریافت‌های بانکی، وقتی حساب مشخص‌تری انتخاب نشده باشد |
 
-حساب اختصاص‌یافته به Customer یا Supplier می‌تواند بر پیش‌فرض شرکت اولویت داشته باشد. روش پرداخت (Mode of Payment) نیز می‌تواند حساب پرداخت تعیین کند.
+حساب اختصاص‌یافته به مشتری یا تأمین‌کننده می‌تواند بر پیش‌فرض شرکت اولویت داشته باشد. روش پرداخت (Mode of Payment) نیز می‌تواند حساب پرداخت تعیین کند.
 
 ## پیکربندی پیش‌فرض‌های درآمد، هزینه و مرکز هزینه
 
@@ -80,9 +80,9 @@ ERPNext معمولاً پیش‌فرض تراکنش را از مشخص‌تری�
 
 ## موضوعات مرتبط
 
-- [تنظیمات حساب‌ها](https://docs.frappe.io/erpnext/accounts-settings)
-- [Chart of Accounts](https://docs.frappe.io/erpnext/chart-of-accounts)
-- [حساب‌های بانکی و روش‌های پرداخت](https://docs.frappe.io/erpnext/bank-accounts-and-modes-of-payment)
-- [ماندهٔ افتتاحیه](https://docs.frappe.io/erpnext/opening-balance)
+- [تنظیمات حساب‌ها](accounts-settings.md)
+- [Chart of Accounts](chart-of-accounts.md)
+- [حساب‌های بانکی و روش‌های پرداخت](bank-accounts-and-modes-of-payment.md)
+- [ماندهٔ افتتاحیه](opening-balance.md)
 
 **منبع:** [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/company-accounting-defaults). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر اصلی در این مخزن بازنشر نشده‌اند.

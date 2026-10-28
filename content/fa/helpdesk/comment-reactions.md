@@ -21,9 +21,9 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 1. از نوار کناری به **Settings** بروید.
 2. در **App Settings**، زبانهٔ **General** را باز کنید.
-3. در بخش **Ticket settings**، گزینهٔ **Enable comment reactions** را پیدا کنید.
+3. در بخش **تیکت settings**، گزینهٔ **Enable comment reactions** را پیدا کنید.
 4. کلید آن را روشن کنید.
-5. در گوشهٔ بالا و سمت راست صفحه روی **Save** بزنید.
+5. در گوشهٔ بالا و سمت راست صفحه روی **ذخیره** بزنید.
 
 ## افزودن واکنش
 

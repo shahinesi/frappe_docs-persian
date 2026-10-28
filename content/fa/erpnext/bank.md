@@ -25,7 +25,7 @@ source_version: "18bd5d91588fa137db1cbe64dd209dbd24c263c07a40b0a9d2a72f96bc85b21
 ![شمارهٔ SWIFT و وب‌سایت در رکورد بانک](https://novacompanies.m.frappe.cloud/files/banking-03-bank-details.png)
 
 5. رکورد بانک را ذخیره کنید.
-6. یک یا چند [حساب بانکی](https://docs.frappe.io/erpnext/bank-account) مرتبط با آن بسازید.
+6. یک یا چند [حساب بانکی](bank-account.md) مرتبط با آن بسازید.
 
 ## فیلدهای مهم و کاربرد آن‌ها
 
@@ -59,7 +59,7 @@ source_version: "18bd5d91588fa137db1cbe64dd209dbd24c263c07a40b0a9d2a72f96bc85b21
 - حساب بانکی شرکت را ایجاد و به حساب دفتر کل پیوند دهید؛
 - اگر لازم است اطلاعات بانکی مشتری یا تأمین‌کننده ذخیره شود، حساب‌های بانکی طرف‌های معامله را ایجاد کنید؛
 - برای دریافت‌ها و پرداخت‌ها، [روش پرداخت](https://docs.frappe.io/erpnext/mode-of-payment) را پیکربندی کنید؛
-- واردات [تراکنش بانکی](https://docs.frappe.io/erpnext/bank-transaction) و [تطبیق بانکی](https://docs.frappe.io/erpnext/bank-reconciliation) را آزمایش کنید.
+- واردات [تراکنش بانکی](bank-transaction.md) و [تطبیق بانکی](bank-reconciliation.md) را آزمایش کنید.
 
 همچنین می‌توانید از داشبورد بانک، حساب‌های بانکی یا ضمانت‌نامه‌های بانکی مرتبط ایجاد کنید.
 
@@ -97,10 +97,10 @@ source_version: "18bd5d91588fa137db1cbe64dd209dbd24c263c07a40b0a9d2a72f96bc85b21
 
 ## موضوعات مرتبط
 
-- [حساب بانکی](https://docs.frappe.io/erpnext/bank-account)
-- [تراکنش بانکی](https://docs.frappe.io/erpnext/bank-transaction)
-- [تطبیق بانکی](https://docs.frappe.io/erpnext/bank-reconciliation)
-- [ضمانت‌نامهٔ بانکی](https://docs.frappe.io/erpnext/bank-guarantee)
+- [حساب بانکی](bank-account.md)
+- [تراکنش بانکی](bank-transaction.md)
+- [تطبیق بانکی](bank-reconciliation.md)
+- [ضمانت‌نامهٔ بانکی](bank-guarantee.md)
 - [جدول حساب‌ها](chart-of-accounts.md)
 - [روش پرداخت](https://docs.frappe.io/erpnext/mode-of-payment)
 

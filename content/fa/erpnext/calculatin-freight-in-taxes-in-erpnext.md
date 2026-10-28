@@ -24,7 +24,7 @@ source_version: "919c94ecd67499a6a637f7643e712df3e498d53042f1028eecfadd4a75df6d3
 ## افزودن کرایه و مالیات به تراکنش خرید
 
 1. حساب هزینه یا دریافت کرایه و حساب مالیاتی مربوط را ایجاد یا انتخاب کنید.
-2. Purchase Order یا Purchase Invoice را باز کنید.
+2. سفارش خرید یا Purchase Invoice را باز کنید.
 3. در جدول Taxes and Charges، ردیفی برای مبلغ کرایه اضافه کنید.
 4. مشخص کنید ردیف بر Total، Valuation یا هر دو اثر بگذارد.
 5. ردیف مالیات را پس از ردیف کرایه اضافه کنید.
@@ -38,9 +38,9 @@ source_version: "919c94ecd67499a6a637f7643e712df3e498d53042f1028eecfadd4a75df6d3
 
 ![ردیف کرایه، مبلغ مالیات، Grand Total و مبلغ ارزش‌گذاری](https://docs.frappe.io/files/docs-20261022-docs-buying-freight-tax-result.png)
 
-## استفاده از Item کرایه در صورت تناسب
+## استفاده از کالا کرایه در صورت تناسب
 
-اگر تأمین‌کنندهٔ کرایه را در ردیفی جداگانه صورتحساب می‌کند، می‌توانید برای آن یک Item خدماتیِ غیرانبارشونده تعریف کنید. حساب هزینهٔ مناسب و Item Tax Template مربوط را تنظیم و سپس Item را به Purchase Invoice اضافه کنید.
+اگر تأمین‌کنندهٔ کرایه را در ردیفی جداگانه صورتحساب می‌کند، می‌توانید برای آن یک کالا خدماتیِ غیرانبارشونده تعریف کنید. حساب هزینهٔ مناسب و کالا Tax Template مربوط را تنظیم و سپس کالا را به Purchase Invoice اضافه کنید.
 
 این روش وقتی مفید است که گزارش مالیات در سطح ردیف لازم باشد. برای هزینه‌های کل سند، ردیف Taxes and Charges معمولاً ساده‌تر است. روشی یکسان انتخاب کنید که با نیازهای انطباق و گزارش‌گیری شما هماهنگ باشد.
 
@@ -60,7 +60,7 @@ source_version: "919c94ecd67499a6a637f7643e712df3e498d53042f1028eecfadd4a75df6d3
 
 ### مالیات به حساب اشتباه ثبت شده است
 
-**Account Head**، Company، نوع حساب، دستهٔ مالیاتی و تنظیمات منطقه‌ای را بررسی کنید. پیکربندی را اصلاح کنید و به‌جای آنکه دستی ردیف ترازکننده بسازید، علت را برطرف کنید.
+**Account Head**، شرکت، نوع حساب، دستهٔ مالیاتی و تنظیمات منطقه‌ای را بررسی کنید. پیکربندی را اصلاح کنید و به‌جای آنکه دستی ردیف ترازکننده بسازید، علت را برطرف کنید.
 
 ## پرسش‌های رایج
 
@@ -76,15 +76,15 @@ source_version: "919c94ecd67499a6a637f7643e712df3e498d53042f1028eecfadd4a75df6d3
 
 Shipping Rule می‌تواند بر اساس ارزش خالص یا وزن خالص، هزینه‌ای را انتخاب کند. پیش از ثبت نهایی، ردیف Taxes and Charges ایجادشده را بررسی کنید.
 
-برای هزینه‌های قابل‌استفادهٔ مجدد، [Purchase Taxes and Charges Template](https://docs.frappe.io/erpnext/purchase-taxes-and-charges-template) را پیکربندی کنید. سپس [انواع در Tax Template](https://docs.frappe.io/erpnext/types-in-tax-template)، [شامل‌کردن مالیات یا هزینه در Valuation یا Total](https://docs.frappe.io/erpnext/difference-in-total-and-valuation-in-tax-and-charges) و [اعمال مالیات بر مالیات یا هزینهٔ دیگر](https://docs.frappe.io/erpnext/how-to-apply-tax-on-tax) را ببینید. نتیجه را در [Purchase Order](https://docs.frappe.io/erpnext/purchase-order) یا [Purchase Invoice](https://docs.frappe.io/erpnext/purchase-invoice) اعمال کنید، موجودی دریافتی را از طریق [Purchase Receipt](https://docs.frappe.io/erpnext/purchase-receipt) بررسی کنید، برای هزینه‌های بعدی [Landed Cost Voucher](https://docs.frappe.io/erpnext/landed-cost-voucher) را به‌کار ببرید، بازه‌های ارزشی را با [Shipping Rule](https://docs.frappe.io/erpnext/shipping-rule) خودکار کنید و سیاست را در [Buying Settings](https://docs.frappe.io/erpnext/buying-settings) تأیید کنید.
+برای هزینه‌های قابل‌استفادهٔ مجدد، [راهنمای «Purchase Taxes and Charges Template\n» در ERPNext](https://docs.frappe.io/erpnext/purchase-taxes-and-charges-template) را پیکربندی کنید. سپس [انواع در Tax Template](https://docs.frappe.io/erpnext/types-in-tax-template)، [شامل‌کردن مالیات یا هزینه در Valuation یا Total](difference-in-total-and-valuation-in-tax-and-charges.md) و [اعمال مالیات بر مالیات یا هزینهٔ دیگر](https://docs.frappe.io/erpnext/how-to-apply-tax-on-tax) را ببینید. نتیجه را در [سفارش خرید](purchase-order.md) یا [راهنمای «Purchase Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-invoice) اعمال کنید، موجودی دریافتی را از طریق [راهنمای «Purchase Receipt | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-receipt) بررسی کنید، برای هزینه‌های بعدی [راهنمای «Landed cost Voucher» در ERPNext](https://docs.frappe.io/erpnext/landed-cost-voucher) را به‌کار ببرید، بازه‌های ارزشی را با [راهنمای «Shipping Rule\n» در ERPNext](https://docs.frappe.io/erpnext/shipping-rule) خودکار کنید و سیاست را در [تنظیمات خرید](buying-settings.md) تأیید کنید.
 
 ## موضوعات مرتبط
 
-- [Purchase Taxes and Charges Template](https://docs.frappe.io/erpnext/purchase-taxes-and-charges-template)
+- [راهنمای «Purchase Taxes and Charges Template\n» در ERPNext](https://docs.frappe.io/erpnext/purchase-taxes-and-charges-template)
 - [انواع در Tax Template](https://docs.frappe.io/erpnext/types-in-tax-template)
-- [شامل‌کردن مالیات یا هزینه در Valuation یا Total](https://docs.frappe.io/erpnext/difference-in-total-and-valuation-in-tax-and-charges)
+- [شامل‌کردن مالیات یا هزینه در Valuation یا Total](difference-in-total-and-valuation-in-tax-and-charges.md)
 - [اعمال مالیات بر مالیات یا هزینهٔ دیگر](https://docs.frappe.io/erpnext/how-to-apply-tax-on-tax)
-- [Landed Cost Voucher](https://docs.frappe.io/erpnext/landed-cost-voucher)
-- [Purchase Invoice](https://docs.frappe.io/erpnext/purchase-invoice)
+- [راهنمای «Landed cost Voucher» در ERPNext](https://docs.frappe.io/erpnext/landed-cost-voucher)
+- [راهنمای «Purchase Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-invoice)
 
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/calculatin-freight-in-taxes-in-erpnext). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های رسمی مستندات پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

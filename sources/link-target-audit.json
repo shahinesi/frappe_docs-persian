@@ -1,0 +1,1203 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-28T05:46:55.955Z",
+  "checked_count": 99,
+  "valid_markdown_sources": 54,
+  "missing_or_unavailable": 45,
+  "records": [
+    {
+      "url": "https://docs.frappe.io/builder",
+      "references": [
+        "content/fa/builder/introduction.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/builder.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/builder/introduction.md",
+      "title": "Introduction",
+      "canonical_url": "https://docs.frappe.io/builder/introduction",
+      "updated": "2026-01-06",
+      "content_sha256": "3f87741bdc1b09c4c1023a28cddca8b1f764c1199faf34d71f7e4ba70615a40b",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/budgeting",
+      "references": [
+        "content/fa/erpnext/accounting-dimension-filter.md",
+        "content/fa/erpnext/cost-center-and-budgeting.md",
+        "content/fa/erpnext/cost-center.md",
+        "content/fa/erpnext/cost_center_allocation.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/budgeting.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/budget.md",
+      "title": "Budget",
+      "canonical_url": "https://docs.frappe.io/erpnext/budget",
+      "updated": "2026-08-14",
+      "content_sha256": "0ea67926572d8ee3cc916a91e3d7929a9fdba5bc539e2abc75f1af009ebe1ca9",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/profit-and-loss-statement",
+      "references": [
+        "content/fa/erpnext/accounting-entries.md",
+        "content/fa/erpnext/changing-parent-account.md",
+        "content/fa/erpnext/cost_center_allocation.md",
+        "content/fa/erpnext/distributed-cost-center.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/profit-and-loss-statement.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/profit-and-loss-statement.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/understanding-debit-and-credit",
+      "references": [
+        "content/fa/erpnext/accounting-entries.md",
+        "content/fa/erpnext/difference-entry-button.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/understanding-debit-and-credit.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/understanding-debit-and-credit.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/accounting/introduction",
+      "references": [
+        "content/fa/erpnext/accounting-period.md",
+        "content/fa/erpnext/auto-repeat-recurring-orders-and-invoices.md",
+        "content/fa/erpnext/closing-accounting-books-in-erpnext.md",
+        "content/fa/erpnext/delete-entries-linked-with-gl-entries.md",
+        "content/fa/erpnext/freeze-accounting-entries.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/accounting/introduction.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/accounting/introduction.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/drop-ship",
+      "references": [
+        "content/fa/erpnext/accounting-workflows-by-business-type.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/drop-ship.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/drop-ship.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/why-not-to-use-a-customer-specific-receivable-account",
+      "references": [
+        "content/fa/erpnext/accounts-receivable-and-payable.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/why-not-to-use-a-customer-specific-receivable-account.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/why-not-to-use-a-customer-specific-receivable-account.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/accounting/tools/repost-accounting-ledger",
+      "references": [
+        "content/fa/erpnext/accounts-settings.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/accounting/tools/repost-accounting-ledger.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/accounting/tools/repost-accounting-ledger.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/difference-between-system-user",
+      "references": [
+        "content/fa/erpnext/adding-users.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/difference-between-system-user.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/difference-between-system-user.md"
+    },
+    {
+      "url": "https://docs.frappe.io/framework/customize-a-doctype",
+      "references": [
+        "content/fa/erpnext/address-template.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/framework/customize-a-doctype.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/framework/customize-a-doctype.md"
+    },
+    {
+      "url": "https://docs.frappe.io/framework/print-format",
+      "references": [
+        "content/fa/erpnext/address-template.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/framework/print-format.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/framework/print-format.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/company",
+      "references": [
+        "content/fa/erpnext/address.md",
+        "content/fa/erpnext/assistance-sales-purchase-between-companies.md",
+        "content/fa/erpnext/changing-parent-account.md",
+        "content/fa/erpnext/default-receivable-payable-account.md",
+        "content/fa/erpnext/distributed-cost-center.md",
+        "content/fa/erpnext/erpnext-for-services-organization.md",
+        "content/fa/erpnext/sales-order.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/company.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/company.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/accounts-receivable",
+      "references": [
+        "content/fa/erpnext/adjusting-withhold-amount.md",
+        "content/fa/erpnext/balance-sheet.md",
+        "content/fa/erpnext/cash-flow-report.md",
+        "content/fa/erpnext/credit-limit.md",
+        "content/fa/erpnext/default-receivable-payable-account.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/accounts-receivable.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/accounts-receivable.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/short-close-multiple-orders",
+      "references": [
+        "content/fa/erpnext/amending-sales-order-after-submit.md",
+        "content/fa/erpnext/close-sales-order.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/short-close-multiple-orders.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/short-close-multiple-orders.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/fiscal-year-error.html",
+      "references": [
+        "content/fa/erpnext/auto-creation-of-material-request.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/fiscal-year-error.html.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/fiscal-year-error.html.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/trial-balance",
+      "references": [
+        "content/fa/erpnext/balance-sheet.md",
+        "content/fa/erpnext/changing-parent-account.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/trial-balance.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/trial-balance.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/price-list",
+      "references": [
+        "content/fa/erpnext/blanket-order.md",
+        "content/fa/erpnext/buying-settings.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/price-list.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/price-list.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/workstation-type",
+      "references": [
+        "content/fa/erpnext/bom-creator-new.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/workstation-type.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/workstation-type.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/discount-accounting",
+      "references": [
+        "content/fa/erpnext/book-discount-allowed-and-received-separately.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/discount-accounting.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/discount-accounting.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/purchase-analytics",
+      "references": [
+        "content/fa/erpnext/buying.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/purchase-analytics.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/purchase-analytics.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/accounts-payable",
+      "references": [
+        "content/fa/erpnext/cash-flow-report.md",
+        "content/fa/erpnext/debit-note-for-price-adjustment.md",
+        "content/fa/erpnext/debit-note.md",
+        "content/fa/erpnext/distributed-cost-center.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/accounts-payable.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/accounts-payable.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/freeze-an-account",
+      "references": [
+        "content/fa/erpnext/changing-parent-account.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/freeze-an-account.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/freeze-an-account.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/cost-center-allocation",
+      "references": [
+        "content/fa/erpnext/cost-center.md",
+        "content/fa/erpnext/distributed-cost-center.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/cost-center-allocation.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/cost-center-allocation.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/e-commerce-settings",
+      "references": [
+        "content/fa/erpnext/coupon-code.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/e-commerce-settings.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/e-commerce-settings.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/sales-stage",
+      "references": [
+        "content/fa/erpnext/CRM.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/sales-stage.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/sales-stage.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/crm-settings",
+      "references": [
+        "content/fa/erpnext/CRM.md",
+        "content/fa/erpnext/difference_between_lead_contact_and_customer.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/crm-settings.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/crm-settings.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/difference-between-lead-contact-and-customer",
+      "references": [
+        "content/fa/erpnext/CRM.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/difference-between-lead-contact-and-customer.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/difference-between-lead-contact-and-customer.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/automate-lead-creation",
+      "references": [
+        "content/fa/erpnext/CRM.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/automate-lead-creation.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/automate-lead-creation.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/crm-masters",
+      "references": [
+        "content/fa/erpnext/CRM.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/crm-masters.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/crm-masters.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/opportunity-type",
+      "references": [
+        "content/fa/erpnext/CRM.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/opportunity-type.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/opportunity-type.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/lead-source",
+      "references": [
+        "content/fa/erpnext/CRM.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/lead-source.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/lead-source.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/crm-reports",
+      "references": [
+        "content/fa/erpnext/CRM.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/crm-reports.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/crm-reports.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/crm-analytics",
+      "references": [
+        "content/fa/erpnext/CRM.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/crm-analytics.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/crm-analytics.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/field-types.html",
+      "references": [
+        "content/fa/erpnext/custom-field.md",
+        "content/fa/erpnext/customize-form.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/field-types.html.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/field-types.html.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/sales-reports",
+      "references": [
+        "content/fa/erpnext/customer-group.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/sales-reports.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/sales-reports.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/deferred-revenue-expense-report",
+      "references": [
+        "content/fa/erpnext/deferred-accounting.md",
+        "content/fa/erpnext/deferred-expense.md",
+        "content/fa/erpnext/deferred-revenue.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/deferred-revenue-expense-report.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/deferred-revenue-expense-report.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/material-transfer-from-delivery-note-and-purchase-receipt",
+      "references": [
+        "content/fa/erpnext/delivery-note.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/material-transfer-from-delivery-note-and-purchase-receipt.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/material-transfer-from-delivery-note-and-purchase-receipt.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/managing-transactions-in-multiple-currency",
+      "references": [
+        "content/fa/erpnext/difference-entry-button.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/managing-transactions-in-multiple-currency.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/managing-transactions-in-multiple-currency.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/users-and-permissions",
+      "references": [
+        "content/fa/erpnext/doctype.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/users-and-permissions.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/adding-users.md",
+      "title": "Adding Users",
+      "canonical_url": "https://docs.frappe.io/erpnext/adding-users",
+      "updated": "2026-03-29",
+      "content_sha256": "dc6f6b15e2a4851e807a16b91237e4efbd9c36a7da3a5b3f265b69be6df99c8e",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/drop-ship-between-subsidiary-companies",
+      "references": [
+        "content/fa/erpnext/drop-shipping-in-erpnext.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/drop-ship-between-subsidiary-companies.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/drop-ship-between-subsidiary-companies.md"
+    },
+    {
+      "url": "https://docs.frappe.io/education",
+      "references": [
+        "content/fa/erpnext/education-module-in-erpnext.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/education.md",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/email-domain",
+      "references": [
+        "content/fa/erpnext/email.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/email-domain.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/email-domain.md",
+      "title": "Email Domain",
+      "canonical_url": "https://docs.frappe.io/erpnext/email-domain",
+      "updated": "2026-03-02",
+      "content_sha256": "de079eac6c2bb9e02298ecb50e976b14d41a00ca620ff89c9147e3ca89d3d2de",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/email-account",
+      "references": [
+        "content/fa/erpnext/email.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/email-account.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/email-account.md",
+      "title": "Email Account",
+      "canonical_url": "https://docs.frappe.io/erpnext/email-account",
+      "updated": "2026-03-02",
+      "content_sha256": "da8d4820424fb5013667886086e56a1d5d8e8b4d8b2ed4d093442c0bbc9207c1",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/email-template",
+      "references": [
+        "content/fa/erpnext/email.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/email-template.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/email-template.md",
+      "title": "Email Template\\n",
+      "canonical_url": "https://docs.frappe.io/erpnext/email-template",
+      "updated": "2026-03-02",
+      "content_sha256": "757ddf5d646f022e512f164987427422d28c9cfe1253abb8b4cb84cd19d30b2d",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/email-digest",
+      "references": [
+        "content/fa/erpnext/email.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/email-digest.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/email-digest.md",
+      "title": "Email Digest\\n",
+      "canonical_url": "https://docs.frappe.io/erpnext/email-digest",
+      "updated": "2026-03-02",
+      "content_sha256": "04cf12a8100ec73394f4d373b0fb89ea7ae412bd6b8d40a8317cffe5e195b4cf",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/newsletter",
+      "references": [
+        "content/fa/erpnext/email.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/newsletter.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/newsletter.md",
+      "title": "Newsletter | ERPNext Documentation",
+      "canonical_url": "https://docs.frappe.io/erpnext/newsletter",
+      "updated": "2026-07-23",
+      "content_sha256": "2660ee95ec2e95f13401ea643cbe380db7dbdcc76be35a4b8c5124afb2f5961c",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/notifications",
+      "references": [
+        "content/fa/erpnext/email.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/notifications.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/notifications.md",
+      "title": "Notification",
+      "canonical_url": "https://docs.frappe.io/erpnext/notifications",
+      "updated": "2026-03-02",
+      "content_sha256": "9e0b6fe6777cfed22cc33e16fe91e0e119b1b5fca73d892d23244e7b1ba1a75e",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/auto-email-reports",
+      "references": [
+        "content/fa/erpnext/email.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/auto-email-reports.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/auto-email-reports.md",
+      "title": "Auto Email Reports",
+      "canonical_url": "https://docs.frappe.io/erpnext/auto-email-reports",
+      "updated": "2026-03-02",
+      "content_sha256": "7914283787e5f267331cdcfba15e2060ff9b7306f7993da0327128dc3e78d0c5",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/sending-email",
+      "references": [
+        "content/fa/erpnext/email.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/sending-email.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/sending-email.md",
+      "title": "Sending Email from any Document",
+      "canonical_url": "https://docs.frappe.io/erpnext/sending-email",
+      "updated": "2026-03-02",
+      "content_sha256": "42d4ef30c4d5ef86bfa056e01b6faed6af44fe30700cbd57a086381c087305ca",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/linking-emails-to-document",
+      "references": [
+        "content/fa/erpnext/email.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/linking-emails-to-document.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/linking-emails-to-document.md",
+      "title": "Linking Emails to Documents",
+      "canonical_url": "https://docs.frappe.io/erpnext/linking-emails-to-document",
+      "updated": "2026-03-02",
+      "content_sha256": "fa78f37871367ffc8d086ce9d036e37b905aecdb3b2f829a398b95e904c5bf65",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext",
+      "references": [
+        "content/fa/erpnext/erpnext-chat-with-raven.md",
+        "content/fa/erpnext/introduction.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/introduction.md",
+      "title": "Introduction",
+      "canonical_url": "https://docs.frappe.io/erpnext/introduction",
+      "updated": "2026-10-28",
+      "content_sha256": "10e709ca7ba597196ab8a6d17769b4b8919a9ca2f6d5256c1ff29df6233b6bdb",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/framework",
+      "references": [
+        "content/fa/erpnext/erpnext-chat-with-raven.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/framework.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/framework/user/en/introduction.md",
+      "title": "Introduction",
+      "canonical_url": "https://docs.frappe.io/framework/user/en/introduction",
+      "updated": "2026-04-21",
+      "content_sha256": "8ada44d25ca278fa4065d4307e545f6095407c2b1d19152b58b66d308843eec6",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/brandwise-items-and-profitability-report",
+      "references": [
+        "content/fa/erpnext/erpnext-dashboards.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/brandwise-items-and-profitability-report.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/brandwise-items-and-profitability-report.md",
+      "title": "Brandwise Items and Profitability Report",
+      "canonical_url": "https://docs.frappe.io/erpnext/brandwise-items-and-profitability-report",
+      "updated": "2026-02-26",
+      "content_sha256": "f5168d0abfa62953a98c1c8c0b40cb2dbfd0d0211fb13f1e476b041b35fa0684",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/hr/reports",
+      "references": [
+        "content/fa/erpnext/erpnext-dashboards.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/hr/reports.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/hr/human-resources-reports.md",
+      "title": "Human Resources Reports",
+      "canonical_url": "https://docs.frappe.io/hr/human-resources-reports",
+      "updated": "2026-02-04",
+      "content_sha256": "d0d9e356c156a1145c21f50566d6afdd830571f61365375ecc909eaca3c90e8d",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/lending/lending-reports",
+      "references": [
+        "content/fa/erpnext/erpnext-dashboards.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/lending/lending-reports.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/lending/loan-outstanding-report.md",
+      "title": "Loan Outstanding Report",
+      "canonical_url": "https://docs.frappe.io/lending/loan-outstanding-report",
+      "updated": "2026-01-06",
+      "content_sha256": "22823a0b9ad58638a0d81282dc1aa05cf2720f5ddf1e0bb4b00dddbc8745a1a9",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/lending/credit-reporting",
+      "references": [
+        "content/fa/erpnext/erpnext-dashboards.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/lending/credit-reporting.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/lending/npa-classification.md",
+      "title": "NPA Classification",
+      "canonical_url": "https://docs.frappe.io/lending/npa-classification",
+      "updated": "2026-06-05",
+      "content_sha256": "54c1d15327472bca3fa03b4f6b4bd879e9eb87802897025b35cb0307f34060a9",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/analytics",
+      "references": [
+        "content/fa/erpnext/erpnext-dashboards.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/analytics.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/analytics.md",
+      "title": "Analytics\\n",
+      "canonical_url": "https://docs.frappe.io/erpnext/analytics",
+      "updated": "2026-02-26",
+      "content_sha256": "517b494021330b48deb0e63b1805ea9858c1f0050a73662cf2732f44a7d4b300",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/insights/dashboards",
+      "references": [
+        "content/fa/erpnext/erpnext-dashboards.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/insights/dashboards.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/insights/dashboards/overview.md",
+      "title": "Overview",
+      "canonical_url": "https://docs.frappe.io/insights/dashboards/overview",
+      "updated": "2026-01-06",
+      "content_sha256": "add8e46c4ab8a1cc7560dff7054e6dc8a9797d05f6da3d891d05714731aea213",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/framework/desk---reports",
+      "references": [
+        "content/fa/erpnext/erpnext-dashboards.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/framework/desk---reports.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/framework/user/en/desk/reports/script-report.md",
+      "title": "Script Report\\n",
+      "canonical_url": "https://docs.frappe.io/framework/user/en/desk/reports/script-report",
+      "updated": "2026-07-22",
+      "content_sha256": "69b791aeecbebbee6556641b0c350c3a5ae9070341333df2b3037724ff1fc5a4",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/timesheet",
+      "references": [
+        "content/fa/erpnext/erpnext-for-services-organization.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/timesheet.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/timesheet.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/role-permission-manager",
+      "references": [
+        "content/fa/erpnext/erpnext-for-services-organization.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/role-permission-manager.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/role-permission-manager.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/ldap-integration",
+      "references": [
+        "content/fa/erpnext/erpnext_integration.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/ldap-integration.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/ldap-integration.md",
+      "title": "Setting up LDAP\\n",
+      "canonical_url": "https://docs.frappe.io/erpnext/ldap-integration",
+      "updated": "2026-02-26",
+      "content_sha256": "38ffee92947dea20ead42d9ef9b30ce8b68e3a9e663848bc896f5948419afd82",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/fairlogin-integration",
+      "references": [
+        "content/fa/erpnext/erpnext_integration.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/fairlogin-integration.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/fairlogin-integration.md",
+      "title": "Setting up fairlogin\\n",
+      "canonical_url": "https://docs.frappe.io/erpnext/fairlogin-integration",
+      "updated": "2026-02-26",
+      "content_sha256": "3e5c68f1f010f3fe51833672c87a2aeb324d7d8582e00d726db813e881b72dd2",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/dropbox-backup",
+      "references": [
+        "content/fa/erpnext/erpnext_integration.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/dropbox-backup.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/dropbox-backup.md",
+      "title": "Setting Up Dropbox Backups",
+      "canonical_url": "https://docs.frappe.io/erpnext/dropbox-backup",
+      "updated": "2026-03-06",
+      "content_sha256": "089b229d964e2990f1c2e5796d5d7fc727952dbbbebdc3e3bf69f5acee74982a",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/google_drive",
+      "references": [
+        "content/fa/erpnext/erpnext_integration.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/google_drive.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/google_drive.md",
+      "title": "Google Drive Integration",
+      "canonical_url": "https://docs.frappe.io/erpnext/google_drive",
+      "updated": "2026-02-27",
+      "content_sha256": "9be7b5df925c4accb529295ca89b7dc979e72733532b1d5aded169eed4ca701c",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/aws_s3",
+      "references": [
+        "content/fa/erpnext/erpnext_integration.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/aws_s3.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/aws_s3.md",
+      "title": "Upload Backups to Amazon S3",
+      "canonical_url": "https://docs.frappe.io/erpnext/aws_s3",
+      "updated": "2026-04-15",
+      "content_sha256": "2587f12de3904b67a15070da279002596c973bd6d4e0611952799b8c47ef8a2e",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/plaid_integration",
+      "references": [
+        "content/fa/erpnext/erpnext_integration.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/plaid_integration.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/plaid_integration.md",
+      "title": "Plaid Integration\\n",
+      "canonical_url": "https://docs.frappe.io/erpnext/plaid_integration",
+      "updated": "2026-02-26",
+      "content_sha256": "19a52d7e1674c20deaf392e5a49399b8e44cafa740247c023d3a6ce7ffcf5362",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/shopify_integration",
+      "references": [
+        "content/fa/erpnext/erpnext_integration.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/shopify_integration.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/shopify_integration.md",
+      "title": "Shopify Integration",
+      "canonical_url": "https://docs.frappe.io/erpnext/shopify_integration",
+      "updated": "2026-03-02",
+      "content_sha256": "28b58f2e588928caca3f3672189c2fbdf267fe7223e48e6518c635590722fc4c",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/woocommerce_integration",
+      "references": [
+        "content/fa/erpnext/erpnext_integration.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/woocommerce_integration.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/woocommerce_integration.md",
+      "title": "WooCommerce Integration",
+      "canonical_url": "https://docs.frappe.io/erpnext/woocommerce_integration",
+      "updated": "2026-02-27",
+      "content_sha256": "3d38e849b0343d672aa5c3d95745a25f70d1982d277c761b9eea6539b8cd95de",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/amazon_integration",
+      "references": [
+        "content/fa/erpnext/erpnext_integration.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/amazon_integration.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/amazon_integration.md",
+      "title": "Amazon SP-API Integration",
+      "canonical_url": "https://docs.frappe.io/erpnext/amazon_integration",
+      "updated": "2026-03-06",
+      "content_sha256": "a63a8a5503465313869141851be8f462236b4e6a041ece31d998e7ae41070808",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/unicommerce_integration",
+      "references": [
+        "content/fa/erpnext/erpnext_integration.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/unicommerce_integration.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/unicommerce_integration.md",
+      "title": "Unicommerce Integration",
+      "canonical_url": "https://docs.frappe.io/erpnext/unicommerce_integration",
+      "updated": "2026-02-26",
+      "content_sha256": "1e33a4f17863f91874822dadae9f18e4287fef628edab687181327d1c65e5107",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/zenoti_integration",
+      "references": [
+        "content/fa/erpnext/erpnext_integration.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/zenoti_integration.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/zenoti_integration.md",
+      "title": "Zenoti Integration",
+      "canonical_url": "https://docs.frappe.io/erpnext/zenoti_integration",
+      "updated": "2026-02-26",
+      "content_sha256": "5d6f6e2fb449f137d0451bd6ac03e954ee88c449a1161ddae708da21ff2ca5a3",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/erpnext_shipping",
+      "references": [
+        "content/fa/erpnext/erpnext_integration.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/erpnext_shipping.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/erpnext_shipping.md",
+      "title": "ERPNext Shipping",
+      "canonical_url": "https://docs.frappe.io/erpnext/erpnext_shipping",
+      "updated": "2026-03-02",
+      "content_sha256": "d7ef8e0bb5551ab95e7104ae79bd7ab0106ba0fd18fd0ca6cdb85b0bdb3a3cd5",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/razorpay-integration",
+      "references": [
+        "content/fa/erpnext/erpnext_integration.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/razorpay-integration.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/razorpay-integration.md",
+      "title": "RazorPay Integration\\n",
+      "canonical_url": "https://docs.frappe.io/erpnext/razorpay-integration",
+      "updated": "2026-02-26",
+      "content_sha256": "accce9859f12748d855459bbf945b5e1493769d89bf2852f3243bfa983a552ea",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/gocardless-integration",
+      "references": [
+        "content/fa/erpnext/erpnext_integration.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/gocardless-integration.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/gocardless-integration.md",
+      "title": "Setting up GoCardless\\n",
+      "canonical_url": "https://docs.frappe.io/erpnext/gocardless-integration",
+      "updated": "2026-02-26",
+      "content_sha256": "0aba6fdbc6657f3dd2097fa0ab80a429e6f61eab2840f15ef4190543ca1eb15e",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/stripe-integration",
+      "references": [
+        "content/fa/erpnext/erpnext_integration.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/stripe-integration.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/stripe-integration.md",
+      "title": "Setting up Stripe",
+      "canonical_url": "https://docs.frappe.io/erpnext/stripe-integration",
+      "updated": "2026-02-26",
+      "content_sha256": "51ead12ca2e03356d972a500f9862f6fd2981d2b4cac21d7ee4e4f6efd85283b",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/braintree-integration",
+      "references": [
+        "content/fa/erpnext/erpnext_integration.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/braintree-integration.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/braintree-integration.md",
+      "title": "Setting up Braintree\\n",
+      "canonical_url": "https://docs.frappe.io/erpnext/braintree-integration",
+      "updated": "2026-02-26",
+      "content_sha256": "f236909f52573872f0470b583552e812430ac3bd8deac74d2d7befac441abbeb",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/paytm-integration",
+      "references": [
+        "content/fa/erpnext/erpnext_integration.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/paytm-integration.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/paytm-integration.md",
+      "title": "Paytm Integration\\n",
+      "canonical_url": "https://docs.frappe.io/erpnext/paytm-integration",
+      "updated": "2026-02-26",
+      "content_sha256": "89806f9f292914555eb99dea0ada7cbe92958a3c8e94a1a0cbe92aa41e29f13d",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/mpesa-integration",
+      "references": [
+        "content/fa/erpnext/erpnext_integration.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/mpesa-integration.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/mpesa-integration.md",
+      "title": "M-Pesa Integration\\n",
+      "canonical_url": "https://docs.frappe.io/erpnext/mpesa-integration",
+      "updated": "2026-02-26",
+      "content_sha256": "df9297e1df2a85d3819696e593ecb17810ac802905653ca2975f6a932a42634f",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/exotel_integration",
+      "references": [
+        "content/fa/erpnext/erpnext_integration.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/exotel_integration.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/exotel_integration.md",
+      "title": "Exotel Integration\\n",
+      "canonical_url": "https://docs.frappe.io/erpnext/exotel_integration",
+      "updated": "2026-02-26",
+      "content_sha256": "e1ffa65bd50eecd363520ffee066af0dac6f5dfde2b89cecdfac36fc85131edc",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/google_settings",
+      "references": [
+        "content/fa/erpnext/erpnext_integration.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/google_settings.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/google_settings.md",
+      "title": "Google Settings",
+      "canonical_url": "https://docs.frappe.io/erpnext/google_settings",
+      "updated": "2026-02-26",
+      "content_sha256": "41e73c1f78ad308037ee27b089e81ae830dc9e0902e855b4e86bb73fc480cdcb",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/google_calendar",
+      "references": [
+        "content/fa/erpnext/erpnext_integration.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/google_calendar.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/google_calendar.md",
+      "title": "Google Calendar Integration\\n",
+      "canonical_url": "https://docs.frappe.io/erpnext/google_calendar",
+      "updated": "2026-02-28",
+      "content_sha256": "0630790f107dfca45b6636f1163c2521ba132d13a804f1aa804d3bb9d9c51c75",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/google_contacts",
+      "references": [
+        "content/fa/erpnext/erpnext_integration.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/google_contacts.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/google_contacts.md",
+      "title": "Google Contacts Integration\\n",
+      "canonical_url": "https://docs.frappe.io/erpnext/google_contacts",
+      "updated": "2026-02-28",
+      "content_sha256": "6a5142581a69cdfb307081b5d56bfa287e0d9f03a083f30e923301ef1fedb264",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/google_maps",
+      "references": [
+        "content/fa/erpnext/erpnext_integration.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/google_maps.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/google_maps.md",
+      "title": "Google Maps Integration\\n",
+      "canonical_url": "https://docs.frappe.io/erpnext/google_maps",
+      "updated": "2026-02-28",
+      "content_sha256": "033bd0b89da148aad79cc5083a83f00619e4c06c745734a50303ad3dbcded113",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/validate-and-correct-the-migration",
+      "references": [
+        "content/fa/erpnext/opening-balance.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/validate-and-correct-the-migration.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/validate-and-correct-the-migration.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/incoterm",
+      "references": [
+        "content/fa/erpnext/purchase-order.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/incoterm.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/incoterm.md"
+    },
+    {
+      "url": "https://docs.frappe.io/recurring-sales-orders-with-auto-repeat",
+      "references": [
+        "content/fa/erpnext/sales-order.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/recurring-sales-orders-with-auto-repeat.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/recurring-sales-orders-with-auto-repeat.md"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/managing-perm-level",
+      "references": [
+        "content/fa/framework/data-masking.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/managing-perm-level.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/managing-perm-level.md"
+    },
+    {
+      "url": "https://docs.frappe.io/framework/v14/user/en/desk/scripting/client-script",
+      "references": [
+        "content/fa/framework/desk/scripting.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/framework/v14/user/en/desk/scripting/client-script.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/framework/user/en/desk/scripting/client-script.md",
+      "title": "Client Script",
+      "canonical_url": "https://docs.frappe.io/framework/user/en/desk/scripting/client-script",
+      "updated": "2026-02-17",
+      "content_sha256": "52b13e81e145621f9bb85047e7b2b6195e9a5694339c573f5063d3c2d23b2443",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/framework/v14/user/en/desk/scripting/server-script",
+      "references": [
+        "content/fa/framework/desk/scripting.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/framework/v14/user/en/desk/scripting/server-script.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/framework/user/en/desk/scripting/server-script.md",
+      "title": "Server Script",
+      "canonical_url": "https://docs.frappe.io/framework/user/en/desk/scripting/server-script",
+      "updated": "2026-09-21",
+      "content_sha256": "fbc5c8a9184995b0e1042046009b51eafba6e2ec25802585f61e6d9203311608",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/framework/v14/user/en/desk/reports/script-report",
+      "references": [
+        "content/fa/framework/desk/scripting.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/framework/v14/user/en/desk/reports/script-report.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/framework/user/en/desk/reports/script-report.md",
+      "title": "Script Report\\n",
+      "canonical_url": "https://docs.frappe.io/framework/user/en/desk/reports/script-report",
+      "updated": "2026-07-22",
+      "content_sha256": "69b791aeecbebbee6556641b0c350c3a5ae9070341333df2b3037724ff1fc5a4",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/framework/v14/user/en/desk/scripting/script-api",
+      "references": [
+        "content/fa/framework/desk/system-console.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/framework/v14/user/en/desk/scripting/script-api.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/framework/user/en/desk/scripting/script-api.md",
+      "title": "Script API",
+      "canonical_url": "https://docs.frappe.io/framework/user/en/desk/scripting/script-api",
+      "updated": "2026-02-17",
+      "content_sha256": "7d92ba7044d1c54da8385666001cba8f0482762919978ec3ef886ff777e49ea8",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/customization/custom-scripts",
+      "references": [
+        "content/fa/framework/guides-app-development/updating-a-field-from-a-linked-doctype.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/customization/custom-scripts.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/client-scripts.md",
+      "title": "Client Scripts",
+      "canonical_url": "https://docs.frappe.io/erpnext/client-scripts",
+      "updated": "2026-03-02",
+      "content_sha256": "3519dee97f33a4fa6c73dcc3d93d458a76b889b1ea8bbad867ddbc0bd401aba6",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/erpnext/user/manual/en/customize-form",
+      "references": [
+        "content/fa/helpdesk/field-dependency.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/erpnext/user/manual/en/customize-form.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/erpnext/customize-form.md",
+      "title": "Customize Form",
+      "canonical_url": "https://docs.frappe.io/erpnext/customize-form",
+      "updated": "2026-02-27",
+      "content_sha256": "c64077a9ee0b75a3b5c15840b930898a08df1231d27417edcc311f7bf3d2ac6f",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/framework/v14/user/en/basics/doctypes/docfield",
+      "references": [
+        "content/fa/helpdesk/field-dependency.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/framework/v14/user/en/basics/doctypes/docfield.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/framework/user/en/basics/doctypes/docfield.md",
+      "title": "DocField\\n",
+      "canonical_url": "https://docs.frappe.io/framework/user/en/basics/doctypes/docfield",
+      "updated": "2026-02-17",
+      "content_sha256": "b89c27684d23ff31feeeffa4214d8438f183f8687a12f1e499fc40a0755b5e39",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/helpdesk/introduction",
+      "references": [
+        "content/fa/helpdesk/first-steps.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/helpdesk/introduction.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/helpdesk/installation.md",
+      "title": "Installation",
+      "canonical_url": "https://docs.frappe.io/helpdesk/installation",
+      "updated": "2026-01-06",
+      "content_sha256": "7e0092a440bb666bbc2d301e8532631b4c0f8cee641968188a3dc0cd57b7876d",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/miscellaneous/faq",
+      "references": [
+        "content/fa/helpdesk/setting-up.md",
+        "content/fa/insights/get-started/complete-setup.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/miscellaneous/faq.md",
+      "http_status": 404,
+      "final_markdown_url": "https://docs.frappe.io/miscellaneous/faq.md"
+    },
+    {
+      "url": "https://docs.frappe.io/hr",
+      "references": [
+        "content/fa/hr/introduction.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/hr.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/hr/introduction.md",
+      "title": "Frappe HR",
+      "canonical_url": "https://docs.frappe.io/hr/introduction",
+      "updated": "2026-02-04",
+      "content_sha256": "8716ff2c5cd24c2bc2b55b30dcf1326007698fde9c39a83801c4e7085f4296d0",
+      "source_kind": "official-markdown-export-endpoint"
+    },
+    {
+      "url": "https://docs.frappe.io/insights",
+      "references": [
+        "content/fa/insights/introduction.md"
+      ],
+      "markdown_url": "https://docs.frappe.io/insights.md",
+      "http_status": 200,
+      "final_markdown_url": "https://docs.frappe.io/insights/introduction.md",
+      "title": "Introduction",
+      "canonical_url": "https://docs.frappe.io/insights/introduction",
+      "updated": "2026-01-06",
+      "content_sha256": "a2570ba5d212b6f299e613e0ed8d790b9b153be16c75b3d49e6fdf4f657ded67",
+      "source_kind": "official-markdown-export-endpoint"
+    }
+  ]
+}

@@ -21,12 +21,12 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای بازکردن فهرست قراردادها، به این مسیر بروید:
 
-**Home > Sales Pipeline > Contract**
+**صفحهٔ اصلی > Sales Pipeline > Contract**
 
 ## ایجاد قرارداد
 
-- فهرست Contract را باز و **New** را انتخاب کنید.
-- Customer را برگزینید.
+- فهرست Contract را باز و **جدید** را انتخاب کنید.
+- مشتری را برگزینید.
 - **Contract Terms** را وارد کنید. برای دریافت آسان‌تر مفاد، می‌توانید الگویی نیز بسازید.
 - ذخیره کنید.
 
@@ -66,7 +66,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 الگوی قرارداد چارچوبی استاندارد از قرارداد است که هنوز جزئیات اختصاصی در آن نیامده‌اند. برای ساخت الگوی تازه به این مسیر بروید:
 
-**Home > CRM > Contract Template**
+**صفحهٔ اصلی > CRM > Contract Template**
 
 می‌توانید با Jinja الگو بسازید. برای نمونه:
 
@@ -82,19 +82,19 @@ The parties enter into this contract on {{ start_date }}.
 
 - Quotation
 - Project
-- Sales Order
-- Purchase Order
+- سفارش فروش
+- سفارش خرید
 - Sales Invoice
 - Purchase Invoice
 
 ## موضوعات مرتبط
 
-- [Quotation](https://docs.frappe.io/erpnext/quotation)
-- [Purchase Order](https://docs.frappe.io/erpnext/purchase-order)
-- [Sales Order](https://docs.frappe.io/erpnext/sales-order)
-- [Purchase Receipt](https://docs.frappe.io/erpnext/purchase-receipt)
-- [Delivery Note](https://docs.frappe.io/erpnext/delivery-note)
-- [Sales Invoice](https://docs.frappe.io/erpnext/sales-invoice)
-- [Purchase Invoice](https://docs.frappe.io/erpnext/purchase-invoice)
+- [راهنمای «Quotation | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/quotation)
+- [سفارش خرید](purchase-order.md)
+- [سفارش فروش](sales-order.md)
+- [راهنمای «Purchase Receipt | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-receipt)
+- [Delivery Note (سند تحویل)](delivery-note.md)
+- [راهنمای «Sales Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/sales-invoice)
+- [راهنمای «Purchase Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-invoice)
 
 **منبع:** [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/contract). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویرها و پویانمایی اصلی در این مخزن بازنشر نشده‌اند.

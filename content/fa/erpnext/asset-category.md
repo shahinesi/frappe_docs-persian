@@ -37,7 +37,7 @@ source_version: "26ada37f8c15f7991182fba0c0399893d185dcb915713d61b1793284b2836b6
 | **تعداد کل دفعات استهلاک** (Total Number of Depreciations) | تعداد ثبت‌های برنامه‌ریزی‌شده در طول عمر مفید |
 | **درصد ارزش اسقاط** (Salvage Value Percentage) | ارزش باقیماندهٔ مورد انتظار در پایان عمر مفید |
 | **تناسب روزانه** (Daily Pro Rata) | استهلاک را بر اساس تعداد روزهای واقعی محاسبه می‌کند، نه مبلغ‌های دوره‌ای مساوی |
-| **مبتنی بر شیفت** (Shift Based) | اجازه می‌دهد مبلغ استهلاک با میزان استفاده از ماشین‌آلات در هر شیفت متناسب شود |
+| **مبتنی بر شیفت** (شیفت Based) | اجازه می‌دهد مبلغ استهلاک با میزان استفاده از ماشین‌آلات در هر شیفت متناسب شود |
 
 ## تنظیم حساب‌های شرکت
 
@@ -78,13 +78,13 @@ source_version: "26ada37f8c15f7991182fba0c0399893d185dcb915713d61b1793284b2836b6
 
 ## موضوعات مرتبط
 
-- [دستهٔ دارایی](https://docs.frappe.io/erpnext/asset-category)
-- [محل دارایی](https://docs.frappe.io/erpnext/asset-location)
-- [دارایی](https://docs.frappe.io/erpnext/asset)
+- [دستهٔ دارایی](asset-category.md)
+- [محل دارایی](asset-location.md)
+- [دارایی](asset.md)
 - [خرید دارایی](https://docs.frappe.io/erpnext/purchasing-an-asset)
-- [استهلاک](https://docs.frappe.io/erpnext/asset-depreciation)
-- [جابجایی دارایی](https://docs.frappe.io/erpnext/asset-movement)
-- [تعمیر دارایی](https://docs.frappe.io/erpnext/asset-repair)
-- [گزارش‌های دارایی](https://docs.frappe.io/erpnext/asset-reports)
+- [استهلاک](asset-depreciation.md)
+- [جابجایی دارایی](asset-movement.md)
+- [تعمیر دارایی](asset-repair.md)
+- [گزارش‌های دارایی](asset-reports.md)
 
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/asset-category). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های منبع پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

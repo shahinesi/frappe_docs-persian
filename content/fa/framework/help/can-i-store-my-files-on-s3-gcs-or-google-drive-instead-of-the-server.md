@@ -57,8 +57,8 @@ Frappe پیوند را ذخیره می‌کند، نه خود فایل را؛ ب
 ## مطالب مرتبط
 
 - [پیوست‌ها](https://docs.frappe.io/framework/user/en/desk/attachments)
-- [Google Drive](https://docs.frappe.io/framework/user/en/integration/google_drive)
-- [بارگذاری نسخه‌های پشتیبان در Amazon S3](https://docs.frappe.io/erpnext/aws_s3)
+- [راهنمای «Google Drive» در Frappe Framework](https://docs.frappe.io/framework/user/en/integration/google_drive)
+- [بارگذاری نسخه‌های پشتیبان در Amazon S3](../../erpnext/aws_s3.md)
 
 ---
 

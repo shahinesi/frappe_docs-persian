@@ -37,4 +37,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 > **یادداشت:** اگر سند به اسناد دیگری پیوند دارد، پیش از لغو سند اصلی باید سندهای وابسته را لغو کنید.
 
-برای نمونه، اگر برای Sales Order یک Delivery Note و Sales Invoice ساخته‌اید و می‌خواهید Sales Order را اصلاح کنید، ابتدا Delivery Note و Sales Invoice مربوط به آن سفارش را لغو کنید. سپس Sales Order را اصلاح، دوباره ذخیره و ثبت نهایی کنید.
+برای نمونه، اگر برای سفارش فروش یک Delivery Note و Sales Invoice ساخته‌اید و می‌خواهید سفارش فروش را اصلاح کنید، ابتدا Delivery Note و Sales Invoice مربوط به آن سفارش را لغو کنید. سپس سفارش فروش را اصلاح، دوباره ذخیره و ثبت نهایی کنید.

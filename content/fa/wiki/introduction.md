@@ -54,6 +54,6 @@ Wiki به شما کمک می‌کند:
 
 ## یادگیری و جامعهٔ کاربری
 
-1. [GitHub](https://github.com/frappe/wiki) — مشارکت در Wiki و مرور کد متن‌باز، issueها و گفت‌وگوها.
+1. [GitHub](https://github.com/frappe/wiki) — مشارکت در Wiki و مرور کد متن‌باز، درخواست پشتیبانیها و گفت‌وگوها.
 2. [گروه Telegram](https://t.me/frappewiki) — دریافت کمک از جامعهٔ بزرگ کاربران.
 3. [تالار گفت‌وگوی کاربران Wiki](https://discuss.frappe.io/c/wiki/72) — گفت‌وگو با جامعهٔ کاربری Wiki.

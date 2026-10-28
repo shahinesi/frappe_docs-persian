@@ -31,7 +31,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 **نحوهٔ کار:** از میان ستون‌های موجود، فقط ستون‌هایی را که باید در نتیجه ببینید انتخاب کنید. ستون‌های دیگر پنهان می‌شوند.
 
-**نمونه:** از جدول Customer با 20 ستون، فقط «Customer Name»، «Email»، «Region» و «Total Orders» را برای فهرست اطلاعات تماس مشتریان انتخاب کنید.
+**نمونه:** از جدول مشتری با 20 ستون، فقط «مشتری Name»، «Email»، «Region» و «Total Orders» را برای فهرست اطلاعات تماس مشتریان انتخاب کنید.
 
 **نکته‌ها:**
 
@@ -57,7 +57,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 | گروه | گزینه‌ها و کاربرد |
 |---|---|
 | مقایسه | **Equals** (برابر است): تطبیق دقیق؛ **Does not equal** (برابر نیست): حذف مقدارهای مشخص؛ **Greater than / Less than**: برای عدد و تاریخ؛ **Greater than or equal to / Less than or equal to**: شامل مقدار مرزی نیز می‌شود. |
-| فهرست | **In**: تطبیق با هر مقدار در فهرست، مانند «New York»، «Los Angeles» و «Chicago»؛ **Not in**: حذف مقدارهای موجود در فهرست. |
+| فهرست | **In**: تطبیق با هر مقدار در فهرست، مانند «جدید York»، «Los Angeles» و «Chicago»؛ **Not in**: حذف مقدارهای موجود در فهرست. |
 | متن | **Contains**: یافتن متن در هر جای ستون؛ **Does not contain**: حذف متن؛ **Starts with**: تطبیق ابتدای متن؛ **Ends with**: تطبیق انتهای متن. |
 | ویژه | **Is set**: مقدار دارد و خالی نیست؛ **Is not set**: خالی یا تهی است؛ **Between**: مقدار در یک بازه قرار می‌گیرد؛ **Within**: برای بازه‌های نسبی تاریخ مانند 7 روز گذشته یا ماه گذشته. |
 
@@ -98,7 +98,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 3. ستون‌هایی را که باید میان دو جدول تطبیق داده شوند مشخص کنید.
 4. ستون‌های جدول پیوندشده را که باید به نتیجه افزوده شوند انتخاب کنید.
 
-**نمونه:** جدول «Orders» را با استفاده از «Customer ID» به جدول «Customers» پیوند دهید تا نام و اطلاعات تماس مشتری در کنار جزئیات سفارش نمایش داده شود.
+**نمونه:** جدول «Orders» را با استفاده از «مشتری ID» به جدول «Customers» پیوند دهید تا نام و اطلاعات تماس مشتری در کنار جزئیات سفارش نمایش داده شود.
 
 **نکته‌ها:**
 
@@ -201,7 +201,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - Quarter برای گزارش فصلی.
 - Year برای مقایسهٔ سالانه.
 
-**نمونه‌ها:** جمع فروش بر اساس Region با Sum از Sales Amount؛ میانگین مبلغ سفارش بر اساس Product Name؛ درآمد ماهانه بر اساس Order Date با دقت Month؛ تعداد مشتریان هر شهر بر اساس City و Count از Customer ID.
+**نمونه‌ها:** جمع فروش بر اساس Region با Sum از Sales Amount؛ میانگین مبلغ سفارش بر اساس Product Name؛ درآمد ماهانه بر اساس Order Date با دقت Month؛ تعداد مشتریان هر شهر بر اساس City و Count از مشتری ID.
 
 **نکته‌ها:**
 

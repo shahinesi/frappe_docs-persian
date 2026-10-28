@@ -30,21 +30,21 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## پیش از شروع
 
-[راه‌اندازی چندارزی](/erpnext/multi-currency-setup) را تکمیل کنید. شرکت باید دست‌کم یک [حساب](/erpnext/chart-of-accounts) ترازنامه‌ای غیرانبارشونده داشته باشد که ارز آن با ارز شرکت فرق کند و ماندهٔ دفتر کل آن واجد شرایط تجدید ارزیابی باشد.
+[راه‌اندازی چندارزی](https://docs.frappe.io/erpnext/multi-currency-setup) را تکمیل کنید. شرکت باید دست‌کم یک [حساب](chart-of-accounts.md) ترازنامه‌ای غیرانبارشونده داشته باشد که ارز آن با ارز شرکت فرق کند و ماندهٔ دفتر کل آن واجد شرایط تجدید ارزیابی باشد.
 
-در [Company](/erpnext/company-setup)، حساب **Unrealized Exchange Gain/Loss Account** را تعیین کنید. حساب معمول Exchange Gain/Loss را نیز بررسی کنید؛ این حساب برای اختلاف تحقق‌یافته در گردش‌کار پرداخت به‌کار می‌رود.
+در [شرکت](company-setup.md)، حساب **Unrealized Exchange Gain/Loss Account** را تعیین کنید. حساب معمول Exchange Gain/Loss را نیز بررسی کنید؛ این حساب برای اختلاف تحقق‌یافته در گردش‌کار پرداخت به‌کار می‌رود.
 
 ![حساب‌های شرکت برای سود و زیان نرخ ارز](https://novacompanies.m.frappe.cloud/files/docs-multi-currency-2026-company-exchange-gain-loss-accounts.png)
 
-در [Currency Exchange](/erpnext/currency-exchange) نرخ پایان دورهٔ واجد شرایط ایجاد کنید یا ارائه‌دهندهٔ فعال را در [Currency Exchange Settings](/erpnext/currency-exchange-settings) بررسی کنید. مطمئن شوید [Accounting Period](/erpnext/accounting-period) باز است و کاربر می‌تواند تجدید ارزیابی و Journal Entry را ثبت نهایی کند.
+در [نرخ تبدیل ارز (Currency Exchange)](currency-exchange.md) نرخ پایان دورهٔ واجد شرایط ایجاد کنید یا ارائه‌دهندهٔ فعال را در [تنظیمات نرخ تبدیل ارز](currency-exchange-settings.md) بررسی کنید. مطمئن شوید [دورهٔ حسابداری](accounting-period.md) باز است و کاربر می‌تواند تجدید ارزیابی و Journal Entry را ثبت نهایی کند.
 
-پیش از بستن دوره، کنترل‌های ارزی در [Accounts Settings](/erpnext/accounts-settings) را بررسی کنید تا سیاست عمر نرخ‌های ذخیره‌شده با رویهٔ مصوب واحد مالی همخوان باشد.
+پیش از بستن دوره، کنترل‌های ارزی در [تنظیمات حساب‌ها](accounts-settings.md) را بررسی کنید تا سیاست عمر نرخ‌های ذخیره‌شده با رویهٔ مصوب واحد مالی همخوان باشد.
 
 ## ایجاد Exchange Rate Revaluation
 
 1. به **Accounting > Multi Currency > Exchange Rate Revaluation** بروید.
 2. **Add Exchange Rate Revaluation** را انتخاب کنید.
-3. **Posting Date** و **Company** را وارد کنید.
+3. **Posting Date** و **شرکت** را وارد کنید.
 4. **Rounding Loss Allowance** را فقط زمانی تعیین کنید که ماندهٔ کوچک باید صفر در نظر گرفته شود. مقدار مجاز از 0 (شامل) تا کمتر از 1 است.
 5. **Get Entries** را انتخاب کنید.
 
@@ -71,9 +71,9 @@ ERPNext حساب‌های ارزی واجد شرایط، مانده‌های ح�
 | Balance in Account Currency | خالص بدهکار منهای بستانکار به ارز خارجی تا Posting Date. |
 | Balance in Base Currency | ارزش دفتری فعلی به ارز شرکت. |
 | Current Exchange Rate | اگر ماندهٔ ارزی صفر نباشد، ماندهٔ پایهٔ فعلی تقسیم بر ماندهٔ ارزی. |
-| New Exchange Rate | نرخ پایان دوره برای تجدید ارزیابی؛ پیش از ثبت نهایی آن را بررسی کنید. |
-| New Balance in Account Currency | معمولاً بدون تغییر و برابر با ماندهٔ ارزی موجود می‌ماند. |
-| New Balance in Base Currency | ماندهٔ ارزی ضرب‌در نرخ جدید. |
+| جدید Exchange Rate | نرخ پایان دوره برای تجدید ارزیابی؛ پیش از ثبت نهایی آن را بررسی کنید. |
+| جدید Balance in Account Currency | معمولاً بدون تغییر و برابر با ماندهٔ ارزی موجود می‌ماند. |
+| جدید Balance in Base Currency | ماندهٔ ارزی ضرب‌در نرخ جدید. |
 | Gain/Loss | اختلاف میان ماندهٔ پایهٔ جدید و موجود. |
 | Zero Balance | مشخص می‌کند ماندهٔ پایه یا مانده به ارز حساب، صفر در نظر گرفته شده است. |
 
@@ -103,11 +103,11 @@ ERPNext حساب‌های ارزی واجد شرایط، مانده‌های ح�
 
 ثبت نهایی سند تجدید ارزیابی، نتیجهٔ بازبینی‌شده را محاسبه و قفل می‌کند؛ اما اثر دفتر کل زمانی اعمال می‌شود که Journal Entry حاصل ثبت نهایی شده باشد. اگر Journal Entry در وضعیت Draft بماند، گزارش‌ها هنوز ثبت تجدید ارزیابی را در بر نمی‌گیرند.
 
-مجوزهای [Journal Entry](/erpnext/journal-entry) و کنترل‌های بستن دوره را یکدست اعمال کنید. حساب سود و زیان تحقق‌نیافته، تعدیل حساب دفتر ارزی را متوازن می‌کند.
+مجوزهای [راهنمای «Journal Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/journal-entry) و کنترل‌های بستن دوره را یکدست اعمال کنید. حساب سود و زیان تحقق‌نیافته، تعدیل حساب دفتر ارزی را متوازن می‌کند.
 
 ## بررسی نتیجه
 
-برای حساب ارزی و تاریخ تجدید ارزیابی، [General Ledger](/erpnext/general-ledger) را اجرا کنید و این موارد را بررسی کنید:
+برای حساب ارزی و تاریخ تجدید ارزیابی، [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger) را اجرا کنید و این موارد را بررسی کنید:
 
 - مانده به ارز حساب بدون تغییر مانده باشد؛
 - ارزش دفتری به ارز شرکت به‌اندازهٔ سود یا زیان مورد انتظار تغییر کرده باشد؛
@@ -115,11 +115,11 @@ ERPNext حساب‌های ارزی واجد شرایط، مانده‌های ح�
 - طرف مقابل در حساب سود و زیان تحقق‌نیافتهٔ تنظیم‌شده ثبت شده باشد؛
 - صورت‌های مالی اکنون از ماندهٔ به‌روز‌شده به ارز شرکت استفاده کنند.
 
-اگر مانده‌های طرف حساب مطرح‌اند، [حساب‌های دریافتنی و پرداختنی](/erpnext/accounts-receivable-and-payable) را نیز بررسی کنید. گزینهٔ Revaluation Journals در این گزارش بر نحوهٔ درنظرگرفتن سندهای تجدید ارزیابی در گزارش مانده‌های باز اثر می‌گذارد.
+اگر مانده‌های طرف حساب مطرح‌اند، [حساب‌های دریافتنی و پرداختنی](accounts-receivable-and-payable.md) را نیز بررسی کنید. گزینهٔ Revaluation Journals در این گزارش بر نحوهٔ درنظرگرفتن سندهای تجدید ارزیابی در گزارش مانده‌های باز اثر می‌گذارد.
 
 ## خودکارسازی ایجاد سند با دقت
 
-شرکت می‌تواند ایجاد Exchange Rate Revaluation را با تناوب روزانه، هفتگی یا ماهانه خودکار کند. گزینهٔ **Submit ERR Journals?** تعیین می‌کند Journal Entryهای حاصل نیز خودکار ثبت نهایی شوند یا خیر.
+شرکت می‌تواند ایجاد Exchange Rate Revaluation را با تناوب روزانه، هفتگی یا ماهانه خودکار کند. گزینهٔ **ارسال ERR Journals?** تعیین می‌کند Journal Entryهای حاصل نیز خودکار ثبت نهایی شوند یا خیر.
 
 ![تنظیم تجدید ارزیابی خودکار](https://novacompanies.m.frappe.cloud/files/docs-multi-currency-2026-company-auto-revaluation-setting.png)
 
@@ -135,7 +135,7 @@ ERPNext حساب‌های ارزی واجد شرایط، مانده‌های ح�
 
 ### Get Entries هیچ حسابی برنمی‌گرداند
 
-بررسی کنید ارز Account با ارز Company متفاوت باشد، حساب ترازنامه‌ای غیرانبارشونده باشد، تا Posting Date ماندهٔ دفتر کل واجد شرایط داشته باشد و Company انتخاب‌شده درست باشد.
+بررسی کنید ارز Account با ارز شرکت متفاوت باشد، حساب ترازنامه‌ای غیرانبارشونده باشد، تا Posting Date ماندهٔ دفتر کل واجد شرایط داشته باشد و شرکت انتخاب‌شده درست باشد.
 
 ### نرخ ارز جدید صفر یا خالی است
 
@@ -143,7 +143,7 @@ ERPNext حساب‌های ارزی واجد شرایط، مانده‌های ح�
 
 ### تجدید ارزیابی ثبت نهایی شده، اما دفتر کل تغییر نکرده است
 
-Journal Entry پیوندخورده را باز کنید. باید ایجاد و ثبت نهایی شده باشد. Journal Entry در وضعیت Draft اثری بر General Ledger ندارد.
+Journal Entry پیوندخورده را باز کنید. باید ایجاد و ثبت نهایی شده باشد. Journal Entry در وضعیت Draft اثری بر دفترکل کل ندارد.
 
 ### ماندهٔ ارزی صفر است، اما مانده به ارز شرکت باقی مانده است
 
@@ -163,7 +163,7 @@ Journal Entry پیوندخورده را باز کنید. باید ایجاد و 
 
 خیر. طبق سیاست گزارش‌گیری خود، حساب‌های ترازنامه‌ای باز و واجد شرایط را تجدید ارزیابی کنید؛ این کار معمولاً در پایان دوره انجام می‌شود.
 
-### آیا می‌توانم New Exchange Rate را ویرایش کنم؟
+### آیا می‌توانم جدید Exchange Rate را ویرایش کنم؟
 
 پیش از ثبت نهایی آن را بررسی کنید و در صورت مجازبودن، با نرخ تأییدشده تغییر دهید. اگر کنترل‌های شما لازم می‌دانند، منبع و تأیید را جدا از شرح سند ثبت کنید.
 
@@ -173,8 +173,8 @@ Journal Entry پیوندخورده را باز کنید. باید ایجاد و 
 
 ## موضوعات مرتبط
 
-- [حسابداری چندارزی](/erpnext/multi-currency-accounting)
-- [Currency Exchange](/erpnext/currency-exchange)
-- [مدیریت اختلاف نرخ ارز](/erpnext/manage-foreign-exchange-difference)
-- [Journal Entry](/erpnext/journal-entry)
-- [گزارش‌های حسابداری](/erpnext/accounting-reports)
+- [حسابداری چندارزی](https://docs.frappe.io/erpnext/multi-currency-accounting)
+- [نرخ تبدیل ارز (Currency Exchange)](currency-exchange.md)
+- [مدیریت اختلاف نرخ ارز](https://docs.frappe.io/erpnext/manage-foreign-exchange-difference)
+- [راهنمای «Journal Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/journal-entry)
+- [گزارش‌های حسابداری](accounting-reports.md)

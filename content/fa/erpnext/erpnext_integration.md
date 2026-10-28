@@ -21,47 +21,47 @@ ERPNext قابلیت‌های متنوعی برای یکپارچه‌سازی د
 
 ### یکپارچه‌سازی‌های احراز هویت
 
-- [راه‌اندازی LDAP](/erpnext/user/manual/en/ldap-integration)
-- [راه‌اندازی Fairlogin](/erpnext/user/manual/en/fairlogin-integration)
+- [راه‌اندازی LDAP](https://docs.frappe.io/erpnext/ldap-integration)
+- [راه‌اندازی Fairlogin](fairlogin-integration.md)
 
 ### یکپارچه‌سازی‌های پشتیبان‌گیری
 
-- [راه‌اندازی نسخهٔ پشتیبان در Dropbox](/erpnext/user/manual/en/dropbox-backup)
-- [یکپارچه‌سازی Google Drive](/erpnext/user/manual/en/google_drive)
-- [بارگذاری نسخه‌های پشتیبان در Amazon S3](/erpnext/user/manual/en/aws_s3)
+- [راه‌اندازی نسخهٔ پشتیبان در Dropbox](dropbox-backup.md)
+- [یکپارچه‌سازی Google Drive](https://docs.frappe.io/erpnext/google_drive)
+- [بارگذاری نسخه‌های پشتیبان در Amazon S3](aws_s3.md)
 
 ### یکپارچه‌سازی‌های بانکی
 
-- [یکپارچه‌سازی Plaid](/erpnext/user/manual/en/plaid_integration)
+- [یکپارچه‌سازی Plaid](https://docs.frappe.io/erpnext/plaid_integration)
 
 ### یکپارچه‌سازی‌های فروش اینترنتی
 
-- [یکپارچه‌سازی Shopify](/erpnext/user/manual/en/shopify_integration)
-- [یکپارچه‌سازی WooCommerce](/erpnext/user/manual/en/woocommerce_integration)
-- [یکپارچه‌سازی Amazon SP-API](/erpnext/user/manual/en/amazon_integration)
-- [یکپارچه‌سازی Unicommerce](/erpnext/user/manual/en/unicommerce_integration)
-- [یکپارچه‌سازی Zenoti](/erpnext/user/manual/en/zenoti_integration)
+- [یکپارچه‌سازی Shopify](https://docs.frappe.io/erpnext/shopify_integration)
+- [یکپارچه‌سازی WooCommerce](https://docs.frappe.io/erpnext/woocommerce_integration)
+- [یکپارچه‌سازی Amazon SP-API](amazon_integration.md)
+- [یکپارچه‌سازی Unicommerce](https://docs.frappe.io/erpnext/unicommerce_integration)
+- [یکپارچه‌سازی Zenoti](https://docs.frappe.io/erpnext/zenoti_integration)
 
 ### یکپارچه‌سازی‌های ارسال
 
-- [ERPNext Shipping](/erpnext/user/manual/en/erpnext_shipping)
+- [ERPNext Shipping](erpnext_shipping.md)
 
 ### یکپارچه‌سازی‌های پرداخت
 
-- [یکپارچه‌سازی RazorPay](/erpnext/user/manual/en/razorpay-integration)
-- [یکپارچه‌سازی GoCardless](/erpnext/user/manual/en/gocardless-integration)
-- [یکپارچه‌سازی Stripe](/erpnext/user/manual/en/stripe-integration)
-- [یکپارچه‌سازی Braintree](/erpnext/user/manual/en/braintree-integration)
-- [یکپارچه‌سازی Paytm](/erpnext/user/manual/en/paytm-integration)
-- [یکپارچه‌سازی M-Pesa](/erpnext/user/manual/en/mpesa-integration)
+- [یکپارچه‌سازی RazorPay](https://docs.frappe.io/erpnext/razorpay-integration)
+- [یکپارچه‌سازی GoCardless](https://docs.frappe.io/erpnext/gocardless-integration)
+- [یکپارچه‌سازی Stripe](https://docs.frappe.io/erpnext/stripe-integration)
+- [یکپارچه‌سازی Braintree](braintree-integration.md)
+- [یکپارچه‌سازی Paytm](https://docs.frappe.io/erpnext/paytm-integration)
+- [یکپارچه‌سازی M-Pesa](https://docs.frappe.io/erpnext/mpesa-integration)
 
 ### یکپارچه‌سازی‌های تلفنی
 
-- [یکپارچه‌سازی Exotel](/erpnext/user/manual/en/exotel_integration)
+- [یکپارچه‌سازی Exotel](exotel_integration.md)
 
 ### یکپارچه‌سازی‌های Google
 
-- [تنظیمات Google](/erpnext/user/manual/en/google_settings)
-- [یکپارچه‌سازی Google Calendar](/erpnext/user/manual/en/google_calendar)
-- [یکپارچه‌سازی Google Contacts](/erpnext/user/manual/en/google_contacts)
-- [یکپارچه‌سازی Google Maps](/erpnext/user/manual/en/google_maps)
+- [تنظیمات Google](https://docs.frappe.io/erpnext/google_settings)
+- [یکپارچه‌سازی Google Calendar](https://docs.frappe.io/erpnext/google_calendar)
+- [یکپارچه‌سازی Google Contacts](https://docs.frappe.io/erpnext/google_contacts)
+- [یکپارچه‌سازی Google Maps](https://docs.frappe.io/erpnext/google_maps)

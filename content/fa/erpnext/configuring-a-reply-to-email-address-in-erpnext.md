@@ -25,6 +25,6 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 در رکورد نشانی ایمیل [`abc@test.com`](mailto:abc@test.com) که در DocType «Email Account» ساخته‌اید، چک‌باکس **Enable Incoming** و سپس چک‌باکس **Default Incoming** را فعال کنید. با فعال‌کردن **Default Incoming**، این نشانی به‌عنوان ایمیل **Reply-To** تنظیم می‌شود.
 
-برای اطلاعات بیشتر دربارهٔ حساب‌های ایمیل، به [Email Accounts](https://docs.frappe.io/erpnext/email-account) مراجعه کنید.
+برای اطلاعات بیشتر دربارهٔ حساب‌های ایمیل، به [حساب ایمیل](email-account.md) مراجعه کنید.
 
 **منبع:** [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/configuring-a-reply-to-email-address-in-erpnext). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر اصلی در این مخزن بازنشر نشده‌اند.

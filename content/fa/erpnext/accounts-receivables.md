@@ -6,21 +6,21 @@ source_id: "erpnext/accounts-receivables"
 source_version: "b2594b62ad4f0bd6fd69325548ba1cf04c0e08467ab4cc748e7a8185a70922bd"
 ---
 
-Nova Industries برای چند مشتری فاکتور صادر و آن‌ها را Submit کرده است. جمع فروش نشان می‌دهد چه مبلغی صورتحساب شده، اما تیم وصول پاسخ دیگری می‌خواهد: چه کسانی هنوز بدهکارند، کدام فاکتورها سررسید گذشته‌اند و کدام پرداخت یا بستانکاری موجود به‌درستی تخصیص نیافته است؟
+Nova Industries برای چند مشتری فاکتور صادر و آن‌ها را ارسال کرده است. جمع فروش نشان می‌دهد چه مبلغی صورتحساب شده، اما تیم وصول پاسخ دیگری می‌خواهد: چه کسانی هنوز بدهکارند، کدام فاکتورها سررسید گذشته‌اند و کدام پرداخت یا بستانکاری موجود به‌درستی تخصیص نیافته است؟
 
-گزارش **Accounts Receivable** همهٔ دریافتنی‌های باز از مشتریان را در یک نما گرد می‌آورد. مبلغ اصلی فاکتور، پرداخت‌ها و Credit Noteهای تخصیص‌یافته، مبلغ تسویه‌نشدهٔ باقی‌مانده، تاریخ سررسید و مدت بازماندن مانده را نشان می‌دهد.
+گزارش **حساب‌های دریافتنی** همهٔ دریافتنی‌های باز از مشتریان را در یک نما گرد می‌آورد. مبلغ اصلی فاکتور، پرداخت‌ها و Credit Noteهای تخصیص‌یافته، مبلغ تسویه‌نشدهٔ باقی‌مانده، تاریخ سررسید و مدت بازماندن مانده را نشان می‌دهد.
 
 برای نمونه، گزارش ممکن است نشان دهد Northstar Retail هنوز بخشی از یک فاکتور را بدهکار است، درحالی‌که مشتری دیگری پیش‌پرداخت تخصیص‌نیافته دارد. از این گزارش برای اولویت‌بندی پیگیری وصول، بررسی تخصیص‌های ناهماهنگ و برآورد وجه دریافتی استفاده کنید؛ سپس فاکتور یا پرداختی را که نیاز به رسیدگی دارد باز کنید.
 
 ## پیش از شروع
 
-[Sales Invoice](https://docs.frappe.io/erpnext/sales-invoice)های خود را Submit و دریافت‌های مشتری را با [Payment Entry](https://docs.frappe.io/erpnext/payment-entry) ثبت کنید. تراکنش‌های Draft بر ماندهٔ دریافتنی اثر نمی‌گذارند. همچنین تاریخ گزارش و Company را بررسی کنید.
+[راهنمای «Sales Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/sales-invoice)های خود را ارسال و دریافت‌های مشتری را با [راهنمای «Payment Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-entry) ثبت کنید. تراکنش‌های Draft بر ماندهٔ دریافتنی اثر نمی‌گذارند. همچنین تاریخ گزارش و شرکت را بررسی کنید.
 
 ## اجرای گزارش
 
-1. **Accounts Receivable** را جست‌وجو کنید.
-2. **Company** و **Posting Date** را انتخاب کنید.
-3. برای محدودکردن نتیجه، در صورت نیاز فیلترهایی مانند Customer، Receivable Account، Cost Center، Project، Territory یا Customer Group اضافه کنید.
+1. **حساب‌های دریافتنی** را جست‌وجو کنید.
+2. **شرکت** و **Posting Date** را انتخاب کنید.
+3. برای محدودکردن نتیجه، در صورت نیاز فیلترهایی مانند مشتری، Receivable Account، Cost Center، Project، Territory یا مشتری Group اضافه کنید.
 4. ردیف‌های فاکتور و کل مبلغ تسویه‌نشده را بررسی کنید.
 
 ![گزارش Accounts Receivable با مانده‌های مشتریان](https://novacompanies.m.frappe.cloud/files/accounts-receivables-accounts-receivable-report575529.png)
@@ -42,27 +42,27 @@ Nova Industries برای چند مشتری فاکتور صادر و آن‌ها 
 
 اگر مشتری پیش‌پرداخت یا بستانکاریِ تخصیص‌نیافته داشته باشد، گزارش می‌تواند ماندهٔ منفی نشان دهد. همچنین اگر پرداختی وجود داشته باشد اما به فاکتور تخصیص نیافته باشد، ممکن است فاکتور قدیمی را همچنان تسویه‌نشده نمایش دهد.
 
-## خلاصهٔ Accounts Receivable
+## خلاصهٔ حساب‌های دریافتنی
 
-وقتی به‌جای جزئیات هر فاکتور، یک ردیف تجمیعی برای هر مشتری می‌خواهید، از **Accounts Receivable Summary** استفاده کنید. این گزارش برای جلسه‌های پیگیری وصول و بررسی ریسک اعتباری در سطح مشتری مفید است. پیش از اقدام، به گزارش جزئیات برگردید تا Voucherهای دقیق را شناسایی کنید.
+وقتی به‌جای جزئیات هر فاکتور، یک ردیف تجمیعی برای هر مشتری می‌خواهید، از **حساب‌های دریافتنی Summary** استفاده کنید. این گزارش برای جلسه‌های پیگیری وصول و بررسی ریسک اعتباری در سطح مشتری مفید است. پیش از اقدام، به گزارش جزئیات برگردید تا Voucherهای دقیق را شناسایی کنید.
 
 ## پیگیری مانده‌های سررسیدگذشته
 
 - برای بررسی برنامهٔ پرداخت، Sales Invoice را از **Voucher No** باز کنید.
-- برای فرستادن صورت‌حساب به چند مشتری، از [Process Statement of Accounts](https://docs.frappe.io/erpnext/process-statement-of-accounts) استفاده کنید.
-- اگر برای فاکتور سررسیدگذشته یادآوری رسمی همراه با بهره یا کارمزد لازم است، [Dunning](https://docs.frappe.io/erpnext/dunning) بسازید.
-- اگر رسید یا بستانکاری وجود دارد اما به فاکتور درست تخصیص نیافته، از [Payment Reconciliation](https://docs.frappe.io/erpnext/payment-reconciliation) استفاده کنید.
-- برای برگشت تأییدشده یا کاهش مبلغ فاکتور، [Credit Note](https://docs.frappe.io/erpnext/credit-note) بسازید.
+- برای فرستادن صورت‌حساب به چند مشتری، از [راهنمای «Process Statement Of Accounts | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/process-statement-of-accounts) استفاده کنید.
+- اگر برای فاکتور سررسیدگذشته یادآوری رسمی همراه با بهره یا کارمزد لازم است، [بهرهٔ فروش و اخطار دیرکرد پرداخت (Dunning)](dunning.md) بسازید.
+- اگر رسید یا بستانکاری وجود دارد اما به فاکتور درست تخصیص نیافته، از [راهنمای «Payment Reconciliation | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-reconciliation) استفاده کنید.
+- برای برگشت تأییدشده یا کاهش مبلغ فاکتور، [یادداشت بستانکار](credit-note.md) بسازید.
 
 ## مشکلات رایج
 
-**پرداخت Submitشده مبلغ فاکتور را کاهش نمی‌دهد**
+**پرداخت ارسالشده مبلغ فاکتور را کاهش نمی‌دهد**
 
 بررسی کنید Payment Entry به همان فاکتور ارجاع داده باشد. اگر پرداخت تخصیص نیافته است، آن را با فاکتور تطبیق دهید.
 
-**گزارش با General Ledger مطابقت ندارد**
+**گزارش با دفترکل کل مطابقت ندارد**
 
-فیلترهای Company، تاریخ، ارز، طرف تجاری و حساب دریافتنی را تأیید کنید. گزارش Accounts Receivable بر اساس Voucher سازمان‌دهی شده، درحالی‌که [General Ledger](https://docs.frappe.io/erpnext/general-ledger) ثبت‌های منفرد دفترکل را نشان می‌دهد.
+فیلترهای شرکت، تاریخ، ارز، طرف تجاری و حساب دریافتنی را تأیید کنید. گزارش حساب‌های دریافتنی بر اساس Voucher سازمان‌دهی شده، درحالی‌که [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger) ثبت‌های منفرد دفترکل را نشان می‌دهد.
 
 **فاکتور در بازهٔ سنی نادرست نمایش داده می‌شود**
 
@@ -70,12 +70,12 @@ Nova Industries برای چند مشتری فاکتور صادر و آن‌ها 
 
 ## موضوعات مرتبط
 
-- [Sales Invoice](https://docs.frappe.io/erpnext/sales-invoice)
-- [Payment Entry](https://docs.frappe.io/erpnext/payment-entry)
-- [Credit Note](https://docs.frappe.io/erpnext/credit-note)
-- [Process Statement of Accounts](https://docs.frappe.io/erpnext/process-statement-of-accounts)
-- [Sales Interest / Dunning](https://docs.frappe.io/erpnext/dunning)
-- [گزارش Accounts Receivable and Payable](accounts-receivable-and-payable.md)
+- [راهنمای «Sales Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/sales-invoice)
+- [راهنمای «Payment Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-entry)
+- [یادداشت بستانکار](credit-note.md)
+- [راهنمای «Process Statement Of Accounts | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/process-statement-of-accounts)
+- [بهرهٔ فروش و اخطار دیرکرد پرداخت (Dunning)](dunning.md)
+- [گزارش حساب‌های دریافتنی and Payable](accounts-receivable-and-payable.md)
 
 ---
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/accounts-receivables). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

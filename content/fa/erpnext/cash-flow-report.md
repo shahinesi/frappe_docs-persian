@@ -8,13 +8,13 @@ source_version: "39c05ee491be9c8c5166f2f8cf6f624bb09f516ad4b69113999179fc3aac2c7
 
 شرکت Nova Industries در سال 2026 مبلغ $109,440 درآمد داشت، اما وجه نقد حاصل از عملیات آن $117,866 کاهش یافت. مالک شرکت پیش از تأیید هزینه‌های بیشتر باید بداند سود کجا مصرف شده است.
 
-گزارش جریان نقدی، تغییرات وجه نقد و معادل‌های نقدی را از طریق فعالیت‌های عملیاتی، سرمایه‌گذاری و تأمین مالی توضیح می‌دهد. این گزارش از نتایج حسابداری شروع می‌کند و اقلام غیرنقدی و تغییرات سرمایهٔ در گردش را تعدیل می‌کند. برای سنجش سودآوری از [گزارش سود و زیان](https://docs.frappe.io/erpnext/profit-and-loss-report) و برای بررسی وضعیت مالی از [ترازنامه](https://docs.frappe.io/erpnext/balance-sheet) استفاده کنید.
+گزارش جریان نقدی، تغییرات وجه نقد و معادل‌های نقدی را از طریق فعالیت‌های عملیاتی، سرمایه‌گذاری و تأمین مالی توضیح می‌دهد. این گزارش از نتایج حسابداری شروع می‌کند و اقلام غیرنقدی و تغییرات سرمایهٔ در گردش را تعدیل می‌کند. برای سنجش سودآوری از [گزارش سود و زیان](https://docs.frappe.io/erpnext/profit-and-loss-report) و برای بررسی وضعیت مالی از [ترازنامه](balance-sheet.md) استفاده کنید.
 
 ## اجرای گزارش جریان نقدی
 
 1. بخش **Accounting** را باز کنید و **Cash Flow** را انتخاب کنید.
 2. **Nova Industries** و سال مالی یا بازهٔ تاریخ موردنظر را انتخاب کنید.
-3. دوره‌بندی و در صورت نیاز [Finance Book](https://docs.frappe.io/erpnext/finance-book)، [Cost Center](https://docs.frappe.io/erpnext/cost-center)، Project، Department یا [Accounting Dimension](https://docs.frappe.io/erpnext/accounting-dimensions) را مشخص کنید.
+3. دوره‌بندی و در صورت نیاز [راهنمای «Finance Book | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/finance-book)، [مرکز هزینه](cost-center.md)، Project، دپارتمان یا [بُعد حسابداری](accounting-dimensions.md) را مشخص کنید.
 4. اگر تطبیق وجه نقد به مانده‌های ابتدا و انتها نیاز دارد، گزینه‌های مربوط را فعال کنید.
 5. گزارش را تازه‌سازی کنید و منتظر بمانید تا جمع‌ها، نمودار و بخش‌های گزارش بارگذاری شوند.
 
@@ -25,11 +25,11 @@ source_version: "39c05ee491be9c8c5166f2f8cf6f624bb09f516ad4b69113999179fc3aac2c7
 | ردیف | مبلغ | تفسیر |
 | --- | ---: | --- |
 | سود سال | $109,440 | سود حسابداری پیش از تعدیلات جریان نقدی. |
-| تغییر در Accounts Receivable | -$316,212 | درآمد شناسایی شده، اما بخش بزرگی از آن هنوز وصول نشده است. |
-| تغییر در Accounts Payable | $184,293 | ماندهٔ پرداخت‌نشدهٔ تأمین‌کنندگان موقتاً وجه نقد را حفظ کرده است. |
+| تغییر در حساب‌های دریافتنی | -$316,212 | درآمد شناسایی شده، اما بخش بزرگی از آن هنوز وصول نشده است. |
+| تغییر در حساب‌های پرداختنی | $184,293 | ماندهٔ پرداخت‌نشدهٔ تأمین‌کنندگان موقتاً وجه نقد را حفظ کرده است. |
 | خالص وجه نقد حاصل از عملیات | -$117,866 | با وجود سود مثبت، عملیات اصلی وجه نقد مصرف کرده است. |
 
-بزرگ‌ترین فشار از مطالبات دریافتنی ناشی می‌شود. Nova باید [Accounts Receivable](https://docs.frappe.io/erpnext/accounts-receivable) را بررسی کند، وصول مطالبات را در اولویت بگذارد و پیش از تعهد به هزینه‌های نقدی جدید، مانده‌های قدیمی را راستی‌آزمایی کند. پیش از اتکا به تأخیر در پرداخت تأمین‌کنندگان به‌عنوان منبع وجه نقد، [Accounts Payable](https://docs.frappe.io/erpnext/accounts-payable) را نیز بررسی کنید.
+بزرگ‌ترین فشار از مطالبات دریافتنی ناشی می‌شود. Nova باید [حساب‌های دریافتنی](https://docs.frappe.io/erpnext/accounts-receivable) را بررسی کند، وصول مطالبات را در اولویت بگذارد و پیش از تعهد به هزینه‌های نقدی جدید، مانده‌های قدیمی را راستی‌آزمایی کند. پیش از اتکا به تأخیر در پرداخت تأمین‌کنندگان به‌عنوان منبع وجه نقد، [حساب‌های پرداختنی](https://docs.frappe.io/erpnext/accounts-payable) را نیز بررسی کنید.
 
 ## آشنایی با سه بخش گزارش
 
@@ -41,13 +41,13 @@ source_version: "39c05ee491be9c8c5166f2f8cf6f624bb09f516ad4b69113999179fc3aac2c7
 
 ## ردیابی یک ردیف تا شواهد حسابداری
 
-برای بررسی گردش حساب [دفتر کل](https://docs.frappe.io/erpnext/general-ledger)، حساب یا مقدار پشتیبان را انتخاب کنید. اگر یک تغییر بااهمیت را توضیح می‌دهند، [Payment Entry](https://docs.frappe.io/erpnext/payment-entry)های منبع و [Journal Entry](https://docs.frappe.io/erpnext/journal-entry)های تأییدشده را بررسی کنید. ردیف‌های سرمایهٔ در گردش تغییرات بین تاریخ‌های گزارش‌گیری را نشان می‌دهند؛ بنابراین حساب‌های مرتبط در ترازنامه و گزارش‌های طرف حساب را نیز مقایسه کنید.
+برای بررسی گردش حساب [دفتر کل](https://docs.frappe.io/erpnext/general-ledger)، حساب یا مقدار پشتیبان را انتخاب کنید. اگر یک تغییر بااهمیت را توضیح می‌دهند، [راهنمای «Payment Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-entry)های منبع و [راهنمای «Journal Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/journal-entry)های تأییدشده را بررسی کنید. ردیف‌های سرمایهٔ در گردش تغییرات بین تاریخ‌های گزارش‌گیری را نشان می‌دهند؛ بنابراین حساب‌های مرتبط در ترازنامه و گزارش‌های طرف حساب را نیز مقایسه کنید.
 
 ![گزارش دفتر کل که اسناد حسابداری پشت تغییرات جریان نقدی را نشان می‌دهد](https://novacompanies.m.frappe.cloud/files/docs-20260814-nova-industries-cash-flow-gl-evidence.png)
 
 ## قالب‌های پیش‌فرض و سفارشی
 
-گزارش استاندارد حساب‌ها را با منطق صورت‌های مالی ERPNext دسته‌بندی می‌کند. اگر سازمان به برچسب‌های تأییدشده یا دسته‌بندی دقیق‌تری نیاز دارد، [Customise Cash Flow Report](https://docs.frappe.io/erpnext/customise-cash-flow-report) را پیکربندی کنید. در موارد پشتیبانی‌شده، [Financial Report Template](https://docs.frappe.io/erpnext/financial-report-template) می‌تواند نحوهٔ ارائه را کنترل کند. سفارشی‌سازی، دسته‌بندی و چیدمان را تغییر می‌دهد، نه اسناد دفتر کل را.
+گزارش استاندارد حساب‌ها را با منطق صورت‌های مالی ERPNext دسته‌بندی می‌کند. اگر سازمان به برچسب‌های تأییدشده یا دسته‌بندی دقیق‌تری نیاز دارد، [Customise Cash Flow گزارش](customise-cash-flow-report.md) را پیکربندی کنید. در موارد پشتیبانی‌شده، [Financial گزارش Template](https://docs.frappe.io/erpnext/financial-report-template) می‌تواند نحوهٔ ارائه را کنترل کند. سفارشی‌سازی، دسته‌بندی و چیدمان را تغییر می‌دهد، نه اسناد دفتر کل را.
 
 ## عیب‌یابی
 
@@ -69,7 +69,7 @@ source_version: "39c05ee491be9c8c5166f2f8cf6f624bb09f516ad4b69113999179fc3aac2c7
 
 فروش اعتباری، خرید موجودی، پرداخت بدهی، خرید دارایی و دیگر تفاوت‌های زمانی می‌توانند در حالی که سود مثبت است، جریان نقدی را منفی کنند.
 
-### آیا افزایش Accounts Payable همیشه برای وجه نقد مفید است؟
+### آیا افزایش حساب‌های پرداختنی همیشه برای وجه نقد مفید است؟
 
 صورت‌حساب‌های پرداخت‌نشده موقتاً وجه نقد را حفظ می‌کنند، اما تعهد ایجاد می‌کنند و ممکن است به روابط با تأمین‌کنندگان آسیب بزنند. این تغییر را با تاریخ‌های سررسید و برنامهٔ پرداخت تفسیر کنید.
 
@@ -79,12 +79,12 @@ source_version: "39c05ee491be9c8c5166f2f8cf6f624bb09f516ad4b69113999179fc3aac2c7
 
 ## موضوعات مرتبط
 
-- [گزارش‌های حسابداری](https://docs.frappe.io/erpnext/accounting-reports)
+- [گزارش‌های حسابداری](accounting-reports.md)
 - [گزارش سود و زیان](https://docs.frappe.io/erpnext/profit-and-loss-report)
-- [ترازنامه](https://docs.frappe.io/erpnext/balance-sheet)
-- [Accounts Receivable](https://docs.frappe.io/erpnext/accounts-receivable)
-- [Accounts Payable](https://docs.frappe.io/erpnext/accounts-payable)
-- [Customise Cash Flow Report](https://docs.frappe.io/erpnext/customise-cash-flow-report)
+- [ترازنامه](balance-sheet.md)
+- [حساب‌های دریافتنی](https://docs.frappe.io/erpnext/accounts-receivable)
+- [حساب‌های پرداختنی](https://docs.frappe.io/erpnext/accounts-payable)
+- [Customise Cash Flow گزارش](customise-cash-flow-report.md)
 
 ---
 

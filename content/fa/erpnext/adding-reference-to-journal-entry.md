@@ -16,7 +16,7 @@ source_version: "a7e1d41ba3d7c24294de46efdededdaf593b8440707796f8df8a65245f143a1
 
 1. سند مورد ارجاع متعلق به همان شرکت باشد و برای تعدیل موردنظر شرایط لازم را داشته باشد.
 2. حساب، طرف حساب، جهت بدهکار یا بستانکار و مبلغ درست باشند.
-3. استفاده از سند اختصاصی مانند [سند پرداخت](https://docs.frappe.io/erpnext/payment-entry)، برگشت، [یادداشت بستانکار](https://docs.frappe.io/erpnext/credit-note) یا [یادداشت بدهکار](https://docs.frappe.io/erpnext/debit-note) مناسب‌تر نباشد.
+3. استفاده از سند اختصاصی مانند [سند پرداخت](https://docs.frappe.io/erpnext/payment-entry)، برگشت، [یادداشت بستانکار](credit-note.md) یا [یادداشت بدهکار](debit-note.md) مناسب‌تر نباشد.
 4. فاکتور برای تخصیص، ماندهٔ باز کافی داشته باشد.
 5. برای حذف از حساب یا تعدیل دستی، تأیید حسابداری و مدارک پشتیبان را داشته باشید.
 
@@ -32,7 +32,7 @@ source_version: "a7e1d41ba3d7c24294de46efdededdaf593b8440707796f8df8a65245f143a1
 
 [مشاهدهٔ تصویر رسمی: نماد مداد برای بازکردن ردیف حسابداری](https://novacompanies.m.frappe.cloud/files/journal-entry-reference-20260802-journal-entry-reference-row.png)
 
-**نوع طرف حساب** (Party Type) را روی **مشتری** (Customer) یا **تأمین‌کننده** (Supplier) بگذارید و طرف حساب متناظر را انتخاب کنید. ERPNext از این فیلدها همراه با حساب دریافتنی یا پرداختنی استفاده می‌کند تا دفتر کل طرف حساب درست را به‌روزرسانی کند.
+**نوع طرف حساب** (Party Type) را روی **مشتری** (مشتری) یا **تأمین‌کننده** (تأمین‌کننده) بگذارید و طرف حساب متناظر را انتخاب کنید. ERPNext از این فیلدها همراه با حساب دریافتنی یا پرداختنی استفاده می‌کند تا دفتر کل طرف حساب درست را به‌روزرسانی کند.
 
 [مشاهدهٔ تصویر رسمی: نوع طرف حساب و طرف حساب در ردیف سند حسابداری](https://novacompanies.m.frappe.cloud/files/docs-gl-correction-20260803-adding-reference-to-journal-entry-journal-entry-reference-party.png)
 
@@ -60,7 +60,7 @@ source_version: "a7e1d41ba3d7c24294de46efdededdaf593b8440707796f8df8a65245f143a1
 
 برای تعدیل تأمین‌کننده، ردیف پرداختنی و جهت بدهکار یا بستانکار به رویداد تجاری بستگی دارد. فقط برای اینکه سند ثبت نهایی شود، علامت‌ها را برعکس نکنید. اثر موردنظر در دفتر کل را با حسابدار خود تأیید کنید.
 
-پس از ثبت نهایی، صورتحسابِ مورد ارجاع را باز کنید و مبلغ باز آن را بررسی کنید. همچنین می‌توانید از **مشاهده > دفتر کل** (View > Ledger)، [دفتر کل عمومی](https://docs.frappe.io/erpnext/general-ledger) و [گزارش دریافتنی‌ها یا پرداختنی‌ها](https://docs.frappe.io/erpnext/accounts-receivable-and-payable) برای بررسی تخصیص استفاده کنید.
+پس از ثبت نهایی، صورتحسابِ مورد ارجاع را باز کنید و مبلغ باز آن را بررسی کنید. همچنین می‌توانید از **مشاهده > دفتر کل** (View > Ledger)، [دفتر کل عمومی](https://docs.frappe.io/erpnext/general-ledger) و [گزارش دریافتنی‌ها یا پرداختنی‌ها](accounts-receivable-and-payable.md) برای بررسی تخصیص استفاده کنید.
 
 ## اسنادی که می‌توان به آن‌ها ارجاع داد
 
@@ -68,7 +68,7 @@ source_version: "a7e1d41ba3d7c24294de46efdededdaf593b8440707796f8df8a65245f143a1
 
 | گروه | انواع ارجاع |
 |---|---|
-| فروش و خرید | [صورتحساب فروش](https://docs.frappe.io/erpnext/sales-invoice)، [صورتحساب خرید](https://docs.frappe.io/erpnext/purchase-invoice)، [سفارش فروش](https://docs.frappe.io/erpnext/sales-order)، سفارش خرید |
+| فروش و خرید | [صورتحساب فروش](https://docs.frappe.io/erpnext/sales-invoice)، [صورتحساب خرید](https://docs.frappe.io/erpnext/purchase-invoice)، [سفارش فروش](sales-order.md)، سفارش خرید |
 | حسابداری و پرداخت‌ها | سند حسابداری، سند پرداخت، تراکنش بانکی، تجدید ارزیابی نرخ ارز، تنزیل فاکتور |
 | هزینه‌ها و حقوق و دستمزد | ادعای هزینه، سند حقوق و دستمزد، مساعدهٔ کارمند، صورت‌حساب تسویهٔ کامل و نهایی |
 | دارایی‌ها، وام‌ها و آموزش | دارایی، وام، شهریه |
@@ -137,7 +137,7 @@ source_version: "a7e1d41ba3d7c24294de46efdededdaf593b8440707796f8df8a65245f143a1
 
 - [سند حسابداری](https://docs.frappe.io/erpnext/journal-entry)
 - [سند پرداخت](https://docs.frappe.io/erpnext/payment-entry)
-- [حسابداری بدهی‌های سوخت‌شده](https://docs.frappe.io/erpnext/accounting-for-bad-debts)
+- [حسابداری بدهی‌های سوخت‌شده](accounting-for-bad-debts.md)
 - [تطبیق پرداخت](https://docs.frappe.io/erpnext/payment-reconciliation)
 - [دفتر کل عمومی](https://docs.frappe.io/erpnext/general-ledger)
 - [دفتر کل تغییرناپذیر](https://docs.frappe.io/erpnext/immutable-ledger-in-erpnext)

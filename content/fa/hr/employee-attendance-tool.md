@@ -10,46 +10,46 @@ quality_status: "passed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-**Employee Attendance Tool** امکان ثبت حضور و غیاب چند کارمند را برای یک تاریخ مشخص فراهم می‌کند.
+**ابزار حضور و غیاب کارکنان** امکان ثبت حضور و غیاب چند کارمند را برای یک تاریخ مشخص فراهم می‌کند.
 
 برای دسترسی به این ابزار، به این مسیر بروید:
 
-> Home > Human Resources > Attendance > Employee Attendance Tool
+> صفحهٔ اصلی > منابع انسانی > حضور و غیاب > ابزار حضور و غیاب کارکنان
 
-با این ابزار می‌توانید حضور و غیاب چند کارمند را بر اساس Department و Branch در یک روز مشخص، سریع ثبت کنید.
+با این ابزار می‌توانید حضور و غیاب چند کارمند را بر اساس دپارتمان و شاخه در یک روز مشخص، سریع ثبت کنید.
 
 ## 1. پیش‌نیازها
 
 پیش از ثبت حضور و غیاب، بهتر است موارد زیر را ایجاد کنید:
 
-- [Employee](https://docs.frappe.io/hr/employee)
-- [Department](https://docs.frappe.io/hr/department)
-- [Branch](https://docs.frappe.io/hr/branch)
+- [کارمند](https://docs.frappe.io/hr/employee)
+- [دپارتمان](https://docs.frappe.io/hr/department)
+- [شاخه](branch.md)
 
-## 2. ثبت حضور و غیاب با Employee Attendance Tool
+## 2. ثبت حضور و غیاب با ابزار حضور و غیاب کارکنان
 
 1. تاریخ را وارد کنید.
-2. Department و در صورت تمایل Branch را انتخاب کنید.
+2. دپارتمان و در صورت تمایل شاخه را انتخاب کنید.
 3. کارکنان را انتخاب کنید.
-4. وضعیت **Present**، **Absent** یا **Half Day** را برای هرکدام تعیین کنید.
-5. همچنین می‌توانید Shift را انتخاب کنید و از همین نما برای کارمندان **Late Entry** یا **Early Exit** ثبت کنید.
-6. جدول **Marked Attendance** در پایین ابزار، همهٔ کارکنانی را که حضورشان ثبت کرده‌اید همراه با وضعیت نشان می‌دهد. می‌توانید از فیلتر ستون‌ها برای جست‌وجوی کارمند مشخص یا کارکنان دارای وضعیت خاص استفاده کنید.
+4. وضعیت **حاضر**، **غایب** یا **نیم روز** را برای هرکدام تعیین کنید.
+5. همچنین می‌توانید شیفت را انتخاب کنید و از همین نما برای کارمندان **ورود دیرهنگام** یا **خروج زودهنگام** ثبت کنید.
+6. جدول **حضور مشخص** در پایین ابزار، همهٔ کارکنانی را که حضورشان ثبت کرده‌اید همراه با وضعیت نشان می‌دهد. می‌توانید از فیلتر ستون‌ها برای جست‌وجوی کارمند مشخص یا کارکنان دارای وضعیت خاص استفاده کنید.
 
 ![ابزار ثبت گروهی حضور و غیاب کارکنان](https://frappehr.com/files/pOo6Zsf.gif)
 
 > **توجه:** برای تاریخ‌های آینده نمی‌توان حضور و غیاب ثبت کرد.
 
-پس از ثبت حضور و غیاب با این ابزار، رکورد آن در سند [Attendance](https://docs.frappe.io/hr/attendance) کارمند ذخیره می‌شود:
+پس از ثبت حضور و غیاب با این ابزار، رکورد آن در سند [حضور و غیاب](https://docs.frappe.io/hr/attendance) کارمند ذخیره می‌شود:
 
 ![رکورد Attendance ایجادشده](https://frappehr.com/files/dxhxNaV.png)
 
 ## 3. موضوعات مرتبط
 
-1. [Attendance](https://docs.frappe.io/hr/attendance)
-2. [Attendance Request](https://docs.frappe.io/hr/attendance-request)
-3. [Upload Attendance](https://docs.frappe.io/hr/upload-attendance)
-4. [Shift Management](https://docs.frappe.io/hr/shift-management)
-5. [Auto Attendance](https://docs.frappe.io/hr/auto-attendance)
+1. [حضور و غیاب](https://docs.frappe.io/hr/attendance)
+2. [درخواست حضور و غیاب](attendance-request.md)
+3. [Upload حضور و غیاب](https://docs.frappe.io/hr/upload-attendance)
+4. [شیفت Management](https://docs.frappe.io/hr/shift-management)
+5. [Auto حضور و غیاب](https://docs.frappe.io/hr/auto-attendance)
 
 ---
 

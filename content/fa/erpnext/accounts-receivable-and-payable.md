@@ -8,26 +8,26 @@ source_version: "458eef9fd1e508210df572db988a8b09c426f55e0b0f064d82b28c0f6272283
 
 Nova Electronics Trading کالا را نسیه به Northstar Retail فروخته و دستگاه‌ها را نسیه از Apex Devices خریده است. تیم مالی باید بداند مشتریان چه مبلغی بدهکارند، Nova چه مبلغی به تأمین‌کنندگان بدهکار است، کدام مانده‌ها سررسید گذشته‌اند و کدام فاکتورها باید زودتر پیگیری شوند.
 
-گزارش **Accounts Receivable** فاکتورها و بستانکاری‌های تسویه‌نشدهٔ مشتری را پیگیری می‌کند. گزارش **Accounts Payable** فاکتورها و بدهکاری‌های تسویه‌نشدهٔ تأمین‌کننده را نشان می‌دهد. هر دو برای نمایش مانده و سن مطالبات در سطح فاکتور از Payment Ledger استفاده می‌کنند؛ بنابراین لازم نیست خواننده تخصیص‌ها را از روی تک‌تک ردیف‌های General Ledger بازسازی کند.
+گزارش **حساب‌های دریافتنی** فاکتورها و بستانکاری‌های تسویه‌نشدهٔ مشتری را پیگیری می‌کند. گزارش **حساب‌های پرداختنی** فاکتورها و بدهکاری‌های تسویه‌نشدهٔ تأمین‌کننده را نشان می‌دهد. هر دو برای نمایش مانده و سن مطالبات در سطح فاکتور از Payment Ledger استفاده می‌کنند؛ بنابراین لازم نیست خواننده تخصیص‌ها را از روی تک‌تک ردیف‌های دفترکل کل بازسازی کند.
 
-## Accounts Receivable
+## حساب‌های دریافتنی
 
-برای بررسی ریسک اعتباری مشتری، پیگیری فاکتورهای سررسیدگذشته، رسیدگی به بستانکاری‌های تخصیص‌نیافته و برآورد وجه دریافتی از Accounts Receivable استفاده کنید.
+برای بررسی ریسک اعتباری مشتری، پیگیری فاکتورهای سررسیدگذشته، رسیدگی به بستانکاری‌های تخصیص‌نیافته و برآورد وجه دریافتی از حساب‌های دریافتنی استفاده کنید.
 
 ![گزارش Accounts Receivable با مانده‌ها و سن مطالبات مشتریان Nova](https://novacompanies.m.frappe.cloud/files/docs-accounting-reports-20260814-accounts-receivable.png)
 
-## Accounts Payable
+## حساب‌های پرداختنی
 
-برای برنامه‌ریزی پرداخت به تأمین‌کنندگان، مدیریت جریان نقدی، استفاده از فرصت تخفیف پرداخت زودهنگام و جلوگیری از عقب‌افتادن پرداخت‌ها از Accounts Payable استفاده کنید.
+برای برنامه‌ریزی پرداخت به تأمین‌کنندگان، مدیریت جریان نقدی، استفاده از فرصت تخفیف پرداخت زودهنگام و جلوگیری از عقب‌افتادن پرداخت‌ها از حساب‌های پرداختنی استفاده کنید.
 
 ![گزارش Accounts Payable با مانده‌ها و سن بدهی تأمین‌کنندگان Nova](https://novacompanies.m.frappe.cloud/files/docs-accounting-reports-20260814-accounts-payable.png)
 
 ## اجرای هر یک از گزارش‌ها
 
-1. Accounts Receivable یا Accounts Payable را باز کنید.
-2. Company و تاریخ گزارش را انتخاب کنید.
+1. حساب‌های دریافتنی یا حساب‌های پرداختنی را باز کنید.
+2. شرکت و تاریخ گزارش را انتخاب کنید.
 3. برای محاسبهٔ سن مطالبات، بر اساس نوع بررسی Due Date یا Posting Date را انتخاب کنید.
-4. در صورت نیاز بر اساس Party، Account، Territory، Supplier Group، Cost Center، Project، Finance Book، ارز یا بُعد دیگری که در دسترس است فیلتر کنید.
+4. در صورت نیاز بر اساس Party، Account، Territory، تأمین‌کننده Group، Cost Center، Project، Finance Book، ارز یا بُعد دیگری که در دسترس است فیلتر کنید.
 5. گزارش را تازه‌سازی و ارجاع فاکتورهای مهم را باز کنید.
 
 ## درک سن مطالبات
@@ -43,16 +43,16 @@ Nova Electronics Trading کالا را نسیه به Northstar Retail فروخت
 
 | یافته | اقدام بعدی |
 |---|---|
-| فاکتور مشتری سررسید گذشته است | مکاتبات را بررسی کنید، صورت‌حساب بفرستید، در صورت لزوم [Dunning](https://docs.frappe.io/erpnext/dunning) بسازید یا پرداخت را ثبت کنید. |
-| پرداخت وجود دارد اما فاکتور هنوز باز است | ارجاع [Payment Entry](https://docs.frappe.io/erpnext/payment-entry) را بررسی یا از [Payment Reconciliation](https://docs.frappe.io/erpnext/payment-reconciliation) استفاده کنید. |
+| فاکتور مشتری سررسید گذشته است | مکاتبات را بررسی کنید، صورت‌حساب بفرستید، در صورت لزوم [بهرهٔ فروش و اخطار دیرکرد پرداخت (Dunning)](dunning.md) بسازید یا پرداخت را ثبت کنید. |
+| پرداخت وجود دارد اما فاکتور هنوز باز است | ارجاع [راهنمای «Payment Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-entry) را بررسی یا از [راهنمای «Payment Reconciliation | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-reconciliation) استفاده کنید. |
 | سررسید فاکتور تأمین‌کننده رسیده است | بر اساس فرایند تأیید، Payment Entry، Payment Request یا Payment Order بسازید یا بررسی کنید. |
-| مانده مورد اختلاف است | پیش از تغییر تراکنش، فاکتور، Credit Note یا Debit Note و General Ledger را بازبینی کنید. |
+| مانده مورد اختلاف است | پیش از تغییر تراکنش، فاکتور، Credit Note یا Debit Note و دفترکل کل را بازبینی کنید. |
 
 ## عیب‌یابی
 
 ### فاکتوری در گزارش نیست
 
-بررسی کنید فاکتور Submit شده، مبلغ تسویه‌نشدهٔ آن صفر نیست، از حساب دریافتنی یا پرداختنی انتخاب‌شده استفاده می‌کند و در محدودهٔ فیلترهای گزارش قرار دارد.
+بررسی کنید فاکتور ارسال شده، مبلغ تسویه‌نشدهٔ آن صفر نیست، از حساب دریافتنی یا پرداختنی انتخاب‌شده استفاده می‌کند و در محدودهٔ فیلترهای گزارش قرار دارد.
 
 ### سن مطالبات با انتظار شما جور درنمی‌آید
 
@@ -62,14 +62,14 @@ Nova Electronics Trading کالا را نسیه به Northstar Retail فروخت
 
 ممکن است پرداخت تخصیص داده نشده، به فاکتور دیگری تخصیص یافته یا در حساب طرف تجاری دیگری ثبت شده باشد. جدول References و Payment Ledger را بررسی کنید.
 
-### گزارش با General Ledger یا Trial Balance برابر نیست
+### گزارش با دفترکل کل یا Trial Balance برابر نیست
 
-گزارش‌های Accounts Receivable و Accounts Payable بر پایهٔ **Payment Ledger** ساخته می‌شوند، نه General Ledger. برای هر فاکتور، پرداخت و سند روزنامهٔ یک طرف تجاری، یک Payment Ledger Entry ثبت می‌شود. معمولاً دو دفتر با هم تطبیق دارند؛ اگر ندارند:
+گزارش‌های حساب‌های دریافتنی و حساب‌های پرداختنی بر پایهٔ **Payment Ledger** ساخته می‌شوند، نه دفترکل کل. برای هر فاکتور، پرداخت و سند روزنامهٔ یک طرف تجاری، یک Payment Ledger Entry ثبت می‌شود. معمولاً دو دفتر با هم تطبیق دارند؛ اگر ندارند:
 
 1. **ارز یکسان را مقایسه کنید.** برای مشتری یا تأمین‌کننده‌ای با ارز متفاوت، **In Party Currency** را فعال کنید تا با حساب همان طرف در ارز خودش مقایسه شود. برای مقایسه با ارز شرکت، **Revaluation Journals** را فعال کنید تا ثبت‌های Exchange Rate Revaluation هم لحاظ شوند.
-2. **تاریخ یکسان به‌کار ببرید.** گزارش مانده را **در تاریخ Report Date** نشان می‌دهد. پرداخت‌های ثبت‌شده پس از آن تاریخ شمرده نمی‌شوند، مگر این‌که **Show Future Payments** را فعال کنید.
-3. **حساب‌ها را بررسی کنید.** گزارش فقط حساب‌های دریافتنی یا پرداختنی را نشان می‌دهد. پیش‌پرداخت‌هایی که در حساب پیش‌پرداخت جداگانه ثبت شده‌اند (وقتی در Company گزینهٔ **Book Advance Payments in Separate Party Account** روشن است) فقط پس از تطبیق با فاکتورها دیده می‌شوند.
-4. **Payment Ledger Entryهای ناقص را بازسازی کنید.** اگر یک Voucher در General Ledger هست اما در گزارش دیده نمی‌شود، Payment Ledger Entryهای آن ناقص یا نادرست‌اند. **Repost Payment Ledger** را باز کنید، Company و Voucher Type را انتخاب کنید، Voucherها را با **Add Manually** اضافه و Submit کنید. منتظر بمانید تا **Repost Status** به **Completed** برسد.
+2. **تاریخ یکسان به‌کار ببرید.** گزارش مانده را **در تاریخ گزارش Date** نشان می‌دهد. پرداخت‌های ثبت‌شده پس از آن تاریخ شمرده نمی‌شوند، مگر این‌که **Show Future Payments** را فعال کنید.
+3. **حساب‌ها را بررسی کنید.** گزارش فقط حساب‌های دریافتنی یا پرداختنی را نشان می‌دهد. پیش‌پرداخت‌هایی که در حساب پیش‌پرداخت جداگانه ثبت شده‌اند (وقتی در شرکت گزینهٔ **Book Advance Payments in Separate Party Account** روشن است) فقط پس از تطبیق با فاکتورها دیده می‌شوند.
+4. **Payment Ledger Entryهای ناقص را بازسازی کنید.** اگر یک Voucher در دفترکل کل هست اما در گزارش دیده نمی‌شود، Payment Ledger Entryهای آن ناقص یا نادرست‌اند. **Repost Payment Ledger** را باز کنید، شرکت و Voucher Type را انتخاب کنید، Voucherها را با **Add Manually** اضافه و ارسال کنید. منتظر بمانید تا **Repost Status** به **Completed** برسد.
 
 ![فیلترهای گزارش Accounts Receivable](https://docs.frappe.io/files/ar-report-filters.png)
 
@@ -81,23 +81,23 @@ Nova Electronics Trading کالا را نسیه به Northstar Retail فروخت
 
 - Credit Noteای که علیه یک فاکتور ساخته شود، مستقیماً ماندهٔ همان فاکتور را کاهش می‌دهد.
 - اگر در Credit Note گزینهٔ **Update Outstanding for Self** فعال باشد، خود Credit Note ماندهٔ مستقل دارد: تا زمان تطبیق در **Payment Reconciliation**، هم آن و هم فاکتور در گزارش دیده می‌شوند. مبلغ Credit Note در **Paid Amount** نمایش داده می‌شود.
-- Debit Note تأمین‌کننده نیز در Accounts Payable به همین شکل کار می‌کند.
+- Debit Note تأمین‌کننده نیز در حساب‌های پرداختنی به همین شکل کار می‌کند.
 
 ### سند لغوشده یا پرداخت‌شده هنوز در گزارش دیده می‌شود
 
-- **فیلتر بُعدی** مانند Branch، Cost Center یا Project: فاکتور و پرداخت باید مقدار یکسانی برای آن بُعد داشته باشند. اگر پرداخت یا سند روزنامه Branch نداشته باشد، فیلتر Branch فاکتور را پرداخت‌نشده نشان می‌دهد. بُعد را در پرداخت تعیین کنید.
-- **تاریخ پرداخت پس از Report Date است:** توضیح بالا را ببینید.
+- **فیلتر بُعدی** مانند شاخه، Cost Center یا Project: فاکتور و پرداخت باید مقدار یکسانی برای آن بُعد داشته باشند. اگر پرداخت یا سند روزنامه شاخه نداشته باشد، فیلتر شاخه فاکتور را پرداخت‌نشده نشان می‌دهد. بُعد را در پرداخت تعیین کنید.
+- **تاریخ پرداخت پس از گزارش Date است:** توضیح بالا را ببینید.
 - **Payment Entry لغوشده هنوز دیده می‌شود:** Payment Ledger Entryهای آن برنگشته‌اند. سایت را به آخرین انتشار به‌روزرسانی کنید و سپس برای Voucher از **Repost Payment Ledger** استفاده کنید. اگر همچنان نمایش داده شد، با نام Voucher درخواست پشتیبانی بفرستید.
 
 ### فیلتری یا ستونی در گزارش نیست
 
-گزارش فیلترهایی مانند **Cost Center**، **Project**، **Party**، **Customer Group**، **Territory** و **Sales Person** دارد. برای نمایش ستون‌های دیگر از منوی گزارش **Add Column** را بزنید و گزارش را با نامی جدید ذخیره کنید. گروه‌بندی گزارش (**Group By Customer** یا **Group by Voucher**) را نمی‌توان به فیلد دیگری تغییر داد.
+گزارش فیلترهایی مانند **Cost Center**، **Project**، **Party**، **مشتری Group**، **Territory** و **Sales Person** دارد. برای نمایش ستون‌های دیگر از منوی گزارش **Add Column** را بزنید و گزارش را با نامی جدید ذخیره کنید. گروه‌بندی گزارش (**Group By مشتری** یا **Group by Voucher**) را نمی‌توان به فیلد دیگری تغییر داد.
 
 ## پرسش‌های متداول
 
 ### چرا برای هر مشتری حساب دریافتنی جدا نسازیم؟
 
-ERPNext معمولاً یک حساب دریافتنی مشترک نگه می‌دارد و مانده‌ها را بر اساس Customer تفکیک می‌کند. این روش Chart of Accounts را قابل‌مدیریت نگه می‌دارد و در عین حال جزئیات هر طرف تجاری را حفظ می‌کند.
+ERPNext معمولاً یک حساب دریافتنی مشترک نگه می‌دارد و مانده‌ها را بر اساس مشتری تفکیک می‌کند. این روش Chart of Accounts را قابل‌مدیریت نگه می‌دارد و در عین حال جزئیات هر طرف تجاری را حفظ می‌کند.
 
 ### آیا این گزارش‌ها فاکتورهای پیش‌نویس را شامل می‌شوند؟
 
@@ -109,10 +109,10 @@ ERPNext معمولاً یک حساب دریافتنی مشترک نگه می‌�
 
 ## موضوعات مرتبط
 
-- [Sales Invoice](https://docs.frappe.io/erpnext/sales-invoice)
-- [Purchase Invoice](https://docs.frappe.io/erpnext/purchase-invoice)
-- [Payment Entry](https://docs.frappe.io/erpnext/payment-entry)
-- [Payment Ledger](https://docs.frappe.io/erpnext/payment_ledger)
+- [راهنمای «Sales Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/sales-invoice)
+- [راهنمای «Purchase Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-invoice)
+- [راهنمای «Payment Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-entry)
+- [راهنمای «Payment Ledger | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment_ledger)
 - [پردازش صورت‌حساب حساب‌ها](https://docs.frappe.io/erpnext/process-statement-of-accounts)
 - [حساب دریافتنی مشترک](/erpnext/why-not-to-use-a-customer-specific-receivable-account)
 

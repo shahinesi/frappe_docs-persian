@@ -17,11 +17,11 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 شرکت Nova Industries یک سال خدمات ضمانت به مبلغ $1,200 می‌فروشد و همچنین $1,200 را پیشاپیش برای یک سال پشتیبانی نرم‌افزار می‌پردازد. صورتحساب‌ها کل مبلغ قراردادی را نشان می‌دهند، اما واحد مالی باید در هر دورهٔ حسابداری فقط سهم درآمدِ کسب‌شده یا هزینهٔ مصرف‌شده را شناسایی کند.
 
-**Deferred Revenue and Expense Report** برنامهٔ مورد انتظار شناسایی را با ثبت‌های واقعی حسابداری انتقالی مقایسه می‌کند. این گزارش به واحد مالی کمک می‌کند بفهمد چه مبلغی تاکنون شناسایی شده، چه مبلغی همچنان انتقالی است و کدام صورتحساب یا کالا نیاز به بررسی دارد.
+**Deferred Revenue and Expense گزارش** برنامهٔ مورد انتظار شناسایی را با ثبت‌های واقعی حسابداری انتقالی مقایسه می‌کند. این گزارش به واحد مالی کمک می‌کند بفهمد چه مبلغی تاکنون شناسایی شده، چه مبلغی همچنان انتقالی است و کدام صورتحساب یا کالا نیاز به بررسی دارد.
 
 ## پیش از شروع
 
-حساب‌های انتقالی را در [Accounts Settings](/erpnext/accounts-settings) پیکربندی کنید، حسابداری انتقالی را برای کالا یا ردیف صورتحساب مربوط فعال و تاریخ‌های معتبر شروع و پایان خدمت را وارد کنید. صورتحساب را ثبت نهایی کنید و طبق برنامهٔ شرکت [Process Deferred Accounting](/erpnext/process-deferred-accounting) را اجرا کنید.
+حساب‌های انتقالی را در [تنظیمات حساب‌ها](accounts-settings.md) پیکربندی کنید، حسابداری انتقالی را برای کالا یا ردیف صورتحساب مربوط فعال و تاریخ‌های معتبر شروع و پایان خدمت را وارد کنید. صورتحساب را ثبت نهایی کنید و طبق برنامهٔ شرکت [راهنمای «Process Deferred Accounting | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/process-deferred-accounting) را اجرا کنید.
 
 ## بررسی درآمد انتقالی
 
@@ -57,7 +57,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## بررسی حسابداری
 
-Journal Entry ایجادشده را باز کنید و حساب انتقالی را با حساب درآمد یا هزینه در [General Ledger](/erpnext/general-ledger) مقایسه کنید. شناسایی درآمد معمولاً بدهکارکردن بدهی درآمد انتقالی و بستانکارکردن درآمد است. شناسایی هزینه معمولاً بستانکارکردن دارایی هزینهٔ انتقالی و بدهکارکردن هزینه است.
+Journal Entry ایجادشده را باز کنید و حساب انتقالی را با حساب درآمد یا هزینه در [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger) مقایسه کنید. شناسایی درآمد معمولاً بدهکارکردن بدهی درآمد انتقالی و بستانکارکردن درآمد است. شناسایی هزینه معمولاً بستانکارکردن دارایی هزینهٔ انتقالی و بدهکارکردن هزینه است.
 
 ## عیب‌یابی
 
@@ -89,8 +89,8 @@ Posting Date، تاریخ‌های شروع و پایان خدمت و مبنای
 
 ## موضوعات مرتبط
 
-- [حسابداری انتقالی](/erpnext/deferred-accounting)
-- [درآمد انتقالی](/erpnext/deferred-revenue)
-- [هزینهٔ انتقالی](/erpnext/deferred-expense)
-- [Process Deferred Accounting](/erpnext/process-deferred-accounting)
-- [General Ledger](/erpnext/general-ledger)
+- [حسابداری انتقالی](deferred-accounting.md)
+- [درآمد انتقالی](deferred-revenue.md)
+- [هزینهٔ انتقالی](deferred-expense.md)
+- [راهنمای «Process Deferred Accounting | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/process-deferred-accounting)
+- [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger)

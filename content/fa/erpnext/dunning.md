@@ -15,7 +15,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 >
 > تصویر در این مخزن بازنشر نشده و پیوندش به فایل میزبان منبع اشاره می‌کند.
 
-شرکت Northstar Retail تا تاریخ سررسید صورتحسابی را پرداخت نکرده است. شرکت Nova Industries ماندهٔ معوق را در گزارش Accounts Receivable می‌بیند، اما اکنون مشتری به اخطاریه‌ای رسمی نیاز دارد که مبلغ معوق، بهره یا هزینهٔ یادآوری و مبلغ لازم برای تسویه را مشخص کند.
+شرکت Northstar Retail تا تاریخ سررسید صورتحسابی را پرداخت نکرده است. شرکت Nova Industries ماندهٔ معوق را در گزارش حساب‌های دریافتنی می‌بیند، اما اکنون مشتری به اخطاریه‌ای رسمی نیاز دارد که مبلغ معوق، بهره یا هزینهٔ یادآوری و مبلغ لازم برای تسویه را مشخص کند.
 
 سند **Dunning** ماندهٔ معوق را به سندی پیگیری‌پذیر برای وصول مطالبات تبدیل می‌کند. این سند ردیف‌های اقساط صورتحساب فروش مربوط را در یک اخطار رسمی گرد می‌آورد، بهره و هزینه‌های اختیاری را محاسبه می‌کند، متن نامهٔ ارسال‌شده به مشتری را نگه می‌دارد و پرداخت نهایی را به مطالبه پیوند می‌دهد.
 
@@ -23,7 +23,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## پیش‌نیازها
 
-- [صورتحساب فروش](/erpnext/sales-invoice) باید ثبت نهایی شده و سررسیدش گذشته باشد.
+- [صورتحساب فروش](https://docs.frappe.io/erpnext/sales-invoice) باید ثبت نهایی شده و سررسیدش گذشته باشد.
 - دست‌کم یک Dunning Type بسازید.
 - حساب درآمد و مرکز هزینه‌ای را انتخاب کنید که بهره و هزینه‌های اخطار در آن ثبت شوند.
 
@@ -98,8 +98,8 @@ Payment Entry پیوندخورده را باز کنید و مطمئن شوید �
 
 ## موضوعات مرتبط
 
-- [صورتحساب فروش](/erpnext/sales-invoice)
-- [Payment Entry](/erpnext/payment-entry)
-- [حساب‌های دریافتنی](/erpnext/accounts-receivables)
-- [پردازش صورت‌حساب حساب‌ها](/erpnext/process-statement-of-accounts)
-- [Payment Terms](/erpnext/payment-terms)
+- [صورتحساب فروش](https://docs.frappe.io/erpnext/sales-invoice)
+- [راهنمای «Payment Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-entry)
+- [حساب‌های دریافتنی](accounts-receivables.md)
+- [پردازش صورت‌حساب حساب‌ها](https://docs.frappe.io/erpnext/process-statement-of-accounts)
+- [راهنمای «Payment Terms | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-terms)

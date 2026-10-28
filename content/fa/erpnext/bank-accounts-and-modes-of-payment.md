@@ -23,7 +23,7 @@ source_version: "18f8f2ae5675eb32f122c47fa968992d4eb8f945a3bbe56c2dfccb777294e54
 
 ## ایجاد Bank
 
-به مسیر **Home > Accounting > Bank Statement > Bank** بروید و مؤسسه را اضافه کنید.
+به مسیر **صفحهٔ اصلی > Accounting > Bank Statement > Bank** بروید و مؤسسه را اضافه کنید.
 
 ![رکورد اصلی Bank](https://docs.frappe.io/files/bank-master.webp)
 
@@ -34,7 +34,7 @@ source_version: "18f8f2ae5675eb32f122c47fa968992d4eb8f945a3bbe56c2dfccb777294e54
 1. در بخش Bank Accounts از [جدول حساب‌ها](chart-of-accounts.md)، حساب دفتر کل بسازید و **Account Type** آن را روی **Bank** بگذارید.
 2. **Bank Account** را باز کنید و **Add Bank Account** را بزنید.
 3. Bank را انتخاب و نام یا شمارهٔ حساب را وارد کنید.
-4. اگر حساب متعلق به خود شرکت است، **Company** را به‌عنوان نوع طرف معامله انتخاب کنید.
+4. اگر حساب متعلق به خود شرکت است، **شرکت** را به‌عنوان نوع طرف معامله انتخاب کنید.
 5. حساب دفتر کل متناظر را پیوند دهید.
 6. فقط در صورت لزوم، آن را به‌عنوان پیش‌فرض شرکت تعیین کنید.
 
@@ -54,7 +54,7 @@ source_version: "18f8f2ae5675eb32f122c47fa968992d4eb8f945a3bbe56c2dfccb777294e54
 
 ## صورتحساب‌های بانکی و تطبیق
 
-برای واردکردن یا همگام‌سازی ردیف‌های صورتحساب از رکوردهای [تراکنش بانکی](https://docs.frappe.io/erpnext/bank-transaction) استفاده کنید. سپس با [تطبیق بانکی](https://docs.frappe.io/erpnext/bank-reconciliation) آن‌ها را با سندهای پرداخت و سندهای حسابداری تطبیق دهید.
+برای واردکردن یا همگام‌سازی ردیف‌های صورتحساب از رکوردهای [تراکنش بانکی](bank-transaction.md) استفاده کنید. سپس با [تطبیق بانکی](bank-reconciliation.md) آن‌ها را با سندهای پرداخت و سندهای حسابداری تطبیق دهید.
 
 ## عیب‌یابی
 
@@ -69,9 +69,9 @@ source_version: "18f8f2ae5675eb32f122c47fa968992d4eb8f945a3bbe56c2dfccb777294e54
 ## موضوعات مرتبط
 
 - [سند پرداخت](https://docs.frappe.io/erpnext/payment-entry)
-- [تطبیق بانکی](https://docs.frappe.io/erpnext/bank-reconciliation)
-- [بانکداری در ERPNext](https://docs.frappe.io/erpnext/banking-in-erpnext)
-- [پیش‌فرض‌های حسابداری شرکت](https://docs.frappe.io/erpnext/company-accounting-defaults)
+- [تطبیق بانکی](bank-reconciliation.md)
+- [بانکداری در ERPNext](banking-in-erpnext.md)
+- [پیش‌فرض‌های حسابداری شرکت](company-accounting-defaults.md)
 
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/bank-accounts-and-modes-of-payment). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های رسمی مستندات پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.
 

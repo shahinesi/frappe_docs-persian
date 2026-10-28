@@ -62,13 +62,13 @@ source_version: "286946046bfab90a5f7f62dc1312f80e8c8b61c9dfe3eb08bdd1d177f6dcf09
 
 ## موضوعات مرتبط
 
-- [دستهٔ دارایی](https://docs.frappe.io/erpnext/asset-category)
-- [محل دارایی](https://docs.frappe.io/erpnext/asset-location)
-- [دارایی](https://docs.frappe.io/erpnext/asset)
+- [دستهٔ دارایی](asset-category.md)
+- [محل دارایی](asset-location.md)
+- [دارایی](asset.md)
 - [خرید دارایی](https://docs.frappe.io/erpnext/purchasing-an-asset)
-- [استهلاک](https://docs.frappe.io/erpnext/asset-depreciation)
-- [جابجایی دارایی](https://docs.frappe.io/erpnext/asset-movement)
-- [تعمیر دارایی](https://docs.frappe.io/erpnext/asset-repair)
-- [گزارش‌های دارایی](https://docs.frappe.io/erpnext/asset-reports)
+- [استهلاک](asset-depreciation.md)
+- [جابجایی دارایی](asset-movement.md)
+- [تعمیر دارایی](asset-repair.md)
+- [گزارش‌های دارایی](asset-reports.md)
 
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/asset-repair). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های منبع پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

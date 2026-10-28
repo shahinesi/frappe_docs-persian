@@ -21,9 +21,9 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## 1. ایجاد Delivery Trip
 
-می‌توانید از یک [Delivery Note](/erpnext/delivery-note) و با انتخاب **Create > Delivery Trip**، مسیر تحویل ایجاد کنید.
+می‌توانید از یک [Delivery Note (سند تحویل)](delivery-note.md) و با انتخاب **Create > Delivery Trip**، مسیر تحویل ایجاد کنید.
 
-1. به **Stock > Stock Transactions > Delivery Trip > New** بروید.
+1. به **Stock > Stock Transactions > Delivery Trip > جدید** بروید.
 1. راننده و وسیلهٔ نقلیه را انتخاب کنید؛ اگر هنوز تعریف نشده‌اند، آن‌ها را ایجاد کنید.
 1. تاریخ، تاریخ حرکت و ساعت حرکت را وارد کنید.
 1. مشتریان را برای توقف‌های تحویل اضافه کنید. اگر نشانی مشتری از قبل ثبت شده باشد، به‌طور خودکار دریافت می‌شود. همچنین می‌توانید با انتخاب **Get customers from > Delivery Note** مشتریان را از یک Delivery Note دریافت کنید. پیش از ثبت نهایی، با دکمهٔ **Add Row** توقف‌های بیشتری اضافه کنید.
@@ -46,5 +46,5 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## موضوعات مرتبط
 
-1. [Packing Slip](/erpnext/packing-slip)
-1. [Shipping Rule](/erpnext/shipping-rule)
+1. [راهنمای «Packing Slip\n» در ERPNext](https://docs.frappe.io/erpnext/packing-slip)
+1. [راهنمای «Shipping Rule\n» در ERPNext](https://docs.frappe.io/erpnext/shipping-rule)

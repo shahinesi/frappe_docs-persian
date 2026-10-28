@@ -63,7 +63,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 | کد کالا | تعداد | نرخ | مبلغ |
 | --- | --- | --- | --- |
-| {{item.item_code }} | {{item.qty}} | {{item.rate}} | {{item.amount}} |
+| {{کالا.کالا_code }} | {{کالا.qty}} | {{کالا.rate}} | {{کالا.amount}} |
 
 خروجی این قالب در نسخهٔ چاپی به شکل زیر خواهد بود:
 

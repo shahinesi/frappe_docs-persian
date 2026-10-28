@@ -14,13 +14,13 @@ source_version: "7d12de95b341951022a6ccf746df1082f3585e37231ca2da537d7785fac5fa2
 
     from frappe.automation_engine import emit
 
-    def on_deal_won(deal):
-        emit("crm.deal_won", doc=deal, payload={"amount": deal.deal_value})
+    def on_معامله_won(معامله):
+        emit("crm.معامله_won", doc=معامله, payload={"amount": معامله.معامله_value})
 
 | آرگومان | توضیح |
 | --- | --- |
-| <code>event</code> | نام رخداد؛ از نام نقطه‌دار با پیشوند اپ مانند <code>crm.deal_won</code> استفاده کنید. |
-| <code>doc</code> | سندی که رخداد دربارهٔ آن است. جریان‌های Custom Event که Document Type دارند، روی همین سند اجرا می‌شوند. |
+| <code>event</code> | نام رخداد؛ از نام نقطه‌دار با پیشوند اپ مانند <code>crm.معامله_won</code> استفاده کنید. |
+| <code>doc</code> | سندی که رخداد دربارهٔ آن است. جریان‌های Custom Event که سند Type دارند، روی همین سند اجرا می‌شوند. |
 | <code>payload</code> | دیکشنری قابل‌تبدیل به JSON. جریان‌ها آن را در قالب‌ها با نام <code>payload</code> و در شرط‌ها با <code>context["payload"]</code> می‌خوانند. |
 | <code>correlation_key</code> | اجراهایی را از سر می‌گیرد که در گام **WaitForEvent** متناظر مکث کرده‌اند. |
 
@@ -37,9 +37,9 @@ source_version: "7d12de95b341951022a6ccf746df1082f3585e37231ca2da537d7785fac5fa2
 
     emit(
         "crm.email_replied",
-        doc=lead,
+        doc=سرنخ,
         payload={"communication": comm.name},
-        correlation_key=lead.name,
+        correlation_key=سرنخ.name,
     )
 
 اجرای منتظر بی‌درنگ از سر گرفته می‌شود و گام‌های بعدی می‌توانند payload را از <code>context["event"]["payload"]</code> بخوانند.
@@ -49,17 +49,17 @@ source_version: "7d12de95b341951022a6ccf746df1082f3585e37231ca2da537d7785fac5fa2
 <code>emit()</code> فقط رخدادهایی را می‌پذیرد که یک اپ نصب‌شده ثبت کرده باشد؛ مگر آن‌که گزینهٔ **Allow Unregistered Events** در Automation Settings فعال باشد. رخدادها را در <code>hooks.py</code> به‌صورت نام ساده یا همراه فراداده‌ای ثبت کنید که رابط‌های سازنده بتوانند نمایش دهند:
 
     automation_events = [
-        "crm.deal_won",
+        "crm.معامله_won",
         {
             "crm.email_replied": {
                 "label": "Email replied",
                 "description": "A contact replied to an email sent from CRM",
-                "subject": {"doctype_key": "reference_doctype", "name_key": "reference_name", "doctypes": ["CRM Lead", "CRM Deal"]},
+                "subject": {"doctype_key": "reference_doctype", "name_key": "reference_name", "doctypes": ["CRM سرنخ", "CRM معامله"]},
             }
         },
     ]
 
-فیلد <code>subject</code> به موتور می‌گوید رخداد دربارهٔ کدام رکورد است؛ این مقدار از payload خوانده می‌شود. با تعریف subject، جریان مربوط به CRM Lead روی همان سرنخی اجرا می‌شود که در payload نام برده شده، حتی اگر کدی که رخداد را منتشر کرده روی Communication کار می‌کرده باشد. اگر نوع subject ثابت است، به‌جای <code>doctype_key</code> از <code>"doctype": "CRM Lead"</code> استفاده کنید.
+فیلد <code>subject</code> به موتور می‌گوید رخداد دربارهٔ کدام رکورد است؛ این مقدار از payload خوانده می‌شود. با تعریف subject، جریان مربوط به CRM سرنخ روی همان سرنخی اجرا می‌شود که در payload نام برده شده، حتی اگر کدی که رخداد را منتشر کرده روی Communication کار می‌کرده باشد. اگر نوع subject ثابت است، به‌جای <code>doctype_key</code> از <code>"doctype": "CRM سرنخ"</code> استفاده کنید.
 
 ## افزودن کنش‌ها
 
@@ -102,7 +102,7 @@ source_version: "7d12de95b341951022a6ccf746df1082f3585e37231ca2da537d7785fac5fa2
 | <code>action_type</code> | شناسهٔ یکتایی که در گام ذخیره می‌شود؛ پس از انتشار آن را تغییر ندهید. |
 | <code>label</code> و <code>description</code> | در فهرست Action Type و رابط‌های سازنده نمایش داده می‌شوند. |
 | <code>params_schema</code> | فیلدهای پارامتر: <code>fieldname</code>، <code>label</code>، <code>fieldtype</code>، <code>options</code> و <code>reqd</code>. |
-| <code>requires_document</code> | اگر کنش بدون سند محرک هم اجرا می‌شود، مثلاً در جریان زمان‌بندی‌شده، آن را <code>False</code> قرار دهید. |
+| <code>requires_سند</code> | اگر کنش بدون سند محرک هم اجرا می‌شود، مثلاً در جریان زمان‌بندی‌شده، آن را <code>False</code> قرار دهید. |
 | <code>applicable_doctypes</code> | کنش را به این DocTypeها محدود می‌کند؛ مقدار <code>None</code> یعنی همهٔ آن‌ها. |
 | <code>supported_trigger_types</code> | کنش را به این نوع محرک‌ها محدود می‌کند؛ مقدار <code>None</code> یعنی همهٔ آن‌ها. |
 | <code>transactional</code> | اگر اثر کنش با بازگردانی تراکنش پایگاه داده خنثی نمی‌شود، مانند درخواست HTTP یا ارسال پیام، آن را <code>False</code> کنید. در این صورت موتور اجرا را از ابتدا دوباره پخش نمی‌کند. |
@@ -113,7 +113,7 @@ source_version: "7d12de95b341951022a6ccf746df1082f3585e37231ca2da537d7785fac5fa2
 - <code>execute(doc, params, context)</code>: کار را انجام می‌دهد. برای گزارش اجرا یک رشتهٔ کوتاه برگردانید یا دیکشنری‌ای با کلید <code>detail</code> و خروجی‌های موردنیاز گام‌های بعدی برگردانید تا از <code>context["steps"][step_key]</code> خوانده شوند.
 - <code>output_doctype(params)</code>: اگر کنش رکوردی می‌سازد، DocType آن را برگردانید. سپس **Output Alias** گام می‌تواند به رکورد جدید اشاره کند و گام‌های بعدی بر همان اساس اعتبارسنجی می‌شوند.
 
-کنش با کاربر **Run As** جریان اجرا می‌شود؛ بنابراین بررسی‌های عادی مجوز اعمال می‌شوند. <code>frappe.db.commit()</code> را فراخوانی نکنید؛ تراکنش در اختیار موتور است. برای مکث‌دادن به اجرا از درون کنش، <code>StopAutomation("reason", resume_after=seconds)</code> را ایجاد کنید.
+کنش با کاربر **Run As** جریان اجرا می‌شود؛ بنابراین بررسی‌های عادی مجوز اعمال می‌شوند. <code>frappe.db.commit()</code> را فراخوانی نکنید؛ تراکنش در اختیار موتور است. برای مکث‌دادن به اجرا از درون کنش، <code>StopAutomation("دلیل", resume_after=seconds)</code> را ایجاد کنید.
 
 ## افزودن رابطه‌ها
 
@@ -127,35 +127,35 @@ source_version: "7d12de95b341951022a6ccf746df1082f3585e37231ca2da537d7785fac5fa2
             if source_doctype != "Communication":
                 return []
             return [{
-                "name": "sender_lead",
-                "label": "Lead (by sender email)",
-                "target_doctype": "CRM Lead",
+                "name": "sender_سرنخ",
+                "label": "سرنخ (by sender email)",
+                "target_doctype": "CRM سرنخ",
                 "cardinality": "one",
             }]
 
         def resolve(self, source_doc, relationship, params):
-            name = frappe.db.get_value("CRM Lead", {"email": source_doc.sender})
-            return [{"doctype": "CRM Lead", "name": name}] if name else []
+            name = frappe.db.get_value("CRM سرنخ", {"email": source_doc.sender})
+            return [{"doctype": "CRM سرنخ", "name": name}] if name else []
 
 در <code>hooks.py</code> ثبت کنید:
 
     automation_relationships = ["my_app.automation.ContactRelationships"]
     automation_relationship_ignore = ["My Log DocType"]
 
-- مقدار <code>cardinality</code> یکی از <code>one</code> یا <code>many</code> است. فقط رابطه‌های <code>one</code> را می‌توان به‌عنوان نام مستعار مقصد گام به کار برد. رابطه‌های <code>many</code> برای شرط‌های رکوردهای مرتبط‌اند؛ برای کارایی روی جدول‌های بزرگ، با بازنویسی <code>query()</code> آن‌ها را در SQL پالایش کنید.
+- مقدار <code>cardinality</code> یکی از <code>one</code> یا <code>many</code> است. فقط رابطه‌های <code>one</code> را می‌توان به‌عنوان نام مستعار مقصد گام به کار برد. رابطه‌های <code>many</code> برای شرط‌های رکوردهای مرتبط‌اند؛ برای کارایی روی جدول‌های بزرگ، با بازنویسی <code>پرس‌وجو()</code> آن‌ها را در SQL پالایش کنید.
 - تعریفی با همان <code>name</code> یک رابطهٔ مشتق‌شده را جایگزین می‌کند؛ بنابراین اپ می‌تواند برچسب یک پیوند طرح‌واره را تغییر دهد.
 - هر مرجعی که provider برمی‌گرداند، پیش از استفادهٔ گام از نظر وجود رکورد و مجوز خواندن بررسی می‌شود.
 - <code>automation_relationship_ignore</code>، DocTypeهایی مانند گزارش‌ها را از رابطه‌های مشتق‌شده پنهان می‌کند.
 
 ## جلوگیری از اجرا و بررسی وضعیت خودکارسازی‌ها
 
-    from frappe.automation_engine import is_enabled, skip_automations
+    from frappe.automation_engine import is_فعال, skip_automations
 
-    if is_enabled():
+    if is_فعال():
         ...
 
     with skip_automations():
-        doc.save()  # برای این ذخیره هیچ Automation Flow اجرا نمی‌شود
+        doc.ذخیره()  # برای این ذخیره هیچ Automation Flow اجرا نمی‌شود
 
 ---
 

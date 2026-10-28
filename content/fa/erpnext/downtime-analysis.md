@@ -17,7 +17,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای دسترسی به گزارش Downtime Analysis، به مسیر زیر بروید:
 
-> Home > Manufacturing > Reports > Downtime Analysis
+> صفحهٔ اصلی > Manufacturing > Reports > Downtime Analysis
 
 ![گزارش Downtime Analysis](https://docs.frappe.io/files/downtime-analysis.png)
 

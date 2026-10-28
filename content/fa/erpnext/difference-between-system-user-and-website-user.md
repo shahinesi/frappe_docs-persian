@@ -13,7 +13,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 > این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/difference-between-system-user-and-website-user)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمهٔ غیررسمی با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است و این ترجمه تأیید رسمی Frappe نیست.
 
-**پرسش:** کارمندم را به‌عنوان User اضافه کرده‌ام و Roleهایی هم به او داده‌ام. بااین‌حال، پس از ورود نمی‌تواند Dashboard را ببیند. علت چیست؟
+**پرسش:** کارمندم را به‌عنوان User اضافه کرده‌ام و نقشهایی هم به او داده‌ام. بااین‌حال، پس از ورود نمی‌تواند داشبورد را ببیند. علت چیست؟
 
 **پاسخ:**
 

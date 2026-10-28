@@ -37,7 +37,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 3. **Rename** را انتخاب کنید.
 
    ![منوی تغییر نام](https://docs.frappe.io/files/pasted-image-t14k1h8e.webp)
-4. نشانی ایمیل جدید را در فیلد **New Name** وارد کنید.
+4. نشانی ایمیل جدید را در فیلد **جدید Name** وارد کنید.
 
    ![فیلد نام جدید](https://docs.frappe.io/files/pasted-image-snm5kak0.webp)
 5. روی **Rename** کلیک کنید.
@@ -75,7 +75,7 @@ Frappe شناسهٔ User و همهٔ رکوردهای پیوندخورده (تخ
 
 ## مطالب مرتبط
 
-- [تغییر شناسهٔ ایمیل کاربر موجود یا تغییر نام User](https://docs.frappe.io/erpnext/change-existing-users-email-id)
+- [تغییر شناسهٔ ایمیل کاربر موجود یا تغییر نام User](../../erpnext/change-existing-users-email-id.md)
 - [ایمیل بازنشانی گذرواژه، پیوند ورود یا احراز هویت دومرحله‌ای را دریافت نمی‌کنم](https://docs.frappe.io/framework/help/im-not-receiving-a-password-reset-login-link-or-two-factor-authentication-email)
 
 ---

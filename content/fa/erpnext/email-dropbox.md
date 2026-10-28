@@ -21,7 +21,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## 1. فعال‌کردن Email Dropbox
 
-در [Email Account](/erpnext/email-account)، گزینهٔ **Enable Email Dropbox** را فعال کنید.
+در [حساب ایمیل](email-account.md)، گزینهٔ **Enable Email Dropbox** را فعال کنید.
 
 ![فعال‌کردن Email Dropbox](https://docs.frappe.io/files/enable_email_dropbox.png)
 
@@ -39,6 +39,6 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### موضوعات مرتبط
 
-- [Email Domain](/erpnext/email-domain)
-- [Email Account](/erpnext/email-account)
-- [Email Inbox](/erpnext/email-inbox)
+- [دامنهٔ ایمیل](email-domain.md)
+- [حساب ایمیل](email-account.md)
+- [صندوق ورودی ایمیل](email-inbox.md)

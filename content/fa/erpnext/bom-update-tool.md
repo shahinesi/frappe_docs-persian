@@ -12,7 +12,7 @@ source_version: "9f5d1882712a3c26a545b07d00faddbc15773f386eb304ac408982fa787c2e7
 
 برای استفاده از BOM Update Tool به مسیر زیر بروید:
 
-> Home > Manufacturing > Tools > BOM Update Tool
+> صفحهٔ اصلی > Manufacturing > Tools > BOM Update Tool
 
 ## 1. استفاده از BOM Update Tool
 
@@ -41,7 +41,7 @@ source_version: "9f5d1882712a3c26a545b07d00faddbc15773f386eb304ac408982fa787c2e7
 4. SMTP
 5. DVD player
 
-**Current BOM** و **New BOM** قلم **زیرمونتاژ** را انتخاب کنید:
+**Current BOM** و **جدید BOM** قلم **زیرمونتاژ** را انتخاب کنید:
 
 ![ابزار به‌روزرسانی BOM](https://docs.frappe.io/files/bom-update-tool.png)
 

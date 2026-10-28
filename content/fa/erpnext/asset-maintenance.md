@@ -12,14 +12,14 @@ source_version: "5f826a1ac7d67eaa731395c85c64ec4af7a4088ed9bce0360007905c33818f9
 
 ## پیش از شروع
 
-گزینهٔ **نیازمند نگه‌داری** (Maintenance Required) را در دارایی فعال و یک [تیم نگه‌داری دارایی](https://docs.frappe.io/erpnext/asset-maintenance-team) ایجاد کنید.
+گزینهٔ **نیازمند نگه‌داری** (Maintenance Required) را در دارایی فعال و یک [تیم نگه‌داری دارایی](asset-maintenance-team.md) ایجاد کنید.
 
 ## ایجاد برنامهٔ نگه‌داری
 
 1. دارایی و تیم نگه‌داری را انتخاب کنید.
 2. کاری با نوع، تاریخ شروع، تناوب، مسئول و توضیحات آن اضافه کنید.
 3. مشخص کنید آیا گواهی لازم است یا خیر.
-4. برنامه را ذخیره کنید. ERPNext برای زمان‌بندی، [گزارش‌های نگه‌داری دارایی](https://docs.frappe.io/erpnext/asset-maintenance-log) را ایجاد می‌کند.
+4. برنامه را ذخیره کنید. ERPNext برای زمان‌بندی، [گزارش‌های نگه‌داری دارایی](asset-maintenance-log.md) را ایجاد می‌کند.
 
 [مشاهدهٔ تصویر رسمی: برنامهٔ نگه‌داری پیشگیرانه برای لپ‌تاپ Nova Industries](https://novacompanies.m.frappe.cloud/files/11-asset-maintenance-plan.png)
 
@@ -59,13 +59,13 @@ source_version: "5f826a1ac7d67eaa731395c85c64ec4af7a4088ed9bce0360007905c33818f9
 
 ## موضوعات مرتبط
 
-- [دستهٔ دارایی](https://docs.frappe.io/erpnext/asset-category)
-- [محل دارایی](https://docs.frappe.io/erpnext/asset-location)
-- [دارایی](https://docs.frappe.io/erpnext/asset)
+- [دستهٔ دارایی](asset-category.md)
+- [محل دارایی](asset-location.md)
+- [دارایی](asset.md)
 - [خرید دارایی](https://docs.frappe.io/erpnext/purchasing-an-asset)
-- [استهلاک](https://docs.frappe.io/erpnext/asset-depreciation)
-- [جابجایی دارایی](https://docs.frappe.io/erpnext/asset-movement)
-- [تعمیر دارایی](https://docs.frappe.io/erpnext/asset-repair)
-- [گزارش‌های دارایی](https://docs.frappe.io/erpnext/asset-reports)
+- [استهلاک](asset-depreciation.md)
+- [جابجایی دارایی](asset-movement.md)
+- [تعمیر دارایی](asset-repair.md)
+- [گزارش‌های دارایی](asset-reports.md)
 
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/asset-maintenance). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های منبع پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

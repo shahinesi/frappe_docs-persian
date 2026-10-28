@@ -10,32 +10,32 @@ source_version: "307f38c5097af083b485be7118b5744da84d646e92c4b151227cdee5310000b
 
 برای دسترسی به شعبه بروید به:
 
-> **Home > Human Resources > Employee > Branch**
+> **صفحهٔ اصلی > منابع انسانی > کارمند > شاخه**
 
 ## ساخت شعبه
 
-1. فهرست Branch را باز و **New** را انتخاب کنید.
+1. فهرست شاخه را باز و **جدید** را انتخاب کنید.
 2. نام شعبه را وارد کنید.
 3. ذخیره کنید.
 
-نام هر شعبه باید یکتا باشد و تنها فیلد اطلاعات اصلی شعبه است. از آنجا که Branch به Company وابسته نیست، فهرست شعبه‌ها میان همهٔ شرکت‌های همان نمونه مشترک است.
+نام هر شعبه باید یکتا باشد و تنها فیلد اطلاعات اصلی شعبه است. از آنجا که شاخه به شرکت وابسته نیست، فهرست شعبه‌ها میان همهٔ شرکت‌های همان نمونه مشترک است.
 
-تصویر صفحهٔ منبع در [راهنمای رسمی](https://docs.frappe.io/hr/branch) در دسترس است و در این مخزن بازنشر نشده است.
+تصویر صفحهٔ منبع در [راهنمای رسمی](branch.md) در دسترس است و در این مخزن بازنشر نشده است.
 
 ## اتصال شعبه به کارمند
 
-می‌توانید شعبه را به اطلاعات اصلی [Employee](https://docs.frappe.io/hr/employee) متصل کنید. پس از تعیین شعبه برای کارمند، می‌توان از آن برای گروه‌بندی، فیلترکردن و گزارش‌گیری دربارهٔ کارمند در تراکنش‌های HR و Payroll استفاده کرد.
+می‌توانید شعبه را به اطلاعات اصلی [کارمند](https://docs.frappe.io/hr/employee) متصل کنید. پس از تعیین شعبه برای کارمند، می‌توان از آن برای گروه‌بندی، فیلترکردن و گزارش‌گیری دربارهٔ کارمند در تراکنش‌های HR و Payroll استفاده کرد.
 
-اگر کارمند به شعبهٔ دیگری منتقل شود، تغییر در بخش **History In Company** از اطلاعات اصلی Employee ثبت می‌شود؛ این سابقه شامل Department، Designation و تاریخ‌هایی است که کارمند در آن شعبه کار کرده است.
+اگر کارمند به شعبهٔ دیگری منتقل شود، تغییر در بخش **History In شرکت** از اطلاعات اصلی کارمند ثبت می‌شود؛ این سابقه شامل دپارتمان، عنوان شغلی و تاریخ‌هایی است که کارمند در آن شعبه کار کرده است.
 
 ## موضوعات مرتبط
 
-1. [Employee](https://docs.frappe.io/hr/employee)
-2. [Employment Type](https://docs.frappe.io/hr/employment-type)
-3. [Department](https://docs.frappe.io/hr/department)
-4. [Designation](https://docs.frappe.io/hr/designation)
-5. [Employee Grade](https://docs.frappe.io/hr/employee-grade)
-6. [Employee Group](https://docs.frappe.io/hr/employee-group)
+1. [کارمند](https://docs.frappe.io/hr/employee)
+2. [نوع استخدام](employment-type.md)
+3. [دپارتمان](https://docs.frappe.io/hr/department)
+4. [عنوان شغلی](designation.md)
+5. [کارمند Grade](https://docs.frappe.io/hr/employee-grade)
+6. [گروه کارکنان](employee-group.md)
 
 ---
 منبع: [مستندات رسمی Frappe HR](https://docs.frappe.io/hr/branch). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

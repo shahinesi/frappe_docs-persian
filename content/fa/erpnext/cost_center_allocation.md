@@ -21,7 +21,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## پیش از شروع
 
-[مراکز هزینه](https://docs.frappe.io/erpnext/cost-center) لازم را بسازید و تصمیم بگیرید کاربران در تراکنش‌ها کدام مرکز هزینه را انتخاب کنند. مراکز هزینهٔ دریافت‌کننده باید به یک شرکت تعلق داشته باشند.
+[مراکز هزینه](cost-center.md) لازم را بسازید و تصمیم بگیرید کاربران در تراکنش‌ها کدام مرکز هزینه را انتخاب کنند. مراکز هزینهٔ دریافت‌کننده باید به یک شرکت تعلق داشته باشند.
 
 درصدهایی را انتخاب کنید که بر پایه‌ای قابل‌دفاع در کسب‌وکار بنا شده باشند؛ مانند درآمد، تعداد کارکنان، مساحت یا میزان استفاده. جمع کل تخصیص باید دقیقاً 100% باشد.
 
@@ -37,7 +37,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## اثر تخصیص بر دفترکل
 
-تراکنش مبدأ همچنان مرکز هزینهٔ اصلی را نشان می‌دهد. هنگام ایجاد ثبت‌های General Ledger، ERPNext مرکز هزینهٔ اصلی را در ردیف‌های مشمول با مراکز هزینهٔ دریافت‌کننده جایگزین و مبلغ را بر اساس درصدهای تخصیص ارسال‌شده تقسیم می‌کند.
+تراکنش مبدأ همچنان مرکز هزینهٔ اصلی را نشان می‌دهد. هنگام ایجاد ثبت‌های دفترکل کل، ERPNext مرکز هزینهٔ اصلی را در ردیف‌های مشمول با مراکز هزینهٔ دریافت‌کننده جایگزین و مبلغ را بر اساس درصدهای تخصیص ارسال‌شده تقسیم می‌کند.
 
 اگر هزینه‌ای به مبلغ `$10,000` به **Main - NET** ثبت شود و تخصیص نمونه به آن اعمال شود، ثبت‌های سمت هزینه چنین توزیع می‌شوند:
 
@@ -54,7 +54,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 | فیلد | معنی |
 | --- | --- |
 | Main Cost Center | مرکز هزینه‌ای که در تراکنش وارد می‌شود و تخصیص را فعال می‌کند. |
-| Company | شرکتی که تخصیص و مراکز هزینه به آن تعلق دارند. |
+| شرکت | شرکتی که تخصیص و مراکز هزینه به آن تعلق دارند. |
 | Valid From | نخستین تاریخی که تخصیص می‌تواند اعمال شود. |
 | Cost Center | مرکز هزینهٔ دریافت‌کننده‌ای که در ثبت‌های دفترکل حاصل ظاهر می‌شود. |
 | Percentage | سهمی که به آن مرکز هزینهٔ دریافت‌کننده اختصاص می‌یابد. |
@@ -63,7 +63,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 پس از ارسال تراکنشی که از مرکز هزینهٔ اصلی استفاده می‌کند، از منوی سند **Accounting Ledger** آن را باز کنید. بررسی کنید مبلغ دفترکل مربوط میان مراکز هزینهٔ موردانتظار تقسیم شده و جمع سهم‌ها با مبلغ اصلی برابر باشد.
 
-همچنین می‌توانید گزارش [General Ledger](https://docs.frappe.io/erpnext/general-ledger) را باز و بر اساس هر مرکز هزینهٔ دریافت‌کننده فیلتر کنید. برای مقایسهٔ یک دوره، از [صورت سود و زیان](https://docs.frappe.io/erpnext/profit-and-loss-statement) با فیلتر مرکز هزینه استفاده کنید.
+همچنین می‌توانید گزارش [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger) را باز و بر اساس هر مرکز هزینهٔ دریافت‌کننده فیلتر کنید. برای مقایسهٔ یک دوره، از [صورت سود و زیان](https://docs.frappe.io/erpnext/profit-and-loss-statement) با فیلتر مرکز هزینه استفاده کنید.
 
 ## تغییر تخصیص
 
@@ -89,7 +89,7 @@ ERPNext جدیدترین قاعدهٔ ارسال‌شده و قابل‌اعما
 
 ### آیا تخصیص، صورتحساب مبدأ را به چند صورتحساب تقسیم می‌کند؟
 
-سند کسب‌وکار همچنان یک تراکنش باقی می‌ماند. ERPNext مبلغ General Ledger مشمول را بر اساس مرکز هزینه تقسیم می‌کند.
+سند کسب‌وکار همچنان یک تراکنش باقی می‌ماند. ERPNext مبلغ دفترکل کل مشمول را بر اساس مرکز هزینه تقسیم می‌کند.
 
 ### می‌توانم میان چند شرکت تخصیص انجام دهم؟
 
@@ -105,11 +105,11 @@ Cost Center Allocation درون یک شرکت کار می‌کند. برای ح�
 
 ## موضوعات مرتبط
 
-- [مرکز هزینه](https://docs.frappe.io/erpnext/cost-center)
-- [ابعاد حسابداری](https://docs.frappe.io/erpnext/accounting-dimensions)
-- [General Ledger](https://docs.frappe.io/erpnext/general-ledger)
-- [Journal Entry](https://docs.frappe.io/erpnext/journal-entry)
-- [Purchase Invoice](https://docs.frappe.io/erpnext/purchase-invoice)
-- [بودجه](https://docs.frappe.io/erpnext/budgeting)
+- [مرکز هزینه](cost-center.md)
+- [ابعاد حسابداری](accounting-dimensions.md)
+- [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger)
+- [راهنمای «Journal Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/journal-entry)
+- [راهنمای «Purchase Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-invoice)
+- [بودجه](budget.md)
 
 **منبع:** [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/cost_center_allocation). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر اصلی در این مخزن بازنشر نشده‌اند.

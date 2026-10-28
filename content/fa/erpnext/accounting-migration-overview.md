@@ -22,11 +22,11 @@ Nova Industries در سیستم قبلی خود هفت سال فاکتور دا�
 
 برای بیشتر شرکت‌ها، دامنهٔ مناسب شامل این موارد است:
 
-- Customerها، Supplierها، Itemها، Warehouseها، حساب‌ها، Cost Centerها، الگوهای مالیاتی و دیگر داده‌های پایهٔ فعال که پس از برش لازم‌اند؛
+- مشتریها، تأمین‌کنندهها، کالاها، Warehouseها، حساب‌ها، Cost Centerها، الگوهای مالیاتی و دیگر داده‌های پایهٔ فعال که پس از برش لازم‌اند؛
 - فاکتورهای پرداخت‌نشدهٔ مشتریان و تأمین‌کنندگان؛
 - پرداخت‌ها و پیش‌پرداخت‌های تخصیص‌نیافته؛
 - مانده‌های بانک و نقد؛
-- مقدار و ارزش موجودی به تفکیک Item و Warehouse؛
+- مقدار و ارزش موجودی به تفکیک کالا و Warehouse؛
 - دارایی‌های ثابت همراه با استهلاک انباشته؛
 - مانده‌های دیگر دارایی، بدهی و حقوق مالکانه؛
 - مانده‌های درآمد و هزینه از ابتدای سال، فقط وقتی مهاجرت در میانهٔ سال مالی انجام می‌شود و گزارش‌گیری سال جاری در ERPNext لازم است.
@@ -43,12 +43,12 @@ Nova Industries در سیستم قبلی خود هفت سال فاکتور دا�
 
 | گزارش مبدأ | دلیل نیاز |
 |---|---|
-| Trial Balance | ثابت می‌کند General Ledger آغازین ERPNext با سیستم قبلی مطابقت دارد. |
+| Trial Balance | ثابت می‌کند دفترکل کل آغازین ERPNext با سیستم قبلی مطابقت دارد. |
 | Balance Sheet و Profit and Loss Statement | جمع‌های صورت‌های مالی و طبقه‌بندی حساب‌ها را تأیید می‌کند. |
 | سن مطالبات مشتری به تفکیک فاکتور | هر فاکتور پرداخت‌نشدهٔ مشتری، سررسید، ارز و مبلغ تسویه‌نشده را نشان می‌دهد. |
 | سن بدهی تأمین‌کننده به تفکیک فاکتور | هر فاکتور پرداخت‌نشدهٔ تأمین‌کننده و مبلغ تسویه‌نشده را ارائه می‌کند. |
 | تطبیق و صورت‌حساب بانکی | دفترکل بانک، ماندهٔ صورت‌حساب و تراکنش‌های تسویه‌نشده را تأیید می‌کند. |
-| گزارش موجودی بر اساس Item و Warehouse | مقدار و ارزش آغازین موجودی را نشان می‌دهد. |
+| گزارش موجودی بر اساس کالا و Warehouse | مقدار و ارزش آغازین موجودی را نشان می‌دهد. |
 | دفتر ثبت دارایی ثابت | بهای دارایی، تاریخ، استهلاک انباشته و عمر باقی‌مانده را فراهم می‌کند. |
 | پیش‌پرداخت‌ها و پرداخت‌های تخصیص‌نیافته | وجه دریافتی یا پرداختی‌ای را که به فاکتور تخصیص نیافته مشخص می‌کند. |
 | برنامه‌های مالیات، وام، هزینهٔ تعهدشده و پیش‌پرداخت | مانده‌هایی را توضیح می‌دهد که فقط از Trial Balance قابل‌درک نیستند. |
@@ -62,11 +62,11 @@ Nova Industries در سیستم قبلی خود هفت سال فاکتور دا�
 تنها خروجی مبدأ خود را ویرایش نکنید. آن را بدون تغییر نگه دارید و یک نسخهٔ کاری بسازید. در نسخهٔ کاری:
 
 1. رکوردهای غیرفعالی را که تصمیم گرفته‌اید منتقل نکنید حذف کنید.
-2. Customer، Supplier، Item و Account تکراری را حذف کنید.
+2. مشتری، تأمین‌کننده، کالا و Account تکراری را حذف کنید.
 3. نام‌ها، تاریخ‌ها، کد کشور، ارزها، واحدهای اندازه‌گیری و شناسه‌های مالیاتی را یکسان‌سازی کنید.
 4. نام یا کد ERPNext را برای هر رکورد قدیمی مشخص کنید.
 5. هر حساب قدیمی را به یک Account در ERPNext نگاشت کنید.
-6. Customerها، Supplierها، Itemها، Warehouseها، Cost Centerها و ارزها را به نام‌های ERPNext نگاشت کنید.
+6. مشتریها، تأمین‌کنندهها، کالاها، Warehouseها، Cost Centerها و ارزها را به نام‌های ERPNext نگاشت کنید.
 7. فاکتورهای تسویه‌نشده، پیش‌پرداخت‌ها، موجودی، دارایی‌ها، مانده‌های بانک و مانده‌های باقی‌ماندهٔ دفترکل را جدا کنید؛ روش ورود آن‌ها متفاوت است.
 8. جمع‌های پاک‌سازی‌شده را با گزارش‌های مبدأِ بدون تغییر مقایسه کنید.
 
@@ -74,15 +74,15 @@ Nova Industries در سیستم قبلی خود هفت سال فاکتور دا�
 
 ## 4. پیکربندی ERPNext پیش از واردکردن داده
 
-Company را بسازید و کشور، ارز پیش‌فرض، سال مالی و پیش‌فرض‌های حسابداری آن را تأیید کنید. پیش از ورود رکوردهای وابسته، Chart of Accounts، Cost Centerها، Warehouseها، واحدهای اندازه‌گیری، حساب‌های مالیاتی و قواعد نام‌گذاری را تنظیم کنید.
+شرکت را بسازید و کشور، ارز پیش‌فرض، سال مالی و پیش‌فرض‌های حسابداری آن را تأیید کنید. پیش از ورود رکوردهای وابسته، Chart of Accounts، Cost Centerها، Warehouseها، واحدهای اندازه‌گیری، حساب‌های مالیاتی و قواعد نام‌گذاری را تنظیم کنید.
 
 داده‌های پایه را بر اساس وابستگی وارد کنید. توالی عملی می‌تواند چنین باشد:
 
 1. Chart of Accounts و Cost Centerها
 2. Warehouseها و واحدهای اندازه‌گیری
-3. Item Group، Customer Group، Supplier Group و Territory
-4. Customerها و Supplierها
-5. Itemها و Item Priceها
+3. کالا Group، مشتری Group، تأمین‌کننده Group و Territory
+4. مشتریها و تأمین‌کنندهها
+5. کالاها و کالا Priceها
 6. حساب‌های بانکی، Mode of Payment، الگوهای مالیاتی و سایر داده‌های پایه
 
 ابتدا چند رکورد را آزمایش کنید. آن‌ها را در ERPNext باز کنید و پیش از واردکردن فایل کامل، درستی پیوندها، پیش‌فرض‌ها، نشانی‌ها، ارزها و حساب‌ها را تأیید کنید.
@@ -93,12 +93,12 @@ ERPNext ابزارهای متفاوتی دارد، چون همهٔ رکورده�
 
 | ابزار | کاربرد |
 |---|---|
-| [Data Import](https://docs.frappe.io/erpnext/data-import) | ورود Customer، Supplier، Item، Warehouse، Cost Center و دیگر داده‌های پایه از قالب CSV یا Excel؛ همچنین امکان به‌روزرسانی رکوردهای موجود را دارد. |
-| [Chart of Accounts Importer](https://docs.frappe.io/erpnext/chart-of-accounts-importer) | واردکردن ساختار حسابی سفارشی پیش از آن‌که تراکنشی برای Company وجود داشته باشد. |
-| [Opening Invoice Creation Tool](https://docs.frappe.io/erpnext/opening-invoice-creation-tool) | ایجاد Sales Invoice و Purchase Invoice تسویه‌نشده بدون بازسازی تاریخچهٔ کامل Itemهای آن‌ها. |
-| [Opening Balance in Accounts](https://docs.frappe.io/erpnext/opening-balance) | واردکردن مانده‌های آغازین باقی‌ماندهٔ دفترکل با ثبت‌های افتتاحیه. |
-| [Stock Reconciliation](https://docs.frappe.io/erpnext/stock-reconciliation) | تعیین مقدار و ارزش آغازین موجودی به تفکیک Item و Warehouse. |
-| [Asset](https://docs.frappe.io/erpnext/asset) | ایجاد دارایی‌های ثابت موجود همراه با بهای آغازین و اطلاعات استهلاک. |
+| [واردکردن داده‌ها (Data Import)](data-import.md) | ورود مشتری، تأمین‌کننده، کالا، Warehouse، Cost Center و دیگر داده‌های پایه از قالب CSV یا Excel؛ همچنین امکان به‌روزرسانی رکوردهای موجود را دارد. |
+| [ابزار ورود Chart of Accounts](chart-of-accounts-importer.md) | واردکردن ساختار حسابی سفارشی پیش از آن‌که تراکنشی برای شرکت وجود داشته باشد. |
+| [راهنمای «Opening Invoice Creation Tool | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/opening-invoice-creation-tool) | ایجاد Sales Invoice و Purchase Invoice تسویه‌نشده بدون بازسازی تاریخچهٔ کامل کالاهای آن‌ها. |
+| [ماندهٔ آغازین حساب‌ها](opening-balance.md) | واردکردن مانده‌های آغازین باقی‌ماندهٔ دفترکل با ثبت‌های افتتاحیه. |
+| [راهنمای «Stock Reconciliation» در ERPNext](https://docs.frappe.io/erpnext/stock-reconciliation) | تعیین مقدار و ارزش آغازین موجودی به تفکیک کالا و Warehouse. |
+| [دارایی](asset.md) | ایجاد دارایی‌های ثابت موجود همراه با بهای آغازین و اطلاعات استهلاک. |
 
 در دسته‌های کوچک وارد کنید و همهٔ فایل‌های ورود را نگه دارید. برای هر فایل شمارهٔ توالی روشنی بگذارید تا مشخص باشد کدام نسخه آزمایش، اصلاح و در نهایت وارد شده است.
 
@@ -108,11 +108,11 @@ ERPNext ابزارهای متفاوتی دارد، چون همهٔ رکورده�
 
 برای نمونه، فرض کنید Trial Balance قدیمی شامل این موارد است:
 
-- 10,000 دلار Accounts Receivable از فاکتورهای پرداخت‌نشدهٔ مشتریان؛
+- 10,000 دلار حساب‌های دریافتنی از فاکتورهای پرداخت‌نشدهٔ مشتریان؛
 - دریافت 2,000 دلاری از مشتری که تخصیص نیافته است؛
-- ماندهٔ خالص Accounts Receivable برابر 8,000 دلار.
+- ماندهٔ خالص حساب‌های دریافتنی برابر 8,000 دلار.
 
-با Opening Invoice Creation Tool فاکتورهای تسویه‌نشدهٔ 10,000 دلاری را ایجاد کنید و رسید 2,000 دلاری را با روش تأییدشدهٔ پرداخت آغازین وارد کنید. ردیف دیگری به مبلغ 8,000 دلار برای Accounts Receivable به Journal Entry افتتاحیه اضافه نکنید؛ این کار مانده را دوبار می‌شمارد.
+با Opening Invoice Creation Tool فاکتورهای تسویه‌نشدهٔ 10,000 دلاری را ایجاد کنید و رسید 2,000 دلاری را با روش تأییدشدهٔ پرداخت آغازین وارد کنید. ردیف دیگری به مبلغ 8,000 دلار برای حساب‌های دریافتنی به Journal Entry افتتاحیه اضافه نکنید؛ این کار مانده را دوبار می‌شمارد.
 
 پس از ایجاد همهٔ سندهای افتتاحیهٔ تخصصی، فقط مانده‌هایی را با Journal Entry افتتاحیه وارد کنید که قبلاً سند دیگری ایجادشان نکرده است. پس از تکمیل مهاجرت، حساب Temporary Opening باید صفر باشد.
 
@@ -150,12 +150,12 @@ ERPNext ابزارهای متفاوتی دارد، چون همهٔ رکورده�
 
 ## موضوعات مرتبط
 
-- [Data Import](https://docs.frappe.io/erpnext/data-import)
-- [Chart of Accounts Importer](https://docs.frappe.io/erpnext/chart-of-accounts-importer)
-- [Opening Invoice Creation Tool](https://docs.frappe.io/erpnext/opening-invoice-creation-tool)
-- [Opening Balance in Accounts](https://docs.frappe.io/erpnext/opening-balance)
-- [Stock Reconciliation](https://docs.frappe.io/erpnext/stock-reconciliation)
-- [Trial Balance](https://docs.frappe.io/erpnext/accounting-reports)
+- [واردکردن داده‌ها (Data Import)](data-import.md)
+- [ابزار ورود Chart of Accounts](chart-of-accounts-importer.md)
+- [راهنمای «Opening Invoice Creation Tool | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/opening-invoice-creation-tool)
+- [ماندهٔ آغازین حساب‌ها](opening-balance.md)
+- [راهنمای «Stock Reconciliation» در ERPNext](https://docs.frappe.io/erpnext/stock-reconciliation)
+- [گزارش‌های حسابداری](accounting-reports.md)
 
 ---
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/accounting-migration-overview). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

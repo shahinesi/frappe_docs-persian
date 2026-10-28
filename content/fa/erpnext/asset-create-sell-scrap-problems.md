@@ -6,7 +6,7 @@ source_id: "erpnext/asset-create-sell-scrap-problems"
 source_version: "431d9e039435a4268a9d99b15394a3fea72fe0029e6db032ccf7597b7c48ab5e"
 ---
 
-این صفحه به مشکلات رایج دارایی‌های ثابت در ERPNext پاسخ می‌دهد: ایجاد دارایی از خرید، ثبت دارایی موجود، فروش یا اسقاط، وضعیت نادرست و خطاهای سرمایه‌ای‌سازی یا تعمیر دارایی. برای استهلاک، به [چرا استهلاک دارایی آن‌طور که انتظار دارم نیست؟](https://docs.frappe.io/erpnext/asset-depreciation-problems) مراجعه کنید.
+این صفحه به مشکلات رایج دارایی‌های ثابت در ERPNext پاسخ می‌دهد: ایجاد دارایی از خرید، ثبت دارایی موجود، فروش یا اسقاط، وضعیت نادرست و خطاهای سرمایه‌ای‌سازی یا تعمیر دارایی. برای استهلاک، به [چرا استهلاک دارایی آن‌طور که انتظار دارم نیست؟](asset-depreciation-problems.md) مراجعه کنید.
 
 ## ایجاد دارایی از رسید خرید یا صورتحساب
 
@@ -77,7 +77,7 @@ source_version: "431d9e039435a4268a9d99b15394a3fea72fe0029e6db032ccf7597b7c48ab5
 - [خرید دارایی](https://docs.frappe.io/erpnext/purchasing-an-asset)
 - [فروش دارایی](https://docs.frappe.io/erpnext/selling-an-asset)
 - [سرمایه‌ای‌سازی دارایی](asset-capitalization.md)
-- [تعمیر دارایی](https://docs.frappe.io/erpnext/asset-repair)
-- [چرا استهلاک دارایی آن‌طور که انتظار دارم نیست؟](https://docs.frappe.io/erpnext/asset-depreciation-problems)
+- [تعمیر دارایی](asset-repair.md)
+- [چرا استهلاک دارایی آن‌طور که انتظار دارم نیست؟](asset-depreciation-problems.md)
 
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/asset-create-sell-scrap-problems). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

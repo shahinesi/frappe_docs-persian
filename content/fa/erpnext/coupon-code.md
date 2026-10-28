@@ -23,7 +23,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 - فروشگاه اینترنتی ERPNext پیکربندی شده باشد.
 - ورود کد تخفیف در [E-commerce Settings](https://docs.frappe.io/erpnext/e-commerce-settings) فعال باشد.
-- [کالاهای](https://docs.frappe.io/erpnext/item) مشمول و قیمت‌های آن‌ها به‌صورت آنلاین در دسترس باشند.
+- [کالاهای](item.md) مشمول و قیمت‌های آن‌ها به‌صورت آنلاین در دسترس باشند.
 - یک Selling Pricing Rule ساخته باشید که گزینهٔ **Coupon Code Based** در آن فعال است.
 
 خود Coupon Code تخفیف را تعریف نمی‌کند؛ Pricing Rule پیوندخورده شرایط واجدبودن و تخفیف قیمت یا محصول را تعیین می‌کند.
@@ -73,7 +73,7 @@ https://shop.example.com/products/aerobook-14?cc=SUMMER20
 | Pricing Rule | تخفیف و شرط‌های واجدبودن را مشخص می‌کند. |
 | Valid From / Valid Upto | بازهٔ استفاده از کد را تعیین می‌کند. |
 | Maximum Use | تعداد کل دفعات مجاز استفاده را محدود می‌کند. |
-| Used | تعداد Sales Orderهای ثبت‌شده‌ای که از کوپن استفاده کرده‌اند. |
+| Used | تعداد سفارش فروشهای ثبت‌شده‌ای که از کوپن استفاده کرده‌اند. |
 | Coupon Code Description | متن پشتیبان کمپین یا ایمیل را نگه می‌دارد. |
 
 شمارندهٔ **Used** با ثبت سفارش‌های واجدشرایط افزایش می‌یابد. لغو یا اصلاح تراکنش‌ها ممکن است تفسیر عملی این عدد را پیچیده کند؛ اگر مقدار استفاده غیرمنتظره است، اسناد فروش پیوندخورده را بررسی کنید.
@@ -87,7 +87,7 @@ https://shop.example.com/products/aerobook-14?cc=SUMMER20
 - تاریخ‌های پیش از اعتبار، در طول اعتبار و پس از آن؛
 - مرز تعداد مجاز استفاده؛
 - تسویه‌حساب کاربر واردشده و مهمان، اگر هر دو پشتیبانی می‌شوند؛
-- [Promotional Scheme](https://docs.frappe.io/erpnext/promotional-scheme) یا تخفیف خودکار دیگری که ممکن است با این کوپن هم‌پوشانی داشته باشد.
+- [راهنمای «Create Promotional Schemes and Discount Slabs | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/promotional-scheme) یا تخفیف خودکار دیگری که ممکن است با این کوپن هم‌پوشانی داشته باشد.
 
 ## عیب‌یابی
 
@@ -97,13 +97,13 @@ https://shop.example.com/products/aerobook-14?cc=SUMMER20
 | کد رد می‌شود | املای کد، اعتبار، سقف استفاده و Pricing Rule پیوندخورده را بررسی کنید. |
 | کد تخفیفی اعمال نمی‌کند | مطمئن شوید سبد خرید همهٔ شرط‌های Pricing Rule را دارد. |
 | تخفیف نادرست اعمال می‌شود | هم‌پوشانی و اولویت Pricing Ruleها را بررسی کنید. |
-| مقدار Used غیرمنتظره است | Sales Orderهای ثبت‌شده‌ای را که کوپن دارند بررسی کنید. |
+| مقدار Used غیرمنتظره است | سفارش فروشهای ثبت‌شده‌ای را که کوپن دارند بررسی کنید. |
 
 ## پرسش‌های متداول
 
-### آیا می‌توان از Coupon Code در تراکنش‌های فروش Desk استفاده کرد؟
+### آیا می‌توان از Coupon Code در تراکنش‌های فروش میزکار استفاده کرد؟
 
-Coupon Code برای جریان کار فروشگاه اینترنتی طراحی شده است. برای تراکنش‌های Desk مستقیماً از Pricing Rule استفاده کنید.
+Coupon Code برای جریان کار فروشگاه اینترنتی طراحی شده است. برای تراکنش‌های میزکار مستقیماً از Pricing Rule استفاده کنید.
 
 ### آیا Coupon Code از نوع Gift Card ابزار پرداخت با ارزش ذخیره‌شده است؟
 
@@ -119,10 +119,10 @@ Coupon Code برای جریان کار فروشگاه اینترنتی طراح�
 
 ## موضوعات مرتبط
 
-- [Pricing Rule](https://docs.frappe.io/erpnext/pricing-rule)
-- [Promotional Scheme](https://docs.frappe.io/erpnext/promotional-scheme)
-- [اعمال تخفیف](https://docs.frappe.io/erpnext/applying-discount)
+- [راهنمای «Pricing Rule | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/pricing-rule)
+- [راهنمای «Create Promotional Schemes and Discount Slabs | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/promotional-scheme)
+- [اعمال تخفیف](applying-discount.md)
 - [سبد خرید](https://docs.frappe.io/erpnext/shopping-cart)
-- [Sales Order](https://docs.frappe.io/erpnext/sales-order)
+- [سفارش فروش](sales-order.md)
 
 **منبع:** [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/coupon-code). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر اصلی در این مخزن بازنشر نشده‌اند.

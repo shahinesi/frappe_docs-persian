@@ -19,7 +19,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ERPNext نخستین مورد از فهرست زیر را که دارای الگو باشد انتخاب می‌کند:
 
-1. **Sales Order**، **Purchase Order** یا **Quotation**، اگر گزینهٔ **Automatically fetch Payment Terms from Order/Quotation** در **Accounts Settings** فعال باشد. برنامهٔ پرداخت سفارش، از جمله تاریخ‌های سررسید آن، عیناً کپی می‌شود.
+1. **سفارش فروش**، **سفارش خرید** یا **Quotation**، اگر گزینهٔ **Automatically fetch Payment Terms from Order/Quotation** در **Accounts Settings** فعال باشد. برنامهٔ پرداخت سفارش، از جمله تاریخ‌های سررسید آن، عیناً کپی می‌شود.
 2. مشتری یا تأمین‌کننده، از فیلد **Payment Terms Template**.
 3. گروه مشتری یا گروه تأمین‌کننده.
 4. شرکت، از فیلد **Default Payment Terms Template**.
@@ -36,7 +36,7 @@ ERPNext نخستین مورد از فهرست زیر را که دارای الگ
 
 ## چرا با وارد کردن تاریخ صورتحساب تأمین‌کننده، سررسید Purchase Invoice عوض می‌شود؟
 
-این رفتار مورد انتظار است. در **Purchase Invoice**، اگر **Supplier Invoice Date** را وارد کنید، سررسید از همان تاریخ محاسبه می‌شود؛ در غیر این صورت، **Posting Date** مبنا قرار می‌گیرد. مهلت اعتباری از روزی آغاز می‌شود که تأمین‌کننده صورتحساب را صادر کرده است.
+این رفتار مورد انتظار است. در **Purchase Invoice**، اگر **تأمین‌کننده Invoice Date** را وارد کنید، سررسید از همان تاریخ محاسبه می‌شود؛ در غیر این صورت، **Posting Date** مبنا قرار می‌گیرد. مهلت اعتباری از روزی آغاز می‌شود که تأمین‌کننده صورتحساب را صادر کرده است.
 
 ## تاریخ هر سررسید چگونه محاسبه می‌شود؟
 
@@ -48,7 +48,7 @@ ERPNext نخستین مورد از فهرست زیر را که دارای الگ
 | روز(ها) پس از پایان ماه صورتحساب | 30 Nov (31 Oct + 30 روز) |
 | ماه(ها) پس از پایان ماه صورتحساب | با مقدار 1: ‏30 Nov |
 
-برای دریافت پیش‌پرداخت و تسویهٔ مانده (برای نمونه، 30% اکنون و 70% پس از 30 روز)، دو ردیف بسازید: **Invoice Portion** برابر 30 با 0 روز و **Invoice Portion** برابر 70 با 30 روز. به [Payment Terms Template](/erpnext/payment-terms-template) مراجعه کنید.
+برای دریافت پیش‌پرداخت و تسویهٔ مانده (برای نمونه، 30% اکنون و 70% پس از 30 روز)، دو ردیف بسازید: **Invoice Portion** برابر 30 با 0 روز و **Invoice Portion** برابر 70 با 30 روز. به [راهنمای «Payment Terms Template | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-terms-template) مراجعه کنید.
 
 ## هنگام ذخیره یا ثبت نهایی خطا می‌گیرم
 
@@ -58,8 +58,8 @@ Due Date cannot be after 09-11-2026
 Total Payment Amount in Payment Schedule must be equal to Grand / Rounded Total
 ```
 
-- **Due Date cannot be before Posting Date** (یا **Supplier Invoice Date**): یکی از تاریخ‌های سررسید برنامه یا مقدار فیلد **Due Date** پیش از تاریخ صورتحساب است. الگو را دوباره انتخاب کنید یا تاریخ را اصلاح کنید.
-- **Due Date cannot be after …**: سررسیدی وارد کرده‌اید که از محدودهٔ مجاز الگو دیرتر است. فقط کاربرانی که نقش تعیین‌شده در **Accounts Settings > Role allowed to bypass credit limit** را دارند می‌توانند تاریخ دیرتری ذخیره کنند؛ برای آن‌ها به‌جای خطا، یادداشتی نمایش داده می‌شود. در غیر این صورت، الگو را اصلاح کنید.
+- **Due Date cannot be before Posting Date** (یا **تأمین‌کننده Invoice Date**): یکی از تاریخ‌های سررسید برنامه یا مقدار فیلد **Due Date** پیش از تاریخ صورتحساب است. الگو را دوباره انتخاب کنید یا تاریخ را اصلاح کنید.
+- **Due Date cannot be after …**: سررسیدی وارد کرده‌اید که از محدودهٔ مجاز الگو دیرتر است. فقط کاربرانی که نقش تعیین‌شده در **Accounts Settings > نقش allowed to bypass credit limit** را دارند می‌توانند تاریخ دیرتری ذخیره کنند؛ برای آن‌ها به‌جای خطا، یادداشتی نمایش داده می‌شود. در غیر این صورت، الگو را اصلاح کنید.
 - **Total Payment Amount in Payment Schedule must be equal to Grand / Rounded Total**: پس از ساخت برنامه، اقلام یا مالیات‌ها را تغییر داده‌اید. الگو را دوباره انتخاب کنید یا ستون **Payment Amount** را اصلاح کنید تا جمع آن با کل مبلغ برابر شود.
 
 اگر فیلد **Due Date** را دستی تغییر دهید، ERPNext می‌پرسد: «برای اعمال تاریخ سررسید جدید، می‌خواهید الگوی فعلی Payment Terms و برنامهٔ پرداخت پاک شود؟» برای نگه‌داشتن تاریخ واردشده، **Yes** را انتخاب کنید. اگر برنامه فقط یک ردیف داشته باشد، ERPNext تاریخ همان ردیف را بدون پرسش تغییر می‌دهد.
@@ -75,6 +75,6 @@ Total Payment Amount in Payment Schedule must be equal to Grand / Rounded Total
 
 ## موضوعات مرتبط
 
-- [Payment Terms Template](/erpnext/payment-terms-template)
-- [Payment Terms](/erpnext/payment-terms)
-- [حساب‌های دریافتنی و پرداختنی](/erpnext/accounts-receivable-and-payable)
+- [راهنمای «Payment Terms Template | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-terms-template)
+- [راهنمای «Payment Terms | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-terms)
+- [حساب‌های دریافتنی و پرداختنی](accounts-receivable-and-payable.md)

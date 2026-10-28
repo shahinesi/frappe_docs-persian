@@ -50,7 +50,7 @@ source_version: "bd34bfcc374c4e3142209ed0031b60d01b8395f05dbaab4d099c7de6c775b7b
 | --- | --- |
 | Date | تاریخ صورتحساب یا تراکنش که بانک ارائه کرده است. |
 | Bank Account | حساب بانکی شرکت که ردیف صورتحساب به آن تعلق دارد. |
-| Company | شرکت تراکنش که از داده‌ها استخراج یا انتخاب می‌شود. |
+| شرکت | شرکت تراکنش که از داده‌ها استخراج یا انتخاب می‌شود. |
 | Deposit | مبلغ ورودی در صورتحساب. |
 | Withdrawal | مبلغ خروجی در صورتحساب. یک ردیف معمولاً نباید هر دو مقدار را داشته باشد. |
 | Currency | ارز صورتحساب که باید با حساب بانکی و واردات مطابقت داشته باشد. |
@@ -140,7 +140,7 @@ Transaction ID، مرجع، تاریخ، مبلغ و فایل مبدأ را مق
 - [سند پرداخت](https://docs.frappe.io/erpnext/payment-entry)
 - [سند حسابداری](https://docs.frappe.io/erpnext/journal-entry)
 - [تطبیق پرداخت](https://docs.frappe.io/erpnext/payment-reconciliation)
-- [واردکردن داده](https://docs.frappe.io/erpnext/data-import)
+- [واردکردن داده](data-import.md)
 
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/bank-transaction). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های رسمی پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.
 

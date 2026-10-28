@@ -64,7 +64,7 @@ ERPNext سوابق حسابداری مرتبط و در صورت لزوم مبا�
 
 1. برای حساب بانکی و دورهٔ موردنظر، **Bank Clearance** را اجرا کنید. ثبت‌های بدون تاریخ تسویه نمایش داده می‌شوند. تاریخ ثبت‌هایی را که بانک پردازش کرده است وارد کنید.
 2. ردیف‌هایی را که در صورتحساب بانک هستند اما در ERPNext ثبت نشده‌اند، مانند کارمزد بانکی، سود یا برداشت مستقیم، پیدا و ثبت کنید.
-3. در ابزار Bank Reconciliation، **Account Opening Balance** مانده تا روز **پیش از** **From Date** است. ثبت‌هایی که تاریخشان برابر با From Date باشد، جزو ماندهٔ افتتاحیه نیستند.
+3. در ابزار Bank Reconciliation، **Account Opening Balance** مانده تا روز **پیش از** **از تاریخ** است. ثبت‌هایی که تاریخشان برابر با از تاریخ باشد، جزو ماندهٔ افتتاحیه نیستند.
 
 ### Auto Reconcile چیزی را تطبیق نمی‌دهد
 
@@ -110,7 +110,7 @@ Payment Reconciliation پرداخت‌های طرف حساب را به فاکت�
 
 - [سند پرداخت](https://docs.frappe.io/erpnext/payment-entry)
 - [تطبیق پرداخت](https://docs.frappe.io/erpnext/payment-reconciliation)
-- [تراکنش بانکی](https://docs.frappe.io/erpnext/bank-transaction)
+- [تراکنش بانکی](bank-transaction.md)
 - [سند حسابداری](https://docs.frappe.io/erpnext/journal-entry)
 
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/bank-reconciliation). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های رسمی پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

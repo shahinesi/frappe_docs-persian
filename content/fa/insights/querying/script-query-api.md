@@ -13,7 +13,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 > این صفحه ترجمهٔ غیررسمی مستندات Frappe Insights است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/insights/querying/script-query-api)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 
-پرس‌وجوی اسکریپتی، Python را با <code>safe_exec</code> در sandbox مربوط به Server Script اجرا می‌کند. برای فعال‌کردن آن، مقدار <code>"server_script_enabled": 1</code> را در <code>common_site_config.json</code> قرار دهید.
+پرس‌وجوی اسکریپتی، Python را با <code>safe_exec</code> در sandbox مربوط به Server Script اجرا می‌کند. برای فعال‌کردن آن، مقدار <code>"server_script_فعال": 1</code> را در <code>common_سایت_config.json</code> قرار دهید.
 
 پرس‌وجوی اسکریپتی فقط‌خواندنی است. هر تغییری که اسکریپت در پایگاه داده ایجاد کند، پس از پایان اجرا بازگردانده می‌شود.
 
@@ -65,9 +65,9 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ## نمونه
 
     results = frappe.db.get_all(
-        "Sales Order",
+        "سفارش فروش",
         filters={"docstatus": 1},
-        fields=["customer", "transaction_date", "grand_total"],
+        fields=["مشتری", "transaction_date", "grand_total"],
         limit_page_length=0,
     )
 

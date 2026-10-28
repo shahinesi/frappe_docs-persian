@@ -21,22 +21,22 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای ایجاد Email Campaign، به مسیر زیر بروید:
 
-> Home > CRM > Campaign > Email Campaign
+> صفحهٔ اصلی > CRM > Campaign > Email Campaign
 
 ## پیش‌نیازها
 
 پیش از ایجاد و استفاده از Email Campaign، موارد زیر را بسازید:
 
-- [Campaign](/erpnext/campaign)
-- [Lead](/erpnext/lead)، [Contact](/erpnext/contact) یا [Email Group](/erpnext/email_group)
+- [کارزار بازاریابی](campaign.md)
+- [سرنخ](https://docs.frappe.io/erpnext/lead)، [مخاطب (Contact)](contact.md) یا [گروه ایمیل](email_group.md)
 
 ## ایجاد Email Campaign
 
-- فهرست Email Campaign را باز و **New** را انتخاب کنید.
-- [Campaign](/erpnext/campaign)ای را انتخاب کنید که می‌خواهید برای آن Email Campaign بسازید.
+- فهرست Email Campaign را باز و **جدید** را انتخاب کنید.
+- [کارزار بازاریابی](campaign.md)ای را انتخاب کنید که می‌خواهید برای آن Email Campaign بسازید.
 - **Start Date** کارزار را تعیین کنید.
-- در **Email Campaign For** مشخص کنید کارزار برای Lead، Contact یا Email Group باشد تا بتوانید به چند مخاطب ایمیل بفرستید.
-- در **Recipient**، Lead، Contact یا Email Group موردنظر را انتخاب کنید.
+- در **Email Campaign For** مشخص کنید کارزار برای سرنخ، Contact یا Email Group باشد تا بتوانید به چند مخاطب ایمیل بفرستید.
+- در **Recipient**، سرنخ، Contact یا Email Group موردنظر را انتخاب کنید.
 - در **Sender**، کاربر سامانه‌ای را انتخاب کنید که ایمیل‌ها را می‌فرستد.
 - سند را ذخیره کنید.
 
@@ -67,7 +67,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### لغو اشتراک از Email Campaign
 
-اگر Lead یا Contact دیگر نخواهد ایمیل‌های مربوط به کارزار را دریافت کند، می‌تواند با پیوند لغو اشتراکی که در ایمیل آمده است از Email Campaign خارج شود.
+اگر سرنخ یا Contact دیگر نخواهد ایمیل‌های مربوط به کارزار را دریافت کند، می‌تواند با پیوند لغو اشتراکی که در ایمیل آمده است از Email Campaign خارج شود.
 
 ![پیوند لغو اشتراک](https://docs.frappe.io/files/unsubscribe-link.png)
 
@@ -75,9 +75,9 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ![وضعیت لغو اشتراک](https://docs.frappe.io/files/email-campaign-unsubscribed.png)
 
-### استفاده از فیلدهای Lead یا Contact در قالب ایمیل
+### استفاده از فیلدهای سرنخ یا Contact در قالب ایمیل
 
-قالب ایمیل به سندی دسترسی دارد که در فیلد **Email Campaign For** مشخص کرده‌اید. برای نمایش فیلدهای سند Lead یا Contact در قالب، از الگوی `doc.fieldname` استفاده کنید.
+قالب ایمیل به سندی دسترسی دارد که در فیلد **Email Campaign For** مشخص کرده‌اید. برای نمایش فیلدهای سند سرنخ یا Contact در قالب، از الگوی `doc.fieldname` استفاده کنید.
 
 برای نمونه، اگر **Email Campaign For** برابر Contact باشد، می‌توانید نام کوچک مخاطب را در قالب ایمیل با `doc.first_name` درج کنید؛ همان‌طور که در تصویر زیر آمده است:
 
@@ -94,14 +94,14 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - **Scheduled**: کارزار هنوز آغاز نشده و برای **Start Date** آینده زمان‌بندی شده است.
 - **In Progress**: در فاصلهٔ **Start Date** تا **End Date** کارزار.
 - **Completed**: پس از **End Date** وضعیت به Completed تغییر می‌کند.
-- **Unsubscribed**: Lead یا Contact اشتراک خود را از کارزار لغو کرده است.
+- **Unsubscribed**: سرنخ یا Contact اشتراک خود را از کارزار لغو کرده است.
 
 ![وضعیت Email Campaign](https://docs.frappe.io/files/email-campaign-status.png)
 
 ## موضوعات مرتبط
 
-- [Campaign](/erpnext/campaign)
-- [Lead](/erpnext/lead)
-- [Contact](/erpnext/contact)
+- [کارزار بازاریابی](campaign.md)
+- [سرنخ](https://docs.frappe.io/erpnext/lead)
+- [مخاطب (Contact)](contact.md)
 
-بعدی: [Newsletter](/erpnext/newsletter)
+بعدی: [راهنمای «Newsletter | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/newsletter)

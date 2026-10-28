@@ -23,9 +23,9 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## پیش از شروع
 
-مطمئن شوید سند در وضعیت Draft است و دست‌کم دو ارز درگیرند. اگر تراکنش و حساب‌های آن همگی با ارز شرکت باشند، به نرخ تبدیل نیازی نیست. مجوز نوشتن کاربر برای تراکنش و [Accounts Settings](/erpnext/accounts-settings) را بررسی کنید.
+مطمئن شوید سند در وضعیت Draft است و دست‌کم دو ارز درگیرند. اگر تراکنش و حساب‌های آن همگی با ارز شرکت باشند، به نرخ تبدیل نیازی نیست. مجوز نوشتن کاربر برای تراکنش و [تنظیمات حساب‌ها](accounts-settings.md) را بررسی کنید.
 
-برچسب نرخ را با دقت بخوانید. `1 EUR = 1.15 USD` جهت تبدیل را مشخص می‌کند، نه یک نسبت عمومی. رکورد [Currency Exchange](/erpnext/currency-exchange) را برای همان جهت و تاریخ بررسی کنید.
+برچسب نرخ را با دقت بخوانید. `1 EUR = 1.15 USD` جهت تبدیل را مشخص می‌کند، نه یک نسبت عمومی. رکورد [نرخ تبدیل ارز (Currency Exchange)](currency-exchange.md) را برای همان جهت و تاریخ بررسی کنید.
 
 ## بررسی Allow Stale Exchange Rates
 
@@ -56,7 +56,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## اگر به نرخ روز ارائه‌دهنده نیاز دارید
 
-نرخ‌های stale را غیرفعال کنید یا مطمئن شوید رکورد دستی واجد شرایطی وجود ندارد که در اولویت قرار گیرد. [Currency Exchange Settings](/erpnext/currency-exchange-settings) را بررسی کنید و مطمئن شوید ارائه‌دهنده از جفت‌ارز و تاریخ تاریخی موردنظر پشتیبانی می‌کند.
+نرخ‌های stale را غیرفعال کنید یا مطمئن شوید رکورد دستی واجد شرایطی وجود ندارد که در اولویت قرار گیرد. [تنظیمات نرخ تبدیل ارز](currency-exchange-settings.md) را بررسی کنید و مطمئن شوید ارائه‌دهنده از جفت‌ارز و تاریخ تاریخی موردنظر پشتیبانی می‌کند.
 
 ERPNext ابتدا رکورد ذخیره‌شدهٔ واجد شرایط را جست‌وجو می‌کند. ارائه‌دهنده راهکار جایگزین است؛ بنابراین تغییر تنظیمات ارائه‌دهنده، رکورد دستیِ مطابق را کنار نمی‌زند.
 
@@ -64,7 +64,7 @@ ERPNext ابتدا رکورد ذخیره‌شدهٔ واجد شرایط را ج�
 
 1. تراکنش را در وضعیت Draft نگه دارید.
 2. **Currency** خارجی درست را انتخاب کنید.
-3. ارزهای حساب دریافتنی، پرداختنی، بانکی یا نقدی [Account](/erpnext/chart-of-accounts) را تأیید کنید.
+3. ارزهای حساب دریافتنی، پرداختنی، بانکی یا نقدی [Chart of Accounts](chart-of-accounts.md) را تأیید کنید.
 4. فیلد Exchange Rate و جهت تبدیل آن را بررسی کنید.
 5. اگر فیلد قابل‌ویرایش است، نرخ تأییدشده را وارد کنید.
 6. جمع تراکنش و جمع به ارز شرکت را با هم مقایسه کنید.
@@ -72,11 +72,11 @@ ERPNext ابتدا رکورد ذخیره‌شدهٔ واجد شرایط را ج�
 
 ![Exchange Rate در پیش‌نویس فاکتور فروش EUR](https://novacompanies.m.frappe.cloud/files/docs-multi-currency-2026-sales-invoice-eur-currency-rate.png)
 
-**Price List Exchange Rate** فیلد دیگری است. این فیلد ارز [Price List](/erpnext/price-lists) را به ارز تراکنش تبدیل می‌کند. اگر مشکل مربوط به تبدیل حسابداری میان ارز تراکنش و ارز شرکت است، این فیلد را تغییر ندهید.
+**Price List Exchange Rate** فیلد دیگری است. این فیلد ارز [راهنمای «Price Lists» در ERPNext](https://docs.frappe.io/erpnext/price-lists) را به ارز تراکنش تبدیل می‌کند. اگر مشکل مربوط به تبدیل حسابداری میان ارز تراکنش و ارز شرکت است، این فیلد را تغییر ندهید.
 
 ## تراکنش‌های ثبت نهایی‌شده
 
-یک [Sales Invoice](/erpnext/sales-invoice)، [Purchase Invoice](/erpnext/purchase-invoice) یا [Payment Entry](/erpnext/payment-entry) ثبت نهایی‌شده، رویدادی حسابداری را نشان می‌دهد. ERPNext برای حفظ ردپای حسابرسی، فیلدهای مؤثر را قفل می‌کند. اگر نرخ به‌طور قابل‌توجهی اشتباه است، فرایند لغو و اصلاح سند را دنبال کنید؛ مشروط به مجوزها، رکوردهای پیوندخورده، قواعد [دفتر کل تغییرناپذیر](/erpnext/immutable-ledger-in-erpnext) و [دورهٔ حسابداری](/erpnext/accounting-period) باز.
+یک [راهنمای «Sales Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/sales-invoice)، [راهنمای «Purchase Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-invoice) یا [راهنمای «Payment Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-entry) ثبت نهایی‌شده، رویدادی حسابداری را نشان می‌دهد. ERPNext برای حفظ ردپای حسابرسی، فیلدهای مؤثر را قفل می‌کند. اگر نرخ به‌طور قابل‌توجهی اشتباه است، فرایند لغو و اصلاح سند را دنبال کنید؛ مشروط به مجوزها، رکوردهای پیوندخورده، قواعد [دفتر کل تغییرناپذیر](https://docs.frappe.io/erpnext/immutable-ledger-in-erpnext) و [دورهٔ حسابداری](accounting-period.md) باز.
 
 رکورد Currency Exchange را تغییر ندهید و انتظار نداشته باشید سندهای ثبت نهایی‌شدهٔ قبلی عوض شوند. آن سندها نرخ ذخیره‌شدهٔ خود را حفظ می‌کنند.
 
@@ -136,8 +136,8 @@ Exchange Rate را از Price List Exchange Rate جدا در نظر بگیرید
 
 ## موضوعات مرتبط
 
-- [Currency Exchange](/erpnext/currency-exchange)
-- [تنظیمات Currency Exchange](/erpnext/currency-exchange-settings)
-- [Accounts Settings](/erpnext/accounts-settings)
-- [مدیریت تراکنش‌ها با چند ارز](/erpnext/managing-transactions-in-multiple-currencies)
-- [مدیریت اختلاف نرخ ارز](/erpnext/manage-foreign-exchange-difference)
+- [نرخ تبدیل ارز (Currency Exchange)](currency-exchange.md)
+- [تنظیمات Currency Exchange](currency-exchange-settings.md)
+- [تنظیمات حساب‌ها](accounts-settings.md)
+- [مدیریت تراکنش‌ها با چند ارز](https://docs.frappe.io/erpnext/managing-transactions-in-multiple-currencies)
+- [مدیریت اختلاف نرخ ارز](https://docs.frappe.io/erpnext/manage-foreign-exchange-difference)

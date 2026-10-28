@@ -15,7 +15,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 >
 > تصویرها در این مخزن بازنشر نشده‌اند و پیوندشان به فایل میزبان منبع اشاره می‌کند.
 
-در یک تراکنش خرید، مالیات یا هزینه می‌تواند بر مبلغی که به تأمین‌کننده بدهکارید، ارزش تخصیص‌یافته به موجودی دریافتی، یا هر دو اثر بگذارد. ERPNext این دو اثر را با گزینهٔ **Consider Tax or Charge for** در هر ردیف [Purchase Taxes and Charges Template](/erpnext/purchase-taxes-and-charges-template) جدا می‌کند.
+در یک تراکنش خرید، مالیات یا هزینه می‌تواند بر مبلغی که به تأمین‌کننده بدهکارید، ارزش تخصیص‌یافته به موجودی دریافتی، یا هر دو اثر بگذارد. ERPNext این دو اثر را با گزینهٔ **Consider Tax or Charge for** در هر ردیف [راهنمای «Purchase Taxes and Charges Template\n» در ERPNext](https://docs.frappe.io/erpnext/purchase-taxes-and-charges-template) جدا می‌کند.
 
 این انتخاب مهم است، چون بدهی به تأمین‌کننده و ارزش‌گذاری موجودی به دو پرسش متفاوت پاسخ می‌دهند:
 
@@ -28,7 +28,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## پیش از شروع
 
-مشخص کنید چه کسی مبلغ را دریافت می‌کند و آیا هزینه باید بخشی از ارزش موجودی باشد. از حسابدار بپرسید سیاست حسابداری شما این هزینه را چگونه باید ثبت کند. همچنین بررسی کنید حساب مالیات، حمل یا هزینهٔ مربوط در [Chart of Accounts](/erpnext/chart-of-accounts) وجود داشته باشد.
+مشخص کنید چه کسی مبلغ را دریافت می‌کند و آیا هزینه باید بخشی از ارزش موجودی باشد. از حسابدار بپرسید سیاست حسابداری شما این هزینه را چگونه باید ثبت کند. همچنین بررسی کنید حساب مالیات، حمل یا هزینهٔ مربوط در [Chart of Accounts](chart-of-accounts.md) وجود داشته باشد.
 
 فقط زمانی **Total** یا **Valuation and Total** را انتخاب کنید که مبلغ باید به بدهی ایجادشده برای تأمین‌کننده در همین سند خرید اضافه شود. **Valuation** را زمانی انتخاب کنید که مبلغ باید به موجودی تخصیص یابد، اما در این سند بدهی به این تأمین‌کننده نباشد.
 
@@ -50,11 +50,11 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 | Valuation | افزایش نمی‌یابد | افزایش می‌یابد | کرایه‌ای که جداگانه پرداخت شده، اما از طریق این رسید یا فاکتور به موجودی تخصیص می‌یابد. |
 | Valuation and Total | افزایش می‌یابد | افزایش می‌یابد | تأمین‌کننده کرایه را دریافت می‌کند و کرایه بخشی از بهای تمام‌شدهٔ موجودی است. |
 
-**Type** تعیین می‌کند ERPNext مبلغ ردیف را چگونه محاسبه کند. **Consider Tax or Charge for** تعیین می‌کند آن مبلغ کجا اثر بگذارد. این‌ها دو انتخاب جداگانه‌اند. برای روش‌های محاسبه، [Types in Tax Template](/erpnext/types-in-tax-template) را ببینید.
+**Type** تعیین می‌کند ERPNext مبلغ ردیف را چگونه محاسبه کند. **Consider Tax or Charge for** تعیین می‌کند آن مبلغ کجا اثر بگذارد. این‌ها دو انتخاب جداگانه‌اند. برای روش‌های محاسبه، [راهنمای «Types in Tax Template» در ERPNext](https://docs.frappe.io/erpnext/types-in-tax-template) را ببینید.
 
 ## افزودن هزینه‌ای که فقط بر Total اثر می‌گذارد
 
-وقتی هزینه باید مبلغ قابل پرداخت در [Purchase Invoice](/erpnext/purchase-invoice) را افزایش دهد، اما نباید به ارزش‌گذاری کالا تخصیص یابد، **Total** را انتخاب کنید.
+وقتی هزینه باید مبلغ قابل پرداخت در [راهنمای «Purchase Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-invoice) را افزایش دهد، اما نباید به ارزش‌گذاری کالا تخصیص یابد، **Total** را انتخاب کنید.
 
 در این مثال:
 
@@ -88,7 +88,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ![کرایهٔ مختص ارزش‌گذاری از جمع فاکتور خرید کنار گذاشته شده است](https://novacompanies.m.frappe.cloud/files/docs-tax-compliance-20260803-taxes-compliance-tax-calculation-valuation-only-result.png)
 
-برای ردیف Valuation از حساب واسط یا هزینهٔ مناسبی استفاده کنید. منبع کرایه‌ای که جداگانه پرداخت شده نیز باید درست ثبت شود؛ برای نمونه، از طریق فاکتور تأمین‌کنندهٔ دیگر یا [Landed Cost Voucher](/erpnext/landed-cost-voucher)، بسته به گردش‌کار.
+برای ردیف Valuation از حساب واسط یا هزینهٔ مناسبی استفاده کنید. منبع کرایه‌ای که جداگانه پرداخت شده نیز باید درست ثبت شود؛ برای نمونه، از طریق فاکتور تأمین‌کنندهٔ دیگر یا [راهنمای «Landed cost Voucher» در ERPNext](https://docs.frappe.io/erpnext/landed-cost-voucher)، بسته به گردش‌کار.
 
 ## افزودن هزینه به Valuation و Total
 
@@ -110,7 +110,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## درک اثر حسابداری و موجودی
 
-تراکنش خرید ثبت‌نهایی‌شده ممکن است هم بر [General Ledger](/erpnext/general-ledger) و هم بر [Stock Ledger](/erpnext/stock-ledger) اثر بگذارد. ثبت دقیق به این بستگی دارد که موجودی از طریق [Purchase Receipt](/erpnext/purchase-receipt)، گزینهٔ **Update Stock** در Purchase Invoice یا گردش‌کار موجودی دائمی دیگری به‌روز شود.
+تراکنش خرید ثبت‌نهایی‌شده ممکن است هم بر [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger) و هم بر [Stock Ledger گزارش](https://docs.frappe.io/erpnext/stock-ledger) اثر بگذارد. ثبت دقیق به این بستگی دارد که موجودی از طریق [راهنمای «Purchase Receipt | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-receipt)، گزینهٔ **Update Stock** در Purchase Invoice یا گردش‌کار موجودی دائمی دیگری به‌روز شود.
 
 | نحوهٔ ثبت | اثر بر بدهی | اثر بر ارزش موجودی |
 | --- | --- | --- |
@@ -137,7 +137,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 5. **Accounting Ledger** را باز کنید و ثبت بدهی و مالیات را تأیید کنید.
 6. دفتر موجودی یا گزارش ارزش‌گذاری را باز کنید و اثر بر موجودی را بررسی کنید.
 
-اگر قالب به‌طور خودکار دوباره استفاده می‌شود، پیش از قراردادن آن به‌عنوان پیش‌فرض شرکت یا اعمال از طریق [Tax Rule](/erpnext/tax-rule)، آزمایشش کنید.
+اگر قالب به‌طور خودکار دوباره استفاده می‌شود، پیش از قراردادن آن به‌عنوان پیش‌فرض شرکت یا اعمال از طریق [راهنمای «Tax Rule\n» در ERPNext](https://docs.frappe.io/erpnext/tax-rule)، آزمایشش کنید.
 
 ## عیب‌یابی
 
@@ -181,9 +181,9 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## موضوعات مرتبط
 
-- [Purchase Taxes and Charges Template](/erpnext/purchase-taxes-and-charges-template)
-- [Purchase Invoice](/erpnext/purchase-invoice)
-- [Purchase Receipt](/erpnext/purchase-receipt)
-- [Landed Cost Voucher](/erpnext/landed-cost-voucher)
-- [Types in Tax Template](/erpnext/types-in-tax-template)
-- [Perpetual Inventory](/erpnext/perpetual-inventory)
+- [راهنمای «Purchase Taxes and Charges Template\n» در ERPNext](https://docs.frappe.io/erpnext/purchase-taxes-and-charges-template)
+- [راهنمای «Purchase Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-invoice)
+- [راهنمای «Purchase Receipt | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-receipt)
+- [راهنمای «Landed cost Voucher» در ERPNext](https://docs.frappe.io/erpnext/landed-cost-voucher)
+- [راهنمای «Types in Tax Template» در ERPNext](https://docs.frappe.io/erpnext/types-in-tax-template)
+- [راهنمای «Perpetual Inventory\n» در ERPNext](https://docs.frappe.io/erpnext/perpetual-inventory)

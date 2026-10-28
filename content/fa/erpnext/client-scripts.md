@@ -25,7 +25,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای ایجاد Custom Script باید نقش **System Manager** داشته باشید:
 
-1. به فهرست **Custom Script** بروید و روی **New** کلیک کنید.
+1. به فهرست **Custom Script** بروید و روی **جدید** کلیک کنید.
 2. صفحه‌ای باز می‌شود که در آن باید DocTypeای را که می‌خواهید برایش Custom Script بسازید وارد کنید.
 3. اسکریپت سفارشی خود را بنویسید و مطمئن شوید فعال است.
 4. ذخیره کنید.

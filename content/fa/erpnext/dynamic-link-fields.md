@@ -17,9 +17,9 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 فیلد **Dynamic Link** می‌تواند مقدار مربوط به هر DocType را جست‌وجو و نگه‌داری کند. برای آشنایی با کارکرد آن، این مثال را در نظر بگیرید.
 
-هنگام ایجاد Opportunity یا Quotation، باید مشخص کنیم که سند برای یک Lead است یا یک Customer. بر اساس انتخاب (Lead یا Customer)، فیلد پیوند دیگری ظاهر می‌شود تا Lead یا Customer مشخص را انتخاب کنیم.
+هنگام ایجاد فرصت فروش یا Quotation، باید مشخص کنیم که سند برای یک سرنخ است یا یک مشتری. بر اساس انتخاب (سرنخ یا مشتری)، فیلد پیوند دیگری ظاهر می‌شود تا سرنخ یا مشتری مشخص را انتخاب کنیم.
 
-اگر فیلد دوم، یعنی فیلدی که Lead یا Customer مشخص را در آن انتخاب می‌کنیم، از نوع Dynamic Link باشد، به‌طور خودکار به رکوردِ DocType انتخاب‌شده در فیلد نخست (یعنی Leads یا Customers) پیوند می‌خورد. در نتیجه، لازم نیست برای Customer و Lead فیلدهای پیوند جداگانه بسازیم.
+اگر فیلد دوم، یعنی فیلدی که سرنخ یا مشتری مشخص را در آن انتخاب می‌کنیم، از نوع Dynamic Link باشد، به‌طور خودکار به رکوردِ DocType انتخاب‌شده در فیلد نخست (یعنی Leads یا Customers) پیوند می‌خورد. در نتیجه، لازم نیست برای مشتری و سرنخ فیلدهای پیوند جداگانه بسازیم.
 
 مراحل زیر برای افزودن یک فیلد پویا به‌صورت سفارشی است. در این نمونه، Dynamic Link را به Journal Entry اضافه می‌کنیم.
 
@@ -29,15 +29,15 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ![فیلد Link سفارشی](https://docs.frappe.io/files/customize-dynamic-link-1.gif)
 
-در این مثال، منظور از **DocType** در فیلد Option، DocType والد است. برای نمونه، Quotation یک DocType است و چندین Quotation به‌صورت رکوردهای آن وجود دارند. به همین ترتیب، DocType نیز یک DocType است که رکوردهای DocType دیگری مانند Sales Order، Purchase Order و موارد دیگر را در خود نگه می‌دارد.
+در این مثال، منظور از **DocType** در فیلد Option، DocType والد است. برای نمونه، Quotation یک DocType است و چندین Quotation به‌صورت رکوردهای آن وجود دارند. به همین ترتیب، DocType نیز یک DocType است که رکوردهای DocType دیگری مانند سفارش فروش، سفارش خرید و موارد دیگر را در خود نگه می‌دارد.
 
 برخی از DocTypeها:
 
-- Sales Order
+- سفارش فروش
 - Purchase Invoice
 - Quotation
 - Sales Invoice
-- Employee
+- کارمند
 - Work Order
 - و موارد دیگر
 
@@ -47,11 +47,11 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 #### گام 2: افزودن فیلد Dynamic Link
 
-نوع این Custom Field را **Dynamic Link** قرار دهید. در فیلد Option، نام فیلد DocType Link را وارد کنید.
+نوع این Custom فیلد را **Dynamic Link** قرار دهید. در فیلد Option، نام فیلد DocType Link را وارد کنید.
 
 ![فیلد Dynamic سفارشی](https://docs.frappe.io/files/customize-dynamic-link-2.gif)
 
-این فیلد اجازه می‌دهد شناسهٔ سندی را انتخاب کنید که نوع آن بر اساس مقدار انتخاب‌شده در فیلد DocType Link تعیین می‌شود. برای نمونه، اگر در فیلد قبلی Sales Order را انتخاب کنیم، فیلد Dynamic Link شناسه‌های Sales Order را برای انتخاب نمایش می‌دهد.
+این فیلد اجازه می‌دهد شناسهٔ سندی را انتخاب کنید که نوع آن بر اساس مقدار انتخاب‌شده در فیلد DocType Link تعیین می‌شود. برای نمونه، اگر در فیلد قبلی سفارش فروش را انتخاب کنیم، فیلد Dynamic Link شناسه‌های سفارش فروش را برای انتخاب نمایش می‌دهد.
 
 ![انتخاب شناسهٔ سند در فیلد Dynamic Link](https://docs.frappe.io/files/customize-dynamic-link-3.gif)
 

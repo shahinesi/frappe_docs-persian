@@ -24,13 +24,13 @@ flowchart LR
     PI --> PE[Payment Entry]
 ```
 
-[Material Request](https://docs.frappe.io/erpnext/material-request)، [Request for Quotation](https://docs.frappe.io/erpnext/request-for-quotation) و [Supplier Quotation](https://docs.frappe.io/erpnext/supplier-quotation) سندهای اختیاری برای برنامه‌ریزی و مقایسه‌اند. آن‌ها به تصمیم‌گیری دربارهٔ کالای موردنیاز و تأمین‌کننده کمک می‌کنند، اما موجودی را جابه‌جا نمی‌کنند و ثبت حسابداری ایجاد نمی‌کنند.
+[راهنمای «Material Request | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/material-request)، [راهنمای «Request for Quotation | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/request-for-quotation) و [تأمین‌کننده Quotation](https://docs.frappe.io/erpnext/supplier-quotation) سندهای اختیاری برای برنامه‌ریزی و مقایسه‌اند. آن‌ها به تصمیم‌گیری دربارهٔ کالای موردنیاز و تأمین‌کننده کمک می‌کنند، اما موجودی را جابه‌جا نمی‌کنند و ثبت حسابداری ایجاد نمی‌کنند.
 
-[Purchase Order](https://docs.frappe.io/erpnext/purchase-order) تعهد تجاری شما به تأمین‌کننده است. اقلام توافق‌شده، مقدارها، نرخ‌ها، تاریخ‌های تحویل، مالیات و شرایط را ثبت می‌کند. ثبت نهایی آن به موجودی اضافه نمی‌کند و در General Ledger هم سندی ایجاد نمی‌کند.
+[سفارش خرید](purchase-order.md) تعهد تجاری شما به تأمین‌کننده است. اقلام توافق‌شده، مقدارها، نرخ‌ها، تاریخ‌های تحویل، مالیات و شرایط را ثبت می‌کند. ثبت نهایی آن به موجودی اضافه نمی‌کند و در دفترکل کل هم سندی ایجاد نمی‌کند.
 
-[Purchase Receipt](https://docs.frappe.io/erpnext/purchase-receipt) آنچه را که واقعاً تحویل گرفته‌اید ثبت می‌کند. برای اقلام انبارشونده، موجودی را افزایش می‌دهد و در صورت فعال‌بودن موجودی دائمی، ثبت حسابداری متناظر موجودی را هم ایجاد می‌کند. با رسید جزئی، مقدار باقیماندهٔ سفارش باز می‌ماند.
+[راهنمای «Purchase Receipt | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-receipt) آنچه را که واقعاً تحویل گرفته‌اید ثبت می‌کند. برای اقلام انبارشونده، موجودی را افزایش می‌دهد و در صورت فعال‌بودن موجودی دائمی، ثبت حسابداری متناظر موجودی را هم ایجاد می‌کند. با رسید جزئی، مقدار باقیماندهٔ سفارش باز می‌ماند.
 
-[Purchase Invoice](https://docs.frappe.io/erpnext/purchase-invoice) مبلغی را که تأمین‌کننده صورتحساب کرده است ثبت می‌کند و سندهای حسابداری پرداختنی و هزینه، دارایی یا موجودی را می‌سازد. [Payment Entry](https://docs.frappe.io/erpnext/payment-entry) وجه پرداخت‌شده را ثبت و ماندهٔ بدهی به تأمین‌کننده را کاهش می‌دهد.
+[راهنمای «Purchase Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-invoice) مبلغی را که تأمین‌کننده صورتحساب کرده است ثبت می‌کند و سندهای حسابداری پرداختنی و هزینه، دارایی یا موجودی را می‌سازد. [راهنمای «Payment Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-entry) وجه پرداخت‌شده را ثبت و ماندهٔ بدهی به تأمین‌کننده را کاهش می‌دهد.
 
 ![Purchase Order ثبت‌نهایی‌شده برای Keystone Cables، پیش از دریافت یا صدور صورتحساب](https://docs.frappe.io/files/purchase-order-commitment.png)
 
@@ -49,7 +49,7 @@ flowchart LR
     PI --> PE[Payment Entry]
 ```
 
-Purchase Order تعهد را ثبت می‌کند، Purchase Receipt بر موجودی اثر می‌گذارد، Purchase Invoice بر General Ledger و ماندهٔ تأمین‌کننده اثر دارد و Payment Entry مانده را تسویه می‌کند. در صورت نیاز به تأیید، دریافت چند پیشنهاد یا بازرسی ورودی، می‌توانید Material Request، RFQ، Supplier Quotation و [Quality Inspection](https://docs.frappe.io/erpnext/quality-inspection) را هم اضافه کنید.
+سفارش خرید تعهد را ثبت می‌کند، Purchase Receipt بر موجودی اثر می‌گذارد، Purchase Invoice بر دفترکل کل و ماندهٔ تأمین‌کننده اثر دارد و Payment Entry مانده را تسویه می‌کند. در صورت نیاز به تأیید، دریافت چند پیشنهاد یا بازرسی ورودی، می‌توانید Material Request، RFQ، تأمین‌کننده Quotation و [راهنمای «Quality Inspection» در ERPNext](https://docs.frappe.io/erpnext/quality-inspection) را هم اضافه کنید.
 
 ### صورتحساب مستقیم همراه با به‌روزرسانی موجودی
 
@@ -72,11 +72,11 @@ flowchart LR
     PI --> PE[Payment Entry]
 ```
 
-وقتی خدمت به تأیید یا تعهد رسمی نیاز دارد، Purchase Order مفید است. معمولاً Purchase Receipt لازم نیست، چون کالایی برای دریافت در انبار وجود ندارد. Purchase Invoice هزینه و بدهی پرداختنی را ثبت می‌کند و Payment Entry تسویه را ثبت می‌کند.
+وقتی خدمت به تأیید یا تعهد رسمی نیاز دارد، سفارش خرید مفید است. معمولاً Purchase Receipt لازم نیست، چون کالایی برای دریافت در انبار وجود ندارد. Purchase Invoice هزینه و بدهی پرداختنی را ثبت می‌کند و Payment Entry تسویه را ثبت می‌کند.
 
 ### تولید پیمانکاری
 
-ممکن است تولیدکننده مواد اولیه را برای بخشی از فرایند تولید به تأمین‌کننده بفرستد. وقتی Nova قطعه‌ها را به شریک مونتاژ می‌سپارد و کالای نهایی یا نیمه‌ساخته را تحویل می‌گیرد، از [Subcontracting](https://docs.frappe.io/erpnext/subcontracting) استفاده کنید.
+ممکن است تولیدکننده مواد اولیه را برای بخشی از فرایند تولید به تأمین‌کننده بفرستد. وقتی Nova قطعه‌ها را به شریک مونتاژ می‌سپارد و کالای نهایی یا نیمه‌ساخته را تحویل می‌گیرد، از [راهنمای «Subcontracting» در ERPNext](https://docs.frappe.io/erpnext/subcontracting) استفاده کنید.
 
 ```mermaid
 flowchart LR
@@ -90,23 +90,23 @@ flowchart LR
 
 ## ساخت مستقیم سند بعدی چه پیامدی دارد؟
 
-ERPNext می‌تواند اجازه دهد Purchase Receipt یا Purchase Invoice بدون Purchase Order ایجاد شود و صورتحساب نیز بدون رسید ساخته شود. این قواعد در [Buying Settings](https://docs.frappe.io/erpnext/buying-settings) کنترل می‌شوند و برای صدور مستقیم صورتحساب ممکن است استثناهایی در سطح تأمین‌کننده وجود داشته باشد.
+ERPNext می‌تواند اجازه دهد Purchase Receipt یا Purchase Invoice بدون سفارش خرید ایجاد شود و صورتحساب نیز بدون رسید ساخته شود. این قواعد در [تنظیمات خرید](buying-settings.md) کنترل می‌شوند و برای صدور مستقیم صورتحساب ممکن است استثناهایی در سطح تأمین‌کننده وجود داشته باشد.
 
-سند مستقیم همچنان اثر معمول خودش بر موجودی یا حسابداری را دارد؛ اما پیوند آن با تعهد قبلی از دست می‌رود. برای مثال، Purchase Invoice مستقیم بدهی پرداختنی را ثبت می‌کند، اما پیشرفت دریافت یا صدور صورتحساب Purchase Orderای را که به آن ارجاع نشده به‌روز نمی‌کند.
+سند مستقیم همچنان اثر معمول خودش بر موجودی یا حسابداری را دارد؛ اما پیوند آن با تعهد قبلی از دست می‌رود. برای مثال، Purchase Invoice مستقیم بدهی پرداختنی را ثبت می‌کند، اما پیشرفت دریافت یا صدور صورتحساب سفارش خریدای را که به آن ارجاع نشده به‌روز نمی‌کند.
 
 برای گردش‌کارهای واقعاً کوتاه از سند مستقیم استفاده کنید، نه برای دورزدن سفارش یا رسیدی که از قبل وجود دارد. ساخت صورتحساب دوم و بدون پیوند می‌تواند بدهی به تأمین‌کننده را بیش از مقدار واقعی نشان دهد.
 
 ## شروع با اطلاعات پایهٔ خرید
 
-برای هر طرف بیرونی که از او خرید می‌کنید، یک [Supplier](https://docs.frappe.io/erpnext/supplier) ایجاد کنید. در این مثال، Keystone Cables آداپتور برق و کابل را برای Nova Industries تأمین می‌کند. در رکورد Supplier می‌توان مقدارهای پیش‌فرضی مانند ارز، فهرست قیمت، شرایط پرداخت، دستهٔ مالیاتی و حساب‌های پرداختنی مختص شرکت را نگه داشت.
+برای هر طرف بیرونی که از او خرید می‌کنید، یک [تأمین‌کننده](https://docs.frappe.io/erpnext/supplier) ایجاد کنید. در این مثال، Keystone Cables آداپتور برق و کابل را برای Nova Industries تأمین می‌کند. در رکورد تأمین‌کننده می‌توان مقدارهای پیش‌فرضی مانند ارز، فهرست قیمت، شرایط پرداخت، دستهٔ مالیاتی و حساب‌های پرداختنی مختص شرکت را نگه داشت.
 
-برای محصول‌ها، مواد اولیه، دارایی‌ها یا خدماتی که می‌خرید، Item ایجاد کنید. پیش از ورود کاربران به تراکنش‌ها، انبارهای کالای فیزیکی، Price Listهای خرید برای نرخ‌های قابل‌استفادهٔ مجدد، مالیات‌ها و شرایط پرداخت را پیکربندی کنید.
+برای محصول‌ها، مواد اولیه، دارایی‌ها یا خدماتی که می‌خرید، کالا ایجاد کنید. پیش از ورود کاربران به تراکنش‌ها، انبارهای کالای فیزیکی، Price Listهای خرید برای نرخ‌های قابل‌استفادهٔ مجدد، مالیات‌ها و شرایط پرداخت را پیکربندی کنید.
 
 Buying Settings را با تیم‌های خرید، انبار، مالی و تولید بازبینی کنید. تنظیمات در کل سایت اعمال می‌شوند و می‌توانند الزام به سفارش یا رسید، کنترل تغییر نرخ، تعیین دامنهٔ مجاز مقدار و خودکارسازی بخشی از پیمانکاری را فعال کنند.
 
 ## پایش فرایندهای خرید
 
-از فضای کاری Buying برای مشاهدهٔ سفارش‌هایی استفاده کنید که هنوز باید دریافت یا صورتحساب شوند. [Purchase Analytics](https://docs.frappe.io/erpnext/purchase-analytics) خرید را بر اساس تأمین‌کننده، قلم، دوره یا بُعدهای دیگر مقایسه می‌کند. Accounts Payable صورتحساب‌های تسویه‌نشده را نشان می‌دهد و گزارش‌های موجودی مشخص می‌کنند چه چیزی به هر انبار رسیده است.
+از فضای کاری Buying برای مشاهدهٔ سفارش‌هایی استفاده کنید که هنوز باید دریافت یا صورتحساب شوند. [Purchase Analytics](https://docs.frappe.io/erpnext/purchase-analytics) خرید را بر اساس تأمین‌کننده، قلم، دوره یا بُعدهای دیگر مقایسه می‌کند. حساب‌های پرداختنی صورتحساب‌های تسویه‌نشده را نشان می‌دهد و گزارش‌های موجودی مشخص می‌کنند چه چیزی به هر انبار رسیده است.
 
 وضعیت سند نیز مفید است. سفارش با وضعیت **To Receive and Bill** هنوز به هر دو اقدام نیاز دارد. **To Receive** یعنی صورتحساب کامل شده اما دریافت کامل نیست. **To Bill** یعنی کالا دریافت شده اما صورتحساب تأمین‌کننده هنوز نرسیده است. **Completed** یعنی مقدار هر دو کامل شده است.
 
@@ -114,19 +114,19 @@ Buying Settings را با تیم‌های خرید، انبار، مالی و ت
 
 ### آیا هر خریدی باید با Material Request شروع شود؟
 
-خیر. Material Request اختیاری است و زمانی مفید است که تیم دیگری نیاز را مطرح کند یا خرید به صف تأیید نیاز داشته باشد. وقتی نیاز قبلاً تأیید شده، خریدار مجاز می‌تواند مستقیماً Purchase Order بسازد.
+خیر. Material Request اختیاری است و زمانی مفید است که تیم دیگری نیاز را مطرح کند یا خرید به صف تأیید نیاز داشته باشد. وقتی نیاز قبلاً تأیید شده، خریدار مجاز می‌تواند مستقیماً سفارش خرید بسازد.
 
-### آیا Purchase Order یک سند حسابداری است؟
+### آیا سفارش خرید یک سند حسابداری است؟
 
-Purchase Order تعهد و تحویل موردانتظار را ثبت می‌کند، نه سند حسابداری را. بسته به گردش‌کار، حسابداری وقتی آغاز می‌شود که کالا در حالت موجودی دائمی دریافت شود یا صورتحساب تأمین‌کننده ثبت نهایی شود.
+سفارش خرید تعهد و تحویل موردانتظار را ثبت می‌کند، نه سند حسابداری را. بسته به گردش‌کار، حسابداری وقتی آغاز می‌شود که کالا در حالت موجودی دائمی دریافت شود یا صورتحساب تأمین‌کننده ثبت نهایی شود.
 
 ### آیا برای خدمات می‌توان Purchase Receipt ساخت؟
 
-بله، اما بیشتر خریدهای خدماتی به آن نیاز ندارند، چون جابه‌جایی موجودی ندارند. اگر تأیید اهمیت دارد Purchase Order بسازید و پس از صدور صورتحساب خدمت از طرف تأمین‌کننده، Purchase Invoice ایجاد کنید.
+بله، اما بیشتر خریدهای خدماتی به آن نیاز ندارند، چون جابه‌جایی موجودی ندارند. اگر تأیید اهمیت دارد سفارش خرید بسازید و پس از صدور صورتحساب خدمت از طرف تأمین‌کننده، Purchase Invoice ایجاد کنید.
 
-### آیا می‌توان یک Purchase Order را چندبخشی دریافت یا صورتحساب کرد؟
+### آیا می‌توان یک سفارش خرید را چندبخشی دریافت یا صورتحساب کرد؟
 
-بله. از یک Purchase Order چند Purchase Receipt یا Purchase Invoice بسازید. ERPNext مقدارهای تکمیل‌شده و باقیمانده را در هر ردیف قلم پیگیری می‌کند.
+بله. از یک سفارش خرید چند Purchase Receipt یا Purchase Invoice بسازید. ERPNext مقدارهای تکمیل‌شده و باقیمانده را در هر ردیف قلم پیگیری می‌کند.
 
 ### اگر قیمت صورتحساب تأمین‌کننده با سفارش فرق داشت چه کنیم؟
 
@@ -138,12 +138,12 @@ Buying Settings می‌تواند هنگام تغییر نرخ در مراحل �
 
 ## موضوعات مرتبط
 
-- [Buying Settings](https://docs.frappe.io/erpnext/buying-settings)
-- [Supplier](https://docs.frappe.io/erpnext/supplier)
-- [Purchase Order](https://docs.frappe.io/erpnext/purchase-order)
-- [Purchase Receipt](https://docs.frappe.io/erpnext/purchase-receipt)
-- [Purchase Invoice](https://docs.frappe.io/erpnext/purchase-invoice)
-- [Payment Entry](https://docs.frappe.io/erpnext/payment-entry)
-- [Subcontracting](https://docs.frappe.io/erpnext/subcontracting)
+- [تنظیمات خرید](buying-settings.md)
+- [تأمین‌کننده](https://docs.frappe.io/erpnext/supplier)
+- [سفارش خرید](purchase-order.md)
+- [راهنمای «Purchase Receipt | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-receipt)
+- [راهنمای «Purchase Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-invoice)
+- [راهنمای «Payment Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-entry)
+- [راهنمای «Subcontracting» در ERPNext](https://docs.frappe.io/erpnext/subcontracting)
 
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/buying). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویر به فایل رسمی مستندات پیوند داده شده و در این مخزن بازنشر نشده است.

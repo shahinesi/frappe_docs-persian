@@ -23,7 +23,7 @@ source_version: "13a2e3f54576d175184680e633969bab079e9b4511eb0d3bc00ec608863d237
 
 Payment Entry افتتاحیه بسازید یا از روش Journal افتتاحیهٔ تأییدشده برای نسخه و فرایند خود استفاده کنید. هرجا پشتیبانی می‌شود، ورودی‌ها را به‌عنوان افتتاحیه علامت بزنید. مبلغ‌هایی را که واقعاً تخصیص نیافته‌اند تخصیص‌نیافته باقی بگذارید تا بتوان آن‌ها را با فاکتورهای آینده تطبیق داد.
 
-پس از ثبت، پیش‌پرداخت‌ها را به تفکیک Party با برنامهٔ مبدأ مقایسه و General Ledger را بررسی کنید.
+پس از ثبت، پیش‌پرداخت‌ها را به تفکیک Party با برنامهٔ مبدأ مقایسه و دفترکل کل را بررسی کنید.
 
 ## دریافت‌ها و پرداخت‌های تخصیص‌نیافته
 
@@ -35,7 +35,7 @@ Payment Entry افتتاحیه بسازید یا از روش Journal افتتا�
 
 پیش از ورود داده، Bank، Bank Account، حساب دفترکل و Mode of Payment را بسازید.
 
-ماندهٔ بانک در General Ledger در تاریخ برش باید با ماندهٔ تطبیق‌شدهٔ دفاتر سیستم قدیمی برابر باشد؛ این رقم لزوماً با ماندهٔ پایانی صورت‌حساب یکی نیست. واریزی‌ها، برداشت‌ها، چک‌ها و کارمزدهای تطبیق‌نشده را در برنامهٔ تطبیق نگه دارید.
+ماندهٔ بانک در دفترکل کل در تاریخ برش باید با ماندهٔ تطبیق‌شدهٔ دفاتر سیستم قدیمی برابر باشد؛ این رقم لزوماً با ماندهٔ پایانی صورت‌حساب یکی نیست. واریزی‌ها، برداشت‌ها، چک‌ها و کارمزدهای تطبیق‌نشده را در برنامهٔ تطبیق نگه دارید.
 
 هر حساب نقد را جداگانه وارد کنید و در صورت لزوم شمارش نقدیِ امضاشده بگیرید.
 
@@ -43,12 +43,12 @@ Payment Entry افتتاحیه بسازید یا از روش Journal افتتا�
 
 برای موجودی آغازین از Stock Reconciliation استفاده کنید:
 
-1. تاریخ برش و Company را انتخاب کنید.
-2. هر Item و Warehouse را اضافه کنید.
+1. تاریخ برش و شرکت را انتخاب کنید.
+2. هر کالا و Warehouse را اضافه کنید.
 3. مقدار آغازین را وارد کنید.
 4. نرخ ارزش‌گذاری را وارد کنید.
 5. کل ارزش موجودی را بررسی کنید.
-6. پس از تطبیق جمع مقدار و ارزش با گزارش موجودیِ تأییدشده، Submit کنید.
+6. پس از تطبیق جمع مقدار و ارزش با گزارش موجودیِ تأییدشده، ارسال کنید.
 
 [تصویر Stock Reconciliation با موجودی آغازین](https://docs.frappe.io/files/stock-reconciliation-opening.webp)
 
@@ -61,7 +61,7 @@ Payment Entry افتتاحیه بسازید یا از روش Journal افتتا�
 هر دارایی فعال را با این مشخصات وارد کنید:
 
 - Asset Category؛
-- Company؛
+- شرکت؛
 - مبلغ ناخالص خرید؛
 - تاریخ خرید و تاریخ آماده‌به‌استفاده؛
 - استهلاک انباشته؛
@@ -92,18 +92,18 @@ Payment Entry افتتاحیه بسازید یا از روش Journal افتتا�
 | مانده | گزارش ERPNext |
 |---|---|
 | پیش‌پرداخت‌ها و پرداخت‌های تخصیص‌نیافته | دفتر Party و Payment Reconciliation |
-| بانک | Bank Reconciliation و General Ledger |
-| نقد | General Ledger و شمارش نقدی |
+| بانک | Bank Reconciliation و دفترکل کل |
+| نقد | دفترکل کل و شمارش نقدی |
 | موجودی | Stock Balance و Stock Ledger |
-| دارایی‌ها | Fixed Asset Register و General Ledger |
+| دارایی‌ها | Fixed Asset Register و دفترکل کل |
 
 ## موضوعات مرتبط
 
-- [Payment Entry](https://docs.frappe.io/erpnext/payment-entry)
-- [Bank Reconciliation](https://docs.frappe.io/erpnext/bank-reconciliation)
-- [Stock Reconciliation](https://docs.frappe.io/erpnext/stock-reconciliation)
-- [Asset](https://docs.frappe.io/erpnext/asset)
-- [Opening Balance in Accounts](https://docs.frappe.io/erpnext/opening-balance)
+- [راهنمای «Payment Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-entry)
+- [تطبیق بانکی](bank-reconciliation.md)
+- [راهنمای «Stock Reconciliation» در ERPNext](https://docs.frappe.io/erpnext/stock-reconciliation)
+- [دارایی](asset.md)
+- [ماندهٔ آغازین حساب‌ها](opening-balance.md)
 
 ---
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/import-advances-unallocated-payments-bank-stock-and-asset-balances). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویر اصلی فقط به فایل رسمی پیوند داده شده و در مخزن بازنشر نشده است.

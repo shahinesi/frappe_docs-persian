@@ -45,7 +45,7 @@ Metro City, California 94016
 
 [مشاهدهٔ تصویر رسمی: ویرایشگر الگوی نشانی ایالات متحده](https://novacompanies.m.frappe.cloud/files/address-template-20261026-address-template-editor.png)
 
-پیش از ویرایش عمده، از الگوی فعلی یک نسخه بردارید. تغییر الگو می‌تواند بر همهٔ [مشتریان](https://docs.frappe.io/erpnext/customer)، [تأمین‌کنندگان](https://docs.frappe.io/erpnext/supplier) و تراکنش‌هایی اثر بگذارد که نشانی آن کشور را نمایش می‌دهند.
+پیش از ویرایش عمده، از الگوی فعلی یک نسخه بردارید. تغییر الگو می‌تواند بر همهٔ [مشتریان](customer.md)، [تأمین‌کنندگان](https://docs.frappe.io/erpnext/supplier) و تراکنش‌هایی اثر بگذارد که نشانی آن کشور را نمایش می‌دهند.
 
 ## نحوهٔ انتخاب الگو در ERPNext
 
@@ -69,7 +69,7 @@ Metro City, California 94016
 
 1. نشانی نمونه‌ای از مشتری یا تأمین‌کننده‌ای در همان کشور باز کنید.
 2. بررسی کنید فیلدهای استفاده‌شده در الگو در آن نشانی مقدار داشته باشند.
-3. یک [پیش‌فاکتور](https://docs.frappe.io/erpnext/quotation)، [سفارش فروش](sales-order.md)، [یادداشت تحویل](https://docs.frappe.io/erpnext/delivery-note) یا صورتحساب فروش باز کنید.
+3. یک [پیش‌فاکتور](https://docs.frappe.io/erpnext/quotation)، [سفارش فروش](sales-order.md)، [یادداشت تحویل](delivery-note.md) یا صورتحساب فروش باز کنید.
 4. نشانی قالب‌بندی‌شده را بررسی و پیش‌نمایش [قالب چاپ](/framework/print-format) مربوط را ببینید.
 
 [مشاهدهٔ تصویر رسمی: نشانی صورتحساب Northstar Retail در صورتحساب فروش](https://novacompanies.m.frappe.cloud/files/address-template-20261026-sales-invoice-formatted-address.png)
@@ -103,7 +103,7 @@ Metro City, California 94016
 ## موضوعات مرتبط
 
 - [نشانی](address.md)
-- [مشتری](https://docs.frappe.io/erpnext/customer)
+- [مشتری](customer.md)
 - [تأمین‌کننده](https://docs.frappe.io/erpnext/supplier)
 - [صورتحساب فروش](https://docs.frappe.io/erpnext/sales-invoice)
 - [قالب چاپ](/framework/print-format)

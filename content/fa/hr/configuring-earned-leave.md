@@ -14,25 +14,25 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 پیش از پیکربندی مرخصی استحقاقی، باید موارد زیر را ایجاد کنید:
 
-- **Leave Type**
+- **نوع مرخصی**
 
   ![تنظیم Leave Type](https://frappehr.com/files/4KilVPP.png)
 
-- **Leave Period**
+- **دورهٔ مرخصی**
 
   ![تنظیم Leave Period](https://frappehr.com/files/MI9ZPNM.png)
 
-- **Leave Policy**
+- **سیاست مرخصی**
 
   ![تنظیم Leave Policy](https://frappehr.com/files/CX0uqps.png)
 
-- **Leave Policy Assignment**
+- **تخصیص سیاست مرخصی**
 
   ![تنظیم Leave Policy Assignment](https://frappehr.com/files/ZxOw5L4.png)
 
 ## 2. پیکربندی مرخصی استحقاقی
 
-1. با ساختن Leave Policy Assignment، Leave Allocationهای مرتبط نیز ایجاد می‌شوند. این تخصیص‌ها در بازه‌های زمانی تعیین‌شده در **Earned Leave Frequency** به‌طور خودکار با روزهای مرخصی به‌روز می‌شوند.
+1. با ساختن تخصیص سیاست مرخصی، تخصیص مرخصیهای مرتبط نیز ایجاد می‌شوند. این تخصیص‌ها در بازه‌های زمانی تعیین‌شده در **مرخصی استحقاقی Frequency** به‌طور خودکار با روزهای مرخصی به‌روز می‌شوند.
 
    ![تخصیص مرخصی استحقاقی](https://docs.frappe.io/files/earned_leave_allocation.png)
 

@@ -6,50 +6,50 @@ source_id: "erpnext/accounting-dimension-problems"
 source_version: "79437768ded14e6c24a1398035de09dd7daf62e2da56f1957b07e42b9c59a587"
 ---
 
-Accounting Dimension (مانند Cost Center، Project یا ابعاد سفارشی مانند Branch یا Business Unit) هر ردیف General Ledger را برچسب‌گذاری می‌کند تا بتوانید گزارش‌ها را بر اساس آن بُعد ببینید. این صفحه توضیح می‌دهد مقدار بُعد از کجا به دفترکل می‌رسد و چگونه بُعدِ مفقود یا نادرست را اصلاح کنید.
+بُعد حسابداری (مانند Cost Center، Project یا ابعاد سفارشی مانند شاخه یا Business Unit) هر ردیف دفترکل کل را برچسب‌گذاری می‌کند تا بتوانید گزارش‌ها را بر اساس آن بُعد ببینید. این صفحه توضیح می‌دهد مقدار بُعد از کجا به دفترکل می‌رسد و چگونه بُعدِ مفقود یا نادرست را اصلاح کنید.
 
 ## مقدار دفترکل با سربرگ سند تفاوت دارد
 
-در فاکتورها، سفارش‌ها و رسیدها، General Ledger مقدار بُعد را از **هر ردیف کالا** می‌گیرد، نه از سربرگ. مقدار سربرگ فقط پیش‌فرضی برای ردیف‌های جدید است.
+در فاکتورها، سفارش‌ها و رسیدها، دفترکل کل مقدار بُعد را از **هر ردیف کالا** می‌گیرد، نه از سربرگ. مقدار سربرگ فقط پیش‌فرضی برای ردیف‌های جدید است.
 
-- اگر پس از افزودن Itemها مقدار سربرگ را تغییر دادید، ردیف‌های کالا را هم بررسی کنید: ردیف را باز کنید و بخش **Accounting Dimensions** را ببینید.
+- اگر پس از افزودن کالاها مقدار سربرگ را تغییر دادید، ردیف‌های کالا را هم بررسی کنید: ردیف را باز کنید و بخش **Accounting Dimensions** را ببینید.
 - ردیف جدید، بُعد را از ردیف اول کپی می‌کند.
-- در سندی که از سند دیگری ساخته شده (Sales Invoice از Sales Order یا Purchase Invoice از Purchase Receipt)، ردیف‌ها مقدارهای ردیف‌های سند مبدأ را نگه می‌دارند. مقدار را در سند مبدأ یا تک‌تک ردیف‌ها اصلاح کنید.
+- در سندی که از سند دیگری ساخته شده (Sales Invoice از سفارش فروش یا Purchase Invoice از Purchase Receipt)، ردیف‌ها مقدارهای ردیف‌های سند مبدأ را نگه می‌دارند. مقدار را در سند مبدأ یا تک‌تک ردیف‌ها اصلاح کنید.
 
-پس از Submit هم می‌توانید بُعد را در ردیف‌های فاکتور یا Journal Entry تغییر دهید؛ ERPNext ثبت‌های دفترکل را دوباره ایجاد می‌کند. بخش [چگونه یک ثبت حسابداریِ Submitشده را اصلاح کنم؟](https://docs.frappe.io/erpnext/correct-a-submitted-accounting-entry) را ببینید.
+پس از ارسال هم می‌توانید بُعد را در ردیف‌های فاکتور یا Journal Entry تغییر دهید؛ ERPNext ثبت‌های دفترکل را دوباره ایجاد می‌کند. بخش [چگونه یک ثبت حسابداریِ ارسالشده را اصلاح کنم؟](correct-a-submitted-accounting-entry.md) را ببینید.
 
-## پیام «Accounting Dimension … is required»
+## پیام «بُعد حسابداری … is required»
 
 ```text
 Accounting Dimension Branch is required for 'Profit and Loss' account Sales - BBS.
 Accounting Dimension Branch is required for 'Balance Sheet' account Debtors - BBS.
 ```
 
-برای شرکت، این بُعد در جدول **Dimension Defaults** در Accounting Dimension به‌صورت **Mandatory For Profit and Loss Account** یا **Mandatory For Balance Sheet** اجباری شده است.
+برای شرکت، این بُعد در جدول **پیش‌فرض‌های بُعد** در بُعد حسابداری به‌صورت **Mandatory For Profit and Loss Account** یا **Mandatory For Balance Sheet** اجباری شده است.
 
 1. بُعد را در هر ردیف سند وارد و دوباره ذخیره کنید.
-2. اگر اصلاً فیلد روی فرم نیست، احتمالاً در **Customize Form** یا **Custom Field** حذف شده است. Accounting Dimension را باز و **Save** را بزنید. ERPNext در پس‌زمینه فیلد را به همهٔ سندهایی که آن را ندارند برمی‌گرداند؛ پس از یک دقیقه فرم را دوباره بارگذاری کنید.
-3. ثبت‌هایی که سیستم ایجاد می‌کند (سود یا زیان ارز و گردکردن) از **Default Dimension** شرکت استفاده می‌کنند. آن را در **Dimension Defaults** تنظیم کنید تا این ثبت‌ها با خطا روبه‌رو نشوند.
+2. اگر اصلاً فیلد روی فرم نیست، احتمالاً در **Customize Form** یا **Custom فیلد** حذف شده است. بُعد حسابداری را باز و **ذخیره** را بزنید. ERPNext در پس‌زمینه فیلد را به همهٔ سندهایی که آن را ندارند برمی‌گرداند؛ پس از یک دقیقه فرم را دوباره بارگذاری کنید.
+3. ثبت‌هایی که سیستم ایجاد می‌کند (سود یا زیان ارز و گردکردن) از **Default Dimension** شرکت استفاده می‌کنند. آن را در **پیش‌فرض‌های بُعد** تنظیم کنید تا این ثبت‌ها با خطا روبه‌رو نشوند.
 
 ## تعیین مقدار پیش‌فرض برای هر شرکت
 
-در Accounting Dimension، در جدول **Dimension Defaults** ردیفی با **Company** و **Default Dimension** اضافه کنید. سندهای جدید آن شرکت و ردیف‌هایشان با این مقدار آغاز می‌شوند.
+در بُعد حسابداری، در جدول **پیش‌فرض‌های بُعد** ردیفی با **شرکت** و **Default Dimension** اضافه کنید. سندهای جدید آن شرکت و ردیف‌هایشان با این مقدار آغاز می‌شوند.
 
 ## محدودکردن مقدارهای مجاز برای یک حساب
 
-از **Accounting Dimension Filter** استفاده کنید: بُعد، حساب‌ها و مقدارهایی را که برای آن حساب‌ها مجاز یا ممنوع‌اند انتخاب کنید. برای مثال، فقط شعبهٔ Bengaluru بتواند به حساب اجارهٔ همان شعبه ثبت بزند.
+از **بُعد حسابداری Filter** استفاده کنید: بُعد، حساب‌ها و مقدارهایی را که برای آن حساب‌ها مجاز یا ممنوع‌اند انتخاب کنید. برای مثال، فقط شعبهٔ Bengaluru بتواند به حساب اجارهٔ همان شعبه ثبت بزند.
 
 ## فیلترکردن گزارش‌ها بر اساس بُعد
 
-هر بُعد فعال به‌صورت فیلتر به General Ledger، Trial Balance، Profit and Loss Statement، Balance Sheet و Accounts Receivable and Payable اضافه می‌شود. ناحیهٔ فیلترها (یا **⋯** برای فیلترهای بیشتر) را باز و مقدار موردنظر را انتخاب کنید.
+هر بُعد فعال به‌صورت فیلتر به دفترکل کل، Trial Balance، Profit and Loss Statement، Balance Sheet و حساب‌های دریافتنی and Payable اضافه می‌شود. ناحیهٔ فیلترها (یا **⋯** برای فیلترهای بیشتر) را باز و مقدار موردنظر را انتخاب کنید.
 
 Balance Sheet فیلترشده بر اساس بُعد به‌ندرت تراز می‌شود، چون بسیاری از ثبت‌های ترازنامه‌ای این بُعد را ندارند. صفحهٔ [چرا P&L، Balance Sheet یا Trial Balance عددهای غیرمنتظره نشان می‌دهند؟](https://docs.frappe.io/erpnext/financial-statements-show-unexpected-numbers) را ببینید.
 
 ## موضوعات مرتبط
 
-- [Accounting Dimensions](accounting-dimensions.md)
-- [General Ledger](https://docs.frappe.io/erpnext/general-ledger)
-- [Cost Center](https://docs.frappe.io/erpnext/cost-center)
+- [ابعاد حسابداری](accounting-dimensions.md)
+- [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger)
+- [مرکز هزینه](cost-center.md)
 
 ---
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/accounting-dimension-problems). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

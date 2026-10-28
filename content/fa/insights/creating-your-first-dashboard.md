@@ -17,17 +17,17 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 در این راهنما با داده‌های نمایشی Frappe Insights یک داشبورد جامع برای عملکرد فروش می‌سازیم. مراحل شامل ایجاد یک پرس‌وجو، ساخت چند نمودار و ترکیب آن‌ها در داشبوردی تعاملی است.
 
-## 1. ایجاد Workbook
+## 1. ایجاد کارپوشه
 
-1. در صفحهٔ فهرست Workbookها روی **+ New Workbook** کلیک کنید.
+1. در صفحهٔ فهرست کارپوشهها روی **+ جدید کارپوشه** کلیک کنید.
 2. نام آن را «Sales Performance» بگذارید.
-3. روی **Query Builder** کلیک کنید.
+3. روی **پرس‌وجو Builder** کلیک کنید.
 
 ![Workbook جدید](https://docs.frappe.io/files/new-workbook.png)
 
 ## 2. ایجاد پرس‌وجوی پایه
 
-یک پرس‌وجو می‌سازیم که داده‌های چند جدول را با هم ترکیب می‌کند. با بازشدن Query Builder، جدول مبدأ را <code>orders</code> انتخاب کنید. سپس عملیات زیر را به‌ترتیب اضافه کنید.
+یک پرس‌وجو می‌سازیم که داده‌های چند جدول را با هم ترکیب می‌کند. با بازشدن پرس‌وجو Builder، جدول مبدأ را <code>orders</code> انتخاب کنید. سپس عملیات زیر را به‌ترتیب اضافه کنید.
 
 ### پیوند جدول‌ها
 
@@ -44,8 +44,8 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 3. دوباره **Add Operation** و سپس **Join Table** را انتخاب کنید.
    - جدول <code>customers</code> را انتخاب کنید.
    - نوع پیوند: Left Join
-   - شرط پیوند: <code>customer_id = customer_id</code>
-   - ستون: <code>customer_state</code>
+   - شرط پیوند: <code>مشتری_id = مشتری_id</code>
+   - ستون: <code>مشتری_state</code>
 
 ### پالایش و انتخاب ستون‌ها
 
@@ -55,13 +55,13 @@ license_status: "CC BY-SA (version unspecified by source policy)"
    - مقدار: <code>"delivered"</code>
 5. روی **Add Operation** و سپس **Choose Columns** کلیک کنید و ستون‌های زیر را انتخاب کنید:
    - <code>order_id</code>
-   - <code>order_item_id</code>
+   - <code>order_کالا_id</code>
    - <code>order_status</code>
    - <code>order_purchase_timestamp</code>
    - <code>price</code>
    - <code>freight_value</code>
    - <code>product_category_name</code>
-   - <code>customer_state</code>
+   - <code>مشتری_state</code>
 6. نام پرس‌وجو را «Sales Data» بگذارید.
 
 ![پرس‌وجوی Sales Data](https://docs.frappe.io/files/sales-data-query.png)
@@ -72,7 +72,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### نمای کلی فروش
 
-- روی **+ New Chart** کلیک کنید.
+- روی **+ جدید نمودار** کلیک کنید.
 - نوع نمودار: Number
 - عنوان: «Sales Overview»
 - در بخش Columns:
@@ -97,7 +97,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### درآمد به تفکیک ماه
 
-- روی **+ New Chart** کلیک کنید.
+- روی **+ جدید نمودار** کلیک کنید.
 - نوع نمودار: Line
 - عنوان: «Monthly Revenue»
 - محور X: <code>order_purchase_timestamp</code>
@@ -110,7 +110,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### درآمد به تفکیک دستهٔ محصول
 
-- روی **+ New Chart** کلیک کنید.
+- روی **+ جدید نمودار** کلیک کنید.
 - نوع نمودار: Row
 - عنوان: «Revenue by Category»
 - محور X: <code>product_category_name</code>
@@ -124,14 +124,14 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### درآمد فصلی به تفکیک استان
 
-- روی **+ New Chart** کلیک کنید.
+- روی **+ جدید نمودار** کلیک کنید.
 - نوع نمودار: Table
 - عنوان: «Quarterly Revenue by State»
 - ردیف‌ها:
   - ستون: <code>order_purchase_timestamp</code>
   - آیکون چرخ‌دنده را بزنید، برچسب را «Quarter» و دقت زمانی را «Quarter» تعیین کنید.
 - ستون‌ها:
-  - ستون: <code>customer_state</code>
+  - ستون: <code>مشتری_state</code>
   - آیکون چرخ‌دنده را بزنید و برچسب را «State» قرار دهید.
 - مقادیر:
   - تابع: Sum of
@@ -146,8 +146,8 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 نمودارها را در داشبوردی تعاملی ترکیب کنید:
 
-1. روی **+ New Dashboard** کلیک کنید.
-2. عنوان را «Sales Performance Dashboard» بگذارید.
+1. روی **+ جدید داشبورد** کلیک کنید.
+2. عنوان را «Sales Performance داشبورد» بگذارید.
 3. نمودارها را از پنل سمت چپ بکشید و در داشبورد رها کنید:
    - ردیف اول: نمودار «Sales Overview»
    - ردیف دوم: نمودارهای «Monthly Revenue» و «Revenue by Category»

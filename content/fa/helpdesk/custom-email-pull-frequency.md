@@ -19,7 +19,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## ساخت Server Script
 
-در Desk به **Server Script** بروید و **Add Server Script** را انتخاب کنید. سپس این کد را در اسکریپت قرار دهید:
+در میزکار به **Server Script** بروید و **Add Server Script** را انتخاب کنید. سپس این کد را در اسکریپت قرار دهید:
 
 ```python
 frappe.call(

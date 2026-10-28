@@ -25,13 +25,13 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### تعیین فیلد عنوان
 
-نام یک فیلد سفارشی را در **Title Field** وارد کنید.
+نام یک فیلد سفارشی را در **Title فیلد** وارد کنید.
 
 ![تعیین فیلد عنوان](https://docs.frappe.io/files/HafbLM1.png)
 
 ### نمایش عنوان در فیلدهای پیوند
 
-می‌توانید **Show Title in Link Fields** را فعال کنید تا در **Link Field**های DocType دیگر، به‌جای **Name**، **Title** نمایش داده شود.
+می‌توانید **Show Title in Link Fields** را فعال کنید تا در **Link فیلد**های DocType دیگر، به‌جای **Name**، **Title** نمایش داده شود.
 
 ![نمایش عنوان در فیلدهای پیوند](https://docs.frappe.io/files/xhk48oU.png)
 

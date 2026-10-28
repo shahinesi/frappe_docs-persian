@@ -21,14 +21,14 @@ ERPNext معمولاً مبلغ خالص صورتحساب را پس از تخف�
 
 وقتی به کنترل صریح حساب جداگانه نیاز دارید، به‌ویژه برای Purchase Invoice، از روش ردیف هزینهٔ منفی استفاده کنید. گردش‌کار جدیدتر [Discount Accounting](https://docs.frappe.io/erpnext/discount-accounting) در ERPNext فیلدهای اختصاصی **Discount Account** در سمت فروش دارد و ممکن است برای تخفیف‌های سطح قلم یا صورتحساب فروش ساده‌تر باشد.
 
-برای یک تخفیف، هر دو روش را هم‌زمان به‌کار نبرید. تخفیف معمول قلم، [تخفیف اضافی](https://docs.frappe.io/erpnext/applying-discount)، Pricing Rule و ردیف هزینهٔ منفی هرکدام می‌توانند مبلغ تراکنش را کاهش دهند. ترکیب آن‌ها بدون محاسبهٔ آگاهانه ممکن است باعث دوباره‌شماری تخفیف شود.
+برای یک تخفیف، هر دو روش را هم‌زمان به‌کار نبرید. تخفیف معمول قلم، [تخفیف اضافی](applying-discount.md)، Pricing Rule و ردیف هزینهٔ منفی هرکدام می‌توانند مبلغ تراکنش را کاهش دهند. ترکیب آن‌ها بدون محاسبهٔ آگاهانه ممکن است باعث دوباره‌شماری تخفیف شود.
 
-این روش تخفیفی را در سطح کل تراکنش ثبت می‌کند و تخفیف متفاوتی را برای تحلیل حاشیهٔ سود بین ردیف‌های اقلام تخصیص نمی‌دهد. اگر قیمت‌گذاری تجاری در سطح قلم اهمیت دارد، [Item Price](https://docs.frappe.io/erpnext/item-price) یا تخفیف قلم را آگاهانه تنظیم کنید و جداگانه تصمیم بگیرید که آیا دفتر کل نیز به حساب تخفیف مستقل نیاز دارد یا نه.
+این روش تخفیفی را در سطح کل تراکنش ثبت می‌کند و تخفیف متفاوتی را برای تحلیل حاشیهٔ سود بین ردیف‌های اقلام تخصیص نمی‌دهد. اگر قیمت‌گذاری تجاری در سطح قلم اهمیت دارد، [کالا Price](https://docs.frappe.io/erpnext/item-price) یا تخفیف قلم را آگاهانه تنظیم کنید و جداگانه تصمیم بگیرید که آیا دفتر کل نیز به حساب تخفیف مستقل نیاز دارد یا نه.
 
 ## پیش از شروع
 
 1. با حسابدار خود تأیید کنید که تخفیف اعطایی باید زیر Expense یا contra-revenue و تخفیف دریافتی زیر Income یا contra-expense طبقه‌بندی شود.
-2. در [Chart of Accounts](https://docs.frappe.io/erpnext/chart-of-accounts) شرکت، حساب‌های دفتر کل غیرگروهی بسازید. مثال از **Sales Discounts Allowed - NET** و **Purchase Discounts Received - NET** استفاده می‌کند.
+2. در [Chart of Accounts](chart-of-accounts.md) شرکت، حساب‌های دفتر کل غیرگروهی بسازید. مثال از **Sales Discounts Allowed - NET** و **Purchase Discounts Received - NET** استفاده می‌کند.
 3. مبنای تخفیف را مشخص کنید. **On Net Total** نرخ را روی کل Net Total اعمال می‌کند. انواع دیگر هزینه ممکن است بر اساس ردیف قبلی یا مبلغ ثابتی محاسبه شوند.
 4. اثر تخفیف بر مالیات را بررسی کنید. ترتیب و نوع ردیف‌های جدول هزینه، جمع جاری مورد استفادهٔ مالیات‌های بعدی را تعیین می‌کند.
 5. پیش از استفاده در محیط عملیاتی، یک تراکنش نمونه را آزمایش و دفتر کل آن را بررسی کنید.
@@ -43,8 +43,8 @@ ERPNext معمولاً مبلغ خالص صورتحساب را پس از تخف�
 
 ## ثبت تخفیف اعطایی در Sales Invoice
 
-1. یک [Sales Invoice](https://docs.frappe.io/erpnext/sales-invoice) بسازید و اقلام را با نرخ ناخالص فروش اضافه کنید.
-2. در **Sales Taxes and Charges** یک ردیف اضافه کنید. اگر این روش در حالت معمول تکرار می‌شود، [Sales Taxes and Charges Template](https://docs.frappe.io/erpnext/sales-taxes-and-charges-template) می‌تواند همین ردیف را فراهم کند.
+1. یک [راهنمای «Sales Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/sales-invoice) بسازید و اقلام را با نرخ ناخالص فروش اضافه کنید.
+2. در **Sales Taxes and Charges** یک ردیف اضافه کنید. اگر این روش در حالت معمول تکرار می‌شود، [راهنمای «Sales Taxes and Charges Template\n» در ERPNext](https://docs.frappe.io/erpnext/sales-taxes-and-charges-template) می‌تواند همین ردیف را فراهم کند.
 3. آیکون مداد مشخص‌شده را انتخاب کنید تا ویرایشگر کامل ردیف باز شود.
 
 ![ردیف تخفیف Sales Invoice و آیکون مداد مشخص‌شده](https://novacompanies.m.frappe.cloud/files/docs-gl-2026-separate-discount-booking-sales-discount-row.png)
@@ -52,7 +52,7 @@ ERPNext معمولاً مبلغ خالص صورتحساب را پس از تخف�
 4. **Type** را روی **On Net Total** بگذارید.
 5. در **Account Head** حساب تخفیف اعطایی را انتخاب کنید.
 6. درصد تخفیف را به‌شکل **Tax Rate** منفی وارد کنید. برای تخفیف 10درصدی، **-10** وارد کنید.
-7. **Description** روشن و **Cost Center** یا سایر [Accounting Dimensions](https://docs.frappe.io/erpnext/accounting-dimensions) لازم را وارد کنید.
+7. **Description** روشن و **Cost Center** یا سایر [ابعاد حسابداری](accounting-dimensions.md) لازم را وارد کنید.
 
 ![Type، Account Head و Tax Rate منفی تخفیف فروش](https://novacompanies.m.frappe.cloud/files/docs-gl-2026-separate-discount-booking-sales-discount-fields.png)
 
@@ -61,7 +61,7 @@ ERPNext معمولاً مبلغ خالص صورتحساب را پس از تخف�
 ![Sales Invoice ثبت‌نهایی‌شده با تخفیف و Grand Total مشخص‌شده](https://novacompanies.m.frappe.cloud/files/docs-gl-2026-separate-discount-booking-sales-submitted-total.png)
 
 8. مالیات‌ها، گردکردن، **Grand Total** و ردیف هزینه را بررسی و سپس صورتحساب را ثبت نهایی کنید.
-9. **View > Accounting Ledger** را باز کنید و نتیجه را در [General Ledger](https://docs.frappe.io/erpnext/general-ledger) بررسی کنید.
+9. **View > Accounting Ledger** را باز کنید و نتیجه را در [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger) بررسی کنید.
 
 ![دفتر کل Sales Invoice با ردیف تخفیف جداگانه](https://novacompanies.m.frappe.cloud/files/docs-gl-2026-separate-discount-booking-sales-general-ledger.png)
 
@@ -69,8 +69,8 @@ ERPNext معمولاً مبلغ خالص صورتحساب را پس از تخف�
 
 ## ثبت تخفیف دریافتی در Purchase Invoice
 
-1. یک [Purchase Invoice](https://docs.frappe.io/erpnext/purchase-invoice) بسازید و اقلام را با نرخ ناخالص خرید اضافه کنید.
-2. در **Purchase Taxes and Charges** یک ردیف اضافه کنید. اگر همین روش را تکرار می‌کنید، از [Purchase Taxes and Charges Template](https://docs.frappe.io/erpnext/purchase-taxes-and-charges-template) استفاده کنید.
+1. یک [راهنمای «Purchase Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-invoice) بسازید و اقلام را با نرخ ناخالص خرید اضافه کنید.
+2. در **Purchase Taxes and Charges** یک ردیف اضافه کنید. اگر همین روش را تکرار می‌کنید، از [راهنمای «Purchase Taxes and Charges Template\n» در ERPNext](https://docs.frappe.io/erpnext/purchase-taxes-and-charges-template) استفاده کنید.
 3. آیکون مداد ردیف را انتخاب کنید.
 4. **Type** را روی **On Net Total** بگذارید.
 5. در **Account Head** حساب درآمد یا contra-expense تخفیف دریافتی را که حسابدار تأیید کرده انتخاب کنید.
@@ -88,11 +88,11 @@ ERPNext معمولاً مبلغ خالص صورتحساب را پس از تخف�
 
 در دفتر کل، Creditors به مبلغ $936 بستانکار، حساب خرید یا موجودی دریافت‌شده به مبلغ $1,040 بدهکار و Purchase Discounts Received به مبلغ $104 بستانکار می‌شود.
 
-اگر [Purchase Receipt](https://docs.frappe.io/erpnext/purchase-receipt) قبلاً با مبلغ متفاوتی ثبت شده است، فرض نکنید تخفیف Purchase Invoice به‌طور خودکار ارزش‌گذاری موجودی را اصلاح یا حساب Stock Received But Not Billed را تسویه می‌کند. روش تجاری را در سراسر چرخهٔ خرید یکسان اجرا و دفترهای کل موجودی و حسابداری را بررسی کنید.
+اگر [راهنمای «Purchase Receipt | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-receipt) قبلاً با مبلغ متفاوتی ثبت شده است، فرض نکنید تخفیف Purchase Invoice به‌طور خودکار ارزش‌گذاری موجودی را اصلاح یا حساب Stock Received But Not Billed را تسویه می‌کند. روش تجاری را در سراسر چرخهٔ خرید یکسان اجرا و دفترهای کل موجودی و حسابداری را بررسی کنید.
 
 ## ثبت پرداخت خالص
 
-برای مبلغ نهایی باقیماندهٔ صورتحساب، نه مبلغ ناخالص پیش از تخفیف، یک [Payment Entry](https://docs.frappe.io/erpnext/payment-entry) بسازید.
+برای مبلغ نهایی باقیماندهٔ صورتحساب، نه مبلغ ناخالص پیش از تخفیف، یک [راهنمای «Payment Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-entry) بسازید.
 
 در مثال فروش، مشتری $1,258.20 پرداخت می‌کند. ردیف Payment References این مبلغ را به Sales Invoice تخصیص می‌دهد.
 
@@ -109,7 +109,7 @@ ERPNext معمولاً مبلغ خالص صورتحساب را پس از تخف�
 | فیلد | کنترل می‌کند |
 | --- | --- |
 | Type | مبنای محاسبهٔ ردیف. **On Net Total** درصد را روی Net Total صورتحساب اعمال می‌کند. |
-| Account Head | دفترکلی که ثبت تخفیف به آن انجام می‌شود. این حساب باید متعلق به Company انتخاب‌شده باشد. |
+| Account Head | دفترکلی که ثبت تخفیف به آن انجام می‌شود. این حساب باید متعلق به شرکت انتخاب‌شده باشد. |
 | Tax Rate | درصد مورد استفاده در ردیف. برای کسر تخفیف، مقدار منفی وارد کنید. |
 | Amount | مبلغ کسری محاسبه‌شده یا واردشده. پیش از ثبت نهایی، علامت و مقدار آن را بررسی کنید. |
 | Description | متنی که روی صورتحساب نمایش داده می‌شود و برای بازبینان مفید است؛ این متن حساب دفتر کل را تعیین نمی‌کند. |
@@ -147,16 +147,16 @@ ERPNext از این جدول برای مالیات و سایر افزایش‌ه
 
 ### آیا تخفیف خرید خودکار ارزش‌گذاری موجودی را به‌روز می‌کند؟
 
-نه در همهٔ توالی‌های خرید. نتیجه به این بستگی دارد که موجودی جداگانه دریافت شده باشد یا نه، از چه حساب‌هایی استفاده شده و تنظیمات ارزش‌گذاری رسید و صورتحساب چگونه است. Purchase Receipt، Purchase Invoice، Stock Ledger و General Ledger را با هم بررسی کنید.
+نه در همهٔ توالی‌های خرید. نتیجه به این بستگی دارد که موجودی جداگانه دریافت شده باشد یا نه، از چه حساب‌هایی استفاده شده و تنظیمات ارزش‌گذاری رسید و صورتحساب چگونه است. Purchase Receipt، Purchase Invoice، Stock Ledger و دفترکل کل را با هم بررسی کنید.
 
 ## موضوعات مرتبط
 
 - [Discount Accounting](https://docs.frappe.io/erpnext/discount-accounting)
-- [Applying a Discount](https://docs.frappe.io/erpnext/applying-discount)
-- [Sales Invoice](https://docs.frappe.io/erpnext/sales-invoice)
-- [Purchase Invoice](https://docs.frappe.io/erpnext/purchase-invoice)
-- [Chart of Accounts](https://docs.frappe.io/erpnext/chart-of-accounts)
-- [Payment Entry](https://docs.frappe.io/erpnext/payment-entry)
-- [General Ledger](https://docs.frappe.io/erpnext/general-ledger)
+- [اعمال تخفیف بر تراکنش‌های فروش](applying-discount.md)
+- [راهنمای «Sales Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/sales-invoice)
+- [راهنمای «Purchase Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-invoice)
+- [Chart of Accounts](chart-of-accounts.md)
+- [راهنمای «Payment Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-entry)
+- [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger)
 
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/book-discount-allowed-and-received-separately). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های رسمی مستندات پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

@@ -6,34 +6,34 @@ source_id: "hr/employee-group"
 source_version: "5ff080973ec3a67616d5de3ea0a938c7b5256f6286594d492269ed392ab249e8"
 ---
 
-**Employee Group** برای گروه‌بندی کارکنان بر اساس ویژگی‌هایی مانند Designation، Grade یا Branch به‌کار می‌رود.
+**گروه کارکنان** برای گروه‌بندی کارکنان بر اساس ویژگی‌هایی مانند عنوان شغلی، Grade یا شاخه به‌کار می‌رود.
 
-برای دسترسی به Employee Group بروید به:
+برای دسترسی به گروه کارکنان بروید به:
 
-> **Home > Human Resources > Employee > Employee Group**
+> **صفحهٔ اصلی > منابع انسانی > کارمند > گروه کارکنان**
 
 ## پیش‌نیاز
 
 پیش از ساخت گروه کارکنان، بهتر است سند زیر را ایجاد کنید:
 
-- [Employee](https://docs.frappe.io/hr/employee)
+- [کارمند](https://docs.frappe.io/hr/employee)
 
 ## ساخت گروه کارکنان
 
-1. فهرست Employee Group را باز و **New** را انتخاب کنید.
+1. فهرست گروه کارکنان را باز و **جدید** را انتخاب کنید.
 2. نام گروه را وارد کنید.
-3. شناسهٔ Employee را انتخاب و به گروه اضافه کنید؛ نام کارمند به‌طور خودکار دریافت می‌شود.
+3. شناسهٔ کارمند را انتخاب و به گروه اضافه کنید؛ نام کارمند به‌طور خودکار دریافت می‌شود.
 4. ذخیره کنید.
 
-تصویر صفحهٔ منبع در [راهنمای رسمی](https://docs.frappe.io/hr/employee-group) در دسترس است و در این مخزن بازنشر نشده است.
+تصویر صفحهٔ منبع در [راهنمای رسمی](employee-group.md) در دسترس است و در این مخزن بازنشر نشده است.
 
 ## موضوعات مرتبط
 
-1. [Employment Type](https://docs.frappe.io/hr/employment-type)
-2. [Branch](https://docs.frappe.io/hr/branch)
-3. [Department](https://docs.frappe.io/hr/department)
-4. [Designation](https://docs.frappe.io/hr/designation)
-5. [Employee Grade](https://docs.frappe.io/hr/employee-grade)
+1. [نوع استخدام](employment-type.md)
+2. [شاخه](branch.md)
+3. [دپارتمان](https://docs.frappe.io/hr/department)
+4. [عنوان شغلی](designation.md)
+5. [کارمند Grade](https://docs.frappe.io/hr/employee-grade)
 
 ---
 منبع: [مستندات رسمی Frappe HR](https://docs.frappe.io/hr/employee-group). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

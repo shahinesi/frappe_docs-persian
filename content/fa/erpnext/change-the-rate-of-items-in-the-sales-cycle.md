@@ -15,13 +15,13 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 >
 > تصویرهای صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.
 
-ERPNext می‌تواند بررسی کند که نرخ کالا هنگام انتقال از [سفارش فروش](/erpnext/sales-order) به [یادداشت تحویل](/erpnext/delivery-note) یا [صورتحساب فروش](/erpnext/sales-invoice) تغییر می‌کند یا نه. وقتی باید نرخ تأییدشدهٔ سفارش در مرحلهٔ تحویل و صورتحساب ثابت بماند، از این کنترل استفاده کنید.
+ERPNext می‌تواند بررسی کند که نرخ کالا هنگام انتقال از [سفارش فروش](sales-order.md) به [یادداشت تحویل](delivery-note.md) یا [صورتحساب فروش](https://docs.frappe.io/erpnext/sales-invoice) تغییر می‌کند یا نه. وقتی باید نرخ تأییدشدهٔ سفارش در مرحلهٔ تحویل و صورتحساب ثابت بماند، از این کنترل استفاده کنید.
 
 ## پیش از شروع
 
 موارد زیر را مشخص کنید:
 
-- قیمت‌های کالا و [فهرست قیمت](/erpnext/price-lists) موردنظر؛
+- قیمت‌های کالا و [فهرست قیمت](https://docs.frappe.io/erpnext/price-lists) موردنظر؛
 - نقش‌هایی که مجازند استثناهای قیمت را تأیید کنند؛
 - اینکه فرایند شما به هشدار نیاز دارد یا باید ذخیره را کاملاً متوقف کند؛
 - نحوهٔ رسیدگی به اصلاحیه‌ها و برگشت‌های مجاز.
@@ -30,8 +30,8 @@ ERPNext می‌تواند بررسی کند که نرخ کالا هنگام ان
 
 ## پیکربندی اعتبارسنجی نرخ
 
-1. [Selling Settings](/erpnext/selling-settings) را باز کنید.
-2. بخش **Item Price Settings** را باز کنید.
+1. [راهنمای «Selling Settings | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/selling-settings) را باز کنید.
+2. بخش **کالا Price Settings** را باز کنید.
 3. گزینهٔ **Maintain Same Rate Throughout Sales Cycle** را فعال کنید.
 4. **Action If Same Rate Is Not Maintained** را تنظیم کنید:
    - **Warn** برای نمایش هشدار و اجازهٔ ذخیره؛
@@ -47,14 +47,14 @@ ERPNext می‌تواند بررسی کند که نرخ کالا هنگام ان
 4. **Rate** را تغییر دهید.
 5. ذخیره کنید و بررسی کنید که ERPNext مطابق Selling Settings هشدار می‌دهد یا تغییر را متوقف می‌کند.
 
-نقطهٔ کنار **Item Code** موجودی انبار را در یک نگاه نشان می‌دهد: سبز یعنی موجود و قرمز یعنی ناموجود.
+نقطهٔ کنار **کالا Code** موجودی انبار را در یک نگاه نشان می‌دهد: سبز یعنی موجود و قرمز یعنی ناموجود.
 
 ## وقتی نرخ به‌درستی تغییر می‌کند
 
 از گردش‌کاری استفاده کنید که سابقهٔ حسابرسی را حفظ کند:
 
 - اگر توافق تجاری پیش از تحویل تغییر کرد، سفارش فروش تأییدشده را اصلاح کنید.
-- اگر گردش‌کار پشتیبانی‌شدهٔ پس از ثبت با تغییر سازگار است، از [Update Items](/erpnext/amending-sales-order-after-submit) استفاده کنید.
+- اگر گردش‌کار پشتیبانی‌شدهٔ پس از ثبت با تغییر سازگار است، از [اصلاح سفارش فروش پس از ثبت نهایی](amending-sales-order-after-submit.md) استفاده کنید.
 - برای اصلاح صورتحساب ثبت‌شده، یادداشت بستانکار یا برگشت ایجاد کنید.
 - فقط در صورتی از راهکار دورزدن محدودیت استفاده کنید که سیاست سازمان اجازه دهد.
 
@@ -65,8 +65,8 @@ ERPNext می‌تواند بررسی کند که نرخ کالا هنگام ان
 نرخ یک تراکنش ممکن است از این موارد تأثیر بگیرد:
 
 - قیمت کالا و فهرست قیمت؛
-- [قواعد قیمت‌گذاری](/erpnext/pricing-rule)؛
-- [طرح‌های تبلیغاتی](/erpnext/promotional-scheme)؛
+- [قواعد قیمت‌گذاری](https://docs.frappe.io/erpnext/pricing-rule)؛
+- [طرح‌های تبلیغاتی](https://docs.frappe.io/erpnext/promotional-scheme)؛
 - حاشیهٔ سود یا تخفیف در سطح کالا؛
 - تخفیف اضافی؛
 - تبدیل ارز؛
@@ -81,7 +81,7 @@ ERPNext می‌تواند بررسی کند که نرخ کالا هنگام ان
 | Maintain Same Rate Throughout Sales Cycle | مقایسه با نرخ سند بالادستی را فعال می‌کند. |
 | Action: Warn | هشدار می‌دهد اما اجازهٔ ادامه می‌دهد. |
 | Action: Stop | تغییر نرخ را متوقف می‌کند. |
-| Override Role | در نسخه‌های پشتیبانی‌شده اجازه می‌دهد کاربران مجاز محدودیت Stop را دور بزنند. |
+| Override نقش | در نسخه‌های پشتیبانی‌شده اجازه می‌دهد کاربران مجاز محدودیت Stop را دور بزنند. |
 | Allow User to Edit Price List Rate | ویرایش فیلد Price List Rate را کنترل می‌کند، نه کل سیاست چرخهٔ فروش را. |
 
 ## عیب‌یابی
@@ -114,11 +114,11 @@ ERPNext می‌تواند بررسی کند که نرخ کالا هنگام ان
 
 ## موضوعات مرتبط
 
-- [Selling Settings](/erpnext/selling-settings)
-- [Sales Order](/erpnext/sales-order)
-- [اصلاح سفارش فروش پس از ثبت](/erpnext/amending-sales-order-after-submit)
-- [Pricing Rule](/erpnext/pricing-rule)
-- [اعمال تخفیف](/erpnext/applying-discount)
+- [راهنمای «Selling Settings | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/selling-settings)
+- [سفارش فروش](sales-order.md)
+- [اصلاح سفارش فروش پس از ثبت](amending-sales-order-after-submit.md)
+- [راهنمای «Pricing Rule | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/pricing-rule)
+- [اعمال تخفیف](applying-discount.md)
 
 **منبع:** [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/change-the-rate-of-items-in-the-sales-cycle). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر اصلی در این مخزن بازنشر نشده‌اند.
 

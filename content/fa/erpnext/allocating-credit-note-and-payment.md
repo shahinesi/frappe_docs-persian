@@ -10,12 +10,12 @@ source_version: "f67353fe32ac7791f28480396b66ca33e860f3dfada079ab65cbe7f4d7a1d02
 
 ## پیش از شروع
 
-تأیید کنید Sales Invoice، Credit Note و Payment Entry برای یک Customer، Company، ارز و حساب دریافتنی Submit شده باشند. بستانکاری یا پرداخت باید هنوز مبلغ تخصیص‌نیافته داشته باشد.
+تأیید کنید Sales Invoice، Credit Note و Payment Entry برای یک مشتری، شرکت، ارز و حساب دریافتنی ارسال شده باشند. بستانکاری یا پرداخت باید هنوز مبلغ تخصیص‌نیافته داشته باشد.
 
 ## تخصیص با Payment Reconciliation
 
 1. **Payment Reconciliation** را جست‌وجو کنید.
-2. Company، نوع طرف **Customer**، Customer و حساب دریافتنی را انتخاب کنید.
+2. شرکت، نوع طرف **مشتری**، مشتری و حساب دریافتنی را انتخاب کنید.
 3. پرداخت‌ها و فاکتورهای تخصیص‌نیافته را واکشی کنید.
 4. در بخش پرداخت‌ها، Credit Note یا Payment Entry را انتخاب کنید.
 5. در بخش فاکتورها، Sales Invoice را انتخاب کنید.
@@ -31,23 +31,23 @@ source_version: "f67353fe32ac7791f28480396b66ca33e860f3dfada079ab65cbe7f4d7a1d02
 
 ## بررسی نتیجه
 
-گزارش [Accounts Receivable](accounts-receivables.md) را باز و این موارد را تأیید کنید:
+گزارش [حساب‌های دریافتنی](accounts-receivables.md) را باز و این موارد را تأیید کنید:
 
 - مبلغ تسویه‌نشدهٔ Sales Invoice کاهش یافته است؛
 - مبلغ تخصیص‌نیافتهٔ Credit Note یا Payment Entry کاهش یافته است؛
-- تخصیص به‌تنهایی ماندهٔ کل Customer را تغییر نداده است.
+- تخصیص به‌تنهایی ماندهٔ کل مشتری را تغییر نداده است.
 
 تخصیص، ثبت‌های بدهکار و بستانکار موجود را با هم تطبیق می‌دهد. درآمد، مالیات، موجودی یا حرکت نقدی جدیدی ثبت نمی‌کند.
 
 ## چه زمانی از Journal Entry استفاده کنیم؟
 
-فقط زمانی از Journal Entry استفاده کنید که تعدیل حسابداری را نتوان با Payment Reconciliation انجام داد. Customer را به‌عنوان Party وارد کنید و Sales Invoice یا Credit Note درست را در **Reference Type** و **Reference Name** انتخاب کنید. اگر ارجاع‌ها وارد نشوند، Voucherها باز می‌مانند؛ حتی اگر ماندهٔ حساب درست به‌نظر برسد.
+فقط زمانی از Journal Entry استفاده کنید که تعدیل حسابداری را نتوان با Payment Reconciliation انجام داد. مشتری را به‌عنوان Party وارد کنید و Sales Invoice یا Credit Note درست را در **Reference Type** و **Reference Name** انتخاب کنید. اگر ارجاع‌ها وارد نشوند، Voucherها باز می‌مانند؛ حتی اگر ماندهٔ حساب درست به‌نظر برسد.
 
 ## عیب‌یابی
 
 **بستانکاری یا فاکتور در فهرست نیست**
 
-وضعیت Submit، Customer، Company، ارز، حساب دریافتنی و مبلغ باقی‌ماندهٔ تخصیص‌نیافته یا تسویه‌نشده را بررسی کنید.
+وضعیت ارسال، مشتری، شرکت، ارز، حساب دریافتنی و مبلغ باقی‌ماندهٔ تخصیص‌نیافته یا تسویه‌نشده را بررسی کنید.
 
 **دفترکل تراز است، اما فاکتور پرداخت‌نشده مانده است**
 
@@ -59,11 +59,11 @@ source_version: "f67353fe32ac7791f28480396b66ca33e860f3dfada079ab65cbe7f4d7a1d02
 
 ## موضوعات مرتبط
 
-- [Credit Note](https://docs.frappe.io/erpnext/credit-note)
-- [Payment Entry](https://docs.frappe.io/erpnext/payment-entry)
-- [Payment Reconciliation](https://docs.frappe.io/erpnext/payment-reconciliation)
-- [Accounts Receivables](accounts-receivables.md)
-- [Journal Entry](https://docs.frappe.io/erpnext/journal-entry)
+- [یادداشت بستانکار](credit-note.md)
+- [راهنمای «Payment Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-entry)
+- [راهنمای «Payment Reconciliation | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-reconciliation)
+- [حساب‌های دریافتنی](accounts-receivables.md)
+- [راهنمای «Journal Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/journal-entry)
 
 ---
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/allocating-credit-note-and-payment). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویر اصلی فقط به فایل رسمی پیوند داده شده و در مخزن بازنشر نشده است.

@@ -57,11 +57,11 @@ ERPNext مبلغ روزانه را از ارزش استهلاک‌پذیر و م
 
 ## موضوعات مرتبط
 
-- [Asset Category](https://docs.frappe.io/erpnext/asset-category)
-- [Asset Location](https://docs.frappe.io/erpnext/asset-location)
-- [Asset](https://docs.frappe.io/erpnext/asset)
-- [Purchasing an Asset](https://docs.frappe.io/erpnext/purchasing-an-asset)
-- [Depreciation](https://docs.frappe.io/erpnext/asset-depreciation)
-- [Asset Movement](https://docs.frappe.io/erpnext/asset-movement)
-- [Asset Repair](https://docs.frappe.io/erpnext/asset-repair)
-- [Asset Reports](https://docs.frappe.io/erpnext/asset-reports)
+- [دستهٔ دارایی](asset-category.md)
+- [محل دارایی](asset-location.md)
+- [دارایی](asset.md)
+- [راهنمای «Purchasing an Asset | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchasing-an-asset)
+- [استهلاک](asset-depreciation.md)
+- [جابجایی دارایی](asset-movement.md)
+- [تعمیر دارایی](asset-repair.md)
+- [گزارش‌های دارایی](asset-reports.md)

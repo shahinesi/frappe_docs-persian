@@ -12,7 +12,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 در ERPNext می‌توانید با ویژگی **Fetch From** مقداری را از یک سند پیوندشده به فیلدی دیگر منتقل کنید. این ویژگی زمانی کاربرد دارد که فیلدی باید اطلاعات رکورد پیوندشدهٔ انتخاب‌شده را به‌طور خودکار نشان دهد.
 
-برای نمونه، وقتی کاربر یک **Customer** را انتخاب می‌کند، ممکن است بخواهید قلمرو، شناسهٔ مالیاتی، گروه مشتری یا فیلد دیگری از پروندهٔ اصلی مشتری به‌طور خودکار نمایش داده شود. به‌جای نوشتن Client Script، می‌توانید این کار را در تنظیمات فیلد و با **Fetch From** پیکربندی کنید.
+برای نمونه، وقتی کاربر یک **مشتری** را انتخاب می‌کند، ممکن است بخواهید قلمرو، شناسهٔ مالیاتی، گروه مشتری یا فیلد دیگری از پروندهٔ اصلی مشتری به‌طور خودکار نمایش داده شود. به‌جای نوشتن Client Script، می‌توانید این کار را در تنظیمات فیلد و با **Fetch From** پیکربندی کنید.
 
 [تماشای ویدئوی آموزشی](https://www.youtube.com/watch?v=78Yp_OdXnBI)
 
@@ -35,19 +35,19 @@ link_fieldname.field_to_fetch
 
 ## نمونه
 
-فرض کنید در **Sales Order** یک فیلد سفارشی با نام **Customer Territory** دارید و می‌خواهید قلمرو را به‌طور خودکار از Customer انتخاب‌شده دریافت کنید.
+فرض کنید در **سفارش فروش** یک فیلد سفارشی با نام **مشتری Territory** دارید و می‌خواهید قلمرو را به‌طور خودکار از مشتری انتخاب‌شده دریافت کنید.
 
 در این مثال:
 
-- فیلد Link در Sales Order برابر `customer` است.
-- فیلدی که باید از Customer دریافت شود `territory` است.
+- فیلد Link در سفارش فروش برابر `customer` است.
+- فیلدی که باید از مشتری دریافت شود `territory` است.
 - مقدار **Fetch From** باید چنین باشد:
 
 ```text
 customer.territory
 ```
 
-وقتی کاربر در Sales Order یک Customer انتخاب کند، ERPNext مقدار Territory مشتری را می‌خواند و در فیلد Customer Territory قرار می‌دهد.
+وقتی کاربر در سفارش فروش یک مشتری انتخاب کند، ERPNext مقدار Territory مشتری را می‌خواند و در فیلد مشتری Territory قرار می‌دهد.
 
 ## مراحل پیکربندی Fetch From
 
@@ -65,7 +65,7 @@ customer.territory
 
 ## نمونهٔ دیگر
 
-اگر می‌خواهید **Supplier Group** تأمین‌کنندهٔ انتخاب‌شده را در فیلد سفارشی‌ای در Purchase Order دریافت کنید:
+اگر می‌خواهید **تأمین‌کننده Group** تأمین‌کنندهٔ انتخاب‌شده را در فیلد سفارشی‌ای در سفارش خرید دریافت کنید:
 
 - فیلد Link: `supplier`
 - فیلدی که دریافت می‌شود: `supplier_group`
@@ -75,7 +75,7 @@ customer.territory
 supplier.supplier_group
 ```
 
-پس از انتخاب Supplier، ERPNext مقدار Supplier Group را در فیلد مقصد قرار می‌دهد.
+پس از انتخاب تأمین‌کننده، ERPNext مقدار تأمین‌کننده Group را در فیلد مقصد قرار می‌دهد.
 
 ## نکته‌های مهم
 
@@ -96,18 +96,18 @@ supplier.supplier_group
 
 از Fetch From استفاده کنید اگر:
 
-- فیلدی باید مقداری را از Customer، Supplier، Item، Employee، Project یا رکورد پیوندشدهٔ دیگری نمایش دهد.
+- فیلدی باید مقداری را از مشتری، تأمین‌کننده، کالا، کارمند، Project یا رکورد پیوندشدهٔ دیگری نمایش دهد.
 - مقدار صرفاً برای اطلاع‌رسانی است و باید با رکورد پیوندشدهٔ انتخاب‌شده هماهنگ باشد.
 - می‌خواهید بدون کدنویسی و به‌جای Client Script آن را پیکربندی کنید.
 - قاعدهٔ دریافت ساده است و به شرط یا محاسبه نیاز ندارد.
 
 ## موضوعات مرتبط
 
-- [Customize Form](https://docs.frappe.io/erpnext/customize-form)
-- [Custom Field](https://docs.frappe.io/erpnext/custom-field)
-- [Client Script](https://docs.frappe.io/erpnext/customization/custom-scripts)
-- [DocType](https://docs.frappe.io/framework/user/en/basics/doctypes)
-- [Link Field](https://docs.frappe.io/framework/user/en/basics/doctypes/fieldtypes)
+- [سفارشی‌سازی فرم (Customize Form)](../../erpnext/customize-form.md)
+- [Custom فیلد](../../erpnext/custom-field.md)
+- [اسکریپت‌های سمت کاربر](../../erpnext/client-scripts.md)
+- [راهنمای «Understanding DocTypes» در Frappe Framework](https://docs.frappe.io/framework/user/en/basics/doctypes)
+- [Link فیلد](https://docs.frappe.io/framework/user/en/basics/doctypes/fieldtypes)
 
 ---
 

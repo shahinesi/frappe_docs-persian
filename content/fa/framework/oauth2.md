@@ -46,8 +46,8 @@ DocTypeهای مربوط به این نقش‌ها عبارت‌اند از:
 2. [OAuth 2 در REST API](https://docs.frappe.io/framework/user/en/guides/integration/rest_api/oauth-2)
 3. [احراز هویت مبتنی بر توکن](https://docs.frappe.io/framework/user/en/guides/integration/rest_api/token_based_authentication)
 4. [استفاده از Frappe به‌عنوان سرویس OAuth](https://docs.frappe.io/framework/user/en/using_frappe_as_oauth_service)
-5. [Social Login Key](https://docs.frappe.io/framework/user/en/guides/integration/social_login_key)
-6. [Connected App](https://docs.frappe.io/framework/user/en/guides/app-development/connected-app)
+5. [راهنمای «Social Login Key\n» در Frappe Framework](https://docs.frappe.io/framework/user/en/guides/integration/social_login_key)
+6. [Set up a جدید Connected App](https://docs.frappe.io/framework/user/en/guides/app-development/connected-app)
 
 > **هشدار**
 >

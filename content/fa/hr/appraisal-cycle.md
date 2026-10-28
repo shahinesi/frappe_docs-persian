@@ -10,52 +10,52 @@ quality_status: "passed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-**Appraisal Cycle** بازهٔ زمانی مشخصی است که در طول آن عملکرد کلی کارمند ارزیابی می‌شود.
+**چرخهٔ ارزیابی عملکرد** بازهٔ زمانی مشخصی است که در طول آن عملکرد کلی کارمند ارزیابی می‌شود.
 
 برای ساخت چرخهٔ ارزیابی عملکرد، به این مسیر بروید:
 
-> Home > Human Resources > Performance > Appraisal Cycle
+> صفحهٔ اصلی > منابع انسانی > Performance > چرخهٔ ارزیابی عملکرد
 
 ## 1. پیش‌نیازها
 
-پیش از ساخت چرخه، برای Designationهای مختلف [Appraisal Template](https://docs.frappe.io/hr/appraisal-template) بسازید.
+پیش از ساخت چرخه، برای عنوان شغلیهای مختلف [الگوی ارزیابی عملکرد](appraisal-template.md) بسازید.
 
-می‌توانید قالب‌ها را در پروندهٔ اصلی Designation پیوند دهید تا در چرخه به‌طور خودکار دریافت شوند؛ یا در جدول فرزند **Appraisees** قالب‌های مناسب را دستی انتخاب کنید.
+می‌توانید قالب‌ها را در پروندهٔ اصلی عنوان شغلی پیوند دهید تا در چرخه به‌طور خودکار دریافت شوند؛ یا در جدول فرزند **Appraisees** قالب‌های مناسب را دستی انتخاب کنید.
 
 ## 2. ساخت چرخهٔ ارزیابی عملکرد
 
-1. به فهرست Appraisal Cycle بروید و روی **New** کلیک کنید.
+1. به فهرست چرخهٔ ارزیابی عملکرد بروید و روی **جدید** کلیک کنید.
 2. **Cycle Name** را وارد کنید.
-3. **Company** را انتخاب و تاریخ‌های شروع و پایان را تعیین کنید.
+3. **شرکت** را انتخاب و تاریخ‌های شروع و پایان را تعیین کنید.
 4. **KRA Evaluation Method** را انتخاب کنید:
-   - **Automated Based on Goal Progress** (پیش‌فرض): امتیاز KRA/Goal بر اساس میزان تکمیل Goalهای پیوندخورده به آن KRA به‌طور خودکار محاسبه می‌شود. برای جزئیات بیشتر به [Goal](https://docs.frappe.io/hr/goal) مراجعه کنید.
+   - **Automated Based on Goal Progress** (پیش‌فرض): امتیاز KRA/Goal بر اساس میزان تکمیل Goalهای پیوندخورده به آن KRA به‌طور خودکار محاسبه می‌شود. برای جزئیات بیشتر به [راهنمای «Goal» در Frappe HR](https://docs.frappe.io/hr/goal) مراجعه کنید.
    - **Manual Rating:** می‌توانید Goalها/KRAها را دستی امتیازدهی کنید. این روش ارزیابی اصلی تا نسخهٔ v13 بود.
-5. به‌طور پیش‌فرض، **Final Score** میانگین Goal Score، Feedback Score و Self Appraisal Score است. برای محاسبهٔ امتیاز نهایی با فرمول خودتان، **Calculate Final Score based on Formala** را فعال و عبارت فرمول را وارد کنید.
+5. به‌طور پیش‌فرض، **Final Score** میانگین Goal Score، بازخورد Score و Self ارزیابی عملکرد Score است. برای محاسبهٔ امتیاز نهایی با فرمول خودتان، **Calculate Final Score based on Formala** را فعال و عبارت فرمول را وارد کنید.
 
 ![تنظیم چرخهٔ ارزیابی عملکرد](https://frappehr.com/files/0UPkmBl.png)
 
 ## 3. کنش‌ها
 
-### 3.1 ساخت Appraisalها
+### 3.1 ساخت ارزیابی عملکردها
 
-می‌توانید از داخل Appraisal Cycle تعداد زیادی Appraisal را یکجا بسازید.
+می‌توانید از داخل چرخهٔ ارزیابی عملکرد تعداد زیادی ارزیابی عملکرد را یکجا بسازید.
 
-1. در زبانهٔ **Applicable For**، فیلترهای لازم را تعیین کنید تا کارکنان مشمول چرخه دریافت شوند. می‌توانید برای Branch، Department یا Designation مشخص چرخهٔ جداگانه بسازید؛ برای نمونه، Engineering ممکن است چرخهٔ سالانه داشته باشد، درحالی‌که Sales به چرخهٔ شش‌ماهه نیاز داشته باشد.
+1. در زبانهٔ **Applicable For**، فیلترهای لازم را تعیین کنید تا کارکنان مشمول چرخه دریافت شوند. می‌توانید برای شاخه، دپارتمان یا عنوان شغلی مشخص چرخهٔ جداگانه بسازید؛ برای نمونه، Engineering ممکن است چرخهٔ سالانه داشته باشد، درحالی‌که Sales به چرخهٔ شش‌ماهه نیاز داشته باشد.
 2. پس از تعیین فیلترها، **Get Employees** را بزنید و ذخیره کنید. کارکنان بر اساس فیلترها دریافت می‌شوند.
 3. در جدول Employees، کارکنان دریافت‌شده را بررسی کنید. برای افزودن دستی کارمند دیگری، **Add Row** را بزنید.
-4. **Create Appraisals** را کلیک کنید تا برای کارکنان انتخاب‌شده سندهای Appraisal ساخته شوند.
+4. **Create Appraisals** را کلیک کنید تا برای کارکنان انتخاب‌شده سندهای ارزیابی عملکرد ساخته شوند.
 5. برای شروع چرخه، **Start** را بزنید.
 
 ![ساخت Appraisalها از چرخه](https://frappehr.com/files/create-appraisalsaa9d04.gif)
 
 اگر کارمندی پس از شروع چرخه به سازمان بپیوندد، می‌توانید یکی از این کارها را انجام دهید:
 
-- برای او جداگانه سند Appraisal بسازید و چرخه را انتخاب کنید.
-- یا در جدول فرزند Employees چرخه برای کارمند جدید ردیف اضافه کنید، ذخیره کنید و دوباره **Create Appraisals** را بزنید. برای کارکنان تازه‌افزوده‌شده Appraisal ساخته می‌شود.
+- برای او جداگانه سند ارزیابی عملکرد بسازید و چرخه را انتخاب کنید.
+- یا در جدول فرزند Employees چرخه برای کارمند جدید ردیف اضافه کنید، ذخیره کنید و دوباره **Create Appraisals** را بزنید. برای کارکنان تازه‌افزوده‌شده ارزیابی عملکرد ساخته می‌شود.
 
 ### 3.2 دیدن Goalها
 
-با این دکمه می‌توانید Goalهای پیوندخورده به چرخه را ببینید. این دکمه شما را به Goal Treeای می‌برد که بر اساس Appraisal Cycle فیلتر شده است.
+با این دکمه می‌توانید Goalهای پیوندخورده به چرخه را ببینید. این دکمه شما را به Goal Treeای می‌برد که بر اساس چرخهٔ ارزیابی عملکرد فیلتر شده است.
 
 ![درخت Goalهای فیلترشده بر اساس چرخه](https://frappehr.com/files/filtered-goal-tree.png)
 
@@ -66,7 +66,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 بخش Stats در چرخه، نمای کلی این موارد را نشان می‌دهد:
 
 - تعداد Appraiseeهای مشمول چرخه
-- تعداد Self Appraisalهای در انتظار
+- تعداد Self ارزیابی عملکردهای در انتظار
 - تعداد کارکنانی که بازخورد ندارند
 - تعداد کارکنانی که Goal ندارند
 
@@ -74,9 +74,9 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## 5. موضوعات مرتبط
 
-1. [Appraisal](https://docs.frappe.io/hr/appraisal)
-2. [Goal](https://docs.frappe.io/hr/goal)
-3. [Employee Performance Feedback](https://docs.frappe.io/hr/employee-performance-feedback)
+1. [ارزیابی عملکرد](https://docs.frappe.io/hr/appraisal)
+2. [راهنمای «Goal» در Frappe HR](https://docs.frappe.io/hr/goal)
+3. [کارمند Performance بازخورد](https://docs.frappe.io/hr/employee-performance-feedback)
 
 ---
 

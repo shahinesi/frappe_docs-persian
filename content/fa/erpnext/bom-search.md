@@ -8,7 +8,7 @@ source_version: "9cdaada33d7dedf2a87a6ccf10d775b09d410d01b963d9d79efb3cb5d9a103f
 
 برای دسترسی به گزارش **BOM Search** به مسیر زیر بروید:
 
-> Home > Manufacturing > Reports > BOM Search Report
+> صفحهٔ اصلی > Manufacturing > Reports > BOM Search گزارش
 
 ![گزارش جست‌وجوی BOM](https://docs.frappe.io/files/bom-search.png)
 

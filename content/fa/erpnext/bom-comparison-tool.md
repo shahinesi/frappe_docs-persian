@@ -14,7 +14,7 @@ BOM ([فهرست مواد](bill-of-materials.md)) یک قلم، در گذر زم
 
 برای استفاده از ابزار BOM Comparison Tool به مسیر زیر بروید:
 
-> Home > Manufacturing > Tools > BOM Comparison Tool
+> صفحهٔ اصلی > Manufacturing > Tools > BOM Comparison Tool
 
 ## 1. استفاده از ابزار BOM Comparison Tool
 

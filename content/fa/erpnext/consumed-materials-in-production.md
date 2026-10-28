@@ -17,7 +17,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای بازکردن گزارش **Issued Items Against Work Order**، به این مسیر بروید:
 
-**Home > Manufacturing > Reports > Issued Items Against Work Order**
+**صفحهٔ اصلی > Manufacturing > Reports > Issued Items Against Work Order**
 
 این گزارش اقلامی را نشان می‌دهد که برای یک **Work Order** حواله شده و به انبار **Work in Progress** منتقل شده‌اند.
 

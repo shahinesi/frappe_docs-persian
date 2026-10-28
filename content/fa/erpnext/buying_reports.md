@@ -15,19 +15,19 @@ source_version: "2fa3652ac8244c53d2fa8da5563a0ce500795d1e8b5d2f813141c806ce4ec3b
 | پرسش | گزارش مناسب برای شروع | مواردی که باید بررسی شوند |
 | --- | --- | --- |
 | چه چیزی هنوز باید سفارش داده یا دریافت شود؟ | Requested Items to Order and Receive | مقدار درخواست‌شده، سفارش‌شده، دریافت‌شده و باقیمانده |
-| کدام سفارش‌ها دیر شده‌اند؟ | Purchase Order Analysis | تاریخ Required By، مقدار دریافت‌شده و تأخیر |
+| کدام سفارش‌ها دیر شده‌اند؟ | سفارش خرید Analysis | تاریخ Required By، مقدار دریافت‌شده و تأخیر |
 | چه کالاهایی فیزیکی رسیده‌اند؟ | Purchase Receipt Trends یا گزارش Purchase Receipt | تأمین‌کننده، قلم، انبار و مقدار پذیرفته یا ردشده |
-| چه چیزی دریافت شده اما صورتحساب نشده است؟ | گزارش‌های Purchase Order Analysis و Purchase Invoice | درصد دریافت، درصد صورتحساب‌شده و Stock Received But Not Billed |
-| چه مبلغی به تأمین‌کنندگان بدهکاریم؟ | [Accounts Payable](https://docs.frappe.io/erpnext/accounts-receivable-and-payable) | مبلغ تسویه‌نشده، مدت بدهی و سررسید |
-| آیا قیمت‌های خرید تغییر می‌کنند؟ | Purchase Analytics یا Item-wise Purchase History | نرخ، مقدار، دوره و تأمین‌کننده |
-| یک نیاز در چه مرحله‌ای است؟ | [Procurement Tracker](https://docs.frappe.io/erpnext/procurement-tracker-report) | مسیر از Material Request تا رسید و صورتحساب |
-| کدام تأمین‌کنندگان عملکرد قابل‌اتکایی دارند؟ | Supplier Scorecard و Supplier-wise Purchase | تحویل، اقلام ردشده، پاسخ‌گویی و ارزش خرید |
+| چه چیزی دریافت شده اما صورتحساب نشده است؟ | گزارش‌های سفارش خرید Analysis و Purchase Invoice | درصد دریافت، درصد صورتحساب‌شده و Stock Received But Not Billed |
+| چه مبلغی به تأمین‌کنندگان بدهکاریم؟ | [حساب‌های پرداختنی](accounts-receivable-and-payable.md) | مبلغ تسویه‌نشده، مدت بدهی و سررسید |
+| آیا قیمت‌های خرید تغییر می‌کنند؟ | Purchase Analytics یا کالا-wise Purchase History | نرخ، مقدار، دوره و تأمین‌کننده |
+| یک نیاز در چه مرحله‌ای است؟ | [Procurement Tracker گزارش | ERPNext Documentation](https://docs.frappe.io/erpnext/procurement-tracker-report) | مسیر از Material Request تا رسید و صورتحساب |
+| کدام تأمین‌کنندگان عملکرد قابل‌اتکایی دارند؟ | تأمین‌کننده Scorecard و تأمین‌کننده-wise Purchase | تحویل، اقلام ردشده، پاسخ‌گویی و ارزش خرید |
 
 ## اجرای گزارش با فیلترهای کاربردی
 
 1. فضای کاری Buying را باز کنید و گزارشی را انتخاب کنید که با پرسش شما مطابقت دارد.
-2. Company و بازهٔ تاریخی معناداری را تنظیم کنید.
-3. فیلترهای Supplier، Item، Item Group، انبار، Project یا وضعیت را فقط وقتی اضافه کنید که به پاسخ‌دادن به پرسش کمک می‌کنند.
+2. شرکت و بازهٔ تاریخی معناداری را تنظیم کنید.
+3. فیلترهای تأمین‌کننده، کالا، کالا Group، انبار، Project یا وضعیت را فقط وقتی اضافه کنید که به پاسخ‌دادن به پرسش کمک می‌کنند.
 4. گزارش را تازه‌سازی و پیش از خروجی‌گرفتن، رکوردهای نمایش‌داده‌شده را بررسی کنید.
 5. اگر لازم است عددی را توضیح دهید، سند مبدأ پیوندخورده را باز کنید.
 
@@ -37,15 +37,15 @@ source_version: "2fa3652ac8244c53d2fa8da5563a0ce500795d1e8b5d2f813141c806ce4ec3b
 
 ## پایش نیازها و سفارش‌ها
 
-برای یافتن مقدارهایی که هنوز پردازش نشده‌اند، از گزارش‌های Material Request و Purchase Order استفاده کنید. مقدارهای درخواست‌شده، سفارش‌شده، دریافت‌شده و صورتحساب‌شده را با هم مقایسه کنید و فقط به وضعیت سند تکیه نکنید.
+برای یافتن مقدارهایی که هنوز پردازش نشده‌اند، از گزارش‌های Material Request و سفارش خرید استفاده کنید. مقدارهای درخواست‌شده، سفارش‌شده، دریافت‌شده و صورتحساب‌شده را با هم مقایسه کنید و فقط به وضعیت سند تکیه نکنید.
 
-برای مثال، بخشی از سفارش آداپتور Nova پذیرفته و بخشی رد شده است. Purchase Order Analysis باید نشان دهد که برای سفارش رسید ثبت شده، مقدار پذیرفته‌شده در پیشرفت دریافت محاسبه می‌شود و هر مقدار باقیمانده‌ای که می‌توان برای آن صورتحساب صادر کرد همچنان باز است.
+برای مثال، بخشی از سفارش آداپتور Nova پذیرفته و بخشی رد شده است. سفارش خرید Analysis باید نشان دهد که برای سفارش رسید ثبت شده، مقدار پذیرفته‌شده در پیشرفت دریافت محاسبه می‌شود و هر مقدار باقیمانده‌ای که می‌توان برای آن صورتحساب صادر کرد همچنان باز است.
 
 ![گزارش Requested Items to Order and Receive با مقدارهای باقیمانده و تاریخ‌های موردنیاز](https://docs.frappe.io/files/docs-20261022-docs-buying-reports-items-to-receive.png)
 
 ## بررسی سابقهٔ تأمین‌کننده و قلم
 
-گزارش‌های Supplier-wise و Item-wise نشان می‌دهند چه تأمین‌کننده‌ای یک قلم را، با چه نرخی، در چه مقداری و طی کدام دوره تأمین کرده است. هنگام مذاکره برای سفارش جدید یا بررسی تغییر قیمت از آن‌ها استفاده کنید.
+گزارش‌های تأمین‌کننده-wise و کالا-wise نشان می‌دهند چه تأمین‌کننده‌ای یک قلم را، با چه نرخی، در چه مقداری و طی کدام دوره تأمین کرده است. هنگام مذاکره برای سفارش جدید یا بررسی تغییر قیمت از آن‌ها استفاده کنید.
 
 بدون بررسی ارز، UOM، ضریب تبدیل، مالیات، تخفیف و اندازهٔ بسته، نرخ‌ها را با هم مقایسه نکنید. نرخی که کمتر به‌نظر می‌رسد ممکن است بر مبنای واحد خرید یا شرایط تجاری متفاوتی باشد.
 
@@ -53,7 +53,7 @@ source_version: "2fa3652ac8244c53d2fa8da5563a0ce500795d1e8b5d2f813141c806ce4ec3b
 
 ## تفسیر جداگانهٔ رسیدها، صورتحساب‌ها و بدهی‌ها
 
-رسید، دریافت کالا را تأیید می‌کند؛ صورتحساب، مبلغ اعلام‌شده از سوی تأمین‌کننده را ثبت می‌کند؛ و Accounts Payable بدهی تسویه‌نشده را نشان می‌دهد. تفاوت میان این گزارش‌ها می‌تواند طبیعی باشد.
+رسید، دریافت کالا را تأیید می‌کند؛ صورتحساب، مبلغ اعلام‌شده از سوی تأمین‌کننده را ثبت می‌کند؛ و حساب‌های پرداختنی بدهی تسویه‌نشده را نشان می‌دهد. تفاوت میان این گزارش‌ها می‌تواند طبیعی باشد.
 
 اگر ارزش دریافت‌شده از ارزش صورتحساب‌شده بیشتر است، Purchase Receiptهایی را بررسی کنید که هنوز صورتحساب ندارند. اگر ارزش صورتحساب‌شده از ارزش دریافت‌شده بیشتر است، صورتحساب خدمات، صورتحساب‌های مستقیم، پیش‌پرداخت‌ها یا صورتحساب‌هایی را بررسی کنید که در انتظار دریافت فیزیکی کالا هستند.
 
@@ -67,7 +67,7 @@ source_version: "2fa3652ac8244c53d2fa8da5563a0ce500795d1e8b5d2f813141c806ce4ec3b
 
 ### تراکنش ثبت‌نهایی‌شده در گزارش نمایش داده نمی‌شود
 
-فیلد تاریخ گزارش، Company، وضعیت سند و فیلترهای Supplier، Item و انبار را بررسی کنید. مطمئن شوید تراکنش در دورهٔ انتخاب‌شده قرار می‌گیرد و User Permissions شما اجازهٔ مشاهدهٔ رکورد مبدأ را می‌دهد.
+فیلد تاریخ گزارش، شرکت، وضعیت سند و فیلترهای تأمین‌کننده، کالا و انبار را بررسی کنید. مطمئن شوید تراکنش در دورهٔ انتخاب‌شده قرار می‌گیرد و User Permissions شما اجازهٔ مشاهدهٔ رکورد مبدأ را می‌دهد.
 
 ### جمع دو گزارش با هم تفاوت دارد
 
@@ -79,37 +79,37 @@ source_version: "2fa3652ac8244c53d2fa8da5563a0ce500795d1e8b5d2f813141c806ce4ec3b
 
 ### بررسی گزارش بیش از حد دشوار است
 
-ابتدا Company، دوره و وضعیت را مشخص کنید. پس از مشاهدهٔ نتیجه، فیلتر Supplier یا Item را اضافه کنید. فقط وقتی نمونهٔ روی صفحه درست به‌نظر می‌رسد خروجی بگیرید.
+ابتدا شرکت، دوره و وضعیت را مشخص کنید. پس از مشاهدهٔ نتیجه، فیلتر تأمین‌کننده یا کالا را اضافه کنید. فقط وقتی نمونهٔ روی صفحه درست به‌نظر می‌رسد خروجی بگیرید.
 
 ## پرسش‌های رایج
 
 ### کدام گزارش صورتحساب‌های پرداخت‌نشدهٔ تأمین‌کننده را نشان می‌دهد؟
 
-از Accounts Payable استفاده کنید. گزارش‌های Buying مسیر تأمین و صدور صورتحساب را توضیح می‌دهند، اما Accounts Payable نمای مرجع بدهی‌های باز تأمین‌کنندگان است.
+از حساب‌های پرداختنی استفاده کنید. گزارش‌های Buying مسیر تأمین و صدور صورتحساب را توضیح می‌دهند، اما حساب‌های پرداختنی نمای مرجع بدهی‌های باز تأمین‌کنندگان است.
 
 ### خریدار هر روز کدام گزارش را بررسی کند؟
 
-Purchase Order Analysis یا Requested Items to Order and Receive نقطهٔ شروع عملیاتی مناسبی است. بهترین گزارش روزانه به این بستگی دارد که نقش کاربر مسئول سفارش‌گذاری، پیگیری تأخیر، دریافت یا تطبیق صورتحساب باشد.
+سفارش خرید Analysis یا Requested Items to Order and Receive نقطهٔ شروع عملیاتی مناسبی است. بهترین گزارش روزانه به این بستگی دارد که نقش کاربر مسئول سفارش‌گذاری، پیگیری تأخیر، دریافت یا تطبیق صورتحساب باشد.
 
 ### آیا گزارش می‌تواند جایگزین سند مبدأ شود؟
 
-خیر. گزارش، رکوردها را خلاصه می‌کند و جایگزین سند مبدأ نیست. برای مشاهدهٔ مسیر حسابرسی، جزئیات ردیف، توضیحات یا سابقهٔ تأیید، Purchase Order، Purchase Receipt یا Purchase Invoice پیوندخورده را باز کنید.
+خیر. گزارش، رکوردها را خلاصه می‌کند و جایگزین سند مبدأ نیست. برای مشاهدهٔ مسیر حسابرسی، جزئیات ردیف، توضیحات یا سابقهٔ تأیید، سفارش خرید، Purchase Receipt یا Purchase Invoice پیوندخورده را باز کنید.
 
 ### آیا می‌توان از این گزارش‌ها خروجی گرفت؟
 
 اگر کاربر مجوز داشته باشد، می‌تواند از گزارش‌ها خروجی بگیرد. ابتدا فیلترها را اعمال و بررسی کنید تا خروجی دقیقاً پاسخ‌گوی پرسش موردنظر باشد، نه صرفاً تخلیهٔ دادهٔ بررسی‌نشده.
 
-برای بررسی تراکنش‌های مبدأِ نتیجه، از [Material Request](https://docs.frappe.io/erpnext/material-request)، [Request for Quotation](https://docs.frappe.io/erpnext/request-for-quotation)، [Supplier Quotation](https://docs.frappe.io/erpnext/supplier-quotation)، [Purchase Order](https://docs.frappe.io/erpnext/purchase-order)، [Purchase Receipt](https://docs.frappe.io/erpnext/purchase-receipt) و [Purchase Invoice](https://docs.frappe.io/erpnext/purchase-invoice) استفاده کنید. اگر پرسش دربارهٔ پیشرفت، بدهی، موجودی یا تسویه است، [Procurement Tracker](https://docs.frappe.io/erpnext/procurement-tracker-report)، [Accounts Payable](https://docs.frappe.io/erpnext/accounts-receivable-and-payable)، [Stock Ledger](https://docs.frappe.io/erpnext/stock-ledger) و [Payment Ledger](https://docs.frappe.io/erpnext/payment_ledger) را ببینید.
+برای بررسی تراکنش‌های مبدأِ نتیجه، از [راهنمای «Material Request | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/material-request)، [راهنمای «Request for Quotation | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/request-for-quotation)، [تأمین‌کننده Quotation](https://docs.frappe.io/erpnext/supplier-quotation)، [سفارش خرید](purchase-order.md)، [راهنمای «Purchase Receipt | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-receipt) و [راهنمای «Purchase Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-invoice) استفاده کنید. اگر پرسش دربارهٔ پیشرفت، بدهی، موجودی یا تسویه است، [Procurement Tracker گزارش | ERPNext Documentation](https://docs.frappe.io/erpnext/procurement-tracker-report)، [حساب‌های پرداختنی](accounts-receivable-and-payable.md)، [Stock Ledger گزارش](https://docs.frappe.io/erpnext/stock-ledger) و [راهنمای «Payment Ledger | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment_ledger) را ببینید.
 
 ## موضوعات مرتبط
 
 - [آشنایی با Buying](buying.md)
-- [Material Request](https://docs.frappe.io/erpnext/material-request)
-- [Purchase Order](https://docs.frappe.io/erpnext/purchase-order)
-- [Purchase Receipt](https://docs.frappe.io/erpnext/purchase-receipt)
-- [Purchase Invoice](https://docs.frappe.io/erpnext/purchase-invoice)
-- [Procurement Tracker](https://docs.frappe.io/erpnext/procurement-tracker-report)
-- [Supplier Scorecard](https://docs.frappe.io/erpnext/supplier-scorecard)
-- [Accounts Payable](https://docs.frappe.io/erpnext/accounts-receivable-and-payable)
+- [راهنمای «Material Request | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/material-request)
+- [سفارش خرید](purchase-order.md)
+- [راهنمای «Purchase Receipt | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-receipt)
+- [راهنمای «Purchase Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-invoice)
+- [Procurement Tracker گزارش | ERPNext Documentation](https://docs.frappe.io/erpnext/procurement-tracker-report)
+- [تأمین‌کننده Scorecard](https://docs.frappe.io/erpnext/supplier-scorecard)
+- [حساب‌های پرداختنی](accounts-receivable-and-payable.md)
 
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/buying_reports). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های رسمی مستندات پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

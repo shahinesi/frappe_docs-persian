@@ -15,12 +15,12 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 >
 > ویدیوی صفحهٔ منبع به‌صورت پیوندی به فایل رسمی حفظ شده است و در این مخزن بازنشر نشده است.
 
-<video controls width="100%" height="auto"><source src="https://docs.frappe.io/files/dashboard-new.mp4" type="video/mp4"></video>
+<video controls width="100%" height="auto"><source src="https://docs.frappe.io/files/داشبورد-جدید.mp4" type="video/mp4"></video>
 
-1. **رفتن به داشبوردها**: در صفحهٔ Workbook روی **Dashboards** و سپس نماد **+** کلیک کنید.
+1. **رفتن به داشبوردها**: در صفحهٔ کارپوشه روی **Dashboards** و سپس نماد **+** کلیک کنید.
 2. **نام‌گذاری**: روی عنوان کلیک کنید تا نام را تغییر دهید. نامی روشن و توصیفی مانند «Sales Overview» یا «Monthly Performance» انتخاب کنید.
 3. **افزودن محتوا**:
-   - برای افزودن نمودارهای دیداری روی **Add Chart** کلیک کنید.
+   - برای افزودن نمودارهای دیداری روی **Add نمودار** کلیک کنید.
    - برای افزودن کنترل‌های تعاملی روی **Add Filter** کلیک کنید.
    - برای افزودن توضیح یا عنوان روی **Add Text** کلیک کنید.
 4. **چیدمان صفحه**:
@@ -40,8 +40,8 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 **افزودن نمودار**
 
-- روی **Add Chart** کلیک کنید.
-- یک یا چند نمودار را از Workbook انتخاب کنید.
+- روی **Add نمودار** کلیک کنید.
+- یک یا چند نمودار را از کارپوشه انتخاب کنید.
 - نمودارها در قالب شبکه‌ای روی داشبورد قرار می‌گیرند.
 
 **کار با نمودارها**
@@ -85,7 +85,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 **تنظیم پیوندهای فیلتر**
 
 - می‌توانید یک فیلتر را به ستون‌های متفاوت در نمودارهای مختلف پیوند دهید.
-- برای نمونه، فیلتر «Region» می‌تواند ستون «Region» در نمودار فروش، «Store Region» در نمودار موجودی و «Customer Region» در نمودار سفارش‌ها را کنترل کند.
+- برای نمونه، فیلتر «Region» می‌تواند ستون «Region» در نمودار فروش، «Store Region» در نمودار موجودی و «مشتری Region» در نمودار سفارش‌ها را کنترل کند.
 
 **آشنایی با انواع فیلتر**
 

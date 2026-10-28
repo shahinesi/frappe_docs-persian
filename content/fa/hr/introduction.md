@@ -48,6 +48,6 @@ Frappe HR نرم‌افزار متن‌باز، مدرن و آسان‌کارِ 
 ### یادگیری و جامعهٔ کاربری
 
 1. [Frappe School](https://frappe.school) — دوره‌های نگه‌دارندگان پروژه و جامعه برای یادگیری Frappe Framework و ERPNext.
-2. [مستندات](https://docs.frappe.io/hr) — مستندات جامع Frappe HR.
+2. [مستندات](introduction.md) — مستندات جامع Frappe HR.
 3. [تالار گفت‌وگوی کاربران](https://discuss.erpnext.com/) — گفت‌وگو با کاربران و ارائه‌دهندگان خدمات ERPNext.
 4. [گروه Telegram](https://t.me/frappehr) — دریافت کمک از جامعهٔ کاربران.

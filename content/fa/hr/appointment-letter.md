@@ -16,37 +16,37 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 در Frappe HR می‌توانید برای نامزدها نامهٔ انتصاب بسازید. برای دسترسی به آن، به این مسیر بروید:
 
-> Home > Human Resource > Recruitment > Appointment Letter
+> صفحهٔ اصلی > Human Resource > Recruitment > نامهٔ انتصاب
 
 ## 1. پیش‌نیاز
 
 پیش از ساخت نامهٔ انتصاب، بهتر است مورد زیر را ایجاد کرده باشید:
 
-- [Job Applicant](https://docs.frappe.io/hr/job-applicant)
+- [راهنمای «Job Applicant» در Frappe HR](https://docs.frappe.io/hr/job-applicant)
 
 ## 2. ساخت نامهٔ انتصاب
 
-1. به فهرست Appointment Letter بروید و **New** را بزنید.
+1. به فهرست نامهٔ انتصاب بروید و **جدید** را بزنید.
 2. **Job Applicant** و **Appointment Date** را انتخاب کنید.
-3. بخش‌های **Introduction**، **Terms** و **Closing Statement** را دستی پر کنید یا برای پرشدن خودکار محتوا، یک Appointment Letter Template انتخاب کنید. می‌توانید قالب‌های تازه‌ای بسازید تا بعداً به‌آسانی انتخابشان کنید.
-4. روی **Save** کلیک کنید.
+3. بخش‌های **Introduction**، **Terms** و **Closing Statement** را دستی پر کنید یا برای پرشدن خودکار محتوا، یک نامهٔ انتصاب Template انتخاب کنید. می‌توانید قالب‌های تازه‌ای بسازید تا بعداً به‌آسانی انتخابشان کنید.
+4. روی **ذخیره** کلیک کنید.
 5. پس از ذخیره، برای دیدن و ذخیره‌کردن PDF نامه، به **Print View** بروید.
 
 ![نامهٔ انتصاب در Frappe HR](https://frappehr.com/files/appointment-letter.png)
 
-> **توجه:** نامهٔ انتصاب را فقط می‌توان برای یک [Job Applicant](https://docs.frappe.io/hr/job-applicant) ساخت.
+> **توجه:** نامهٔ انتصاب را فقط می‌توان برای یک [راهنمای «Job Applicant» در Frappe HR](https://docs.frappe.io/hr/job-applicant) ساخت.
 
 ## 3. قابلیت‌ها
 
 ### 3.1 قالب نامهٔ انتصاب
 
-1. به فهرست Appointment Letter Template بروید و **New** را بزنید.
+1. به فهرست نامهٔ انتصاب Template بروید و **جدید** را بزنید.
 2. بخش‌های **Introduction**، **Terms** و **Closing Statement** را پر کنید.
-3. روی **Save** کلیک کنید.
+3. روی **ذخیره** کلیک کنید.
 
 ![قالب نامهٔ انتصاب](https://frappehr.com/files/appointment-letter-template.png)
 
-> **توجه:** با انتخاب Appointment Letter Template در فرم Appointment Letter، محتوای قالب به‌طور خودکار پر می‌شود.
+> **توجه:** با انتخاب نامهٔ انتصاب Template در فرم نامهٔ انتصاب، محتوای قالب به‌طور خودکار پر می‌شود.
 
 ### 3.2 قالب چاپ
 

@@ -21,13 +21,13 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای دسترسی به قالب چاپ چک، به این مسیر بروید:
 
-**Home > Accounting > Cheque Print Template**
+**صفحهٔ اصلی > Accounting > Cheque Print Template**
 
 با استفاده از قالب چاپ چک می‌توانید قالب چاپ جدیدی بسازید که بر اساس قالب چکی باشد که بانک ارائه کرده است.
 
 ## ایجاد قالب چاپ چک
 
-1. به فهرست **Cheque Print Template** بروید و روی **New** کلیک کنید.
+1. به فهرست **Cheque Print Template** بروید و روی **جدید** کلیک کنید.
 2. موقعیت اجزای مختلف روی چک را تنظیم کنید.
 3. ذخیره کنید.
 
@@ -53,7 +53,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## موضوعات مرتبط
 
-1. [قالب نشانی](https://docs.frappe.io/erpnext/address-template)
+1. [قالب نشانی](address-template.md)
 2. [قالب شرایط و ضوابط](https://docs.frappe.io/erpnext/terms-and-conditions)
 
 **منبع:** [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/cheque-print-template). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویر و پویانمایی اصلی در این مخزن بازنشر نشده‌اند.

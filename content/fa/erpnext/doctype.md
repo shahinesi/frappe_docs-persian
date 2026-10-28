@@ -17,13 +17,13 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 **DocType** سازهٔ اصلی هر برنامه‌ای است که بر پایهٔ Frappe Framework ساخته شده باشد.
 
-DocType مدل و نمای داده‌ها را توصیف می‌کند: مشخص می‌کند چه فیلدهایی برای داده ذخیره شوند، چگونه با یکدیگر رفتار کنند و داده‌ها چگونه نام‌گذاری شوند. فرم‌هایی مانند Sales Order، Sales Invoice و Work Order در بخش پشتی به‌صورت DocType تعریف می‌شوند.
+DocType مدل و نمای داده‌ها را توصیف می‌کند: مشخص می‌کند چه فیلدهایی برای داده ذخیره شوند، چگونه با یکدیگر رفتار کنند و داده‌ها چگونه نام‌گذاری شوند. فرم‌هایی مانند سفارش فروش، Sales Invoice و Work Order در بخش پشتی به‌صورت DocType تعریف می‌شوند.
 
 DocType به شما اجازه می‌دهد فرم‌های سفارشی موردنیازتان را در ERPNext بسازید.
 
 برای ایجاد DocType جدید، به مسیر زیر بروید:
 
-> Setup > Customize > DocType > New
+> Setup > Customize > DocType > جدید
 
 ## 1. ایجاد DocType جدید
 
@@ -35,7 +35,7 @@ DocType به شما اجازه می‌دهد فرم‌های سفارشی مور
 
 ### 1.1. جزئیات تکمیلی
 
-1. **Fields:** هر تعداد فیلد لازم است اضافه کنید. Label، Field Type، اجباری‌بودن فیلد و گزینه‌های مرتبط دیگر نیز در این بخش تنظیم می‌شوند. برای آشنایی بیشتر با انواع فیلد، [راهنمای Field Types](/erpnext/field-types) را ببینید.
+1. **Fields:** هر تعداد فیلد لازم است اضافه کنید. Label، فیلد Type، اجباری‌بودن فیلد و گزینه‌های مرتبط دیگر نیز در این بخش تنظیم می‌شوند. برای آشنایی بیشتر با انواع فیلد، [راهنمای فیلد Types](https://docs.frappe.io/erpnext/field-types) را ببینید.
 
    ![فیلدهای DocType سفارشی](https://docs.frappe.io/files/doctype-employee-transfer-fields.png)
 
@@ -43,28 +43,28 @@ DocType به شما اجازه می‌دهد فرم‌های سفارشی مور
 
    ![تنظیم نام‌گذاری DocType سفارشی](https://docs.frappe.io/files/doctype-employee-transfer-naming.png)
 
-3. **Form Settings:** تنظیمات تکمیلی فرم، فیلد تصویر، پیوست‌ها و Timeline را می‌توان در این بخش پیکربندی کرد. برای اطلاعات بیشتر دربارهٔ فرم، [Customize Form](/erpnext/customize-form) را ببینید.
+3. **Form Settings:** تنظیمات تکمیلی فرم، فیلد تصویر، پیوست‌ها و Timeline را می‌توان در این بخش پیکربندی کرد. برای اطلاعات بیشتر دربارهٔ فرم، [سفارشی‌سازی فرم (Customize Form)](customize-form.md) را ببینید.
 
    ![تنظیمات فرم DocType سفارشی](https://docs.frappe.io/files/doctype-employee-transfer-form-settings.png)
 
 4. **View Settings:** تنظیمات نما مانند فیلدهای جست‌وجو، فیلد مرتب‌سازی پیش‌فرض و ترتیب پیش‌فرض مرتب‌سازی را تعیین کنید.
-5. **Permission Rules:** قواعد مجوز DocType را تعریف کنید و مشخص کنید کدام کاربران می‌توانند از آن استفاده کنند یا تغییرش دهند. برای اطلاعات بیشتر، [Users and Permissions](/erpnext/users-and-permissions) را ببینید.
+5. **مجوز Rules:** قواعد مجوز DocType را تعریف کنید و مشخص کنید کدام کاربران می‌توانند از آن استفاده کنند یا تغییرش دهند. برای اطلاعات بیشتر، [افزودن کاربران](adding-users.md) را ببینید.
 
    ![مجوزهای DocType سفارشی](https://docs.frappe.io/files/doctype-employee-transfer-permissions.png)
 
-6. **Web View:** مشخص کنید این DocType نمای وب داشته باشد یا نه. با فعال‌کردن Web View، کاربران وب‌سایت می‌توانند به فرم‌های آن دسترسی داشته باشند. دربارهٔ [Website Users](/erpnext/difference-between-system-user-and-website-user) بیشتر بخوانید.
+6. **Web View:** مشخص کنید این DocType نمای وب داشته باشد یا نه. با فعال‌کردن Web View، کاربران وب‌سایت می‌توانند به فرم‌های آن دسترسی داشته باشند. دربارهٔ [تفاوت کاربر سیستمی و کاربر وب‌سایت](difference-between-system-user-and-website-user.md) بیشتر بخوانید.
 
 ### 1.2. ویژگی‌های بیشتر
 
 1. **Is Submittable:** با فعال یا غیرفعال‌کردن این گزینه مشخص کنید DocType فقط ذخیره شود یا امکان ثبت نهایی نیز داشته باشد.
-2. **Is Child Table:** مشخص کنید DocType جدید درون DocType دیگری به‌عنوان جدول فرزند استفاده شود یا نه. برای اطلاعات بیشتر، [Child Table](/erpnext/customizing-data-visibility-in-child-table) را ببینید.
+2. **Is Child Table:** مشخص کنید DocType جدید درون DocType دیگری به‌عنوان جدول فرزند استفاده شود یا نه. برای اطلاعات بیشتر، [نمایش داده در جدول‌های فرزند](customizing-data-visibility-in-child-table.md) را ببینید.
 3. **Is Single:** با فعال‌کردن این گزینه، DocType به فرمی تکی تبدیل می‌شود که کاربر نمی‌تواند چند نمونه از آن بسازد. برای نمونه، Selling Settings در ماژول Sales یک DocType تکی است.
-4. **Is Tree:** بعضی DocTypeها ساختار درختی دارند و شامل DocTypeهای والد و فرزند می‌شوند. برای نمونه، Company به‌شکل درختی سازمان‌دهی می‌شود و شرکت‌های والد می‌توانند شرکت‌های فرزند (شرکت‌های تابعه) داشته باشند. اگر همین ساختار را برای DocType خود می‌خواهید، این گزینه را فعال کنید.
+4. **Is Tree:** بعضی DocTypeها ساختار درختی دارند و شامل DocTypeهای والد و فرزند می‌شوند. برای نمونه، شرکت به‌شکل درختی سازمان‌دهی می‌شود و شرکت‌های والد می‌توانند شرکت‌های فرزند (شرکت‌های تابعه) داشته باشند. اگر همین ساختار را برای DocType خود می‌خواهید، این گزینه را فعال کنید.
 
    ![نمای درختی DocType](https://docs.frappe.io/files/doctype-treeview.png)
 
-5. **Quick Entry:** تعیین کنید ورود سریع برای این DocType فعال باشد یا نه. در این حالت فقط چند مقدار اجباری وارد و ذخیره می‌شوند تا رکورد از راه Quick Entry ایجاد شود. برای نمونه، Quick Entry را در [Journal Entry](/erpnext/journal-entry#11-quick-entry) ببینید.
-6. **Track Changes:** اگر می‌خواهید تغییرات هر فرم ثبت شوند، این گزینه را فعال کنید. برای آشنایی بیشتر، [Document Versioning](/erpnext/document-versioning) را ببینید.
+5. **Quick Entry:** تعیین کنید ورود سریع برای این DocType فعال باشد یا نه. در این حالت فقط چند مقدار اجباری وارد و ذخیره می‌شوند تا رکورد از راه Quick Entry ایجاد شود. برای نمونه، Quick Entry را در [راهنمای «Journal Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/journal-entry#11-quick-entry) ببینید.
+6. **Track Changes:** اگر می‌خواهید تغییرات هر فرم ثبت شوند، این گزینه را فعال کنید. برای آشنایی بیشتر، [سند Versioning](document-versioning.md) را ببینید.
 7. **Track Seen:** اگر می‌خواهید فهرست کاربرانی که فرم را دیده‌اند ثبت شود، این گزینه را فعال کنید.
 8. **Track Views:** اگر می‌خواهید همهٔ دفعات مشاهدهٔ فرم توسط هر کاربر ثبت شود، این گزینه را فعال کنید.
 

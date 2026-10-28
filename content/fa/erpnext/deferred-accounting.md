@@ -25,10 +25,10 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 | جریان | هنگام ثبت نهایی صورتحساب | طی دورهٔ خدمت |
 | --- | --- | --- |
-| [Deferred Revenue](/erpnext/deferred-revenue) | به‌جای Income Account، یک بدهی درآمد انتقالی بستانکار می‌شود. | درآمد انتقالی بدهکار و درآمد بستانکار می‌شود. |
-| [Deferred Expense](/erpnext/deferred-expense) | به‌جای Expense Head، یک دارایی هزینهٔ انتقالی بدهکار می‌شود. | هزینهٔ انتقالی بستانکار و هزینه بدهکار می‌شود. |
+| [درآمد انتقالی (Deferred Revenue)](deferred-revenue.md) | به‌جای Income Account، یک بدهی درآمد انتقالی بستانکار می‌شود. | درآمد انتقالی بدهکار و درآمد بستانکار می‌شود. |
+| [هزینهٔ انتقالی (Deferred Expense)](deferred-expense.md) | به‌جای Expense Head، یک دارایی هزینهٔ انتقالی بدهکار می‌شود. | هزینهٔ انتقالی بستانکار و هزینه بدهکار می‌شود. |
 
-برای نمونه، Nova Electronics Trading مبلغ $1,200 بابت ضمانت تمدیدشدهٔ 12ماهه صورتحساب می‌کند. صورتحساب، دریافتنی Customer را ایجاد می‌کند؛ اما ابتدا مبلغ $1,200 به **Customer Advances - NET** بستانکار می‌شود که در این نمونه یک حساب بدهی است. سپس ERPNext این مبلغ را طی دورهٔ ضمانت در برابر **Service - NET** شناسایی می‌کند.
+برای نمونه، Nova Electronics Trading مبلغ $1,200 بابت ضمانت تمدیدشدهٔ 12ماهه صورتحساب می‌کند. صورتحساب، دریافتنی مشتری را ایجاد می‌کند؛ اما ابتدا مبلغ $1,200 به **مشتری Advances - NET** بستانکار می‌شود که در این نمونه یک حساب بدهی است. سپس ERPNext این مبلغ را طی دورهٔ ضمانت در برابر **Service - NET** شناسایی می‌کند.
 
 در سمت خرید، اشتراک نرم‌افزاری سالانهٔ $1,200 ابتدا به **Prepaid Expenses - NET** بدهکار می‌شود. ERPNext سپس متناسب با مصرف اشتراک، آن را در برابر **Software Subscription Expenses - NET** شناسایی می‌کند.
 
@@ -38,10 +38,10 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 موارد زیر را آماده کنید:
 
-- Company با [Chart of Accounts](/erpnext/chart-of-accounts) درست؛
+- شرکت با [Chart of Accounts](chart-of-accounts.md) درست؛
 - حساب بدهی درآمد انتقالی و/یا حساب دارایی هزینهٔ انتقالی؛
 - حساب نهایی درآمد یا هزینه‌ای که هر ثبت شناسایی باید به آن منتقل شود؛
-- [Item](/erpnext/item) غیرانبارداری که نمایندهٔ خدمت، طرح، ضمانت یا هزینهٔ پیش‌پرداخت‌شده باشد؛
+- [کالا](item.md) غیرانبارداری که نمایندهٔ خدمت، طرح، ضمانت یا هزینهٔ پیش‌پرداخت‌شده باشد؛
 - تاریخ روشن شروع و پایان خدمت؛
 - تصمیم دربارهٔ محاسبه بر اساس روز یا ماه.
 
@@ -55,8 +55,8 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 | --- | --- |
 | Book Deferred entries based on | مبنای شناسایی را **Days** یا **Months** انتخاب می‌کند. |
 | Automatically process deferred Accounting entry | به فرایند زمان‌بندی‌شده اجازه می‌دهد ثبت‌های شناسایی واجد شرایط را ثبت کند. |
-| Book deferred entries via Journal Entry | به‌جای ثبت مستقیم شناسایی در General Ledger، سندهای [Journal Entry](/erpnext/journal-entry) می‌سازد. |
-| Submit Journal entries | Journal Entryهای ایجادشده را خودکار ثبت نهایی می‌کند؛ اگر غیرفعال باشد برای بازبینی در وضعیت Draft می‌مانند. |
+| Book deferred entries via Journal Entry | به‌جای ثبت مستقیم شناسایی در دفترکل کل، سندهای [راهنمای «Journal Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/journal-entry) می‌سازد. |
+| ارسال Journal entries | Journal Entryهای ایجادشده را خودکار ثبت نهایی می‌کند؛ اگر غیرفعال باشد برای بازبینی در وضعیت Draft می‌مانند. |
 
 ### روز یا ماه
 
@@ -70,25 +70,25 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### ثبت مستقیم در دفتر کل یا از طریق Journal Entry
 
-ثبت مستقیم، بدون ساخت سند جداگانهٔ Journal Entry، ثبت‌های شناسایی را ایجاد می‌کند. اگر تیم شما به محاسبهٔ خودکار اعتماد دارد و نتیجه را از طریق [General Ledger](/erpnext/general-ledger) و گزارش انتقالی بازبینی می‌کند، این روش ساده‌تر است.
+ثبت مستقیم، بدون ساخت سند جداگانهٔ Journal Entry، ثبت‌های شناسایی را ایجاد می‌کند. اگر تیم شما به محاسبهٔ خودکار اعتماد دارد و نتیجه را از طریق [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger) و گزارش انتقالی بازبینی می‌کند، این روش ساده‌تر است.
 
-ثبت از طریق Journal Entry برای هر دستهٔ شناسایی سندی می‌سازد که قابل بازبینی است. اگر **Submit Journal entries** فعال نباشد، Journal Entryهای تولیدشده در وضعیت Draft می‌مانند و تا ثبت نهایی، بر دفتر کل اثر نمی‌گذارند. این کار کنترل بیشتری فراهم می‌کند، اما یک مرحلهٔ عملیاتی برای بازبینی نیز می‌افزاید.
+ثبت از طریق Journal Entry برای هر دستهٔ شناسایی سندی می‌سازد که قابل بازبینی است. اگر **ارسال Journal entries** فعال نباشد، Journal Entryهای تولیدشده در وضعیت Draft می‌مانند و تا ثبت نهایی، بر دفتر کل اثر نمی‌گذارند. این کار کنترل بیشتری فراهم می‌کند، اما یک مرحلهٔ عملیاتی برای بازبینی نیز می‌افزاید.
 
-## فعال‌کردن گزینه در Item
+## فعال‌کردن گزینه در کالا
 
-Item خدمت را باز کنید و **Enable Deferred Revenue**، **Enable Deferred Expense** یا هر دو را انتخاب کنید؛ هر دو را زمانی فعال کنید که یک خدمت هم فروخته و هم خریداری می‌شود. تعداد ماه‌های اختیاری می‌تواند مدت معمول را پیش‌فرض کند، اما تاریخ‌های خدمت در ردیف صورتحساب، دورهٔ واقعی شناسایی را تعیین می‌کنند.
+کالا خدمت را باز کنید و **Enable Deferred Revenue**، **Enable Deferred Expense** یا هر دو را انتخاب کنید؛ هر دو را زمانی فعال کنید که یک خدمت هم فروخته و هم خریداری می‌شود. تعداد ماه‌های اختیاری می‌تواند مدت معمول را پیش‌فرض کند، اما تاریخ‌های خدمت در ردیف صورتحساب، دورهٔ واقعی شناسایی را تعیین می‌کنند.
 
-فعال‌کردن گزینه در Item به‌تنهایی چیزی ثبت نمی‌کند. اثر حسابداری زمانی آغاز می‌شود که Sales Invoice یا Purchase Invoice ثبت‌نهایی‌شده، ردیفی فعال با حساب انتقالی و دورهٔ خدمت معتبر داشته باشد.
+فعال‌کردن گزینه در کالا به‌تنهایی چیزی ثبت نمی‌کند. اثر حسابداری زمانی آغاز می‌شود که Sales Invoice یا Purchase Invoice ثبت‌نهایی‌شده، ردیفی فعال با حساب انتقالی و دورهٔ خدمت معتبر داشته باشد.
 
 ## تکمیل ردیف صورتحساب
 
-در [Sales Invoice](/erpnext/sales-invoice) یا [Purchase Invoice](/erpnext/purchase-invoice)، Item را اضافه کنید و سپس نماد مداد در ردیف Items را انتخاب کنید. حساب انتقالی و **Service Start Date** و **Service End Date** را در ویرایشگر ردیف تکمیل کنید.
+در [راهنمای «Sales Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/sales-invoice) یا [راهنمای «Purchase Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-invoice)، کالا را اضافه کنید و سپس نماد مداد در ردیف Items را انتخاب کنید. حساب انتقالی و **Service Start Date** و **Service End Date** را در ویرایشگر ردیف تکمیل کنید.
 
-دورهٔ خدمت به هر ردیف تعلق دارد؛ بنابراین یک صورتحساب می‌تواند Itemهایی با دوره‌های شناسایی متفاوت داشته باشد. هر ردیف انتقالی را جداگانه بررسی کنید و فرض نکنید تاریخ‌ها برای کل صورتحساب اعمال می‌شوند.
+دورهٔ خدمت به هر ردیف تعلق دارد؛ بنابراین یک صورتحساب می‌تواند کالاهایی با دوره‌های شناسایی متفاوت داشته باشد. هر ردیف انتقالی را جداگانه بررسی کنید و فرض نکنید تاریخ‌ها برای کل صورتحساب اعمال می‌شوند.
 
 ## پردازش ثبت‌های شناسایی
 
-اگر پردازش خودکار فعال باشد، ERPNext حسابداری انتقالی را از طریق یک فرایند پس‌زمینه اجرا می‌کند. همچنین می‌توانید سند [Process Deferred Accounting](/erpnext/process-deferred-accounting) را دستی ایجاد و ثبت نهایی کنید.
+اگر پردازش خودکار فعال باشد، ERPNext حسابداری انتقالی را از طریق یک فرایند پس‌زمینه اجرا می‌کند. همچنین می‌توانید سند [راهنمای «Process Deferred Accounting | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/process-deferred-accounting) را دستی ایجاد و ثبت نهایی کنید.
 
 برای درآمد انتقالی **Income** و برای هزینهٔ انتقالی **Expense** را انتخاب کنید. تاریخ ثبت و بازهٔ تاریخ خدمت را که باید پردازش شود تعیین کنید. در صورت نیاز، یک حساب انتقالی را انتخاب کنید تا اجرا به همان حساب محدود شود.
 
@@ -99,8 +99,8 @@ Item خدمت را باز کنید و **Enable Deferred Revenue**، **Enable Def
 پس از پردازش، هر سه لایه را بررسی کنید:
 
 1. صورتحساب را باز کنید و حساب انتقالی و تاریخ‌های خدمت را در هر ردیف مربوط تأیید کنید.
-2. [Deferred Revenue/Expense Report](/erpnext/deferred-revenue-expense-report) را برای مبلغ‌های صورتحساب‌شده، شناسایی‌شده و در انتظار بررسی کنید.
-3. General Ledger حساب انتقالی و حساب نهایی درآمد یا هزینه را بازبینی کنید.
+2. [Deferred Revenue/Expense گزارش](/erpnext/deferred-revenue-expense-report) را برای مبلغ‌های صورتحساب‌شده، شناسایی‌شده و در انتظار بررسی کنید.
+3. دفترکل کل حساب انتقالی و حساب نهایی درآمد یا هزینه را بازبینی کنید.
 
 ماندهٔ انتقالی باید با ثبت شناسایی کاهش یابد. درآمد یا هزینهٔ نهایی باید به همان میزان افزایش یابد. در کل دورهٔ خدمت، مجموع مبلغ شناسایی‌شده باید با مبلغ صورتحساب واجد شرایط برابر باشد؛ با درنظرگرفتن لغوها، برگشت‌ها، بستانکاری‌ها و گردکردن.
 
@@ -114,7 +114,7 @@ Item خدمت را باز کنید و **Enable Deferred Revenue**، **Enable Def
 
 | مشکل | موردی که باید بررسی شود |
 | --- | --- |
-| فیلدهای انتقالی در ردیف صورتحساب نمایش داده نمی‌شوند | فعال‌بودن گزینهٔ انتقالی مربوط در Item را تأیید و ویرایشگر ردیف را دوباره باز کنید. |
+| فیلدهای انتقالی در ردیف صورتحساب نمایش داده نمی‌شوند | فعال‌بودن گزینهٔ انتقالی مربوط در کالا را تأیید و ویرایشگر ردیف را دوباره باز کنید. |
 | کل درآمد یا هزینه فوراً ثبت می‌شود | گزینهٔ فعال‌سازی در سطح ردیف، حساب انتقالی و تاریخ‌های خدمت را پیش از ثبت نهایی بررسی کنید. |
 | ثبت ماهانه ایجاد نمی‌شود | پردازش خودکار، کارهای پس‌زمینه، بازهٔ پردازش و Journal Entryهای Draft را بررسی کنید. |
 | مبلغ‌ها در ماه‌های مختلف فرق دارند | بررسی کنید **Days** انتخاب شده باشد؛ تفاوت طول ماه‌ها باعث تخصیص‌های متفاوت می‌شود. |
@@ -128,7 +128,7 @@ Item خدمت را باز کنید و **Enable Deferred Revenue**، **Enable Def
 
 ### می‌توانم فقط یک ردیف صورتحساب را انتقالی کنم؟
 
-بله. کنترل‌های انتقالی و تاریخ‌های خدمت در ردیف Item هر صورتحساب ذخیره می‌شوند. ردیف‌های دیگر می‌توانند به‌صورت عادی ثبت شوند.
+بله. کنترل‌های انتقالی و تاریخ‌های خدمت در ردیف کالا هر صورتحساب ذخیره می‌شوند. ردیف‌های دیگر می‌توانند به‌صورت عادی ثبت شوند.
 
 ### از روز استفاده کنم یا ماه؟
 
@@ -136,18 +136,18 @@ Item خدمت را باز کنید و **Enable Deferred Revenue**، **Enable Def
 
 ### چرا Journal Entryهای تولیدشده هنوز Draft هستند؟
 
-**Book deferred entries via Journal Entry** فعال است، اما **Submit Journal entries** فعال نیست. سندهای ایجادشده را بازبینی و ثبت نهایی کنید، یا فقط پس از تأیید اثر کنترلی، تنظیم را تغییر دهید.
+**Book deferred entries via Journal Entry** فعال است، اما **ارسال Journal entries** فعال نیست. سندهای ایجادشده را بازبینی و ثبت نهایی کنید، یا فقط پس از تأیید اثر کنترلی، تنظیم را تغییر دهید.
 
 ### آیا پس از ثبت نهایی می‌توانم حساب یا تاریخ‌های خدمت را تغییر دهم؟
 
-از گردش‌کار پشتیبانی‌شدهٔ لغو، اصلاح یا توقف خدمت استفاده کنید. تغییر مستقیم داده‌های حسابداری ثبت‌شده می‌تواند ارتباط میان صورتحساب، گزارش انتقالی و General Ledger را مخدوش کند.
+از گردش‌کار پشتیبانی‌شدهٔ لغو، اصلاح یا توقف خدمت استفاده کنید. تغییر مستقیم داده‌های حسابداری ثبت‌شده می‌تواند ارتباط میان صورتحساب، گزارش انتقالی و دفترکل کل را مخدوش کند.
 
 ## موضوعات مرتبط
 
-- [Deferred Revenue](/erpnext/deferred-revenue)
-- [Deferred Expense](/erpnext/deferred-expense)
-- [Process Deferred Accounting](/erpnext/process-deferred-accounting)
-- [Deferred Revenue/Expense Report](/erpnext/deferred-revenue-expense-report)
-- [Accounts Settings](/erpnext/accounts-settings)
-- [Journal Entry](/erpnext/journal-entry)
-- [General Ledger](/erpnext/general-ledger)
+- [درآمد انتقالی (Deferred Revenue)](deferred-revenue.md)
+- [هزینهٔ انتقالی (Deferred Expense)](deferred-expense.md)
+- [راهنمای «Process Deferred Accounting | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/process-deferred-accounting)
+- [Deferred Revenue/Expense گزارش](/erpnext/deferred-revenue-expense-report)
+- [تنظیمات حساب‌ها](accounts-settings.md)
+- [راهنمای «Journal Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/journal-entry)
+- [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger)

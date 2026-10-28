@@ -21,17 +21,17 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## 1. تنظیم زبان
 
-در اطلاعات پایهٔ Customer، زبان پیش‌فرض را انتخاب کنید؛ برای نمونه، زبان پیش‌فرض Customer را **Spanish** بگذارید.
+در اطلاعات پایهٔ مشتری، زبان پیش‌فرض را انتخاب کنید؛ برای نمونه، زبان پیش‌فرض مشتری را **Spanish** بگذارید.
 
-به همین روش می‌توانید زبان پیش‌فرض را در اطلاعات پایهٔ Supplier نیز تنظیم کنید.
+به همین روش می‌توانید زبان پیش‌فرض را در اطلاعات پایهٔ تأمین‌کننده نیز تنظیم کنید.
 
 ### 1.1 پیش‌نمایش چاپ به زبان طرف تجاری
 
 در پیش‌نمایش چاپ یک تراکنش، مقدارها به زبان طرف تجاری ترجمه می‌شوند.
 
-برای نمونه، پیش‌نمایش چاپ Quotation مشتری به زبان پیش‌فرض Customer نمایش داده می‌شود.
+برای نمونه، پیش‌نمایش چاپ Quotation مشتری به زبان پیش‌فرض مشتری نمایش داده می‌شود.
 
-پیش‌نمایش چاپ Quotation تأمین‌کننده نیز به زبان پیش‌فرض Supplier نمایش داده می‌شود.
+پیش‌نمایش چاپ Quotation تأمین‌کننده نیز به زبان پیش‌فرض تأمین‌کننده نمایش داده می‌شود.
 
 ### 1.2 تغییر زبان چاپ در پیش‌نمایش
 
@@ -41,12 +41,12 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 کاربران می‌توانند ترجمه‌های دلخواهشان را در فرم Custom Translations تعریف کنند. برای نمونه، اگر می‌خواهید توضیح یک محصول به زبان مشتری (اسپانیایی) باشد، یک ترجمهٔ تازه بسازید، زبان را Spanish انتخاب کنید و متن مبدأ و ترجمه‌شده را وارد کنید.
 
-> Home > Customization > Other > Custom Translations > New
+> صفحهٔ اصلی > Customization > Other > Custom Translations > جدید
 
 ترجمه زمانی اعمال می‌شود که کاربر در پیش‌نمایش چاپ Quotation تأمین‌کننده، زبان Spanish را انتخاب کند. توجه کنید توضیح قلم دوم ترجمه نمی‌شود، چون برای آن در فهرست Translation رکوردی ایجاد نشده است.
 
 ## موضوعات مرتبط
 
-- [Address Template](/erpnext/address-template)
-- [Quotation](/erpnext/quotation)
-- [Sales Order](/erpnext/sales-order)
+- [الگوی نشانی](address-template.md)
+- [راهنمای «Quotation | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/quotation)
+- [سفارش فروش](sales-order.md)

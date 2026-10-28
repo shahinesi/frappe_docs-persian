@@ -16,7 +16,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای تغییر ایمیل User، این مسیر را دنبال کنید:
 
-**User List → بازکردن User → Menu → Rename → واردکردن ایمیل جدید → Save**
+**User List → بازکردن User → Menu → Rename → واردکردن ایمیل جدید → ذخیره**
 
 #### پیش‌نیازها
 
@@ -29,7 +29,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 3. در گوشهٔ بالا سمت راست فرم، روی **Menu** (⋮) کلیک کنید.
 4. **Rename** را انتخاب کنید.
 5. نشانی ایمیل یا نام کاربری جدید را وارد کنید.
-6. روی **Save** کلیک کنید.
+6. روی **ذخیره** کلیک کنید.
 
 #### پس از تغییر نام چه رخ می‌دهد؟
 

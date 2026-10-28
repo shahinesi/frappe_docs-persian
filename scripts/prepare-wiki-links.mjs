@@ -1,57 +1,95 @@
-import { readFile, readdir, writeFile } from 'node:fs/promises';
+import { readdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const repoRoot = new URL('../', import.meta.url);
-const contentRoot = new URL('../content/fa/', import.meta.url);
-const manifest = JSON.parse(await readFile(new URL('../sources/manifest.json', import.meta.url), 'utf8'));
-const byUrl = new Map(manifest.pages.map((page) => [page.url, page]));
-const markdownLink = /(?<!!)(\[[^\]]*\]\(\s*)(<[^>]+>|[^)\s]+)(\s+[^)]*)?(\))/g;
-let changedFiles = 0;
-let rewrittenLinks = 0;
+import { getPageTitle, normalizeRepoPath, prepareMarkdownLinks } from './wiki-link-localization.mjs';
 
-function relativePath(fromFile, targetFile) {
-  return path.posix.relative(path.posix.dirname(fromFile), targetFile);
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const contentRoot = path.join(root, 'content', 'fa');
+const manifest = JSON.parse(await readFile(path.join(root, 'sources', 'manifest.json'), 'utf8'));
+const linkAudit = JSON.parse(await readFile(path.join(root, 'sources', 'link-target-audit.json'), 'utf8'));
+const aliases = new Map();
+const manifestPaths = new Set(manifest.pages.map((page) => new URL(page.url).pathname.replace(/\/$/, '')));
+for (const record of linkAudit.records) {
+	if (!record.canonical_url) continue;
+	const alias = new URL(record.url).pathname.replace(/\/$/, '');
+	const canonical = new URL(record.canonical_url).pathname.replace(/\/$/, '');
+	if (manifestPaths.has(canonical) && alias !== canonical) aliases.set(alias, canonical);
+}
+const glossary = await readFile(path.join(root, 'glossary', 'fa.md'), 'utf8');
+const dryRun = process.argv.includes('--dry-run');
+const terms = {};
+for (const line of glossary.split(/\r?\n/)) {
+	const row = line.match(/^\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|/);
+	if (!row || row[1].trim() === 'English') continue;
+	const english = row[1].trim().replaceAll('`', '').replaceAll('**', '');
+	const persian = row[2].trim();
+	if (english && persian && !/[A-Za-z]/.test(persian)) terms[english] = persian;
 }
 
-async function walk(dir, relativeDir = '') {
-  for (const item of await readdir(dir, { withFileTypes: true })) {
-    const rel = relativeDir ? `${relativeDir}/${item.name}` : item.name;
-    const target = new URL(`${item.name}${item.isDirectory() ? '/' : ''}`, dir);
-    if (item.isDirectory()) {
-      await walk(target, rel);
-      continue;
-    }
-    if (!item.name.toLowerCase().endsWith('.md')) continue;
-
-    const body = await readFile(target, 'utf8');
-    let localChanges = 0;
-    const output = body.replace(markdownLink, (whole, prefix, wrappedHref, title = '', close = ')') => {
-      const href = wrappedHref.replace(/^<|>$/g, '');
-      if (!href.startsWith('/') || href.startsWith('/files/') || href.startsWith('/private/files/')) return whole;
-      const [pathname, fragment] = href.split(/(?=#)/, 2);
-      const source = byUrl.get(`https://docs.frappe.io${pathname}`);
-      if (!source) return whole;
-
-      let nextHref;
-      if (source.translation_path) {
-        nextHref = relativePath(`content/fa/${rel}`, source.translation_path);
-      } else {
-        nextHref = `https://docs.frappe.io${pathname}`;
-      }
-      if (fragment) nextHref += fragment;
-      if (nextHref === href) return whole;
-      localChanges++;
-      rewrittenLinks++;
-      return `${prefix}${nextHref}${title}${close}`;
-    });
-
-    if (localChanges) {
-      await writeFile(target, output, 'utf8');
-      changedFiles++;
-    }
-  }
+const files = [];
+async function walk(directory) {
+	for (const entry of await readdir(directory, { withFileTypes: true })) {
+		const absolute = path.join(directory, entry.name);
+		if (entry.isDirectory()) await walk(absolute);
+		else if (entry.name.toLowerCase().endsWith('.md')) files.push(absolute);
+	}
 }
-
 await walk(contentRoot);
-console.log(`Prepared Wiki-compatible Markdown links in ${changedFiles} files (${rewrittenLinks} links).`);
-console.log('Links to translated pages use repository-relative .md paths; other Frappe docs links point to their official page.');
+
+const pages = new Map();
+for (const absolute of files) {
+	const relative = normalizeRepoPath(path.relative(root, absolute));
+	const markdown = await readFile(absolute, 'utf8');
+	pages.set(relative, { absolute, markdown, title: getPageTitle(markdown) });
+}
+const titles = new Map([...pages].filter(([, page]) => page.title).map(([relative, page]) => [relative, page.title]));
+
+const totals = {
+	localizedLabels: 0,
+	localizedUrls: 0,
+	changedUrls: 0,
+	resolvedRelativeLinks: 0,
+	translatedTerms: 0,
+	unmappedOfficialLinks: 0,
+	unresolvedRelativeLinks: 0,
+};
+const reviewIssues = [];
+const changedPaths = new Set();
+let changedFiles = 0;
+for (const [currentPath, page] of pages) {
+	const prepared = prepareMarkdownLinks(page.markdown, { currentPath, manifest, aliases, titles, terms });
+	for (const [key, value] of Object.entries(prepared.counters)) totals[key] += value;
+	reviewIssues.push(...prepared.reviewIssues);
+	if (prepared.markdown === page.markdown) continue;
+	changedFiles++;
+	changedPaths.add(currentPath);
+	if (!dryRun) await writeFile(page.absolute, prepared.markdown, 'utf8');
+}
+
+let pagesMarkedForReview = 0;
+if (!dryRun) {
+	for (const page of manifest.pages) {
+		if (!page.translation_path || !changedPaths.has(normalizeRepoPath(page.translation_path))) continue;
+		if (page.quality_status === 'passed' && page.translation_status !== 'published') {
+			page.translation_status = 'translated';
+			page.quality_status = 'not_reviewed';
+			pagesMarkedForReview++;
+		}
+	}
+	await writeFile(path.join(root, 'sources', 'manifest.json'), `${JSON.stringify(manifest, null, 2)}\n`, 'utf8');
+	await writeFile(
+		path.join(root, 'sources', 'link-review.json'),
+		`${JSON.stringify({ schema_version: 1, checked_files: files.length, changed_files: changedFiles, unresolved: reviewIssues }, null, 2)}\n`,
+		'utf8',
+	);
+}
+
+console.log(`${dryRun ? 'Would update' : 'Updated'} ${changedFiles} of ${files.length} Persian Markdown files.`);
+console.log(`Localized ${totals.localizedLabels} link labels and ${totals.translatedTerms} glossary terms.`);
+console.log(`Changed ${totals.changedUrls} links to local translated pages.`);
+console.log(`Resolved ${totals.resolvedRelativeLinks} existing relative links to translated pages.`);
+console.log(`Unresolved official links: ${totals.unmappedOfficialLinks}; unresolved relative Markdown links: ${totals.unresolvedRelativeLinks}.`);
+if (dryRun) console.log('Dry run only; no files were written.');
+else console.log(`Marked ${pagesMarkedForReview} edited translations as needing quality review and wrote sources/link-review.json.`);
+if (dryRun && reviewIssues.length) console.log(JSON.stringify(reviewIssues.slice(0, 20), null, 2));

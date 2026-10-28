@@ -43,5 +43,5 @@ Insights یک ابزار متن‌باز هوش تجاری (BI) است که تح
 
 - [گروه عمومی تلگرام](https://t.me/frappeinsights)
 - [تالار گفت‌وگو](https://discuss.frappe.io/c/insights/74)
-- [مستندات](https://docs.frappe.io/insights)
+- [مستندات](introduction.md)
 - [YouTube](https://www.youtube.com/@frappetech)

@@ -12,16 +12,16 @@ source_version: "76368600d0f8c725535e6a038755823d9239d7062ba11f165bec35dd2af913d
 
 ## پیش‌نیازها
 
-مشتری یا تأمین‌کنندهٔ مربوط، [اقلام](https://docs.frappe.io/erpnext/item)، ارزها و نرخ‌های توافق‌شده را ایجاد کنید. پیش از ثبت توافق، مقدار کل تعهد و بازهٔ اعتبار را مشخص کنید.
+مشتری یا تأمین‌کنندهٔ مربوط، [اقلام](item.md)، ارزها و نرخ‌های توافق‌شده را ایجاد کنید. پیش از ثبت توافق، مقدار کل تعهد و بازهٔ اعتبار را مشخص کنید.
 
 ## ایجاد Blanket Order
 
 1. به **Selling &gt; Sales &gt; Blanket Order** بروید و **Add Blanket Order** را انتخاب کنید.
 2. برای توافق با مشتری، **Order Type** را روی **Selling** و برای توافق با تأمین‌کننده، روی **Purchasing** بگذارید.
 3. مشتری یا تأمین‌کننده را انتخاب کنید.
-4. **From Date** و **To Date** را وارد کنید.
+4. **از تاریخ** و **تا تاریخ** را وارد کنید.
 5. هر قلم را همراه با **Quantity** تعهدشده، **Rate** و **Terms and Conditions** مختص همان قلم اضافه کنید.
-6. Blanket Order را ذخیره و ثبت نهایی (submit) کنید.
+6. Blanket Order را ذخیره و ثبت نهایی (ارسال) کنید.
 
 ![با انتخاب آیکون مداد، ویرایشگر کامل ردیف قلم Blanket Order باز می‌شود.](https://docs.frappe.io/files/blanket-order-item-pencil.webp)
 
@@ -34,10 +34,10 @@ source_version: "76368600d0f8c725535e6a038755823d9239d7062ba11f165bec35dd2af913d
 | فیلد | معنی |
 | --- | --- |
 | Order Type | مشخص می‌کند توافق از نوع فروش (Selling) است یا خرید (Purchasing). |
-| Customer or Supplier | طرفی که تعهد را پذیرفته است. فیلد در دسترس به Order Type بستگی دارد. |
-| From Date | نخستین تاریخی که توافق اعتبار دارد. |
-| To Date | آخرین تاریخی که باید بتوان تراکنش‌هایی را بر پایهٔ توافق ایجاد کرد. |
-| Item Code | محصولی که توافق شامل آن می‌شود. |
+| مشتری or تأمین‌کننده | طرفی که تعهد را پذیرفته است. فیلد در دسترس به Order Type بستگی دارد. |
+| از تاریخ | نخستین تاریخی که توافق اعتبار دارد. |
+| تا تاریخ | آخرین تاریخی که باید بتوان تراکنش‌هایی را بر پایهٔ توافق ایجاد کرد. |
+| کالا Code | محصولی که توافق شامل آن می‌شود. |
 | Quantity | کل مقداری که برای دورهٔ اعتبار تعهد شده است. |
 | Rate | نرخ واحد توافق‌شده که هنگام ایجاد تراکنش از Blanket Order به آن منتقل می‌شود. |
 | Ordered Quantity | مقداری که پیش‌تر در سفارش‌های ثبت‌نهایی‌شدهٔ بعدی ارجاع شده است؛ از آن برای پایش تعهد باقی‌مانده استفاده کنید. |
@@ -47,8 +47,8 @@ source_version: "76368600d0f8c725535e6a038755823d9239d7062ba11f165bec35dd2af913d
 
 پس از ثبت نهایی، از **Create** برای ساخت تراکنش مناسب استفاده کنید:
 
-- برای Blanket Order فروش، یک [Quotation](https://docs.frappe.io/erpnext/quotation) یا [Sales Order](https://docs.frappe.io/erpnext/sales-order) ایجاد کنید.
-- برای Blanket Order خرید، یک [Purchase Order](https://docs.frappe.io/erpnext/purchase-order) ایجاد کنید.
+- برای Blanket Order فروش، یک [راهنمای «Quotation | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/quotation) یا [سفارش فروش](sales-order.md) ایجاد کنید.
+- برای Blanket Order خرید، یک [سفارش خرید](purchase-order.md) ایجاد کنید.
 
 می‌توانید از یک Blanket Order چند تراکنش ایجاد کنید. با ثبت نهایی سفارش‌های پیوندخورده، ERPNext مقدار سفارش‌شده را به‌روز می‌کند تا مقایسهٔ تعهد با مقدارهای آزادشده آسان‌تر شود.
 
@@ -56,9 +56,9 @@ source_version: "76368600d0f8c725535e6a038755823d9239d7062ba11f165bec35dd2af913d
 
 ## پایش توافق
 
-از داشبورد Blanket Order برای بازکردن Quotationها، Sales Orderها و Purchase Orderهای پیوندخورده استفاده کنید. مقدار **Quantity** تعهدشده را برای هر ردیف با **Ordered Quantity** مقایسه کنید. مقدار معوق، بخشی از تعهد است که هنوز به سفارش‌های ثبت‌نهایی‌شده تبدیل نشده است.
+از داشبورد Blanket Order برای بازکردن Quotationها، سفارش فروشها و سفارش خریدهای پیوندخورده استفاده کنید. مقدار **Quantity** تعهدشده را برای هر ردیف با **Ordered Quantity** مقایسه کنید. مقدار معوق، بخشی از تعهد است که هنوز به سفارش‌های ثبت‌نهایی‌شده تبدیل نشده است.
 
-Blanket Order جایگزین برنامه‌ریزی اجرایی نیست. هر Sales Order یا Purchase Order همچنان به برنامهٔ تحویل، انبار، مالیات‌ها و تأییدهای خودش نیاز دارد تا در چرخهٔ معمول فروش یا خرید پیش برود.
+Blanket Order جایگزین برنامه‌ریزی اجرایی نیست. هر سفارش فروش یا سفارش خرید همچنان به برنامهٔ تحویل، انبار، مالیات‌ها و تأییدهای خودش نیاز دارد تا در چرخهٔ معمول فروش یا خرید پیش برود.
 
 ## اصلاح توافق
 
@@ -76,13 +76,13 @@ Blanket Order جایگزین برنامه‌ریزی اجرایی نیست. هر
 
 ## پرسش‌های رایج
 
-### آیا یک Blanket Order می‌تواند چند Sales Order ایجاد کند؟
+### آیا یک Blanket Order می‌تواند چند سفارش فروش ایجاد کند؟
 
-بله. هر آزادسازی را تا زمان تکمیل تعهد یا پایان دورهٔ اعتبار، در قالب Sales Order جداگانه ایجاد کنید.
+بله. هر آزادسازی را تا زمان تکمیل تعهد یا پایان دورهٔ اعتبار، در قالب سفارش فروش جداگانه ایجاد کنید.
 
 ### آیا می‌توان از Blanket Order برای خرید استفاده کرد؟
 
-بله. **Order Type** را روی **Purchasing** بگذارید، تأمین‌کننده را انتخاب کنید و از سند ثبت‌نهایی‌شده Purchase Order بسازید.
+بله. **Order Type** را روی **Purchasing** بگذارید، تأمین‌کننده را انتخاب کنید و از سند ثبت‌نهایی‌شده سفارش خرید بسازید.
 
 ### آیا Blanket Order موجودی را رزرو می‌کند؟
 
@@ -98,10 +98,10 @@ Blanket Order جایگزین برنامه‌ریزی اجرایی نیست. هر
 
 ## موضوعات مرتبط
 
-- [Sales Order](https://docs.frappe.io/erpnext/sales-order)
-- [Quotation](https://docs.frappe.io/erpnext/quotation)
-- [Purchase Order](https://docs.frappe.io/erpnext/purchase-order)
-- [Terms and Conditions](https://docs.frappe.io/erpnext/terms-and-conditions)
+- [سفارش فروش](sales-order.md)
+- [راهنمای «Quotation | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/quotation)
+- [سفارش خرید](purchase-order.md)
+- [راهنمای «Terms and Conditions | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/terms-and-conditions)
 - [Price List](https://docs.frappe.io/erpnext/price-list)
 
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/blanket-order). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر و ویدئو به فایل‌های رسمی مستندات پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

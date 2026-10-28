@@ -15,9 +15,9 @@ source_version: "b1b30662cc18e75b3a8be17a3de61bf22a80ecd2db18df2a8187ac3a9a37d24
 | فیلد | معنا |
 |---|---|
 | **انتقال** (Transfer) | دارایی را از یک محل به محل دیگر جابه‌جا می‌کند. |
-| **تحویل** (Issue) | مسئولیت نگه‌داری را به کارمند واگذار می‌کند. |
+| **تحویل** (درخواست پشتیبانی) | مسئولیت نگه‌داری را به کارمند واگذار می‌کند. |
 | **دریافت** (Receipt) | دارایی تحویل‌شده را از کارمند پس می‌گیرد. |
-| **انتقال و تحویل** (Transfer and Issue) | دارایی را جابه‌جا و در یک تراکنش به کارمند واگذار می‌کند. |
+| **انتقال و تحویل** (Transfer and درخواست پشتیبانی) | دارایی را جابه‌جا و در یک تراکنش به کارمند واگذار می‌کند. |
 
 ## ایجاد جابجایی دارایی
 
@@ -65,13 +65,13 @@ source_version: "b1b30662cc18e75b3a8be17a3de61bf22a80ecd2db18df2a8187ac3a9a37d24
 
 ## موضوعات مرتبط
 
-- [دستهٔ دارایی](https://docs.frappe.io/erpnext/asset-category)
-- [محل دارایی](https://docs.frappe.io/erpnext/asset-location)
-- [دارایی](https://docs.frappe.io/erpnext/asset)
+- [دستهٔ دارایی](asset-category.md)
+- [محل دارایی](asset-location.md)
+- [دارایی](asset.md)
 - [خرید دارایی](https://docs.frappe.io/erpnext/purchasing-an-asset)
-- [استهلاک](https://docs.frappe.io/erpnext/asset-depreciation)
-- [جابجایی دارایی](https://docs.frappe.io/erpnext/asset-movement)
-- [تعمیر دارایی](https://docs.frappe.io/erpnext/asset-repair)
-- [گزارش‌های دارایی](https://docs.frappe.io/erpnext/asset-reports)
+- [استهلاک](asset-depreciation.md)
+- [جابجایی دارایی](asset-movement.md)
+- [تعمیر دارایی](asset-repair.md)
+- [گزارش‌های دارایی](asset-reports.md)
 
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/asset-movement). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های منبع پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

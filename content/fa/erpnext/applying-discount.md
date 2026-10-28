@@ -6,7 +6,7 @@ source_id: "erpnext/applying-discount"
 source_version: "648c3eeb571263a99f5825c166e69b2e14baed203be161d9f08328583a21797d"
 ---
 
-ERPNext از تخفیف برای هر قلم یا برای جمع کل تراکنش پشتیبانی می‌کند. برای یک تصمیم تجاری موردی، تخفیف دستی وارد کنید. اگر قرار است شرایط واجدبودن به‌طور خودکار ارزیابی شود، از [قاعدهٔ قیمت‌گذاری](https://docs.frappe.io/erpnext/pricing-rule)، [طرح تشویقی](https://docs.frappe.io/erpnext/promotional-scheme) یا [کد تخفیف](https://docs.frappe.io/erpnext/coupon-code) استفاده کنید.
+ERPNext از تخفیف برای هر قلم یا برای جمع کل تراکنش پشتیبانی می‌کند. برای یک تصمیم تجاری موردی، تخفیف دستی وارد کنید. اگر قرار است شرایط واجدبودن به‌طور خودکار ارزیابی شود، از [قاعدهٔ قیمت‌گذاری](https://docs.frappe.io/erpnext/pricing-rule)، [طرح تشویقی](https://docs.frappe.io/erpnext/promotional-scheme) یا [کد تخفیف](coupon-code.md) استفاده کنید.
 
 ## پیش از شروع
 
@@ -19,7 +19,7 @@ ERPNext از تخفیف برای هر قلم یا برای جمع کل تراک�
 
 ## اعمال تخفیف به یک قلم
 
-1. یک [پیش‌فاکتور](https://docs.frappe.io/erpnext/quotation)، [سفارش فروش](sales-order.md)، [یادداشت تحویل](https://docs.frappe.io/erpnext/delivery-note) یا [صورتحساب فروش](https://docs.frappe.io/erpnext/sales-invoice) ایجاد کنید.
+1. یک [پیش‌فاکتور](https://docs.frappe.io/erpnext/quotation)، [سفارش فروش](sales-order.md)، [یادداشت تحویل](delivery-note.md) یا [صورتحساب فروش](https://docs.frappe.io/erpnext/sales-invoice) ایجاد کنید.
 2. قلم را اضافه کنید.
 3. نماد مدادِ مشخص‌شده را انتخاب کنید تا ویرایشگر کامل ردیف باز شود.
 4. بخش **تخفیف و حاشیهٔ سود** (Discount and Margin) را باز کنید.
@@ -102,7 +102,7 @@ ERPNext تخفیف را با توجه به جمع پس از مالیات‌ها 
 
 - [قاعدهٔ قیمت‌گذاری](https://docs.frappe.io/erpnext/pricing-rule)
 - [طرح تشویقی](https://docs.frappe.io/erpnext/promotional-scheme)
-- [کد تخفیف](https://docs.frappe.io/erpnext/coupon-code)
+- [کد تخفیف](coupon-code.md)
 - [افزودن حاشیهٔ سود](adding-margin.md)
 - [تنظیمات فروش](https://docs.frappe.io/erpnext/selling-settings)
 

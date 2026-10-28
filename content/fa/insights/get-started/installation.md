@@ -56,12 +56,12 @@ Frappe Insights را می‌توان به چند روش، متناسب با نی
 
 می‌توانید Frappe Insights را مانند هر اپ دیگری از Frappe نصب کنید. برای دریافت و نصب اپ این فرمان‌ها را اجرا کنید:
 
-    bench get-app insights --branch version-3
-    bench --site your_site_name install-app insights
+    bench get-app insights --شاخه version-3
+    bench --سایت your_سایت_name install-app insights
 
 ### هنگام نصب با مشکل روبه‌رو شده‌ام. چه کار کنم؟
 
-اگر مشکلی پیش آمد، یک [Issue در GitHub](https://github.com/frappe/insights/issues) ثبت کنید و پیام خطا و مراحلی را که انجام داده‌اید بنویسید.
+اگر مشکلی پیش آمد، یک [درخواست پشتیبانی در GitHub](https://github.com/frappe/insights/issues) ثبت کنید و پیام خطا و مراحلی را که انجام داده‌اید بنویسید.
 
 ---
 

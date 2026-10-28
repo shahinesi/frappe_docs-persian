@@ -19,11 +19,11 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای دسترسی به فهرست Email Template، به مسیر زیر بروید:
 
-> Home > Settings > Email > Email Template
+> صفحهٔ اصلی > Settings > Email > Email Template
 
 ## 1. ایجاد Email Template
 
-1. فهرست Email Template را باز و **New** را انتخاب کنید.
+1. فهرست Email Template را باز و **جدید** را انتخاب کنید.
 2. نامی برای قالب وارد کنید.
 3. **Subject** قالب را وارد کنید.
 4. در **Response** متن استاندارد ایمیل را بنویسید؛ این متن بخشی از قالب خواهد بود.
@@ -37,11 +37,11 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 می‌توانید از این قالب برای ایمیل‌هایی که از ERPNext می‌فرستید استفاده کنید. در بخش ایمیل سند، آن را در فیلد **CC, BCC & Email Template** انتخاب کنید. ERPNext بر اساس قالب انتخاب‌شده، موضوع و متن پاسخ را دریافت می‌کند.
 
-از طریق [Customize Form](/erpnext/customize-form) می‌توانید برای هر نوع سند، یک Email Template پیش‌فرض تعیین کنید.
+از طریق [سفارشی‌سازی فرم (Customize Form)](customize-form.md) می‌توانید برای هر نوع سند، یک Email Template پیش‌فرض تعیین کنید.
 
 ### 1.2 یافتن نام فیلدها
 
-نام فیلدهایی که در قالب ایمیل می‌توانید به‌کار ببرید، همان فیلدهای سندی هستند که ایمیل را از آن می‌فرستید. برای دیدن فیلدهای هر سند، [Customize Form](/erpnext/customize-form) را باز و نوع سند موردنظر (برای نمونه Sales Order) را انتخاب کنید.
+نام فیلدهایی که در قالب ایمیل می‌توانید به‌کار ببرید، همان فیلدهای سندی هستند که ایمیل را از آن می‌فرستید. برای دیدن فیلدهای هر سند، [سفارشی‌سازی فرم (Customize Form)](customize-form.md) را باز و نوع سند موردنظر (برای نمونه سفارش فروش) را انتخاب کنید.
 
 ### 1.3 ساخت قالب با HTML
 
@@ -53,5 +53,5 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## 2. موضوعات مرتبط
 
-- [Email Account](/erpnext/email-account)
-- [Email Inbox](/erpnext/email-inbox)
+- [حساب ایمیل](email-account.md)
+- [صندوق ورودی ایمیل](email-inbox.md)

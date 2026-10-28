@@ -48,7 +48,7 @@ source_version: "8509230ba4c72d1d8db304e5be0c0c6f5c52feddcdd41ff600cb9e03b76841b
 
 ## نادیده‌گرفتن ساعت‌های کاری Workstation
 
-اگر می‌خواهید اعتبارسنجی بالا را نادیده بگیرید و اجازه دهید کار تولیدی فراتر از ساعت کاری Workstation برنامه‌ریزی شود، **Overtime** را در Manufacturing Settings فعال کنید.
+اگر می‌خواهید اعتبارسنجی بالا را نادیده بگیرید و اجازه دهید کار تولیدی فراتر از ساعت کاری Workstation برنامه‌ریزی شود، **اضافه‌کاری** را در Manufacturing Settings فعال کنید.
 
 ![تنظیم Overtime برای برنامه‌ریزی ظرفیت](https://docs.frappe.io/files/capacity-3.png)
 

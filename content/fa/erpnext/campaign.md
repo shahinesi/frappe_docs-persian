@@ -16,7 +16,7 @@ source_version: "e8aebe861554e45abf04faf1f5122b42aa965f3974df4a3513862139a986240
 
 برای دسترسی به Campaign به مسیر زیر بروید:
 
-> Home > CRM > Campaign > Campaign
+> صفحهٔ اصلی > CRM > Campaign > Campaign
 
 ![صفحهٔ Campaign](https://docs.frappe.io/files/campaign.png)
 
@@ -29,34 +29,34 @@ source_version: "e8aebe861554e45abf04faf1f5122b42aa965f3974df4a3513862139a986240
 
 ## قابلیت‌ها
 
-### برچسب‌گذاری Campaign در Lead، Opportunity و Quotation
+### برچسب‌گذاری Campaign در سرنخ، فرصت فروش و Quotation
 
-وقتی کارزار بازاریابی باعث ایجاد Lead یا Opportunity می‌شود، هنگام ایجاد [Lead](https://docs.frappe.io/erpnext/lead) یا [Opportunity](https://docs.frappe.io/erpnext/opportunity) می‌توانید Campaign را به آن پیوند دهید. Campaign را می‌توان در [Quotation](https://docs.frappe.io/erpnext/quotation) نیز مشخص کرد.
+وقتی کارزار بازاریابی باعث ایجاد سرنخ یا فرصت فروش می‌شود، هنگام ایجاد [سرنخ](https://docs.frappe.io/erpnext/lead) یا [فرصت فروش](https://docs.frappe.io/erpnext/opportunity) می‌توانید Campaign را به آن پیوند دهید. Campaign را می‌توان در [راهنمای «Quotation | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/quotation) نیز مشخص کرد.
 
 این کار با محاسبهٔ بازگشت سرمایه (ROI)، سنجش اثربخشی کارزار بازاریابی را ممکن می‌کند.
 
 ![Campaign در Lead](https://docs.frappe.io/files/campaign-in-lead.png)
 
-### مشاهدهٔ Leadهای ایجادشده از یک Campaign
+### مشاهدهٔ سرنخهای ایجادشده از یک Campaign
 
 - در Campaign، دکمهٔ **View Leads** را انتخاب کنید.
 
 ![Campaign - View Leads](https://docs.frappe.io/files/campaign-view-leads.png)
 
-- فهرستی فیلترشده از Leadهای ایجادشده برای آن کارزار نمایش داده می‌شود.
-- با کلیک روی **New** می‌توانید Leadهای جدیدی نیز برای همان کارزار بسازید.
+- فهرستی فیلترشده از سرنخهای ایجادشده برای آن کارزار نمایش داده می‌شود.
+- با کلیک روی **جدید** می‌توانید سرنخهای جدیدی نیز برای همان کارزار بسازید.
 
 ![Campaign - New Lead](https://docs.frappe.io/files/campaign-new-lead.png)
 
 ### تنظیم زمان‌بندی ایمیل برای Email Campaign
 
-اگر می‌خواهید از طریق ایمیل برای Leadها یا مخاطبان خود کارزار اجرا کنید، از [Email Campaign](https://docs.frappe.io/erpnext/email-campaign) استفاده کنید.
+اگر می‌خواهید از طریق ایمیل برای سرنخها یا مخاطبان خود کارزار اجرا کنید، از [کارزار ایمیلی](email-campaign.md) استفاده کنید.
 
 برای Campaign باید زمان‌بندی تنظیم کنید. برای افزودن مورد به برنامهٔ کارزار، **Add Row** را انتخاب کنید.
 
 ![زمان‌بندی Campaign](https://docs.frappe.io/files/campaign-email-schedule.png)
 
-- در **Email Template**، الگوی ایمیلی را انتخاب کنید که می‌خواهید برای Lead یا مخاطب ارسال شود. می‌توانید الگو را به روش زیر بسازید:
+- در **Email Template**، الگوی ایمیلی را انتخاب کنید که می‌خواهید برای سرنخ یا مخاطب ارسال شود. می‌توانید الگو را به روش زیر بسازید:
 
 ![Campaign - Email Template](https://docs.frappe.io/files/email-template.png)
 
@@ -70,11 +70,11 @@ source_version: "e8aebe861554e45abf04faf1f5122b42aa965f3974df4a3513862139a986240
 
 ## موضوعات مرتبط
 
-- [Lead](https://docs.frappe.io/erpnext/lead)
-- [Opportunity](https://docs.frappe.io/erpnext/opportunity)
-- [Quotation](https://docs.frappe.io/erpnext/quotation)
-- [Email Campaign](https://docs.frappe.io/erpnext/email-campaign)
+- [سرنخ](https://docs.frappe.io/erpnext/lead)
+- [فرصت فروش](https://docs.frappe.io/erpnext/opportunity)
+- [راهنمای «Quotation | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/quotation)
+- [کارزار ایمیلی](email-campaign.md)
 
-بعدی: [Email Campaign](https://docs.frappe.io/erpnext/email-campaign)
+بعدی: [کارزار ایمیلی](email-campaign.md)
 
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/campaign). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های رسمی مستندات پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

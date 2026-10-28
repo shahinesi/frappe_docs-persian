@@ -31,7 +31,7 @@ source_version: "ddda35cda5e616335c7d6a6cfc98c119572266bf61fb91817f0b0b2adabbe82
 یک Payment Entry ایجاد کنید:
 
 - **Payment Type:** Receive
-- **Party Type:** Customer
+- **Party Type:** مشتری
 - **Party:** مشتری را انتخاب کنید.
 
 ### واردکردن مبلغ واقعی دریافتی

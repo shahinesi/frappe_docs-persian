@@ -10,9 +10,9 @@ Frappe Framework به شما اجازه می‌دهد مدل‌ها و نماه�
 
 روش‌های مختلف اسکریپت‌نویسی:
 
-1. [Client Script](/framework/v14/user/en/desk/scripting/client-script)
-2. [Server Script](/framework/v14/user/en/desk/scripting/server-script)
-3. [Script Report](/framework/v14/user/en/desk/reports/script-report)
+1. [راهنمای «Client Script» در Frappe Framework](https://docs.frappe.io/framework/user/en/desk/scripting/client-script)
+2. [راهنمای «Server Script» در Frappe Framework](https://docs.frappe.io/framework/user/en/desk/scripting/server-script)
+3. [Script گزارش](https://docs.frappe.io/framework/user/en/desk/reports/script-report)
 4. [System Console](system-console.md)
 
 ---

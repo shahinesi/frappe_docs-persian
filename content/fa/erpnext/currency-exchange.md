@@ -23,9 +23,9 @@ ERPNext پیش از درخواست از ارائه‌دهندهٔ آنلاین �
 
 ## پیش از شروع
 
-هر دو ارز را در فهرست [Currency](/erpnext/currency) فعال کنید. جهت و قرارداد نرخ موردنظر را تأیید کنید. `EUR to USD = 1.15` یعنی هر یورو برابر با 1.15 دلار آمریکاست. نرخ معکوس خودبه‌خود همان عدد نیست؛ اگر جهت معکوس لازم است، `USD to EUR` را جداگانه ایجاد کنید.
+هر دو ارز را در فهرست [ارز (Currency)](currency.md) فعال کنید. جهت و قرارداد نرخ موردنظر را تأیید کنید. `EUR to USD = 1.15` یعنی هر یورو برابر با 1.15 دلار آمریکاست. نرخ معکوس خودبه‌خود همان عدد نیست؛ اگر جهت معکوس لازم است، `USD to EUR` را جداگانه ایجاد کنید.
 
-[Accounts Settings](/erpnext/accounts-settings)، به‌ویژه **Allow Stale Exchange Rates** و **Stale Days** را بررسی کنید. این تنظیمات تعیین می‌کنند ERPNext هنگام جست‌وجوی نرخ، تا چه اندازه می‌تواند از رکورد ذخیره‌شدهٔ قدیمی استفاده کند. همچنین ارائه‌دهندهٔ فعال در [Currency Exchange Settings](/erpnext/currency-exchange-settings) را بررسی کنید؛ هنگامی که رکورد دستی واجد شرایطی پیدا نشود، از آن استفاده می‌شود.
+[تنظیمات حساب‌ها](accounts-settings.md)، به‌ویژه **Allow Stale Exchange Rates** و **Stale Days** را بررسی کنید. این تنظیمات تعیین می‌کنند ERPNext هنگام جست‌وجوی نرخ، تا چه اندازه می‌تواند از رکورد ذخیره‌شدهٔ قدیمی استفاده کند. همچنین ارائه‌دهندهٔ فعال در [تنظیمات نرخ تبدیل ارز](currency-exchange-settings.md) را بررسی کنید؛ هنگامی که رکورد دستی واجد شرایطی پیدا نشود، از آن استفاده می‌شود.
 
 ## ایجاد رکورد Currency Exchange
 
@@ -69,21 +69,21 @@ ERPNext پیش از درخواست از ارائه‌دهندهٔ آنلاین �
 
 وقتی این گزینه غیرفعال است، **Stale Days** محدودهٔ جست‌وجوی ERPNext را محدود می‌کند. اگر نرخ دستی واجد شرایطی در این محدوده نباشد، ERPNext از ارائه‌دهندهٔ پیکربندی‌شده درخواست نرخ می‌کند. این تنظیم گردش‌کار تأیید ایجاد نمی‌کند و تضمین نمی‌کند با منقضی‌شدن نرخ دستی تراکنش متوقف شود؛ زیرا ممکن است ارائه‌دهنده نرخ بازار را برگرداند.
 
-اگر فیلد Exchange Rate تراکنش فقط‌خواندنی به نظر می‌رسد یا رفتاری متفاوت از انتظار عنوان صفحه دارد، [Freeze Exchange Rate](/erpnext/exchange-rate-field-frozen) را ببینید.
+اگر فیلد Exchange Rate تراکنش فقط‌خواندنی به نظر می‌رسد یا رفتاری متفاوت از انتظار عنوان صفحه دارد، [چرا فیلد نرخ ارز غیرفعال است؟](exchange-rate-field-frozen.md) را ببینید.
 
 ## استفاده از نرخ در تراکنش
 
-در پیش‌نویس [Sales Invoice](/erpnext/sales-invoice)، [Purchase Invoice](/erpnext/purchase-invoice)، [Quotation](/erpnext/quotation) یا سفارش، ارز خارجی را انتخاب و Exchange Rate را تأیید کنید. ERPNext با این نرخ جمع‌ها را به ارز Company محاسبه می‌کند. اگر Price List ارز دیگری دارد، **Price List Exchange Rate** قیمت اقلام را جداگانه تبدیل می‌کند.
+در پیش‌نویس [راهنمای «Sales Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/sales-invoice)، [راهنمای «Purchase Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-invoice)، [راهنمای «Quotation | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/quotation) یا سفارش، ارز خارجی را انتخاب و Exchange Rate را تأیید کنید. ERPNext با این نرخ جمع‌ها را به ارز شرکت محاسبه می‌کند. اگر Price List ارز دیگری دارد، **Price List Exchange Rate** قیمت اقلام را جداگانه تبدیل می‌کند.
 
-همین بررسی را زمانی انجام دهید که [Sales Order](/erpnext/sales-order) مبنای تجاری صورتحساب بعدی است. سند نگاشت‌شده ممکن است زمینهٔ ارز و نرخ را منتقل کند؛ بنابراین سند جدید را بررسی کنید و فرض نکنید نرخ آن خودکار با جدیدترین اطلاعات پایه جایگزین شده است.
+همین بررسی را زمانی انجام دهید که [سفارش فروش](sales-order.md) مبنای تجاری صورتحساب بعدی است. سند نگاشت‌شده ممکن است زمینهٔ ارز و نرخ را منتقل کند؛ بنابراین سند جدید را بررسی کنید و فرض نکنید نرخ آن خودکار با جدیدترین اطلاعات پایه جایگزین شده است.
 
-در [Payment Entry](/erpnext/payment-entry)، ارزها از حساب‌های مبدأ پرداخت و مقصد پرداخت می‌آیند. نرخ تبدیل مبدأ یا مقصد میان مبلغ حساب‌ها و ارز Company تبدیل انجام می‌دهد. اگر پرداخت با نرخی متفاوت از صورتحساب انجام شود، ممکن است سود یا زیان تحقق‌یافتهٔ تسعیر ارز ایجاد شود.
+در [راهنمای «Payment Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-entry)، ارزها از حساب‌های مبدأ پرداخت و مقصد پرداخت می‌آیند. نرخ تبدیل مبدأ یا مقصد میان مبلغ حساب‌ها و ارز شرکت تبدیل انجام می‌دهد. اگر پرداخت با نرخی متفاوت از صورتحساب انجام شود، ممکن است سود یا زیان تحقق‌یافتهٔ تسعیر ارز ایجاد شود.
 
 ## اصلاح یا جایگزینی نرخ
 
 اگر رکورد ذخیره‌شده اشتباه است و هنوز در عملیات به آن اتکا نشده، با مجوز مناسب آن را اصلاح کنید. اگر نرخ تازه‌ای از تاریخی بعد معتبر می‌شود، به‌جای بازنویسی رکورد تاریخی، رکوردی تازه با تاریخ بعدی بسازید. تراکنش‌های ثبت‌نهایی‌شده مقدار نرخ خود را نگه می‌دارند؛ تغییر اطلاعات پایه اسناد قدیمی را بی‌صدا ارزش‌گذاری مجدد نمی‌کند.
 
-برای به‌روزرسانی ارزش دفتری واجد شرایط حساب‌های بازِ ارزی به ارز Company در تاریخ گزارش، از [Exchange Rate Revaluation](/erpnext/exchange-rate-revaluation) استفاده کنید. رکوردهای تاریخی Currency Exchange را صرفاً برای تحمیل ماندهٔ پایان دورهٔ فعلی تغییر ندهید.
+برای به‌روزرسانی ارزش دفتری واجد شرایط حساب‌های بازِ ارزی به ارز شرکت در تاریخ گزارش، از [تجدید ارزیابی نرخ ارز](exchange-rate-revaluation.md) استفاده کنید. رکوردهای تاریخی Currency Exchange را صرفاً برای تحمیل ماندهٔ پایان دورهٔ فعلی تغییر ندهید.
 
 ## عیب‌یابی
 
@@ -97,7 +97,7 @@ ERPNext پیش از درخواست از ارائه‌دهندهٔ آنلاین �
 
 ### تراکنش دو فیلد نرخ تبدیل نشان می‌دهد
 
-**Exchange Rate** ارز تراکنش را به ارز Company تبدیل می‌کند. **Price List Exchange Rate** ارز Price List را برای قیمت اقلام تبدیل می‌کند. وقتی ارز تراکنش با ارز Price List متفاوت باشد، این دو نرخ ممکن است تفاوت داشته باشند.
+**Exchange Rate** ارز تراکنش را به ارز شرکت تبدیل می‌کند. **Price List Exchange Rate** ارز Price List را برای قیمت اقلام تبدیل می‌کند. وقتی ارز تراکنش با ارز Price List متفاوت باشد، این دو نرخ ممکن است تفاوت داشته باشند.
 
 ## پرسش‌های متداول
 
@@ -119,12 +119,12 @@ ERPNext پیش از درخواست از ارائه‌دهندهٔ آنلاین �
 
 ### آیا می‌توانم نرخ دریافت‌شده را دستی تغییر دهم؟
 
-این فیلد بسته به وضعیت سند، مجوزها و رفتار نرخ قدیمی ممکن است ویرایش‌پذیر باشد. پیش از ثبت نهایی، مقدار ذخیره‌شده و جمع به ارز Company را حتماً بررسی کنید.
+این فیلد بسته به وضعیت سند، مجوزها و رفتار نرخ قدیمی ممکن است ویرایش‌پذیر باشد. پیش از ثبت نهایی، مقدار ذخیره‌شده و جمع به ارز شرکت را حتماً بررسی کنید.
 
 ## موضوعات مرتبط
 
-- [Currency](/erpnext/currency)
-- [Multi Currency Setup](/erpnext/multi-currency-setup)
-- [Currency Exchange Settings](/erpnext/currency-exchange-settings)
-- [Manage Foreign Exchange Difference](/erpnext/manage-foreign-exchange-difference)
-- [Exchange Rate Revaluation](/erpnext/exchange-rate-revaluation)
+- [ارز (Currency)](currency.md)
+- [راهنمای «Multi Currency Setup | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/multi-currency-setup)
+- [تنظیمات نرخ تبدیل ارز](currency-exchange-settings.md)
+- [راهنمای «Manage Foreign Exchange Difference | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/manage-foreign-exchange-difference)
+- [تجدید ارزیابی نرخ ارز](exchange-rate-revaluation.md)

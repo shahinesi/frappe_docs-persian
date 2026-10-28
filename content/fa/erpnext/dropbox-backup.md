@@ -21,7 +21,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 > **یادداشت:** اگر از Frappe Cloud استفاده می‌کنید، نسخه‌های پشتیبان محلی و خارج از سایت به‌طور خودکار برایتان ایجاد می‌شوند. [اطلاعات بیشتر دربارهٔ پشتیبان‌گیری در Frappe Cloud](https://frappecloud.com/docs/sites/backups)
 
-برای راه‌اندازی پشتیبان‌گیری در Dropbox، به **Home > Integrations > Dropbox Settings** بروید.
+برای راه‌اندازی پشتیبان‌گیری در Dropbox، به **صفحهٔ اصلی > Integrations > Dropbox Settings** بروید.
 
 #### گام 1: ورود به بخش توسعه‌دهندگان Dropbox
 

@@ -30,7 +30,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ![نمونهٔ DocType سفارشی برای امتیازدهی](https://docs.frappe.io/files/oUDbd8e.png)
 
 1. در فیلدهای نخست، DocTypeهایی را فهرست کنید که می‌خواهید برایشان امتیاز ثبت شود.
-2. در فیلد **Document Name**، نام فیلد نخست، یعنی `document`، را وارد کنید تا این فیلد به یک [Dynamic Link](https://docs.erpnext.com/docs/v14/user/manual/en/customize-erpnext/articles/dynamic-link-fields) تبدیل شود.
+2. در فیلد **سند Name**، نام فیلد نخست، یعنی `document`، را وارد کنید تا این فیلد به یک [Dynamic Link](https://docs.erpnext.com/docs/v14/user/manual/en/customize-erpnext/articles/dynamic-link-fields) تبدیل شود.
 3. یک فیلد **Rating** اضافه کنید. در صورت نیاز می‌توانید فیلد داده یا انتخابی دیگری هم برای ثبت امتیاز در نظر بگیرید.
 
 ## ساخت Web Form بازخورد
@@ -52,7 +52,7 @@ https://example.erpnext.com/feedback?new=1&document=Sales%20Order&document_name=
 - `example.erpnext.com` را با دامنهٔ حساب ERPNext خود جایگزین کنید.
 - `feedback` نام DocType سفارشی‌ای است که برای ثبت بازخورد ساخته‌اید.
 - `document=Sales%20Order&` نوع DocTypeای را مشخص می‌کند که اعلان برای آن ارسال می‌شود.
-- `document_name={{doc.name}}` نام سند مشخص را دریافت می‌کند و آن را در فیلد **Document Name** فرم بازخورد قرار می‌دهد.
+- `document_name={{doc.name}}` نام سند مشخص را دریافت می‌کند و آن را در فیلد **سند Name** فرم بازخورد قرار می‌دهد.
 
 ![نمونهٔ تنظیم اعلان و پیوند فرم](https://docs.frappe.io/files/UDBhIaK.png)
 

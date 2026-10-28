@@ -42,9 +42,9 @@ source_version: "a970ea6a3baec81409684cd154dd58e22d48958da3be05e6c4d842d6130994b
 
 ### If
 
-گام If به **Step Condition** نیاز دارد. برای گام‌های متعلق به آن، شمارهٔ ردیف If را در **Parent Step** و مقدار **If** یا **Else** را در **Branch** بگذارید. شاخهٔ If با درست‌بودن شرط و شاخهٔ Else با نادرست‌بودن آن اجرا می‌شود. گام‌هایی که Parent Step ندارند همیشه اجرا می‌شوند.
+گام If به **Step Condition** نیاز دارد. برای گام‌های متعلق به آن، شمارهٔ ردیف If را در **Parent Step** و مقدار **If** یا **Else** را در **شاخه** بگذارید. شاخهٔ If با درست‌بودن شرط و شاخهٔ Else با نادرست‌بودن آن اجرا می‌شود. گام‌هایی که Parent Step ندارند همیشه اجرا می‌شوند.
 
-| شماره | Step Type | کنش | Parent Step | Branch |
+| شماره | Step Type | کنش | Parent Step | شاخه |
 | ---: | --- | --- | ---: | --- |
 | 1 | If | شرط <code>doc.grand_total &gt; 10000</code> |  |  |
 | 2 | Action | Assign to User: <code>manager@example.com</code> | 1 | If |
@@ -63,13 +63,13 @@ source_version: "a970ea6a3baec81409684cd154dd58e22d48958da3be05e6c4d842d6130994b
 
 ## کنش‌ها
 
-این کنش‌ها به‌صورت پیش‌فرض در چارچوب اصلی عرضه می‌شوند. اپ‌های دیگر می‌توانند با <code>hooks.py</code> کنش اضافه کنند؛ به [گسترش خودکارسازی‌ها](https://docs.frappe.io/framework/automations/extending-automations) مراجعه کنید.
+این کنش‌ها به‌صورت پیش‌فرض در چارچوب اصلی عرضه می‌شوند. اپ‌های دیگر می‌توانند با <code>hooks.py</code> کنش اضافه کنند؛ به [گسترش خودکارسازی‌ها](extending-automations.md) مراجعه کنید.
 
 | Action Type | کارکرد | پارامترهای کلیدی |
 | --- | --- | --- |
-| **Set Field Value** | یک یا چند فیلد مقصد را تنظیم و سند را ذخیره می‌کند. | <code>field</code> و <code>value</code> یا <code>values</code> به‌شکل نگاشت. |
-| **Increment Field Value** | مقداری عددی به یک فیلد عددی می‌افزاید. | <code>field</code> و <code>amount</code>؛ برای تفریق مقدار منفی بدهید. |
-| **Create Document** | سند جدیدی از هر نوع درج می‌کند. | <code>doctype</code> و <code>values</code>. |
+| **Set فیلد Value** | یک یا چند فیلد مقصد را تنظیم و سند را ذخیره می‌کند. | <code>فیلد</code> و <code>value</code> یا <code>values</code> به‌شکل نگاشت. |
+| **Increment فیلد Value** | مقداری عددی به یک فیلد عددی می‌افزاید. | <code>فیلد</code> و <code>amount</code>؛ برای تفریق مقدار منفی بدهید. |
+| **Create سند** | سند جدیدی از هر نوع درج می‌کند. | <code>doctype</code> و <code>values</code>. |
 | **Send Notification** | ایمیل یا اعلان سامانه می‌فرستد. | <code>channel</code> (مقدار <code>Email</code> یا <code>System</code>)، <code>recipients</code>، <code>subject</code> و <code>message</code> یا <code>email_template</code>. |
 | **Assign to User** | رکورد مقصد را به یک یا چند کاربر واگذار می‌کند. | <code>assign_to</code> و <code>description</code>. |
 | **Call Webhook** | درخواست HTTP می‌فرستد. | <code>url</code>، <code>method</code>، <code>headers</code>، <code>payload</code> و <code>timeout</code>. |
@@ -86,10 +86,10 @@ source_version: "a970ea6a3baec81409684cd154dd58e22d48958da3be05e6c4d842d6130994b
     {
       "doctype": "ToDo",
       "values": {
-        "description": "Call {{ doc.lead_name }}",
+        "description": "Call {{ doc.سرنخ_name }}",
         "reference_type": "{{ doc.doctype }}",
         "reference_name": "{{ doc.name }}",
-        "allocated_to": "{{ doc.lead_owner }}"
+        "allocated_to": "{{ doc.سرنخ_owner }}"
       }
     }
 
@@ -117,11 +117,11 @@ source_version: "a970ea6a3baec81409684cd154dd58e22d48958da3be05e6c4d842d6130994b
 
 به‌طور پیش‌فرض، گام روی سند محرک عمل می‌کند. برای عمل روی رکورد پیوندشده، در بخش **Relationships** نام مستعاری تعریف کنید و **Target** گام را روی آن بگذارید:
 
-    [{"alias": "customer", "relationship": "customer"}]
+    [{"alias": "مشتری", "relationship": "مشتری"}]
 
-فیلدهای Link، Dynamic Link و پیوند جدول فرزند به‌طور خودکار و با نام فیلد در دسترس‌اند. نام پیوندهای معکوس به‌شکل <code>&lt;doctype&gt;_via_&lt;field&gt;</code> است؛ برای نمونه <code>crm_deal_via_lead</code>. اپ‌ها می‌توانند رابطه‌های بیشتری ثبت کنند؛ به [گسترش خودکارسازی‌ها](https://docs.frappe.io/framework/automations/extending-automations) مراجعه کنید.
+فیلدهای Link، Dynamic Link و پیوند جدول فرزند به‌طور خودکار و با نام فیلد در دسترس‌اند. نام پیوندهای معکوس به‌شکل <code>&lt;doctype&gt;_via_&lt;فیلد&gt;</code> است؛ برای نمونه <code>crm_معامله_via_سرنخ</code>. اپ‌ها می‌توانند رابطه‌های بیشتری ثبت کنند؛ به [گسترش خودکارسازی‌ها](extending-automations.md) مراجعه کنید.
 
-گام **Create Document** همچنین می‌تواند **Output Alias** تعیین کند. گام‌های بعدی می‌توانند سند ایجادشده را به‌عنوان مقصد بگیرند.
+گام **Create سند** همچنین می‌تواند **Output Alias** تعیین کند. گام‌های بعدی می‌توانند سند ایجادشده را به‌عنوان مقصد بگیرند.
 
 ## مدیریت خطا
 
@@ -129,7 +129,7 @@ source_version: "a970ea6a3baec81409684cd154dd58e22d48958da3be05e6c4d842d6130994b
 - هر گام در savepoint جداگانه اجرا می‌شود؛ بنابراین تغییرات پایگاه دادهٔ گام ناموفق بازگردانده می‌شود، اما تغییرات گام‌های قبلی باقی می‌مانند.
 - **Call Webhook** و **Run Script** می‌توانند به بیرون از پایگاه داده دسترسی پیدا کنند. پس از اجرای یکی از آن‌ها، جریان از ابتدا دوباره اجرا نمی‌شود تا مثلاً webhook دوبار فرستاده نشود.
 - **Call Webhook** نشانی‌های شبکهٔ خصوصی و داخلی را نمی‌پذیرد و حداکثر پنج تغییرمسیر را دنبال می‌کند. کد پاسخ 400 یا بالاتر باعث شکست گام می‌شود.
-- برای **Run Script** باید Server Scripts فعال باشد (با دستور <code>bench set-config -g server_script_enabled 1</code>) و فقط System Manager می‌تواند اسکریپت درون‌خطی بنویسد. اسکریپت می‌تواند <code>doc</code>، <code>target</code>، <code>trigger</code>، <code>payload</code> و <code>context</code> را بخواند و برای انتشار خروجی در گام‌های بعدی، کلیدهایی در <code>result</code> تنظیم کند. فراخوانی <code>frappe.db.commit()</code> مجاز نیست.
+- برای **Run Script** باید Server Scripts فعال باشد (با دستور <code>bench set-config -g server_script_فعال 1</code>) و فقط System Manager می‌تواند اسکریپت درون‌خطی بنویسد. اسکریپت می‌تواند <code>doc</code>، <code>target</code>، <code>trigger</code>، <code>payload</code> و <code>context</code> را بخواند و برای انتشار خروجی در گام‌های بعدی، کلیدهایی در <code>result</code> تنظیم کند. فراخوانی <code>frappe.db.commit()</code> مجاز نیست.
 
 ## اجرای آزمایشی
 

@@ -23,16 +23,16 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## فعال‌کردن نسخه‌بندی سند
 
-فرض کنیم می‌خواهیم نسخه‌بندی را برای Purchase Order فعال کنیم.
+فرض کنیم می‌خواهیم نسخه‌بندی را برای سفارش خرید فعال کنیم.
 
-1. به فهرست Purchase Order بروید.
+1. به فهرست سفارش خرید بروید.
 2. از منوی کشویی، **Customize** را انتخاب کنید.
-3. صفحهٔ [Customize Form](/erpnext/customize-form) مربوط به Purchase Order باز می‌شود.
+3. صفحهٔ [سفارشی‌سازی فرم (Customize Form)](customize-form.md) مربوط به سفارش خرید باز می‌شود.
 4. در بخش Properties، گزینهٔ **Track Changes** را علامت بزنید.
 
 ![فعال‌کردن Document Versioning](https://docs.frappe.io/files/using-document-versioning-2.gif)
 
-از این پس، نسخه‌بندی برای همهٔ Purchase Orderهایی که ویرایش می‌شوند فعال خواهد بود.
+از این پس، نسخه‌بندی برای همهٔ سفارش خریدهایی که ویرایش می‌شوند فعال خواهد بود.
 
 ### گزارش نسخه‌ها
 

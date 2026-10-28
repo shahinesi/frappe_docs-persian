@@ -13,7 +13,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 > این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/framework/user/en/guides/desk)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 
-مقاله‌های مرتبط با سفارشی‌سازی Frappe Desk:
+مقاله‌های مرتبط با سفارشی‌سازی Frappe میزکار:
 
 1. [قالب‌بندی فیلدهای پیوند](desk/formatter_for_link_fields.md)
 2. [ساخت نمودارها](desk/making_charts.md)

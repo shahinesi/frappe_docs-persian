@@ -10,7 +10,7 @@ quality_status: "passed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> توجه: در نسخهٔ v16 نام **Closing Stock Balance** به [**Stock Closing Entry**](/erpnext/stock-closing-entry) تغییر کرده است.
+> توجه: در نسخهٔ v16 نام **Closing Stock Balance** به [راهنمای «Stock Closing Entry» در ERPNext](https://docs.frappe.io/erpnext/stock-closing-entry) تغییر کرده است.
 
 #### گزارش Stock Balance چگونه آماده می‌شود؟
 
@@ -20,7 +20,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 Opening Stock + In Stock - Out Stock
 ```
 
-یکی از چالش‌های اصلی تهیهٔ گزارش Stock Balance، محاسبهٔ Opening Stock است. برای تعیین آن، سیستم همهٔ ردیف‌های جدول Stock Ledger Entry را که پیش از فیلتر **From Date** قرار دارند می‌خواند. اگر فیلتر کد کالا یا انبار تعیین نشده باشد و جدول Stock Ledger Entry رکوردهای بسیار زیادی داشته باشد، این کار ممکن است فرایند را به‌طور چشمگیری کند و مشکلات کارایی ایجاد کند.
+یکی از چالش‌های اصلی تهیهٔ گزارش Stock Balance، محاسبهٔ Opening Stock است. برای تعیین آن، سیستم همهٔ ردیف‌های جدول Stock Ledger Entry را که پیش از فیلتر **از تاریخ** قرار دارند می‌خواند. اگر فیلتر کد کالا یا انبار تعیین نشده باشد و جدول Stock Ledger Entry رکوردهای بسیار زیادی داشته باشد، این کار ممکن است فرایند را به‌طور چشمگیری کند و مشکلات کارایی ایجاد کند.
 
 #### موجودی پایان دوره (Closing Stock Balance)
 

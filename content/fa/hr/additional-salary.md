@@ -16,25 +16,25 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای دسترسی به حقوق اضافی، به این مسیر بروید:
 
-> Home > Human Resources > Payroll > Additional Salary
+> صفحهٔ اصلی > منابع انسانی > Payroll > حقوق اضافی
 
 ## 1. پیش‌نیازها
 
 پیش از ایجاد حقوق اضافی، بهتر است موارد زیر را ایجاد کرده باشید:
 
-- [Employee](https://docs.frappe.io/hr/employee)
-- [Salary Component](https://docs.frappe.io/hr/salary-component)
+- [کارمند](https://docs.frappe.io/hr/employee)
+- [مؤلفهٔ حقوق](https://docs.frappe.io/hr/salary-component)
 
 ## 2. ایجاد حقوق اضافی
 
-1. به فهرست Additional Salary بروید و روی **New** کلیک کنید.
-2. **Employee** را انتخاب کنید.
-3. **Salary Component** را انتخاب کنید.
+1. به فهرست حقوق اضافی بروید و روی **جدید** کلیک کنید.
+2. **کارمند** را انتخاب کنید.
+3. **مؤلفهٔ حقوق** را انتخاب کنید.
 4. مقدار **Amount** را وارد کنید.
 5. **Payroll Date** را وارد کنید. اگر Payroll Date حقوق اضافی در بازه‌ای باشد که حقوق و دستمزد پردازش می‌شود، مبلغ به درآمدها یا کسورات اضافه خواهد شد.
-6. سند را **Save** و سپس **Submit** کنید.
+6. سند را **ذخیره** و سپس **ارسال** کنید.
 
-اگر می‌خواهید مبلغ مؤلفهٔ حقوق اضافی جایگزین مبلغ آن در Salary Structure شود، گزینهٔ **Overwrite Salary Structure Amount** را علامت بزنید. همچنین اگر باید کل مالیات مؤلفهٔ حقوق اضافی در همان تاریخ پرداخت کسر شود، گزینهٔ **Deduct Full Tax on Selected Payroll Date** را انتخاب کنید.
+اگر می‌خواهید مبلغ مؤلفهٔ حقوق اضافی جایگزین مبلغ آن در ساختار حقوق شود، گزینهٔ **Overwrite ساختار حقوق Amount** را علامت بزنید. همچنین اگر باید کل مالیات مؤلفهٔ حقوق اضافی در همان تاریخ پرداخت کسر شود، گزینهٔ **Deduct Full Tax on Selected Payroll Date** را انتخاب کنید.
 
 ![حقوق اضافی در Frappe HR](https://frappehr.com/files/additional-salary.png)
 
@@ -42,16 +42,16 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### 3.1 حقوق اضافی تکرارشونده
 
-این قابلیت امکان ایجاد حقوق اضافی را برای یک بازهٔ زمانی ثابت فراهم می‌کند. اگر **Is Recurring** را علامت بزنید، باید مقدارهای **From Date** و **To Date** را وارد کنید. مبلغ حقوق اضافی در بازهٔ انتخاب‌شده به حقوق همین کارمند اضافه یا از آن کسر می‌شود و در Salary Slip او نمایش می‌یابد. این مبلغ هر ماه در فاصلهٔ بین From Date و To Date تکرار خواهد شد.
+این قابلیت امکان ایجاد حقوق اضافی را برای یک بازهٔ زمانی ثابت فراهم می‌کند. اگر **Is Recurring** را علامت بزنید، باید مقدارهای **از تاریخ** و **تا تاریخ** را وارد کنید. مبلغ حقوق اضافی در بازهٔ انتخاب‌شده به حقوق همین کارمند اضافه یا از آن کسر می‌شود و در فیش حقوق او نمایش می‌یابد. این مبلغ هر ماه در فاصلهٔ بین از تاریخ و تا تاریخ تکرار خواهد شد.
 
 ## 4. موضوعات مرتبط
 
-1. [Retention Bonus](https://docs.frappe.io/hr/retention-bonus)
-2. [Employee Incentive](https://docs.frappe.io/hr/employee-incentive)
-3. [Salary Structure](https://docs.frappe.io/hr/salary-structure)
-4. [Salary Structure Assignment](https://docs.frappe.io/hr/salary-structure-assignment)
-5. [Payroll Entry](https://docs.frappe.io/hr/payroll-entry)
-6. [Payroll Period](https://docs.frappe.io/hr/payroll-period)
+1. [راهنمای «Retention Bonus» در Frappe HR](https://docs.frappe.io/hr/retention-bonus)
+2. [کارمند Incentive](https://docs.frappe.io/hr/employee-incentive)
+3. [ساختار حقوق](https://docs.frappe.io/hr/salary-structure)
+4. [ساختار حقوق Assignment](https://docs.frappe.io/hr/salary-structure-assignment)
+5. [سند پردازش حقوق و دستمزد](https://docs.frappe.io/hr/payroll-entry)
+6. [راهنمای «Payroll Period» در Frappe HR](https://docs.frappe.io/hr/payroll-period)
 
 ---
 

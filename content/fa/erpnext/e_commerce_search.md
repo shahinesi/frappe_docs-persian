@@ -23,24 +23,24 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 > **آزمایشی:** به Redis 6 یا بالاتر نیاز دارد.
 
-ERPNext به‌طور پیش‌فرض جست‌وجوی ساده‌ای در پایگاه داده انجام می‌دهد؛ اما در صورت تمایل می‌توانید به‌جای آن از [RediSearch](https://redis.com/modules/redis-search/) برای جست‌وجوی بسیار سریع استفاده کنید. برای نصب، به [مستندات نصب RediSearch در ERPNext](/erpnext/installing_redisearch_to_enable_super_fast_e_commerce_search) مراجعه کنید.
+ERPNext به‌طور پیش‌فرض جست‌وجوی ساده‌ای در پایگاه داده انجام می‌دهد؛ اما در صورت تمایل می‌توانید به‌جای آن از [RediSearch](https://redis.com/modules/redis-search/) برای جست‌وجوی بسیار سریع استفاده کنید. برای نصب، به [مستندات نصب RediSearch در ERPNext](https://docs.frappe.io/erpnext/installing_redisearch_to_enable_super_fast_e_commerce_search) مراجعه کنید.
 
-به **E Commerce Settings > Item Search Settings** بروید و **Enable Redisearch** را علامت بزنید.
+به **E Commerce Settings > کالا Search Settings** بروید و **Enable Redisearch** را علامت بزنید.
 
 ![تنظیمات جست‌وجوی کالا با RediSearch فعال](https://docs.frappe.io/files/item-search-settings-enabled.png)
 
 #### تنظیمات در نبود RediSearch
 
-اگر RediSearch نصب نشده باشد، **Item Search Settings** چنین نمایش داده می‌شود:
+اگر RediSearch نصب نشده باشد، **کالا Search Settings** چنین نمایش داده می‌شود:
 
 ![تنظیمات جست‌وجوی کالا بدون RediSearch](https://docs.frappe.io/files/item-search-settings.png)
 
 #### فیلدهای قابل‌تنظیم
 
-علاوه بر جست‌وجوی سریع، می‌توانید فیلدهایی را تعیین کنید که جست‌وجو در آن‌ها انجام شود. نام فیلدها را با کاما در کادر متنی **Search Index Fields** وارد کنید تا قابل جست‌وجو شوند.
+علاوه بر جست‌وجوی سریع، می‌توانید فیلدهایی را تعیین کنید که جست‌وجو در آن‌ها انجام شود. نام فیلدها را با کاما در کادر متنی **نمایهٔ جست‌وجو Fields** وارد کنید تا قابل جست‌وجو شوند.
 
 برای نمونه، اگر **brand** را به این فهرست اضافه کنید، می‌توان بر اساس برند جست‌وجو کرد. با واردکردن نام برندی مانند **Apple**، نتیجه‌هایی که مقدار فیلد brand آن‌ها Apple است نمایش داده می‌شوند.
 
-نتایج بر اساس مقدارهای همهٔ فیلدهای واردشده در **Search Index Fields** به دست می‌آیند.
+نتایج بر اساس مقدارهای همهٔ فیلدهای واردشده در **نمایهٔ جست‌وجو Fields** به دست می‌آیند.
 
 > فیلدهایی از نوع‌های زیر پشتیبانی می‌شوند: **Link**، **Table MultiSelect**، **Data**، **Small Text** و **Text Editor**.

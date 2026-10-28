@@ -14,7 +14,7 @@ source_version: "700f88608fb2b58d4314e1246b60670a5120d602ddc02476b00c8b1c1b97e7d
 
 ## پیش از واردکردن مانده‌ها
 
-Chart of Accounts، پیش‌فرض‌های Company، Fiscal Year، Cost Centerها، طرف‌های تجاری، مالیات‌ها و ورود سندهای افتتاحیه را کامل کنید.
+Chart of Accounts، پیش‌فرض‌های شرکت، Fiscal Year، Cost Centerها، طرف‌های تجاری، مالیات‌ها و ورود سندهای افتتاحیه را کامل کنید.
 
 Trial Balance تأییدشده و برنامه‌های پشتیبان را برای تاریخ برش تهیه کنید. پیش از ورود به ERPNext، Trial Balance باید تراز باشد.
 
@@ -33,16 +33,16 @@ Trial Balance تأییدشده و برنامه‌های پشتیبان را بر
 
 ## ایجاد Journal Entry افتتاحیه
 
-1. به **Home > Accounting > General Ledger > Journal Entry** بروید.
+1. به **صفحهٔ اصلی > Accounting > دفترکل کل > Journal Entry** بروید.
 2. Journal Entry بسازید.
-3. Company و تاریخ برش را انتخاب کنید.
+3. شرکت و تاریخ برش را انتخاب کنید.
 4. **Is Opening** را روی **Yes** بگذارید.
 5. برای هر ماندهٔ باقی‌ماندهٔ دفترکل یک ردیف اضافه کنید.
 6. در هر ردیف بدهکار یا بستانکار را وارد کنید، نه هر دو را.
-7. در صورت نیاز Party، Cost Center، Project یا Accounting Dimension را انتخاب کنید.
+7. در صورت نیاز Party، Cost Center، Project یا بُعد حسابداری را انتخاب کنید.
 8. گزارش مبدأ و مرجع دستهٔ مهاجرت را در **User Remark** وارد کنید.
 9. برابر بودن جمع بدهکار و بستانکار را تأیید کنید.
-10. پس از تکمیل سایر سندهای افتتاحیه، ذخیره، بررسی و Submit کنید.
+10. پس از تکمیل سایر سندهای افتتاحیه، ذخیره، بررسی و ارسال کنید.
 
 [تصویر Journal Entry افتتاحیه برای یک دستهٔ مهاجرت](https://docs.frappe.io/files/opening-journal-entry.webp)
 
@@ -73,7 +73,7 @@ ERPNext هنگام بارگذاری مانده‌های تفصیلی از Tempor
 
 ## بررسی
 
-پس از Submit:
+پس از ارسال:
 
 1. Trial Balance را برای تاریخ برش اجرا کنید.
 2. همهٔ حساب‌ها را با Trial Balance مبدأِ تأییدشده مقایسه کنید.
@@ -85,13 +85,13 @@ ERPNext هنگام بارگذاری مانده‌های تفصیلی از Tempor
 
 اگر دوره هنوز باز است، سند افتتاحیهٔ نادرست را لغو و اصلاح کنید یا ثبت افتتاحیهٔ اصلاحیِ تأییدشده بزنید. مرجع اصلی و اصلاحیه را در گزارش مهاجرت نگه دارید.
 
-ردیف‌های دفترکلِ Submitشده را ویرایش نکنید و از ثبت دوباره به‌جای اصلاح سند مبدأ استفاده نکنید.
+ردیف‌های دفترکلِ ارسالشده را ویرایش نکنید و از ثبت دوباره به‌جای اصلاح سند مبدأ استفاده نکنید.
 
 ## موضوعات مرتبط
 
-- [Opening Invoice Creation Tool](https://docs.frappe.io/erpnext/opening-invoice-creation-tool)
-- [Journal Entry](https://docs.frappe.io/erpnext/journal-entry)
-- [Stock Reconciliation](https://docs.frappe.io/erpnext/stock-reconciliation)
+- [راهنمای «Opening Invoice Creation Tool | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/opening-invoice-creation-tool)
+- [راهنمای «Journal Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/journal-entry)
+- [راهنمای «Stock Reconciliation» در ERPNext](https://docs.frappe.io/erpnext/stock-reconciliation)
 - [اعتبارسنجی و اصلاح مهاجرت](https://docs.frappe.io/erpnext/validate-and-correct-the-migration)
 
 ---

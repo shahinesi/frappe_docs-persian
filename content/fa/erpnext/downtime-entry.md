@@ -17,7 +17,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای دسترسی به سند Downtime Entry، به مسیر زیر بروید:
 
-> Home > Manufacturing > Production > Downtime Entry
+> صفحهٔ اصلی > Manufacturing > Production > Downtime Entry
 
 ![سند Downtime Entry](https://docs.frappe.io/files/downtime-entry.png)
 

@@ -12,7 +12,7 @@ source_version: "2ed280d9275bd6550674fde9446ea99ee41edac9a27ed10791f9134f88cc818
 
 ## پیش از شروع
 
-قلم دارایی ثابت، [دستهٔ دارایی](https://docs.frappe.io/erpnext/asset-category)، حساب‌های شرکت و [محل دارایی](https://docs.frappe.io/erpnext/asset-location) را آماده کنید. اگر رکورد از خرید جدیدی ایجاد می‌شود، از راهنمای [خرید دارایی](https://docs.frappe.io/erpnext/purchasing-an-asset) استفاده کنید.
+قلم دارایی ثابت، [دستهٔ دارایی](asset-category.md)، حساب‌های شرکت و [محل دارایی](asset-location.md) را آماده کنید. اگر رکورد از خرید جدیدی ایجاد می‌شود، از راهنمای [خرید دارایی](https://docs.frappe.io/erpnext/purchasing-an-asset) استفاده کنید.
 
 ## ایجاد دارایی
 
@@ -29,7 +29,7 @@ source_version: "2ed280d9275bd6550674fde9446ea99ee41edac9a27ed10791f9134f88cc818
 
 | فیلد | معنا |
 |---|---|
-| **کد قلم** (Item Code) | تعریف قلمِ قابل‌استفادهٔ مجدد برای مدل این دارایی |
+| **کد قلم** (کالا Code) | تعریف قلمِ قابل‌استفادهٔ مجدد برای مدل این دارایی |
 | **نام دارایی** (Asset Name) | شناسهٔ خوانا برای افراد، مانند برچسب داخلی یا شمارهٔ سریال |
 | **محل** (Location) | مکان فیزیکی فعلی |
 | **نوع دارایی** (Asset Type) | دارایی موجود، دارایی ترکیبی یا جزء دارایی ترکیبی |
@@ -39,7 +39,7 @@ source_version: "2ed280d9275bd6550674fde9446ea99ee41edac9a27ed10791f9134f88cc818
 | **نیازمند نگه‌داری** (Maintenance Required) | امکان برنامه‌ریزی نگه‌داری و ثبت گزارش‌های آن را فراهم می‌کند |
 | **محاسبهٔ استهلاک** (Calculate Depreciation) | بر اساس تنظیمات دفتر مالی، برنامه‌های استهلاک ایجاد می‌کند |
 | **استهلاک انباشتهٔ افتتاحیه** (Opening Accumulated Depreciation) | استهلاکی که پیش از انتقال به ERPNext ثبت شده است |
-| **مسئول نگه‌داری و دپارتمان** (Custodian and Department) | مسئولیت عملیاتی و مالکیت گزارش‌دهی را مشخص می‌کند |
+| **مسئول نگه‌داری و دپارتمان** (Custodian and دپارتمان) | مسئولیت عملیاتی و مالکیت گزارش‌دهی را مشخص می‌کند |
 
 ## بررسی استهلاک
 
@@ -87,13 +87,13 @@ source_version: "2ed280d9275bd6550674fde9446ea99ee41edac9a27ed10791f9134f88cc818
 
 ## موضوعات مرتبط
 
-- [دستهٔ دارایی](https://docs.frappe.io/erpnext/asset-category)
-- [محل دارایی](https://docs.frappe.io/erpnext/asset-location)
+- [دستهٔ دارایی](asset-category.md)
+- [محل دارایی](asset-location.md)
 - [دارایی](asset.md)
 - [خرید دارایی](https://docs.frappe.io/erpnext/purchasing-an-asset)
-- [استهلاک](https://docs.frappe.io/erpnext/asset-depreciation)
-- [جابجایی دارایی](https://docs.frappe.io/erpnext/asset-movement)
-- [تعمیر دارایی](https://docs.frappe.io/erpnext/asset-repair)
-- [گزارش‌های دارایی](https://docs.frappe.io/erpnext/asset-reports)
+- [استهلاک](asset-depreciation.md)
+- [جابجایی دارایی](asset-movement.md)
+- [تعمیر دارایی](asset-repair.md)
+- [گزارش‌های دارایی](asset-reports.md)
 
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/asset). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های منبع پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

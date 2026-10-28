@@ -14,42 +14,42 @@ Nova Industries ابتدا سال مالی و Chart of Accounts را تنظیم 
 
 ## 1. شرکت و تقویم مالی
 
-- شخصیت حقوقی را در [Company](company-setup.md) بسازید.
+- شخصیت حقوقی را در [شرکت](company-setup.md) بسازید.
 - سرواژه، کشور، ارز، شناسهٔ مالیاتی و نشانی را تأیید کنید.
-- [Fiscal Year](https://docs.frappe.io/erpnext/fiscal-year) را بسازید و تخصیص دهید.
+- [راهنمای «Fiscal Year | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/fiscal-year) را بسازید و تخصیص دهید.
 
 ## 2. Chart of Accounts و پیش‌فرض‌ها
 
 - [Chart of Accounts](chart-of-accounts.md) را بررسی کنید.
 - حساب‌های دریافتنی، پرداختنی، نقد، بانک، درآمد، هزینه، مالیات، موجودی، دارایی ثابت، سوخت، تفاوت ارز و گردکردن را تأیید کنید.
-- [پیش‌فرض‌های حسابداری Company](https://docs.frappe.io/erpnext/company-accounting-defaults) را پیکربندی کنید.
-- [Cost Center](https://docs.frappe.io/erpnext/cost-center)های لازم و دیگر Accounting Dimensionها را بسازید.
+- [پیش‌فرض‌های حسابداری شرکت](company-accounting-defaults.md) را پیکربندی کنید.
+- [مرکز هزینه](cost-center.md)های لازم و دیگر بُعد حسابداریها را بسازید.
 
 ## 3. پرداخت‌ها و بانکداری
 
 - رکوردهای Bank و Bank Account را بسازید.
 - برای هر حساب بانکی شرکت، حساب دفترکل متناظر را تعیین کنید.
-- [Modes of Payment](https://docs.frappe.io/erpnext/bank-accounts-and-modes-of-payment) را پیکربندی کنید.
+- [حساب‌های بانکی و روش‌های پرداخت](bank-accounts-and-modes-of-payment.md) را پیکربندی کنید.
 - دریافت وجه، پرداخت، واردکردن صورت‌حساب بانکی و تطبیق حساب را آزمایش کنید.
 
 ## 4. فروش، خرید و مالیات
 
 - Payment Terms و الگوهای مربوط را بسازید.
 - الگوهای مالیات فروش و خرید را پیکربندی کنید.
-- در صورت نیاز Tax Category، Tax Rule و Item Tax Template اضافه کنید.
-- پیش‌فرض‌های Customer، Supplier، Item و Item Group را تأیید کنید.
+- در صورت نیاز Tax Category، Tax Rule و کالا Tax Template اضافه کنید.
+- پیش‌فرض‌های مشتری، تأمین‌کننده، کالا و کالا Group را تأیید کنید.
 
 ## 5. کنترل‌های حسابداری
 
-- [Accounts Settings](https://docs.frappe.io/erpnext/accounts-settings) را بازبینی کنید.
-- نقش‌ها، گردش‌کارهای تأیید و مجوزهای Submit را پیکربندی کنید.
+- [تنظیمات حساب‌ها](accounts-settings.md) را بازبینی کنید.
+- نقش‌ها، گردش‌کارهای تأیید و مجوزهای ارسال را پیکربندی کنید.
 - روش قفل‌کردن و بستن دوره‌ها را مشخص کنید.
 - نام‌گذاری سندها و قالب‌های چاپ را پیکربندی کنید.
 
 ## 6. داده‌های آغازین
 
 - تاریخ انتقال به سامانهٔ جدید را انتخاب کنید.
-- طرف‌های تجاری، Itemها، دارایی‌های ثابت و فاکتورهای تسویه‌نشده را وارد کنید.
+- طرف‌های تجاری، کالاها، دارایی‌های ثابت و فاکتورهای تسویه‌نشده را وارد کنید.
 - مانده‌های آغازین دفترکل را با ابزارهای مجاز وارد کنید.
 - حساب‌های دریافتنی، پرداختنی، بانک، موجودی، دارایی ثابت، مانده‌های مالیاتی و حقوق صاحبان سهام را با سامانهٔ پیشین تطبیق دهید.
 
@@ -57,8 +57,8 @@ Nova Industries ابتدا سال مالی و Chart of Accounts را تنظیم 
 
 یک سناریوی کامل فروش، خرید، پرداخت، هزینه، دارایی و مرجوعی اجرا کنید و موارد زیر را بررسی کنید:
 
-- بدهکار و بستانکار General Ledger؛
-- Accounts Receivable و Accounts Payable؛
+- بدهکار و بستانکار دفترکل کل؛
+- حساب‌های دریافتنی و حساب‌های پرداختنی؛
 - Trial Balance؛
 - Balance Sheet و Profit and Loss Statement؛
 - Stock Ledger و Stock Balance، اگر perpetual inventory فعال است؛
@@ -70,10 +70,10 @@ Nova Industries ابتدا سال مالی و Chart of Accounts را تنظیم 
 
 ## موضوعات مرتبط
 
-- [ماندهٔ آغازین](https://docs.frappe.io/erpnext/opening-balance)
+- [ماندهٔ آغازین](opening-balance.md)
 - [ابزار ساخت فاکتور آغازین](https://docs.frappe.io/erpnext/opening-invoice-creation-tool)
-- [Data Import](https://docs.frappe.io/erpnext/data-import)
-- [Accounting Period](accounting-period.md)
+- [واردکردن داده‌ها (Data Import)](data-import.md)
+- [دورهٔ حسابداری](accounting-period.md)
 
 ---
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/accounting-setup-checklist). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

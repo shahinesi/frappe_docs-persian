@@ -25,11 +25,11 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 Email Inbox را فقط می‌توان برای کاربر سامانه پیکربندی کرد. بنابراین مطمئن شوید خودتان و همکارانتان را به‌عنوان User افزوده و مجوزهای لازم را به آن‌ها داده‌اید.
 
-برای آشنایی با افزودن کاربر جدید، به صفحهٔ [User](/erpnext/adding-users) بروید.
+برای آشنایی با افزودن کاربر جدید، به صفحهٔ [افزودن کاربران](adding-users.md) بروید.
 
 ## 2. ایجاد Email Domain
 
-Email Domain سرویس‌های زیر به‌صورت پیش‌فرض در دسترس است و می‌توانید مستقیماً به ایجاد [Email Account](/erpnext/email-account) بروید. اطلاعات بیشتر دربارهٔ [ایجاد Email Domain](/erpnext/email-domain) را ببینید.
+Email Domain سرویس‌های زیر به‌صورت پیش‌فرض در دسترس است و می‌توانید مستقیماً به ایجاد [حساب ایمیل](email-account.md) بروید. اطلاعات بیشتر دربارهٔ [ایجاد Email Domain](email-domain.md) را ببینید.
 
 - **Gmail**
 - **Yahoo**
@@ -44,11 +44,11 @@ Email Domain سرویس‌های زیر به‌صورت پیش‌فرض در د�
 
 برای افزودن Email Domain تازه، به مسیر زیر بروید:
 
-> Home > Settings > Emails > Email Domain > New
+> صفحهٔ اصلی > Settings > Emails > Email Domain > جدید
 
 ![Email Domain](https://docs.frappe.io/files/email-domain.png)
 
-اطلاعات بیشتر را در [مستندات Email Domain](/erpnext/email-domain) بخوانید. پس از پیکربندی Email Domain برای سرویس ایمیل، می‌توان از آن برای ایجاد حساب‌های ایمیل همهٔ کاربران حساب ERPNext استفاده کرد.
+اطلاعات بیشتر را در [مستندات Email Domain](email-domain.md) بخوانید. پس از پیکربندی Email Domain برای سرویس ایمیل، می‌توان از آن برای ایجاد حساب‌های ایمیل همهٔ کاربران حساب ERPNext استفاده کرد.
 
 ## 3. ایجاد Email Account
 
@@ -60,7 +60,7 @@ Email Domain سرویس‌های زیر به‌صورت پیش‌فرض در د�
 
 > اگر Email Account را برای Email Inbox یک کاربر می‌سازید، فیلد **Append To** را خالی بگذارید.
 
-برای جزئیات بیشتر، [مستندات Email Account](/erpnext/email-account) را بخوانید.
+برای جزئیات بیشتر، [مستندات Email Account](email-account.md) را بخوانید.
 
 ## 4. پیوند دادن Email Account به رکورد User
 
@@ -88,12 +88,12 @@ Email Domain سرویس‌های زیر به‌صورت پیش‌فرض در د�
 
 ### 5.3 پیونددهی دوباره
 
-با توجه به محتوای ایمیل، می‌توانید آن را دوباره به سندی مانند Issue، Lead یا Opportunity پیوند دهید. نوع سند و سپس خود سندی را که می‌خواهید ایمیل به آن پیوند بخورد انتخاب کنید.
+با توجه به محتوای ایمیل، می‌توانید آن را دوباره به سندی مانند درخواست پشتیبانی، سرنخ یا فرصت فروش پیوند دهید. نوع سند و سپس خود سندی را که می‌خواهید ایمیل به آن پیوند بخورد انتخاب کنید.
 
 ![ایجاد سند از ایمیل](https://docs.frappe.io/files/make-from-email.png)
 
 ### 6. موضوعات مرتبط
 
-- [Email Account](/erpnext/email-account)
-- [ارسال ایمیل](/erpnext/sending-email)
-- [Email Domain](/erpnext/email-domain)
+- [حساب ایمیل](email-account.md)
+- [ارسال ایمیل](https://docs.frappe.io/erpnext/sending-email)
+- [دامنهٔ ایمیل](email-domain.md)

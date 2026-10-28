@@ -8,17 +8,17 @@ source_version: "2cfbd036f4e22633bd5bbbc8bc609149b2a07f79eb7f27de9ef4856fb8ba141
 
 **Brand (برند) نامی مشخص برای شناسایی اقلام است.**
 
-معمولاً Brand نام تولیدکننده یا بسته‌بندی‌کنندهٔ محصولی مشخص است. برای مثال، Apple برندی است که لپ‌تاپ تولید می‌کند. Brand لزوماً [Manufacturer](https://docs.frappe.io/erpnext/manufacturer) یک قلم نیست؛ فقط نامی است که محصول با آن فروخته می‌شود. برای نمونه، اگر فنجان پلاستیکی تولید می‌کنید، ممکن است مجوز فروش آن را به برندی بزرگ بدهید تا محصول را با نام همان Brand عرضه کند.
+معمولاً Brand نام تولیدکننده یا بسته‌بندی‌کنندهٔ محصولی مشخص است. برای مثال، Apple برندی است که لپ‌تاپ تولید می‌کند. Brand لزوماً [راهنمای «Manufacturer\n» در ERPNext](https://docs.frappe.io/erpnext/manufacturer) یک قلم نیست؛ فقط نامی است که محصول با آن فروخته می‌شود. برای نمونه، اگر فنجان پلاستیکی تولید می‌کنید، ممکن است مجوز فروش آن را به برندی بزرگ بدهید تا محصول را با نام همان Brand عرضه کند.
 
 در ERPNext می‌توان Brand را به اقلام اختصاص داد تا آن‌ها شناسایی شوند و برخی مقادیر پیش‌فرض برایشان تنظیم شود.
 
 برای دسترسی به فهرست Brand به مسیر زیر بروید:
 
-> Home > Selling > Sales > Brand
+> صفحهٔ اصلی > Selling > Sales > Brand
 
 ## 1. ایجاد Brand
 
-1. به فهرست Brand بروید و روی **New** کلیک کنید.
+1. به فهرست Brand بروید و روی **جدید** کلیک کنید.
 2. نام Brand را وارد کنید و در صورت نیاز توضیحی بنویسید.
 3. سند را ذخیره کنید.
 
@@ -41,26 +41,26 @@ source_version: "2cfbd036f4e22633bd5bbbc8bc609149b2a07f79eb7f27de9ef4856fb8ba141
 
 #### پیش‌فرض‌های خرید
 
-هنگام انجام تراکنش خرید مانند Purchase Order، Purchase Receipt یا Purchase Invoice، با انتخاب قلمی از این Brand، مقادیر پیش‌فرض زیر دریافت می‌شوند:
+هنگام انجام تراکنش خرید مانند سفارش خرید، Purchase Receipt یا Purchase Invoice، با انتخاب قلمی از این Brand، مقادیر پیش‌فرض زیر دریافت می‌شوند:
 
 - Default Buying Cost Center
-- Default Supplier
+- Default تأمین‌کننده
 - Default Expense Account
 
 #### پیش‌فرض‌های فروش
 
-هنگام انجام تراکنش فروش مانند Sales Order، Delivery Note یا Sales Invoice، با انتخاب قلمی از این Brand، مقادیر پیش‌فرض زیر دریافت می‌شوند:
+هنگام انجام تراکنش فروش مانند سفارش فروش، Delivery Note یا Sales Invoice، با انتخاب قلمی از این Brand، مقادیر پیش‌فرض زیر دریافت می‌شوند:
 
 - Default Selling Cost Center
 - Default Income Account
 
 ## 3. موضوعات مرتبط
 
-1. [Purchase Order](https://docs.frappe.io/erpnext/purchase-order)
-2. [Sales Order](https://docs.frappe.io/erpnext/sales-order)
-3. [Purchase Receipt](https://docs.frappe.io/erpnext/purchase-receipt)
-4. [Delivery Note](https://docs.frappe.io/erpnext/delivery-note)
-5. [Sales Invoice](https://docs.frappe.io/erpnext/sales-invoice)
-6. [Purchase Invoice](https://docs.frappe.io/erpnext/purchase-invoice)
+1. [سفارش خرید](purchase-order.md)
+2. [سفارش فروش](sales-order.md)
+3. [راهنمای «Purchase Receipt | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-receipt)
+4. [Delivery Note (سند تحویل)](delivery-note.md)
+5. [راهنمای «Sales Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/sales-invoice)
+6. [راهنمای «Purchase Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-invoice)
 
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/brand). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های رسمی مستندات پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

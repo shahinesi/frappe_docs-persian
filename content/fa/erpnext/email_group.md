@@ -23,13 +23,13 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای بازکردن فهرست Email Group، به مسیر زیر بروید:
 
-> Home > Settings > Email > Email Group
+> صفحهٔ اصلی > Settings > Email > Email Group
 
 ## ایجاد Email Group
 
-- فهرست Email Group را باز و **New** را انتخاب کنید.
+- فهرست Email Group را باز و **جدید** را انتخاب کنید.
 - **Title** را وارد کنید.
-- **Save** را انتخاب کنید.
+- **ذخیره** را انتخاب کنید.
 - از منوی **Action**، گزینهٔ **Add Subscribers** را انتخاب کنید.
 - نشانی‌های ایمیل را وارد کنید.
 - **Add** را انتخاب کنید.
@@ -40,7 +40,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 می‌توانید نشانی‌های ایمیل را از تراکنش‌های موجود وارد کنید.
 
-از منوی **Action**، **Import Subscribers** را انتخاب کنید و سپس تراکنشی مانند Lead را برگزینید. **Import** را انتخاب کنید تا همهٔ نشانی‌های ایمیل موجود در آن تراکنش وارد شوند.
+از منوی **Action**، **Import Subscribers** را انتخاب کنید و سپس تراکنشی مانند سرنخ را برگزینید. **Import** را انتخاب کنید تا همهٔ نشانی‌های ایمیل موجود در آن تراکنش وارد شوند.
 
 ### قالب‌های ایمیل
 

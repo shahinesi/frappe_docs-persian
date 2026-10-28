@@ -23,13 +23,13 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## تنظیم فیلدهای عنوان
 
-از ERPNext نسخهٔ 6.0 به بعد، همهٔ تراکنش‌ها ویژگی **Title** دارند. اگر DocTypeای این ویژگی را ندارد، می‌توانید یک **Custom Field** به‌عنوان عنوان اضافه کنید و **Title Field** را از طریق **Customize Form** تنظیم کنید.
+از ERPNext نسخهٔ 6.0 به بعد، همهٔ تراکنش‌ها ویژگی **Title** دارند. اگر DocTypeای این ویژگی را ندارد، می‌توانید یک **Custom فیلد** به‌عنوان عنوان اضافه کنید و **Title فیلد** را از طریق **Customize Form** تنظیم کنید.
 
 می‌توانید مقدار پیش‌فرض این ویژگی را با قالب‌بندی رشته به سبک Python در **Default** یا **Options** تعیین کنید.
 
 1. برای ویرایش عنوان پیش‌فرض، **Customize Form** را باز کنید.
 2. فرمی را انتخاب کنید که می‌خواهید فیلد Title آن را تغییر دهید.
-3. **Title Field** فرم را ویرایش کنید.
+3. **Title فیلد** فرم را ویرایش کنید.
 
 ## تعریف عنوان‌ها
 
@@ -37,7 +37,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ![تنظیم عنوان سند](https://docs.frappe.io/files/set-document-title.gif)
 
-همچنین می‌توانید از طریق Customize Form یک فیلد مشخص را به‌عنوان **Title Field** تعیین کنید.
+همچنین می‌توانید از طریق Customize Form یک فیلد مشخص را به‌عنوان **Title فیلد** تعیین کنید.
 
 ![Title Field در تنظیمات نما](https://docs.frappe.io/files/title-field-in-view-settings.png)
 

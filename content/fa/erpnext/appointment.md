@@ -16,11 +16,11 @@ source_version: "685d54758b37ac637ebaa05c16362092932b0b03068d170cf27b8ca5ec43eab
 
 ## پیش‌نیازها
 
-- [تنظیمات رزرو قرار ملاقات](https://docs.frappe.io/erpnext/appointment-booking-settings)
+- [تنظیمات رزرو قرار ملاقات](appointment-booking-settings.md)
 - [فهرست تعطیلات](https://docs.frappe.io/hr/holiday-list)
 - [کارمند](https://docs.frappe.io/hr/employee)
 - [سرنخ](https://docs.frappe.io/erpnext/lead)
-- [ایمیل](https://docs.frappe.io/erpnext/email-account)
+- [ایمیل](email-account.md)
 
 ## ایجاد قرار ملاقات
 
@@ -50,7 +50,7 @@ source_version: "685d54758b37ac637ebaa05c16362092932b0b03068d170cf27b8ca5ec43eab
 
 ### تخصیص خودکار
 
-قرار ملاقات‌ها بر اساس فهرست عامل‌ها در [تنظیمات رزرو قرار ملاقات](https://docs.frappe.io/erpnext/appointment-booking-settings) به‌طور خودکار به کارمندان تخصیص داده می‌شوند. عاملی به قرار ملاقات تخصیص می‌یابد که در روز آن قرار، کمترین تعداد تخصیص را داشته باشد و در زمان برنامه‌ریزی‌شده نیز آزاد باشد.
+قرار ملاقات‌ها بر اساس فهرست عامل‌ها در [تنظیمات رزرو قرار ملاقات](appointment-booking-settings.md) به‌طور خودکار به کارمندان تخصیص داده می‌شوند. عاملی به قرار ملاقات تخصیص می‌یابد که در روز آن قرار، کمترین تعداد تخصیص را داشته باشد و در زمان برنامه‌ریزی‌شده نیز آزاد باشد.
 
 ### تأیید ایمیل
 

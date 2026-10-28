@@ -12,7 +12,7 @@ source_version: "c7fca908983a38ccb603717300c2f9ac17a6768a852153964c7255aa62c1fcc
 
 ![BOM با ارزی متفاوت](https://docs.frappe.io/files/bom-currency.png)
 
-اگر **Rate Of Materials Based On** را روی **Valuation Rate** یا **Last Purchase Rate** بگذارید، قیمت‌ها به‌ترتیب از Item master یا Sales Invoice دریافت می‌شوند. در مورد Item master، باید Valuation Rate را با ارز خودتان وارد کنید. در BOM، Valuation Rate به ارز انتخاب‌شده برای BOM تبدیل می‌شود.
+اگر **Rate Of Materials Based On** را روی **Valuation Rate** یا **Last Purchase Rate** بگذارید، قیمت‌ها به‌ترتیب از کالا master یا Sales Invoice دریافت می‌شوند. در مورد کالا master، باید Valuation Rate را با ارز خودتان وارد کنید. در BOM، Valuation Rate به ارز انتخاب‌شده برای BOM تبدیل می‌شود.
 
 ![BOM با ارزی متفاوت و نرخ‌های مواد](https://docs.frappe.io/files/bom-currency-1.png)
 

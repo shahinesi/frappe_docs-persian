@@ -21,28 +21,28 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 در Insights سه روش برای ساخت پرس‌وجو وجود دارد:
 
-1. **Query Builder**: رابط دیداری و بدون کدنویسی؛ برای بیشتر کاربران پیشنهاد می‌شود.
+1. **پرس‌وجو Builder**: رابط دیداری و بدون کدنویسی؛ برای بیشتر کاربران پیشنهاد می‌شود.
 2. **SQL Editor**: نوشتن مستقیم SQL؛ برای کاربران مسلط به SQL.
 3. **Script Editor**: نوشتن اسکریپت Python برای تبدیل‌های پیچیده.
 
 ## ساخت نخستین پرس‌وجو
 
-<video controls width="100%" height="auto"><source src="https://docs.frappe.io/files/query.mp4" type="video/mp4"></video>
+<video controls width="100%" height="auto"><source src="https://docs.frappe.io/files/پرس‌وجو.mp4" type="video/mp4"></video>
 
 ### آغاز یک پرس‌وجوی تازه
 
-#### 1. بازکردن Workbook
+#### 1. بازکردن کارپوشه
 
 1. روی زبانهٔ **Queries** کلیک کنید.
-2. روی **New Query** کلیک کنید.
+2. روی **جدید پرس‌وجو** کلیک کنید.
 3. نوع پرس‌وجو را انتخاب کنید:
-   - **Visual Query Builder**: ساخت دیداری.
+   - **Visual پرس‌وجو Builder**: ساخت دیداری.
    - **SQL Editor**: نوشتن SQL.
    - **Script Editor**: نوشتن Python.
 
 ![Query Builder](https://docs.frappe.io/files/Query_Builderfe073a.jpeg)
 
-در این راهنما روی Query Builder تمرکز می‌کنیم، چون شروع کار با آن آسان‌تر است.
+در این راهنما روی پرس‌وجو Builder تمرکز می‌کنیم، چون شروع کار با آن آسان‌تر است.
 
 #### 2. انتخاب منبع داده
 
@@ -55,9 +55,9 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 می‌توانید جدولی از این منابع انتخاب کنید:
 
 - Demo Data
-- Site DB
+- سایت DB
 - Uploads
-- پرس‌وجوهای دیگر در همان Workbook
+- پرس‌وجوهای دیگر در همان کارپوشه
 
 اکنون آماده‌اید عملیات را روی جدول انجام دهید.
 

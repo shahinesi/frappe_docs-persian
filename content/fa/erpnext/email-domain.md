@@ -17,11 +17,11 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 **Email Domain** نام نمایشی حساب یا سرویس شبکهٔ ایمیلی است که برای سرویس‌های ایمیل ERPNext و دیگر برنامه‌های Frappe تنظیم می‌کنید.
 
-اگر از یکی از سرویس‌های فهرست‌شده در [راهنمای Email Inbox](/erpnext/email-inbox#2-create-an-email-domain) استفاده می‌کنید، می‌توانید مستقیماً به [ایجاد Email Account](/erpnext/email-account) بروید.
+اگر از یکی از سرویس‌های فهرست‌شده در [راهنمای Email Inbox](email-inbox.md#2-create-an-email-domain) استفاده می‌کنید، می‌توانید مستقیماً به [ایجاد Email Account](email-account.md) بروید.
 
 برای ساده‌ترشدن تنظیم حساب‌های ایمیل، می‌توانید Email Domainها را در ERPNext پیکربندی کنید. برای یافتن تنظیمات، به مسیر زیر بروید:
 
-> Home > Settings > Email Domain
+> صفحهٔ اصلی > Settings > Email Domain
 
 **Email Domain من چیست؟** ممکن است سرویس ایمیل را از ارائه‌دهندهٔ اینترنت یا شرکت خدمات فناوری اطلاعات خود خریده باشید. برای نمونه، اگر برای دسترسی به صندوق ایمیل کاری از نشانی‌ای مانند `http://mail.yourcompany.com` استفاده می‌کنید، دامنهٔ ایمیل شما معمولاً `yourcompany.com` است. اگر کار را با واردکردن **Email Address** آغاز کنید، ERPNext می‌کوشد Email Domain را از نشانی نمونهٔ واردشده تشخیص دهد.
 
@@ -35,7 +35,7 @@ ERPNext برای راهنمایی، یک الگوی **Email Domain** با دام
 
 ## 1. ایجاد Email Domain
 
-1. فهرست Email Domain را باز و **New** را انتخاب کنید.
+1. فهرست Email Domain را باز و **جدید** را انتخاب کنید.
 2. **Example Email Address** را وارد کنید. نشانی ایمیل کاری خود را در این فیلد بنویسید؛ برای نمونه، اگر نشانی شما `yourname@yourcompanyname.com` است، همان را وارد کنید.
 3. **Email Server** را وارد کنید. این مقدار نشانی سرور ایمیل یا سرویس ایمیلی است که تهیه کرده‌اید؛ برای نمونه، `mail.yourcompany.com` یا `imap.yourcompany.com`.
 4. **Use IMAP**: بیشتر سرورهای ایمیل برای دریافت پیام از IMAP یا POP استفاده می‌کنند. اگر سرور ایمیل شما از IMAP برای دریافت پیام پشتیبانی می‌کند، این گزینه را فعال نگه دارید؛ در غیر این صورت آن را غیرفعال کنید.
@@ -52,7 +52,7 @@ ERPNext برای راهنمایی، یک الگوی **Email Domain** با دام
 
 ### 1.1 پس از ذخیرهٔ دامنه
 
-پس از انتخاب **Save**، ERPNext این تنظیمات را اعتبارسنجی می‌کند و Email Domain را ذخیره می‌کند. این کار ممکن است چند ثانیه طول بکشد. سپس دامنه در فهرست کشویی **Domain** در صفحهٔ Email Accounts در دسترس خواهد بود.
+پس از انتخاب **ذخیره**، ERPNext این تنظیمات را اعتبارسنجی می‌کند و Email Domain را ذخیره می‌کند. این کار ممکن است چند ثانیه طول بکشد. سپس دامنه در فهرست کشویی **Domain** در صفحهٔ Email Accounts در دسترس خواهد بود.
 
 ![دامنهٔ ایمیل در حساب ایمیل](https://docs.frappe.io/files/email-domain1.png)
 
@@ -62,5 +62,5 @@ ERPNext برای راهنمایی، یک الگوی **Email Domain** با دام
 
 ### 2. موضوعات مرتبط
 
-- [Email Account](/erpnext/email-account)
-- [Email Inbox](/erpnext/email-inbox)
+- [حساب ایمیل](email-account.md)
+- [صندوق ورودی ایمیل](email-inbox.md)

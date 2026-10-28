@@ -13,13 +13,13 @@ source_version: "64058ea0cb49351bbd37eed633c1d30567db08b9ef6af1c25f2e59efcf7e3f1
 در عصر اینترنت، نوشتن اهمیت زیادی دارد؛ زیرا بازدیدکنندگان وب‌سایت شما می‌خواهند دربارهٔ شما و محصولتان بخوانند.
 
 برای دسترسی به نوشتهٔ وبلاگ، به مسیر زیر بروید:
-> Home > Website > Blog > Blog Post
+> صفحهٔ اصلی > Website > Blog > Blog Post
 
 ## 1. ایجاد نوشتهٔ وبلاگ
 
-1. به فهرست Blog Post بروید و روی **New** کلیک کنید.
+1. به فهرست Blog Post بروید و روی **جدید** کلیک کنید.
 2. **Title**، **Blog Category**، **Blogger** و **Content** را وارد کنید.
-3. گزینهٔ **Published** را فعال و روی **Save** کلیک کنید.
+3. گزینهٔ **Published** را فعال و روی **ذخیره** کلیک کنید.
 
 **Blog Intro** توضیح کوتاهی دربارهٔ وبلاگ است که پس از عنوان و پیش از محتوا نمایش داده می‌شود.
 
@@ -50,7 +50,7 @@ source_version: "64058ea0cb49351bbd37eed633c1d30567db08b9ef6af1c25f2e59efcf7e3f1
 
 Blogger کاربری است که می‌تواند مطلب وبلاگ منتشر کند. برای ایجاد Blogger به مسیر زیر بروید:
 
-**Home > Website > Blog > Blogger**
+**صفحهٔ اصلی > Website > Blog > Blogger**
 
 در این بخش می‌توانید زندگی‌نامه‌ای کوتاه برای نویسنده بنویسید و تصویر آواتار او را نیز تنظیم کنید.
 
@@ -66,7 +66,7 @@ Blogger کاربری است که می‌تواند مطلب وبلاگ منتش�
 
 می‌توانید نوشته‌های وبلاگ را در دسته‌بندی‌ها گروه‌بندی کنید. برای ایجاد دسته‌بندی جدید به مسیر زیر بروید:
 
-**Home > Website > Blog > Blog Category**
+**صفحهٔ اصلی > Website > Blog > Blog Category**
 
 ![Blog Category](https://docs.frappe.io/files/blog-category.png)
 *Blog Category*

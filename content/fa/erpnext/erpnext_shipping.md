@@ -36,7 +36,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 2. برای تولید **Public Key** و **Secret Key**، [این مراحل](https://support.sendcloud.com/hc/en-us/articles/360024967612-Service-points-for-API-Integrations#step-1-) را دنبال کنید.
 3. در Awesome Bar عبارت **SendCloud** را جست‌وجو کنید.
 4. **Public Key** را در فیلد **API Key** و **Secret Key** را در فیلد **API Secret** در DocTypeِ SendCloud وارد کنید.
-5. گزینهٔ **Enabled** را فعال کنید.
+5. گزینهٔ **فعال** را فعال کنید.
 6. ذخیره کنید.
 
 ![API مربوط به SendCloud](https://docs.frappe.io/files/sendcloud_api.png)
@@ -46,7 +46,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 1. در [LetMeShip](https://www.letmeship.com/en/) ثبت‌نام کنید.
 2. برای تولید **API ID** و **API Password**، [این مراحل](https://www.letmeship.com/en-de/shipping-api/) را دنبال کنید.
 3. در Awesome Bar عبارت **LetMeShip** را جست‌وجو کنید.
-4. **API ID** و **API Password** را در DocTypeِ LetMeShip وارد و گزینهٔ **Enabled** را فعال کنید.
+4. **API ID** و **API Password** را در DocTypeِ LetMeShip وارد و گزینهٔ **فعال** را فعال کنید.
 5. ذخیره کنید.
 
 ![API مربوط به LetMeShip](https://docs.frappe.io/files/letmeship_api.png)
@@ -55,7 +55,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### 2.1 مقایسهٔ نرخ‌های ارسال
 
-پس از ثبت نهایی [Shipment](/erpnext/shipment)، اگر برنامه نصب شده باشد، دکمهٔ **Fetch Shipping Rates** ظاهر می‌شود. با انتخاب آن، فهرستی از سرویس‌ها به‌همراه ارائه‌دهندگان و نرخ‌هایشان نمایش داده می‌شود.
+پس از ثبت نهایی [راهنمای «Shipment\n» در ERPNext](https://docs.frappe.io/erpnext/shipment)، اگر برنامه نصب شده باشد، دکمهٔ **Fetch Shipping Rates** ظاهر می‌شود. با انتخاب آن، فهرستی از سرویس‌ها به‌همراه ارائه‌دهندگان و نرخ‌هایشان نمایش داده می‌شود.
 
 ![دریافت نرخ‌های ارسال](https://docs.frappe.io/files/fetch_rates.png)
 
@@ -65,7 +65,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
    ![سرویس موردنظر برای افزودن به فهرست ترجیحی](https://docs.frappe.io/files/service_highlight.png)
 
-2. به **Parcel Service Type > New** بروید و یک **Parcel Service** جدید بسازید؛ برای نمونه، `TNT`.
+2. به **Parcel Service Type > جدید** بروید و یک **Parcel Service** جدید بسازید؛ برای نمونه، `TNT`.
 3. یک **Parcel Service Type** اضافه کنید؛ برای نمونه، `Economy`.
 4. `Economy` را به جدول **Parcel Service Type Alias** نیز اضافه کنید.
 5. در صورت تمایل، توضیحی وارد کنید.

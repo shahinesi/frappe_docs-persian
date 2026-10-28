@@ -67,4 +67,4 @@ bench --site your_site_name install-app helpdesk
 
 ### هنگام نصب با مشکل روبه‌رو شده‌ام. چه‌کار کنم؟
 
-اگر با خطا روبه‌رو شدید، لطفاً در [مخزن GitHub](https://github.com/frappe/helpdesk/issues) یک issue ثبت کنید و پیام خطا و مراحلی را که انجام داده‌اید بنویسید.
+اگر با خطا روبه‌رو شدید، لطفاً در [مخزن GitHub](https://github.com/frappe/helpdesk/issues) یک درخواست پشتیبانی ثبت کنید و پیام خطا و مراحلی را که انجام داده‌اید بنویسید.

@@ -21,11 +21,11 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای دسترسی به حساب‌های ایمیل، به مسیر زیر بروید:
 
-> Home > Settings > Email Account
+> صفحهٔ اصلی > Settings > Email Account
 
 ## 1. پیش‌نیازها
 
-پیش از ایجاد Email Account، باید [Email Domain](/erpnext/email-domain) داشته باشید. اگر از یکی از سرویس‌های زیر استفاده می‌کنید، می‌توانید از ایجاد Email Domain صرف‌نظر کنید و آن را طبق [راهنمای تنظیم](/erpnext/email-inbox#2-create-an-email-domain) بسازید:
+پیش از ایجاد Email Account، باید [دامنهٔ ایمیل](email-domain.md) داشته باشید. اگر از یکی از سرویس‌های زیر استفاده می‌کنید، می‌توانید از ایجاد Email Domain صرف‌نظر کنید و آن را طبق [راهنمای تنظیم](email-inbox.md#2-create-an-email-domain) بسازید:
 
 - **Gmail**
 - **Yahoo**
@@ -36,8 +36,8 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## 2. ایجاد Email Account
 
-1. فهرست Email Account را باز کنید و **New** را بزنید.
-2. نشانی ایمیل را همراه دامنه وارد کنید. برای ایجاد حساب ایمیل معمولاً باید [دامنه‌ها](/erpnext/email-domain) از پیش ساخته شده باشند. اگر ایمیل را از یکی از سرویس‌دهندگان مشخص‌شده در [راهنمای تنظیم](/erpnext/email-inbox#2-create-an-email-domain) همگام می‌کنید، نیازی به ساخت دامنه ندارید.
+1. فهرست Email Account را باز کنید و **جدید** را بزنید.
+2. نشانی ایمیل را همراه دامنه وارد کنید. برای ایجاد حساب ایمیل معمولاً باید [دامنه‌ها](email-domain.md) از پیش ساخته شده باشند. اگر ایمیل را از یکی از سرویس‌دهندگان مشخص‌شده در [راهنمای تنظیم](email-inbox.md#2-create-an-email-domain) همگام می‌کنید، نیازی به ساخت دامنه ندارید.
 3. گذرواژهٔ حساب ایمیل را وارد کنید.
 4. ذخیره کنید. اگر اطلاعات ورود درست باشد، همگام‌سازی حساب انجام می‌شود.
 
@@ -71,18 +71,18 @@ ERPNext به‌طور پیش‌فرض چند الگوی حساب ایمیل ای
 2. **Use SSL**
 3. **Attachment Limit**
 4. **Default Incoming**: اگر فعال باشد، همهٔ پاسخ‌هایی که برای شرکت شما می‌رسند (برای نمونه [replies@yourcomany.com](mailto:replies@yourcomany.com)) به این حساب وارد می‌شوند.
-5. **Email Sync Option**: تعیین می‌کند همهٔ ایمیل‌ها همگام شوند یا فقط ایمیل‌های خوانده‌نشده.
-6. **Initial Sync Count**: تعداد ایمیل‌هایی که در نخستین همگام‌سازی دریافت می‌شوند.
+5. **Email همگام‌سازی Option**: تعیین می‌کند همهٔ ایمیل‌ها همگام شوند یا فقط ایمیل‌های خوانده‌نشده.
+6. **Initial همگام‌سازی Count**: تعداد ایمیل‌هایی که در نخستین همگام‌سازی دریافت می‌شوند.
 
 #### ایجاد خودکار سند از طریق ایمیل‌های پیوندخورده
 
 این قابلیت وقتی ایمیلی به یک نشانی ازپیش‌پیکربندی‌شده فرستاده شود، سندی ایجاد می‌کند.
 
-برای نمونه، می‌توانید [support@example.com](mailto:support@example.com) را به DocTypeِ Issue پیوند دهید. پس از آن، هر ایمیلی که به این نشانی برسد، به‌طور خودکار یک Issue در سیستم ایجاد می‌کند.
+برای نمونه، می‌توانید [support@example.com](mailto:support@example.com) را به DocTypeِ درخواست پشتیبانی پیوند دهید. پس از آن، هر ایمیلی که به این نشانی برسد، به‌طور خودکار یک درخواست پشتیبانی در سیستم ایجاد می‌کند.
 
 به همین ترتیب، اگر [jobs@example.com](mailto:jobs@example.com) را پیوند دهید، با رسیدن ایمیل به آن نشانی، سند Job Applicant به‌طور خودکار ساخته می‌شود.
 
-گزینهٔ **Enable Automatic Linking in Documents** ایمیل‌ها را به سندها پیوند می‌دهد. برای اطلاعات بیشتر، [پیوند دادن ایمیل‌ها به سندها](/erpnext/linking-emails-to-document) را ببینید.
+گزینهٔ **Enable Automatic Linking in Documents** ایمیل‌ها را به سندها پیوند می‌دهد. برای اطلاعات بیشتر، [پیوند دادن ایمیل‌ها به سندها](https://docs.frappe.io/erpnext/linking-emails-to-document) را ببینید.
 
 ### 3.4 حساب‌های ایمیل خروجی
 
@@ -112,12 +112,12 @@ ERPNext به‌طور پیش‌فرض چند الگوی حساب ایمیل ای
 
 > **یادداشت برای مدیران سامانه:** برای ایمیل‌های خروجی، سرور SMTP خودتان را راه‌اندازی کنید یا از سرویس واسط SMTP مانند mandrill.com یا sendgrid.com استفاده کنید که امکان ارسال تعداد بیشتری ایمیل تراکنشی را می‌دهد. سرویس‌های عادی ایمیل، مانند Gmail، تعداد ایمیل‌های روزانه را محدود می‌کنند.
 
-اگر هنگام پیکربندی Email Account با خطا روبه‌رو شدید، به [این صفحه](/erpnext/email-error) مراجعه کنید.
+اگر هنگام پیکربندی Email Account با خطا روبه‌رو شدید، به [این صفحه](email-error.md) مراجعه کنید.
 
 ## موضوعات مرتبط
 
-- [Email Inbox](/erpnext/email-inbox)
-- [Email Digest](/erpnext/email-digest)
-- [گزارش‌های ایمیلی خودکار](/erpnext/auto-email-reports)
-- [ارسال ایمیل](/erpnext/sending-email)
-- [Email Domain](/erpnext/email-domain)
+- [صندوق ورودی ایمیل](email-inbox.md)
+- [خلاصهٔ دوره‌ای ایمیل](email-digest.md)
+- [گزارش‌های ایمیلی خودکار](auto-email-reports.md)
+- [ارسال ایمیل](https://docs.frappe.io/erpnext/sending-email)
+- [دامنهٔ ایمیل](email-domain.md)

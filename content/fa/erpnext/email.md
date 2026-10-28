@@ -17,12 +17,12 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 همچنین کاربران می‌توانند قالب‌های ایمیل را شخصی‌سازی کنند، پاسخ‌های خودکار راه‌اندازی کنند و اعلان‌های ایمیلی را زمان‌بندی کنند؛ این قابلیت‌ها بهره‌وری را بالا می‌برند و گردش‌کار ارتباطات را در سامانهٔ ERP ساده‌تر می‌کنند.
 
-- [دامنهٔ ایمیل](/erpnext/user/manual/en/email-domain)
-- [حساب ایمیل](/erpnext/user/manual/en/email-account)
-- [قالب ایمیل](/erpnext/user/manual/en/email-template)
-- [خلاصهٔ ایمیلی](/erpnext/user/manual/en/email-digest)
-- [خبرنامه](/erpnext/user/manual/en/newsletter)
-- [اعلان](/erpnext/user/manual/en/notifications)
-- [گزارش ایمیلی خودکار](/erpnext/user/manual/en/auto-email-reports)
-- [ارسال ایمیل از سندها](/erpnext/user/manual/en/sending-email)
-- [پیوند دادن ایمیل به سندها](/erpnext/user/manual/en/linking-emails-to-document)
+- [دامنهٔ ایمیل](email-domain.md)
+- [حساب ایمیل](email-account.md)
+- [قالب ایمیل](email-template.md)
+- [خلاصهٔ ایمیلی](email-digest.md)
+- [خبرنامه](https://docs.frappe.io/erpnext/newsletter)
+- [اعلان](https://docs.frappe.io/erpnext/notifications)
+- [گزارش ایمیلی خودکار](auto-email-reports.md)
+- [ارسال ایمیل از سندها](https://docs.frappe.io/erpnext/sending-email)
+- [پیوند دادن ایمیل به سندها](https://docs.frappe.io/erpnext/linking-emails-to-document)

@@ -19,21 +19,21 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## ایجاد کنش سفارشی
 
-کنش‌های سفارشی با Form Script در Desk پیاده‌سازی می‌شوند:
+کنش‌های سفارشی با Form Script در میزکار پیاده‌سازی می‌شوند:
 
-1. **رفتن به Desk:** به Desk بروید و **HD Form Script** را باز کنید.
-2. **انتخاب DocType:** DocType موردنظر، مانند HD Ticket، را انتخاب کنید تا کد پایه نمایش داده شود.
+1. **رفتن به میزکار:** به میزکار بروید و **HD Form Script** را باز کنید.
+2. **انتخاب DocType:** DocType موردنظر، مانند HD تیکت، را انتخاب کنید تا کد پایه نمایش داده شود.
 3. **Apply To:** گزینهٔ **Form** را انتخاب کنید.
 4. **تعریف کنش:** روش‌های مختلف تعریف کنش در ادامه آمده‌اند.
 
 ### دکمهٔ تکی
 
-این کد یک دکمه با عنوان **Open in Desk** می‌سازد که تیکت فعلی را در زبانه‌ای جدید از مرورگر باز می‌کند.
+این کد یک دکمه با عنوان **Open in میزکار** می‌سازد که تیکت فعلی را در زبانه‌ای جدید از مرورگر باز می‌کند.
 
 ![اسکریپت دکمهٔ معمولی](https://docs.frappe.io/files/Normal%20Button%20Script.png)
 
     const actions = [{
-        "label": "Open in Desk",
+        "label": "Open in میزکار",
         "onClick": () => {
             let URL = `https://frappehelpdesk.frappe.cloud/app/hd-ticket/${doc.name}`
             window.open(URL, '_blank')
@@ -64,11 +64,11 @@ license_status: "CC BY-SA (version unspecified by source policy)"
         ],
       },
       {
-        group: 'Ticket',
+        group: 'تیکت',
         options: [
-          { label: 'Create a new ticket', onClick: () => {}, },
+          { label: 'Create a جدید تیکت', onClick: () => {}, },
           // suggest some action other than open in fc
-          { label: 'Open Customer Details', onClick: () => {}, },
+          { label: 'Open مشتری Details', onClick: () => {}, },
         ],
       },
     ]
@@ -105,7 +105,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 پارامتر <code>doc</code> اطلاعات صفحهٔ تیکت فعلی را فراهم می‌کند. برای ساخت کنش سفارشی می‌توانید از این context و قابلیت‌ها استفاده کنید:
 
-- <code>doc</code>: خواندن مقدارهای فیلد تیکت، مانند <code>doc.raised_by</code> و <code>doc.customer</code>.
+- <code>doc</code>: خواندن مقدارهای فیلد تیکت، مانند <code>doc.raised_by</code> و <code>doc.مشتری</code>.
 - <code>$dialog</code>: بازکردن پنجرهٔ تأیید همراه کنش‌ها. هنگام ساخت پنجره می‌توانید کلیدهای title، message، html و actions را بدهید. تابع onClick هر کنش پنجره، <code>{ close }</code> را دریافت می‌کند؛ برای بستن پنجره <code>close()</code> را فراخوانی کنید. شکل قدیمی‌تر <code>onClick(close)</code> نیز همچنان کار می‌کند.
 - <code>updateField</code>: به‌روزرسانی یک فیلد مشخص؛ برای نمونه <code>updateField('status', 'closed', callback)</code>.
 - <code>router</code>: رفتن به صفحه‌ای دیگر با Vue Router.
@@ -115,13 +115,13 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### مقدارهای فیلد در DocType مربوط به HD Form Script
 
-- **Enabled**: اسکریپت را فعال می‌کند. اگر گزینهٔ دیگری برای تیکت انتخاب نشده باشد، اسکریپت در نمای تیکت Agent اعمال می‌شود.
-- **Apply to customer portal**: اسکریپت را در نمای تیکت مشتری اعمال می‌کند.
-- **Apply on new page**: اسکریپت را هنگام ایجاد تیکت جدید اجرا می‌کند.
+- **فعال**: اسکریپت را فعال می‌کند. اگر گزینهٔ دیگری برای تیکت انتخاب نشده باشد، اسکریپت در نمای تیکت کارشناس پشتیبانی اعمال می‌شود.
+- **Apply to مشتری portal**: اسکریپت را در نمای تیکت مشتری اعمال می‌کند.
+- **Apply on جدید page**: اسکریپت را هنگام ایجاد تیکت جدید اجرا می‌کند.
 
 ![تنظیمات اسکریپت فرم](https://docs.frappe.io/files/Screenshot%202025-03-29%20at%209.02.54%20PM.png)
 
-- **Apply to knowledge base**: اسکریپت را برای همهٔ خوانندگان در صفحه‌های پایگاه دانش پرتال مشتری اجرا می‌کند. اسکریپت می‌تواند دکمه‌ها و پیوندهایی به سربرگ اضافه کند. به [تنظیمات پایگاه دانش](https://docs.frappe.io/helpdesk/knowledge-base-settings#add-custom-buttons-and-links-with-a-form-script) مراجعه کنید.
+- **Apply to knowledge base**: اسکریپت را برای همهٔ خوانندگان در صفحه‌های پایگاه دانش پرتال مشتری اجرا می‌کند. اسکریپت می‌تواند دکمه‌ها و پیوندهایی به سربرگ اضافه کند. به [تنظیمات پایگاه دانش](knowledge-base-settings.md#add-custom-buttons-and-links-with-a-form-script) مراجعه کنید.
 
 ### پشتیبانی توابع در صفحه‌های مختلف
 
@@ -137,7 +137,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## نمونه: کنش‌های سفارشی برای مدیریت تیکت
 
-این نمونه چند کنش سفارشی برای مدیریت Dealها را نشان می‌دهد:
+این نمونه چند کنش سفارشی برای مدیریت معاملهها را نشان می‌دهد:
 
 ![نمونهٔ پنجره‌های کنش](https://docs.frappe.io/files/Dialogs.gif)
 
@@ -159,14 +159,14 @@ license_status: "CC BY-SA (version unspecified by source policy)"
               onClick: () => {
                 // Call API to get custom information
                 call("show_custom_info", {
-                  ticket: doc.name,
+                  تیکت: doc.name,
                   // Include relevant fields for fetching data
                 }).then((data) => {
                   if (data.name) {
                     $dialog({
                       title: data?.title,
                       message: data?.message,
-                      html: data?.html, // this field can be in HTML format
+                      html: data?.html, // this فیلد can be in HTML format
                       actions: [
                         {
                           label: "Open in FC",
@@ -184,11 +184,11 @@ license_status: "CC BY-SA (version unspecified by source policy)"
               },
             },
             {
-              label: "Close this ticket",
+              label: "Close this تیکت",
               onClick: () => {
                 $dialog({
-                  title: "Close this ticket?",
-                  message: "Are you sure you want to mark this close this ticket?",
+                  title: "Close this تیکت?",
+                  message: "Are you sure you want to mark this close this تیکت?",
                   actions: [
                     {
                       label: "Close",
@@ -197,7 +197,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
                       onClick({ close }) {
                         updateField("status", "Closed", () => {
                           createToast({
-                            title: "Ticket has been closed",
+                            title: "تیکت has been closed",
                             icon: "alert-circle",
                           });
                           close();
@@ -220,11 +220,11 @@ license_status: "CC BY-SA (version unspecified by source policy)"
       ];
       if (doc.status !== "Closed") {
         actions.push({
-          label: "Close the ticket",
+          label: "Close the تیکت",
           onClick: () => {
             $dialog({
               title: `Close ticket: ${doc.name}`,
-              message: "Are you sure you want to close this ticket?",
+              message: "Are you sure you want to close this تیکت?",
               actions: [
                 {
                   label: "Close",

@@ -14,17 +14,17 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## مراحل
 
-1. یک Employee بسازید.
-2. یک Salary Component با نام **Overtime** و از نوع **Earning** بسازید.
+1. یک کارمند بسازید.
+2. یک مؤلفهٔ حقوق با نام **اضافه‌کاری** و از نوع **Earning** بسازید.
 
    ![ساخت مؤلفهٔ حقوق Overtime](https://docs.erpnext.com/files/IKY5KnC.png)
 
-3. یک Salary Structure بسازید و **Overtime** را با مبلغ 0 در آن بگنجانید.
-4. در خود Salary Structure، گزینهٔ **Salary Slip Based on Timesheet** را علامت بزنید، **Overtime** را به‌عنوان Salary Component انتخاب کنید و **Hour Rate** را وارد کنید.
+3. یک ساختار حقوق بسازید و **اضافه‌کاری** را با مبلغ 0 در آن بگنجانید.
+4. در خود ساختار حقوق، گزینهٔ **فیش حقوق Based on Timesheet** را علامت بزنید، **اضافه‌کاری** را به‌عنوان مؤلفهٔ حقوق انتخاب کنید و **Hour Rate** را وارد کنید.
 
    ![تنظیم Hour Rate برای Overtime](https://docs.erpnext.com/files/RSBGOUP.png)
 
-5. Salary Structure را ثبت نهایی کنید و از طریق Salary Structure Assignment آن را به Employee اختصاص دهید.
+5. ساختار حقوق را ثبت نهایی کنید و از طریق ساختار حقوق Assignment آن را به کارمند اختصاص دهید.
 
    ![تخصیص Salary Structure به Employee](https://docs.erpnext.com/files/qj9KVAu.png)
 
@@ -34,11 +34,11 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
    ![جزئیات Timesheet](https://docs.erpnext.com/files/W7vYYWt.png)
 
-   در نمونهٔ بالا، Employee در مجموع 8 ساعت طی ماه January اضافه‌کاری کرده است.
+   در نمونهٔ بالا، کارمند در مجموع 8 ساعت طی ماه January اضافه‌کاری کرده است.
 
-7. برای ماه January یک Payroll Entry جدید بسازید و گزینهٔ **Salary Slip Based on Timesheet** را علامت بزنید. ذخیره کنید، سپس **Get Employees** و بعد **Create Salary Slips** را بزنید.
+7. برای ماه January یک سند پردازش حقوق و دستمزد جدید بسازید و گزینهٔ **فیش حقوق Based on Timesheet** را علامت بزنید. ذخیره کنید، سپس **Get Employees** و بعد **Create Salary Slips** را بزنید.
 
-Salary Slip کارمند همهٔ Timesheetهایی را که او برای همان ماه ساخته است دریافت می‌کند و بر همان اساس مؤلفهٔ Overtime را در فیش حقوق محاسبه می‌کند.
+فیش حقوق کارمند همهٔ Timesheetهایی را که او برای همان ماه ساخته است دریافت می‌کند و بر همان اساس مؤلفهٔ اضافه‌کاری را در فیش حقوق محاسبه می‌کند.
 
 ![محاسبهٔ مؤلفهٔ Overtime در فیش حقوق](https://docs.erpnext.com/files/oZ1rr5x.png)
 

@@ -14,12 +14,12 @@ ERPNext می‌تواند پاداش تیم فروش داخلی را مستقی�
 
 موارد زیر را آماده کنید:
 
-- برای هر عضو واجد شرایط، یک [Sales Person](https://docs.frappe.io/erpnext/sales-person) فعال.
+- برای هر عضو واجد شرایط، یک [راهنمای «Sales Person | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/sales-person) فعال.
 - مقدار **Commission Rate** برای هر Sales Person.
 - سیاست مکتوب پاداش شامل تراکنش واجد شرایط، قواعد مشارکت، مرحلهٔ تأیید، برگشت‌ها، لغوها و زمان پرداخت.
 - مجوزهای کاربری لازم برای ویرایش جدول Sales Team در تراکنش‌های فروش.
 
-مشخص کنید پاداش بر اساس کدام رویداد تعلق می‌گیرد: [Quotation](https://docs.frappe.io/erpnext/quotation)، [Sales Order](https://docs.frappe.io/erpnext/sales-order)، [Delivery Note](https://docs.frappe.io/erpnext/delivery-note) یا [Sales Invoice](https://docs.frappe.io/erpnext/sales-invoice). همیشه از یک رویداد ثابت استفاده کنید تا برای یک فروش چند بار پاداش پرداخت نشود.
+مشخص کنید پاداش بر اساس کدام رویداد تعلق می‌گیرد: [راهنمای «Quotation | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/quotation)، [سفارش فروش](sales-order.md)، [Delivery Note (سند تحویل)](delivery-note.md) یا [راهنمای «Sales Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/sales-invoice). همیشه از یک رویداد ثابت استفاده کنید تا برای یک فروش چند بار پاداش پرداخت نشود.
 
 ## تنظیم نرخ کمیسیون Sales Person
 
@@ -87,15 +87,15 @@ ERPNext مبلغ مشارکت را از Net Total تراکنش محاسبه می
 
 پس از ثبت نهایی، تخصیص Sales Team را بخشی از مسیر حسابرسی تراکنش بدانید. اگر فروش لغو، اصلاح، برگشت یا برای آن Credit صادر شد، پیش از پرداخت یا برگشت پاداش، سیاست پاداش را اجرا کنید.
 
-پیش از تغییر سفارش ثبت‌نهایی‌شده، [اصلاح Sales Order پس از Submit](https://docs.frappe.io/erpnext/amending-sales-order-after-submit) را بخوانید.
+پیش از تغییر سفارش ثبت‌نهایی‌شده، [اصلاح سفارش فروش پس از ارسال](amending-sales-order-after-submit.md) را بخوانید.
 
 ## بررسی عملکرد و پاداش تیم
 
-برای تأیید انتساب تراکنش به فروشنده، از [Sales Persons in Sales Transactions](https://docs.frappe.io/erpnext/sales-persons-in-the-sales-transactions) و گزارش‌های فروش مربوط استفاده کنید. اگر سازمان هدف مقداری یا مبلغی را بر اساس Fiscal Year و Item Group نیز پیگیری می‌کند، [Sales Person Target Allocation](https://docs.frappe.io/erpnext/sales-person-target-allocation) را به‌کار ببرید.
+برای تأیید انتساب تراکنش به فروشنده، از [راهنمای «Add Sales Persons to Sales Transactions | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/sales-persons-in-the-sales-transactions) و گزارش‌های فروش مربوط استفاده کنید. اگر سازمان هدف مقداری یا مبلغی را بر اساس Fiscal Year و کالا Group نیز پیگیری می‌کند، [راهنمای «Sales Person Target Allocation | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/sales-person-target-allocation) را به‌کار ببرید.
 
-فیلد پاداش فقط مبلغی را در سطح تراکنش ثبت می‌کند. به‌طور خودکار مؤلفهٔ حقوق، Salary Slip، هزینه، بدهی پرداختنی یا پرداخت ایجاد نمی‌کند.
+فیلد پاداش فقط مبلغی را در سطح تراکنش ثبت می‌کند. به‌طور خودکار مؤلفهٔ حقوق، فیش حقوق، هزینه، بدهی پرداختنی یا پرداخت ایجاد نمی‌کند.
 
-برای تسویه از طریق حقوق و دستمزد، با تیم‌های منابع انسانی و مالی فرایندی کنترل‌شده تعریف کنید. یکی از روش‌های رایج این است که پاداش‌های تأییدشدهٔ دوره را بررسی کنید و سپس مبلغ تأییدشده را از طریق [Additional Salary](https://docs.frappe.io/hr/additional-salary) پیکربندی‌شده یا فرایند حقوق و دستمزد دیگری که سازمان در Frappe HR تأیید کرده است، وارد کنید.
+برای تسویه از طریق حقوق و دستمزد، با تیم‌های منابع انسانی و مالی فرایندی کنترل‌شده تعریف کنید. یکی از روش‌های رایج این است که پاداش‌های تأییدشدهٔ دوره را بررسی کنید و سپس مبلغ تأییدشده را از طریق [حقوق اضافی](../hr/additional-salary.md) پیکربندی‌شده یا فرایند حقوق و دستمزد دیگری که سازمان در Frappe HR تأیید کرده است، وارد کنید.
 
 ## چه زمانی منطق سفارشی لازم است؟
 
@@ -103,14 +103,14 @@ ERPNext مبلغ مشارکت را از Net Total تراکنش محاسبه می
 
 - نرخ‌های پلکانی پس از عبور درآمد از آستانه‌ها.
 - نرخ مبتنی بر سود ناخالص یا وجه وصول‌شده.
-- نرخ‌های متفاوت بر اساس Item Group، قلمرو فروش یا بخش مشتری.
+- نرخ‌های متفاوت بر اساس کالا Group، قلمرو فروش یا بخش مشتری.
 - پرداخت پاداش فقط پس از پایان دورهٔ برگشت.
 - پاداش تیمی که با هدف مشترک فعال می‌شود.
 - سقف، کف، بازپس‌گیری پاداش (clawback) یا تأیید مدیر.
 
 پیش از پیاده‌سازی، سیاست را مستند کنید. به‌جای Client Script بدون نسخه‌بندی، سفارشی‌سازی سمت سرور یا Custom App نگه‌داری‌شده و آزموده‌شده را ترجیح دهید. محاسبهٔ صرفاً سمت کاربر ممکن است با واردسازی، یکپارچه‌سازی، کار پس‌زمینه یا تراکنش ساخته‌شده از API دور زده شود.
 
-اگر سفارشی‌سازی فنی لازم است، [Server Script](https://docs.frappe.io/framework/user/en/desk/scripting/server-script) و [Custom App Development](https://docs.frappe.io/framework/user/en/tutorial/create-an-app) را ببینید.
+اگر سفارشی‌سازی فنی لازم است، [راهنمای «Server Script» در Frappe Framework](https://docs.frappe.io/framework/user/en/desk/scripting/server-script) و [راهنمای «Create an App» در Frappe Framework](https://docs.frappe.io/framework/user/en/tutorial/create-an-app) را ببینید.
 
 ## اثر حسابداری و حقوق و دستمزد
 
@@ -145,13 +145,13 @@ Net Total تراکنش و Contribution (%) را بررسی کنید. تخفیف�
 
 ### پاداش پیش از برگشت فروش پرداخت شده است
 
-سیاست بازپس‌گیری یا تعدیل سازمان را دنبال کنید. بازبینی را به [Sales Return](https://docs.frappe.io/erpnext/sales-return) و تراکنش اصلی پیوند دهید.
+سیاست بازپس‌گیری یا تعدیل سازمان را دنبال کنید. بازبینی را به [راهنمای «Sales Return | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/sales-return) و تراکنش اصلی پیوند دهید.
 
 ## پرسش‌های رایج
 
 ### آیا این همان کمیسیون Sales Partner است؟
 
-خیر. پاداش Sales Team برای Sales Personها است. [Sales Commission](https://docs.frappe.io/erpnext/how-to-give-commission-to-sales-partner) مربوط به Sales Partnerهای بیرونی است.
+خیر. پاداش Sales Team برای Sales Personها است. [Setting شرکت Sales Goal | ERPNext Documentation](https://docs.frappe.io/erpnext/how-to-give-commission-to-sales-partner) مربوط به Sales Partnerهای بیرونی است.
 
 ### آیا چند نفر می‌توانند در یک فروش سهم داشته باشند؟
 
@@ -165,14 +165,14 @@ Net Total تراکنش و Contribution (%) را بررسی کنید. تخفیف�
 
 با محاسبهٔ استاندارد مبتنی بر Net Total خیر. از سفارشی‌سازی تأییدشده و سیاست موردتأیید مالی استفاده کنید.
 
-### پاداش بر اساس Sales Order محاسبه شود یا Sales Invoice؟
+### پاداش بر اساس سفارش فروش محاسبه شود یا Sales Invoice؟
 
-یک رویداد واجد شرایط انتخاب و آن را به‌طور یکسان اجرا کنید. Sales Invoice معمولاً به صورتحساب شناسایی‌شده نزدیک‌تر است؛ Sales Order رزرو فروش تأییدشده را نشان می‌دهد.
+یک رویداد واجد شرایط انتخاب و آن را به‌طور یکسان اجرا کنید. Sales Invoice معمولاً به صورتحساب شناسایی‌شده نزدیک‌تر است؛ سفارش فروش رزرو فروش تأییدشده را نشان می‌دهد.
 
 ## موضوعات مرتبط
 
-- [Sales Person](https://docs.frappe.io/erpnext/sales-person)
-- [Sales Persons in Sales Transactions](https://docs.frappe.io/erpnext/sales-persons-in-the-sales-transactions)
-- [Sales Person Target Allocation](https://docs.frappe.io/erpnext/sales-person-target-allocation)
+- [راهنمای «Sales Person | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/sales-person)
+- [راهنمای «Add Sales Persons to Sales Transactions | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/sales-persons-in-the-sales-transactions)
+- [راهنمای «Sales Person Target Allocation | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/sales-person-target-allocation)
 
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/calculate-incentive-for-sales-team). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویر به فایل مستندات پیوند داده شده و در این مخزن بازنشر نشده است.
