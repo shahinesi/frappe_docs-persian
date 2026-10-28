@@ -18,7 +18,7 @@ source_version: "ba6e367fcfc5d1c1af0c03ca8e8a3b2cbc5c4bba19b6462fac37bd7f68d6cdb
 
 وقتی موجودی کالا به سطح سفارش مجدد برسد، «درخواست مواد» به‌طور خودکار ایجاد می‌شود. این قابلیت را از مسیر زیر فعال کنید:
 
-`Stock > Setup > Stock Settings`
+**موجودی > تنظیمات > تنظیمات موجودی**
 
 ![فعال‌سازی ایجاد خودکار درخواست مواد](https://docs.frappe.io/files/reorder-request-3.png)
 

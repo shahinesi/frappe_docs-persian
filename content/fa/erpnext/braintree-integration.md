@@ -6,7 +6,7 @@ source_id: "erpnext/braintree-integration"
 source_version: "f236909f52573872f0470b583552e812430ac3bd8deac74d2d7befac441abbeb"
 ---
 
-برای راه‌اندازی Braintree به مسیر `Explore > Integrations > Braintree Settings` بروید.
+برای راه‌اندازی Braintree به مسیر **کاوش > یکپارچه‌سازی‌ها > تنظیمات Braintree** بروید.
 
 ## راه‌اندازی Braintree
 

@@ -29,6 +29,27 @@
     {
       "product": "erpnext",
       "source_labels": {
+        "Next Contact Date": "تاریخ پیگیری بعدی",
+        "Module Settings": "تنظیمات ماژول",
+        "Page or Workspace": "صفحه یا محیط کار",
+        "Search for": "جست‌وجو برای",
+        "Balance in Base Currency": "مانده به ارز پایه",
+        "New Balance in Base Currency": "ماندهٔ جدید به ارز پایه",
+        "Balance in Account Currency": "مانده به ارز حساب",
+        "New Balance in Account Currency": "ماندهٔ جدید به ارز حساب",
+        "Account Currency": "ارز حساب",
+        "New Exchange Rate": "نرخ ارز جدید",
+        "Superseded": "جایگزین‌شده",
+        "Limit Percentage": "درصد محدودیت",
+        "New Page": "صفحهٔ جدید",
+        "Explore": "کاوش",
+        "Braintree Settings": "تنظیمات Braintree"
+      },
+      "basis": "بازبینی برچسب‌های قابل‌نمایش در راهنماهای ERPNext؛ موارد فاقد ترجمهٔ locale با واژه‌نامهٔ فارسی بافت‌محور تکمیل شدند."
+    },
+    {
+      "product": "erpnext",
+      "source_labels": {
         "Search bar": "نوار جست‌وجو",
         "E Commerce Settings": "تنظیمات فروشگاه اینترنتی",
         "Item Search Settings": "تنظیمات جست‌وجوی کالا",
