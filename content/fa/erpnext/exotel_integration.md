@@ -29,15 +29,15 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - وارد حساب Exotel شوید و به App Bazar بروید.
 - برای یک جریان کاری تازه، App جدیدی بسازید.
 - جریان را مطابق نیاز خود تنظیم کنید.
-- در Connect API، زیر بخش **Create popup...** نشانی زیر را وارد کنید:
+- در رابط Connect API، زیر بخش **ایجاد پنجرهٔ بازشو...** (`Create popup...`) نشانی زیر را وارد کنید:
 
 ```text
 https://<your-site>/api/method/erpnext.erpnext_integrations.exotel_integration.handle_incoming_call
 ```
 
-![تنظیم Connect Applet](https://docs.frappe.io/files/connect_applet.png)
+![تنظیم اپلت اتصال](https://docs.frappe.io/files/connect_applet.png)
 
-![بخش Call Popup](https://docs.frappe.io/files/create_popup_section.png)
+![بخش پنجرهٔ بازشو برای تماس](https://docs.frappe.io/files/create_popup_section.png)
 
 > **یادداشت:** `<your-site>` را در نشانی با نام سایت خود جایگزین کنید. برای نمونه، اگر نام سایت **frappe.erpnext.com** است، نشانی چنین خواهد بود:
 
@@ -45,36 +45,36 @@ https://<your-site>/api/method/erpnext.erpnext_integrations.exotel_integration.h
 https://frappe.erpnext.com/api/method/erpnext.erpnext_integrations.exotel_integration.handle_incoming_call
 ```
 
-- سپس در بخش **After Call Conversation ends** یک Passthru applet اضافه و نشانی زیر را وارد کنید:
+- سپس در بخش **پس از پایان مکالمهٔ تماس** یک اپلت Passthru اضافه و نشانی زیر را وارد کنید:
 
 ```text
 https://<your-site>/api/method/erpnext.erpnext_integrations.exotel_integration.handle_end_call
 ```
 
-![بخش After Conversation Ends](https://docs.frappe.io/files/after_conversation_ends_section.png)
+![بخش پس از پایان مکالمه](https://docs.frappe.io/files/after_conversation_ends_section.png)
 
 ![بخش Passthru پس از پایان تماس](https://docs.frappe.io/files/passthru_end_call.png)
 
-> **یادداشت:** گزینهٔ **Make Passthru Async** را حتماً فعال کنید.
+> **یادداشت:** گزینهٔ **اجرای ناهمگام Passthru** را حتماً فعال کنید.
 
-- به همین ترتیب، در بخش **If nobody answers...** یک Passthru applet اضافه و نشانی زیر را وارد کنید:
+- به همین ترتیب، در بخش **اگر کسی پاسخ نداد...** یک اپلت Passthru اضافه و نشانی زیر را وارد کنید:
 
 ```text
 https://<your-site>/api/method/erpnext.erpnext_integrations.exotel_integration.handle_missed_call
 ```
 
-![بخش No Response](https://docs.frappe.io/files/no_response.png)
+![بخش بی‌پاسخ](https://docs.frappe.io/files/no_response.png)
 
 ![بخش Passthru برای تماس بی‌پاسخ](https://docs.frappe.io/files/passthru_missed_call.png)
 
-> **یادداشت:** گزینهٔ **Make Passthru Async** را حتماً فعال کنید.
+> **یادداشت:** گزینهٔ **اجرای ناهمگام Passthru** را حتماً فعال کنید.
 
 - جریان را ذخیره کنید.
-- اکنون App تازه‌ساخته‌شده را به ExoPhoneای اختصاص دهید که تماس‌های کاری را از آن دریافت می‌کنید.
+- اکنون برنامهٔ تازه‌ساخته‌شده را به ExoPhoneای اختصاص دهید که تماس‌های کاری را از آن دریافت می‌کنید.
 
 ### 2.2 تنظیم در ERPNext
 
-- از Awesome Bar به **Exotel Settings** بروید.
+- از نوار جست‌وجوی سراسری (`Awesome Bar`) به **تنظیمات Exotel** (`Exotel Settings`) بروید.
 - **Exotel SID** و **Exotel Token** را وارد کنید. کلید API و Token مربوط به Exotel را در [داشبورد Exotel](https://my.exotel.com/apisettings/site#api-credentials) می‌یابید.
 - به **رسانه ارتباطی** بروید.
 - ExoPhone خود را اضافه و برای آن برنامهٔ زمان‌بندی تعیین کنید. کارکنان بر اساس این برنامه پنجرهٔ بازشو را دریافت می‌کنند.

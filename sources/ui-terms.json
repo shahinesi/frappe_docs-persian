@@ -395,6 +395,372 @@
     },
     {
       "product": "erpnext",
+      "source_label": "Row ID",
+      "translation": "شناسهٔ ردیف",
+      "basis": "Localized the visible tax-row reference field in ERPNext buying forms."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "No of Rows",
+      "translation": "تعداد ردیف‌ها",
+      "basis": "Localized the visible row-count setting for emailed reports."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Remarks Column Length",
+      "translation": "طول ستون توضیحات",
+      "basis": "Localized the visible Accounts Settings report option."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Do not migrate",
+      "translation": "مهاجرت ندهید",
+      "basis": "Localized a visible migration-planning action value."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "References",
+      "translation": "ارجاعات",
+      "basis": "Localized the References table shown on payment records."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Disable",
+      "translation": "غیرفعال‌کردن",
+      "basis": "Localized the visible accounting-dimension action."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Unsigned",
+      "translation": "امضانشده",
+      "basis": "Localized a visible Contract status."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Active",
+      "translation": "فعال",
+      "basis": "Localized a visible Contract status."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Inactive",
+      "translation": "غیرفعال",
+      "basis": "Localized a visible Contract status."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Signee",
+      "translation": "امضاکننده",
+      "basis": "Localized the visible Contract signatory field."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Requirement",
+      "translation": "تعهد",
+      "basis": "Localized the visible Contract fulfillment requirement field."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Promotional",
+      "translation": "تبلیغاتی",
+      "basis": "Localized the visible Coupon Code type option."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Valid Upto",
+      "translation": "معتبر تا",
+      "basis": "Localized the visible Coupon Code expiry field."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Insert Above",
+      "translation": "درج در بالا",
+      "basis": "Localized the visible Customization Form action."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Design",
+      "translation": "طراحی",
+      "basis": "Localized the visible BOM Creator tab."
+    },
+    {
+      "product": "insights",
+      "source_label": "City",
+      "translation": "شهر",
+      "basis": "Localized the visible City filter field in Insights dashboard examples."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Add to Total",
+      "translation": "افزودن به جمع کل",
+      "basis": "Localized the visible buying taxes and charges calculation option."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Add to valuation",
+      "translation": "افزودن به ارزش‌گذاری",
+      "basis": "Localized the visible buying taxes and charges calculation option."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Add to Total and valuation",
+      "translation": "افزودن به جمع کل و ارزش‌گذاری",
+      "basis": "Localized the visible buying taxes and charges calculation option."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Disable برنامه‌ریزی ظرفیت and ردیابی زمان",
+      "translation": "غیرفعال‌کردن برنامه‌ریزی ظرفیت و ردیابی زمان",
+      "basis": "Localized the combined Capacity Planning and Time Tracking setting label in a legacy guide."
+    },
+    {
+      "product": "helpdesk",
+      "source_label": "After Call Conversation ends",
+      "translation": "پس از پایان مکالمهٔ تماس",
+      "basis": "Localized an Exotel call-flow node label shown in the Helpdesk guide."
+    },
+    {
+      "product": "helpdesk",
+      "source_label": "If nobody answers...",
+      "translation": "اگر کسی پاسخ نداد...",
+      "basis": "Localized an Exotel call-flow node label shown in the Helpdesk guide."
+    },
+    {
+      "product": "helpdesk",
+      "source_label": "Passthru applet",
+      "translation": "اپلت Passthru",
+      "basis": "Localized the Exotel UI component name while retaining the provider's technical term."
+    },
+    {
+      "product": "helpdesk",
+      "source_label": "Make Passthru Async",
+      "translation": "اجرای ناهمگام Passthru",
+      "basis": "Localized the Exotel Passthru option while retaining the provider's technical term."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Unsigned:",
+      "translation": "امضانشده:",
+      "basis": "Localized the visible Contract status label including its punctuation."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Active:",
+      "translation": "فعال:",
+      "basis": "Localized the visible Contract status label including its punctuation."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Inactive:",
+      "translation": "غیرفعال:",
+      "basis": "Localized the visible Contract status label including its punctuation."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Signee:",
+      "translation": "امضاکننده:",
+      "basis": "Localized the visible Contract signatory field including its punctuation."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Requirement:",
+      "translation": "تعهد:",
+      "basis": "Localized the visible Contract fulfillment requirement field including its punctuation."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Promotional:",
+      "translation": "تبلیغاتی:",
+      "basis": "Localized the visible Coupon Code type option including its punctuation."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Label:",
+      "translation": "برچسب:",
+      "basis": "Localized the visible custom-field label including its punctuation."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Type:",
+      "translation": "نوع:",
+      "basis": "Localized the visible custom-field type label including its punctuation."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Name:",
+      "translation": "نام:",
+      "basis": "Localized the visible custom-field name label including its punctuation."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Options:",
+      "translation": "گزینه‌ها:",
+      "basis": "Localized the visible custom-field options label including its punctuation."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Apply",
+      "translation": "اعمال",
+      "basis": "Localized the visible custom-link filter action."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Type = expense",
+      "translation": "نوع = هزینه",
+      "basis": "Localized the visible deferred-expense document type instruction."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Type = income",
+      "translation": "نوع = درآمد",
+      "basis": "Localized the visible deferred-revenue document type instruction."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Amended Documents",
+      "translation": "سندهای اصلاح‌شده",
+      "basis": "Localized the visible amended-document naming section."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Apply the Default Amend Counter",
+      "translation": "اعمال شمارندهٔ پیش‌فرض اصلاح سند",
+      "basis": "Localized the visible amended-document naming action."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Update Amendment Counter",
+      "translation": "به‌روزرسانی شمارندهٔ اصلاح سند",
+      "basis": "Localized the visible amended-document naming action."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Add کد تخفیف",
+      "translation": "افزودن کد تخفیف",
+      "basis": "Localized the mixed-language Coupon Code list action."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Add قانون قیمت گذاری",
+      "translation": "افزودن قانون قیمت‌گذاری",
+      "basis": "Localized the mixed-language Pricing Rule list action."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Used",
+      "translation": "تعداد استفاده",
+      "basis": "Localized the visible Coupon Code usage-count field."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "کد تخفیف Description",
+      "translation": "توضیحات کد تخفیف",
+      "basis": "Localized the mixed-language Coupon Code description field."
+    },
+    {
+      "product": "learning",
+      "source_label": "Course Image",
+      "translation": "تصویر دوره",
+      "basis": "Localized the visible Learning course image field."
+    },
+    {
+      "product": "learning",
+      "source_label": "Disable Self Enrollment",
+      "translation": "غیرفعال‌کردن ثبت‌نام مستقیم",
+      "basis": "Localized the visible Learning course enrollment option."
+    },
+    {
+      "product": "learning",
+      "source_label": "Preview Video",
+      "translation": "ویدئوی پیش‌نمایش",
+      "basis": "Localized the visible Learning course preview field."
+    },
+    {
+      "product": "learning",
+      "source_label": "Related دوره ها",
+      "translation": "دوره‌های مرتبط",
+      "basis": "Localized the mixed-language Learning related-courses field."
+    },
+    {
+      "product": "learning",
+      "source_label": "Paid Course",
+      "translation": "دورهٔ پولی",
+      "basis": "Localized the visible Learning course payment option."
+    },
+    {
+      "product": "learning",
+      "source_label": "Paid Certification",
+      "translation": "گواهی پولی",
+      "basis": "Localized the visible Learning certification payment option."
+    },
+    {
+      "product": "learning",
+      "source_label": "Course Description",
+      "translation": "توضیحات دوره",
+      "basis": "Localized the visible Learning course description field."
+    },
+    {
+      "product": "learning",
+      "source_label": "Completion Certification",
+      "translation": "گواهی پایان دوره",
+      "basis": "Localized the visible Learning completion certificate option."
+    },
+    {
+      "product": "learning",
+      "source_label": "Meta Keywords",
+      "translation": "کلیدواژه‌های متا",
+      "basis": "Localized the visible Learning SEO keywords field."
+    },
+    {
+      "product": "learning",
+      "source_label": "Moderator",
+      "translation": "ناظر",
+      "basis": "Localized the Learning role name in course creation guidance."
+    },
+    {
+      "product": "learning",
+      "source_label": "Administrator",
+      "translation": "مدیر سیستم",
+      "basis": "Localized the Learning role name in course creation guidance."
+    },
+    {
+      "product": "insights",
+      "source_label": "Country",
+      "translation": "کشور",
+      "basis": "Localized the visible Country filter field in Insights dashboard examples."
+    },
+    {
+      "product": "insights",
+      "source_label": "Label Position:",
+      "translation": "جایگاه برچسب:",
+      "basis": "Localized the visible chart label-position setting including its punctuation."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "After Call Conversation ends",
+      "translation": "پس از پایان مکالمهٔ تماس",
+      "basis": "Localized an Exotel call-flow node label in the ERPNext integration guide."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "If nobody answers...",
+      "translation": "اگر کسی پاسخ نداد...",
+      "basis": "Localized an Exotel call-flow node label in the ERPNext integration guide."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Passthru applet",
+      "translation": "اپلت Passthru",
+      "basis": "Localized the Exotel UI component name while retaining the provider's technical term."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Make Passthru Async",
+      "translation": "اجرای ناهمگام Passthru",
+      "basis": "Localized the Exotel Passthru option while retaining the provider's technical term."
+    },
+    {
+      "product": "erpnext",
       "source_label": "Price Lists",
       "translation": "لیست‌های قیمت",
       "basis": "The current ERPNext locale translates the singular label Price List as لیست قیمت; this plural page title is curated for natural Persian wording."

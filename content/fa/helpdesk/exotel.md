@@ -43,13 +43,13 @@ Exotel یک پلتفرم تلفن ابری است که به کسب‌وکاره�
    https://<yoursitename>/api/method/telephony.exotel.handler.handle_request?key=<webhook-verify-token>
    ```
 
-7. پس از آن، زیر **After Call Conversation ends** یک **Passthru applet** اضافه و همان URL را وارد کنید.
+7. پس از آن، زیر **پس از پایان مکالمهٔ تماس** یک **اپلت Passthru** اضافه و همان URL را وارد کنید.
 
-   > گزینهٔ **Make Passthru Async** را علامت بزنید.
+   > گزینهٔ **اجرای ناهمگام Passthru** را علامت بزنید.
 
-8. به همین ترتیب، زیر بخش **If nobody answers...** یک **Passthru applet** دیگر اضافه و همان URL را وارد کنید.
+8. به همین ترتیب، زیر بخش **اگر کسی پاسخ نداد...** یک **اپلت Passthru** دیگر اضافه و همان URL را وارد کنید.
 
-   > گزینهٔ **Make Passthru Async** را علامت بزنید.
+   > گزینهٔ **اجرای ناهمگام Passthru** را علامت بزنید.
 
 9. گردش تماس را ذخیره کنید.
 10. این **برنامه** تازه را به **ExoPhone**ای اختصاص دهید که تماس‌های کاری شما را دریافت می‌کند.
