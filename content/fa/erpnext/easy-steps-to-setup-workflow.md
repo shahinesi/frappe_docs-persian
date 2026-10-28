@@ -1,5 +1,5 @@
 ---
-title: "مراحل سادهٔ راه‌اندازی Workflow"
+title: "مراحل سادهٔ راه‌اندازی گردش‌کار (Workflow)"
 slug: "easy-steps-to-setup-workflow"
 source_url: "https://docs.frappe.io/erpnext/easy-steps-to-setup-workflow"
 source_id: "erpnext/easy-steps-to-setup-workflow"

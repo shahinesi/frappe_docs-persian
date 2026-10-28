@@ -1,5 +1,5 @@
 ---
-title: "چرا Budget تراکنش را متوقف نمی‌کند؟"
+title: "چرا بودجه (Budget) تراکنش را متوقف نمی‌کند؟"
 slug: "budget-not-blocking-and-budget-questions"
 source_url: "https://docs.frappe.io/erpnext/budget-not-blocking-and-budget-questions"
 source_id: "erpnext/budget-not-blocking-and-budget-questions"

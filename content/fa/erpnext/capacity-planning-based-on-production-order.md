@@ -1,5 +1,5 @@
 ---
-title: "برنامه‌ریزی ظرفیت بر اساس Production Order"
+title: "برنامه‌ریزی ظرفیت بر اساس سفارش تولید (Production Order)"
 slug: "capacity-planning-based-on-production-order"
 source_url: "https://docs.frappe.io/erpnext/capacity-planning-based-on-production-order"
 source_id: "erpnext/capacity-planning-based-on-production-order"

@@ -1,5 +1,5 @@
 ---
-title: "رابطهٔ Customer، Contact و Address"
+title: "رابطهٔ مشتری (Customer)، مخاطب (Contact) و نشانی (Address)"
 slug: "customer-contact-and-address-relationship"
 source_url: "https://docs.frappe.io/erpnext/customer-contact-and-address-relationship"
 source_id: "erpnext/customer-contact-and-address-relationship"

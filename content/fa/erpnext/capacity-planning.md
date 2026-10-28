@@ -1,5 +1,5 @@
 ---
-title: "برنامه‌ریزی ظرفیت بر اساس Work Order"
+title: "برنامه‌ریزی ظرفیت بر اساس دستور کار (Work Order)"
 slug: "capacity-planning"
 source_url: "https://docs.frappe.io/erpnext/capacity-planning"
 source_id: "erpnext/capacity-planning"

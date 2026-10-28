@@ -1,5 +1,5 @@
 ---
-title: "چرا نمی‌توانم Sales Order یا Sales Invoice را لغو، حذف یا تغییر دهم؟"
+title: "چرا نمی‌توانم سفارش فروش (Sales Order) یا فاکتور فروش (Sales Invoice) را لغو، حذف یا تغییر دهم؟"
 slug: "cancel-delete-or-change-sales-documents"
 source_url: "https://docs.frappe.io/erpnext/cancel-delete-or-change-sales-documents"
 source_id: "erpnext/cancel-delete-or-change-sales-documents"

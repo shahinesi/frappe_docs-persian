@@ -1,5 +1,5 @@
 ---
-title: "تغییر ایمیل کاربر یا تغییر نام User"
+title: "تغییر ایمیل یا نام کاربر (User)"
 slug: "change-existing-users-email-id"
 source_url: "https://docs.frappe.io/erpnext/change-existing-users-email-id"
 source_id: "erpnext/change-existing-users-email-id"

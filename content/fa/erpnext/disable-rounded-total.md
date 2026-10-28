@@ -1,5 +1,5 @@
 ---
-title: "غیرفعال‌کردن Rounded Total"
+title: "غیرفعال‌کردن مجموع گرد شده"
 slug: "disable-rounded-total"
 source_url: "https://docs.frappe.io/erpnext/disable-rounded-total"
 source_id: "erpnext/disable-rounded-total"

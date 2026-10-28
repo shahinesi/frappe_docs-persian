@@ -1,5 +1,5 @@
 ---
-title: "تخصیص خودکار Issueها در ERPNext"
+title: "تخصیص خودکار مشکلات (Issue) به تیم پشتیبانی در ERPNext"
 slug: "automating-issue-assignments-to-support-team-in-erpnext"
 source_url: "https://docs.frappe.io/erpnext/automating-issue-assignments-to-support-team-in-erpnext"
 source_id: "erpnext/automating-issue-assignments-to-support-team-in-erpnext"

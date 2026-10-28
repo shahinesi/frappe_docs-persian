@@ -1,5 +1,5 @@
 ---
-title: "خطای موجودی منفی در Delivery Note"
+title: "خطای موجودی منفی در یادداشت تحویل (Delivery Note)"
 slug: "delivery-note-stock-error"
 source_url: "https://docs.frappe.io/erpnext/delivery-note-stock-error"
 source_id: "erpnext/delivery-note-stock-error"
