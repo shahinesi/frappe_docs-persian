@@ -60,7 +60,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 > اگر Email حساب را برای صندوق ورودی ایمیل یک کاربر می‌سازید، فیلد **Append To** را خالی بگذارید.
 
-برای جزئیات بیشتر، [مستندات Email حساب](email-account.md) را بخوانید.
+برای جزئیات بیشتر، [حساب ایمیل](email-account.md) را بخوانید.
 
 ## 4. پیوند دادن Email حساب به رکورد User
 

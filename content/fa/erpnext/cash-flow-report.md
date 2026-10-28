@@ -47,7 +47,7 @@ source_version: "39c05ee491be9c8c5166f2f8cf6f624bb09f516ad4b69113999179fc3aac2c7
 
 ## قالب‌های پیش‌فرض و سفارشی
 
-گزارش استاندارد حساب‌ها را با منطق صورت‌های مالی ERPNext دسته‌بندی می‌کند. اگر سازمان به برچسب‌های تأییدشده یا دسته‌بندی دقیق‌تری نیاز دارد، [Customise جریان نقدی گزارش](customise-cash-flow-report.md) را پیکربندی کنید. در موارد پشتیبانی‌شده، [الگوی گزارش مالی](https://docs.frappe.io/erpnext/financial-report-template) می‌تواند نحوهٔ ارائه را کنترل کند. سفارشی‌سازی، دسته‌بندی و چیدمان را تغییر می‌دهد، نه اسناد دفتر کل را.
+گزارش استاندارد حساب‌ها را با منطق صورت‌های مالی ERPNext دسته‌بندی می‌کند. اگر سازمان به برچسب‌های تأییدشده یا دسته‌بندی دقیق‌تری نیاز دارد، [سفارشی‌سازی گزارش جریان وجوه نقد](customise-cash-flow-report.md) را پیکربندی کنید. در موارد پشتیبانی‌شده، [الگوی گزارش مالی](https://docs.frappe.io/erpnext/financial-report-template) می‌تواند نحوهٔ ارائه را کنترل کند. سفارشی‌سازی، دسته‌بندی و چیدمان را تغییر می‌دهد، نه اسناد دفتر کل را.
 
 ## عیب‌یابی
 
@@ -84,7 +84,7 @@ source_version: "39c05ee491be9c8c5166f2f8cf6f624bb09f516ad4b69113999179fc3aac2c7
 - [ترازنامه](balance-sheet.md)
 - [حساب‌های دریافتنی](accounts-receivable-and-payable.md)
 - [حساب‌های پرداختنی](accounts-receivable-and-payable.md)
-- [Customise جریان نقدی گزارش](customise-cash-flow-report.md)
+- [سفارشی‌سازی گزارش جریان وجوه نقد](customise-cash-flow-report.md)
 
 ---
 

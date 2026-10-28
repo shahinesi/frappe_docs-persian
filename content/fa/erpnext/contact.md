@@ -91,7 +91,7 @@ ERPNext به‌طور خودکار لینک پویا را به طرف تجاری
 
 ## دعوت Contact به‌عنوان User
 
-فقط زمانی از **دعوت به عنوان کاربر** استفاده کنید که Contact باید به [مشتری Portal](customer-portal.md) یا تجربهٔ پورتال مجاز دیگری دسترسی داشته باشد.
+فقط زمانی از **دعوت به عنوان کاربر** استفاده کنید که Contact باید به [پرتال مشتری (Customer Portal)](customer-portal.md) یا تجربهٔ پورتال مجاز دیگری دسترسی داشته باشد.
 
 پیش از دعوت:
 
@@ -159,4 +159,4 @@ Contact ذخیره می‌شود و ثبت نهایی ندارد. پس از ذخ
 - [مشتری](customer.md)
 - [تأمین‌کننده](https://docs.frappe.io/erpnext/supplier)
 - [نشانی](address.md)
-- [مشتری Portal](customer-portal.md)
+- [پرتال مشتری (Customer Portal)](customer-portal.md)

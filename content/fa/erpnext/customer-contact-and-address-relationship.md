@@ -122,4 +122,4 @@ Nova Electronics Trading به **Summit Digital Stores** می‌فروشد. ERPNe
 - [مخاطب (Contact)](contact.md)
 - [نشانی](address.md)
 - [الگوی نشانی](address-template.md)
-- [تفاوت سرنخ، Contact و مشتری](difference_between_lead_contact_and_customer.md)
+- [تفاوت Lead، Contact و Customer](difference_between_lead_contact_and_customer.md)

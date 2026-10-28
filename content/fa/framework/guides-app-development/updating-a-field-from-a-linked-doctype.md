@@ -104,7 +104,7 @@ supplier.supplier_group
 ## موضوعات مرتبط
 
 - [سفارشی‌سازی فرم (سفارشی‌سازی فرم)](../../erpnext/customize-form.md)
-- [Custom فیلد](../../erpnext/custom-field.md)
+- [فیلد سفارشی (فیلد سفارشی)](../../erpnext/custom-field.md)
 - [اسکریپت‌های سمت کاربر](../../erpnext/client-scripts.md)
 - [راهنمای «Understanding DocTypes» در Frappe Framework](https://docs.frappe.io/framework/user/en/basics/doctypes)
 - [پیوند فیلد](https://docs.frappe.io/framework/user/en/basics/doctypes/fieldtypes)

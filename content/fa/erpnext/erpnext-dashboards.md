@@ -130,8 +130,8 @@ ERPNext داشبوردها، صفحه‌های تحلیل، گزارش‌ها و
 ERPNext با ابزارهای گزارش‌گیری و داشبورد در اکوسیستم Frappe نیز کار می‌کند. این ابزارها زمانی مفیدند که گزارش استاندارد کافی نیست و تیم به نمودارهای سفارشی، شاخص‌های گروه‌بندی‌شده یا تحلیل میان‌ماژولی نیاز دارد.
 
 - [تحلیل فروش](https://docs.frappe.io/erpnext/sales-analytics): بررسی قابلیت‌های تحلیلی ERPNext.
-- [داشبوردهای Insights](../insights/dashboards/overview.md): ساخت داشبورد با Frappe Insights.
-- [نمای کلی داشبوردهای Insights](../insights/dashboards/overview.md): آشنایی با مفاهیم داشبورد در Insights.
+- [نمای کلی داشبوردها](../insights/dashboards/overview.md): ساخت داشبورد با Frappe Insights.
+- [نمای کلی داشبوردها](../insights/dashboards/overview.md): آشنایی با مفاهیم داشبورد در Insights.
 - [ساخت نخستین داشبورد](../insights/dashboards/creating-your-first-dashboard.md): ایجاد داشبورد سفارشی در Insights.
 - [اشتراک‌گذاری و کنترل دسترسی](../insights/dashboards/sharing-and-access-control.md): تعیین افرادی که می‌توانند داشبوردها را ببینند.
 - [گزارش‌های میزکار](https://docs.frappe.io/framework/user/en/desk/reports/script-report): آشنایی با انواع گزارش در Frappe میزکار.
@@ -151,7 +151,7 @@ ERPNext با ابزارهای گزارش‌گیری و داشبورد در اک�
 5. برای بررسی تولید از [داشبورد تولید](https://docs.frappe.io/erpnext/manufacturing-dashboard) و [تحلیل تولید](https://docs.frappe.io/erpnext/production-analytics) استفاده کنید.
 6. برای پیگیری پروژه از [گزارش‌های پروژه](https://docs.frappe.io/erpnext/project-reports) استفاده کنید.
 7. برای بررسی پشتیبانی مشتری از [گزارش‌های پشتیبانی](https://docs.frappe.io/erpnext/support_reports) استفاده کنید.
-8. وقتی به داشبورد سفارشی در چند ماژول نیاز دارید، از [داشبوردهای Insights](../insights/dashboards/overview.md) بهره ببرید.
+8. وقتی به داشبورد سفارشی در چند ماژول نیاز دارید، از [نمای کلی داشبوردها](../insights/dashboards/overview.md) بهره ببرید.
 
 ## موضوعات مرتبط
 
@@ -164,4 +164,4 @@ ERPNext با ابزارهای گزارش‌گیری و داشبورد در اک�
 - [گزارش‌های پشتیبانی](https://docs.frappe.io/erpnext/support_reports)
 - [گزارش‌های میزکار](https://docs.frappe.io/framework/user/en/desk/reports/script-report)
 - [فضای کاری](https://docs.frappe.io/framework/user/en/desk/workspace)
-- [داشبوردهای Insights](../insights/dashboards/overview.md)
+- [نمای کلی داشبوردها](../insights/dashboards/overview.md)

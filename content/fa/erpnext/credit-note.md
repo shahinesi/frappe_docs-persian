@@ -88,6 +88,6 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
 - [تطبیق پرداخت](https://docs.frappe.io/erpnext/payment-reconciliation)
 - [حساب‌های دریافتنی](accounts-receivables.md)
-- [یادداشت بدهکار (بدهکار Note)](debit-note.md)
+- [یادداشت بدهکار (یادداشت بدهکاری)](debit-note.md)
 
 **منبع:** [یادداشت بستانکار](https://docs.frappe.io/erpnext/credit-note). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر اصلی در این مخزن بازنشر نشده‌اند.

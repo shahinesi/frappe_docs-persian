@@ -75,7 +75,7 @@ Nova Industries برای چند مشتری فاکتور صادر و آن‌ها 
 - [یادداشت بستانکار](credit-note.md)
 - [پردازش صورت‌حساب‌ها](https://docs.frappe.io/erpnext/process-statement-of-accounts)
 - [بهرهٔ فروش و اخطار دیرکرد پرداخت (اخطار بدهی)](dunning.md)
-- [گزارش حساب‌های دریافتنی and پرداختنی](accounts-receivable-and-payable.md)
+- [حساب‌های دریافتنی و پرداختنی](accounts-receivable-and-payable.md)
 
 ---
 منبع: [حساب‌های دریافتنی](https://docs.frappe.io/erpnext/accounts-receivables). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

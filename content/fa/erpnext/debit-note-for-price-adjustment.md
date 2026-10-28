@@ -117,7 +117,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ## موضوعات مرتبط
 
 - [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice)
-- [یادداشت بدهکار (بدهکار Note)](debit-note.md)
+- [یادداشت بدهکار (یادداشت بدهکاری)](debit-note.md)
 - [حساب‌های پرداختنی](accounts-receivable-and-payable.md)
 - [تطبیق پرداخت](https://docs.frappe.io/erpnext/payment-reconciliation)
 - [الگوی مالیات و هزینه‌های خرید](https://docs.frappe.io/erpnext/purchase-taxes-and-charges-template)

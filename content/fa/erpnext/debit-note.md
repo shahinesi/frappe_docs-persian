@@ -31,7 +31,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - آیا مبلغ تأمین‌کننده قبلاً پرداخت شده است؛
 - تاریخ ثبت مؤثری که برگشت باید از آن روز بر دفترها اثر بگذارد.
 
-اگر فقط قیمت را اصلاح می‌کنید و کالا را نگه می‌دارید، [بدهکار Note برای تعدیل قیمت](debit-note-for-price-adjustment.md) را دنبال کنید.
+اگر فقط قیمت را اصلاح می‌کنید و کالا را نگه می‌دارید، [یادداشت بدهکاری برای تعدیل قیمت](debit-note-for-price-adjustment.md) را دنبال کنید.
 
 ## ایجاد بدهکار Note
 
@@ -128,7 +128,7 @@ ERPNext در بعضی پیکربندی‌ها از برگشتِ بدون پیو�
 ## موضوعات مرتبط
 
 - [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice)
-- [بدهکار Note برای تعدیل قیمت](debit-note-for-price-adjustment.md)
+- [یادداشت بدهکاری برای تعدیل قیمت](debit-note-for-price-adjustment.md)
 - [رسید خرید](https://docs.frappe.io/erpnext/purchase-receipt)
 - [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
 - [تطبیق پرداخت](https://docs.frappe.io/erpnext/payment-reconciliation)

@@ -247,3 +247,13 @@ test('localizes a linked label nested inside bold markup', () => {
 	});
 	assert.equal(result.markdown, '**[شاخه](branch.md)**');
 });
+
+test('uses the translated destination title for mixed Persian and English link labels', () => {
+	const result = prepareMarkdownLinks('[Finance and Accounts شعبه](https://docs.frappe.io/hr/branch)', {
+		currentPath: 'content/fa/hr/example.md',
+		manifest,
+		titles: new Map([['content/fa/hr/branch.md', 'شعبه']]),
+		terms: { Finance: 'مالی', Accounts: 'حساب‌ها' },
+	});
+	assert.equal(result.markdown, '[شعبه](branch.md)');
+});

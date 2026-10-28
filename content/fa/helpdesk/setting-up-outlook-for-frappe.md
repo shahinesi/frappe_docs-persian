@@ -128,8 +128,8 @@ https://your_site.com/api/method/frappe.integrations.doctype.connected_app.conne
 ## منابع
 
 - [آموزش اتصال Frappe/ERPNext به سرویس‌های ایمیل Microsoft 365 با OAuth](https://discuss.frappe.io/t/tutorial-connecting-frappe-erpnext-to-microsoft-365-mail-services-oauth/106003)
-- [Frappe Helpdesk — نصب](installation.md)
-- [Frappe Helpdesk — ارتباط ایمیلی](email-communication.md)
+- [نصب](installation.md)
+- [ارتباط ایمیلی](email-communication.md)
 
 ---
 

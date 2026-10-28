@@ -215,9 +215,12 @@ function rewriteLink(token, { currentPath, byPath, byTranslationPath, titles, te
 		}
 	}
 
-	const translatedTitle = targetPath ? titles.get(targetPath) : null;
+	const rawTranslatedTitle = targetPath ? titles.get(targetPath) : null;
+	const translatedTitle = rawTranslatedTitle
+		? localizeDisplayLabel(rawTranslatedTitle, terms, null, mixedEntries, phraseTerms)
+		: null;
 	if (translatedTitle && !isAttribution) {
-		if (!FA_LETTER.test(label) || label.trim() === (official?.page.source_title || '').trim() || isGenericPageLabel(originalLabel)) {
+		if (!FA_LETTER.test(label) || /[A-Za-z]/.test(label) || label.trim() === (official?.page.source_title || '').trim() || isGenericPageLabel(originalLabel)) {
 			label = translatedTitle;
 		}
 	}
