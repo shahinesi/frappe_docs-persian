@@ -62,10 +62,10 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## گام‌های بعدی
 
-- [شروع به کار](https://docs.frappe.io/crm/automations/getting-started): آشنایی با بخش‌های خودکارسازی و ساخت نخستین جریان.
-- [رویدادها](https://docs.frappe.io/crm/automations/events): رویدادهایی که می‌توانند خودکارسازی را آغاز کنند.
-- [بلوک‌ها](https://docs.frappe.io/crm/automations/blocks): کنترل جریان با انتظار و شاخه‌های اگر/وگرنه.
-- [اقدام‌ها](https://docs.frappe.io/crm/automations/actions): کارهایی که خودکارسازی می‌تواند انجام دهد.
+- [شروع به کار](getting-started.md): آشنایی با بخش‌های خودکارسازی و ساخت نخستین جریان.
+- [رویدادها](events.md): رویدادهایی که می‌توانند خودکارسازی را آغاز کنند.
+- [بلوک‌ها](blocks.md): کنترل جریان با انتظار و شاخه‌های اگر/وگرنه.
+- [اقدام‌ها](actions.md): کارهایی که خودکارسازی می‌تواند انجام دهد.
 
 ---
 
