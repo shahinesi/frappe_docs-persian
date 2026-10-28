@@ -226,13 +226,14 @@ function productLinkLabel(section) {
 }
 
 function isGenericPageLabel(label) {
-	return /^مستندات رسمی(?:\s+.+)?$/.test(label.trim())
-		|| /^مستندات\s+(?:Frappe\s+)?(?:ERPNext|Framework|Helpdesk|Insights|CRM|HR|Wiki|Builder|Learning|Drive|Education)(?:\s+.*)?$/i.test(label.trim())
-		|| /^مستندات$/.test(label.trim())
-		|| /^صفحه(?:ٔ|‌ی|ی)? رسمی$/.test(label.trim())
-		|| /^راهنمای «.*» در .+$/.test(label.trim())
-		|| /^(?:این صفحه|این راهنما|این سند|اینجا|برای اطلاعات بیشتر|برای جزئیات بیشتر|بیشتر بخوانید|کلیک کنید|مشاهده کنید|راهنمای رسمی|مستندات رسمی(?: Frappe)?|مستندات)$/i.test(label.trim())
-		|| /^(?:this page|this guide|this document|here|read more|learn more|click here|official documentation|documentation)$/i.test(label.trim());
+	const normalized = label.trim().replace(/[.!؟?،,:;؛]+$/u, '').trim();
+	return /^مستندات رسمی(?:\s+.+)?$/.test(normalized)
+		|| /^مستندات\s+(?:Frappe\s+)?(?:ERPNext|Framework|Helpdesk|Insights|CRM|HR|Wiki|Builder|Learning|Drive|Education)(?:\s+.*)?$/i.test(normalized)
+		|| /^مستندات$/.test(normalized)
+		|| /^صفحه(?:ٔ|‌ی|ی)? رسمی$/.test(normalized)
+		|| /^راهنمای «.*» در .+$/.test(normalized)
+		|| /^(?:این صفحه|این راهنما|این سند|اینجا|برای اطلاعات بیشتر|برای جزئیات بیشتر|بیشتر بخوانید|کلیک کنید|مشاهده کنید|راهنمای رسمی|مستندات رسمی(?: Frappe)?|مستندات)$/i.test(normalized)
+		|| /^(?:this page|this guide|this document|here|read more|learn more|click here|official documentation|documentation)$/i.test(normalized);
 }
 
 function localizeImageAlt(token, terms, counters, mixedEntries, phraseTerms) {

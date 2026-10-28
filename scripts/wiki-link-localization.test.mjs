@@ -62,6 +62,17 @@ test('uses the linked page title for a generic ERPNext documentation label', () 
 	assert.equal(result.markdown, '[شعبه](branch.md)');
 });
 
+test('uses the destination title when a generic documentation label ends with punctuation', () => {
+	const sourceUrl = 'https://docs.frappe.io/hr/branch';
+	const result = prepareMarkdownLinks(`[مستندات رسمی ERPNext.](${sourceUrl})`, {
+		currentPath: 'content/fa/hr/example.md',
+		manifest: { pages: [{ ...manifest.pages[0], url: sourceUrl }] },
+		titles: new Map([['content/fa/hr/branch.md', 'شعبه']]),
+		terms: {},
+	});
+	assert.equal(result.markdown, '[شعبه](branch.md)');
+});
+
 test('translates English HR entities in prerequisite lists and mixed headings', () => {
 	const result = prepareMarkdownLinks([
 		'پیش از ثبت حضور و غیاب، موارد زیر را آماده کنید:',
