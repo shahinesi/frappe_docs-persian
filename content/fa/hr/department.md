@@ -69,7 +69,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ## 4. موضوعات مرتبط
 
 1. [نوع استخدام](employment-type.md)
-2. [ردهٔ شغلی](https://docs.frappe.io/hr/employee-grade)
+2. [درجهٔ کارمند](employee-grade.md)
 3. [شعبه](branch.md)
 4. [عنوان شغلی](designation.md)
 
