@@ -15,7 +15,7 @@ license_status: "unverified"
 در این ماژول می‌توانید:
 
 1. [نوع شیفت](shift-type.md) را تنظیم کنید.
-2. [درخواست شیفت](https://docs.frappe.io/hr/shift-request) ایجاد کنید.
+2. [درخواست شیفت](shift-request.md) ایجاد کنید.
 3. [تخصیص شیفت](shift-assignment.md) را ببینید و مدیریت کنید.
 4. شناسهٔ دستگاه حضور و غیاب را در پروندهٔ کارمند تنظیم کنید؛ راهنمای [حضور و غیاب خودکار](auto-attendance.md) را ببینید.
 5. رکوردهای [ثبت ورود و خروج کارمند](employee-checkin.md) ایجاد کنید.

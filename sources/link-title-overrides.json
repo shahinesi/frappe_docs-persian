@@ -19,7 +19,6 @@
     "/erpnext/incoterm-and-named-place": "ثبت اینکوترمز و مکان‌های نام‌گذاری‌شده",
     "/framework/user/en/guides/integration/webhooks": "وب‌هوک‌ها",
     "/framework/user/en/desk/scripting/script-api": "API اسکریپت",
-    "/framework/user/en/basics/doctypes": "آشنایی با DocTypeها",
-    "/hr/shift-request": "درخواست شیفت"
+    "/framework/user/en/basics/doctypes": "آشنایی با DocTypeها"
   }
 }
