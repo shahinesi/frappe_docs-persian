@@ -32838,10 +32838,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "d5a4e212904462ed751cb7b3a3ee140e4baa2ace7ace61d0912ef4af7da0fde6",
       "source_modified": "2026-02-04",
-      "translation_status": "not_started",
+      "translation_status": "translated",
       "quality_status": "not_reviewed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/hr/employee-benefit-application.md",
       "discovered_at": "2026-10-27T05:52:36.582Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/hr/employee-benefit-application.md",
@@ -32854,7 +32854,8 @@
       "license_status": "unverified",
       "attribution_required": true,
       "unofficial_translation": true,
-      "snapshot_status": "fetched"
+      "snapshot_status": "fetched",
+      "source_snapshot_path": "sources/hr/employee-benefit-application.md"
     },
     {
       "url": "https://docs.frappe.io/hr/employee-benefit-claim",
@@ -32863,10 +32864,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "5fc5dd870ff7e25122f8f5614693999f322cbbb47c90fe3f5826e6abb2145f75",
       "source_modified": "2026-02-04",
-      "translation_status": "not_started",
+      "translation_status": "translated",
       "quality_status": "not_reviewed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/hr/employee-benefit-claim.md",
       "discovered_at": "2026-10-27T05:52:36.582Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/hr/employee-benefit-claim.md",
@@ -32879,7 +32880,8 @@
       "license_status": "unverified",
       "attribution_required": true,
       "unofficial_translation": true,
-      "snapshot_status": "fetched"
+      "snapshot_status": "fetched",
+      "source_snapshot_path": "sources/hr/employee-benefit-claim.md"
     },
     {
       "url": "https://docs.frappe.io/hr/employee-checkin",
