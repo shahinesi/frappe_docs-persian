@@ -25,6 +25,17 @@
 | Enable Redisearch | فعال‌کردن RediSearch | برچسب گزینهٔ فعال‌سازی نمایهٔ جست‌وجو. |
 | Agent Manager | مدیر کارشناسان پشتیبانی | نقش مدیریتی در Helpdesk؛ برچسب locale فارسی در snapshot موجود نبود. |
 | Admin | مدیر سامانه | نقش مدیریت در Helpdesk؛ برچسب locale فارسی در snapshot موجود نبود. |
+| Bank Statement Closing Balance | ماندهٔ پایانی صورتحساب بانک | برچسب جدول تطبیق بانکی در ERPNext. |
+| Bank Transactions | تراکنش‌های بانکی | نام جدول تراکنش‌های واردشده از صورتحساب. |
+| Bank Reconciliation Tool | ابزار تطبیق بانکی | نام ابزار تطبیق تراکنش‌های بانک با ثبت‌های حسابداری. |
+| Cheque No | شمارهٔ چک | برچسب مرجع چک در فرم سند حسابداری. |
+| Blank Template | الگوی خالی | گزینهٔ دریافت الگوی حساب خالی در ERPNext. |
+| Sample Template | الگوی نمونه | گزینهٔ دریافت الگوی حساب همراه با دادهٔ نمونه. |
+| Convert to Sub-Assembly | تبدیل به زیرمونتاژ | دکمهٔ تبدیل قلم به زیرمونتاژ در ابزار ساخت BOM. |
+| My Settings | تنظیمات من | صفحهٔ تنظیمات شخصی کاربر در رابط Frappe. |
+| Send Notifications for documents followed by me | ارسال اعلان برای سندهایی که دنبال می‌کنم | گزینهٔ اعلان ایمیلی برای سندهای دنبال‌شده. |
+| Business holidays | تعطیلات کاری | برچسب فهرست تعطیلات کاری در Helpdesk. |
+| Recurring holidays | تعطیلات تکرارشونده | برچسب تعطیلات تکرارشونده در Helpdesk. |
 | Web Form | Web Form (فرم وب) | نام DocType و برچسب فنی حفظ شود؛ در توضیح عمومی «فرم وب» به‌کار رود. |
 | Web Form Request | درخواست Web Form | سندی برای تولید پیوند خصوصی با کلید دسترسی به فرم. |
 | Workspace Manager | مدیر محیط کار (Workspace Manager) | ترجمهٔ فعلی رابط رسمی؛ نام فنی نقش در کد محفوظ بماند. |

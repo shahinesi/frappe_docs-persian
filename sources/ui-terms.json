@@ -25,7 +25,16 @@
         "Search bar": "نوار جست‌وجو",
         "E Commerce Settings": "تنظیمات فروشگاه اینترنتی",
         "Item Search Settings": "تنظیمات جست‌وجوی کالا",
-        "Enable Redisearch": "فعال‌کردن RediSearch"
+        "Enable Redisearch": "فعال‌کردن RediSearch",
+        "Bank Statement Closing Balance": "ماندهٔ پایانی صورتحساب بانک",
+        "Bank Transactions": "تراکنش‌های بانکی",
+        "Bank Reconciliation Tool": "ابزار تطبیق بانکی",
+        "Cheque No": "شمارهٔ چک",
+        "Blank Template": "الگوی خالی",
+        "Sample Template": "الگوی نمونه",
+        "Convert to Sub-Assembly": "تبدیل به زیرمونتاژ",
+        "My Settings": "تنظیمات من",
+        "Send Notifications for documents followed by me": "ارسال اعلان برای سندهایی که دنبال می‌کنم"
       },
       "basis": "Reviewed visible ERPNext controls; the exact labels are absent from the current Persian locale snapshot."
     },
@@ -33,7 +42,9 @@
       "product": "helpdesk",
       "source_labels": {
         "Agent Manager": "مدیر کارشناسان پشتیبانی",
-        "Admin": "مدیر سامانه"
+        "Admin": "مدیر سامانه",
+        "Business holidays": "تعطیلات کاری",
+        "Recurring holidays": "تعطیلات تکرارشونده"
       },
       "basis": "Reviewed Helpdesk role labels; these labels are absent from the current Persian locale snapshot."
     },

@@ -26,7 +26,7 @@ source_version: "17e8bdca24ceb9d177f904bebd189e86e53e0258daee2082a72231d88cdd6e6
 
 ![نوار ابزار BOM Creator](https://docs.frappe.io/files/toolbar_bom_creator.png)
 
-- برای تبدیل مواد اولیه به اقلام زیرمونتاژ، ابتدا قلم را انتخاب و سپس دکمهٔ **Convert to Sub-Assembly** را کلیک کنید.
+- برای تبدیل مواد اولیه به اقلام زیرمونتاژ، ابتدا قلم را انتخاب و سپس دکمهٔ **تبدیل به زیرمونتاژ** را کلیک کنید.
 
 ![تبدیل قلم به زیرمونتاژ](https://docs.frappe.io/files/convert_to_sub_assembly.gif)
 
