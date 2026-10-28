@@ -33,9 +33,9 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ### 1.1 SendCloud
 
 1. در [SendCloud](https://panel.sendcloud.sc/accounts/signup/) ثبت‌نام کنید.
-2. برای تولید **کلید عمومی** و **Secret Key**، [این مراحل](https://support.sendcloud.com/hc/en-us/articles/360024967612-Service-points-for-API-Integrations#step-1-) را دنبال کنید.
-3. در Awesome Bar عبارت **SendCloud** را جست‌وجو کنید.
-4. **کلید عمومی** را در فیلد **کلید API** و **Secret Key** را در فیلد **API Secret** در DocTypeِ SendCloud وارد کنید.
+2. برای تولید **کلید عمومی** و **کلید محرمانه (Secret Key)**، [این مراحل](https://support.sendcloud.com/hc/en-us/articles/360024967612-Service-points-for-API-Integrations#step-1-) را دنبال کنید.
+3. در نوار جست‌وجوی بالای صفحه عبارت **SendCloud** را جست‌وجو کنید.
+4. **کلید عمومی** را در فیلد **کلید API** و **کلید محرمانه (Secret Key)** را در فیلد **رمز محرمانهٔ API (API Secret)** در DocTypeِ SendCloud وارد کنید.
 5. گزینهٔ **فعال** را فعال کنید.
 6. ذخیره کنید.
 
@@ -44,9 +44,9 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ### 1.2 LetMeShip
 
 1. در [LetMeShip](https://www.letmeship.com/en/) ثبت‌نام کنید.
-2. برای تولید **API ID** و **API Password**، [این مراحل](https://www.letmeship.com/en-de/shipping-api/) را دنبال کنید.
-3. در Awesome Bar عبارت **LetMeShip** را جست‌وجو کنید.
-4. **API ID** و **API Password** را در DocTypeِ LetMeShip وارد و گزینهٔ **فعال** را فعال کنید.
+2. برای تولید **شناسهٔ API (API ID)** و **گذرواژهٔ API (API Password)**، [این مراحل](https://www.letmeship.com/en-de/shipping-api/) را دنبال کنید.
+3. در نوار جست‌وجوی بالای صفحه عبارت **LetMeShip** را جست‌وجو کنید.
+4. **شناسهٔ API (API ID)** و **گذرواژهٔ API (API Password)** را در DocTypeِ LetMeShip وارد و گزینهٔ **فعال** را فعال کنید.
 5. ذخیره کنید.
 
 ![API مربوط به LetMeShip](https://docs.frappe.io/files/letmeship_api.png)
@@ -55,23 +55,23 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### 2.1 مقایسهٔ نرخ‌های ارسال
 
-پس از ثبت نهایی [حمل و نقل](https://docs.frappe.io/erpnext/shipment)، اگر برنامه نصب شده باشد، دکمهٔ **Fetch Shipping Rates** ظاهر می‌شود. با انتخاب آن، فهرستی از سرویس‌ها به‌همراه ارائه‌دهندگان و نرخ‌هایشان نمایش داده می‌شود.
+پس از ثبت نهایی [حمل و نقل](https://docs.frappe.io/erpnext/shipment)، اگر برنامه نصب شده باشد، دکمهٔ **دریافت نرخ‌های ارسال** ظاهر می‌شود. با انتخاب آن، فهرستی از سرویس‌ها به‌همراه ارائه‌دهندگان و نرخ‌هایشان نمایش داده می‌شود.
 
 ![دریافت نرخ‌های ارسال](https://docs.frappe.io/files/fetch_rates.png)
 
-همچنین می‌توانید از طریق **Parcel Service Type** سرویس‌های پراستفاده را به **Preferred Services** اضافه کنید:
+همچنین می‌توانید از طریق **نوع خدمت (Parcel Service Type)** سرویس‌های پراستفاده را به **سرویس‌های ترجیحی** اضافه کنید:
 
-1. فرض کنید سرویس مشخص‌شده در تصویر را زیاد استفاده می‌کنید؛ آن را به **Preferred Services** بیفزایید.
+1. فرض کنید سرویس مشخص‌شده در تصویر را زیاد استفاده می‌کنید؛ آن را به **سرویس‌های ترجیحی** بیفزایید.
 
    ![سرویس موردنظر برای افزودن به فهرست ترجیحی](https://docs.frappe.io/files/service_highlight.png)
 
-2. به **Parcel Service Type > جدید** بروید و یک **Parcel Service** جدید بسازید؛ برای نمونه، `TNT`.
-3. یک **Parcel Service Type** اضافه کنید؛ برای نمونه، `Economy`.
-4. `Economy` را به جدول **Parcel Service Type Alias** نیز اضافه کنید.
+2. به **نوع خدمت (Parcel Service Type) > جدید** بروید و یک **خدمت حمل‌ونقل (Parcel Service)** جدید بسازید؛ برای نمونه، `TNT`.
+3. یک **نوع خدمت (Parcel Service Type)** اضافه کنید؛ برای نمونه، `Economy`.
+4. `Economy` را به جدول **نام مستعار نوع خدمت (Parcel Service Type Alias)** نیز اضافه کنید.
 5. در صورت تمایل، توضیحی وارد کنید.
-6. گزینهٔ **Show in Preferred Services List** را فعال و ذخیره کنید.
+6. گزینهٔ **نمایش در فهرست سرویس‌های ترجیحی** را فعال و ذخیره کنید.
 
-اکنون با انتخاب دکمهٔ **Fetch Shipping Rates**، سرویس انتخاب‌شده را در بخش **Preferred Services** خواهید دید.
+اکنون با انتخاب دکمهٔ **دریافت نرخ‌های ارسال**، سرویس انتخاب‌شده را در بخش **سرویس‌های ترجیحی** خواهید دید.
 
 ![سرویس ترجیحی](https://docs.frappe.io/files/preferred_service.png)
 
@@ -87,7 +87,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### 2.3 چاپ برچسب
 
-برای نمایش دکمهٔ **Print Shipping Label**، ابتدا باید **شناسه حمل و نقل** در رکورد فعلی تولید شده باشد.
+برای نمایش دکمهٔ **چاپ برچسب ارسال**، ابتدا باید **شناسه حمل و نقل** در رکورد فعلی تولید شده باشد.
 
 ![دکمهٔ چاپ برچسب ارسال](https://docs.frappe.io/files/print_label_button.png)
 
@@ -95,6 +95,6 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ![نمونهٔ برچسب ارسال](https://docs.frappe.io/files/dummy_shipping_label.png)
 
-برای پیگیری وضعیت حمل و نقل نیز **View > Track Status** را انتخاب کنید.
+برای پیگیری وضعیت حمل و نقل نیز **نما > پیگیری وضعیت** را انتخاب کنید.
 
 > **یادداشت:** ممکن است پلتفرم‌های یکپارچه‌شده در منطقهٔ شما خدمات ارائه نکنند. برای بررسی، پیوند مربوط به هر پلتفرم را ببینید.
