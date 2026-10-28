@@ -56,7 +56,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 - دادهٔ نمایشی
 - سایت DB
-- Uploads
+- بارگذاری‌ها
 - پرس‌وجوهای دیگر در همان کارپوشه
 
 اکنون آماده‌اید عملیات را روی جدول انجام دهید.

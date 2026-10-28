@@ -180,8 +180,8 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 برای رهگیری می‌توان یادداشت تحویل را به موارد زیر پیوند داد:
 
 - پروژه
-- Campaign
-- Source
+- کمپین
+- منبع
 
 ### تنظیمات چاپ
 

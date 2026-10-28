@@ -17,10 +17,10 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 Helpdesk به‌صورت پیش‌فرض چهار نوع تیکت ایجاد می‌کند:
 
-- Bug
-- Incident
-- Question
-- Unspecified (توسط سامانه ساخته می‌شود و قابل‌حذف نیست)
+- اشکال (`Bug`)
+- رخداد (`Incident`)
+- پرسش (`Question`)
+- نامشخص (`Unspecified`؛ توسط سامانه ساخته می‌شود و قابل‌حذف نیست)
 
 ## افزودن نوع تیکت
 
