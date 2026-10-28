@@ -12,7 +12,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 > توجه: این قابلیت فقط در نسخهٔ شبانه (nightly) نسخهٔ v16 در دسترس است و آزمایشی محسوب می‌شود.
 
-در Frappe Framework می‌توان با استفاده از [سطح‌های مجوز (Perm Levels)](https://docs.frappe.io/erpnext/user/manual/en/managing-perm-level) مجوزها را طوری تنظیم کرد که مشخص شود چه کسی هر فیلد را ببیند.
+در Frappe Framework می‌توان با استفاده از [سطح‌های مجوز (Perm Levels)](https://docs.frappe.io/erpnext/perm-levels) مجوزها را طوری تنظیم کرد که مشخص شود چه کسی هر فیلد را ببیند.
 
 بااین‌حال، در بسیاری از فرایندهای کاری لازم است بعضی فیلدها دیده شوند، اما دادهٔ حساس داخل آن‌ها پنهان بماند. برای نمونه:
 

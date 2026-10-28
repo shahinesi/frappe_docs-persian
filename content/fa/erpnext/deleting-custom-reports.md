@@ -31,6 +31,6 @@ ERPNext چند [نوع گزارش](https://docs.frappe.io/erpnext/making-custom-
 
 ![فهرست گزارش‌ها](https://docs.frappe.io/files/customize-deleting-reports.png)
 
-همچنین می‌توانید گزارش را باز کنید و از منوی **File** آن را حذف کنید.
+همچنین می‌توانید گزارش را باز کنید و از منوی **فایل** آن را حذف کنید.
 
 ![حذف گزارش](https://docs.frappe.io/files/customize-deleting-reports-2.png)

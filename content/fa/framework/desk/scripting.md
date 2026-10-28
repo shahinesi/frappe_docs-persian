@@ -12,7 +12,7 @@ Frappe Framework به شما اجازه می‌دهد مدل‌ها و نماه�
 
 1. [اسکریپت کلاینت](https://docs.frappe.io/framework/user/en/desk/scripting/client-script)
 2. [اسکریپت سرور](https://docs.frappe.io/framework/user/en/desk/scripting/server-script)
-3. [Script گزارش](https://docs.frappe.io/framework/user/en/desk/reports/script-report)
+3. [گزارش اسکریپت](https://docs.frappe.io/framework/user/en/desk/reports/script-report)
 4. [کنسول سیستم](system-console.md)
 
 ---

@@ -18,7 +18,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 در ERPNext نسخهٔ 11 قابلیتی برای دریافت بازخورد از مشتریان و کاربران وجود داشت. در نسخه‌های کنونی ERPNext می‌توانید این فرایند را با ابزارهای سفارشی‌سازی داخلی مدیریت کنید:
 
 - DocType سفارشی
-- Web Form
+- فرم وب
 - اعلان (Notification)
 
 مراحل زیر را برای پیکربندی این قابلیت و شروع جمع‌آوری بازخورد دنبال کنید.
@@ -30,18 +30,18 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ![نمونهٔ DocType سفارشی برای امتیازدهی](https://docs.frappe.io/files/oUDbd8e.png)
 
 1. در فیلدهای نخست، DocTypeهایی را فهرست کنید که می‌خواهید برایشان امتیاز ثبت شود.
-2. در فیلد **سند Name**، نام فیلد نخست، یعنی `document`، را وارد کنید تا این فیلد به یک [Dynamic Link](https://docs.erpnext.com/docs/v14/user/manual/en/customize-erpnext/articles/dynamic-link-fields) تبدیل شود.
+2. در فیلد **سند Name**، نام فیلد نخست، یعنی `document`، را وارد کنید تا این فیلد به یک [لینک پویا](https://docs.erpnext.com/docs/v14/user/manual/en/customize-erpnext/articles/dynamic-link-fields) تبدیل شود.
 3. یک فیلد **Rating** اضافه کنید. در صورت نیاز می‌توانید فیلد داده یا انتخابی دیگری هم برای ثبت امتیاز در نظر بگیرید.
 
-## ساخت Web Form بازخورد
+## ساخت فرم وب بازخورد
 
-پس از ایجاد DocType، یک Web Form بسازید و همهٔ فیلدهای استاندارد DocType بازخورد را در آن قرار دهید.
+پس از ایجاد DocType، یک فرم وب بسازید و همهٔ فیلدهای استاندارد DocType بازخورد را در آن قرار دهید.
 
-![ساخت Web Form برای بازخورد](https://docs.frappe.io/files/eWKqJ50.png)
+![ساخت فرم وب برای بازخورد](https://docs.frappe.io/files/eWKqJ50.png)
 
 ## ساخت اعلان
 
-اعلانی ایجاد کنید تا پیوند فرم برای کاربر فرستاده شود و او بتواند امتیاز ثبت کند. می‌توانید شرط ارسال ایمیل را با قابلیت‌های استاندارد [اعلان‌ها](https://docs.frappe.io/erpnext/notifications) تعیین کنید. نمونهٔ زیر پیام و پیوندی را نشان می‌دهد که کاربر را به Web Form می‌برد:
+اعلانی ایجاد کنید تا پیوند فرم برای کاربر فرستاده شود و او بتواند امتیاز ثبت کند. می‌توانید شرط ارسال ایمیل را با قابلیت‌های استاندارد [اعلان‌ها](https://docs.frappe.io/erpnext/notifications) تعیین کنید. نمونهٔ زیر پیام و پیوندی را نشان می‌دهد که کاربر را به فرم وب می‌برد:
 
 ```text
 https://example.erpnext.com/feedback?new=1&document=Sales%20Order&document_name={{doc.name}}
@@ -58,6 +58,6 @@ https://example.erpnext.com/feedback?new=1&document=Sales%20Order&document_name=
 
 ## نمایش سریع
 
-پویانمایی زیر نمونه‌ای از ساخته‌شدن پیوند، تکمیل Web Form و ثبت بازخورد در ERPNext را نشان می‌دهد.
+پویانمایی زیر نمونه‌ای از ساخته‌شدن پیوند، تکمیل فرم وب و ثبت بازخورد در ERPNext را نشان می‌دهد.
 
 ![نمایش فرایند ثبت بازخورد در ERPNext](https://docs.frappe.io/files/hEbdh6c.gif)

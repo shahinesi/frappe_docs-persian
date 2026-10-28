@@ -82,7 +82,7 @@ https://{yourwebsite.com}/api/method/frappe.integrations.doctype.dropbox_setting
 
 #### گام 11: اجازهٔ دسترسی Dropbox را صادر کنید
 
-پس از ورود موفق، پیام تأییدی نمایش داده می‌شود. گزینهٔ **Allow** را انتخاب کنید تا حساب ERPNext به حساب Dropbox شما دسترسی داشته باشد.
+پس از ورود موفق، پیام تأییدی نمایش داده می‌شود. گزینهٔ **اجازه** را انتخاب کنید تا حساب ERPNext به حساب Dropbox شما دسترسی داشته باشد.
 
 ![اجازهٔ دسترسی Dropbox](https://docs.frappe.io/files/dropbox-3.png)
 

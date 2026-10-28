@@ -28,7 +28,7 @@ source_version: "919c94ecd67499a6a637f7643e712df3e498d53042f1028eecfadd4a75df6d3
 3. در جدول مالیات and Charges، ردیفی برای مبلغ کرایه اضافه کنید.
 4. مشخص کنید ردیف بر Total، ارزش گذاری یا هر دو اثر بگذارد.
 5. ردیف مالیات را پس از ردیف کرایه اضافه کنید.
-6. **Type** را طوری تنظیم کنید که مالیات را بر ردیف قبلی مربوط یا جمع موردنظر محاسبه کند.
+6. **نوع** را طوری تنظیم کنید که مالیات را بر ردیف قبلی مربوط یا جمع موردنظر محاسبه کند.
 7. اگر مبنای مالیات باید ردیف کرایه باشد، **Row ID** را تنظیم کنید.
 8. مبلغ ردیف‌ها، مالیات، جمع کل و اثر بر ارزش‌گذاری را بررسی کنید.
 
@@ -36,11 +36,11 @@ source_version: "919c94ecd67499a6a637f7643e712df3e498d53042f1028eecfadd4a75df6d3
 
 برای کرایهٔ $120 با مالیات 6%، مبلغ مالیات $7.20 است. بررسی کنید جمع کل و جمع‌های ارزش‌گذاری با روش موردنظر سازگار باشند؛ صرفاً به این فرض تکیه نکنید که عدد نهاییِ ظاهراً درست به حساب‌های درست ثبت شده است.
 
-![ردیف کرایه، مبلغ مالیات، Grand Total و مبلغ ارزش‌گذاری](https://docs.frappe.io/files/docs-20261022-docs-buying-freight-tax-result.png)
+![ردیف کرایه، مبلغ مالیات، جمع کل و مبلغ ارزش‌گذاری](https://docs.frappe.io/files/docs-20261022-docs-buying-freight-tax-result.png)
 
 ## استفاده از کالا کرایه در صورت تناسب
 
-اگر تأمین‌کنندهٔ کرایه را در ردیفی جداگانه صورتحساب می‌کند، می‌توانید برای آن یک کالا خدماتیِ غیرانبارشونده تعریف کنید. حساب هزینهٔ مناسب و کالا Tax Template مربوط را تنظیم و سپس کالا را به فاکتور خرید اضافه کنید.
+اگر تأمین‌کنندهٔ کرایه را در ردیفی جداگانه صورتحساب می‌کند، می‌توانید برای آن یک کالا خدماتیِ غیرانبارشونده تعریف کنید. حساب هزینهٔ مناسب و الگوی مالیات آیتم مربوط را تنظیم و سپس کالا را به فاکتور خرید اضافه کنید.
 
 این روش وقتی مفید است که گزارش مالیات در سطح ردیف لازم باشد. برای هزینه‌های کل سند، ردیف مالیات and Charges معمولاً ساده‌تر است. روشی یکسان انتخاب کنید که با نیازهای انطباق و گزارش‌گیری شما هماهنگ باشد.
 
@@ -48,7 +48,7 @@ source_version: "919c94ecd67499a6a637f7643e712df3e498d53042f1028eecfadd4a75df6d3
 
 ### مالیات روی کالا و کرایه با هم محاسبه می‌شود
 
-**Type** و **Row ID** ردیف مالیات را بررسی کنید. اگر باید فقط ردیف کرایه مشمول مالیات باشد، از محاسبه بر اساس ردیف قبلی استفاده کنید.
+**نوع** و **Row ID** ردیف مالیات را بررسی کنید. اگر باید فقط ردیف کرایه مشمول مالیات باشد، از محاسبه بر اساس ردیف قبلی استفاده کنید.
 
 ### کرایه مبلغ پرداختنی به تأمین‌کننده را افزایش داده، اما ارزش موجودی را نه
 
@@ -76,11 +76,11 @@ source_version: "919c94ecd67499a6a637f7643e712df3e498d53042f1028eecfadd4a75df6d3
 
 قانون حمل و نقل می‌تواند بر اساس ارزش خالص یا وزن خالص، هزینه‌ای را انتخاب کند. پیش از ثبت نهایی، ردیف مالیات and Charges ایجادشده را بررسی کنید.
 
-برای هزینه‌های قابل‌استفادهٔ مجدد، [Purchase مالیات and Charges Template](https://docs.frappe.io/erpnext/purchase-taxes-and-charges-template) را پیکربندی کنید. سپس [انواع در Tax Template](https://docs.frappe.io/erpnext/types-in-tax-template)، [شامل‌کردن مالیات یا هزینه در ارزش گذاری یا Total](difference-in-total-and-valuation-in-tax-and-charges.md) و [اعمال مالیات بر مالیات یا هزینهٔ دیگر](https://docs.frappe.io/erpnext/how-to-apply-tax-on-tax) را ببینید. نتیجه را در [سفارش خرید](purchase-order.md) یا [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice) اعمال کنید، موجودی دریافتی را از طریق [رسید خرید](https://docs.frappe.io/erpnext/purchase-receipt) بررسی کنید، برای هزینه‌های بعدی [سند مالی بهای تمام‌شده در مقصد](https://docs.frappe.io/erpnext/landed-cost-voucher) را به‌کار ببرید، بازه‌های ارزشی را با [قانون حمل و نقل](https://docs.frappe.io/erpnext/shipping-rule) خودکار کنید و سیاست را در [تنظیمات خرید](buying-settings.md) تأیید کنید.
+برای هزینه‌های قابل‌استفادهٔ مجدد، [الگوی مالیات و هزینه‌های خرید](https://docs.frappe.io/erpnext/purchase-taxes-and-charges-template) را پیکربندی کنید. سپس [انواع در Tax Template](https://docs.frappe.io/erpnext/types-in-tax-template)، [شامل‌کردن مالیات یا هزینه در ارزش گذاری یا Total](difference-in-total-and-valuation-in-tax-and-charges.md) و [اعمال مالیات بر مالیات یا هزینهٔ دیگر](https://docs.frappe.io/erpnext/how-to-apply-tax-on-tax) را ببینید. نتیجه را در [سفارش خرید](purchase-order.md) یا [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice) اعمال کنید، موجودی دریافتی را از طریق [رسید خرید](https://docs.frappe.io/erpnext/purchase-receipt) بررسی کنید، برای هزینه‌های بعدی [سند مالی بهای تمام‌شده در مقصد](https://docs.frappe.io/erpnext/landed-cost-voucher) را به‌کار ببرید، بازه‌های ارزشی را با [قانون حمل و نقل](https://docs.frappe.io/erpnext/shipping-rule) خودکار کنید و سیاست را در [تنظیمات خرید](buying-settings.md) تأیید کنید.
 
 ## موضوعات مرتبط
 
-- [Purchase مالیات and Charges Template](https://docs.frappe.io/erpnext/purchase-taxes-and-charges-template)
+- [الگوی مالیات و هزینه‌های خرید](https://docs.frappe.io/erpnext/purchase-taxes-and-charges-template)
 - [انواع در Tax Template](https://docs.frappe.io/erpnext/types-in-tax-template)
 - [شامل‌کردن مالیات یا هزینه در ارزش گذاری یا Total](difference-in-total-and-valuation-in-tax-and-charges.md)
 - [اعمال مالیات بر مالیات یا هزینهٔ دیگر](https://docs.frappe.io/erpnext/how-to-apply-tax-on-tax)

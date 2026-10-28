@@ -75,7 +75,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 | Month | <code>month(column)</code><br><code>month(order_date)</code> | بخش ماه تاریخ را برمی‌گرداند. نمونه: <code>10</code>. |
 | Week of Year | <code>week_of_year(column)</code><br><code>week_of_year(order_date)</code> | شمارهٔ هفتهٔ سال را برمی‌گرداند. نمونه: <code>41</code>. |
 | Day of Year | <code>day_of_year(column)</code><br><code>day_of_year(order_date)</code> | شمارهٔ روز در سال را برمی‌گرداند. نمونه: <code>288</code>. |
-| Day of Week | <code>day_of_week(column)</code><br><code>day_of_week(order_date)</code> | روز هفته را در بازهٔ <code>0-6</code> برمی‌گرداند. نمونه: <code>4</code>. |
+| روز هفته | <code>day_of_week(column)</code><br><code>day_of_week(order_date)</code> | روز هفته را در بازهٔ <code>0-6</code> برمی‌گرداند. نمونه: <code>4</code>. |
 | Day | <code>day(column)</code><br><code>day(order_date)</code> | بخش روز تاریخ را برمی‌گرداند. نمونه: <code>15</code>. |
 | Hour | <code>hour(column)</code><br><code>hour(order_date)</code> | بخش ساعت تاریخ را برمی‌گرداند. نمونه: <code>10</code>. |
 | Minute | <code>minute(column)</code><br><code>minute(order_date)</code> | بخش دقیقهٔ تاریخ را برمی‌گرداند. نمونه: <code>30</code>. |
@@ -103,7 +103,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 |---|---|---|
 | USD to INR | <code>to_inr(currency_column, amount_column, rate=83)</code><br><code>to_inr(currency, amount, 83)</code> | مقدارهای ستون مبلغ را با نرخ مشخص‌شده از USD به INR تبدیل می‌کند. اگر ارز USD نباشد، مبلغ را بدون تغییر برمی‌گرداند. نرخ پیش‌فرض <code>83</code> است. نمونه: <code>8300</code>. |
 | INR to USD | <code>to_usd(currency_column, amount_column, rate=83)</code><br><code>to_usd(currency, amount, 83)</code> | مقدارهای ستون مبلغ را با نرخ مشخص‌شده از INR به USD تبدیل می‌کند. اگر ارز INR نباشد، مبلغ را بدون تغییر برمی‌گرداند. نرخ پیش‌فرض <code>83</code> است. نمونه: <code>100</code>. |
-| Row Number | <code>row_number()</code> | شمارهٔ ردیف جاری را برمی‌گرداند. نمونه: <code>1</code>. |
+| شماره ردیف | <code>row_number()</code> | شمارهٔ ردیف جاری را برمی‌گرداند. نمونه: <code>1</code>. |
 | Previous Period Value | <code>previous_period_value(column, date_column, offset=1)</code><br><code>previous_period_value(sales, order_date, 1)</code> | مقدار ستون را برای دورهٔ پیشین، بر اساس ستون تاریخ، برمی‌گرداند. <code>offset</code> تعداد دوره‌هایی است که باید به عقب رفت. نمونه: <code>1000</code>. |
 | Next Period Value | <code>next_period_value(column, date_column, offset=1)</code><br><code>next_period_value(sales, order_date, 1)</code> | مقدار ستون را برای دورهٔ بعدی، بر اساس ستون تاریخ، برمی‌گرداند. <code>offset</code> تعداد دوره‌هایی است که باید به جلو رفت. نمونه: <code>2000</code>. |
 | Percentage Change | <code>percentage_change(column, date_column, offset=1)</code><br><code>percentage_change(sales, order_date, 1)</code> | درصد تغییر مقدار ستون را نسبت به دورهٔ قبلی، بر اساس ستون تاریخ، برمی‌گرداند. <code>offset</code> تعداد دوره‌هایی است که باید به عقب رفت. نمونه: <code>10</code>. |

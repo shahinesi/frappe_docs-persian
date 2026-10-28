@@ -33,7 +33,7 @@ source_version: "2c807ebce931be49689b3e151832f51d74f3b58b5a3063d4ad461c5f2345a9f
 3. [شاخه](branch.md)
 4. [دپارتمان](https://docs.frappe.io/hr/department)
 5. [عنوان شغلی](designation.md)
-6. [کارمند Grade](https://docs.frappe.io/hr/employee-grade)
+6. [درجه کارمند](https://docs.frappe.io/hr/employee-grade)
 
 ---
 منبع: [مستندات رسمی Frappe HR](https://docs.frappe.io/hr/employment-type). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

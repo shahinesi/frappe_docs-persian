@@ -29,7 +29,7 @@ ERPNext پیش از درخواست از ارائه‌دهندهٔ آنلاین �
 
 ## ایجاد رکورد تبدیل ارز
 
-1. از مسیر **حسابداری > Multi Currency > تبدیل ارز** آن را باز کنید.
+1. از مسیر **حسابداری > چند ارزی > تبدیل ارز** آن را باز کنید.
 2. **Add تبدیل ارز** را انتخاب کنید.
 3. تاریخی را وارد کنید که نرخ از آن روز اعمال می‌شود.
 4. From Currency و To Currency را انتخاب کنید.
@@ -124,7 +124,7 @@ ERPNext پیش از درخواست از ارائه‌دهندهٔ آنلاین �
 ## موضوعات مرتبط
 
 - [ارز (Currency)](currency.md)
-- [راهنمای «Multi Currency Setup» در ERPNext](https://docs.frappe.io/erpnext/multi-currency-setup)
+- [چند ارزی Setup](https://docs.frappe.io/erpnext/multi-currency-setup)
 - [تنظیمات نرخ تبدیل ارز](currency-exchange-settings.md)
 - [راهنمای «Manage Foreign Exchange Difference» در ERPNext](https://docs.frappe.io/erpnext/manage-foreign-exchange-difference)
 - [تجدید ارزیابی نرخ ارز](exchange-rate-revaluation.md)

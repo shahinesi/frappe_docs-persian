@@ -15,7 +15,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 >
 > تصویرهای صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.
 
-نشانی ایمیل **Reply-To** بر اساس گزینهٔ **Default Incoming** در Email حساب موردنظر تعیین می‌شود.
+نشانی ایمیل **Reply-To** بر اساس گزینهٔ **ورودی پیش‌فرض** در Email حساب موردنظر تعیین می‌شود.
 
 ## پیش‌نیاز
 
@@ -23,7 +23,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## مراحل
 
-در رکورد نشانی ایمیل [`abc@test.com`](mailto:abc@test.com) که در DocType «Email حساب» ساخته‌اید، چک‌باکس **Enable Incoming** و سپس چک‌باکس **Default Incoming** را فعال کنید. با فعال‌کردن **Default Incoming**، این نشانی به‌عنوان ایمیل **Reply-To** تنظیم می‌شود.
+در رکورد نشانی ایمیل [`abc@test.com`](mailto:abc@test.com) که در DocType «Email حساب» ساخته‌اید، چک‌باکس **Incoming را فعال کنید** و سپس چک‌باکس **ورودی پیش‌فرض** را فعال کنید. با فعال‌کردن **ورودی پیش‌فرض**، این نشانی به‌عنوان ایمیل **Reply-To** تنظیم می‌شود.
 
 برای اطلاعات بیشتر دربارهٔ حساب‌های ایمیل، به [حساب ایمیل](email-account.md) مراجعه کنید.
 

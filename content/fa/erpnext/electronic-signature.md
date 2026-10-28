@@ -19,14 +19,14 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای ایجاد امضای الکترونیکی، مراحل زیر را انجام دهید:
 
-1. DocType را باز کنید و به **Customize Form** بروید.
+1. DocType را باز کنید و به **سفارشی‌سازی فرم** بروید.
 2. در نمای Form یا جدول Fields، فیلدی تازه با نام Signature بسازید و **فیلد Type** را روی **Signature** قرار دهید.
 
 ![انتخاب نوع فیلد Signature](https://docs.frappe.io/files/Screenshot%202024-06-21%20at%205.32.17%20PM.png)
 
 ![تنظیم فیلد امضا در فرم](https://docs.frappe.io/files/Screenshot%202024-06-21%20at%205.29.51%20PM.png)
 
-3. **Update** را انتخاب کنید.
+3. **به‌روزرسانی** را انتخاب کنید.
 4. صفحه را تازه‌سازی و امضای خود را وارد کنید.
 
 ![ترسیم امضا در فیلد](https://docs.frappe.io/files/Screenshot%202024-06-21%20at%205.27.47%20PM.png)

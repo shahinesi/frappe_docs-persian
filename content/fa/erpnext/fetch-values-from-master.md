@@ -25,7 +25,7 @@ add_fetch(link_fieldname, source_fieldname, target_fieldname)
 
 فرض کنید یک فیلد سفارشی با عنوان **شناسهٔ مالیاتی** و نام فنی `vat_id` در DocTypeهای `Customer` و `Sales Invoice` ساخته‌اید. می‌خواهید هر بار که در یک فاکتور فروش مشتری‌ای را انتخاب می‌کنید، مقدار شناسهٔ مالیاتی او نیز در فاکتور فروش قرار بگیرد.
 
-برای این کار، در Client Script مربوط به `Sales Invoice` این خط را اضافه کنید:
+برای این کار، در اسکریپت کلاینت مربوط به `Sales Invoice` این خط را اضافه کنید:
 
 ```javascript
 cur_frm.add_fetch('customer', 'vat_id', 'vat_id')

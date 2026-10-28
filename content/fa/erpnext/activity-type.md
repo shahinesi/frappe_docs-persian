@@ -26,7 +26,7 @@ ERPNext به‌طور پیش‌فرض نوع‌های فعالیت زیر را �
 
 - برنامه‌ریزی (Planning)
 - پژوهش (Research)
-- نگارش پیشنهاد (Proposal Writing)
+- نگارش پیشنهاد (پروپوزال نویسی)
 - اجرا (Execution)
 - ارتباطات (Communication)
 

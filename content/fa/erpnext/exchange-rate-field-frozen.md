@@ -29,9 +29,9 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## بررسی نرخ های مبادله قدیمی را مجاز کنید
 
-به **حسابداری > Settings > تنظیمات حساب‌ها** بروید و بخش تبدیل ارز Settings را پیدا کنید.
+به **حسابداری > Settings > تنظیمات حساب‌ها** بروید و بخش تنظیمات تبدیل ارز را پیدا کنید.
 
-![گزینهٔ Allow Stale Exchange Rates در تنظیمات حساب‌ها](https://novacompanies.m.frappe.cloud/files/docs-multi-currency-2026-accounts-settings-allow-stale-rate.png)
+![گزینهٔ نرخ های مبادله قدیمی را مجاز کنید در تنظیمات حساب‌ها](https://novacompanies.m.frappe.cloud/files/docs-multi-currency-2026-accounts-settings-allow-stale-rate.png)
 
 رفتار فعلی را بهتر است به‌عنوان سیاست انتخاب نرخ درک کنید:
 
@@ -63,16 +63,16 @@ ERPNext ابتدا رکورد ذخیره‌شدهٔ واجد شرایط را ج�
 ## اگر می‌خواهید نرخ را دستی در تراکنش وارد کنید
 
 1. تراکنش را در وضعیت Draft نگه دارید.
-2. **Currency** خارجی درست را انتخاب کنید.
+2. **واحد پول** خارجی درست را انتخاب کنید.
 3. ارزهای حساب دریافتنی، پرداختنی، بانکی یا نقدی [درخت حساب‌ها](chart-of-accounts.md) را تأیید کنید.
 4. فیلد نرخ تبدیل و جهت تبدیل آن را بررسی کنید.
 5. اگر فیلد قابل‌ویرایش است، نرخ تأییدشده را وارد کنید.
 6. جمع تراکنش و جمع به ارز شرکت را با هم مقایسه کنید.
 7. Draft را ذخیره و دوباره بارگذاری کنید تا از ماندگاری مقدار مطمئن شوید.
 
-![Exchange Rate در پیش‌نویس فاکتور فروش EUR](https://novacompanies.m.frappe.cloud/files/docs-multi-currency-2026-sales-invoice-eur-currency-rate.png)
+![نرخ تبدیل در پیش‌نویس فاکتور فروش EUR](https://novacompanies.m.frappe.cloud/files/docs-multi-currency-2026-sales-invoice-eur-currency-rate.png)
 
-**نرخ ارز لیست قیمت** فیلد دیگری است. این فیلد ارز [راهنمای «Price Lists» در ERPNext](https://docs.frappe.io/erpnext/price-lists) را به ارز تراکنش تبدیل می‌کند. اگر مشکل مربوط به تبدیل حسابداری میان ارز تراکنش و ارز شرکت است، این فیلد را تغییر ندهید.
+**نرخ ارز لیست قیمت** فیلد دیگری است. این فیلد ارز [لیست‌های قیمت](https://docs.frappe.io/erpnext/price-lists) را به ارز تراکنش تبدیل می‌کند. اگر مشکل مربوط به تبدیل حسابداری میان ارز تراکنش و ارز شرکت است، این فیلد را تغییر ندهید.
 
 ## تراکنش‌های ثبت نهایی‌شده
 

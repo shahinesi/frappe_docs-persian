@@ -135,7 +135,7 @@ ERPNext با ابزارهای گزارش‌گیری و داشبورد در اک�
 - [ساخت نخستین داشبورد](../insights/dashboards/creating-your-first-dashboard.md): ایجاد داشبورد سفارشی در Insights.
 - [اشتراک‌گذاری و کنترل دسترسی](../insights/dashboards/sharing-and-access-control.md): تعیین افرادی که می‌توانند داشبوردها را ببینند.
 - [گزارش‌های میزکار](https://docs.frappe.io/framework/user/en/desk/reports/script-report): آشنایی با انواع گزارش در Frappe میزکار.
-- [گزارش Builder](https://docs.frappe.io/framework/user/en/desk/reports/report-builder): ساخت گزارش بدون کدنویسی.
+- [گزارش ساز](https://docs.frappe.io/framework/user/en/desk/reports/report-builder): ساخت گزارش بدون کدنویسی.
 - [پرس‌وجو گزارش](https://docs.frappe.io/framework/user/en/desk/reports/query-report): ساخت گزارش مبتنی بر SQL.
 - [Script گزارش](https://docs.frappe.io/framework/user/en/desk/reports/script-report): ساخت گزارش مبتنی بر اسکریپت.
 - [فضای کاری](https://docs.frappe.io/framework/user/en/desk/workspace): سازمان‌دهی میان‌برها، نمودارها و پیوندهای سطح ماژول.

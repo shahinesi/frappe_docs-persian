@@ -68,4 +68,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - [وب‌سایت Frappe Drive](https://drive.frappe.io)
 - [گروه عمومی Telegram](https://t.me/frappedrive)
 - [تالار گفت‌وگو](https://discuss.frappe.io/)
-- [مستندات](https://docs.frappe.io/drive/quick-start)
+- [میزبانی محلی](https://docs.frappe.io/drive/quick-start)

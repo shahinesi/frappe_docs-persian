@@ -8,6 +8,12 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const contentRoot = path.join(root, 'content', 'fa');
 const manifest = JSON.parse(await readFile(path.join(root, 'sources', 'manifest.json'), 'utf8'));
 const uiTermSnapshot = JSON.parse(await readFile(path.join(root, 'sources', 'ui-terms.json'), 'utf8'));
+const localeStacks = {
+	framework: ['framework'], erpnext: ['framework', 'erpnext'], hr: ['framework', 'erpnext', 'hr'],
+	helpdesk: ['framework', 'helpdesk'], insights: ['framework', 'insights'], crm: ['framework', 'crm'],
+	builder: ['framework', 'builder'], learning: ['framework', 'learning'], drive: ['framework', 'drive'],
+	wiki: ['framework'], other: ['framework'],
+};
 const linkAudit = JSON.parse(await readFile(path.join(root, 'sources', 'link-target-audit.json'), 'utf8'));
 const aliases = new Map();
 const manifestPaths = new Set(manifest.pages.map((page) => new URL(page.url).pathname.replace(/\/$/, '')));
@@ -72,8 +78,9 @@ const changedPaths = new Set();
 let changedFiles = 0;
 for (const [currentPath, page] of pages) {
 	const product = currentPath.match(/^content\/fa\/([^/]+)\//)?.[1];
-	const productTerms = { ...terms, ...(uiTermSnapshot.terms[product] || {}) };
-	const prepared = prepareMarkdownLinks(page.markdown, { currentPath, manifest, aliases, titles, terms: productTerms });
+	const productTerms = {};
+	for (const locale of localeStacks[product] || ['framework']) Object.assign(productTerms, uiTermSnapshot.terms[locale] || {});
+	const prepared = prepareMarkdownLinks(page.markdown, { currentPath, manifest, aliases, titles, terms, uiTerms: productTerms });
 	for (const [key, value] of Object.entries(prepared.counters)) totals[key] += value;
 	reviewIssues.push(...prepared.reviewIssues);
 	if (prepared.markdown === page.markdown) continue;

@@ -54,5 +54,5 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ## موضوعات مرتبط
 
 - [ثبت خودکار سرنخ](automate_lead_capturing.md)
-- [مشتری Group](customer-group.md)
-- [CRM Settings](/erpnext/crm-settings)
+- [گروه مشتریان](customer-group.md)
+- [تنظیمات CRM](crm_settings.md)

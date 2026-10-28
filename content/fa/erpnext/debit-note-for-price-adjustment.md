@@ -63,7 +63,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 | --- | --- |
 | بازگشتی است (یادداشت بدهکاری) | فاکتور خرید را به سندی کاهنده تبدیل می‌کند. |
 | فاکتور برگشت در مقابل خرید | تعدیل را به صورتحساب اصلی تأمین‌کننده پیوند می‌دهد. |
-| Accepted مقدار | تعداد کامل و منفیِ مشمول تغییر قیمت را وارد کنید. |
+| مقدار پذیرفته شده | تعداد کامل و منفیِ مشمول تغییر قیمت را وارد کنید. |
 | نرخ | اختلاف قیمت هر واحد را وارد کنید، نه قیمت اصلی یا اصلاح‌شده را. |
 | مبلغ | مبلغ کل کاهش؛ آن را با سند اعتباری تأمین‌کننده تطبیق دهید. |
 | به‌روزرسانی موجودی | برای تعدیل صرفاً قیمتی غیرفعال نگه دارید. |
@@ -120,4 +120,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - [یادداشت بدهکار (بدهکار Note)](debit-note.md)
 - [حساب‌های پرداختنی](/erpnext/accounts-payable)
 - [تطبیق پرداخت](https://docs.frappe.io/erpnext/payment-reconciliation)
-- [Purchase مالیات and Charges Template](https://docs.frappe.io/erpnext/purchase-taxes-and-charges-template)
+- [الگوی مالیات و هزینه‌های خرید](https://docs.frappe.io/erpnext/purchase-taxes-and-charges-template)

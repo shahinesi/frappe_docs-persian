@@ -44,7 +44,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ## 3. موضوعات مرتبط
 
 1. [ارزیابی عملکرد](https://docs.frappe.io/hr/appraisal)
-2. [کارمند Performance بازخورد](https://docs.frappe.io/hr/employee-performance-feedback)
+2. [بازخورد عملکرد کارکنان](https://docs.frappe.io/hr/employee-performance-feedback)
 
 ---
 

@@ -20,7 +20,7 @@ source_version: "f236909f52573872f0470b583552e812430ac3bd8deac74d2d7befac441abbe
 
 ![تنظیمات Braintree](https://docs.frappe.io/files/braintree_account.png)
 
-پس از فعال‌سازی سرویس، سامانه یک رکورد پرداخت Gateway و یک سرفصل حساب با نوع حساب بانک در درخت حساب‌ها ایجاد می‌کند.
+پس از فعال‌سازی سرویس، سامانه یک رکورد درگاه پرداخت و یک سرفصل حساب با نوع حساب بانک در درخت حساب‌ها ایجاد می‌کند.
 
 ![حساب Braintree در درخت حساب‌ها](https://docs.frappe.io/files/braintree_coa.png)
 

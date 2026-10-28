@@ -26,9 +26,9 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 فرض کنیم می‌خواهیم نسخه‌بندی را برای سفارش خرید فعال کنیم.
 
 1. به فهرست سفارش خرید بروید.
-2. از منوی کشویی، **Customize** را انتخاب کنید.
-3. صفحهٔ [سفارشی‌سازی فرم (Customize Form)](customize-form.md) مربوط به سفارش خرید باز می‌شود.
-4. در بخش Properties، گزینهٔ **Track Changes** را علامت بزنید.
+2. از منوی کشویی، **سفارشی‌سازی** را انتخاب کنید.
+3. صفحهٔ [سفارشی‌سازی فرم (سفارشی‌سازی فرم)](customize-form.md) مربوط به سفارش خرید باز می‌شود.
+4. در بخش Properties، گزینهٔ **پیگیری تغییرات** را علامت بزنید.
 
 ![فعال‌کردن سند Versioning](https://docs.frappe.io/files/using-document-versioning-2.gif)
 

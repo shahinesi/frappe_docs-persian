@@ -28,14 +28,14 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## 1. راه‌اندازی
 
-برای عملکرد درست برنامه، باید دست‌کم از یکی از پلتفرم‌های بالا API key بگیرید. راهنمای تنظیم هرکدام:
+برای عملکرد درست برنامه، باید دست‌کم از یکی از پلتفرم‌های بالا کلید API بگیرید. راهنمای تنظیم هرکدام:
 
 ### 1.1 SendCloud
 
 1. در [SendCloud](https://panel.sendcloud.sc/accounts/signup/) ثبت‌نام کنید.
 2. برای تولید **Public Key** و **Secret Key**، [این مراحل](https://support.sendcloud.com/hc/en-us/articles/360024967612-Service-points-for-API-Integrations#step-1-) را دنبال کنید.
 3. در Awesome Bar عبارت **SendCloud** را جست‌وجو کنید.
-4. **Public Key** را در فیلد **API Key** و **Secret Key** را در فیلد **API Secret** در DocTypeِ SendCloud وارد کنید.
+4. **Public Key** را در فیلد **کلید API** و **Secret Key** را در فیلد **API Secret** در DocTypeِ SendCloud وارد کنید.
 5. گزینهٔ **فعال** را فعال کنید.
 6. ذخیره کنید.
 
@@ -77,7 +77,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### 2.2 ایجاد حمل و نقل
 
-پس از مقایسهٔ نرخ‌ها، برای استفاده از یکی از سرویس‌ها، در ردیف مربوط دکمهٔ **Select** را بزنید. در نتیجه حمل و نقل به‌طور خودکار در پلتفرم ارائه‌دهندهٔ سرویس ایجاد می‌شود.
+پس از مقایسهٔ نرخ‌ها، برای استفاده از یکی از سرویس‌ها، در ردیف مربوط دکمهٔ **انتخاب کردن** را بزنید. در نتیجه حمل و نقل به‌طور خودکار در پلتفرم ارائه‌دهندهٔ سرویس ایجاد می‌شود.
 
 بخش **اطلاعات حمل و نقل** با توجه به حمل و نقل ایجادشده خودکار به‌روزرسانی خواهد شد.
 

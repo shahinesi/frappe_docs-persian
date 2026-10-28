@@ -104,7 +104,7 @@ users = client.get_list('User', fields=['name', 'first_name', 'last_name'], filt
 
 1. فهرست User را باز کنید و یک کاربر را انتخاب کنید.
 2. زبانهٔ «Settings» را بزنید.
-3. بخش API Access را باز کنید و Generate Keys را انتخاب کنید.
+3. بخش دسترسی به API را باز کنید و تولید کلیدها را انتخاب کنید.
 4. API Secret را از پنجرهٔ بازشده کپی و در جای امن نگه دارید.
 5. مقدار API Key را در همین بخش یادداشت کنید.
 

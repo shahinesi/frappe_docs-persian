@@ -29,7 +29,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 | ارسال کالا پیش از صدور صورتحساب | یادداشت تحویل | **Enable e-Waybill Generation from یادداشت تحویل** |
 | مرجوعی خرید یا یادداشت بدهکار | فاکتور خرید با فعال‌بودن **بازگشت است** | **Enable e-Waybill Generation from فاکتور خرید** |
 | دریافت کالا (برای نمونه از تأمین‌کنندهٔ ثبت‌نشده) | رسید خرید | **Enable e-Waybill Generation from رسید خرید** |
-| انتقال میان انبارهای خودتان یا ارسال کالا برای کار پیمانکاری | ثبت موجودی (Material Transfer یا Send to Subcontractor) | **Enable e-Waybill Generation for پیمانکاری فرعی and Material Transfer** |
+| انتقال میان انبارهای خودتان یا ارسال کالا برای کار پیمانکاری | ثبت موجودی (انتقال مواد یا ارسال به پیمانکار فرعی) | **Enable e-Waybill Generation for پیمانکاری فرعی and انتقال مواد** |
 
 ![تنظیمات e-Waybill در GST Settings](https://docs.frappe.io/files/gst-settings-e-waybill.png)
 

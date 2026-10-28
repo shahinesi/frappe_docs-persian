@@ -57,7 +57,7 @@ Helpdesk به‌صورت پیش‌فرض دو تیم ایجاد می‌کند. �
 
 ## منطق تخصیص سفارشی
 
-همچنین می‌توانید با [راهنمای «Server Script» در Frappe Framework](https://docs.frappe.io/framework/user/en/desk/scripting/server-script) منطق تخصیص خود را تعریف کنید.
+همچنین می‌توانید با [اسکریپت سرور](https://docs.frappe.io/framework/user/en/desk/scripting/server-script) منطق تخصیص خود را تعریف کنید.
 
 برای نمونه، می‌توانید بر اساس اولویت، تیکت‌ها را به تیم‌های مختلف بسپارید. اسکریپت زیر تیم و کارشناس را بر مبنای اولویت به‌طور خودکار تعیین می‌کند:
 

@@ -58,7 +58,7 @@ e-Invoice can only be cancelled upto 24 hours after it is generated
 
 تا 24 ساعت پس از تولید:
 
-1. فاکتور فروش را باز کنید و **Cancel** را بزنید.
+1. فاکتور فروش را باز کنید و **لغو** را بزنید.
 2. انتخاب کنید که IRN نیز همراه صورتحساب لغو شود. اگر گزینهٔ **Automatically Cancel e-Invoice on Invoice Cancellation** در GST Settings فعال باشد، لغو IRN بدون پرسش انجام می‌شود.
 
 پس از 24 ساعت، درگاه صورتحساب الکترونیکی را لغو نمی‌کند:
@@ -70,7 +70,7 @@ e-Invoice can only be cancelled upto 24 hours after it is generated
 
 ## صورتحساب فقط اقلام با نرخ صفر یا معاف دارد
 
-گزینهٔ **Nil / Exempted / Non-GST Items in e-Invoice** در **GST Settings > General** تعیین می‌کند چه اتفاقی بیفتد: Do Not Generate، Generate with Other Charges یا Generate with Taxable Values. اگر موردی اشتباهاً به‌صورت Nil-Rated نمایش داده می‌شود، **کالا Tax Template** و جزئیات GST آن را بررسی کنید. همچنین ببینید [چرا GST در صورتحساب اشتباه است یا نمایش داده نمی‌شود؟](https://docs.frappe.io/erpnext/gst-wrong-on-invoice).
+گزینهٔ **Nil / Exempted / Non-GST Items in e-Invoice** در **GST Settings > General** تعیین می‌کند چه اتفاقی بیفتد: Do Not Generate، Generate with Other Charges یا Generate with Taxable Values. اگر موردی اشتباهاً به‌صورت Nil-Rated نمایش داده می‌شود، **الگوی مالیات آیتم** و جزئیات GST آن را بررسی کنید. همچنین ببینید [چرا GST در صورتحساب اشتباه است یا نمایش داده نمی‌شود؟](https://docs.frappe.io/erpnext/gst-wrong-on-invoice).
 
 ## چاپ صورتحساب الکترونیکی همراه IRN و کد QR
 

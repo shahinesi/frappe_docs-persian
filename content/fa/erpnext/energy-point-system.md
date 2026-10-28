@@ -70,7 +70,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ![فرایند بازبینی](https://docs.frappe.io/files/review-system.gif)
 
-برای بازبینی، کاربر باید امتیاز بازبینی داشته باشد. **System Manager** می‌تواند این امتیازها را از طریق **Energy Point Settings** به او اختصاص دهد.
+برای بازبینی، کاربر باید امتیاز بازبینی داشته باشد. **مدیر سیستم** می‌تواند این امتیازها را از طریق **Energy Point Settings** به او اختصاص دهد.
 
 همچنین می‌توانید از **Energy Point Settings** تخصیص خودکار امتیاز بازبینی را تنظیم کنید:
 

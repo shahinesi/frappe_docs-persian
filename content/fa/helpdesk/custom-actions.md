@@ -50,7 +50,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### کنش‌های گروه‌بندی‌شده
 
-این کد گروهی از دکمه‌ها را زیر منوی سه‌نقطه‌ای با عنوان **Add** پنهان می‌کند. با کلیک روی **باز Weekly Analysis** یا **باز Article Analysis** تابع onClick متناظر اجرا می‌شود (تعریف توابع در جای دیگری انجام می‌شود).
+این کد گروهی از دکمه‌ها را زیر منوی سه‌نقطه‌ای با عنوان **افزودن** پنهان می‌کند. با کلیک روی **باز Weekly Analysis** یا **باز Article Analysis** تابع onClick متناظر اجرا می‌شود (تعریف توابع در جای دیگری انجام می‌شود).
 
 ![اسکریپت منوی سه‌نقطه‌ای](https://docs.frappe.io/files/Three%20dots%20script.png)
 
@@ -77,7 +77,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### کنش‌های گروهی با عنوان
 
-این کد گروهی از دکمه‌ها را زیر دکمهٔ کشویی **Reports** پنهان می‌کند. با انتخاب **باز Weekly Analysis** یا **باز Article Analysis** تابع onClick مربوط اجرا می‌شود.
+این کد گروهی از دکمه‌ها را زیر دکمهٔ کشویی **گزارش‌ها** پنهان می‌کند. با انتخاب **باز Weekly Analysis** یا **باز Article Analysis** تابع onClick مربوط اجرا می‌شود.
 
 ![اسکریپت دکمهٔ کشویی](https://docs.frappe.io/files/Button%20Dropdown%20script.png)
 
@@ -109,7 +109,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - <code>$dialog</code>: بازکردن پنجرهٔ تأیید همراه کنش‌ها. هنگام ساخت پنجره می‌توانید کلیدهای title، message، html و اقدامات را بدهید. تابع onClick هر کنش پنجره، <code>{ close }</code> را دریافت می‌کند؛ برای بستن پنجره <code>close()</code> را فراخوانی کنید. شکل قدیمی‌تر <code>onClick(close)</code> نیز همچنان کار می‌کند.
 - <code>updateField</code>: به‌روزرسانی یک فیلد مشخص؛ برای نمونه <code>updateField('status', 'closed', callback)</code>.
 - <code>router</code>: رفتن به صفحه‌ای دیگر با Vue Router.
-- <code>call</code>: فراخوانی API از سمت کاربر. می‌توانید نقطهٔ پایانی سمت سرور را در Server Script تعریف کنید.
+- <code>call</code>: فراخوانی API از سمت کاربر. می‌توانید نقطهٔ پایانی سمت سرور را در اسکریپت سرور تعریف کنید.
 - <code>toast</code>: نمایش پیام کوتاه با <code>toast.success()</code>، <code>toast.error()</code> یا <code>toast.info()</code>.
 - <code>createToast</code>: نمایش پیام موفقیت یا خطا؛ پوشش قدیمی‌تر برای toast که هنوز پشتیبانی می‌شود.
 

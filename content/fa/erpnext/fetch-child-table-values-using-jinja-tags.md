@@ -21,15 +21,15 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## پیش‌نیازها
 
-ابتدا نام متغیر فیلدِ جدول فرزند را در DocType مربوط پیدا کنید. این نام را می‌توانید در بخش **Customize Form** مربوط به آن DocType ببینید؛ تصویر زیر محل آن را نشان می‌دهد.
+ابتدا نام متغیر فیلدِ جدول فرزند را در DocType مربوط پیدا کنید. این نام را می‌توانید در بخش **سفارشی‌سازی فرم** مربوط به آن DocType ببینید؛ تصویر زیر محل آن را نشان می‌دهد.
 
-![یافتن نام فیلد جدول فرزند در Customize Form](https://docs.frappe.io/files/f7Xxz1S.png)
+![یافتن نام فیلد جدول فرزند در سفارشی‌سازی فرم](https://docs.frappe.io/files/f7Xxz1S.png)
 
-همچنین برای فیلدهای جدول فرزند که می‌خواهید به آن‌ها ارجاع دهید، به نام متغیر هر فیلد نیاز دارید. این نام‌ها را در بخش **Customize Form** مربوط به خود جدول فرزند پیدا کنید.
+همچنین برای فیلدهای جدول فرزند که می‌خواهید به آن‌ها ارجاع دهید، به نام متغیر هر فیلد نیاز دارید. این نام‌ها را در بخش **سفارشی‌سازی فرم** مربوط به خود جدول فرزند پیدا کنید.
 
-![فیلدهای جدول فرزند در Customize Form](https://docs.frappe.io/files/tzloEh2.png)
+![فیلدهای جدول فرزند در سفارشی‌سازی فرم](https://docs.frappe.io/files/tzloEh2.png)
 
-![نمای Customize Form](https://docs.frappe.io/files/wPB82f0.png)
+![نمای سفارشی‌سازی فرم](https://docs.frappe.io/files/wPB82f0.png)
 
 ![نمای فیلدهای جدول فرزند](https://docs.frappe.io/files/AV0308f.png)
 

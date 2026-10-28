@@ -42,7 +42,7 @@ https://<yoursitename>/api/method/telephony.twilio.api.twilio_incoming_call_hand
 
 ### نشانی API تماس خروجی
 
-به **تلفن Numbers → Manage → TwiML apps** بروید و برنامهٔ خود را انتخاب کنید. در **Voice Configuration → Request URL** نشانی زیر را وارد کنید:
+به **تلفن Numbers → Manage → TwiML apps** بروید و برنامهٔ خود را انتخاب کنید. در **Voice Configuration → URL درخواست** نشانی زیر را وارد کنید:
 
 ```text
 https://<yoursitename>/api/method/telephony.twilio.api.voice

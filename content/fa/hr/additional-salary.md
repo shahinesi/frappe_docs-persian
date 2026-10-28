@@ -30,7 +30,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 1. به فهرست حقوق اضافی بروید و روی **جدید** کلیک کنید.
 2. **کارمند** را انتخاب کنید.
 3. **مؤلفهٔ حقوق** را انتخاب کنید.
-4. مقدار **Amount** را وارد کنید.
+4. مقدار **مبلغ** را وارد کنید.
 5. **تاریخ حقوق و دستمزد** را وارد کنید. اگر تاریخ حقوق و دستمزد حقوق اضافی در بازه‌ای باشد که حقوق و دستمزد پردازش می‌شود، مبلغ به درآمدها یا کسورات اضافه خواهد شد.
 6. سند را **ذخیره** و سپس **ارسال** کنید.
 
@@ -47,7 +47,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ## 4. موضوعات مرتبط
 
 1. [پاداش نگهداشت](https://docs.frappe.io/hr/retention-bonus)
-2. [کارمند Incentive](https://docs.frappe.io/hr/employee-incentive)
+2. [مشوق کارکنان](https://docs.frappe.io/hr/employee-incentive)
 3. [ساختار حقوق](https://docs.frappe.io/hr/salary-structure)
 4. [ساختار حقوق Assignment](https://docs.frappe.io/hr/salary-structure-assignment)
 5. [سند پردازش حقوق و دستمزد](https://docs.frappe.io/hr/payroll-entry)

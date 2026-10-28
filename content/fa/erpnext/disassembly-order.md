@@ -17,9 +17,9 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 در ERPNext از **Disassembly Order** برای بازکردن کالای ساخته‌شده و بازگرداندن قطعات سالم آن به انبار استفاده می‌شود. هنگام افزودن قطعات به انبار، سیستم اجازه می‌دهد نرخ ارزش‌گذاری آن‌ها را تغییر دهید.
 
-برای ایجاد Disassembly Order، دستور کارای را باز کنید که در وضعیت **Completed** یا **Closed** است. روی دکمهٔ ایجاد کلیک کنید و سپس **Disassembly Order** را انتخاب کنید.
+برای ایجاد Disassembly Order، دستور کارای را باز کنید که در وضعیت **تکمیل شده** یا **بسته شده** است. روی دکمهٔ ایجاد کلیک کنید و سپس **Disassembly Order** را انتخاب کنید.
 
-![انتخاب Disassembly Order از Work Order](https://docs.frappe.io/files/work-order-disassembly-orderfe73b5.png)
+![انتخاب Disassembly Order از دستور کار](https://docs.frappe.io/files/work-order-disassembly-orderfe73b5.png)
 
 پس از انتخاب دکمهٔ **Disassembly Order**، سیستم ثبت موجودیای با نوع **Disassemble** باز می‌کند.
 

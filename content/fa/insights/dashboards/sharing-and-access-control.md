@@ -33,7 +33,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 #### روش اشتراک‌گذاری
 
-1. در سربرگ داشبورد روی **Share** کلیک کنید.
+1. در سربرگ داشبورد روی **اشتراک گذاری** کلیک کنید.
 2. روش اشتراک‌گذاری را انتخاب کنید:
    - **General Access**: حالت Private، Organization یا Public.
    - **Add People**: کاربران مشخص را جست‌وجو و انتخاب کنید.

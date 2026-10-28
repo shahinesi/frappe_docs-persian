@@ -18,8 +18,8 @@ source_version: "64058ea0cb49351bbd37eed633c1d30567db08b9ef6af1c25f2e59efcf7e3f1
 ## 1. ایجاد نوشتهٔ وبلاگ
 
 1. به فهرست Blog Post بروید و روی **جدید** کلیک کنید.
-2. **Title**، **Blog Category**، **Blogger** و **Content** را وارد کنید.
-3. گزینهٔ **Published** را فعال و روی **ذخیره** کلیک کنید.
+2. **عنوان**، **Blog Category**، **Blogger** و **محتوا** را وارد کنید.
+3. گزینهٔ **منتشر شده** را فعال و روی **ذخیره** کلیک کنید.
 
 **Blog Intro** توضیح کوتاهی دربارهٔ وبلاگ است که پس از عنوان و پیش از محتوا نمایش داده می‌شود.
 
@@ -32,7 +32,7 @@ source_version: "64058ea0cb49351bbd37eed633c1d30567db08b9ef6af1c25f2e59efcf7e3f1
 ![نوشتهٔ وبلاگ با Markdown](https://docs.frappe.io/files/blog-post-in-markdown.png)
 *نوشتهٔ وبلاگ در Markdown*
 
-برای مشاهدهٔ نوشتهٔ وبلاگ، در نوار کناری روی **See on Website** کلیک کنید.
+برای مشاهدهٔ نوشتهٔ وبلاگ، در نوار کناری روی **در وب سایت ببینید** کلیک کنید.
 
 ![نوشتهٔ وبلاگ در وب‌سایت](https://docs.frappe.io/files/blog-post.png)
 *نوشتهٔ وبلاگ در وب‌سایت*
@@ -71,7 +71,7 @@ Blogger کاربری است که می‌تواند مطلب وبلاگ منتش�
 ![Blog Category](https://docs.frappe.io/files/blog-category.png)
 *Blog Category*
 
-اگر در نوار کناری روی **See on Website** کلیک کنید، به فهرست نوشته‌های وبلاگ آن دسته‌بندی هدایت می‌شوید.
+اگر در نوار کناری روی **در وب سایت ببینید** کلیک کنید، به فهرست نوشته‌های وبلاگ آن دسته‌بندی هدایت می‌شوید.
 
 ![نمای عمومی دسته‌بندی Blog Category](https://docs.frappe.io/files/blog-category-web-view.png)
 *Blog Category - General*

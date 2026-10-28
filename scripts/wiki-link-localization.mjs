@@ -1,22 +1,86 @@
 import path from 'node:path';
 
-const MARKDOWN_TOKEN = /```[\s\S]*?```|`[^`\n]*`|<code\b[^>]*>[\s\S]*?<\/code\s*>|<pre\b[^>]*>[\s\S]*?<\/pre\s*>|!\[[^\]]*\]\([^)]*\)|\[[^\]]*\]\([^)]*\)/gi;
+const MARKDOWN_TOKEN = /```[\s\S]*?```|`[^`\n]*`|<code\b[^>]*>[\s\S]*?<\/code\s*>|<pre\b[^>]*>[\s\S]*?<\/pre\s*>|!\[[^\]]*\]\([^)]*\)|\[[^\]]*\]\([^)]*\)|\*\*(?![^*\n]*(?:\]\(|`))[^*\n]+\*\*/gi;
 const FA_LETTER = /[\u0600-\u06FF]/;
 const ATTRIBUTION_LABEL = /(منبع|مشاهده.{0,8}منبع|\bsource\b)/i;
+const mixedEntriesCache = new Map();
+const compiledTermsCache = new Map();
+const compiledTermsObjectCache = new WeakMap();
 
 function escapeRegExp(value) {
 	return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
-export function replaceUiTerms(text, terms, counters) {
-	let result = text;
-	const entries = Object.entries(terms).sort(([left], [right]) => right.length - left.length);
-	for (const [english, persian] of entries) {
-		if (!english || !persian) continue;
-		const pattern = new RegExp(`(?<![A-Za-z0-9])${escapeRegExp(english)}(?![A-Za-z0-9])`, 'gi');
-		if (counters) counters.translatedTerms += [...result.matchAll(pattern)].length;
-		result = result.replace(pattern, (match) => match === match.toUpperCase() && english !== match ? match : persian);
+function getTermsCacheKey(terms) {
+	return Object.entries(terms).sort(([left], [right]) => left.localeCompare(right)).map(([key, value]) => `${key}\u0000${value}`).join('\u0001');
+}
+
+function getCompiledTerms(terms) {
+	if (compiledTermsObjectCache.has(terms)) return compiledTermsObjectCache.get(terms);
+	const cacheKey = getTermsCacheKey(terms);
+	if (compiledTermsCache.has(cacheKey)) {
+		const cached = compiledTermsCache.get(cacheKey);
+		compiledTermsObjectCache.set(terms, cached);
+		return cached;
 	}
+	const entries = Object.entries(terms).filter(([english, persian]) => english && persian).sort(([left], [right]) => right.length - left.length);
+	const lookup = new Map(entries.map(([english, persian]) => [english.toLowerCase(), persian]));
+	const alternatives = entries.map(([english]) => escapeRegExp(english)).join('|');
+	const result = alternatives
+		? { lookup, pattern: new RegExp(`(?<![A-Za-z0-9])(?:${alternatives})(?![A-Za-z0-9])`, 'gi') }
+		: { lookup, pattern: null };
+	compiledTermsCache.set(cacheKey, result);
+	compiledTermsObjectCache.set(terms, result);
+	return result;
+}
+
+function buildMixedTermEntries(terms) {
+	const cacheKey = getTermsCacheKey(terms);
+	if (mixedEntriesCache.has(cacheKey)) return mixedEntriesCache.get(cacheKey);
+	const entries = Object.entries(terms).sort(([left], [right]) => right.length - left.length);
+	const mixedEntries = [];
+	for (const [english, persian] of entries) {
+		if (!english.includes(' ') || !persian || !FA_LETTER.test(persian)) continue;
+	const partialTerms = Object.fromEntries(entries.filter(([candidate]) => candidate !== english
+		&& candidate.length < english.length
+		&& english.toLowerCase().includes(candidate.toLowerCase())));
+		const partial = replaceUiTerms(english, partialTerms);
+		if (partial !== english && partial !== persian && FA_LETTER.test(partial) && /[A-Za-z]/.test(partial)) {
+			mixedEntries.push([partial, persian]);
+		}
+	}
+	const result = mixedEntries.sort(([left], [right]) => left.length - right.length);
+	mixedEntriesCache.set(cacheKey, result);
+	return result;
+}
+
+export function replaceUiTerms(text, terms, counters, mixedEntries = []) {
+	let result = text;
+	for (const [partial, persian] of mixedEntries) {
+		if (!partial || !result.includes(partial)) continue;
+		const leftBoundary = /^[A-Za-z0-9]/.test(partial) ? '(?<![A-Za-z0-9])' : '';
+		const rightBoundary = /[A-Za-z0-9]$/.test(partial) ? '(?![A-Za-z0-9])' : '';
+		const pattern = new RegExp(`${leftBoundary}${escapeRegExp(partial)}${rightBoundary}`, 'g');
+		const count = [...result.matchAll(pattern)].length;
+		if (counters) counters.translatedTerms += count;
+		result = result.replace(pattern, persian);
+	}
+	const compiled = getCompiledTerms(terms);
+	if (!compiled.pattern) return result;
+	if (counters) counters.translatedTerms += [...result.matchAll(compiled.pattern)].length;
+	result = result.replace(compiled.pattern, (match) => {
+		const english = match.toLowerCase();
+		const persian = compiled.lookup.get(english);
+		return match === match.toUpperCase() && english !== match ? match : persian || match;
+	});
+	return result;
+}
+
+function localizeDisplayLabel(text, terms, counters, mixedEntries = [], phraseTerms = terms) {
+	let result = replaceUiTerms(text, phraseTerms, counters, mixedEntries);
+	const trimmed = text.trim();
+	const exactTranslation = terms[trimmed];
+	if (exactTranslation) result = result.replace(trimmed, exactTranslation);
 	return result;
 }
 
@@ -29,17 +93,17 @@ function getPageTitle(value) {
 	return match?.[1]?.replaceAll('\\n', ' ').replaceAll('\\r', ' ').replace(/[\r\n]+/g, ' ').trim() || null;
 }
 
-function getOfficialPage(href, byPath, aliases) {
+function getOfficialPage(href, byPath, aliases = new Map()) {
 	try {
 		const url = href.startsWith('/')
 			? new URL(href, 'https://docs.frappe.io')
 			: new URL(href);
 		if (url.hostname.toLowerCase() !== 'docs.frappe.io') return null;
+		if (url.pathname.startsWith('/files/')) return null;
 		const pathname = decodeURI(url.pathname).replace(/\/$/, '').replace(/\.md$/i, '');
 		const section = pathname.split('/')[1];
-		const productSections = new Set(['builder', 'crm', 'drive', 'erpnext', 'framework', 'helpdesk', 'hr', 'insights', 'learning', 'wiki']);
-		if (!productSections.has(section)) return null;
-		return { page: byPath.get(pathname) || byPath.get(aliases.get(pathname)), hash: url.hash, section, pathname };
+		const page = byPath.get(pathname) || byPath.get(aliases.get(pathname));
+		return { page, hash: url.hash, section: page?.section || section, pathname };
 	} catch {
 		return null;
 	}
@@ -61,20 +125,27 @@ function productLinkLabel(section) {
 	return labels[section] || 'مستندات رسمی Frappe';
 }
 
-function localizeImageAlt(token, terms, counters) {
+function isGenericPageLabel(label) {
+	return /^مستندات رسمی (?:ERPNext|Frappe|Frappe Framework|Frappe HR|Helpdesk|Insights|Frappe Builder|Frappe CRM|Frappe Drive|Frappe Learning|Frappe Wiki)$/.test(label.trim())
+		|| /^مستندات$/.test(label.trim())
+		|| /^صفحه(?:ٔ|‌ی|ی)? رسمی$/.test(label.trim())
+		|| /^راهنمای «.*» در (?:ERPNext|Frappe Framework|Frappe HR|Frappe Helpdesk|Insights|Frappe CRM|Frappe Builder|Frappe Learning|Frappe Drive)$/.test(label.trim());
+}
+
+function localizeImageAlt(token, terms, counters, mixedEntries, phraseTerms) {
 	const match = token.match(/^!\[([^\]]*)\](\(.*\))$/);
 	if (!match) return token;
-	const alt = replaceUiTerms(match[1], terms, counters);
+	const alt = localizeDisplayLabel(match[1], terms, counters, mixedEntries, phraseTerms);
 	if (alt !== match[1]) counters.localizedLabels++;
 	return `![${alt}]${match[2]}`;
 }
 
-function rewriteLink(token, { currentPath, byPath, byTranslationPath, titles, terms, counters, reviewIssues }) {
+function rewriteLink(token, { currentPath, byPath, byTranslationPath, titles, terms, mixedEntries, phraseTerms, counters, reviewIssues }) {
 	const match = token.match(/^(\[)([^\]]*)(\]\()(<[^>]+>|[^\s)]+)([^)]*)(\))$/);
 	if (!match) return token;
 	const [, open, originalLabel, close, wrappedHref, suffix, end] = match;
 	const href = wrappedHref.replace(/^<|>$/g, '');
-	let label = replaceUiTerms(originalLabel, terms, counters).replaceAll('\\n', ' ').replaceAll('\\r', ' ').trim();
+	let label = localizeDisplayLabel(originalLabel, terms, counters, mixedEntries, phraseTerms).replaceAll('\\n', ' ').replaceAll('\\r', ' ').trim();
 	let nextHref = href;
 	let targetPath = null;
 	const official = getOfficialPage(href, byPath);
@@ -95,14 +166,13 @@ function rewriteLink(token, { currentPath, byPath, byTranslationPath, titles, te
 			if (!FA_LETTER.test(label) && !isAttribution) label = productLinkLabel(section);
 		} else if (page && !isAttribution) {
 			nextHref = `${page.url}${hash}`;
-			const isGenericProductLabel = /^مستندات رسمی (?:ERPNext|Frappe|Frappe Framework|Frappe HR|Helpdesk|Insights|Frappe Builder|Frappe CRM|Frappe Drive|Frappe Learning|Frappe Wiki)$/.test(originalLabel.trim())
-				|| /^راهنمای «.*» در (?:ERPNext|Frappe Framework|Frappe HR|Frappe Helpdesk|Insights|Frappe CRM|Frappe Builder|Frappe Learning|Frappe Drive)$/.test(originalLabel.trim());
+			const isGenericProductLabel = isGenericPageLabel(originalLabel);
 			if (!FA_LETTER.test(label) || isGenericProductLabel) {
 				const cleanSourceTitle = (page.source_title || '').replaceAll('\\n', ' ').replaceAll('\\r', ' ').replace(/[\r\n]+/g, ' ').replace(/\s*\|\s*(?:ERPNext|Frappe Framework|Frappe HR|Frappe Helpdesk|Insights|Frappe CRM|Frappe Builder|Frappe Learning|Frappe Drive) Documentation\s*$/i, '').trim();
-				const sourceTitle = cleanSourceTitle ? replaceUiTerms(cleanSourceTitle, terms) : '';
+				const sourceTitle = cleanSourceTitle ? localizeDisplayLabel(cleanSourceTitle, terms, null, mixedEntries, phraseTerms) : '';
 				label = FA_LETTER.test(sourceTitle)
 					? sourceTitle
-					: `راهنمای «${sourceTitle || label}» در ${productLinkLabel(page.section).replace(/^مستندات رسمی /, '')}`;
+					: `راهنمای «${sourceTitle || cleanSourceTitle || label}» در ${productLinkLabel(page.section).replace(/^مستندات رسمی /, '')}`;
 			}
 		}
 		if (!page && !reviewIssues.some((issue) => issue.file === currentPath && issue.href === href)) {
@@ -135,7 +205,7 @@ function rewriteLink(token, { currentPath, byPath, byTranslationPath, titles, te
 
 	const translatedTitle = targetPath ? titles.get(targetPath) : null;
 	if (translatedTitle && !isAttribution) {
-		if (!FA_LETTER.test(label) || label.trim() === (official?.page.source_title || '').trim()) {
+		if (!FA_LETTER.test(label) || label.trim() === (official?.page.source_title || '').trim() || isGenericPageLabel(originalLabel)) {
 			label = translatedTitle;
 		}
 	}
@@ -150,6 +220,7 @@ export function prepareMarkdownLinks(markdown, {
 	aliases = new Map(),
 	titles = new Map(),
 	terms = {},
+	uiTerms = {},
 }) {
 	const byPath = new Map();
 	const byTranslationPath = new Map();
@@ -163,6 +234,13 @@ export function prepareMarkdownLinks(markdown, {
 		const canonicalPath = canonical.startsWith('https://docs.frappe.io') ? new URL(canonical).pathname : canonical;
 		byPath.set(alias, byPath.get(decodeURI(canonicalPath).replace(/\/$/, '')));
 	}
+	const allTerms = { ...terms, ...uiTerms };
+	const phraseTerms = Object.fromEntries(Object.entries(allTerms).filter(([english]) => english.includes(' ')));
+	const bodyTerms = {
+		...terms,
+		...Object.fromEntries(Object.entries(uiTerms).filter(([english]) => english.includes(' '))),
+	};
+	const mixedEntries = buildMixedTermEntries(allTerms);
 	const counters = { localizedLabels: 0, localizedUrls: 0, changedUrls: 0, resolvedRelativeLinks: 0, translatedTerms: 0, unmappedOfficialLinks: 0, unresolvedRelativeLinks: 0 };
 	const reviewIssues = [];
 	const prefixMatch = markdown.match(/^\uFEFF?---\r?\n[\s\S]*?\r?\n---\r?\n/);
@@ -173,25 +251,29 @@ export function prepareMarkdownLinks(markdown, {
 	for (const match of body.matchAll(MARKDOWN_TOKEN)) {
 		const token = match[0];
 		const index = match.index ?? 0;
-		result += replaceUiTerms(body.slice(lastIndex, index), terms, counters);
+		result += replaceUiTerms(body.slice(lastIndex, index), bodyTerms, counters, mixedEntries);
 		if (token.startsWith('```') || token.startsWith('`')) {
 			result += token;
 		} else if (token.startsWith('![')) {
-			result += localizeImageAlt(token, terms, counters);
+			result += localizeImageAlt(token, allTerms, counters, mixedEntries, phraseTerms);
+		} else if (token.startsWith('**')) {
+			result += `**${localizeDisplayLabel(token.slice(2, -2), allTerms, counters, mixedEntries, phraseTerms)}**`;
 		} else {
 			result += rewriteLink(token, {
 				currentPath,
 				byPath,
 				byTranslationPath,
 				titles,
-				terms,
+				terms: allTerms,
+				mixedEntries,
+				phraseTerms,
 				counters,
 				reviewIssues,
 			});
 		}
 		lastIndex = index + token.length;
 	}
-	result += replaceUiTerms(body.slice(lastIndex), terms, counters);
+	result += replaceUiTerms(body.slice(lastIndex), bodyTerms, counters, mixedEntries);
 	return { markdown: prefix + result, counters, reviewIssues };
 }
 

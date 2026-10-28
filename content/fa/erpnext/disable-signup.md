@@ -25,11 +25,11 @@ ERPNext قابلیت درگاه وب دارد که به اشخاص بیرونی�
 
 1. به مسیر زیر بروید:
 
-   > Website > Setup > Website Settings
+   > Website > Setup > تنظیمات وب سایت
 
-2. در صفحهٔ Website Settings، به بخش **More Information** بروید.
+2. در صفحهٔ تنظیمات وب سایت، به بخش **More Information** بروید.
 3. گزینهٔ **Disable Signup** را فعال کنید.
 
 ![گزینهٔ Disable Signup](https://docs.frappe.io/files/disable-signup.png)
 
-4. Website Settings را ذخیره کنید.
+4. تنظیمات وب سایت را ذخیره کنید.

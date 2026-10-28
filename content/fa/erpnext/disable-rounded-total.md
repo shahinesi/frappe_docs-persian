@@ -19,7 +19,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 > توجه: قابلیت مجموع گرد شده فقط در تراکنش‌های **فروش** وجود دارد.
 
-![پیش‌نمایش چاپ با Rounded Total](https://docs.frappe.io/files/customize-disable-rounded-total-2.png)
+![پیش‌نمایش چاپ با مجموع گرد شده](https://docs.frappe.io/files/customize-disable-rounded-total-2.png)
 
 اگر می‌خواهید مجموع گرد شده را از قالب‌های چاپ استاندارد همهٔ تراکنش‌های فروش پنهان کنید، مراحل زیر را انجام دهید.
 

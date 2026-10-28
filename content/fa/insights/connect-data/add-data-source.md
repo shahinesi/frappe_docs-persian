@@ -43,7 +43,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - **پورت**: برای MariaDB معمولاً <code>3306</code> است و از پیش پر شده است.
 - **Database Name**: نام دقیق پایگاه داده.
 - **Username / Password**: اطلاعات ورود پایگاه داده.
-- **Use SSL**: اگر لازم است، این گزینه را فعال کنید.
+- **استفاده از SSL**: اگر لازم است، این گزینه را فعال کنید.
 
 ### گام 3: افزودن و آزمایش اتصال
 

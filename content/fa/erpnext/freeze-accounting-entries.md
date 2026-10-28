@@ -46,7 +46,7 @@ Nova Industries در 1 ژانویه استفاده از ERPNext را آغاز ک
 
 ## موضوعات مرتبط
 
-- [نمای کلی حسابداری](/erpnext/accounting/introduction)
+- [نمای کلی حسابداری](accounting-introduction.md)
 - [درخت حساب‌ها](chart-of-accounts.md)
 - [دفترکل](https://docs.frappe.io/erpnext/general-ledger)
 - [سال مالی](https://docs.frappe.io/erpnext/fiscal-year)

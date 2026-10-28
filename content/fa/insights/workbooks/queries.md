@@ -36,7 +36,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - **Choose Columns:** ستون‌هایی را که باید در نتیجه باشند انتخاب می‌کند.
 - **Add جدید Column:** با استفاده از یک عبارت، ستون تازه‌ای می‌سازد.
 - **Group & Summarise:** داده‌ها را بر اساس یک ستون گروه‌بندی و مقدارها را تجمیع می‌کند.
-- **Custom Operation:** برای تبدیل‌های پیچیده، عبارت‌های سفارشی Ibis می‌نویسید.
+- **عملیات سفارشی:** برای تبدیل‌های پیچیده، عبارت‌های سفارشی Ibis می‌نویسید.
 
 همهٔ عملیات انجام‌شده در **پنل سمت راست** نمایش داده می‌شوند. با **کلیک** روی هر عملیات می‌توانید پرس‌وجو را به وضعیتی که هنگام اجرای آن عملیات داشته بازگردانید. برای تغییر عملیات فعال، روی آن **دوبار کلیک** کنید. همچنین می‌توانید پس از عملیات فعال، عملیات تازه‌ای بیفزایید.
 
@@ -106,12 +106,12 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 #### تابع‌های تجمیعی
 
-1. **Count** — `count(column)`؛ تعداد مقدارهای غیرتهی ستون را برمی‌گرداند. نمونه: `count(sales)`؛ نتیجه: `100`.
+1. **شمردن** — `count(column)`؛ تعداد مقدارهای غیرتهی ستون را برمی‌گرداند. نمونه: `count(sales)`؛ نتیجه: `100`.
 2. **Count Distinct** — `distinct_count(column)`؛ تعداد مقدارهای متمایز ستون را برمی‌گرداند. نمونه: `distinct_count(customer_id)`؛ نتیجه: `50`.
-3. **Sum** — `sum(column)`؛ جمع مقدارهای ستون را برمی‌گرداند. نمونه: `sum(sales)`؛ نتیجه: `10000`.
-4. **Average** — `avg(column)`؛ میانگین مقدارهای ستون را برمی‌گرداند. نمونه: `avg(sales)`؛ نتیجه: `100`.
-5. **Minimum** — `min(column)`؛ کمترین مقدار ستون را برمی‌گرداند. نمونه: `min(sales)`؛ نتیجه: `50`.
-6. **Maximum** — `max(column)`؛ بیشترین مقدار ستون را برمی‌گرداند. نمونه: `max(sales)`؛ نتیجه: `200`.
+3. **مجموع** — `sum(column)`؛ جمع مقدارهای ستون را برمی‌گرداند. نمونه: `sum(sales)`؛ نتیجه: `10000`.
+4. **میانگین** — `avg(column)`؛ میانگین مقدارهای ستون را برمی‌گرداند. نمونه: `avg(sales)`؛ نتیجه: `100`.
+5. **حداقل** — `min(column)`؛ کمترین مقدار ستون را برمی‌گرداند. نمونه: `min(sales)`؛ نتیجه: `50`.
+6. **حداکثر** — `max(column)`؛ بیشترین مقدار ستون را برمی‌گرداند. نمونه: `max(sales)`؛ نتیجه: `200`.
 7. **Group Concat** — `group_concat(column)`؛ مقدارهای ستون را به هم می‌چسباند. نمونه: `group_concat(product_name)`؛ نتیجه: `"Product A, Product B, Product C"`.
 8. **Sum if** — `sum_if(condition, column)`؛ جمع مقدارهای ستون را که شرط را دارند برمی‌گرداند. نمونه: `sum_if(sales > 1000, sales)`؛ نتیجه: `5000`.
 9. **Count if** — `count_if(condition, column)`؛ تعداد مقدارهای ستون را که شرط را دارند برمی‌گرداند. نمونه: `count_if(sales > 1000, sales)`؛ نتیجه: `5`.
@@ -134,7 +134,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 7. **Not Contains** — `not_contains(column, substring)`؛ اگر ستون زیررشته را نداشته باشد `true` وگرنه `false` برمی‌گرداند. نمونه: `not_contains(product_name, "A")`؛ نتیجه: `False`.
 8. **Starts With** — `starts_with(column, prefix)`؛ بررسی می‌کند مقدار ستون با پیشوند شروع می‌شود یا نه. نمونه: `starts_with(product_name, "Product")`؛ نتیجه: `True`.
 9. **Ends With** — `ends_with(column, suffix)`؛ بررسی می‌کند مقدار ستون به پسوند ختم می‌شود یا نه. نمونه: `ends_with(product_name, "A")`؛ نتیجه: `True`.
-10. **Length** — `length(column)`؛ طول مقدار ستون را برمی‌گرداند. نمونه: `length(product_name)`؛ نتیجه: `10`.
+10. **طول** — `length(column)`؛ طول مقدار ستون را برمی‌گرداند. نمونه: `length(product_name)`؛ نتیجه: `10`.
 
 #### تابع‌های عددی
 
@@ -145,20 +145,20 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 #### تابع‌های تاریخ
 
-1. **Year** — `year(column)`؛ بخش سال تاریخ را می‌دهد. نمونه: `year(order_date)`؛ نتیجه: `2022`.
+1. **سال** — `year(column)`؛ بخش سال تاریخ را می‌دهد. نمونه: `year(order_date)`؛ نتیجه: `2022`.
 2. **Quarter** — `quarter(column)`؛ بخش فصل تاریخ را می‌دهد. نمونه: `quarter(order_date)`؛ نتیجه: `3`.
-3. **Month** — `month(column)`؛ بخش ماه تاریخ را می‌دهد. نمونه: `month(order_date)`؛ نتیجه: `10`.
+3. **ماه** — `month(column)`؛ بخش ماه تاریخ را می‌دهد. نمونه: `month(order_date)`؛ نتیجه: `10`.
 4. **Week of Year** — `week_of_year(column)`؛ شمارهٔ هفته در سال را می‌دهد. نمونه: `week_of_year(order_date)`؛ نتیجه: `41`.
 5. **Day of Year** — `day_of_year(column)`؛ شمارهٔ روز در سال را می‌دهد. نمونه: `day_of_year(order_date)`؛ نتیجه: `288`.
-6. **Day of Week** — `day_of_week(column)`؛ روز هفته را در بازهٔ `0-6` برمی‌گرداند. نمونه: `day_of_week(order_date)`؛ نتیجه: `4`.
-7. **Day** — `day(column)`؛ بخش روز تاریخ را می‌دهد. نمونه: `day(order_date)`؛ نتیجه: `15`.
+6. **روز هفته** — `day_of_week(column)`؛ روز هفته را در بازهٔ `0-6` برمی‌گرداند. نمونه: `day_of_week(order_date)`؛ نتیجه: `4`.
+7. **روز** — `day(column)`؛ بخش روز تاریخ را می‌دهد. نمونه: `day(order_date)`؛ نتیجه: `15`.
 8. **Hour** — `hour(column)`؛ بخش ساعت را می‌دهد. نمونه: `hour(order_date)`؛ نتیجه: `10`.
 9. **Minute** — `minute(column)`؛ بخش دقیقه را می‌دهد. نمونه: `minute(order_date)`؛ نتیجه: `30`.
 10. **Second** — `second(column)`؛ بخش ثانیه را می‌دهد. نمونه: `second(order_date)`؛ نتیجه: `45`.
 11. **Microsecond** — `microsecond(column)`؛ بخش میکروثانیه را می‌دهد. نمونه: `microsecond(order_date)`؛ نتیجه: `500000`.
 12. **Date Diff** — `date_diff(column1, column2, unit)`؛ اختلاف دو ستون تاریخ را در واحد مشخص‌شده برمی‌گرداند. واحدها: `"year"`، `"quarter"`، `"month"`، `"week"`، `"day"`، `"hour"`، `"minute"`، `"second"`، `"millisecond"`، `"microsecond"` و `"nanosecond"`. نمونه: `date_diff(order_date, delivery_date, "day")`؛ نتیجه: `5`.
 13. **Format Date** — `format_date(column, format)`؛ تاریخ را با قالب معتبر ANSI `strftime` قالب‌بندی می‌کند. نمونه: `format_date(order_date, "%Y-%m-%d")`؛ نتیجه: `"2022-10-15"`.
-15. **Now** — `now()`؛ تاریخ و زمان فعلی را برمی‌گرداند. نمونه: `now()`؛ نتیجه: `"2022-10-15 10:30:00"`.
+15. **اکنون** — `now()`؛ تاریخ و زمان فعلی را برمی‌گرداند. نمونه: `now()`؛ نتیجه: `"2022-10-15 10:30:00"`.
 16. **امروز** — `today()`؛ تاریخ فعلی را برمی‌گرداند. نمونه: `today()`؛ نتیجه: `"2022-10-15"`.
 
 #### تابع‌های بولی
@@ -174,7 +174,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 1. **USD to INR** — `to_inr(currency_column, amount_column, rate=83)`؛ بر اساس نرخ، مقدار ستون مبلغ را از USD به INR تبدیل می‌کند. اگر ارز USD نباشد، مبلغ را بدون تغییر برمی‌گرداند. نرخ پیش‌فرض `83` است. نمونه: `to_inr(currency, amount, 83)`؛ نتیجه: `8300`.
 2. **INR to USD** — `to_usd(currency_column, amount_column, rate=83)`؛ بر اساس نرخ، مبلغ را از INR به USD تبدیل می‌کند. اگر ارز INR نباشد، مبلغ را بدون تغییر برمی‌گرداند. نرخ پیش‌فرض `83` است. نمونه: `to_usd(currency, amount, 83)`؛ نتیجه: `100`.
-3. **Row Number** — `row_number()`؛ شمارهٔ ردیف فعلی را برمی‌گرداند. نمونه: `row_number()`؛ نتیجه: `1`.
+3. **شماره ردیف** — `row_number()`؛ شمارهٔ ردیف فعلی را برمی‌گرداند. نمونه: `row_number()`؛ نتیجه: `1`.
 4. **Previous Period Value** — `previous_period_value(column, date_column, offset=1)`؛ مقدار ستون را برای دورهٔ قبلی بر اساس ستون تاریخ برمی‌گرداند. `offset` تعداد دوره‌هایی را مشخص می‌کند که باید به عقب برویم. نمونه: `previous_period_value(sales, order_date, 1)`؛ نتیجه: `1000`.
 5. **Next Period Value** — `next_period_value(column, date_column, offset=1)`؛ مقدار ستون را برای دورهٔ بعدی بر اساس ستون تاریخ برمی‌گرداند. `offset` تعداد دوره‌هایی را مشخص می‌کند که باید به جلو برویم. نمونه: `next_period_value(sales, order_date, 1)`؛ نتیجه: `2000`.
 6. **Percentage Change** — `percentage_change(column, date_column, offset=1)`؛ درصد تغییر مقدار ستون را در مقایسه با دورهٔ پیشین و بر اساس ستون تاریخ می‌دهد. `offset` تعداد دوره‌های عقب‌رفتن را مشخص می‌کند. نمونه: `percentage_change(sales, order_date, 1)`؛ نتیجه: `10`.

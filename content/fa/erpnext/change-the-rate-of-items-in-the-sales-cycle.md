@@ -31,7 +31,7 @@ ERPNext می‌تواند بررسی کند که نرخ کالا هنگام ان
 ## پیکربندی اعتبارسنجی نرخ
 
 1. [تنظیمات فروش](https://docs.frappe.io/erpnext/selling-settings) را باز کنید.
-2. بخش **کالا Price Settings** را باز کنید.
+2. بخش **قیمت آیتم Settings** را باز کنید.
 3. گزینهٔ **Maintain Same نرخ Throughout فروش Cycle** را فعال کنید.
 4. **Action If Same نرخ Is Not Maintained** را تنظیم کنید:
    - **هشدار** برای نمایش هشدار و اجازهٔ ذخیره؛

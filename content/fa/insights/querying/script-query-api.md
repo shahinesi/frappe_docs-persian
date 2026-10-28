@@ -13,7 +13,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 > این صفحه ترجمهٔ غیررسمی مستندات Frappe Insights است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/insights/querying/script-query-api)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 
-پرس‌وجوی اسکریپتی، Python را با <code>safe_exec</code> در sandbox مربوط به Server Script اجرا می‌کند. برای فعال‌کردن آن، مقدار <code>"server_script_enabled": 1</code> را در <code>common_site_config.json</code> قرار دهید.
+پرس‌وجوی اسکریپتی، Python را با <code>safe_exec</code> در sandbox مربوط به اسکریپت سرور اجرا می‌کند. برای فعال‌کردن آن، مقدار <code>"server_script_enabled": 1</code> را در <code>common_site_config.json</code> قرار دهید.
 
 پرس‌وجوی اسکریپتی فقط‌خواندنی است. هر تغییری که اسکریپت در پایگاه داده ایجاد کند، پس از پایان اجرا بازگردانده می‌شود.
 
@@ -58,7 +58,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## نکته‌ها
 
-- این صفحه APIهای رایج را فهرست می‌کند. همهٔ APIهای خواندنی موجود در sandbox مربوط به Server Script چارچوب نیز در دسترس‌اند؛ به [مستندات API مربوط به Server Script](https://docs.frappe.io/framework/user/en/desk/scripting/script-api) مراجعه کنید.
+- این صفحه APIهای رایج را فهرست می‌کند. همهٔ APIهای خواندنی موجود در sandbox مربوط به اسکریپت سرور چارچوب نیز در دسترس‌اند؛ به [مستندات API مربوط به اسکریپت سرور](https://docs.frappe.io/framework/user/en/desk/scripting/script-api) مراجعه کنید.
 - <code>frappe.db.sql</code> فقط دستورهای <code>select</code> و <code>explain</code> را اجرا می‌کند.
 - نتیجه‌ها برای 5 دقیقه cache می‌شوند. کلید cache شامل کد، مقدار متغیرها و فیلترهای زمان اجرا است. برای نادیده‌گرفتن cache از **Force Run** استفاده کنید.
 

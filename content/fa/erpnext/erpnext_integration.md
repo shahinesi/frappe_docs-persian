@@ -27,7 +27,7 @@ ERPNext قابلیت‌های متنوعی برای یکپارچه‌سازی د
 ### یکپارچه‌سازی‌های پشتیبان‌گیری
 
 - [راه‌اندازی نسخهٔ پشتیبان در Dropbox](dropbox-backup.md)
-- [یکپارچه‌سازی Google Drive](https://docs.frappe.io/erpnext/google_drive)
+- [یکپارچه‌سازی درایو گوگل](https://docs.frappe.io/erpnext/google_drive)
 - [بارگذاری نسخه‌های پشتیبان در Amazon S3](aws_s3.md)
 
 ### یکپارچه‌سازی‌های بانکی

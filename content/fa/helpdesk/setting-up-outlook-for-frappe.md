@@ -15,13 +15,13 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 >
 > تصاویر رابط کاربری صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.
 
-می‌توانید صندوق Microsoft 365 / Outlook را به‌جای گذرواژه با OAuth به Frappe وصل کنید. OAuth روش پیشنهادی است، چون Microsoft در حال کنارگذاشتن احراز هویت پایه (با گذرواژه) برای Exchange Online است و Frappe می‌تواند بدون ذخیرهٔ گذرواژهٔ صندوق ایمیل شما، ایمیل بفرستد و دریافت کند. راه‌اندازی در دو بخش انجام می‌شود: ابتدا در **Microsoft Entra شناسه** (Azure) برنامه‌ای ثبت می‌کنید، سپس **Connected App** و **حساب کاربری ایمیل** را در Frappe به آن متصل می‌کنید.
+می‌توانید صندوق Microsoft 365 / Outlook را به‌جای گذرواژه با OAuth به Frappe وصل کنید. OAuth روش پیشنهادی است، چون Microsoft در حال کنارگذاشتن احراز هویت پایه (با گذرواژه) برای Exchange Online است و Frappe می‌تواند بدون ذخیرهٔ گذرواژهٔ صندوق ایمیل شما، ایمیل بفرستد و دریافت کند. راه‌اندازی در دو بخش انجام می‌شود: ابتدا در **Microsoft Entra شناسه** (Azure) برنامه‌ای ثبت می‌کنید، سپس **برنامه متصل** و **حساب کاربری ایمیل** را در Frappe به آن متصل می‌کنید.
 
 ## پیش از شروع
 
 - سایت Frappe باید از طریق **HTTPS** ارائه شود؛ سایت توسعهٔ محلی روی `localhost` نیز قابل‌قبول است.
 - به حساب Microsoft 365 با **دسترسی مدیریتی به Azure / Microsoft Entra شناسه** نیاز دارید.
-- برای ساخت Connected App به دسترسی مدیر در سایت Frappe نیاز دارید.
+- برای ساخت برنامه متصل به دسترسی مدیر در سایت Frappe نیاز دارید.
 
 ## بخش 1: ثبت برنامه در Microsoft Entra شناسه
 
@@ -40,34 +40,34 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 > **یادداشت منبع:** snapshot متنی صفحه می‌گوید «مجوزهای زیر را اضافه کنید»، اما نام مجوزها در متن Markdown واکشی‌شده درج نشده است. برای فهرست دقیق، تصویرها و راهنمای رسمی مرتبط با ثبت برنامه را در [صفحهٔ منبع](https://docs.frappe.io/helpdesk/faq/setting-up-outlook-for-frappe) بررسی کنید؛ در این ترجمه نام مجوزها حدس زده نشده است.
 
-### گام 3: ساخت Client Secret
+### گام 3: ساخت سیکرت کلاینت
 
-1. به **Certificates & secrets → جدید client secret** بروید یا در **Overview** روی **Add a secret** کلیک کنید.
-2. توضیحی بنویسید، زمان انقضا را انتخاب و **Add** را بزنید.
+1. به **Certificates & secrets → جدید سیکرت کلاینت** بروید یا در **بررسی اجمالی** روی **Add a secret** کلیک کنید.
+2. توضیحی بنویسید، زمان انقضا را انتخاب و **افزودن** را بزنید.
 3. فوراً **مقدار** مربوط به secret را کپی و در جای امن نگهداری کنید.
 
 > **توجه:** مقدار **مقدار** را کپی کنید، نه **Secret شناسه** را. مقدار فقط یک‌بار نمایش داده می‌شود و پس از ترک صفحه دیگر قابل‌بازیابی نیست.
 
 ### گام 4: دریافت شناسه‌ها و endpoint
 
-در صفحهٔ **Overview** برنامه، این موارد را کپی کنید:
+در صفحهٔ **بررسی اجمالی** برنامه، این موارد را کپی کنید:
 
 - **Application (client) شناسه**
 - **Directory (tenant) شناسه**
 - **OpenID Connect Metadata سند شناسه** (در بخش endpoints)
 
-نشانی OpenID configuration این قالب را دارد؛ آن را برای بخش بعد نگه دارید:
+نشانی پیکربندی OpenID این قالب را دارد؛ آن را برای بخش بعد نگه دارید:
 
 ```text
 https://login.microsoftonline.com/your_tenant_id/v2.0/.well-known/openid-configuration
 ```
 
-## بخش 2: ساخت Connected App در Frappe
+## بخش 2: ساخت برنامه متصل در Frappe
 
-1. در Frappe به **Connected App** بروید و **جدید** را انتخاب کنید (`/app/connected-app/new`).
-2. نشانی OpenID configuration را در فیلد **OpenID Configuration** جای‌گذاری کنید و روی **Get OpenID Configuration** کلیک کنید. Frappe endpointهای authorization، token و revocation را خودکار پر می‌کند. سپس نام Provider را **Outlook** وارد کنید.
-3. **Client شناسه** و مقدار **client secret مقدار** را که در بخش 1 ذخیره کردید وارد کنید.
-4. **Scopes** لازم را اضافه کنید:
+1. در Frappe به **برنامه متصل** بروید و **جدید** را انتخاب کنید (`/app/connected-app/new`).
+2. نشانی پیکربندی OpenID را در فیلد **پیکربندی OpenID** جای‌گذاری کنید و روی **دریافت پیکربندی OpenID** کلیک کنید. Frappe endpointهای authorization، token و revocation را خودکار پر می‌کند. سپس نام Provider را **Outlook** وارد کنید.
+3. **Client شناسه** و مقدار **سیکرت کلاینت مقدار** را که در بخش 1 ذخیره کردید وارد کنید.
+4. **دامنه‌ها** لازم را اضافه کنید:
 
    ```text
    https://outlook.office365.com/.default
@@ -77,17 +77,17 @@ https://login.microsoftonline.com/your_tenant_id/v2.0/.well-known/openid-configu
    offline_access
    ```
 
-5. Connected App را **ذخیره** کنید.
+5. برنامه متصل را **ذخیره** کنید.
 
 > **توجه:** دامنه برابر `.default` به Microsoft می‌گوید همهٔ مجوزهایی را که در گام 2 تأیید کرده‌اید اعطا کند؛ بنابراین لازم نیست دوباره تک‌تک آن‌ها را اینجا وارد کنید.
 
-پس از ذخیره، Frappe در Connected App یک **Redirect URI** می‌سازد. قالب آن چنین است:
+پس از ذخیره، Frappe در برنامه متصل یک **URI تغییر مسیر** می‌سازد. قالب آن چنین است:
 
 ```text
 https://your_site.com/api/method/frappe.integrations.doctype.connected_app.connected_app.callback
 ```
 
-این مقدار را کپی کنید، به برنامهٔ Azure برگردید، **Authentication → Add a platform → Web** را باز کنید، آن را به‌عنوان redirect URI وارد و **ذخیره** کنید.
+این مقدار را کپی کنید، به برنامهٔ Azure برگردید، **Authentication → Add a platform → Web** را باز کنید، آن را به‌عنوان URI تغییر مسیر وارد و **ذخیره** کنید.
 
 در پایان روی **Connect به Provider** کلیک کنید تا به Frappe اجازه دهید بر اساس دامنههای تعیین‌شده به منابع Outlook دسترسی پیدا کند.
 
@@ -104,9 +104,9 @@ https://your_site.com/api/method/frappe.integrations.doctype.connected_app.conne
    Outgoing (SMTP):  smtp.office365.com      port 587, TLS
    ```
 
-4. گزینهٔ **Use OAuth** را فعال و **Connected App** ساخته‌شده در بخش 2 را پیوند دهید.
-5. **ذخیره** را بزنید و سپس **Authorize API Access** را انتخاب کنید. Microsoft از شما می‌خواهد وارد شوید و درخواست را تأیید کنید. پس از تأیید، به Frappe بازمی‌گردید و حساب متصل می‌شود.
-6. در صورت نیاز حساب را **Default ورودی** و/یا **Default Outgoing** کنید. برای احراز هویت از گزینهٔ Use OAuth استفاده و سپس **Authorize API Access** را بزنید.
+4. گزینهٔ **Use OAuth** را فعال و **برنامه متصل** ساخته‌شده در بخش 2 را پیوند دهید.
+5. **ذخیره** را بزنید و سپس **مجوز دسترسی به API** را انتخاب کنید. Microsoft از شما می‌خواهد وارد شوید و درخواست را تأیید کنید. پس از تأیید، به Frappe بازمی‌گردید و حساب متصل می‌شود.
+6. در صورت نیاز حساب را **Default ورودی** و/یا **خروجی پیش‌فرض** کنید. برای احراز هویت از گزینهٔ Use OAuth استفاده و سپس **مجوز دسترسی به API** را بزنید.
 
 اگر همه‌چیز درست تنظیم شده باشد، به صفحهٔ Outlook هدایت می‌شوید تا حسابی را که می‌خواهید به آن دسترسی بدهید انتخاب کنید. پس از تأیید، اتصال ایمیل به Frappe کامل است.
 
