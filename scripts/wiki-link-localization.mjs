@@ -97,6 +97,22 @@ function localizeBareListLabels(text, terms, counters, mixedEntries = [], phrase
 	});
 }
 
+function replaceKnownUiEntities(text, terms, counters) {
+	const labels = ['Contact', 'Address', 'Warehouse', 'Campaign', 'Communication', 'Currency', 'Employee', 'Department', 'Branch', 'Payroll', 'Performance', 'Settings'];
+	const entries = labels.filter((label) => terms[label] && FA_LETTER.test(terms[label]));
+	if (!entries.length) return text;
+	const pattern = new RegExp(`(?<![\\p{L}\\p{N}])(${entries.map(escapeRegExp).join('|')})(های|ها|ای|ی)?(?![\\p{L}\\p{N}])`, 'gu');
+	const lookup = new Map(entries.map((label) => [label, terms[label]]));
+	return text.replace(pattern, (match, label, suffix, offset, source) => {
+		const before = source.slice(0, offset);
+		const after = source.slice(offset + match.length);
+		if (before.match(/[A-Za-z]+\s*$/) || after.match(/^\s*[A-Za-z]+/)) return match;
+		if (counters) counters.translatedTerms++;
+		const persianSuffix = suffix === 'های' ? '‌های' : suffix === 'ها' ? '‌ها' : suffix ? 'ی' : '';
+		return `${lookup.get(label)}${persianSuffix}`;
+	});
+}
+
 function localizeBreadcrumbs(text, terms, counters, mixedEntries = [], phraseTerms = terms) {
 	return text.replace(/^(\s*>\s*)([^\r\n]+)$/gm, (line, prefix, breadcrumb) => {
 		if (!breadcrumb.includes(' > ')) return line;
@@ -294,7 +310,7 @@ export function prepareMarkdownLinks(markdown, {
 		const token = match[0];
 		const index = match.index ?? 0;
 		const plainText = body.slice(lastIndex, index);
-		result += localizeBreadcrumbs(localizeBareListLabels(replaceUiTerms(plainText, bodyTerms, counters, mixedEntries), allTerms, counters, mixedEntries, phraseTerms), allTerms, counters, mixedEntries, phraseTerms);
+		result += localizeBreadcrumbs(localizeBareListLabels(replaceKnownUiEntities(replaceUiTerms(plainText, bodyTerms, counters, mixedEntries), allTerms, counters), allTerms, counters, mixedEntries, phraseTerms), allTerms, counters, mixedEntries, phraseTerms);
 		if (token.startsWith('```') || token.startsWith('`')) {
 			result += token;
 		} else if (token.startsWith('![')) {
@@ -318,7 +334,7 @@ export function prepareMarkdownLinks(markdown, {
 		lastIndex = index + token.length;
 	}
 	const trailingText = body.slice(lastIndex);
-	result += localizeBreadcrumbs(localizeBareListLabels(replaceUiTerms(trailingText, bodyTerms, counters, mixedEntries), allTerms, counters, mixedEntries, phraseTerms), allTerms, counters, mixedEntries, phraseTerms);
+	result += localizeBreadcrumbs(localizeBareListLabels(replaceKnownUiEntities(replaceUiTerms(trailingText, bodyTerms, counters, mixedEntries), allTerms, counters), allTerms, counters, mixedEntries, phraseTerms), allTerms, counters, mixedEntries, phraseTerms);
 	return { markdown: prefix + result, counters, reviewIssues };
 }
 

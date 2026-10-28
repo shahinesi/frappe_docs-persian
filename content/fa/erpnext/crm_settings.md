@@ -35,7 +35,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### Auto Creation of Contact
 
-سامانه هنگام ایجاد سرنخ به‌طور خودکار یک Contact جدید می‌سازد.
+سامانه هنگام ایجاد سرنخ به‌طور خودکار یک مخاطب جدید می‌سازد.
 
 ## فرصت فروش
 

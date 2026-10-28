@@ -338,6 +338,16 @@ test('localizes UI labels in navigation breadcrumbs while preserving code identi
 	assert.equal(result.markdown, '> صفحهٔ اصلی > تولید > ابزارها > ابزار به‌روزرسانی BOM\n\n`Warehouse`');
 });
 
+test('localizes known UI entities in prose but preserves code and compound English labels', () => {
+	const result = prepareMarkdownLinks('این Contact اصلی و Address مرتبط را بررسی کنید. همه Contactهای مرتبط. از Warehouseای دیگر. S3 Backup Settings را باز کنید. `Contact`', {
+		currentPath: 'content/fa/erpnext/example.md',
+		manifest: { pages: [] },
+		terms: {},
+		uiTerms: { Contact: 'مخاطب', Address: 'نشانی', Warehouse: 'انبار', Settings: 'تنظیمات' },
+	});
+	assert.equal(result.markdown, 'این مخاطب اصلی و نشانی مرتبط را بررسی کنید. همه مخاطب‌های مرتبط. از انباری دیگر. S3 Backup Settings را باز کنید. `Contact`');
+});
+
 test('localizes a linked label nested inside bold markup', () => {
 	const result = prepareMarkdownLinks('**[Branch](https://docs.frappe.io/hr/branch)**', {
 		currentPath: 'content/fa/hr/example.md',
