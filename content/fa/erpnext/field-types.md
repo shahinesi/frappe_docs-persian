@@ -166,7 +166,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای واردکردن متن با زبان نشانه‌گذاری Markdown از این فیلد استفاده کنید.
 
-![نوع فیلد ویرایشگر Markdown](https://docs.frappe.io/files/field-type-markdown-editor.png)
+![نوع فیلد ویرایشگر مارک داون](https://docs.frappe.io/files/field-type-markdown-editor.png)
 
 #### گذرواژه (`Password`)
 

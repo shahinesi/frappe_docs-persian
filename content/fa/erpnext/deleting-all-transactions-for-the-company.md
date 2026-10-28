@@ -66,7 +66,7 @@ ERPNext رکوردهای تراکنشی پیوندخورده با شرکت ان�
 
 در فرم شرکت، منوی **مدیریت** را باز کنید و روی **حذف تراکنش‌ها** کلیک کنید.
 
-![منوی Manage و گزینهٔ حذف تراکنش‌ها](https://docs.frappe.io/files/deleting-all-transactions-for-manage-menu-with-delete-transactions-option.webp)
+![منوی مدیریت و گزینهٔ حذف تراکنش‌ها](https://docs.frappe.io/files/deleting-all-transactions-for-manage-menu-with-delete-transactions-option.webp)
 
 ### گام 4: تأیید گذرواژه
 

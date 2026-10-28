@@ -43,7 +43,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 وقتی این فیلد را به DocType والد پیوند دهید، فهرست رکوردهای DocType برای انتخاب نمایش داده می‌شود.
 
-![فیلد پیوند در Journal Voucher](https://docs.frappe.io/files/customize-dynamic-link.png)
+![فیلد پیوند در سند روزنامه](https://docs.frappe.io/files/customize-dynamic-link.png)
 
 #### گام 2: افزودن فیلد لینک پویا
 

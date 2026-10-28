@@ -76,10 +76,14 @@ export function replaceUiTerms(text, terms, counters, mixedEntries = []) {
 	const compiled = getCompiledTerms(terms);
 	if (!compiled.pattern) return result;
 	if (counters) counters.translatedTerms += [...result.matchAll(compiled.pattern)].length;
-	result = result.replace(compiled.pattern, (match) => {
+	result = result.replace(compiled.pattern, (match, offset, source) => {
 		const english = match.toLowerCase();
 		const persian = compiled.lookup.get(english);
-		return /^[A-Z0-9 _-]+$/.test(match) && english !== match ? match : persian || match;
+		if (/^[A-Z0-9 _-]+$/.test(match) && english !== match) return match;
+		if (!persian) return match;
+		const suffix = source.slice(offset + match.length).match(/^(های|ها|ای|ی)/u)?.[0];
+		if (!suffix) return persian;
+		return `${persian}${suffix === 'ها' ? '‌ها' : suffix === 'های' ? '‌های' : suffix}`;
 	});
 	return result;
 }
@@ -132,7 +136,7 @@ function localizeBareListLabels(text, terms, counters, mixedEntries = [], phrase
 	});
 }
 
-function replaceKnownUiEntities(text, terms, counters, labels = ['Contact', 'Address', 'Warehouse', 'Campaign', 'Communication', 'Currency', 'Employee', 'Department', 'Branch', 'Payroll', 'Performance', 'Settings']) {
+function replaceKnownUiEntities(text, terms, counters, labels = ['Contact', 'Address', 'Warehouse', 'Campaign', 'Communication', 'Currency', 'Employee', 'Department', 'Branch', 'Payroll', 'Performance', 'Settings', 'Task']) {
 	const entries = labels.filter((label) => terms[label] && FA_LETTER.test(terms[label]));
 	if (!entries.length) return text;
 	const pattern = new RegExp(`(?<![\\p{L}\\p{N}])(${entries.map(escapeRegExp).join('|')})(های|ها|ای|ی)?(?![\\p{L}\\p{N}])`, 'gu');

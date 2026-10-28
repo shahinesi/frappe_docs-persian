@@ -29,7 +29,7 @@ source_version: "64058ea0cb49351bbd37eed633c1d30567db08b9ef6af1c25f2e59efcf7e3f1
 
 > Markdown را در چند دقیقه با [راهنمای جامع Markdown](https://guides.github.com/features/mastering-markdown/) یاد بگیرید.
 
-![نوشتهٔ وبلاگ با Markdown](https://docs.frappe.io/files/blog-post-in-markdown.png)
+![نوشتهٔ وبلاگ با مارک داون](https://docs.frappe.io/files/blog-post-in-markdown.png)
 *نوشتهٔ وبلاگ در Markdown*
 
 برای مشاهدهٔ نوشتهٔ وبلاگ، در نوار کناری روی **در وب سایت ببینید** کلیک کنید.

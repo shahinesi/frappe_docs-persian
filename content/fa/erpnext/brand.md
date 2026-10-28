@@ -22,17 +22,17 @@ source_version: "2cfbd036f4e22633bd5bbbc8bc609149b2a07f79eb7f27de9ef4856fb8ba141
 2. نام Brand را وارد کنید و در صورت نیاز توضیحی بنویسید.
 3. سند را ذخیره کنید.
 
-![فرم Brand](https://docs.frappe.io/files/brand.png)
+![فرم برند](https://docs.frappe.io/files/brand.png)
 
 اکنون می‌توانید این Brand را به اقلام مختلف اختصاص دهید.
 
-![فیلد Brand در قلم](https://docs.frappe.io/files/item_brand.png)
+![فیلد برند در قلم](https://docs.frappe.io/files/item_brand.png)
 
 ## 2. قابلیت‌ها
 
 ### 2.1 تنظیم پیش‌فرض برای اقلام این Brand
 
-![مقادیر پیش‌فرض Brand](https://docs.frappe.io/files/brand_defaults.png)
+![مقادیر پیش‌فرض برند](https://docs.frappe.io/files/brand_defaults.png)
 
 می‌توانید مقادیر پیش‌فرض زیر را برای Brand تنظیم کنید. پس از اختصاص Brand به یک قلم، هنگام انجام تراکنش فروش یا خرید با آن قلم، مقادیر پیش‌فرض دریافت می‌شوند.
 

@@ -45,7 +45,7 @@ e-Invoice can only be cancelled upto 24 hours after it is generated
 
 در نسخه‌های قدیمی‌تر، اگر کاربری بار دوم از فهرست فاکتور فروش صورتحساب الکترونیکی را تولید می‌کرد، وضعیت به Failed تغییر می‌کرد. این مشکل در India Compliance نسخهٔ 15.25.5 رفع شد. اگر نسخهٔ شما قدیمی‌تر است، برنامه را به‌روزرسانی کنید.
 
-![اقدام‌های e-Invoice](https://docs.frappe.io/files/e-invoice-actions.png)
+![اقدام‌های صورتحساب الکترونیکی](https://docs.frappe.io/files/e-invoice-actions.png)
 
 ## صورتحساب الکترونیکی مستقیماً در درگاه دولتی ایجاد شده است
 

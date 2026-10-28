@@ -54,7 +54,7 @@ ERPNext معمولاً مبلغ خالص صورتحساب را پس از تخف�
 6. درصد تخفیف را به‌شکل **نرخ مالیات** منفی وارد کنید. برای تخفیف 10درصدی، **-10** وارد کنید.
 7. **شرح** روشن و **مرکز هزینه** یا سایر [ابعاد حسابداری](accounting-dimensions.md) لازم را وارد کنید.
 
-![Type، سرفصل حساب و نرخ مالیات منفی تخفیف فروش](https://novacompanies.m.frappe.cloud/files/docs-gl-2026-separate-discount-booking-sales-discount-fields.png)
+![نوع، سرفصل حساب و نرخ مالیات منفی تخفیف فروش](https://novacompanies.m.frappe.cloud/files/docs-gl-2026-separate-discount-booking-sales-discount-fields.png)
 
 مثال با دو تلفن به قیمت هرکدام $699 آغاز می‌شود؛ یعنی $1,398. ردیف -10% مبلغ -$139.80 ایجاد می‌کند و **جمع کل** را به $1,258.20 کاهش می‌دهد.
 
@@ -76,7 +76,7 @@ ERPNext معمولاً مبلغ خالص صورتحساب را پس از تخف�
 5. در **سرفصل حساب** حساب درآمد یا کاهندهٔ هزینه تخفیف دریافتی را که حسابدار تأیید کرده انتخاب کنید.
 6. درصد را به‌صورت **نرخ مالیات** منفی وارد کنید. مثال از **-10** استفاده می‌کند.
 
-![Type، سرفصل حساب و نرخ مالیات منفی تخفیف خرید](https://novacompanies.m.frappe.cloud/files/docs-gl-2026-separate-discount-booking-purchase-discount-fields.png)
+![نوع، سرفصل حساب و نرخ مالیات منفی تخفیف خرید](https://novacompanies.m.frappe.cloud/files/docs-gl-2026-separate-discount-booking-purchase-discount-fields.png)
 
 مبلغ ناخالص خرید $1,040 است. ردیف -10% مبلغ $104 را کسر می‌کند؛ بنابراین $936 به تأمین‌کننده بدهکار می‌شوید.
 
