@@ -86,7 +86,7 @@ source_version: "a970ea6a3baec81409684cd154dd58e22d48958da3be05e6c4d842d6130994b
     {
       "doctype": "ToDo",
       "values": {
-        "description": "Call {{ doc.lead_name }}",
+        "description": "تماس با {{ doc.lead_name }}",
         "reference_type": "{{ doc.doctype }}",
         "reference_name": "{{ doc.name }}",
         "allocated_to": "{{ doc.lead_owner }}"

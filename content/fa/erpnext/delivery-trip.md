@@ -1,5 +1,5 @@
 ---
-title: "Delivery Trip (مسیر تحویل)"
+title: "سفر تحویل"
 slug: "delivery-trip"
 source_url: "https://docs.frappe.io/erpnext/delivery-trip"
 source_id: "erpnext/delivery-trip"
@@ -10,12 +10,12 @@ quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [سفر تحویل (مسیر تحویل)](https://docs.frappe.io/erpnext/delivery-trip)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [سفر تحویل](https://docs.frappe.io/erpnext/delivery-trip)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویرهای منبع در این مخزن بازنشر نشده‌اند و پیوند آن‌ها به فایل‌های سایت رسمی اشاره می‌کند.
 
-یک سفر تحویل تحویل سفارش‌های مشتریان را با یک وسیلهٔ نقلیه ثبت می‌کند.
+در ERPNext، **سفر تحویل** (`Delivery Trip`) تحویل سفارش‌های مشتریان را با یک وسیلهٔ نقلیه ثبت می‌کند.
 
 می‌توانید چند توقف را نیز اضافه کنید و یادداشت تحویل ثبت‌نهایی‌شده را به مشتری مربوط پیوند دهید.
 

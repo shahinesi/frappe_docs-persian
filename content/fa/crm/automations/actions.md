@@ -112,7 +112,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ```json
 {
-  "title": "Kick-off call with {{ doc.organization }}",
+  "title": "تماس اولیه با {{ doc.organization }}",
   "reference_doctype": "CRM Deal",
   "reference_docname": "{{ doc.name }}",
   "assigned_to": "{{ doc.deal_owner }}"

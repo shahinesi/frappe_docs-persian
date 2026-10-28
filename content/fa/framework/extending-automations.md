@@ -52,8 +52,8 @@ source_version: "7d12de95b341951022a6ccf746df1082f3585e37231ca2da537d7785fac5fa2
         "crm.deal_won",
         {
             "crm.email_replied": {
-                "label": "Email replied",
-                "description": "A contact replied to an email sent from CRM",
+                "label": "پاسخ به ایمیل",
+                "description": "مخاطب به ایمیلی که از CRM فرستاده شده پاسخ داده است",
                 "subject": {"doctype_key": "reference_doctype", "name_key": "reference_name", "doctypes": ["CRM Lead", "CRM Deal"]},
             }
         },
@@ -74,22 +74,22 @@ source_version: "7d12de95b341951022a6ccf746df1082f3585e37231ca2da537d7785fac5fa2
 
     class PostToChannel(AutomationAction):
         action_type = "PostToChannel"
-        label = "Post to Channel"
-        description = "Post a message to a team channel."
-        transactional = False  # it calls an external service
+        label = "ارسال به کانال"
+        description = "ارسال پیام به کانال تیم."
+        transactional = False  # این کنش یک سرویس بیرونی را فراخوانی می‌کند
         params_schema: ClassVar[list] = [
-            {"fieldname": "channel", "label": "Channel", "fieldtype": "Data", "reqd": 1},
-            {"fieldname": "message", "label": "Message", "fieldtype": "Small Text", "reqd": 1},
+            {"fieldname": "channel", "label": "کانال", "fieldtype": "Data", "reqd": 1},
+            {"fieldname": "message", "label": "پیام", "fieldtype": "Small Text", "reqd": 1},
         ]
 
         def validate(self, params, doctype):
             if not params.get("channel"):
-                raise AutomationParamError("Channel is required", fieldname="channel")
+                raise AutomationParamError("تکمیل کانال الزامی است", fieldname="channel")
 
         def execute(self, doc, params, context):
             message = render_value(params["message"], doc, context)
             post_message(params["channel"], message)
-            return f"Posted to {params['channel']}"
+            return f"پیام به کانال {params['channel']} ارسال شد"
 
 در <code>hooks.py</code> ثبت کنید:
 
@@ -129,7 +129,7 @@ source_version: "7d12de95b341951022a6ccf746df1082f3585e37231ca2da537d7785fac5fa2
                 return []
             return [{
                 "name": "sender_lead",
-                "label": "Lead (by sender email)",
+                "label": "سرنخ (بر اساس ایمیل فرستنده)",
                 "target_doctype": "CRM Lead",
                 "cardinality": "one",
             }]

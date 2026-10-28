@@ -1,5 +1,5 @@
 ---
-title: "Delivery Note (سند تحویل)"
+title: "یادداشت تحویل"
 slug: "delivery-note"
 source_url: "https://docs.frappe.io/erpnext/delivery-note"
 source_id: "erpnext/delivery-note"
@@ -10,12 +10,12 @@ quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [یادداشت تحویل (سند تحویل)](https://docs.frappe.io/erpnext/delivery-note)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [یادداشت تحویل](https://docs.frappe.io/erpnext/delivery-note)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویرها در این مخزن بازنشر نشده‌اند و پیوندشان به فایل‌های سایت رسمی اشاره می‌کند.
 
-وقتی محموله از انبار شرکت برای مشتری ارسال می‌شود، یک **یادداشت تحویل** (سند تحویل) ایجاد می‌شود.
+وقتی محموله از انبار شرکت برای مشتری ارسال می‌شود، یک **یادداشت تحویل** (`Delivery Note`) ایجاد می‌شود.
 
 معمولاً نسخه‌ای از یادداشت تحویل همراه محموله به حمل‌کننده داده می‌شود. این سند فهرست کالاهای ارسال‌شده را دارد و موجودی را به‌روز می‌کند. ایجاد یادداشت تحویل گامی اختیاری است؛ می‌توان مستقیماً از سفارش فروش فاکتور فروش ساخت.
 

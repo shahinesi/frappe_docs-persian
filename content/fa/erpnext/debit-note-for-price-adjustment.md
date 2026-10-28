@@ -1,5 +1,5 @@
 ---
-title: "Debit Note برای تعدیل قیمت"
+title: "یادداشت بدهکاری برای تعدیل قیمت"
 slug: "debit-note-for-price-adjustment"
 source_url: "https://docs.frappe.io/erpnext/debit-note-for-price-adjustment"
 source_id: "erpnext/debit-note-for-price-adjustment"

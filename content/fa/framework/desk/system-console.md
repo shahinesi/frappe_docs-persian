@@ -1,5 +1,5 @@
 ---
-title: "System Console"
+title: "کنسول سیستم"
 slug: "کنسول-سامانه"
 source_url: "https://docs.frappe.io/framework/user/en/desk/scripting/system-console"
 source_id: "framework/user/en/desk/scripting/system-console"
