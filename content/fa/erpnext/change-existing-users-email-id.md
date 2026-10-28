@@ -24,7 +24,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 #### مراحل
 
-1. به **Settings > Users and Permissions > User** بروید.
+1. به **Settings > کاربران و مجوزها > User** بروید.
 2. کاربری را که می‌خواهید تغییر نام دهید باز کنید.
 3. در گوشهٔ بالا سمت راست فرم، روی **منو** (⋮) کلیک کنید.
 4. **تغییر نام** را انتخاب کنید.
