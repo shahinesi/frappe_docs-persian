@@ -17,7 +17,7 @@ Frappe Helpdesk را می‌توان بسته به نیازتان به چند ر
 
 ## میزبانی مدیریت‌شده
 
-با یک کلیک، Frappe Helpdesk را روی [Frappe Cloud](https://frappecloud.com/helpdesk/signup) نصب کنید. Frappe Cloud بستر میزبانی مدیریت‌شده‌ای است که نصب و نگه‌داری را آسان می‌کند. برای شروع از [اینجا ثبت‌نام کنید](https://frappecloud.com/helpdesk/signup)؛ نمونهٔ شما ظرف چند دقیقه آماده می‌شود. پیشنهاد می‌کنیم پیش از میزبانی روی سرور خودتان، Frappe Cloud را امتحان کنید.
+با یک کلیک، Frappe Helpdesk را روی [Frappe Cloud](https://frappecloud.com/helpdesk/signup) نصب کنید. Frappe Cloud بستر میزبانی مدیریت‌شده‌ای است که نصب و نگه‌داری را آسان می‌کند. برای شروع در [صفحهٔ ثبت‌نام Frappe Helpdesk در Frappe Cloud](https://frappecloud.com/helpdesk/signup) حساب بسازید؛ نمونهٔ شما ظرف چند دقیقه آماده می‌شود. پیشنهاد می‌کنیم پیش از میزبانی روی سرور خودتان، Frappe Cloud را امتحان کنید.
 
 اگر از قبل سایتی روی Frappe Cloud دارید، می‌توانید Frappe Helpdesk را از [بازارگاه Frappe Cloud](https://frappecloud.com/marketplace/apps/helpdesk) نصب کنید.
 

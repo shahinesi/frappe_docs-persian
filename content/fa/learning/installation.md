@@ -12,7 +12,7 @@ Frappe Learning را می‌توان به چند روش و بر اساس نیا�
 
 با یک کلیک و از طریق [**Frappe Cloud**](https://frappe.io/redirect?redirect_to=https://frappecloud.com/dashboard/signup?product=lms)، بستر میزبانی مدیریت‌شدهٔ برنامه‌های Frappe، می‌توانید Frappe Learning را نصب کنید.
 
-- برای شروع از [اینجا ثبت‌نام کنید](https://frappe.io/redirect?redirect_to=https://frappecloud.com/dashboard/signup?product=lms).
+- برای شروع در [صفحهٔ ثبت‌نام Frappe Cloud](https://frappe.io/redirect?redirect_to=https://frappecloud.com/dashboard/signup?product=lms) حساب بسازید.
 - نمونهٔ Learning شما ظرف چند دقیقه آماده می‌شود.
 
 اگر از قبل در Frappe Cloud سایت دارید، Frappe Learning را مستقیم از [**بازارچهٔ Frappe Cloud**](https://cloud.frappe.io/marketplace/apps/lms) نصب کنید.

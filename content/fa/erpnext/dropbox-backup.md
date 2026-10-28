@@ -21,7 +21,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 > **یادداشت:** اگر از Frappe Cloud استفاده می‌کنید، نسخه‌های پشتیبان محلی و خارج از سایت به‌طور خودکار برایتان ایجاد می‌شوند. [اطلاعات بیشتر دربارهٔ پشتیبان‌گیری در Frappe Cloud](https://frappecloud.com/docs/sites/backups)
 
-برای راه‌اندازی پشتیبان‌گیری در Dropbox، به **صفحهٔ اصلی > Integrations > Dropbox Settings** بروید.
+برای راه‌اندازی پشتیبان‌گیری در Dropbox، به **صفحهٔ اصلی > یکپارچه‌سازی‌ها > تنظیمات Dropbox** (`Integrations > Dropbox Settings`) بروید.
 
 #### گام 1: ورود به بخش توسعه‌دهندگان Dropbox
 
@@ -49,7 +49,7 @@ https://{yourwebsite.com}/api/method/frappe.integrations.doctype.dropbox_setting
 
 ![تنظیم نشانی Redirect](https://docs.frappe.io/files/dropbox_redirect_uri.png)
 
-#### گام 5: باز کردن صفحهٔ Dropbox Settings در نصب ERPNext
+#### گام 5: باز کردن صفحهٔ تنظیمات Dropbox در نصب ERPNext
 
 صفحهٔ تنظیمات Dropbox را در پنجره‌ای تازه باز کنید.
 
