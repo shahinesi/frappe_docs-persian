@@ -88,7 +88,7 @@
 | Department | دپارتمان | برچسب ترجمه‌شده در رابط Frappe؛ در متن فارسی از «دپارتمان» استفاده شود. |
 | Branch | شاخه | برچسب ترجمه‌شده در رابط Frappe؛ برای یکدستی با `frappe/locale/fa.po` همین معادل حفظ شود. |
 | Additional Salary | حقوق اضافی | پرداخت یا کسر موردی یا تکرارشونده برای کارمند. |
-| Salary Component | مؤلفهٔ حقوق | جزء درآمد یا کسر در حقوق و دستمزد؛ نام DocType حفظ شود. |
+| Salary Component | مؤلفه حقوق و دستمزد | برچسب رابط رسمی Frappe HR؛ نام فنی DocType در API حفظ شود. |
 | Salary Structure | ساختار حقوق | الگوی محاسبهٔ اجزای حقوق کارمند. |
 | Salary Slip | فیش حقوق | سند محاسبهٔ حقوق برای یک دوره. |
 | Payroll Entry | سند پردازش حقوق و دستمزد | نام DocType و برچسب UI حفظ شود. |
@@ -151,6 +151,8 @@
 | Employee Benefit Claim | مطالبه مزایای کارکنان | برچسب رابط رسمی Frappe HR؛ در API نام DocType حفظ شود. |
 | Flexible Benefits | مزایای انعطاف‌پذیر | برچسب رابط رسمی Frappe HR برای مجموعه مزایای انتخابی کارمند. |
 | Employee Other Income | سایر درآمدهای کارمند | برچسب رابط رسمی Frappe HR؛ در API نام DocType حفظ شود. |
+| Employee Health Insurance | بیمه سلامت کارکنان | برچسب رابط رسمی Frappe HR؛ نام DocType در API حفظ شود. |
+| Employee Incentive | مشوق کارکنان | برچسب رابط رسمی Frappe HR؛ نام DocType در API حفظ شود. |
 | Appraisal | ارزیابی عملکرد | چرخه و سند بررسی عملکرد کارکنان. |
 | Appraisal Template | الگوی ارزیابی عملکرد | قالب شامل KRA و معیارهای بازخورد برای امتیازدهی. |
 | Appraisal Cycle | چرخهٔ ارزیابی عملکرد | بازه و فرایند برنامه‌ریزی ارزیابی کارکنان. |

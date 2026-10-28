@@ -47,7 +47,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ## 4. موضوعات مرتبط
 
 1. [پاداش نگهداشت](https://docs.frappe.io/hr/retention-bonus)
-2. [مشوق کارکنان](https://docs.frappe.io/hr/employee-incentive)
+2. [مشوق کارکنان](employee-incentive.md)
 3. [ساختار حقوق](https://docs.frappe.io/hr/salary-structure)
 4. [ساختار حقوق Assignment](https://docs.frappe.io/hr/salary-structure-assignment)
 5. [سند پردازش حقوق و دستمزد](https://docs.frappe.io/hr/payroll-entry)

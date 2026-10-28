@@ -32993,10 +32993,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "d5e15ca75d3eb8208c8d162d34624b2af7dd891b3c5517f55050193697da7790",
       "source_modified": "2026-10-07",
-      "translation_status": "not_started",
+      "translation_status": "translated",
       "quality_status": "not_reviewed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/hr/employee-health-insurance.md",
       "discovered_at": "2026-10-27T05:52:36.583Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/hr/employee-health-insurance.md",
@@ -33009,7 +33009,8 @@
       "license_status": "unverified",
       "attribution_required": true,
       "unofficial_translation": true,
-      "snapshot_status": "fetched"
+      "snapshot_status": "fetched",
+      "source_snapshot_path": "sources/hr/employee-health-insurance.md"
     },
     {
       "url": "https://docs.frappe.io/hr/employee-incentive",
@@ -33018,10 +33019,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "307f1e3bfe8aab94c1342b679a1e6c0908e29e907d1e8ad1ce357302f3bbb141",
       "source_modified": "2026-02-04",
-      "translation_status": "not_started",
+      "translation_status": "translated",
       "quality_status": "not_reviewed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/hr/employee-incentive.md",
       "discovered_at": "2026-10-27T05:52:36.582Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/hr/employee-incentive.md",
@@ -33034,7 +33035,8 @@
       "license_status": "unverified",
       "attribution_required": true,
       "unofficial_translation": true,
-      "snapshot_status": "fetched"
+      "snapshot_status": "fetched",
+      "source_snapshot_path": "sources/hr/employee-incentive.md"
     },
     {
       "url": "https://docs.frappe.io/hr/employee-lifecycle-management",
