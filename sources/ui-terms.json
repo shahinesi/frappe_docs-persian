@@ -160,6 +160,30 @@
       "basis": "Localized the visible ERPNext settings DocType label; the source identifier is retained in inline code at first technical mention."
     },
     {
+      "product": "helpdesk",
+      "source_label": "Article",
+      "translation": "مقاله",
+      "basis": "Localized the visible Helpdesk knowledge-base content type; the source identifier is retained in inline code at first technical mention."
+    },
+    {
+      "product": "helpdesk",
+      "source_label": "Assign",
+      "translation": "واگذاری",
+      "basis": "Localized the ticket assignment action button."
+    },
+    {
+      "product": "helpdesk",
+      "source_label": "Successful",
+      "translation": "موفق",
+      "basis": "Localized the success outcome shown for Helpdesk SLA evaluations."
+    },
+    {
+      "product": "helpdesk",
+      "source_label": "Due",
+      "translation": "موعد",
+      "basis": "Localized the not-yet-overdue SLA due indicator in the customer portal."
+    },
+    {
       "product": "erpnext",
       "source_label": "Price Lists",
       "translation": "لیست‌های قیمت",
