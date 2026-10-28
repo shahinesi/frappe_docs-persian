@@ -20,8 +20,8 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ## 1. ایجاد کارپوشه
 
 1. در صفحهٔ فهرست کارپوشهها روی **+ جدید کارپوشه** کلیک کنید.
-2. نام آن را «Sales Performance» بگذارید.
-3. روی **پرس‌وجو Builder** کلیک کنید.
+2. نام آن را «عملکرد فروش» بگذارید.
+3. روی **سازندهٔ پرس‌وجو** کلیک کنید.
 
 ![کارپوشه جدید](https://docs.frappe.io/files/new-workbook.png)
 
@@ -31,29 +31,29 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### پیوند جدول‌ها
 
-1. روی **Add Operation** و سپس **Join Table** کلیک کنید.
+1. روی **افزودن عملیات** و سپس **پیوند جدول** کلیک کنید.
    - <code>orderitems</code> را انتخاب کنید.
-   - نوع پیوند: Left Join
+   - نوع پیوند: پیوند چپ
    - شرط پیوند: <code>order_id = order_id</code>
    - ستون‌ها: <code>price</code>، <code>freight_value</code> و <code>product_id</code>
-2. دوباره **Add Operation** و سپس **Join Table** را انتخاب کنید.
+2. دوباره **افزودن عملیات** و سپس **پیوند جدول** را انتخاب کنید.
    - جدول <code>products</code> را انتخاب کنید.
-   - نوع پیوند: Left Join
+   - نوع پیوند: پیوند چپ
    - شرط پیوند: <code>product_id = product_id</code>
    - ستون: <code>product_category_name</code>
-3. دوباره **Add Operation** و سپس **Join Table** را انتخاب کنید.
+3. دوباره **افزودن عملیات** و سپس **پیوند جدول** را انتخاب کنید.
    - جدول <code>customers</code> را انتخاب کنید.
-   - نوع پیوند: Left Join
+   - نوع پیوند: پیوند چپ
    - شرط پیوند: <code>customer_id = customer_id</code>
    - ستون: <code>customer_state</code>
 
 ### پالایش و انتخاب ستون‌ها
 
-4. روی **Add Operation** و سپس **فیلتر ردیف‌ها** کلیک کنید.
+4. روی **افزودن عملیات** و سپس **فیلتر ردیف‌ها** کلیک کنید.
    - ستون: <code>order_status</code>
-   - شرط: Equals
+   - شرط: برابر است با
    - مقدار: <code>"delivered"</code>
-5. روی **Add Operation** و سپس **Choose Columns** کلیک کنید و ستون‌های زیر را انتخاب کنید:
+5. روی **افزودن عملیات** و سپس **انتخاب ستون‌ها** کلیک کنید و ستون‌های زیر را انتخاب کنید:
    - <code>order_id</code>
    - <code>order_item_id</code>
    - <code>order_status</code>
@@ -62,7 +62,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
    - <code>freight_value</code>
    - <code>product_category_name</code>
    - <code>customer_state</code>
-6. نام پرس‌وجو را «Sales Data» بگذارید.
+6. نام پرس‌وجو را «داده‌های فروش» بگذارید.
 
 ![پرس‌وجوی Sales Data](https://docs.frappe.io/files/sales-data-query.png)
 
@@ -73,72 +73,72 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ### نمای کلی فروش
 
 - روی **+ جدید نمودار** کلیک کنید.
-- نوع نمودار: Number
-- عنوان: «Sales Overview»
-- در بخش Columns:
-  1. روی **+ Add Column** کلیک کنید.
-     - تابع: Count Distinct
+- نوع نمودار: عددی
+- عنوان: «نمای کلی فروش»
+- در بخش ستون‌ها:
+  1. روی **+ افزودن ستون** کلیک کنید.
+     - تابع: شمارش مقادیر یکتا
      - ستون: <code>order_id</code>
-     - آیکون چرخ‌دنده را بزنید و برچسب را «Total Orders» بگذارید.
-  2. روی **+ Add Column** کلیک کنید.
-     - تابع: Sum
+     - آیکون چرخ‌دنده را بزنید و برچسب را «تعداد کل سفارش‌ها» بگذارید.
+  2. روی **+ افزودن ستون** کلیک کنید.
+     - تابع: مجموع
      - ستون: <code>price</code>
-     - آیکون چرخ‌دنده را بزنید و برچسب را «Total Revenue» بگذارید.
-  3. روی **+ Add Column** کلیک کنید.
-     - تابع: Average
+     - آیکون چرخ‌دنده را بزنید و برچسب را «درآمد کل» بگذارید.
+  3. روی **+ افزودن ستون** کلیک کنید.
+     - تابع: میانگین
      - ستون: <code>price</code>
-     - آیکون چرخ‌دنده را بزنید و برچسب را «Average Order Value» بگذارید.
-- <code>order_purchase_timestamp</code> را به‌عنوان Date Column انتخاب کنید.
+     - آیکون چرخ‌دنده را بزنید و برچسب را «میانگین ارزش سفارش» بگذارید.
+- <code>order_purchase_timestamp</code> را به‌عنوان ستون تاریخ انتخاب کنید.
 - مرتب‌سازی: <code>order_purchase_timestamp</code> (صعودی)
-- **Show Comparison** را فعال کنید.
-- **Show Sparkline** را فعال کنید.
+- **نمایش مقایسه** را فعال کنید.
+- **نمایش نمودار جرقه‌ای** را فعال کنید.
 
-![نمودار عددی Sales Overview](https://docs.frappe.io/files/sales-overview-number-chart.png)
+![نمودار عددی نمای کلی فروش](https://docs.frappe.io/files/sales-overview-number-chart.png)
 
 ### درآمد به تفکیک ماه
 
 - روی **+ جدید نمودار** کلیک کنید.
-- نوع نمودار: Line
-- عنوان: «ماهانه Revenue»
+- نوع نمودار: خطی
+- عنوان: «درآمد ماهانه»
 - محور X: <code>order_purchase_timestamp</code>
 - محور Y:
-  - تابع: Sum of
+  - تابع: مجموع
   - ستون: <code>price</code>
-  - آیکون چرخ‌دنده را بزنید و برچسب را «Revenue» قرار دهید.
+  - آیکون چرخ‌دنده را بزنید و برچسب را «درآمد» قرار دهید.
 
 ![نمودار خطی درآمد ماهانه](https://docs.frappe.io/files/monthly-revenue-line-chart.png)
 
 ### درآمد به تفکیک دستهٔ محصول
 
 - روی **+ جدید نمودار** کلیک کنید.
-- نوع نمودار: Row
-- عنوان: «Revenue by Category»
+- نوع نمودار: میله‌ای افقی
+- عنوان: «درآمد به تفکیک دسته»
 - محور X: <code>product_category_name</code>
 - محور Y:
-  - تابع: Sum of
+  - تابع: مجموع
   - ستون: <code>price</code>
-  - آیکون چرخ‌دنده را بزنید و برچسب را «Revenue» قرار دهید.
-- مرتب‌سازی: Revenue (نزولی)
+  - آیکون چرخ‌دنده را بزنید و برچسب را «درآمد» قرار دهید.
+- مرتب‌سازی: درآمد (نزولی)
 
 ![نمودار ردیفی درآمد دسته‌های محصول](https://docs.frappe.io/files/top-categories-row-chart.png)
 
 ### درآمد فصلی به تفکیک استان
 
 - روی **+ جدید نمودار** کلیک کنید.
-- نوع نمودار: Table
-- عنوان: «فصلی Revenue by State»
+- نوع نمودار: جدولی
+- عنوان: «عملکرد فصلی به تفکیک استان»
 - ردیف‌ها:
   - ستون: <code>order_purchase_timestamp</code>
-  - آیکون چرخ‌دنده را بزنید، برچسب را «Quarter» و دقت زمانی را «Quarter» تعیین کنید.
+  - آیکون چرخ‌دنده را بزنید، برچسب را «فصل» و دقت زمانی را «فصل» تعیین کنید.
 - ستون‌ها:
   - ستون: <code>customer_state</code>
-  - آیکون چرخ‌دنده را بزنید و برچسب را «State» قرار دهید.
+  - آیکون چرخ‌دنده را بزنید و برچسب را «استان» قرار دهید.
 - مقادیر:
-  - تابع: Sum of
+  - تابع: مجموع
   - ستون: <code>price</code>
-  - آیکون چرخ‌دنده را بزنید و برچسب را «Revenue» قرار دهید.
-- مرتب‌سازی: Quarter (صعودی)
-- **Show Color Scale** را فعال کنید.
+  - آیکون چرخ‌دنده را بزنید و برچسب را «درآمد» قرار دهید.
+- مرتب‌سازی: فصل (صعودی)
+- **نمایش طیف رنگ** را فعال کنید.
 
 ![جدول درآمد فصلی به تفکیک استان](https://docs.frappe.io/files/quarterly-state-performance-table-chart.png)
 
@@ -147,17 +147,17 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 نمودارها را در داشبوردی تعاملی ترکیب کنید:
 
 1. روی **+ جدید داشبورد** کلیک کنید.
-2. عنوان را «Sales Performance داشبورد» بگذارید.
+2. عنوان را «عملکرد فروش» بگذارید.
 3. نمودارها را از پنل سمت چپ بکشید و در داشبورد رها کنید:
-   - ردیف اول: نمودار «Sales Overview»
-   - ردیف دوم: نمودارهای «ماهانه Revenue» و «Revenue by Category»
-   - ردیف سوم: نمودار «فصلی Revenue by State»
+   - ردیف اول: نمودار «نمای کلی فروش»
+   - ردیف دوم: نمودارهای «درآمد ماهانه» و «درآمد به تفکیک دسته»
+   - ردیف سوم: نمودار «عملکرد فصلی به تفکیک استان»
 4. فیلترهای داشبورد را اعمال کنید:
    - در گوشهٔ بالا سمت راست روی دکمهٔ **فیلتر** کلیک کنید.
    - در پنجرهٔ فیلتر روی **افزودن فیلتر** کلیک کنید.
    - <code>product_category_name</code> را به‌عنوان ستون فیلتر انتخاب کنید.
    - <code>health_beauty</code> را به‌عنوان مقدار فیلتر برگزینید.
-   - روی **Apply فیلتر** کلیک کنید.
+   - روی **اعمال فیلتر** کلیک کنید.
 
 ![داشبورد فروش](https://docs.frappe.io/files/sales-performance-dashboard.png)
 
