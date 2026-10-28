@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T15:19:44.125Z",
+  "generated_at": "2026-10-28T16:09:37.829Z",
   "method": "Exact UI labels found in upstream source Markdown and page titles, matched to non-fuzzy non-empty msgstr entries in each product locale. Framework locale terms are inherited by Frappe apps; product locales override them. Reviewed curated terms are applied last and take precedence over upstream entries.",
   "curated_terms": [
     {
@@ -5610,7 +5610,23 @@
       "Subcontract Order Summary": "خلاصه سفارش قرارداد فرعی",
       "Billing Details": "جزئیات صورتحساب",
       "Workstation Operating Component": "جزء عملیاتی ایستگاه کاری",
-      "Shop By Category": "خرید بر اساس دسته‌بندی"
+      "Shop By Category": "خرید بر اساس دسته‌بندی",
+      "Next Contact Date": "تاریخ پیگیری بعدی",
+      "Module Settings": "تنظیمات ماژول",
+      "Page or Workspace": "صفحه یا محیط کار",
+      "Search for": "جست‌وجو برای",
+      "Balance in Base Currency": "مانده به ارز پایه",
+      "New Balance in Base Currency": "ماندهٔ جدید به ارز پایه",
+      "Balance in Account Currency": "مانده به ارز حساب",
+      "New Balance in Account Currency": "ماندهٔ جدید به ارز حساب",
+      "Superseded": "جایگزین‌شده",
+      "Limit Percentage": "درصد محدودیت",
+      "New Page": "صفحهٔ جدید",
+      "Explore": "کاوش",
+      "Braintree Settings": "تنظیمات Braintree",
+      "Accounting Masters": "اطلاعات پایهٔ حسابداری",
+      "Sales Order Item": "قلم سفارش فروش",
+      "Enable Overdue Billing Threshold": "فعال‌کردن آستانهٔ صورتحساب سررسیدگذشته"
     },
     "hr": {
       "Additional Salary": "حقوق اضافی",
