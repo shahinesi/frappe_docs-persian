@@ -98,7 +98,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 می‌توانید ارز یادداشت تحویل را تعیین کنید. معمولاً اگر ارز در سفارش فروش تنظیم شده باشد، از همان‌جا دریافت می‌شود. اگر لیست قیمت تعیین کنید، قیمت کالاها از آن فهرست گرفته می‌شود. با فعال‌کردن **نادیده گرفتن قانون قیمت گذاری**، قواعد قیمت‌گذاری تنظیم‌شده در **حساب‌ها > قانون قیمت گذاری** نادیده گرفته می‌شوند.
 
-برای اطلاعات بیشتر، راهنماهای [لیست‌های قیمت](https://docs.frappe.io/erpnext/price-lists) و [چند ارزی Accounting](https://docs.frappe.io/erpnext/multi-currency-accounting) را ببینید.
+برای اطلاعات بیشتر، راهنماهای [لیست‌های قیمت](https://docs.frappe.io/erpnext/price-lists) و [حسابداری چندارزی](https://docs.frappe.io/erpnext/multi-currency-accounting) را ببینید.
 
 ### انبارها
 

@@ -61,11 +61,11 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## نصب
 
-برای نصب، [راهنمای شروع سریع Drive](https://docs.frappe.io/drive/quick-start) را ببینید.
+برای نصب، [میزبانی محلی Frappe Drive](https://docs.frappe.io/drive/quick-start) را ببینید.
 
 ## یادگیری و ارتباط
 
 - [وب‌سایت Frappe Drive](https://drive.frappe.io)
 - [گروه عمومی Telegram](https://t.me/frappedrive)
 - [تالار گفت‌وگو](https://discuss.frappe.io/)
-- [میزبانی محلی](https://docs.frappe.io/drive/quick-start)
+- [میزبانی محلی Frappe Drive](https://docs.frappe.io/drive/quick-start)

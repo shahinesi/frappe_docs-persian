@@ -125,7 +125,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ## موضوعات مرتبط
 
 - [نرخ تبدیل ارز (تبدیل ارز)](currency-exchange.md)
-- [چند ارزی Accounting](https://docs.frappe.io/erpnext/multi-currency-accounting)
+- [حسابداری چندارزی](https://docs.frappe.io/erpnext/multi-currency-accounting)
 - [درخت حساب‌ها](chart-of-accounts.md)
 - [تنظیمات نرخ تبدیل ارز](currency-exchange-settings.md)
 - [تجدید ارزیابی نرخ ارز](exchange-rate-revaluation.md)

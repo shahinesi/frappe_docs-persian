@@ -124,7 +124,7 @@ ERPNext پیش از درخواست از ارائه‌دهندهٔ آنلاین �
 ## موضوعات مرتبط
 
 - [ارز (Currency)](currency.md)
-- [چند ارزی Setup](https://docs.frappe.io/erpnext/multi-currency-setup)
+- [راه‌اندازی چندارزی](https://docs.frappe.io/erpnext/multi-currency-setup)
 - [تنظیمات نرخ تبدیل ارز](currency-exchange-settings.md)
 - [مدیریت اختلاف تسعیر ارز](https://docs.frappe.io/erpnext/manage-foreign-exchange-difference)
 - [تجدید ارزیابی نرخ ارز](exchange-rate-revaluation.md)

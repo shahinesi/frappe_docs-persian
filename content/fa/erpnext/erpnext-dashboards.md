@@ -26,8 +26,8 @@ ERPNext داشبوردها، صفحه‌های تحلیل، گزارش‌ها و
 - [گزارش انحراف بودجه](budget-variance-report.md): مقایسهٔ بودجه با عملکرد واقعی.
 - [گزارش درآمدها و هزینه‌های انتقالی](expense_report.md): بررسی برنامه‌های درآمد و هزینهٔ انتقالی.
 - [سفارشی‌سازی گزارش جریان نقدی](customise-cash-flow-report.md): سفارشی‌کردن گزارش جریان نقدی.
-- [گزارش حسابرسی VAT](https://docs.frappe.io/erpnext/vat_audit_report): بررسی گزارش حسابرسی VAT.
-- [گزارش UAE VAT 201](https://docs.frappe.io/erpnext/uae-vat-201-report): بررسی گزارش VAT امارات.
+- [گزارش حسابرسی مالیات بر ارزش افزوده](https://docs.frappe.io/erpnext/vat_audit_report): بررسی گزارش حسابرسی VAT.
+- [گزارش VAT 201 امارات متحدهٔ عربی](https://docs.frappe.io/erpnext/uae-vat-201-report): بررسی گزارش VAT امارات.
 
 ## داشبورد فروش و تحلیل فروش
 
@@ -43,7 +43,7 @@ ERPNext داشبوردها، صفحه‌های تحلیل، گزارش‌ها و
 داشبوردها و گزارش‌های خرید به تیم‌های تدارکات کمک می‌کنند فعالیت‌های خرید، تأمین‌کنندگان، سفارش‌های خرید، رسیدهای در انتظار و عملکرد تدارکات را پایش کنند.
 
 - [گزارش‌های خرید](buying_reports.md): بررسی گزارش‌های خرید و تأمین.
-- [گزارش پیگیری تدارکات](https://docs.frappe.io/erpnext/procurement-tracker-report): پیگیری روند تدارکات.
+- [گزارش ردیاب تدارکات](https://docs.frappe.io/erpnext/procurement-tracker-report): پیگیری روند تدارکات.
 - [کارت امتیاز تأمین‌کننده](https://docs.frappe.io/erpnext/supplier-scorecard): ارزیابی عملکرد تأمین‌کنندگان.
 
 ## داشبورد انبار و گزارش‌های موجودی
@@ -105,7 +105,7 @@ ERPNext داشبوردها، صفحه‌های تحلیل، گزارش‌ها و
 داشبوردها و گزارش‌های منابع انسانی و حقوق و دستمزد به تیم‌ها کمک می‌کنند کارکنان، مرخصی، حضور و غیاب، ارزیابی عملکرد، ساختار حقوق، حقوق و دستمزد و انطباق با مقررات را پایش کنند.
 
 - [گزارش‌های منابع انسانی](https://docs.frappe.io/hr/human-resources-reports): بررسی گزارش‌های HR.
-- [فهرست گزارش‌های HR](https://docs.frappe.io/hr/human-resources-reports): فهرست گزارش‌های HR.
+- [گزارش‌های منابع انسانی](https://docs.frappe.io/hr/human-resources-reports): فهرست گزارش‌های HR.
 - [گزارش نمای کلی ارزیابی عملکرد](../hr/appraisal-overview-report.md): بررسی پیشرفت و وضعیت ارزیابی عملکرد.
 - [گزارش دفتر مرخصی](https://docs.frappe.io/hr/leave-ledger-report): بررسی ردیف‌های دفتر مرخصی.
 - [جزئیات هزینهٔ کل کارفرما برای کارمند](https://docs.frappe.io/hr/reports/employee-ctc-break-up): بررسی جزئیات هزینهٔ کل کارمند برای شرکت.

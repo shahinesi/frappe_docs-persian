@@ -54,7 +54,7 @@ Awesomebar سریع‌ترین راه برای بازکردن DocType، گزار
 
 ## موضوعات مرتبط
 
-- [راهنمای میزکار در مستندات Framework](https://docs.frappe.io/framework/user/en/desk/navigation)
+- [پیمایش در میزکار Frappe Framework](https://docs.frappe.io/framework/user/en/desk/navigation)
 - [افزودن کاربران](adding-users.md)
 - [مجوزهای مبتنی بر نقش](https://docs.frappe.io/erpnext/role-based-permissions)
 - [نمایش یا پنهان‌کردن ماژول‌ها](https://docs.frappe.io/erpnext/show-hide-modules)

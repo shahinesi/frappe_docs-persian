@@ -23,7 +23,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 > **آزمایشی:** به Redis 6 یا بالاتر نیاز دارد.
 
-ERPNext به‌طور پیش‌فرض جست‌وجوی ساده‌ای در پایگاه داده انجام می‌دهد؛ اما در صورت تمایل می‌توانید به‌جای آن از [RediSearch](https://redis.com/modules/redis-search/) برای جست‌وجوی بسیار سریع استفاده کنید. برای نصب، به [مستندات نصب RediSearch در ERPNext](https://docs.frappe.io/erpnext/installing_redisearch_to_enable_super_fast_e_commerce_search) مراجعه کنید.
+ERPNext به‌طور پیش‌فرض جست‌وجوی ساده‌ای در پایگاه داده انجام می‌دهد؛ اما در صورت تمایل می‌توانید به‌جای آن از [RediSearch](https://redis.com/modules/redis-search/) برای جست‌وجوی بسیار سریع استفاده کنید. برای نصب، به [نصب RediSearch برای فعال‌کردن جست‌وجوی سریع فروشگاه اینترنتی](https://docs.frappe.io/erpnext/installing_redisearch_to_enable_super_fast_e_commerce_search) مراجعه کنید.
 
 به **E Commerce Settings > کالا Search Settings** بروید و **Enable Redisearch** را علامت بزنید.
 

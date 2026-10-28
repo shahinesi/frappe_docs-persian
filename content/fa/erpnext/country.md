@@ -34,7 +34,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## تفاوت پیش‌فرض کشور با پیش‌فرض‌های سامانه
 
-رکورد Country داده‌های مرجع در سطح کشور را نگه می‌دارد. [تنظیمات سیستم](https://docs.frappe.io/erpnext/system-settings) زبان سایت، منطقهٔ زمانی، قالب تاریخ و قالب عدد پیش‌فرض سایت را کنترل می‌کند. [پیش‌فرض‌های سراسری/ERPNext Settings](https://docs.frappe.io/erpnext/global-defaults) و ترجیحات کاربر نیز می‌توانند آنچه کاربر می‌بیند تعیین کنند. اگر قالب‌بندی غیرمنتظره است، هر سه بخش را بررسی کنید.
+رکورد Country داده‌های مرجع در سطح کشور را نگه می‌دارد. [تنظیمات سیستم](https://docs.frappe.io/erpnext/system-settings) زبان سایت، منطقهٔ زمانی، قالب تاریخ و قالب عدد پیش‌فرض سایت را کنترل می‌کند. [پیش‌فرض‌های سراسری ERPNext](https://docs.frappe.io/erpnext/global-defaults) و ترجیحات کاربر نیز می‌توانند آنچه کاربر می‌بیند تعیین کنند. اگر قالب‌بندی غیرمنتظره است، هر سه بخش را بررسی کنید.
 
 ## عیب‌یابی
 
@@ -60,7 +60,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 - [شرکت](company-setup.md)
 - [تنظیمات سیستم](https://docs.frappe.io/erpnext/system-settings)
-- [پیش‌فرض‌های سراسری/ERPNext Settings](https://docs.frappe.io/erpnext/global-defaults)
+- [پیش‌فرض‌های سراسری ERPNext](https://docs.frappe.io/erpnext/global-defaults)
 - [نشانی](address.md)
 - [ارز](currency.md)
 

@@ -71,7 +71,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 1. [کارمند](employee.md)
 2. [جدایی کارکنان](employee-separation.md)
-3. [گزارش خروج کارکنان](https://docs.frappe.io/hr/human-resources-reports#5-employee-exits)
+3. [گزارش‌های منابع انسانی](https://docs.frappe.io/hr/human-resources-reports#5-employee-exits)
 
 ---
 

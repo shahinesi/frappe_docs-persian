@@ -21,7 +21,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## پیکربندی قلم تامین شده توسط مشتری
 
-1. به [DocTypeِ کالا](https://docs.frappe.io/erpnext/stock) بروید و یک قلم تازه با عنوان **تامین شده توسط مشتری** اضافه کنید.
+1. به [مقدمه‌ای بر ماژول موجودی](https://docs.frappe.io/erpnext/stock) بروید و یک قلم تازه با عنوان **تامین شده توسط مشتری** اضافه کنید.
 
    > صفحهٔ اصلی > موجودی > کالاها و قیمت‌گذاری > کالا
 

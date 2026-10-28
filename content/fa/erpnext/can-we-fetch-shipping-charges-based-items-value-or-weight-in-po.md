@@ -78,7 +78,7 @@ source_version: "64605688b4c716273e5392b44f3b7eb47750b58b83b7f73facdee7057ed91b3
 
 لزوماً نه. ردیف مالیاتی مربوط و مبنای محاسبه‌اش را اضافه یا پیکربندی کنید و سپس نتیجه را تأیید کنید.
 
-[قانون حمل و نقل](https://docs.frappe.io/erpnext/shipping-rule) را همراه با تنظیمات [کالا](item.md)، [واحد اندازه‌گیری (UoM)](https://docs.frappe.io/erpnext/uom) و [تأمین‌کننده](https://docs.frappe.io/erpnext/supplier) به‌کار ببرید. هزینه را در [سفارش خرید](purchase-order.md)، [رسید خرید](https://docs.frappe.io/erpnext/purchase-receipt) و [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice) اعمال و بررسی کنید. برای ردیف‌های مالیاتی قابل‌استفادهٔ مجدد از [الگوی مالیات و هزینه‌های خرید](https://docs.frappe.io/erpnext/purchase-taxes-and-charges-template)، برای هزینه‌هایی که پس از دریافت مشخص می‌شوند از [سند مالی بهای تمام‌شده در مقصد](https://docs.frappe.io/erpnext/landed-cost-voucher) و برای کنترل تراکنش‌ها از [تنظیمات خرید](buying-settings.md) استفاده کنید.
+[قانون حمل و نقل](https://docs.frappe.io/erpnext/shipping-rule) را همراه با تنظیمات [کالا](item.md)، [واحد اندازه‌گیری](https://docs.frappe.io/erpnext/uom) و [تأمین‌کننده](https://docs.frappe.io/erpnext/supplier) به‌کار ببرید. هزینه را در [سفارش خرید](purchase-order.md)، [رسید خرید](https://docs.frappe.io/erpnext/purchase-receipt) و [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice) اعمال و بررسی کنید. برای ردیف‌های مالیاتی قابل‌استفادهٔ مجدد از [الگوی مالیات و هزینه‌های خرید](https://docs.frappe.io/erpnext/purchase-taxes-and-charges-template)، برای هزینه‌هایی که پس از دریافت مشخص می‌شوند از [سند مالی بهای تمام‌شده در مقصد](https://docs.frappe.io/erpnext/landed-cost-voucher) و برای کنترل تراکنش‌ها از [تنظیمات خرید](buying-settings.md) استفاده کنید.
 
 ## موضوعات مرتبط
 

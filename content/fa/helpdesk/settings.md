@@ -141,7 +141,7 @@ Helpdesk از حالت تیره نیز پشتیبانی می‌کند. برای 
 
 فیلد **نام خودکار** را روی `INCD-.#####` تنظیم کنید. پنج علامت `#` نشان‌دهندهٔ رقم‌هایی هستند که پس از پیشوند INCD می‌آیند؛ برای نمونه اگر سری `INCD-.###` باشد، نام تیکت `INCD-001` و به همین ترتیب خواهد بود.
 
-روش‌های دیگری نیز برای نام‌گذاری تیکت وجود دارد؛ [مستندات Naming Expression](https://docs.frappe.io/framework/user/en/basics/doctypes/naming#5-expression) را ببینید.
+روش‌های دیگری نیز برای نام‌گذاری تیکت وجود دارد؛ [عبارت نام‌گذاری](https://docs.frappe.io/framework/user/en/basics/doctypes/naming#5-expression) را ببینید.
 
 ---
 

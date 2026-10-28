@@ -144,7 +144,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ## موضوعات مرتبط
 
 - [نرخ تبدیل ارز (تبدیل ارز)](currency-exchange.md)
-- [چند ارزی Setup](https://docs.frappe.io/erpnext/multi-currency-setup)
+- [راه‌اندازی چندارزی](https://docs.frappe.io/erpnext/multi-currency-setup)
 - [تنظیمات حساب‌ها](accounts-settings.md)
 - [مدیریت تراکنش‌های چندارزی](https://docs.frappe.io/erpnext/managing-transactions-in-multiple-currencies)
 - [تجدید ارزیابی نرخ ارز](exchange-rate-revaluation.md)

@@ -54,7 +54,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## موضوعات مرتبط
 
-- [REST API فریم‌ورک Frappe](https://docs.frappe.io/framework/user/en/api/rest)
+- [REST API در Frappe Framework](https://docs.frappe.io/framework/user/en/api/rest)
 - [سفارش فروش](sales-order.md)
 - [کالا](item.md)
 - [ثبت موجودی](https://docs.frappe.io/erpnext/stock-entry)

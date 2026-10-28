@@ -97,7 +97,7 @@ ERPNext یک ردیف با مبلغ دقیق لازم برای برابرشدن 
 | ساختن ورودی تفاوت | یک ردیف بدهکار یا بستانکار به‌اندازهٔ اختلاف فعلی اضافه می‌کند؛ حساب را انتخاب نمی‌کند و موجه‌بودن اختلاف را تأیید نمی‌کند. |
 | حساب | دفتری که اختلاف در آن ثبت می‌شود. حسابی را انتخاب کنید که رویداد اقتصادی واقعی را نشان می‌دهد. |
 | بدهکار یا بستانکار | مبلغی که ERPNext برای ترازکردن voucher اضافه می‌کند؛ پیش از ثبت نهایی آن را بررسی کنید. |
-| حساب واحد پول و نرخ تبدیل | مقدارهای ارزی حساب و ارز شرکت را در [ثبت در دفتر روزنامه چندارزی](https://docs.frappe.io/erpnext/multi-currency-accounting) کنترل می‌کنند. |
+| حساب واحد پول و نرخ تبدیل | مقدارهای ارزی حساب و ارز شرکت را در [حسابداری چندارزی](https://docs.frappe.io/erpnext/multi-currency-accounting) کنترل می‌کنند. |
 | نوع مرجع و نام مرجع | در صورت ارتباط واقعی تعدیل، ردیف حسابداری را به سند پشتیبانی‌شده پیوند می‌دهند. |
 | پیش‌پرداخت است | مبلغ طرف حساب را به‌عنوان پیش‌دریافت مشخص می‌کند، وقتی به فاکتور مشخصی تخصیص نیافته باشد. |
 | مرکز هزینه و ابعاد دیگر | ثبت را برای گزارش مدیریتی دسته‌بندی می‌کنند؛ جایگزین حساب دفتر کل نیستند. |
@@ -147,9 +147,9 @@ ERPNext افزون بر توازن، شرکت، نوع حساب، طرف حسا�
 ## موضوعات مرتبط
 
 - [ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry)
-- [Understanding بدهکار and بستانکار](https://docs.frappe.io/erpnext/understand-debit-and-credit)
+- [آشنایی با بدهکار و بستانکار](https://docs.frappe.io/erpnext/understand-debit-and-credit)
 - [درخت حساب‌ها](chart-of-accounts.md)
 - [دفترکل](https://docs.frappe.io/erpnext/general-ledger)
 - [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
-- [چند ارزی Accounting](https://docs.frappe.io/erpnext/multi-currency-accounting)
+- [حسابداری چندارزی](https://docs.frappe.io/erpnext/multi-currency-accounting)
 - [الگوی ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry-template)

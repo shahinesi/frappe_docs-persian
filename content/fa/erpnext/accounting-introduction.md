@@ -110,7 +110,7 @@ ERPNext دریافتنی‌ها و پرداختنی‌ها را بر اساس ط
 
 ## روش عملی یادگیری ماژول
 
-از [درک بدهکار و بستانکار](https://docs.frappe.io/erpnext/understand-debit-and-credit) شروع کنید و سپس یک چرخهٔ کامل کسب‌وکار را دنبال کنید. یک فاکتور بسازید و ارسال کنید، **دفتر حسابداری** آن را باز کنید، پرداختی ثبت کنید و دفترکل و گزارش حساب‌های دریافتنی یا حساب‌های پرداختنی را بررسی کنید.
+از [آشنایی با بدهکار و بستانکار](https://docs.frappe.io/erpnext/understand-debit-and-credit) شروع کنید و سپس یک چرخهٔ کامل کسب‌وکار را دنبال کنید. یک فاکتور بسازید و ارسال کنید، **دفتر حسابداری** آن را باز کنید، پرداختی ثبت کنید و دفترکل و گزارش حساب‌های دریافتنی یا حساب‌های پرداختنی را بررسی کنید.
 
 پیش از راه‌اندازی عملیاتی:
 
@@ -127,7 +127,7 @@ ERPNext دریافتنی‌ها و پرداختنی‌ها را بر اساس ط
 
 - [درخت حساب‌ها](chart-of-accounts.md)
 - [اثر تراکنش‌ها بر دفترکل](https://docs.frappe.io/erpnext/how-transactions-affect-the-ledger)
-- [درک بدهکار و بستانکار](https://docs.frappe.io/erpnext/understand-debit-and-credit)
+- [آشنایی با بدهکار و بستانکار](https://docs.frappe.io/erpnext/understand-debit-and-credit)
 - [گزارش‌های حسابداری](accounting-reports.md)
 - [باز و بسته‌کردن دوره](https://docs.frappe.io/erpnext/opening-and-closing)
 - [گردش‌کارهای حسابداری بر اساس نوع کسب‌وکار](accounting-workflows-by-business-type.md)

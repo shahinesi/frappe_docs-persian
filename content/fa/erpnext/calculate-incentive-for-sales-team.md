@@ -91,7 +91,7 @@ ERPNext مبلغ مشارکت را از مجموع خالص تراکنش محا�
 
 ## بررسی عملکرد و پاداش تیم
 
-برای تأیید انتساب تراکنش به فروشنده، از [افزودن کارشناسان فروش به تراکنش‌های فروش](https://docs.frappe.io/erpnext/sales-persons-in-the-sales-transactions) و گزارش‌های فروش مربوط استفاده کنید. اگر سازمان هدف مقداری یا مبلغی را بر اساس سال مالی و گروه آیتم نیز پیگیری می‌کند، [شخص فروش Target Allocation](https://docs.frappe.io/erpnext/sales-person-target-allocation) را به‌کار ببرید.
+برای تأیید انتساب تراکنش به فروشنده، از [افزودن کارشناسان فروش به تراکنش‌های فروش](https://docs.frappe.io/erpnext/sales-persons-in-the-sales-transactions) و گزارش‌های فروش مربوط استفاده کنید. اگر سازمان هدف مقداری یا مبلغی را بر اساس سال مالی و گروه آیتم نیز پیگیری می‌کند، [تخصیص هدف فروش به کارشناس فروش](https://docs.frappe.io/erpnext/sales-person-target-allocation) را به‌کار ببرید.
 
 فیلد پاداش فقط مبلغی را در سطح تراکنش ثبت می‌کند. به‌طور خودکار مؤلفهٔ حقوق، فیش حقوق، هزینه، بدهی پرداختنی یا پرداخت ایجاد نمی‌کند.
 
@@ -151,7 +151,7 @@ ERPNext مبلغ مشارکت را از مجموع خالص تراکنش محا�
 
 ### آیا این همان کمیسیون شریک فروش است؟
 
-خیر. پاداش تیم فروش برای شخص فروشها است. [Setting شرکت فروش Goal | ERPNext Documentation](https://docs.frappe.io/erpnext/how-to-give-commission-to-sales-partner) مربوط به شریک فروشهای بیرونی است.
+خیر. پاداش تیم فروش برای شخص فروشها است. [تعیین هدف فروش شرکت](https://docs.frappe.io/erpnext/how-to-give-commission-to-sales-partner) مربوط به شریک فروشهای بیرونی است.
 
 ### آیا چند نفر می‌توانند در یک فروش سهم داشته باشند؟
 
@@ -173,6 +173,6 @@ ERPNext مبلغ مشارکت را از مجموع خالص تراکنش محا�
 
 - [شخص فروش](https://docs.frappe.io/erpnext/sales-person)
 - [افزودن کارشناسان فروش به تراکنش‌های فروش](https://docs.frappe.io/erpnext/sales-persons-in-the-sales-transactions)
-- [شخص فروش Target Allocation](https://docs.frappe.io/erpnext/sales-person-target-allocation)
+- [تخصیص هدف فروش به کارشناس فروش](https://docs.frappe.io/erpnext/sales-person-target-allocation)
 
 منبع: [محاسبهٔ پاداش تیم فروش](https://docs.frappe.io/erpnext/calculate-incentive-for-sales-team). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویر به فایل مستندات پیوند داده شده و در این مخزن بازنشر نشده است.

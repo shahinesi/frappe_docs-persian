@@ -89,8 +89,8 @@ Nova Electronics Trading، **Summit Digital Stores** را به‌عنوان مش
 
 - در صورت نیاز به پیکربندی مالیاتی، دسته مالیاتی یا **دسته‌بندی کسر مالیات** منطقه‌ای را تعیین کنید. برای قواعد مربوط [دسته‌بندی کسر مالیات](https://docs.frappe.io/erpnext/tax-withholding-category) را ببینید.
 - [شخص فروش](https://docs.frappe.io/erpnext/sales-person) یا تیم فروش را اختصاص دهید و مطمئن شوید درصدهای مشارکت در مجموع 100% می‌شوند.
-- اگر شریک بیرونی بر فروش اثر دارد، [شریک فروش Commission](https://docs.frappe.io/erpnext/sales-partner) و نرخ کمیسیون را اضافه کنید.
-- اگر مشتری امتیاز وفاداری کسب یا مصرف می‌کند، [Configure مشتری Loyalty Programs | ERPNext Documentation](https://docs.frappe.io/erpnext/loyalty-program) را انتخاب کنید.
+- اگر شریک بیرونی بر فروش اثر دارد، [کمیسیون شریک فروش](https://docs.frappe.io/erpnext/sales-partner) و نرخ کمیسیون را اضافه کنید.
+- اگر مشتری امتیاز وفاداری کسب یا مصرف می‌کند، [پیکربندی برنامه‌های وفاداری مشتری](https://docs.frappe.io/erpnext/loyalty-program) را انتخاب کنید.
 - در شرکت‌های مختلف از همان مشتری استفاده کنید. فقط وقتی [درخت حساب‌ها](chart-of-accounts.md) شما لازم می‌داند، حساب دریافتنیِ مخصوص شرکت اضافه کنید.
 
 ERPNext معمولاً دریافتنی‌های مشتری را در حساب پیش‌فرض Debtors شرکت ثبت می‌کند؛ بنابراین برای هر مشتری به دفتر کل جداگانه نیاز نیست. حساب مخصوص شرکت یک استثناست، نه پیش‌نیاز.

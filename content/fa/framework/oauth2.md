@@ -47,7 +47,7 @@ DocTypeهای مربوط به این نقش‌ها عبارت‌اند از:
 3. [احراز هویت مبتنی بر توکن](https://docs.frappe.io/framework/user/en/guides/integration/rest_api/token_based_authentication)
 4. [استفاده از Frappe به‌عنوان سرویس OAuth](https://docs.frappe.io/framework/user/en/using_frappe_as_oauth_service)
 5. [کلید ورود به سیستم اجتماعی](https://docs.frappe.io/framework/user/en/guides/integration/social_login_key)
-6. [Set up a جدید برنامه متصل](https://docs.frappe.io/framework/user/en/guides/app-development/connected-app)
+6. [راه‌اندازی برنامهٔ متصل جدید](https://docs.frappe.io/framework/user/en/guides/app-development/connected-app)
 
 > **هشدار**
 >

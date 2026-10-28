@@ -21,7 +21,7 @@ ERPNext قابلیت‌های متنوعی برای یکپارچه‌سازی د
 
 ### یکپارچه‌سازی‌های احراز هویت
 
-- [راه‌اندازی LDAP](https://docs.frappe.io/erpnext/ldap-integration)
+- [راه‌اندازی یکپارچه‌سازی LDAP](https://docs.frappe.io/erpnext/ldap-integration)
 - [راه‌اندازی ورود با fairlogin](fairlogin-integration.md)
 
 ### یکپارچه‌سازی‌های پشتیبان‌گیری
@@ -49,8 +49,8 @@ ERPNext قابلیت‌های متنوعی برای یکپارچه‌سازی د
 ### یکپارچه‌سازی‌های پرداخت
 
 - [یکپارچه‌سازی Razorpay](https://docs.frappe.io/erpnext/razorpay-integration)
-- [یکپارچه‌سازی GoCardless](https://docs.frappe.io/erpnext/gocardless-integration)
-- [یکپارچه‌سازی Stripe](https://docs.frappe.io/erpnext/stripe-integration)
+- [راه‌اندازی GoCardless](https://docs.frappe.io/erpnext/gocardless-integration)
+- [راه‌اندازی Stripe](https://docs.frappe.io/erpnext/stripe-integration)
 - [راه‌اندازی Braintree](braintree-integration.md)
 - [یکپارچه‌سازی Paytm](https://docs.frappe.io/erpnext/paytm-integration)
 - [یکپارچه‌سازی M-Pesa](https://docs.frappe.io/erpnext/mpesa-integration)

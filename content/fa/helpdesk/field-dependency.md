@@ -107,7 +107,7 @@ function setupForm({doc, applyFilters}) {
 
   برای نمونه، شرط به‌روزرسانی دسته می‌تواند چنین باشد: `eval:doc.custom_app!==""`
 
-- برای اجباری‌کردن یک فیلد بر اساس فیلدی دیگر، از `mandatory_depends_on` در **سفارشی‌سازی فرم** استفاده کنید. برای جزئیات بیشتر، [مستندات DocField](https://docs.frappe.io/framework/user/en/basics/doctypes/docfield) را بخوانید.
+- برای اجباری‌کردن یک فیلد بر اساس فیلدی دیگر، از `mandatory_depends_on` در **سفارشی‌سازی فرم** استفاده کنید. برای جزئیات بیشتر، [فیلدهای DocField](https://docs.frappe.io/framework/user/en/basics/doctypes/docfield) را بخوانید.
 
   برای نمونه، برای اجباری‌کردن فیلد برنامه می‌توانید از این عبارت استفاده کنید: `eval:doc.ticket_type==="Bug"`
 

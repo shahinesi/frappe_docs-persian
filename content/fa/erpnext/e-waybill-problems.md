@@ -50,7 +50,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - **کد PIN:** کد PIN نشانی باید با ایالت آن مطابقت داشته باشد. نشانی‌های صورتحساب، ارسال و مبدأ ارسال را بررسی کنید.
 - **GSTIN حمل‌کننده:** برای شناسهٔ حمل‌کننده (از جمله شمارهٔ ثبت‌نام عمومی)، گزینهٔ **حمل کننده است** را در تأمین‌کننده فعال و فیلد **GSTIN حمل‌کننده** را وارد کنید؛ از فیلد عادی GSTIN استفاده نکنید.
 - **حمل ریلی:** اگر روش حمل Rail است، شمارهٔ سند حمل باید از قالب موردنیاز راه‌آهن پیروی کند.
-- **خطاهای اعتبارنامه یا API:** [خطاهای GST API](https://docs.frappe.io/erpnext/gst-api-credentials-and-credits) را ببینید.
+- **خطاهای اعتبارنامه یا API:** [خطاهای API مربوط به GST: اعتبارنامه، GSTIN یا تمام‌شدن اعتبار API](https://docs.frappe.io/erpnext/gst-api-credentials-and-credits) را ببینید.
 
 ## GSTIN مقصد و دیگر قواعد تازهٔ دولت
 
@@ -77,7 +77,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## موضوعات مرتبط
 
-- [GST هند، صورتحساب الکترونیکی و e-way bill: یافتن پاسخ](https://docs.frappe.io/erpnext/india-gst-help)
+- [پرسش‌های رایج GST هند: فاکتور الکترونیکی و بارنامهٔ الکترونیکی](https://docs.frappe.io/erpnext/india-gst-help)
 - [e-Waybill](https://docs.indiacompliance.app/docs/ewaybill-and-einvoice/generating_e_waybill)
 - [اعتبارسنجی تراکنش‌ها](https://docs.indiacompliance.app/docs/miscellaneous/transaction_validations)
 - [رفع خطای e-Invoice، نبود IRN یا لغو نشدن صورتحساب](e-invoice-failed-or-cancel.md)

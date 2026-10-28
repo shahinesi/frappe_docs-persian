@@ -60,7 +60,7 @@ ERPNext مبلغ روزانه را از ارزش استهلاک‌پذیر و م
 - [دستهٔ دارایی](asset-category.md)
 - [محل دارایی](asset-location.md)
 - [دارایی](asset.md)
-- [Purchasing an دارایی](https://docs.frappe.io/erpnext/purchasing-an-asset)
+- [خرید دارایی](https://docs.frappe.io/erpnext/purchasing-an-asset)
 - [استهلاک](asset-depreciation.md)
 - [جابجایی دارایی](asset-movement.md)
 - [تعمیر دارایی](asset-repair.md)
