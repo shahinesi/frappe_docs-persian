@@ -5,8 +5,8 @@ source_url: "https://docs.frappe.io/helpdesk/customer-organizations"
 source_id: "helpdesk/customer-organizations"
 source_version: "10db47f86e09a187ab2df1db454b641aea0c8a92880c4e64f8190a546a2e4645"
 source_updated: "2026-10-23"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
@@ -70,7 +70,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 1. در پرتال مشتری، منوی حساب را باز و **تنظیمات** را انتخاب کنید. گزینهٔ **تنظیمات** در تلفن همراه در دسترس نیست.
 2. روی **Manage Organization** کلیک کنید. اگر هیچ‌یک از سازمان‌های خود را مدیریت نمی‌کنید، این گزینه **View Organization** نام دارد.
 
-در صورت تنظیم‌شدن، صفحه **شناسه ایمیل**، **دامنه** و **کشور** مشتری را نمایش می‌دهد.
+در صورت تنظیم‌شدن، صفحه **شناسهٔ ایمیل**، **دامنه** و **کشور** مشتری را نمایش می‌دهد.
 
 زبانهٔ **اعضا** مخاطبهای مشتری و نقش آن‌ها را فهرست می‌کند. برای پیداکردن افراد از **جستجو** و فیلتر نقش استفاده کنید. فیلتر نقش گزینه‌های **همه**، **مدیر**، **Member** و، وقتی مدیر دعوت‌های در انتظار را می‌بیند، **دعوت کرد** را دارد. مدیران همچنین **Last seen** را می‌بینند. اگر **اجازهٔ دعوت از اعضا** روشن باشد، دعوت‌های در انتظار نیز برای مدیران نمایش داده می‌شود.
 

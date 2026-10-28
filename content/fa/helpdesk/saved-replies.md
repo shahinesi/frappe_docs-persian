@@ -5,8 +5,8 @@ source_url: "https://docs.frappe.io/helpdesk/saved-replies"
 source_id: "helpdesk/saved-replies"
 source_version: "e1aad5bab094ff146319a0287e2b5b07c8cc3d2d4d23a999e8b18587bd28fa70"
 source_updated: "2026-10-23"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
@@ -96,7 +96,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### غیرفعال‌کردن دامنهٔ سراسری پاسخ‌ها
 
-برای غیرفعال‌کردن دامنهٔ سراسری، پنجرهٔ تنظیمات را از منوی بالا-چپ باز کنید و **تنظیمات** را بزنید؛ یا از میزکار وارد **تنظیمات** شوید. گزینهٔ **Restrict تیکت‌ها by تیم** را فعال کنید. سپس گزینهٔ **Disable global دامنه for saved replies** زیر آن ظاهر می‌شود؛ آن را فعال و تنظیمات را ذخیره کنید.
+برای غیرفعال‌کردن دامنهٔ سراسری، پنجرهٔ تنظیمات را از منوی بالا-چپ باز کنید و **تنظیمات** را بزنید؛ یا از میزکار وارد **تنظیمات** شوید. گزینهٔ **محدودکردن تیکت‌ها بر اساس تیم** را فعال کنید. سپس گزینهٔ **Disable global دامنه for saved replies** زیر آن ظاهر می‌شود؛ آن را فعال و تنظیمات را ذخیره کنید.
 
 ## اقدام‌ها
 

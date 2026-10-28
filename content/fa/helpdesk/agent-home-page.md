@@ -5,8 +5,8 @@ source_url: "https://docs.frappe.io/helpdesk/other-features/agent-home-page"
 source_id: "helpdesk/other-features/agent-home-page"
 source_version: "2a45bb50302af6f9c400dcfcf6309989f38e85c6fe9b78f51c03c2444056ff7b"
 source_updated: "2026-05-28"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
@@ -49,7 +49,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### 4. شاخص‌های میانگین زمان
 
-ویجت نمودار میله‌ای که **Average اولین زمان پاسخگویی** و **Average مدت زمان حل و فصل** را کنار هم مقایسه می‌کند.
+ویجت نمودار میله‌ای که **میانگین زمان نخستین پاسخ** و **میانگین مدت‌زمان حل‌وفصل** را کنار هم مقایسه می‌کند.
 
 - **نمایش:** نمودار با دو میله.
 - **فیلترها:** بازه‌های تاریخی طولانی‌تر، یعنی 3 Months (3M)، 6 Months (6M) و 1 Year (1Y)، قابل انتخاب‌اند.

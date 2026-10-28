@@ -5,8 +5,8 @@ source_url: "https://docs.frappe.io/helpdesk/faq/setting-up-outlook-for-frappe"
 source_id: "helpdesk/faq/setting-up-outlook-for-frappe"
 source_version: "ca6dba3d372d6f303d39b871220c7211d6aae11c154ac78fe33872a6c79c176a"
 source_updated: "2026-09-23"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
@@ -106,7 +106,7 @@ https://your_site.com/api/method/frappe.integrations.doctype.connected_app.conne
 
 4. گزینهٔ **Use OAuth** را فعال و **برنامه متصل** ساخته‌شده در بخش 2 را پیوند دهید.
 5. **ذخیره** را بزنید و سپس **مجوز دسترسی به API** را انتخاب کنید. Microsoft از شما می‌خواهد وارد شوید و درخواست را تأیید کنید. پس از تأیید، به Frappe بازمی‌گردید و حساب متصل می‌شود.
-6. در صورت نیاز حساب را **Default ورودی** و/یا **خروجی پیش‌فرض** کنید. برای احراز هویت از گزینهٔ Use OAuth استفاده و سپس **مجوز دسترسی به API** را بزنید.
+6. در صورت نیاز حساب را **ورودی پیش‌فرض** و/یا **خروجی پیش‌فرض** کنید. برای احراز هویت از گزینهٔ Use OAuth استفاده و سپس **مجوز دسترسی به API** را بزنید.
 
 اگر همه‌چیز درست تنظیم شده باشد، به صفحهٔ Outlook هدایت می‌شوید تا حسابی را که می‌خواهید به آن دسترسی بدهید انتخاب کنید. پس از تأیید، اتصال ایمیل به Frappe کامل است.
 

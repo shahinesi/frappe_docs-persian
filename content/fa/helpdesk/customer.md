@@ -5,8 +5,8 @@ source_url: "https://docs.frappe.io/helpdesk/customer"
 source_id: "helpdesk/customer"
 source_version: "67314d3612fb4c1a09019bf08e258bfa1a77acfe7ab277dbd0363627d4c56c05"
 source_updated: "2026-10-23"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
@@ -45,8 +45,8 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 - **میانگین بازخورد دریافتی:** میانگین امتیاز ستاره‌ای تیکت‌های مشتری و تعداد کل بازبینی‌ها.
 - **SLAهای نقض‌شده:** تعداد تیکت‌هایی که از مهلت توافق‌نامهٔ سطح خدمات (SLA) عبور کرده‌اند.
-- **Avg. اولین زمان پاسخگویی:** روند سرعت ارسال پاسخ نخستین.
-- **Avg. مدت زمان حل و فصل:** روند مدت‌زمان لازم برای حل تیکت‌ها.
+- **میانگین زمان نخستین پاسخ:** روند سرعت ارسال پاسخ نخستین.
+- **میانگین مدت‌زمان حل‌وفصل:** روند مدت‌زمان لازم برای حل تیکت‌ها.
 
 ### تیکت‌ها
 

@@ -5,8 +5,8 @@ source_url: "https://docs.frappe.io/helpdesk/email-communication"
 source_id: "helpdesk/email-communication"
 source_version: "a39b028be1c68ef93e6d4f20f44a2893f56f73cadbbfcf1cb986900e8479cebc"
 source_updated: "2026-05-28"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
@@ -38,7 +38,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 در Helpdesk می‌توانید چند حساب ایمیل ورودی و خروجی داشته باشید. دست‌کم باید یک حساب خروجی پیش‌فرض و یک حساب ورودی پیش‌فرض تنظیم شود. در نسخهٔ ابری Frappe Helpdesk، ایمیل خروجی پیش‌فرض از سوی ما تنظیم می‌شود.
 
-برای دسترسی به حساب‌های ایمیل، در میزکار به **حساب کاربری ایمیل Master** بروید.
+برای دسترسی به حساب‌های ایمیل، در میزکار به **حساب اصلی ایمیل** بروید.
 
 ### 1. پیش‌نیازها
 
@@ -57,7 +57,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### 3. گزینه‌های تکمیلی هنگام ساخت حساب کاربری ایمیل
 
-1. **Use Different ایمیل Login شناسه:** برای ورود به این حساب با نام کاربری و گذرواژه‌ای متفاوت استفاده می‌شود. برای نمونه، اگر ایمیل `notifications@example.com` دارید و می‌خواهید کاربران با شناسهٔ ایمیل دیگری به آن دسترسی پیدا کنند، این گزینه را علامت بزنید. گیرندگان همچنان `notifications@example.com` را به‌عنوان فرستنده می‌بینند.
+1. **استفاده از شناسهٔ ورود ایمیل متفاوت:** برای ورود به این حساب با نام کاربری و گذرواژه‌ای متفاوت استفاده می‌شود. برای نمونه، اگر ایمیل `notifications@example.com` دارید و می‌خواهید کاربران با شناسهٔ ایمیل دیگری به آن دسترسی پیدا کنند، این گزینه را علامت بزنید. گیرندگان همچنان `notifications@example.com` را به‌عنوان فرستنده می‌بینند.
 2. **در انتظار گذرواژه:** اگر این حساب را برای شخص دیگری می‌سازید و گذرواژه را نمی‌دانید، این گزینه را علامت بزنید. هنگام ورود کاربر دیگر، از او خواسته می‌شود گذرواژه را وارد کند.
 3. **Use ASCII encoding for the password:** با فعال‌کردن این گزینه، گذرواژه با کدگذاری ASCII استفاده می‌شود.
 

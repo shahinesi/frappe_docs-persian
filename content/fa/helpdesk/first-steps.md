@@ -5,8 +5,8 @@ source_url: "https://docs.frappe.io/helpdesk/your-first-steps-with-frappe-helpde
 source_id: "helpdesk/your-first-steps-with-frappe-helpdesk"
 source_version: "8e15aceb8efdda49296ebc23796eedba1eaf008f9e1981cdca3f0b38ccca1b25"
 source_updated: "2026-10-23"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
@@ -25,7 +25,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## 1. اتصال ایمیل پشتیبانی
 
-به **تنظیمات → ایمیل Accounts → جدید** بروید و ارائه‌دهندهٔ ایمیل خود را انتخاب کنید. برای Gmail، Outlook و بیشتر سرویس‌های دیگر، به‌جای گذرواژهٔ معمول باید از **app password** استفاده کنید. صفحهٔ راه‌اندازی پیوند راهنمای ارائه‌دهنده را در اختیارتان می‌گذارد.
+به **تنظیمات → حساب‌های ایمیل → جدید** بروید و ارائه‌دهندهٔ ایمیل خود را انتخاب کنید. برای Gmail، Outlook و بیشتر سرویس‌های دیگر، به‌جای گذرواژهٔ معمول باید از **app password** استفاده کنید. صفحهٔ راه‌اندازی پیوند راهنمای ارائه‌دهنده را در اختیارتان می‌گذارد.
 
 گزینه‌های **فعال‌کردن ورودی** و **خروجی را فعال کنید** را روشن کنید و حساب را برای هر دو حالت پیش‌فرض قرار دهید. Helpdesk هنگام ذخیره اطلاعات ورود را بررسی می‌کند و اگر مشکلی باشد همان موقع متوجه می‌شوید.
 
