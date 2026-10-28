@@ -20,6 +20,13 @@
       "basis": "Reviewed visible Wiki and Marketplace controls; the Wiki repository has no Persian locale for these labels."
     },
     {
+      "product": "framework",
+      "source_labels": {
+        "Scheduler Event": "رویداد زمان‌بندی‌شده"
+      },
+      "basis": "Reviewed the visible Server Script scheduling type; the exact label is absent from the current Persian locale snapshot."
+    },
+    {
       "product": "erpnext",
       "source_labels": {
         "Search bar": "نوار جست‌وجو",
@@ -50,8 +57,11 @@
       "source_labels": {
         "Agent Manager": "مدیر کارشناسان پشتیبانی",
         "Admin": "مدیر سامانه",
+        "Administrator": "مدیر سامانه",
         "Business holidays": "تعطیلات کاری",
-        "Recurring holidays": "تعطیلات تکرارشونده"
+        "Recurring holidays": "تعطیلات تکرارشونده",
+        "IMAP Folder": "پوشهٔ IMAP",
+        "WebForm": "فرم وب"
       },
       "basis": "Reviewed Helpdesk role labels; these labels are absent from the current Persian locale snapshot."
     },
