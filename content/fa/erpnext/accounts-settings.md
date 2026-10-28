@@ -204,4 +204,4 @@ Nova Industries ممکن است تصمیم بگیرد شمارهٔ فاکتور�
 - [استهلاک دارایی](asset-depreciation.md)
 
 ---
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/accounts-settings). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [تنظیمات حساب‌ها](https://docs.frappe.io/erpnext/accounts-settings). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

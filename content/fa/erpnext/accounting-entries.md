@@ -227,4 +227,4 @@ ERPNext برای محافظت از حساب‌های بسته‌شده، کنت�
 - [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
 
 ---
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/accounting-entries). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [ثبت‌های حسابداری](https://docs.frappe.io/erpnext/accounting-entries). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

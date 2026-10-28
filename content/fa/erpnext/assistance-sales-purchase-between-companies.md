@@ -108,5 +108,5 @@ source_version: "a7153ec0dc19f5a0a77b791385e099bc6cb8b65906a0e6b9ba801d0f97dfb2d
 - [سفارش خرید](purchase-order.md)
 - [شرکت](company-setup.md)
 
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/assistance-sales-purchase-between-companies). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های رسمی پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.
+منبع: [ارسال مستقیم میان شرکت‌های فرعی](https://docs.frappe.io/erpnext/assistance-sales-purchase-between-companies). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های رسمی پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.
 

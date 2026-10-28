@@ -89,6 +89,7 @@ for (const [currentPath, page] of pages) {
 	reviewIssues.push(...prepared.reviewIssues);
 	if (prepared.markdown === page.markdown) continue;
 	changedFiles++;
+	if (dryRun) console.log(`Would update ${currentPath}`);
 	changedPaths.add(currentPath);
 	if (!dryRun) await writeWithRetry(page.absolute, prepared.markdown);
 }

@@ -91,4 +91,4 @@ ERPNext هنگام ذخیرهٔ سندی که فیلد شرکت دارد، مح�
 | `<Doctype> <name>` cannot be used with شرکت `<company>` because of محدودیت‌های شرکت | سند از رکورد محدودشده در شرکتی استفاده می‌کند که مجاز نیست. | رکورد را از سند حذف کنید یا شرکت را به شرکت‌های مجاز بیفزایید. |
 | You are not permitted to add or remove شرکت `<company>` in شرکت‌های مجاز | مجوز کاربری شما برای شرکت آن شرکت را پوشش نمی‌دهد. | از مدیر بخواهید فهرست را تغییر دهد. |
 
-**منبع:** [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/company-restrictions-for-item-customer-and-supplier). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.
+**منبع:** [محدودیت شرکت برای کالا، مشتری و تأمین‌کننده](https://docs.frappe.io/erpnext/company-restrictions-for-item-customer-and-supplier). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

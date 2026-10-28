@@ -159,4 +159,4 @@ source_version: "7d12de95b341951022a6ccf746df1082f3585e37231ca2da537d7785fac5fa2
 
 ---
 
-**منبع:** [مستندات رسمی Frappe Framework](https://docs.frappe.io/framework/automations/extending-automations). این صفحه ترجمهٔ غیررسمی است. محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.
+**منبع:** [گسترش خودکارسازی‌ها](https://docs.frappe.io/framework/automations/extending-automations). این صفحه ترجمهٔ غیررسمی است. محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

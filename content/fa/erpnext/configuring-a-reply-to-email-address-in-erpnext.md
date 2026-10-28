@@ -27,4 +27,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای اطلاعات بیشتر دربارهٔ حساب‌های ایمیل، به [حساب ایمیل](email-account.md) مراجعه کنید.
 
-**منبع:** [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/configuring-a-reply-to-email-address-in-erpnext). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر اصلی در این مخزن بازنشر نشده‌اند.
+**منبع:** [پیکربندی نشانی پاسخ‌به در ERPNext](https://docs.frappe.io/erpnext/configuring-a-reply-to-email-address-in-erpnext). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر اصلی در این مخزن بازنشر نشده‌اند.

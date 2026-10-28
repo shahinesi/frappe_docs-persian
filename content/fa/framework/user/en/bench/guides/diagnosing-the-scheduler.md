@@ -49,4 +49,4 @@ Workers online: 0
 
 ---
 
-**منبع:** [مستندات رسمی Frappe Framework](https://docs.frappe.io/framework/user/en/bench/guides/diagnosing-the-scheduler). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.
+**منبع:** [عیب‌یابی زمان‌بند](https://docs.frappe.io/framework/user/en/bench/guides/diagnosing-the-scheduler). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

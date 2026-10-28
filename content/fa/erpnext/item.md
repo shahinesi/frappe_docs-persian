@@ -259,4 +259,4 @@ Hub بازارگاه آنلاین رایگانی است که تأمین‌کنن
 6. [ارزش‌گذاری کالا با FIFO و میانگین متحرک](calculation-of-valuation-rate-in-fifo-and-moving-average.md)
 
 ---
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/item). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [کالا](https://docs.frappe.io/erpnext/item). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

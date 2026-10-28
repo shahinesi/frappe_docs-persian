@@ -97,4 +97,4 @@ The parties enter into this contract on {{ start_date }}.
 - [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice)
 - [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice)
 
-**منبع:** [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/contract). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویرها و پویانمایی اصلی در این مخزن بازنشر نشده‌اند.
+**منبع:** [قرارداد](https://docs.frappe.io/erpnext/contract). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویرها و پویانمایی اصلی در این مخزن بازنشر نشده‌اند.

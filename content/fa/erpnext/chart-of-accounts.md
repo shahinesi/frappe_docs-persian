@@ -75,4 +75,4 @@ source_version: "2710004b2e02e7f7fab860fe6341d870e737935e425825e8dd16fe5ec383c58
 - [ابزار ورود درخت حساب‌ها](chart-of-accounts-importer.md)
 
 ---
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/chart-of-accounts). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [نمودار حساب](https://docs.frappe.io/erpnext/chart-of-accounts). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

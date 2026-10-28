@@ -87,4 +87,4 @@ source_version: "919c94ecd67499a6a637f7643e712df3e498d53042f1028eecfadd4a75df6d3
 - [سند مالی بهای تمام‌شده در مقصد](https://docs.frappe.io/erpnext/landed-cost-voucher)
 - [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice)
 
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/calculatin-freight-in-taxes-in-erpnext). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های رسمی مستندات پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.
+منبع: [محاسبهٔ کرایهٔ حمل و مالیات آن در ERPNext](https://docs.frappe.io/erpnext/calculatin-freight-in-taxes-in-erpnext). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های رسمی مستندات پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

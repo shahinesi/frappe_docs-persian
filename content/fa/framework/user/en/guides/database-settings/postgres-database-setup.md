@@ -23,4 +23,4 @@ bench new-site <site-name> --db-type postgres
 
 ---
 
-**منبع:** [مستندات رسمی Frappe Framework](https://docs.frappe.io/framework/user/en/guides/database-settings/postgres-database-setup). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.
+**منبع:** [راه‌اندازی پایگاه دادهٔ PostgreSQL](https://docs.frappe.io/framework/user/en/guides/database-settings/postgres-database-setup). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

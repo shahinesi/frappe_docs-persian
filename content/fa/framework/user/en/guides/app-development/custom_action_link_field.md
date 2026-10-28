@@ -44,4 +44,4 @@ frappe.ui.form.ControlLink.link_options = function(link) {
 
 ---
 
-**منبع:** [مستندات رسمی Frappe Framework](https://docs.frappe.io/framework/user/en/guides/app-development/custom_action_link_field). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.
+**منبع:** [افزودن کنش سفارشی به فیلد پیوند](https://docs.frappe.io/framework/user/en/guides/app-development/custom_action_link_field). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

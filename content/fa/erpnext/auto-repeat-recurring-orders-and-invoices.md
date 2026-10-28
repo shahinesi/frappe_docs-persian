@@ -62,4 +62,4 @@ Nova Industries در نخستین روز هر ماه برای Northstar Retail،
 - [دفتر کل](https://docs.frappe.io/erpnext/general-ledger)
 - [سال مالی](https://docs.frappe.io/erpnext/fiscal-year)
 
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/auto-repeat-recurring-orders-and-invoices). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های رسمی پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.
+منبع: [تکرار خودکار سفارش‌ها و فاکتورها](https://docs.frappe.io/erpnext/auto-repeat-recurring-orders-and-invoices). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های رسمی پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

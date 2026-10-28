@@ -76,4 +76,4 @@ Nova Industries ابتدا سال مالی و درخت حساب‌ها را تن
 - [دورهٔ حسابداری](accounting-period.md)
 
 ---
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/accounting-setup-checklist). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [فهرست بررسی راه‌اندازی حسابداری](https://docs.frappe.io/erpnext/accounting-setup-checklist). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

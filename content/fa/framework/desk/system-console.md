@@ -21,4 +21,4 @@ source_version: "d4cb3e4bfd2cfeca7a6448f62d5ac6ee9f366c92fa8bac6859374bfe01942de
 برای چاپ پاسخ، از متد `log` استفاده کنید.
 
 ---
-منبع: [مستندات رسمی Frappe Framework](https://docs.frappe.io/framework/user/en/desk/scripting/system-console). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [کنسول سیستم](https://docs.frappe.io/framework/user/en/desk/scripting/system-console). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

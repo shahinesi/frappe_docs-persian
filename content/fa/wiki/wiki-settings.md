@@ -30,4 +30,4 @@ source_version: "ea8ef61a7eb96528aefe82a241df5b2a9d22cb9cc30ee493dac14876f83c7fe
 2. **JavaScript:** امکان افزودن JavaScript سفارشی را فراهم می‌کند که در هر صفحهٔ Wiki اجرا می‌شود.
 
 ---
-منبع: [مستندات رسمی Frappe Wiki](https://docs.frappe.io/wiki-v2/wiki-settings). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [تنظیمات Wiki](https://docs.frappe.io/wiki-v2/wiki-settings). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

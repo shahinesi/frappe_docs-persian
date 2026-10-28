@@ -78,4 +78,4 @@ source_version: "679057cf3f3698c9e76fdefdcb58f898a5bd58b431a1396b459ceec94d30d7d
 2. [ثبت ماندهٔ افتتاحیه برای کالاهای سریال‌دار و دستهدار](https://docs.frappe.io/erpnext/opening-stock-balance-entry-for-serialized-and-batch-item)
 3. [مدیریت موجودی بر اساس دسته](https://docs.frappe.io/erpnext/managing-batch-wise-inventory)
 
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/batch). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های رسمی مستندات پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.
+منبع: [دسته (Batch)](https://docs.frappe.io/erpnext/batch). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های رسمی مستندات پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

@@ -125,4 +125,4 @@ https://shop.example.com/products/aerobook-14?cc=SUMMER20
 - [سبد خرید](https://docs.frappe.io/erpnext/shopping-cart)
 - [سفارش فروش](sales-order.md)
 
-**منبع:** [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/coupon-code). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر اصلی در این مخزن بازنشر نشده‌اند.
+**منبع:** [ایجاد و استفاده از کد تخفیف](https://docs.frappe.io/erpnext/coupon-code). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر اصلی در این مخزن بازنشر نشده‌اند.

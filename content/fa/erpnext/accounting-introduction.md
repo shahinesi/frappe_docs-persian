@@ -133,4 +133,4 @@ ERPNext دریافتنی‌ها و پرداختنی‌ها را بر اساس ط
 - [گردش‌کارهای حسابداری بر اساس نوع کسب‌وکار](accounting-workflows-by-business-type.md)
 
 ---
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/accounting-introduction). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [معرفی حسابداری ERPNext](https://docs.frappe.io/erpnext/accounting-introduction). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

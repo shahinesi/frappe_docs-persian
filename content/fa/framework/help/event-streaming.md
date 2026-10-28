@@ -48,4 +48,4 @@ Event Streaming قابلیتی در Frappe بود که تغییرات سندها
 
 ---
 
-**منبع:** [مستندات رسمی Frappe Framework](https://docs.frappe.io/framework/help/event-streaming). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.
+**منبع:** [جریان رویدادها](https://docs.frappe.io/framework/help/event-streaming). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

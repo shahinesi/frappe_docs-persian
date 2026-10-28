@@ -108,4 +108,4 @@ Metro City, California 94016
 - [صورتحساب فروش](https://docs.frappe.io/erpnext/sales-invoice)
 - [قالب چاپ](https://docs.frappe.io/erpnext/print-format)
 
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/address-template). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های منبع پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.
+منبع: [الگوی نشانی](https://docs.frappe.io/erpnext/address-template). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های منبع پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

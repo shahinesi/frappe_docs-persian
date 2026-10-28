@@ -17,4 +17,4 @@ source_version: "49aa5fead92c5b1c7fbf1c1f0d9b0eacc2513efdd305c3e7b0cf89d4485e2c1
 برای مشارکت در کد، [راهنمای مشارکت](https://github.com/frappe/erpnext/wiki/Contribution-Guidelines) را دنبال کنید.
 
 ---
-منبع: [مستندات رسمی Frappe Wiki](https://docs.frappe.io/wiki-v2/how-to-contribute). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [مشارکت در مستندات Wiki](https://docs.frappe.io/wiki-v2/how-to-contribute). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

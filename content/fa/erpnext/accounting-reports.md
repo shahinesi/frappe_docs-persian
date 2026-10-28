@@ -147,4 +147,4 @@ ERPNext امکان خروجی‌گرفتن از بسیاری از گزارش‌�
 - [دفتر مالی](https://docs.frappe.io/erpnext/finance-book)
 
 ---
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/accounting-reports). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [گزارش‌های حسابداری](https://docs.frappe.io/erpnext/accounting-reports). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

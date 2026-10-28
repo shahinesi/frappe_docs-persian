@@ -158,4 +158,4 @@ ERPNext ابزارهای متفاوتی دارد، چون همهٔ رکورده�
 - [گزارش‌های حسابداری](accounting-reports.md)
 
 ---
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/accounting-migration-overview). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.
+منبع: [راهنمای مهاجرت حسابداری](https://docs.frappe.io/erpnext/accounting-migration-overview). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

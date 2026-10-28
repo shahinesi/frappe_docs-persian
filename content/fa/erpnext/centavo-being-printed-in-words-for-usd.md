@@ -23,4 +23,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### قالب چاپ
 
-**منبع:** [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/centavo-being-printed-in-words-for-usd). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر اصلی در این مخزن بازنشر نشده‌اند.
+**منبع:** [چاپ سنتاو به‌صورت واژه برای دلار آمریکا](https://docs.frappe.io/erpnext/centavo-being-printed-in-words-for-usd). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر اصلی در این مخزن بازنشر نشده‌اند.

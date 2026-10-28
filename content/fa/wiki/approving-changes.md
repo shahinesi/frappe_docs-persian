@@ -11,4 +11,4 @@ source_version: "990bdd0cf947e964ad80b08564d8a711970af6c4cce0ee1113586356983ae79
 وصله را می‌توان از میزکار تأیید کرد. تصویر متحرک راهنما در [تأیید تغییرات](approving-changes.md) موجود است؛ رسانه در این مخزن بازنشر نشده است.
 
 ---
-منبع: [مستندات رسمی Frappe Wiki](https://docs.frappe.io/wiki-v2/approving-changes). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [تأیید تغییرات](https://docs.frappe.io/wiki-v2/approving-changes). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

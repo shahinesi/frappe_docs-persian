@@ -88,4 +88,4 @@ source_version: "64605688b4c716273e5392b44f3b7eb47750b58b83b7f73facdee7057ed91b3
 - [محاسبهٔ کرایهٔ حمل و مالیات آن](calculatin-freight-in-taxes-in-erpnext.md)
 - [کالا](item.md)
 
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/can-we-fetch-shipping-charges-based-items-value-or-weight-in-po). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های رسمی مستندات پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.
+منبع: [دریافت خودکار هزینهٔ حمل بر اساس ارزش یا وزن اقلام](https://docs.frappe.io/erpnext/can-we-fetch-shipping-charges-based-items-value-or-weight-in-po). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های رسمی مستندات پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

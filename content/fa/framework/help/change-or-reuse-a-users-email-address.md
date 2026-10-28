@@ -80,4 +80,4 @@ Frappe شناسهٔ User و همهٔ رکوردهای پیوندخورده (تخ
 
 ---
 
-**منبع:** [مستندات رسمی Frappe Framework](https://docs.frappe.io/framework/help/change-or-reuse-a-users-email-address). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.
+**منبع:** [تغییر یا استفادهٔ دوباره از نشانی ایمیل کاربر](https://docs.frappe.io/framework/help/change-or-reuse-a-users-email-address). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

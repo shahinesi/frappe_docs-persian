@@ -41,4 +41,4 @@ source_version: "16899a0bf06e3bb76dce34d19d8bced8582f1a59f38c9dffa59c5b29291f4ea
 اگر کاربر فعلیِ روش موجودی ادواری هستید و می‌خواهید از موجودی دائمی استفاده کنید، برای مهاجرت [چند مرحله](https://docs.frappe.io/erpnext/migrate-to-perpetual-inventory) را دنبال کنید.
 
 ---
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/accounting-of-inventory-stock). این صفحه ترجمهٔ غیررسمی است و محتوای مستندات تحت شرایط CC BY-SA بازنشر می‌شود.
+منبع: [حسابداری موجودی کالا](https://docs.frappe.io/erpnext/accounting-of-inventory-stock). این صفحه ترجمهٔ غیررسمی است و محتوای مستندات تحت شرایط CC BY-SA بازنشر می‌شود.

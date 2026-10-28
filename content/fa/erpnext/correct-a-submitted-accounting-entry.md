@@ -75,4 +75,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - [منجمدکردن ثبت‌های حسابداری](freeze-accounting-entries.md)
 - [دفترکل](https://docs.frappe.io/erpnext/general-ledger)
 
-**منبع:** [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/correct-a-submitted-accounting-entry). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. پویانمایی‌های اصلی در این مخزن بازنشر نشده‌اند.
+**منبع:** [اصلاح ثبت حسابداری ارسال‌شده](https://docs.frappe.io/erpnext/correct-a-submitted-accounting-entry). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. پویانمایی‌های اصلی در این مخزن بازنشر نشده‌اند.

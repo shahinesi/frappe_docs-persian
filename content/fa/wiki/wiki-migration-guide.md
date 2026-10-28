@@ -14,4 +14,4 @@ Wiki نسخهٔ ۲ ساختار ساده‌تری برای نوار کناری �
 2. فیلد عنوان (**عنوان**) در هیچ‌یک از رکوردهای `Wiki Sidebar` خالی نباشد.
 
 ---
-منبع: [مستندات رسمی Frappe Wiki](https://docs.frappe.io/wiki-v2/wiki-migration-guide). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [راهنمای مهاجرت Wiki](https://docs.frappe.io/wiki-v2/wiki-migration-guide). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

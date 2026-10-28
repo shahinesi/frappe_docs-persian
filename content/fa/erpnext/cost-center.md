@@ -85,4 +85,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - [بودجه‌بندی](budget.md)
 - [دفترکل](https://docs.frappe.io/erpnext/general-ledger)
 
-**منبع:** [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/cost-center). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر اصلی در این مخزن بازنشر نشده‌اند.
+**منبع:** [مرکز هزینه](https://docs.frappe.io/erpnext/cost-center). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر اصلی در این مخزن بازنشر نشده‌اند.

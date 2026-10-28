@@ -31,4 +31,4 @@ execute:frappe.permissions.reset_perms("[docype]")
 
 ---
 
-**منبع:** [مستندات رسمی Frappe Framework](https://docs.frappe.io/framework/user/en/guides/deployment/how-to-migrate-doctype-changes-to-production). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.
+**منبع:** [مهاجرت تغییرات DocType به محیط عملیاتی](https://docs.frappe.io/framework/user/en/guides/deployment/how-to-migrate-doctype-changes-to-production). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

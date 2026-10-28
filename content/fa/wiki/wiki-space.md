@@ -19,4 +19,4 @@ source_version: "a76961a163975eb32692ee941e4e425f4ea0fe1af41e8bb0bbd31fbe6937949
 تصویر متحرک مراحل در [فضای Wiki](wiki-space.md) در دسترس است؛ رسانه در این مخزن بازنشر نشده است.
 
 ---
-منبع: [مستندات رسمی Frappe Wiki](https://docs.frappe.io/wiki-v2/wiki-space). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [فضای Wiki](https://docs.frappe.io/wiki-v2/wiki-space). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

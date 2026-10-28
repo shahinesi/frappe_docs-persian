@@ -149,10 +149,22 @@ function rewriteLink(token, { currentPath, byPath, byTranslationPath, titles, te
 	let nextHref = href;
 	let targetPath = null;
 	const official = getOfficialPage(href, byPath);
-	const isOwnPageAttribution = Boolean(official?.page?.translation_path
+	const ownPageTitle = official?.page?.translation_path
 		&& normalizeRepoPath(official.page.translation_path) === currentPath
-		&& /^مستندات رسمی /.test(originalLabel.trim()));
+		? titles.get(currentPath)
+		: null;
+	const isOwnPageAttribution = Boolean(official?.page?.translation_path
+		&& normalizeRepoPath(official.page.translation_path) === currentPath);
 	const isAttribution = ATTRIBUTION_LABEL.test(originalLabel) || isOwnPageAttribution;
+	if (isOwnPageAttribution && isGenericPageLabel(originalLabel)) {
+		const cleanSourceTitle = (official.page.source_title || '').replaceAll('\\n', ' ').replaceAll('\\r', ' ').replace(/\s*\|\s*(?:ERPNext|Frappe Framework|Frappe HR|Frappe Helpdesk|Insights|Frappe CRM|Frappe Builder|Frappe Learning|Frappe Drive) Documentation\s*$/i, '').trim();
+		const translatedSourceTitle = cleanSourceTitle
+			? localizeDisplayLabel(cleanSourceTitle, terms, null, mixedEntries, phraseTerms)
+			: '';
+		label = ownPageTitle && FA_LETTER.test(ownPageTitle)
+			? ownPageTitle
+			: (FA_LETTER.test(translatedSourceTitle) ? translatedSourceTitle : label);
+	}
 
 	if (official) {
 		const { page, hash, section, pathname } = official;

@@ -245,4 +245,4 @@ flowchart LR
 - [ارسال مستقیم](drop-shipping-in-erpnext.md)
 
 ---
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/accounting-workflows-by-business-type). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [گردش‌کارهای حسابداری بر اساس نوع کسب‌وکار](https://docs.frappe.io/erpnext/accounting-workflows-by-business-type). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

@@ -80,4 +80,4 @@ source_version: "431d9e039435a4268a9d99b15394a3fea72fe0029e6db032ccf7597b7c48ab5
 - [تعمیر دارایی](asset-repair.md)
 - [چرا استهلاک دارایی آن‌طور که انتظار دارم نیست؟](asset-depreciation-problems.md)
 
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/asset-create-sell-scrap-problems). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.
+منبع: [پرسش‌های دارایی: ایجاد از خرید، فروش، اسقاط و وضعیت](https://docs.frappe.io/erpnext/asset-create-sell-scrap-problems). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

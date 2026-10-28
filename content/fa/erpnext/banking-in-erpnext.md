@@ -148,5 +148,5 @@ source_version: "e01faa070fac749250e3dcd4404c3a718cf499d1f46244f3f3ee1e0aa623f7f
 - [تطبیق بانکی](bank-reconciliation.md)
 - [دفتر پرداخت](https://docs.frappe.io/erpnext/payment_ledger)
 
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/banking-in-erpnext). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویر به فایل رسمی پیوند داده شده و در این مخزن بازنشر نشده است.
+منبع: [بانکداری در ERPNext](https://docs.frappe.io/erpnext/banking-in-erpnext). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویر به فایل رسمی پیوند داده شده و در این مخزن بازنشر نشده است.
 

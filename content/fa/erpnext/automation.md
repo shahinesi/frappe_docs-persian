@@ -12,4 +12,4 @@ source_version: "94828270ae5d431578f9f81941306d0b9154e717f574d9f89a5e93d903af8ff
 - [تکرار خودکار](auto-repeat.md)
 - [پیگیری نقاط عطف](https://docs.frappe.io/erpnext/milestone-tracker)
 
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/automation). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.
+منبع: [خودکارسازی در ERPNext](https://docs.frappe.io/erpnext/automation). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

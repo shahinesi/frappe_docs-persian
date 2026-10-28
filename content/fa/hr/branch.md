@@ -38,4 +38,4 @@ source_version: "307f38c5097af083b485be7118b5744da84d646e92c4b151227cdee5310000b
 6. [گروه کارکنان](employee-group.md)
 
 ---
-منبع: [مستندات رسمی Frappe HR](https://docs.frappe.io/hr/branch). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [شعبه](https://docs.frappe.io/hr/branch). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

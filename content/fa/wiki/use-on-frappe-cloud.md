@@ -17,4 +17,4 @@ Wiki از طریق [Marketplace در Frappe Cloud](https://frappecloud.com/marke
 5. سایتی تازه ساخته می‌شود که Wiki روی آن نصب شده است.
 
 ---
-منبع: [مستندات رسمی Frappe Wiki](https://docs.frappe.io/wiki-v2/use-on-frappe-cloud). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [استفاده از Wiki در Frappe Cloud](https://docs.frappe.io/wiki-v2/use-on-frappe-cloud). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

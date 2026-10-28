@@ -11,4 +11,4 @@ source_version: "a8f67186b15e7f33bcf53ea37bb612a80a7cd9ca6fa8d59d0dfe2c44963a98f
 تغییر گروه‌ها با کمی فاصله پس از اعمال ذخیره می‌شود. تصویر متحرک راهنمای منبع را می‌توانید در [ساخت گروه Wiki](new-wiki-group.md) ببینید؛ رسانه در این مخزن بازنشر نشده است.
 
 ---
-منبع: [مستندات رسمی Frappe Wiki](https://docs.frappe.io/wiki-v2/new-wiki-group). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [ساخت گروه Wiki](https://docs.frappe.io/wiki-v2/new-wiki-group). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

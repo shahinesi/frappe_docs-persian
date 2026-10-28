@@ -22,4 +22,4 @@ source_version: "010ebee287c51215da22d628bd4b22df06e6c004ef0d2ffc0aa000b7bfe1b3a
 - [نمایش افزونهٔ Figma به Builder](https://www.youtube-nocookie.com/embed/rO6p2-N99bc?si=bVyrj7orcGm8DViQ)
 
 ---
-منبع: [مستندات رسمی Frappe Builder](https://docs.frappe.io/builder/setting-up). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [منابع یادگیری](https://docs.frappe.io/builder/setting-up). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

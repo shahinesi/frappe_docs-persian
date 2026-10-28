@@ -107,4 +107,4 @@ Password: admin
 7. در مرورگر نشانی `http://learning.test:8000/lms` را باز کنید؛ برنامه باید اجرا شده باشد.
 
 ---
-منبع: [مستندات رسمی Frappe Learning](https://docs.frappe.io/learning/get-started/installation). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [نصب Frappe Learning](https://docs.frappe.io/learning/get-started/installation). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

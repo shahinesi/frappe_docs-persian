@@ -45,4 +45,4 @@ source_version: "de88218864fd33d5efc9908e2e95b83dd51a48c813995763597db9ae51d4286
 
 همان‌طور که می‌بینید، با وجود برابر بودن مقدار موجودی، ارزش آن در دو روش متفاوت است؛ بااین‌حال ارزش کل در هر دو روش 3400 است.
 
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/calculation-of-valuation-rate-in-fifo-and-moving-average). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.
+منبع: [تفاوت محاسبهٔ FIFO و میانگین متحرک](https://docs.frappe.io/erpnext/calculation-of-valuation-rate-in-fifo-and-moving-average). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

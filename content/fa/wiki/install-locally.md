@@ -19,4 +19,4 @@ $ bench --site sitename install-app wiki
 ```
 
 ---
-منبع: [مستندات رسمی Frappe Wiki](https://docs.frappe.io/wiki-v2/install-locally). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [نصب Wiki در محیط محلی](https://docs.frappe.io/wiki-v2/install-locally). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

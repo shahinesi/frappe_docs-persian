@@ -205,4 +205,4 @@ source_version: "a3e286afd2004b17209add84d9b13a4ea444a85229581771b9348e38754c017
 - [اصلاح سفارش فروش پس از ارسال](amending-sales-order-after-submit.md)
 
 ---
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/sales-order). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [سفارش فروش](https://docs.frappe.io/erpnext/sales-order). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

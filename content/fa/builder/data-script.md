@@ -146,4 +146,4 @@ data.page_data = {
 این داده در سمت کارخواه از طریق `window.page_data` در دسترس خواهد بود.
 
 ---
-منبع: [مستندات رسمی Frappe Builder](https://docs.frappe.io/builder/data-script). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [اسکریپت داده](https://docs.frappe.io/builder/data-script). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

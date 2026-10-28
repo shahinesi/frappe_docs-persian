@@ -60,4 +60,4 @@ bench --site your-site-name install-app agriculture
 
 - [Frappe Agriculture در GitHub](https://github.com/frappe/agriculture)
 
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/agriculture-module-in-erpnext). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.
+منبع: [ماژول کشاورزی در ERPNext](https://docs.frappe.io/erpnext/agriculture-module-in-erpnext). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

@@ -27,4 +27,4 @@ source_version: "4c0f5dccfb46d218c6f3ee8e8773082c63162f87a5ec389b58c94b7ec303f40
 3. دکمهٔ **Reset مجوز** را بزنید، سایت را دوباره بارگذاری کنید؛ اکنون دکمه باید دیده شود.
 
 ---
-منبع: [مستندات رسمی Frappe Builder](https://docs.frappe.io/builder/external-editor). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [ویرایشگر خارجی](https://docs.frappe.io/builder/external-editor). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

@@ -57,4 +57,4 @@ Annual Budget for Account Office Rent - BBS against Cost Center Mumbai - BBS is 
 - [مرکز هزینه](cost-center.md)
 - [مشکل بُعد حسابداری: مفقود، اجباری یا متفاوت در دفتر کل](accounting-dimension-problems.md)
 
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/budget-not-blocking-and-budget-questions). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویر به فایل رسمی مستندات پیوند داده شده و در این مخزن بازنشر نشده است.
+منبع: [چرا Budget تراکنش را متوقف نمی‌کند؟](https://docs.frappe.io/erpnext/budget-not-blocking-and-budget-questions). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویر به فایل رسمی مستندات پیوند داده شده و در این مخزن بازنشر نشده است.

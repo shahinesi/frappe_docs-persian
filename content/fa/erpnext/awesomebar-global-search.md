@@ -59,5 +59,5 @@ Awesomebar سریع‌ترین راه برای بازکردن DocType، گزار
 - [مجوزهای مبتنی بر نقش](https://docs.frappe.io/erpnext/role-based-permissions)
 - [نمایش یا پنهان‌کردن ماژول‌ها](https://docs.frappe.io/erpnext/show-hide-modules)
 
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/awesomebar-global-search). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویر به فایل رسمی پیوند داده شده و در این مخزن بازنشر نشده است.
+منبع: [جست‌وجوی سراسری Awesomebar](https://docs.frappe.io/erpnext/awesomebar-global-search). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویر به فایل رسمی پیوند داده شده و در این مخزن بازنشر نشده است.
 

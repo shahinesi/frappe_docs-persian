@@ -115,4 +115,4 @@ source_version: "006e8db381b3e2a6745d60e65c353846d7b79478d11ecd5a551488bef10a43d
 
 ---
 
-**منبع:** [مستندات رسمی Frappe Framework](https://docs.frappe.io/framework/automations/triggers-and-conditions). این صفحه ترجمهٔ غیررسمی است. محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.
+**منبع:** [محرک‌ها و شرط‌ها](https://docs.frappe.io/framework/automations/triggers-and-conditions). این صفحه ترجمهٔ غیررسمی است. محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

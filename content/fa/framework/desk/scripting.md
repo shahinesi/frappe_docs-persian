@@ -16,4 +16,4 @@ Frappe Framework به شما اجازه می‌دهد مدل‌ها و نماه�
 4. [کنسول سیستم](system-console.md)
 
 ---
-منبع: [مستندات رسمی Frappe Framework](https://docs.frappe.io/framework/user/en/desk/scripting). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [اسکریپت‌نویسی در Frappe Framework](https://docs.frappe.io/framework/user/en/desk/scripting). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

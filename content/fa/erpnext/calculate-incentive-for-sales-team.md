@@ -175,4 +175,4 @@ ERPNext مبلغ مشارکت را از مجموع خالص تراکنش محا�
 - [راهنمای «Add Sales Persons to Sales Transactions» در ERPNext](https://docs.frappe.io/erpnext/sales-persons-in-the-sales-transactions)
 - [شخص فروش Target Allocation](https://docs.frappe.io/erpnext/sales-person-target-allocation)
 
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/calculate-incentive-for-sales-team). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویر به فایل مستندات پیوند داده شده و در این مخزن بازنشر نشده است.
+منبع: [محاسبهٔ پاداش تیم فروش](https://docs.frappe.io/erpnext/calculate-incentive-for-sales-team). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویر به فایل مستندات پیوند داده شده و در این مخزن بازنشر نشده است.

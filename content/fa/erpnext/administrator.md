@@ -23,4 +23,4 @@ source_version: "d183c609779ebcbd5025b3b0c12ddf2e6751547ba9e5e350b92ec75f30cf12b
 4. [مجوزهای کاربر](https://docs.frappe.io/erpnext/user-permissions)
 5. [مجوز نقش برای صفحه و گزارش](https://docs.frappe.io/erpnext/role-permission-for-page-and-report)
 
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/administrator). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.
+منبع: [مدیر اصلی (Administrator)](https://docs.frappe.io/erpnext/administrator). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

@@ -120,5 +120,5 @@ ERPNext می‌تواند بررسی کند که نرخ کالا هنگام ان
 - [قانون قیمت گذاری](https://docs.frappe.io/erpnext/pricing-rule)
 - [اعمال تخفیف](applying-discount.md)
 
-**منبع:** [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/change-the-rate-of-items-in-the-sales-cycle). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر اصلی در این مخزن بازنشر نشده‌اند.
+**منبع:** [کنترل تغییر نرخ کالا در چرخهٔ فروش](https://docs.frappe.io/erpnext/change-the-rate-of-items-in-the-sales-cycle). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر اصلی در این مخزن بازنشر نشده‌اند.
 

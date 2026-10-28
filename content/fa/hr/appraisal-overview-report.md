@@ -18,4 +18,4 @@ source_version: "e423c96e8bfc4ab0b85cc56be5ea7b69b6c3d184cc3a1e0c038562430bb3e7a
 تصویر گزارش در [مستندات رسمی](appraisal-overview-report.md) قابل مشاهده است و در این مخزن بازنشر نشده است.
 
 ---
-منبع: [مستندات رسمی Frappe HR](https://docs.frappe.io/hr/appraisal-overview-report). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [گزارش نمای کلی ارزیابی عملکرد](https://docs.frappe.io/hr/appraisal-overview-report). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

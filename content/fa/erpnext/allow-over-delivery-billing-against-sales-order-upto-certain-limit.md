@@ -24,4 +24,4 @@ source_version: "42afa1f07ea1169a9eb34c8b0d1154dde119d00e2561ed194771edbe0904597
 
 [مشاهدهٔ تصویر رسمی تنظیمات موجودی](https://docs.frappe.io/files/TGPrUJY.png)
 
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/allow-over-delivery-billing-against-sales-order-upto-certain-limit). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های رسمی پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.
+منبع: [مجازکردن تحویل یا دریافت بیش از مقدار سفارش تا سقف مشخص](https://docs.frappe.io/erpnext/allow-over-delivery-billing-against-sales-order-upto-certain-limit). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های رسمی پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

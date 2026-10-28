@@ -19,4 +19,4 @@ Frappe چارچوبی برای نوشتن و اجرای آزمون‌ها در �
 
 ---
 
-**منبع:** [مستندات رسمی Frappe Framework](https://docs.frappe.io/framework/user/en/guides/automated-testing). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.
+**منبع:** [آزمون خودکار](https://docs.frappe.io/framework/user/en/guides/automated-testing). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

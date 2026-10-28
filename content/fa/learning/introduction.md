@@ -68,4 +68,4 @@ Learning به شما کمک می‌کند:
 - **[گروه Telegram](https://t.me/frappelms):** از جامعهٔ کاربران کمک بگیرید.
 
 ---
-منبع: [مستندات رسمی Frappe Learning](https://docs.frappe.io/learning/introduction). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [معرفی Frappe Learning](https://docs.frappe.io/learning/introduction). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

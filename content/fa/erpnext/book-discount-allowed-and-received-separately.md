@@ -159,4 +159,4 @@ ERPNext از این جدول برای مالیات و سایر افزایش‌ه
 - [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
 - [دفترکل](https://docs.frappe.io/erpnext/general-ledger)
 
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/book-discount-allowed-and-received-separately). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های رسمی مستندات پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.
+منبع: [ثبت جداگانهٔ تخفیف‌های اعطایی و دریافتی](https://docs.frappe.io/erpnext/book-discount-allowed-and-received-separately). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های رسمی مستندات پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

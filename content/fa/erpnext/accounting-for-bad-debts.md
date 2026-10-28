@@ -151,4 +151,4 @@ source_version: "7fc92e3fa2d1d02b6760a415be8fd7c303efd4f82b1950519f4edcaaa279553
 - [دفترکل](https://docs.frappe.io/erpnext/general-ledger)
 
 ---
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/accounting-for-bad-debts). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [ثبت مطالبات سوخت‌شده](https://docs.frappe.io/erpnext/accounting-for-bad-debts). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

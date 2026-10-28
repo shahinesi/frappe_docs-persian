@@ -50,4 +50,4 @@ bench setup requirements --dev
 
 ---
 
-**منبع:** [مستندات رسمی Frappe Framework](https://docs.frappe.io/framework/user/en/guides/app-development/how-enable-developer-mode-in-frappe). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.
+**منبع:** [فعال‌کردن Developer Mode در Frappe](https://docs.frappe.io/framework/user/en/guides/app-development/how-enable-developer-mode-in-frappe). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

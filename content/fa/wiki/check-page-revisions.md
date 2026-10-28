@@ -11,4 +11,4 @@ source_version: "27ec0f1f8c32cc1641c5a4018c0e479039a88fa9daf3cb0cb4767c29f334165
 تصویر متحرک مراحل در [بررسی بازبینی‌های صفحه](check-page-revisions.md) دیده می‌شود؛ رسانه در این مخزن بازنشر نشده است.
 
 ---
-منبع: [مستندات رسمی Frappe Wiki](https://docs.frappe.io/wiki-v2/check-page-revisions). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [بررسی بازبینی‌های صفحه](https://docs.frappe.io/wiki-v2/check-page-revisions). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

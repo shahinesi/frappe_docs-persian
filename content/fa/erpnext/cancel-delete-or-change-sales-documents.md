@@ -67,4 +67,4 @@ source_version: "bc9cea803d4c214bf84a49edde910fc56d941113facfb933a873ad041cb0a5d
 - [چرا نمی‌توانم سفارش فروش یا یادداشت تحویل را آن‌طور که انتظار دارم صورتحساب کنم؟](https://docs.frappe.io/erpnext/invoice-from-sales-order-or-delivery-note)
 - [برگشت‌ها و یادداشت بستانکاریها](https://docs.frappe.io/erpnext/sales-returns-and-credit-notes-problems)
 
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/cancel-delete-or-change-sales-documents). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.
+منبع: [چرا نمی‌توانم سفارش فروش یا فاکتور فروش را لغو، حذف یا تغییر دهم؟](https://docs.frappe.io/erpnext/cancel-delete-or-change-sales-documents). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

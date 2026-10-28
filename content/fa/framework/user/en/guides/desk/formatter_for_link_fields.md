@@ -34,4 +34,4 @@ frappe.form.link_formatters['Employee'] = function(value, doc) {
 
 ---
 
-**منبع:** [مستندات رسمی Frappe Framework](https://docs.frappe.io/framework/user/en/guides/desk/formatter_for_link_fields). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.
+**منبع:** [قالب‌بندی فیلدهای پیوند](https://docs.frappe.io/framework/user/en/guides/desk/formatter_for_link_fields). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

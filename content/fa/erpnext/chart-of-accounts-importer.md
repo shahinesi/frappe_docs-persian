@@ -31,4 +31,4 @@ source_version: "acbae723cbf47d349fc885a32f0f22371acae521ebab1b5fe5035dc5a85ce85
 تصویرهای الگو و مراحل ورود در [مستندات رسمی](chart-of-accounts-importer.md) در دسترس‌اند؛ در این مخزن بازنشر نشده‌اند.
 
 ---
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/chart-of-accounts-importer). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [ابزار ورود نمودار حساب](https://docs.frappe.io/erpnext/chart-of-accounts-importer). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

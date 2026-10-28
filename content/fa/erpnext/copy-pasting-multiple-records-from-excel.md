@@ -32,4 +32,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای حفظ کارایی، در هر نوبت حداکثر 100 رکورد جای‌گذاری کنید.
 
-**منبع:** [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/copy-pasting-multiple-records-from-excel). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویر و پویانمایی اصلی در این مخزن بازنشر نشده‌اند.
+**منبع:** [کپی و جای‌گذاری چند رکورد از Excel](https://docs.frappe.io/erpnext/copy-pasting-multiple-records-from-excel). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویر و پویانمایی اصلی در این مخزن بازنشر نشده‌اند.

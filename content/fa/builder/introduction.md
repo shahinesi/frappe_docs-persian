@@ -43,4 +43,4 @@ Frappe Builder ابزار ساخت وب‌سایت به روش کم‌کد اس�
 - [افزونهٔ Figma (آزمایشی)](https://www.figma.com/community/plugin/1417835732014419099/figma-to-frappe-builder)
 
 ---
-منبع: [مستندات رسمی Frappe Builder](https://docs.frappe.io/builder/introduction). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [معرفی Frappe Builder](https://docs.frappe.io/builder/introduction). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

@@ -62,4 +62,4 @@ Frappe پیوند را ذخیره می‌کند، نه خود فایل را؛ ب
 
 ---
 
-**منبع:** [مستندات رسمی Frappe Framework](https://docs.frappe.io/framework/help/can-i-store-my-files-on-s3-gcs-or-google-drive-instead-of-the-server). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.
+**منبع:** [ذخیره‌سازی فایل‌ها در S3، GCS یا درایو گوگل](https://docs.frappe.io/framework/help/can-i-store-my-files-on-s3-gcs-or-google-drive-instead-of-the-server). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

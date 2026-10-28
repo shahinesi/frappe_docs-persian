@@ -39,4 +39,4 @@ source_version: "035d0a3bb2e4554a7c48ed84de55b5bfb1af2837f125165ef34adfa89147de6
 6. [نقشه مهارت کارکنان](https://docs.frappe.io/hr/employee-skill-map)
 
 ---
-منبع: [مستندات رسمی Frappe HR](https://docs.frappe.io/hr/designation). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [عنوان شغلی](https://docs.frappe.io/hr/designation). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

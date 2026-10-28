@@ -66,4 +66,4 @@ source_version: "f67353fe32ac7791f28480396b66ca33e860f3dfada079ab65cbe7f4d7a1d02
 - [ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry)
 
 ---
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/allocating-credit-note-and-payment). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویر اصلی فقط به فایل رسمی پیوند داده شده و در مخزن بازنشر نشده است.
+منبع: [تخصیص بستانکاری و پرداخت](https://docs.frappe.io/erpnext/allocating-credit-note-and-payment). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویر اصلی فقط به فایل رسمی پیوند داده شده و در مخزن بازنشر نشده است.

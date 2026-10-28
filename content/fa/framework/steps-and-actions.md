@@ -139,4 +139,4 @@ source_version: "a970ea6a3baec81409684cd154dd58e22d48958da3be05e6c4d842d6130994b
 
 ---
 
-**منبع:** [مستندات رسمی Frappe Framework](https://docs.frappe.io/framework/automations/steps-and-actions). این صفحه ترجمهٔ غیررسمی است. محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.
+**منبع:** [گام‌ها و کنش‌ها](https://docs.frappe.io/framework/automations/steps-and-actions). این صفحه ترجمهٔ غیررسمی است. محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

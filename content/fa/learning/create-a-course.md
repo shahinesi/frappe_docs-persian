@@ -72,4 +72,4 @@ source_version: "fcd201005cc6631209c0d47c39a8367beacc4865def471d4b493e8d339fb355
 \* این فیلد فقط زمانی الزامی است که قابلیت پرداخت یا گواهی مرتبط فعال باشد.
 
 ---
-منبع: [مستندات رسمی Frappe Learning](https://docs.frappe.io/learning/create-a-course). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [ساخت دوره](https://docs.frappe.io/learning/create-a-course). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

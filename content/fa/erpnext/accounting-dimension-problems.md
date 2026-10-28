@@ -52,4 +52,4 @@ Accounting Dimension Branch is required for 'Balance Sheet' account Debtors - BB
 - [مرکز هزینه](cost-center.md)
 
 ---
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/accounting-dimension-problems). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.
+منبع: [عیب‌یابی ابعاد حسابداری](https://docs.frappe.io/erpnext/accounting-dimension-problems). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

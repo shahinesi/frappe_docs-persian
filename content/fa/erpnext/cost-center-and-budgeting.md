@@ -24,4 +24,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - [تخصیص مرکز هزینه](cost_center_allocation.md)
 - [بودجه‌بندی](budget.md)
 
-**منبع:** [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/cost-center-and-budgeting). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.
+**منبع:** [مرکز هزینه و بودجه‌بندی](https://docs.frappe.io/erpnext/cost-center-and-budgeting). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

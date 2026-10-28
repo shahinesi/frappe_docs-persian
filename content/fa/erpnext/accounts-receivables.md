@@ -78,4 +78,4 @@ Nova Industries برای چند مشتری فاکتور صادر و آن‌ها 
 - [گزارش حساب‌های دریافتنی and پرداختنی](accounts-receivable-and-payable.md)
 
 ---
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/accounts-receivables). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [حساب‌های دریافتنی](https://docs.frappe.io/erpnext/accounts-receivables). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

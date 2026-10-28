@@ -106,4 +106,4 @@ SDK سرور با یکپارچه‌سازی‌های پیش‌فرض Sentry خا
 
 ---
 
-**منبع:** [مستندات رسمی Frappe Framework](https://docs.frappe.io/framework/guides-integration/sentry-integration). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.
+**منبع:** [یکپارچه‌سازی Sentry](https://docs.frappe.io/framework/guides-integration/sentry-integration). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

@@ -106,4 +106,4 @@ source_version: "13a2e3f54576d175184680e633969bab079e9b4511eb0d3bc00ec608863d237
 - [ماندهٔ آغازین حساب‌ها](opening-balance.md)
 
 ---
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/import-advances-unallocated-payments-bank-stock-and-asset-balances). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویر اصلی فقط به فایل رسمی پیوند داده شده و در مخزن بازنشر نشده است.
+منبع: [واردکردن مانده‌های آغازین ویژه](https://docs.frappe.io/erpnext/import-advances-unallocated-payments-bank-stock-and-asset-balances). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویر اصلی فقط به فایل رسمی پیوند داده شده و در مخزن بازنشر نشده است.

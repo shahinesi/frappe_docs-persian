@@ -41,6 +41,38 @@ test('replaces a generic product label with the translated title of its destinat
 	assert.equal(result.markdown, '[شاخه](branch.md)');
 });
 
+test('uses the translated page title for a generic self-source attribution link', () => {
+	const sourceUrl = 'https://docs.frappe.io/hr/branch';
+	const result = prepareMarkdownLinks(`منبع: [مستندات رسمی Frappe HR](${sourceUrl})`, {
+		currentPath: 'content/fa/hr/branch.md',
+		manifest: { pages: [{ ...manifest.pages[0], url: sourceUrl }] },
+		titles: new Map([['content/fa/hr/branch.md', 'شاخه']]),
+		terms: {},
+	});
+	assert.equal(result.markdown, `منبع: [شاخه](${sourceUrl})`);
+	assert.equal(prepareMarkdownLinks(result.markdown, {
+		currentPath: 'content/fa/hr/branch.md',
+		manifest: { pages: [{ ...manifest.pages[0], url: sourceUrl }] },
+		titles: new Map([['content/fa/hr/branch.md', 'شاخه']]),
+		terms: {},
+	}).markdown, result.markdown);
+});
+
+test('keeps an untranslated frontmatter title self-source link external and idempotent', () => {
+	const sourceUrl = 'https://docs.frappe.io/erpnext/batch-split';
+	const localPath = 'content/fa/erpnext/batch-split.md';
+	const input = `منبع: [مستندات رسمی ERPNext](${sourceUrl})`;
+	const options = {
+		currentPath: localPath,
+		manifest: { pages: [{ url: sourceUrl, section: 'erpnext', source_title: 'Batch Split', translation_path: localPath }] },
+		titles: new Map(),
+		terms: { 'Batch Split': 'تقسیم دسته' },
+	};
+	const first = prepareMarkdownLinks(input, options);
+	assert.equal(first.markdown, `منبع: [تقسیم دسته](${sourceUrl})`);
+	assert.equal(prepareMarkdownLinks(first.markdown, options).markdown, first.markdown);
+});
+
 test('resolves canonical aliases outside the main product section list', () => {
 	const result = prepareMarkdownLinks('[مستندات رسمی Frappe HR](https://docs.frappe.io/education)', {
 		currentPath: 'content/fa/hr/example.md',

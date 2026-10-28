@@ -16,4 +16,4 @@ Frappe HR مدیریت و پیگیری چند مرحلهٔ مصاحبه را ب�
 4. [بازخورد مصاحبه](https://docs.frappe.io/hr/interview-feedback) را ثبت کنید.
 
 ---
-منبع: [مستندات رسمی Frappe HR](https://docs.frappe.io/hr/interview-management). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [مدیریت مصاحبه](https://docs.frappe.io/hr/interview-management). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

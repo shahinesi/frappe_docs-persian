@@ -36,4 +36,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - Client Custom Script با JavaScript و Server Custom Script با Python نوشته می‌شود.
 - برای آزمایش، پس از به‌روزرسانی Custom Script به **Tools > Clear Cache** بروید و صفحه را تازه‌سازی کنید.
 
-**منبع:** [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/client-scripts). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویر اصلی در این مخزن بازنشر نشده است.
+**منبع:** [اسکریپت‌های سمت کاربر](https://docs.frappe.io/erpnext/client-scripts). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویر اصلی در این مخزن بازنشر نشده است.

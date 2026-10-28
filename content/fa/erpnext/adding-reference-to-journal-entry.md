@@ -142,4 +142,4 @@ source_version: "a7e1d41ba3d7c24294de46efdededdaf593b8440707796f8df8a65245f143a1
 - [دفتر کل عمومی](https://docs.frappe.io/erpnext/general-ledger)
 - [دفتر کل تغییرناپذیر](https://docs.frappe.io/erpnext/immutable-ledger-in-erpnext)
 
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/adding-reference-to-journal-entry). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های منبع پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.
+منبع: [افزودن ارجاع به سند حسابداری](https://docs.frappe.io/erpnext/adding-reference-to-journal-entry). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های منبع پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

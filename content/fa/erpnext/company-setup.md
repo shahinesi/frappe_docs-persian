@@ -72,4 +72,4 @@ source_version: "7173722dd98e84fb44053b95b02dbf68744be5a8899c5473dce5ffe664dc333
 - [مجوزهای کاربر](https://docs.frappe.io/erpnext/user-permissions)
 
 ---
-منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/company-setup). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
+منبع: [شرکت](https://docs.frappe.io/erpnext/company-setup). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
