@@ -214,7 +214,11 @@ function rewriteLink(token, { currentPath, byPath, byTranslationPath, titles, li
 		} else if (!page) {
 			reviewIssues.push({ file: currentPath, href, kind: 'official-page-not-in-manifest' });
 			counters.unmappedOfficialLinks++;
-			if (!FA_LETTER.test(label) && !isAttribution) label = productLinkLabel(section);
+			if (!isAttribution && (!FA_LETTER.test(label) || isGenericPageLabel(originalLabel))) {
+				const slug = pathname.split('/').filter(Boolean).at(-1) || section || 'Frappe';
+				const sourceTitle = localizeDisplayLabel(slug.replaceAll('-', ' ').replaceAll('_', ' '), terms, null, mixedEntries, phraseTerms);
+				label = `راهنمای «${sourceTitle}» در ${productLinkLabel(section).replace(/^مستندات رسمی /, '')}`;
+			}
 		} else if (page && !isAttribution) {
 			nextHref = `${page.url}${hash}`;
 			const isGenericProductLabel = isGenericPageLabel(originalLabel);

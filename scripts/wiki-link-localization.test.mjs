@@ -155,6 +155,17 @@ test('reports an official URL that is absent from the manifest for repair', () =
 	assert.equal(result.reviewIssues[0]?.kind, 'official-page-not-in-manifest');
 });
 
+test('gives an unindexed official link a destination-derived Persian label', () => {
+	const result = prepareMarkdownLinks('[مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/profit-and-loss-statement)', {
+		currentPath: 'content/fa/erpnext/example.md',
+		manifest,
+		titles: new Map(),
+		terms: { 'Profit and Loss Statement': 'صورت سود و زیان' },
+	});
+	assert.equal(result.markdown, '[راهنمای «صورت سود و زیان» در ERPNext](https://docs.frappe.io/erpnext/profit-and-loss-statement)');
+	assert.equal(result.reviewIssues[0]?.kind, 'official-page-not-in-manifest');
+});
+
 test('keeps source attribution external while translating known UI terms', () => {
 	const sourceUrl = 'https://docs.frappe.io/hr/employee';
 	const result = prepareMarkdownLinks(
