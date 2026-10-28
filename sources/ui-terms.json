@@ -184,6 +184,24 @@
       "basis": "Localized the not-yet-overdue SLA due indicator in the customer portal."
     },
     {
+      "product": "helpdesk",
+      "source_label": "⋯ (more)",
+      "translation": "⋯ (بیشتر)",
+      "basis": "Localized the visible overflow-menu label while preserving its icon."
+    },
+    {
+      "product": "helpdesk",
+      "source_label": "Any",
+      "translation": "هر مقداری",
+      "basis": "Localized the field-dependency selector option that applies a condition to every parent-field value."
+    },
+    {
+      "product": "helpdesk",
+      "source_label": "level",
+      "translation": "سطح",
+      "basis": "Localized the visible ticket-priority field label; the exact fieldname is retained in inline code."
+    },
+    {
       "product": "erpnext",
       "source_label": "Price Lists",
       "translation": "لیست‌های قیمت",
