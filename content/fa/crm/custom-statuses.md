@@ -1,0 +1,168 @@
+---
+title: "وضعیت‌های سفارشی"
+slug: "custom-statuses"
+source_url: "https://docs.frappe.io/crm/custom-statuses"
+source_id: "crm/custom-statuses"
+source_version: "63a6c9c92b038604d727e8c502e5129326927b80080b46b7f0de5d00ce0ed356"
+source_updated: "2026-05-26"
+translation_status: "translated"
+quality_status: "not_reviewed"
+license_status: "CC BY-SA (version unspecified by source policy)"
+---
+
+# وضعیت‌های سفارشی
+
+وضعیت سفارشی تعیین می‌کند کدام گزینه‌های وضعیت در فهرست انتخاب سرنخ یا معامله نمایش داده شوند. می‌توانید بر اساس مقدار هر فیلد در سند، فهرست‌های متفاوتی بسازید.
+
+## سازوکار
+
+`this.statuses` را به آرایه‌ای از رشته‌های نام وضعیت تبدیل کنید. در فهرست فقط وضعیت‌هایی نمایش داده می‌شوند که نامشان در آرایه باشد. این نام‌ها باید در اطلاعات اصلی **CRM Lead Status** یا **CRM Deal Status** وجود داشته باشند؛ ابتدا آن‌ها را از **CRM Settings > Statuses** اضافه کنید.
+
+آرایه در کلاس اسکریپت فرم CRM برای DocType مربوط تنظیم می‌شود. چون فهرست، جاوااسکریپت است، می‌توانید بر اساس فیلد یا منطق دلخواه وضعیت‌ها را انتخاب کنید.
+
+## نمونهٔ پایه: فهرست ثابت
+
+```js
+class CRMLead {
+    onLoad() {
+        this.statuses = [
+            "New",
+            "Contacted",
+            "Qualified",
+            "Nurturing",
+            "Lost"
+        ]
+    }
+}
+```
+
+فهرست انتخاب فقط همین پنج وضعیت را به همین ترتیب نشان می‌دهد.
+
+![فهرست ثابت وضعیت‌ها](https://docs.frappe.io/files/Screenshot%202026-05-26%20at%206.21.39%E2%80%AFPM.png)
+
+## نمونهٔ پویا: متناسب با نوع معامله
+
+محصول‌ها و خدمات ممکن است به قیف‌های فروش متفاوتی نیاز داشته باشند. با استفاده از رویداد تغییر فیلد، هنگامی که کاربر مقدار فیلدی را عوض می‌کند فهرست وضعیت‌ها را نیز تغییر دهید.
+
+وضعیت‌های پیش‌فرض معامله:
+
+| نام وضعیت ذخیره‌شده | برای محصول | برای خدمت | ترجمهٔ فارسی |
+|---|---:|---:|---|
+| Qualification | ✓ | — | ارزیابی صلاحیت |
+| Demo/Making | ✓ | — | نمایش/ساخت |
+| Proposal/Quotation | — | ✓ | پیشنهاد/پیش‌فاکتور |
+| Negotiation | ✓ | ✓ | مذاکره |
+| Ready to Close | — | ✓ | آمادهٔ نهایی‌سازی |
+| Won | ✓ | ✓ | موفق |
+| Lost | ✓ | ✓ | ازدست‌رفته |
+
+نام‌های انگلیسی ستون اول، مقادیر ذخیره‌شده در نمونه و کد هستند؛ همان نام‌ها را در آرایه نگه دارید تا با مقادیر CRM مطابقت داشته باشند. ترجمهٔ فارسی برای خوانایی آمده است.
+
+```js
+class CRMDeal {
+  onLoad() {
+    this._updateStatuses();
+  }
+
+  custom_deal_type() {
+    this._updateStatuses();
+    // Reset status if the current value isn't in the new pipeline
+    if (this.doc.status && !this.statuses.includes(this.doc.status)) {
+      this.doc.status = this.statuses[0];
+    }
+  }
+
+  _updateStatuses() {
+    if (this.doc.custom_deal_type === "Product") {
+      this.statuses = [
+        "Qualification",
+        "Demo/Making",
+        "Negotiation",
+        "Won",
+        "Lost",
+      ];
+    } else {
+      this.statuses = [
+        "Proposal/Quotation",
+        "Negotiation",
+        "Ready to Close",
+        "Won",
+        "Lost",
+      ];
+    }
+  }
+}
+```
+
+تابع کمکی `_updateStatuses` هنگام بارگذاری فرم و هر بار که `custom_deal_type` تغییر کند اجرا می‌شود. با تغییر قیف، اگر وضعیت فعلی در فهرست تازه نباشد، مقدار `this.doc.status` به نخستین وضعیت فهرست جدید تغییر می‌کند.
+
+## افزودن نام وضعیت سفارشی
+
+اگر وضعیت‌های پیش‌فرض با فرایند شما سازگار نیستند، وضعیت تازه‌ای را در **CRM Deal Status** یا **CRM Lead Status** در میزکار بسازید. برای نمونه، قیف محصول ممکن است به وضعیت «Evaluation» و قیف خدمت به وضعیت «Consultation/Inquiry» نیاز داشته باشد. ابتدا آن‌ها را در اطلاعات اصلی ایجاد کنید و سپس نام ذخیره‌شده را در اسکریپت به‌کار ببرید:
+
+```js
+class CRMDeal {
+  onLoad() {
+    this._updateStatuses();
+  }
+  _updateStatuses() {
+    this.statuses = [
+      "Consultation/Inquiry", // custom — create in CRM Settings first
+      "Proposal/Quotation",
+      "Negotiation",
+      "Won",
+      "Lost",
+    ];
+  }
+}
+```
+
+اگر نامی در اطلاعات اصلی وجود نداشته باشد، بی‌صدا نادیده گرفته می‌شود؛ در فهرست انتخاب ظاهر نمی‌شود و خطایی هم نمایش داده نمی‌شود.
+
+![وضعیت تازه در CRM Deal Status](https://docs.frappe.io/files/Screenshot%202026-05-26%20at%206.57.01%E2%80%AFPM.png)
+
+![فهرست وضعیت‌های معامله](https://docs.frappe.io/files/Screenshot%202026-05-26%20at%206.56.55%E2%80%AFPM.png)
+
+## وضعیت‌های پیش‌فرض
+
+مقادیر متنی وضعیت‌ها در جدول‌ها همان نام‌هایی هستند که در نمونه‌کد باید استفاده شوند. ستون فارسی برای خوانایی است.
+
+### وضعیت سرنخ
+
+| نام ذخیره‌شده | نوع | جایگاه | ترجمهٔ فارسی |
+|---|---|---:|---|
+| جدید | Open | 1 | جدید |
+| Contacted | Ongoing | 2 | تماس‌گرفته‌شده |
+| Nurture | Ongoing | 3 | در حال پرورش ارتباط |
+| Qualified | Won | 4 | واجد شرایط |
+| Converted | Won | 5 | تبدیل‌شده |
+| Unqualified | Lost | 6 | فاقد شرایط |
+| Junk | Lost | 7 | نامعتبر |
+
+### وضعیت معامله
+
+| نام ذخیره‌شده | نوع | جایگاه | احتمال | ترجمهٔ فارسی |
+|---|---|---:|---:|---|
+| Qualification | Open | 1 | 10% | ارزیابی صلاحیت |
+| Demo/Making | Ongoing | 2 | 25% | نمایش/ساخت |
+| Proposal/Quotation | Ongoing | 3 | 50% | پیشنهاد/پیش‌فاکتور |
+| Negotiation | Ongoing | 4 | 70% | مذاکره |
+| Ready to Close | Ongoing | 5 | 90% | آمادهٔ نهایی‌سازی |
+| Won | Won | 6 | 100% | موفق |
+| Lost | Lost | 7 | 0% | ازدست‌رفته |
+
+## مرجع
+
+| ویژگی | نوع | توضیح |
+|---|---|---|
+| `this.statuses` | `string[]` | آرایهٔ نام وضعیت‌هایی که در فهرست انتخاب نشان داده می‌شوند؛ در هر زمان از چرخهٔ عمر اسکریپت می‌توان آن را خواند یا تغییر داد. |
+
+### نکته‌های رفتاری
+
+- **ترتیب:** وضعیت‌ها در همان ترتیبی که در آرایه آمده‌اند نمایش داده می‌شوند.
+- **وضعیت ناموجود:** نامی که در اطلاعات اصلی نیست بی‌صدا نادیده گرفته می‌شود و گزینه‌ای برای آن نمایش داده نمی‌شود. املای آن را بررسی کنید یا در **CRM Settings > Statuses** بسازید.
+- **واکنش‌پذیری:** تغییر `this.statuses` پس از بارگذاری فرم، برای نمونه در رویداد تغییر فیلد، فهرست انتخاب را بلافاصله دوباره نمایش می‌دهد.
+
+---
+
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe CRM است. [وضعیت‌های سفارشی](https://docs.frappe.io/crm/custom-statuses). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر می‌شود؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.
