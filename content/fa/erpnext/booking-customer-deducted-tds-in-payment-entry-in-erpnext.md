@@ -20,7 +20,7 @@ source_version: "ddda35cda5e616335c7d6a6cfc98c119572266bf61fb91817f0b0b2adabbe82
 
 # راهکار
 
-در ERPNext، می‌توان TDS کسرشده توسط مشتری را مستقیماً هنگام ثبت ثبت پرداخت، در بخش **Deductions** ثبت کرد.
+در ERPNext، می‌توان TDS کسرشده توسط مشتری را مستقیماً هنگام ثبت ثبت پرداخت، در بخش **کسر** ثبت کرد.
 
 فرض کنید یک فاکتور فروش ثبت‌نهایی‌شده به مبلغ 1,00,000 وجود دارد.
 
@@ -46,9 +46,9 @@ source_version: "ddda35cda5e616335c7d6a6cfc98c119572266bf61fb91817f0b0b2adabbe82
 
 ![واردکردن مبلغ واقعی دریافتی در ثبت پرداخت](https://docs.frappe.io/files/Screenshot%202026-05-29%20at%2010.50.47%20AM.png)
 
-### افزودن TDS به جدول Deductions &amp; Loss
+### افزودن TDS به جدول کسر و زیان
 
-![افزودن TDS در جدول Deductions & Loss](https://docs.frappe.io/files/Screenshot%202026-05-29%20at%2010.51.31%20AM.png)
+![افزودن TDS در جدول کسر و زیان](https://docs.frappe.io/files/Screenshot%202026-05-29%20at%2010.51.31%20AM.png)
 
 | حساب | مبلغ |
 | --- | ---: |

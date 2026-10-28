@@ -31,7 +31,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ![نمونهٔ قالب ایمیل](https://docs.frappe.io/files/email-template-example.png)
 
-**DocType Associated:** (اختیاری) DocTypeای که این قالب به آن مرتبط است.
+**DocType مرتبط:** (اختیاری) DocTypeای که این قالب به آن مرتبط است.
 
 ### 1.1 استفاده از الگوی ایمیل
 

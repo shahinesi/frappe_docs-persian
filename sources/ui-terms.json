@@ -12,7 +12,7 @@
     {
       "product": "wiki",
       "source_labels": {
-        "Add Wiki Space": "افزودن فضای Wiki",
+        "Add Wiki Space": "افزودن فضای ویکی",
         "Add Group": "افزودن گروه",
         "Revisions": "بازبینی‌ها",
         "Install Now": "نصب اکنون"
@@ -1869,6 +1869,59 @@
       "source_label": "Employee Attendance",
       "translation": "حضور و غیاب کارکنان",
       "basis": "برگردان دقیق موجودیت رابط HR برای استفاده در عنوان‌ها و متن‌های ترکیبی؛ Employee، Department و Branch نیز از واژه‌نامهٔ رسمی فارسی HR می‌آیند."
+    },
+    {
+      "product": "hr",
+      "source_labels": {
+        "Appraisees": "ارزیابی‌شوندگان"
+      },
+      "basis": "برگردان برچسب رابط چرخهٔ ارزیابی عملکرد بر پایهٔ واژه‌نامهٔ رسمی فارسی HR."
+    },
+    {
+      "product": "learning",
+      "source_labels": {
+        "All Fields": "همهٔ فیلدها"
+      },
+      "basis": "برگردان گزینهٔ رابط برای دریافت الگوی درون‌برد دوره؛ نام‌های فنی و کد دست‌نخورده می‌مانند."
+    },
+    {
+      "product": "erpnext",
+      "source_labels": {
+        "Items (Table)": "اقلام (جدول)",
+        "Asc": "صعودی",
+        "Desc": "نزولی",
+        "DocType Associated": "DocType مرتبط",
+        "Deductions": "کسر",
+        "Deductions & Loss": "کسر و زیان",
+        "BOM Creator": "سازندهٔ BOM",
+        "BOM Explorer": "کاوشگر BOM",
+        "Editable Grid": "جدول قابل‌ویرایش",
+        "Un-editable Grid": "جدول غیرقابل‌ویرایش",
+        "Perpetual Inventory": "موجودی دائمی",
+        "Periodic Inventory": "موجودی ادواری"
+      },
+      "basis": "برگردان برچسب‌های رابط و اصطلاحات گردش‌کار ERPNext؛ شناسهٔ DocType حفظ شده است."
+    },
+    {
+      "product": "wiki",
+      "source_labels": {
+        "Wiki Space": "فضای ویکی",
+        "فضای Wiki": "فضای ویکی",
+        "صفحه‌های Wiki": "صفحه‌های ویکی",
+        "گروه Wiki": "گروه ویکی",
+        "گروه‌های Wiki": "گروه‌های ویکی",
+        "Wiki Group": "گروه ویکی",
+        "Wiki Page": "صفحهٔ ویکی"
+      },
+      "basis": "ترجمهٔ نام‌های مفهومی قابل‌مشاهده در رابط ویکی؛ نام محصول Wiki در نام رسمی محصول دست‌نخورده می‌ماند."
+    },
+    {
+      "product": "insights",
+      "source_labels": {
+        "Private Bench": "محیط خصوصی",
+        "Public Bench": "محیط عمومی"
+      },
+      "basis": "ترجمهٔ گزینه‌های بخش مدیریت محیط‌ها در Frappe Cloud، در بافت راهنمای مهاجرت Insights."
     },
     {
       "product": "wiki",

@@ -88,6 +88,18 @@ test('translates English HR entities in prerequisite lists and mixed headings', 
 	].join('\n'));
 });
 
+test('applies a complete UI label before translating its shared English suffix', () => {
+	const result = prepareMarkdownLinks('## تغییر به Un-editable Grid', {
+		currentPath: 'content/fa/erpnext/example.md',
+		manifest,
+		uiTerms: {
+			'Editable Grid': 'جدول قابل‌ویرایش',
+			'Un-editable Grid': 'جدول غیرقابل‌ویرایش',
+		},
+	});
+	assert.equal(result.markdown, '## تغییر به جدول غیرقابل‌ویرایش');
+});
+
 test('replaces product documentation labels with the title of the linked destination', () => {
 	const sourceUrl = 'https://docs.frappe.io/framework/user/en/basics/users-and-permissions';
 	const result = prepareMarkdownLinks(`[مستندات Frappe Framework](${sourceUrl})`, {
