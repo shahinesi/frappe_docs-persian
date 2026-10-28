@@ -131,25 +131,25 @@ class CRMDeal {
 
 | نام ذخیره‌شده | نوع | جایگاه | ترجمهٔ فارسی |
 |---|---|---:|---|
-| جدید | Open | 1 | جدید |
-| Contacted | Ongoing | 2 | تماس‌گرفته‌شده |
-| Nurture | Ongoing | 3 | در حال پرورش ارتباط |
-| Qualified | Won | 4 | واجد شرایط |
-| Converted | Won | 5 | تبدیل‌شده |
-| Unqualified | Lost | 6 | فاقد شرایط |
-| Junk | Lost | 7 | نامعتبر |
+| جدید | باز (Open) | 1 | جدید |
+| Contacted | در جریان (Ongoing) | 2 | تماس‌گرفته‌شده |
+| Nurture | در جریان (Ongoing) | 3 | در حال پرورش ارتباط |
+| Qualified | برنده (Won) | 4 | واجد شرایط |
+| Converted | برنده (Won) | 5 | تبدیل‌شده |
+| Unqualified | ازدست‌رفته (Lost) | 6 | فاقد شرایط |
+| Junk | ازدست‌رفته (Lost) | 7 | نامعتبر |
 
 ### وضعیت معامله
 
 | نام ذخیره‌شده | نوع | جایگاه | احتمال | ترجمهٔ فارسی |
 |---|---|---:|---:|---|
-| Qualification | Open | 1 | 10% | ارزیابی صلاحیت |
-| Demo/Making | Ongoing | 2 | 25% | نمایش/ساخت |
-| Proposal/Quotation | Ongoing | 3 | 50% | پیشنهاد/پیش‌فاکتور |
-| Negotiation | Ongoing | 4 | 70% | مذاکره |
-| Ready to Close | Ongoing | 5 | 90% | آمادهٔ نهایی‌سازی |
-| Won | Won | 6 | 100% | موفق |
-| Lost | Lost | 7 | 0% | ازدست‌رفته |
+| Qualification | باز (Open) | 1 | 10% | ارزیابی صلاحیت |
+| Demo/Making | در جریان (Ongoing) | 2 | 25% | نمایش/ساخت |
+| Proposal/Quotation | در جریان (Ongoing) | 3 | 50% | پیشنهاد/پیش‌فاکتور |
+| Negotiation | در جریان (Ongoing) | 4 | 70% | مذاکره |
+| Ready to Close | در جریان (Ongoing) | 5 | 90% | آمادهٔ نهایی‌سازی |
+| Won | برنده (Won) | 6 | 100% | موفق |
+| Lost | ازدست‌رفته (Lost) | 7 | 0% | ازدست‌رفته |
 
 ## مرجع
 
