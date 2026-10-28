@@ -34,7 +34,14 @@
         "Sample Template": "الگوی نمونه",
         "Convert to Sub-Assembly": "تبدیل به زیرمونتاژ",
         "My Settings": "تنظیمات من",
-        "Send Notifications for documents followed by me": "ارسال اعلان برای سندهایی که دنبال می‌کنم"
+        "Send Notifications for documents followed by me": "ارسال اعلان برای سندهایی که دنبال می‌کنم",
+        "Leaf node": "گرهٔ برگ",
+        "Default group": "گروه پیش‌فرض",
+        "Show / Hide Modules": "نمایش/پنهان‌کردن ماژول‌ها",
+        "Website Manager": "مدیر وب‌سایت",
+        "Purchase Request": "درخواست خرید",
+        "Tree view": "نمای درختی",
+        "Role Permission Manager": "مدیر مجوزهای نقش"
       },
       "basis": "Reviewed visible ERPNext controls; the exact labels are absent from the current Persian locale snapshot."
     },

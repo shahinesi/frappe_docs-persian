@@ -36,6 +36,14 @@
 | Send Notifications for documents followed by me | ارسال اعلان برای سندهایی که دنبال می‌کنم | گزینهٔ اعلان ایمیلی برای سندهای دنبال‌شده. |
 | Business holidays | تعطیلات کاری | برچسب فهرست تعطیلات کاری در Helpdesk. |
 | Recurring holidays | تعطیلات تکرارشونده | برچسب تعطیلات تکرارشونده در Helpdesk. |
+| Leaf node | گرهٔ برگ | گروهی که مشتری را می‌توان به آن اختصاص داد؛ در برابر گروه والد. |
+| Default group | گروه پیش‌فرض | گروه جایگزین پیش‌فرض مشتری در ERPNext. |
+| Show / Hide Modules | نمایش/پنهان‌کردن ماژول‌ها | گزینهٔ تغییر نمایش ماژول‌ها در نسخهٔ قدیمی‌تر ERPNext. |
+| Website Manager | مدیر وب‌سایت | نقش مدیریت ماژول وب‌سایت در ERPNext. |
+| Purchase Request | درخواست خرید | عنوان DocType و برچسب رابط در ERPNext. |
+| Customer Group | گروه مشتریان | برچسب ترجمه‌شده و نام DocType در ERPNext. |
+| Tree view | نمای درختی | نمای سلسله‌مراتبی در فرم گروه مشتری. |
+| Role Permission Manager | مدیر مجوزهای نقش | صفحهٔ مدیریت مجوزهای نقش در ERPNext. |
 | Web Form | Web Form (فرم وب) | نام DocType و برچسب فنی حفظ شود؛ در توضیح عمومی «فرم وب» به‌کار رود. |
 | Web Form Request | درخواست Web Form | سندی برای تولید پیوند خصوصی با کلید دسترسی به فرم. |
 | Workspace Manager | مدیر محیط کار (Workspace Manager) | ترجمهٔ فعلی رابط رسمی؛ نام فنی نقش در کد محفوظ بماند. |
