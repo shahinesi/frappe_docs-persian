@@ -10,6 +10,84 @@
       "basis": "Reviewed Persian destination title for the official Framework page; used to make links identify their actual destination."
     },
     {
+      "product": "crm",
+      "source_label": "CRM Lead",
+      "translation": "سرنخ",
+      "basis": "Uses the Frappe CRM Persian locale term for Lead; docs retain the exact DocType identifier in adjacent inline code where it matters."
+    },
+    {
+      "product": "crm",
+      "source_label": "CRM Deal",
+      "translation": "معامله",
+      "basis": "Uses the Frappe CRM Persian locale term for Deal; docs retain the exact DocType identifier in adjacent inline code where it matters."
+    },
+    {
+      "product": "crm",
+      "source_label": "CRM Task",
+      "translation": "تسک",
+      "basis": "Uses the Frappe CRM Persian locale term for Task; docs retain the exact DocType identifier in adjacent inline code where it matters."
+    },
+    {
+      "product": "crm",
+      "source_label": "CRM Lead Status",
+      "translation": "وضعیت سرنخ",
+      "basis": "Localizes the visible master label; docs retain the exact DocType identifier in adjacent inline code where it matters."
+    },
+    {
+      "product": "crm",
+      "source_label": "CRM Deal Status",
+      "translation": "وضعیت معامله",
+      "basis": "Localizes the visible master label; docs retain the exact DocType identifier in adjacent inline code where it matters."
+    },
+    {
+      "product": "crm",
+      "source_label": "CRM Settings > Statuses",
+      "translation": "تنظیمات CRM > وضعیت‌ها",
+      "basis": "Localizes the visible CRM settings path while preserving the product name."
+    },
+    {
+      "product": "insights",
+      "source_label": "Migrate from v2",
+      "translation": "انتقال از نسخهٔ 2",
+      "basis": "Localized visible Insights migration page label; version number remains canonical ASCII."
+    },
+    {
+      "product": "insights",
+      "source_label": "Migrate",
+      "translation": "انتقال",
+      "basis": "Localized the visible action button in the Insights migration workflow."
+    },
+    {
+      "product": "insights",
+      "source_label": "Ready to migrate",
+      "translation": "آمادهٔ انتقال",
+      "basis": "Localized the dashboard migration status shown in the Insights v2 migration workflow."
+    },
+    {
+      "product": "insights",
+      "source_label": "Needs review",
+      "translation": "نیازمند بازبینی",
+      "basis": "Localized the dashboard migration status shown in the Insights v2 migration workflow."
+    },
+    {
+      "product": "insights",
+      "source_label": "Could not be read",
+      "translation": "خواندن ناموفق",
+      "basis": "Localized the dashboard migration status shown in the Insights v2 migration workflow."
+    },
+    {
+      "product": "insights",
+      "source_label": "Could not migrate",
+      "translation": "انتقال ناموفق",
+      "basis": "Localized the dashboard migration status shown in the Insights v2 migration workflow."
+    },
+    {
+      "product": "insights",
+      "source_label": "Migrated",
+      "translation": "منتقل‌شده",
+      "basis": "Localized the dashboard migration status shown in the Insights v2 migration workflow."
+    },
+    {
       "product": "erpnext",
       "source_label": "Price Lists",
       "translation": "لیست‌های قیمت",
