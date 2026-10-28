@@ -10,7 +10,7 @@ source_version: "ac5b129e6bd6f244128f5ed4abfae5d235102135a4b816cdf601eb8fa057499
 
 BOM می‌تواند عملیات تولیدی موردنیاز برای ساخت کالا را نیز در بر بگیرد.
 
-**BOM** در مرکز سامانهٔ تولید قرار دارد و مهم‌ترین سند برای ایجاد نوع‌های سند دیگر، مانند دستور کار و کارت کار است. ERPNext از BOM چندسطحی پشتیبانی می‌کند. برای اطلاعات بیشتر، [این صفحه](https://docs.frappe.io/erpnext/managing-multi-level-bom) را ببینید.
+**BOM** در مرکز سامانهٔ تولید قرار دارد و مهم‌ترین سند برای ایجاد نوع‌های سند دیگر، مانند دستور کار و کارت کار است. ERPNext از BOM چندسطحی پشتیبانی می‌کند. برای اطلاعات بیشتر، [مدیریت BOM چندسطحی](https://docs.frappe.io/erpnext/managing-multi-level-bom) را ببینید.
 
 BOM فهرست همهٔ مواد (خریدنی یا تولیدی) و عملیات لازم برای ساخت محصول نهایی یا زیرمونتاژ است. در ERPNext هر کالا یا زیرمونتاژ می‌تواند BOM خودش را داشته باشد؛ در نتیجه درختی چندسطحی از کالاها شکل می‌گیرد.
 
@@ -111,7 +111,7 @@ BOM فهرست همهٔ مواد (خریدنی یا تولیدی) و عملیا�
   - **آخرین نرخ خرید**: نرخ از آخرین سفارش فروش یا [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice) دریافت می‌شود؛
   - **لیست قیمت**: نرخ از [قیمت کالا](https://docs.frappe.io/erpnext/item-price) دریافت می‌شود.
 
-برای اطلاعات بیشتر، [این صفحه](https://docs.frappe.io/erpnext/valuation-based-on-field-in-bom) را ببینید.
+برای اطلاعات بیشتر، [ارزش‌گذاری مواد بر پایهٔ فیلد](https://docs.frappe.io/erpnext/valuation-based-on-field-in-bom) را ببینید.
 
 ## 3. قابلیت‌ها
 
@@ -201,6 +201,6 @@ BOM فهرست همهٔ مواد (خریدنی یا تولیدی) و عملیا�
 
 1. [مدیریت ضایعات](https://docs.frappe.io/erpnext/scrap-management)
 2. [مصرف مواد](https://docs.frappe.io/erpnext/material_consumption)
-3. [ساختار BOM تو‌در‌تو](https://docs.frappe.io/erpnext/managing-multi-level-bom)
+3. [مدیریت BOM چندسطحی](https://docs.frappe.io/erpnext/managing-multi-level-bom)
 
 منبع: [فهرست مواد (BOM)](https://docs.frappe.io/erpnext/bill-of-materials). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های رسمی مستندات پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

@@ -72,7 +72,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ![پرداخت مساعده با سند روزنامه](https://frappehr.com/files/employee-advance-journal-entry1.png)
 
-حتماً **نوع طرف حساب** را روی `Employee` و **نوع مرجع** را روی `Employee Advance` بگذارید.
+حتماً **نوع طرف حساب** را روی «کارمند» (`Employee`) و **نوع مرجع** را روی «پیش‌پرداخت کارمند» (`Employee Advance`) بگذارید.
 
 ![پرداخت مساعده با سند روزنامه](https://frappehr.com/files/employee-advance-journal-entry2.png)
 

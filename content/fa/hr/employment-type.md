@@ -30,7 +30,7 @@ source_version: "2c807ebce931be49689b3e151832f51d74f3b58b5a3063d4ad461c5f2345a9f
 
 1. [کارمند](employee.md)
 2. [نوع استخدام](employment-type.md)
-3. [شاخه](branch.md)
+3. [شعبه](branch.md)
 4. [دپارتمان](department.md)
 5. [عنوان شغلی](designation.md)
 6. [درجه کارمند](employee-grade.md)

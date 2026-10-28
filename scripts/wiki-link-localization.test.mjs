@@ -201,6 +201,42 @@ test('uses address-keyed Persian labels for official pages that are not translat
 	assert.equal(result.markdown, '[خبرنامه](' + url + ')');
 });
 
+test('replaces generic Persian and English link labels with the title keyed by destination', () => {
+	const url = 'https://docs.frappe.io/erpnext/managing-multi-level-bom';
+	const source = { pages: [{ url, section: 'erpnext', source_title: 'Managing Multi-level BOM', translation_path: null }] };
+	for (const label of ['این صفحه', 'this page', 'مستندات رسمی ERPNext']) {
+		const result = prepareMarkdownLinks(`[${label}](${url})`, {
+			currentPath: 'content/fa/erpnext/example.md',
+			manifest: source,
+			titles: new Map(),
+			terms: {},
+			linkLabels: { '/erpnext/managing-multi-level-bom': 'مدیریت BOM چندسطحی' },
+		});
+		assert.equal(result.markdown, `[مدیریت BOM چندسطحی](${url})`);
+	}
+});
+
+test('preserves an already-Persian destination title without duplicating glossary terms', () => {
+	const url = 'https://docs.frappe.io/erpnext/custom-field';
+	const result = prepareMarkdownLinks(`[این صفحه](${url})`, {
+		currentPath: 'content/fa/erpnext/example.md',
+		manifest: { pages: [{ url, section: 'erpnext', source_title: 'Custom Field', translation_path: 'content/fa/erpnext/custom-field.md' }] },
+		titles: new Map([['content/fa/erpnext/custom-field.md', 'فیلد سفارشی']]),
+		terms: { 'Custom Field': 'فیلد سفارشی (Custom Field)' },
+	});
+	assert.equal(result.markdown, '[فیلد سفارشی](custom-field.md)');
+});
+
+test('preserves routes and snake-case identifiers inside visible labels', () => {
+	const result = prepareMarkdownLinks('**/help/my-tickets** and **assign_to**', {
+		currentPath: 'content/fa/helpdesk/example.md',
+		manifest,
+		titles: new Map(),
+		terms: { Ticket: 'تیکت', assign_to: 'assign به' },
+	});
+	assert.equal(result.markdown, '**/help/my-tickets** and **assign_to**');
+});
+
 test('repairs partial product translations using the full locale term', () => {
 	const result = prepareMarkdownLinks('**مشتری Group**', {
 		currentPath: 'content/fa/erpnext/customer-group.md',
@@ -259,6 +295,17 @@ test('does not change text inside fenced code or inline code', () => {
 		}).markdown,
 		'کارمند `Employee`\n\n```js\nconst Employee = "Employee"\n```',
 	);
+});
+
+test('does not change text inside indented code blocks', () => {
+	const input = '    const Employee = "Employee";\n    window.open(Employee);\n';
+	const result = prepareMarkdownLinks(input, {
+		currentPath: 'content/fa/helpdesk/example.md',
+		manifest,
+		titles: new Map(),
+		terms: { Employee: 'کارمند' },
+	});
+	assert.equal(result.markdown, input);
 });
 
 test('translates single-word locale terms in visible labels without changing sample names', () => {

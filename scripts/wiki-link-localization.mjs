@@ -1,6 +1,6 @@
 import path from 'node:path';
 
-const MARKDOWN_TOKEN = /```[\s\S]*?```|`[^`\n]*`|<code\b[^>]*>[\s\S]*?<\/code\s*>|<pre\b[^>]*>[\s\S]*?<\/pre\s*>|!\[[^\]]*\]\([^)]*\)|\[[^\]]*\]\([^)]*\)|\*\*(?![^*\n]*(?:\]\(|`))[^*\n]+\*\*/gi;
+const MARKDOWN_TOKEN = /```[\s\S]*?```|~~~[\s\S]*?~~~|(?:^(?: {4}|\t)[^\n]*(?:\r?\n|$))+|`[^`\n]*`|<code\b[^>]*>[\s\S]*?<\/code\s*>|<pre\b[^>]*>[\s\S]*?<\/pre\s*>|!\[[^\]]*\]\([^)]*\)|\[[^\]]*\]\([^)]*\)|\*\*(?![^*\n]*(?:\]\(|`))[^*\n]+\*\*/gim;
 const FA_LETTER = /[\u0600-\u06FF]/;
 const ATTRIBUTION_LABEL = /^(?:منبع رسمی|منبع اصلی|مشاهده\s*(?:ٔ|ی|ِ)?\s*منبع(?:\s*(?:ٔ|ی|ِ)?\s*اصلی)?|صفحهٔ منبع|original source|source)$/i;
 const mixedEntriesCache = new Map();
@@ -77,6 +77,10 @@ export function replaceUiTerms(text, terms, counters, mixedEntries = []) {
 }
 
 function localizeDisplayLabel(text, terms, counters, mixedEntries = [], phraseTerms = terms) {
+	const trimmedText = text.trim();
+	if (/^\/[A-Za-z0-9._~!$&'()*+,;=:@%/-]+$/.test(trimmedText)
+		|| /^[a-z][A-Za-z0-9]*(?:_[A-Za-z0-9]+)+$/.test(trimmedText)) return text;
+	if (FA_LETTER.test(text) && !/[A-Za-z]/.test(text)) return text;
 	let result = replaceUiTerms(text, phraseTerms, counters, mixedEntries);
 	const trimmed = text.trim();
 	const exactTranslation = terms[trimmed];
@@ -129,7 +133,9 @@ function isGenericPageLabel(label) {
 	return /^مستندات رسمی(?:\s+.+)?$/.test(label.trim())
 		|| /^مستندات$/.test(label.trim())
 		|| /^صفحه(?:ٔ|‌ی|ی)? رسمی$/.test(label.trim())
-		|| /^راهنمای «.*» در .+$/.test(label.trim());
+		|| /^راهنمای «.*» در .+$/.test(label.trim())
+		|| /^(?:این صفحه|این راهنما|این سند|اینجا|برای اطلاعات بیشتر|برای جزئیات بیشتر|بیشتر بخوانید|کلیک کنید|مشاهده کنید|راهنمای رسمی|مستندات رسمی(?: Frappe)?|مستندات)$/i.test(label.trim())
+		|| /^(?:this page|this guide|this document|here|read more|learn more|click here|official documentation|documentation)$/i.test(label.trim());
 }
 
 function localizeImageAlt(token, terms, counters, mixedEntries, phraseTerms) {

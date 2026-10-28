@@ -8,6 +8,7 @@ const manifest = JSON.parse(await readFile(new URL('../sources/manifest.json', i
 const byUrl = new Map(manifest.pages.map((page) => [page.url, page]));
 const failures = [];
 const pages = [];
+const genericLinkLabel = /^(?:مستندات رسمی(?:\s+.+)?|مستندات|صفحه(?:ٔ|‌ی|ی)? رسمی|راهنمای «.*» در .+|این صفحه|این راهنما|این سند|اینجا|برای اطلاعات بیشتر|برای جزئیات بیشتر|بیشتر بخوانید|کلیک کنید|مشاهده کنید|راهنمای رسمی|this page|this guide|this document|here|read more|learn more|click here|official documentation|documentation)$/i;
 async function walk(dir) {
   for (const item of await readdir(dir, { withFileTypes: true })) {
     const target = new URL(item.name + (item.isDirectory() ? '/' : ''), dir);
@@ -48,6 +49,15 @@ for (const file of pages) {
   if (!/منبع|Source:/i.test(body.slice(fm[0].length))) failures.push(`${relative}: missing visible source attribution`);
   if (!/ترجمهٔ غیررسمی/.test(body)) failures.push(`${relative}: missing unofficial-translation notice`);
   if (!/تحت شرایط CC BY-SA/.test(body)) failures.push(`${relative}: missing ShareAlike attribution notice`);
+  const visibleMarkdown = body.replace(/```[\s\S]*?```|~~~[\s\S]*?~~~/g, '').replace(/`[^`\n]*`/g, '');
+  for (const [, label, wrappedHref] of visibleMarkdown.matchAll(/(?<!!)\[([^\]]+)\]\((<[^>]+>|[^\s)]+)(?:[^)]*)\)/g)) {
+    const href = wrappedHref.replace(/^<|>$/g, '');
+    const pointsToExternalSite = /^[a-z]+:/i.test(href);
+    const pointsToMarkdown = !/^[a-z]+:/i.test(href) && !href.startsWith('#') && /\.md(?:[?#]|$)/i.test(href);
+    if ((pointsToExternalSite || pointsToMarkdown) && genericLinkLabel.test(label.trim())) {
+      failures.push(`${relative}: generic link label "${label.trim()}" must describe its destination`);
+    }
+  }
   const fences = [...body.matchAll(/^\s*```/gm)].length;
   if (fences % 2 !== 0) failures.push(`${relative}: unbalanced fenced code block`);
 }

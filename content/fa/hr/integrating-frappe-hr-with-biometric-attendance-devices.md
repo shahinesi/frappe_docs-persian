@@ -1,5 +1,5 @@
 ---
-title: "اتصال Frappe HR به دستگاه‌های حضور و غیاب بیومتریک"
+title: "یکپارچه‌سازی Frappe HR با دستگاه‌های زیست‌سنجی حضور و غیاب"
 slug: "integrating-frappe-hr-with-biometric-attendance-devices"
 source_url: "https://docs.frappe.io/hr/integrating-frappe-hr-with-biometric-attendance-devices"
 source_id: "hr/integrating-frappe-hr-with-biometric-attendance-devices"

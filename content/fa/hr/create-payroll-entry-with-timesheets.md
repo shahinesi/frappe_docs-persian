@@ -1,5 +1,5 @@
 ---
-title: "ساخت Payroll Entry با Timesheet"
+title: "ثبت حقوق بر پایهٔ برگه‌های زمان‌کار"
 slug: "create-payroll-entry-with-timesheets"
 source_url: "https://docs.frappe.io/hr/create-payroll-entry-with-timesheets"
 source_id: "hr/create-payroll-entry-with-timesheets"

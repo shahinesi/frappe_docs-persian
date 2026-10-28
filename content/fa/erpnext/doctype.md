@@ -43,7 +43,7 @@ DocType به شما اجازه می‌دهد فرم‌های سفارشی مور
 
    ![تنظیم نام‌گذاری DocType سفارشی](https://docs.frappe.io/files/doctype-employee-transfer-naming.png)
 
-3. **تنظیمات فرم:** تنظیمات تکمیلی فرم، فیلد تصویر، پیوست‌ها و Timeline را می‌توان در این بخش پیکربندی کرد. برای اطلاعات بیشتر دربارهٔ فرم، [سفارشی‌سازی فرم (سفارشی‌سازی فرم)](customize-form.md) را ببینید.
+3. **تنظیمات فرم:** تنظیمات تکمیلی فرم، فیلد تصویر، پیوست‌ها و Timeline را می‌توان در این بخش پیکربندی کرد. برای اطلاعات بیشتر دربارهٔ فرم، [سفارشی‌سازی فرم](customize-form.md) را ببینید.
 
    ![تنظیمات فرم DocType سفارشی](https://docs.frappe.io/files/doctype-employee-transfer-form-settings.png)
 

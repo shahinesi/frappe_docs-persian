@@ -21,6 +21,9 @@
     "/framework/user/en/desk/scripting/script-api": "API اسکریپت",
     "/framework/user/en/basics/doctypes": "آشنایی با DocTypeها",
     "/hr/shift-schedule": "زمان‌بندی شیفت",
-    "/hr/roster": "لیست شیفت کاری"
+    "/hr/roster": "لیست شیفت کاری",
+    "/erpnext/managing-multi-level-bom": "مدیریت BOM چندسطحی",
+    "/erpnext/valuation-based-on-field-in-bom": "ارزش‌گذاری مواد بر پایهٔ فیلد",
+    "/erpnext/Selling-in-different-UOM": "فروش کالا با واحدهای اندازه‌گیری گوناگون"
   }
 }

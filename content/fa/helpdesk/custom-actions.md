@@ -28,21 +28,21 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### دکمهٔ تکی
 
-این کد یک دکمه با عنوان **باز in میزکار** می‌سازد که تیکت فعلی را در زبانه‌ای جدید از مرورگر باز می‌کند.
+این کد یک دکمه با عنوان **بازکردن در میزکار** می‌سازد که تیکت فعلی را در زبانه‌ای جدید از مرورگر باز می‌کند.
 
 ![اسکریپت دکمهٔ معمولی](https://docs.frappe.io/files/Normal%20Button%20Script.png)
 
-    const اقدامات = [{
-        "برچسب": "باز in میزکار",
-        "onClick": () => {
-            let URL = `https://frappehelpdesk.frappe.cloud/app/hd-ticket/${doc.name}`
-            window.باز(URL, '_blank')
-        },
-        "variant": 'solid' | 'subtle' | 'outline' | 'ghost',
-        "پوسته" : 'خاکستری' | 'آبی' | 'green' | 'red'
-    }]
-
-می‌توانید برای دکمه‌ها variant و پوسته تعیین کنید. variant پیش‌فرض **solid** و رنگ پیش‌فرض **خاکستری** است. هر دو ویژگی اختیاری‌اند. با کلید **class** می‌توانید کلاس‌های Tailwind دلخواه نیز اضافه کنید؛ برای نمونه <code>class: 'rounded-lg bg-surface-pink-1'</code>.
+```js
+const actions = [{
+"label": "Open in Desk",
+"onClick": () => {
+let URL = `https://frappehelpdesk.frappe.cloud/app/hd-ticket/${doc.name}`
+window.open(URL, '_blank')
+},
+"variant": 'solid' | 'subtle' | 'outline' | 'ghost',
+"theme" : 'gray' | 'blue' | 'green' | 'red'
+}]
+```
 
 ![دکمهٔ معمولی](https://docs.frappe.io/files/Normal%20Button.png)
 
@@ -50,46 +50,68 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### کنش‌های گروه‌بندی‌شده
 
-این کد گروهی از دکمه‌ها را زیر منوی سه‌نقطه‌ای با عنوان **افزودن** پنهان می‌کند. با کلیک روی **باز Weekly Analysis** یا **باز Article Analysis** تابع onClick متناظر اجرا می‌شود (تعریف توابع در جای دیگری انجام می‌شود).
+این کد گروهی از دکمه‌ها را زیر منوی سه‌نقطه‌ای با عنوان **افزودن** پنهان می‌کند. با کلیک روی **بازکردن تحلیل هفتگی** یا **بازکردن تحلیل مقاله** تابع onClick متناظر اجرا می‌شود (تعریف توابع در جای دیگری انجام می‌شود).
 
 ![اسکریپت منوی سه‌نقطه‌ای](https://docs.frappe.io/files/Three%20dots%20script.png)
 
-    const اقدامات = [
-      {
-        group: 'Reports',
-        hideLabel: true,
-        options: [
-          { برچسب: 'باز Weekly Analysis', onClick: () => {}, },
-          { برچسب: 'باز Articles Analytics', onClick: () => {}, },
-        ],
-      },
-      {
-        group: 'تیکت',
-        options: [
-          { برچسب: 'ایجاد کردن a جدید تیکت', onClick: () => {}, },
-          // suggest some action other than باز in fc
-          { برچسب: 'باز مشتری جزئیات', onClick: () => {}, },
-        ],
-      },
-    ]
+```js
+const actions = [
+{
+group: 'Reports',
+hideLabel: true,
+options: [
+{
+label: 'Open Weekly Analysis',
+onClick: () => {},
+},
+{
+label: 'Open Articles Analytics',
+onClick: () => {},
+},
+],
+},
+{
+group: 'Ticket',
+options: [
+{
+label: 'Create a new ticket',
+onClick: () => {},
+},
+// suggest some action other than open in fc
+{
+label: 'Open Customer Details',
+onClick: () => {},
+},
+],
+},
+]
+```
 
 ![منوی کشویی سه‌نقطه‌ای](https://docs.frappe.io/files/Drop%20down%20three%20dots.png)
 
 ### کنش‌های گروهی با عنوان
 
-این کد گروهی از دکمه‌ها را زیر دکمهٔ کشویی **گزارش‌ها** پنهان می‌کند. با انتخاب **باز Weekly Analysis** یا **باز Article Analysis** تابع onClick مربوط اجرا می‌شود.
+این کد گروهی از دکمه‌ها را زیر دکمهٔ کشویی **گزارش‌ها** پنهان می‌کند. با انتخاب **بازکردن تحلیل هفتگی** یا **بازکردن تحلیل مقاله** تابع onClick مربوط اجرا می‌شود.
 
 ![اسکریپت دکمهٔ کشویی](https://docs.frappe.io/files/Button%20Dropdown%20script.png)
 
-    const اقدامات = [{
-      "buttonLabel": "Reports",
-      "group": "Add",
-      "hideLabel": true,
-      "options": [
-        { برچسب: 'باز Weekly Analysis', onClick: () => {}, },
-        { برچسب: 'باز Articles Analytics', onClick: () => {}, },
-      ]
-    }]
+```js
+const actions = [{
+"buttonLabel": "Reports",
+"group": "Add",
+"hideLabel": true,
+"options": [
+{
+label: 'Open Weekly Analysis',
+onClick: () => {},
+},
+{
+label: 'Open Articles Analytics',
+onClick: () => {},
+},
+]
+}]
+```
 
 ![دکمهٔ کشویی](https://docs.frappe.io/files/Dropdown%20button.png)
 
@@ -141,118 +163,119 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ![نمونهٔ پنجره‌های کنش](https://docs.frappe.io/files/Dialogs.gif)
 
-    function setupForm({
-      doc,
-      updateField,
-      call,
-      router,
-      $dialog,
-      createToast,
-    }) {
-      const اقدامات = [
+```
+function setupForm({
+  doc,
+  updateField,
+  call,
+  router,
+  $dialog,
+  createToast,
+}) {
+  const actions = [
+    {
+      group: "Actions",
+      hideLabel: true,
+      options: [
         {
-          group: "اقدامات",
-          hideLabel: true,
-          options: [
-            {
-              برچسب: "باز FC Info",
-              onClick: () => {
-                // Call API به get custom information
-                call("show_custom_info", {
-                  تیکت: doc.نام,
-                  // Include relevant fields for fetching data
-                }).then((data) => {
-                  if (data.نام) {
-                    $dialog({
-                      title: data?.title,
-                      message: data?.message,
-                      html: data?.html, // this فیلد can be in HTML format
-                      اقدامات: [
-                        {
-                          برچسب: "باز in FC",
-                          variant: "solid",
-                          onClick() {
-                            let URL = `http://helpdesk:8010/app/hd-ticket/${doc?.name}`;
-                            window.باز(URL, "_blank");
-                          },
-                        },
-                        //   add more اقدامات
-                      ],
-                    });
-                  }
-                });
-              },
-            },
-            {
-              برچسب: "بستن this تیکت",
-              onClick: () => {
+          label: "Open FC Info",
+          onClick: () => {
+            // Call API to get custom information
+            call("show_custom_info", {
+              ticket: doc.name,
+              // Include relevant fields for fetching data
+            }).then((data) => {
+              if (data.name) {
                 $dialog({
-                  title: "بستن this تیکت?",
-                  message: "Are you sure you want به mark this بستن this تیکت?",
-                  اقدامات: [
+                  title: data?.title,
+                  message: data?.message,
+                  html: data?.html, // this field can be in HTML format
+                  actions: [
                     {
-                      برچسب: "بستن",
-                      پوسته: "red",
+                      label: "Open in FC",
                       variant: "solid",
-                      onClick({ بستن }) {
-                        updateField("وضعیت", "بسته شده", () => {
-                          createToast({
-                            title: "تیکت has been بسته شده",
-                            آیکون: "alert-circle",
-                          });
-                          بستن();
-                        });
+                      onClick() {
+                        let URL = `http://helpdesk:8010/app/hd-ticket/${doc?.name}`;
+                        window.open(URL, "_blank");
                       },
                     },
-                    {
-                      برچسب: "لغو",
-                      variant: "outline",
-                      onClick({ بستن }) {
-                        بستن();
-                      },
-                    },
+                    //   add more actions
                   ],
                 });
-              },
-            },
-          ],
+              }
+            });
+          },
         },
-      ];
-      if (doc.وضعیت !== "بسته شده") {
-        اقدامات.push({
-          برچسب: "بستن the تیکت",
+        {
+          label: "Close this ticket",
           onClick: () => {
             $dialog({
-              title: `Close ticket: ${doc.name}`,
-              message: "Are you sure you want به بستن this تیکت?",
-              اقدامات: [
+              title: "Close this ticket?",
+              message: "Are you sure you want to mark this close this ticket?",
+              actions: [
                 {
-                  برچسب: "بستن",
-                  پوسته: "red",
+                  label: "Close",
+                  theme: "red",
                   variant: "solid",
-                  onClick({ بستن }) {
-                    updateField("وضعیت", "بسته شده", () => {});
-                    بستن();
+                  onClick({ close }) {
+                    updateField("status", "Closed", () => {
+                      createToast({
+                        title: "Ticket has been closed",
+                        icon: "alert-circle",
+                      });
+                      close();
+                    });
                   },
                 },
                 {
-                  برچسب: "لغو",
+                  label: "Cancel",
                   variant: "outline",
-                  onClick({ بستن }) {
-                    بستن();
+                  onClick({ close }) {
+                    close();
                   },
                 },
               ],
             });
           },
+        },
+      ],
+    },
+  ];
+  if (doc.status !== "Closed") {
+    actions.push({
+      label: "Close the ticket",
+      onClick: () => {
+        $dialog({
+          title: `Close ticket: ${doc.name}`,
+          message: "Are you sure you want to close this ticket?",
+          actions: [
+            {
+              label: "Close",
+              theme: "red",
+              variant: "solid",
+              onClick({ close }) {
+                updateField("status", "Closed", () => {});
+                close();
+              },
+            },
+            {
+              label: "Cancel",
+              variant: "outline",
+              onClick({ close }) {
+                close();
+              },
+            },
+          ],
         });
-      }
+      },
+    });
+  }
 
-      return {
-        اقدامات,
-      };
-    }
-
+  return {
+    actions,
+  };
+}
+```
 ---
 
 **منبع:** [کنش‌های سفارشی](https://docs.frappe.io/helpdesk/custom-actions). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر اصلی در این مخزن بازنشر نشده‌اند.

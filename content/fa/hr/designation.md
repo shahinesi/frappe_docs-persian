@@ -33,7 +33,7 @@ source_version: "035d0a3bb2e4554a7c48ed84de55b5bfb1af2837f125165ef34adfa89147de6
 
 1. [کارمند](employee.md)
 2. [نوع استخدام](employment-type.md)
-3. [شاخه](branch.md)
+3. [شعبه](branch.md)
 4. [دپارتمان](department.md)
 5. [درجه کارمند](employee-grade.md)
 6. [نقشه مهارت کارکنان](https://docs.frappe.io/hr/employee-skill-map)

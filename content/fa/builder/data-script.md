@@ -98,7 +98,7 @@ client = FrappeClient(
 users = client.get_list('User', fields=['name', 'first_name', 'last_name'], filters={'user_type':'System User'})
 ```
 
-برای دیدن همهٔ APIهای پشتیبانی‌شدهٔ `FrappeClient`، [این راهنما](https://github.com/frappe/frappe-client#api) را ببینید.
+برای دیدن همهٔ APIهای پشتیبانی‌شدهٔ `FrappeClient`، [مرجع API کلاینت Frappe](https://github.com/frappe/frappe-client#api) را ببینید.
 
 برای دریافت `api_key` و `api_secret`:
 
