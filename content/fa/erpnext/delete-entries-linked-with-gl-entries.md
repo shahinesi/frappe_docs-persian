@@ -49,5 +49,5 @@ ERPNext مانع حذف فاکتور لغوشدهٔ شرکت Nova Industries م�
 
 - [مروری بر حسابداری](/erpnext/accounting/introduction)
 - [Chart of Accounts](chart-of-accounts.md)
-- [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفترکل](https://docs.frappe.io/erpnext/general-ledger)
 - [راهنمای «Fiscal Year | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/fiscal-year)

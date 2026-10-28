@@ -93,13 +93,13 @@ ERPNext حساب دریافتنی معمول مشتری را ایجاد می‌�
 
 برای هر دورهٔ واجد شرایط، ثبت شناسایی حساب درآمد انتقالی را بدهکار و حساب Income Account ردیف فاکتور فروش را بستانکار می‌کند. اگر ثبت از طریق Journal Entry فعال باشد، ERPNext اسناد Journal Entry می‌سازد. بسته به Accounts Settings، این اسناد برای بازبینی در Draft می‌مانند یا به‌طور خودکار ثبت نهایی می‌شوند.
 
-صفحهٔ اصلی به Journal Entryهای ماهانه اشاره می‌کرد. این توضیح در صورت فعال‌بودن ثبت از طریق Journal Entry همچنان درست است. با ثبت مستقیم نیز همان اثر حسابداری در دفترکل کل دیده می‌شود، با این تفاوت که سند Journal Entry جداگانه‌ای ایجاد نمی‌شود.
+صفحهٔ اصلی به Journal Entryهای ماهانه اشاره می‌کرد. این توضیح در صورت فعال‌بودن ثبت از طریق Journal Entry همچنان درست است. با ثبت مستقیم نیز همان اثر حسابداری در دفترکل دیده می‌شود، با این تفاوت که سند Journal Entry جداگانه‌ای ایجاد نمی‌شود.
 
 ## درآمد شناسایی‌شده و در انتظار را بررسی کنید
 
 گزارش [Deferred Revenue/Expense گزارش](/erpnext/deferred-revenue-expense-report) را اجرا کنید و فاکتور، دورهٔ خدمت، مبلغ فاکتور، مبلغ شناسایی‌شده و ماندهٔ در انتظار را بررسی کنید.
 
-سپس [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger) را بازبینی کنید:
+سپس [دفترکل](https://docs.frappe.io/erpnext/general-ledger) را بازبینی کنید:
 
 - ماندهٔ بدهی انتقالی باید با مبلغ فاکتور آغاز شود.
 - هر دورهٔ شناسایی باید از این بدهی کم کند.
@@ -144,7 +144,7 @@ ERPNext حساب دریافتنی معمول مشتری را ایجاد می‌�
 
 ### چرا Journal Entryهای شناسایی در وضعیت Draft هستند؟
 
-ثبت از طریق Journal Entry فعال است، اما ثبت نهایی خودکار غیرفعال شده است. پیش از انتظار برای مشاهدهٔ اثر در دفترکل کل، ثبت‌های تولیدشده را بازبینی و ثبت نهایی کنید.
+ثبت از طریق Journal Entry فعال است، اما ثبت نهایی خودکار غیرفعال شده است. پیش از انتظار برای مشاهدهٔ اثر در دفترکل، ثبت‌های تولیدشده را بازبینی و ثبت نهایی کنید.
 
 ### آیا درآمد انتقالی مالیات را هم به تعویق می‌اندازد؟
 
@@ -158,5 +158,5 @@ ERPNext حساب دریافتنی معمول مشتری را ایجاد می‌�
 - [Deferred Revenue/Expense گزارش](/erpnext/deferred-revenue-expense-report)
 - [راهنمای «Sales Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/sales-invoice)
 - [راهنمای «Journal Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/journal-entry)
-- [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفترکل](https://docs.frappe.io/erpnext/general-ledger)
 

@@ -55,7 +55,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 | --- | --- |
 | Book Deferred entries based on | مبنای شناسایی را **Days** یا **Months** انتخاب می‌کند. |
 | Automatically process deferred Accounting entry | به فرایند زمان‌بندی‌شده اجازه می‌دهد ثبت‌های شناسایی واجد شرایط را ثبت کند. |
-| Book deferred entries via Journal Entry | به‌جای ثبت مستقیم شناسایی در دفترکل کل، سندهای [راهنمای «Journal Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/journal-entry) می‌سازد. |
+| Book deferred entries via Journal Entry | به‌جای ثبت مستقیم شناسایی در دفترکل، سندهای [راهنمای «Journal Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/journal-entry) می‌سازد. |
 | ارسال Journal entries | Journal Entryهای ایجادشده را خودکار ثبت نهایی می‌کند؛ اگر غیرفعال باشد برای بازبینی در وضعیت Draft می‌مانند. |
 
 ### روز یا ماه
@@ -70,7 +70,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### ثبت مستقیم در دفتر کل یا از طریق Journal Entry
 
-ثبت مستقیم، بدون ساخت سند جداگانهٔ Journal Entry، ثبت‌های شناسایی را ایجاد می‌کند. اگر تیم شما به محاسبهٔ خودکار اعتماد دارد و نتیجه را از طریق [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger) و گزارش انتقالی بازبینی می‌کند، این روش ساده‌تر است.
+ثبت مستقیم، بدون ساخت سند جداگانهٔ Journal Entry، ثبت‌های شناسایی را ایجاد می‌کند. اگر تیم شما به محاسبهٔ خودکار اعتماد دارد و نتیجه را از طریق [دفترکل](https://docs.frappe.io/erpnext/general-ledger) و گزارش انتقالی بازبینی می‌کند، این روش ساده‌تر است.
 
 ثبت از طریق Journal Entry برای هر دستهٔ شناسایی سندی می‌سازد که قابل بازبینی است. اگر **ارسال Journal entries** فعال نباشد، Journal Entryهای تولیدشده در وضعیت Draft می‌مانند و تا ثبت نهایی، بر دفتر کل اثر نمی‌گذارند. این کار کنترل بیشتری فراهم می‌کند، اما یک مرحلهٔ عملیاتی برای بازبینی نیز می‌افزاید.
 
@@ -100,7 +100,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 1. صورتحساب را باز کنید و حساب انتقالی و تاریخ‌های خدمت را در هر ردیف مربوط تأیید کنید.
 2. [Deferred Revenue/Expense گزارش](/erpnext/deferred-revenue-expense-report) را برای مبلغ‌های صورتحساب‌شده، شناسایی‌شده و در انتظار بررسی کنید.
-3. دفترکل کل حساب انتقالی و حساب نهایی درآمد یا هزینه را بازبینی کنید.
+3. دفترکل حساب انتقالی و حساب نهایی درآمد یا هزینه را بازبینی کنید.
 
 ماندهٔ انتقالی باید با ثبت شناسایی کاهش یابد. درآمد یا هزینهٔ نهایی باید به همان میزان افزایش یابد. در کل دورهٔ خدمت، مجموع مبلغ شناسایی‌شده باید با مبلغ صورتحساب واجد شرایط برابر باشد؛ با درنظرگرفتن لغوها، برگشت‌ها، بستانکاری‌ها و گردکردن.
 
@@ -140,7 +140,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### آیا پس از ثبت نهایی می‌توانم حساب یا تاریخ‌های خدمت را تغییر دهم؟
 
-از گردش‌کار پشتیبانی‌شدهٔ لغو، اصلاح یا توقف خدمت استفاده کنید. تغییر مستقیم داده‌های حسابداری ثبت‌شده می‌تواند ارتباط میان صورتحساب، گزارش انتقالی و دفترکل کل را مخدوش کند.
+از گردش‌کار پشتیبانی‌شدهٔ لغو، اصلاح یا توقف خدمت استفاده کنید. تغییر مستقیم داده‌های حسابداری ثبت‌شده می‌تواند ارتباط میان صورتحساب، گزارش انتقالی و دفترکل را مخدوش کند.
 
 ## موضوعات مرتبط
 
@@ -150,4 +150,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - [Deferred Revenue/Expense گزارش](/erpnext/deferred-revenue-expense-report)
 - [تنظیمات حساب‌ها](accounts-settings.md)
 - [راهنمای «Journal Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/journal-entry)
-- [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفترکل](https://docs.frappe.io/erpnext/general-ledger)

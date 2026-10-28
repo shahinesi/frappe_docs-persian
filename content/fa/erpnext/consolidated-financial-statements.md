@@ -56,4 +56,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 - [راهنمای «Period Closing Voucher» در ERPNext](https://docs.frappe.io/erpnext/period-closing-voucher)
 - [Chart of Accounts](chart-of-accounts.md)
-- [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفترکل](https://docs.frappe.io/erpnext/general-ledger)

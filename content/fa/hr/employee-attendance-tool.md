@@ -41,15 +41,15 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 پس از ثبت حضور و غیاب با این ابزار، رکورد آن در سند [حضور و غیاب](https://docs.frappe.io/hr/attendance) کارمند ذخیره می‌شود:
 
-![رکورد Attendance ایجادشده](https://frappehr.com/files/dxhxNaV.png)
+![رکورد حضور و غیاب ایجادشده](https://frappehr.com/files/dxhxNaV.png)
 
 ## 3. موضوعات مرتبط
 
 1. [حضور و غیاب](https://docs.frappe.io/hr/attendance)
 2. [درخواست حضور و غیاب](attendance-request.md)
-3. [Upload حضور و غیاب](https://docs.frappe.io/hr/upload-attendance)
-4. [شیفت Management](https://docs.frappe.io/hr/shift-management)
-5. [Auto حضور و غیاب](https://docs.frappe.io/hr/auto-attendance)
+3. [آپلود حضور و غیاب](https://docs.frappe.io/hr/upload-attendance)
+4. [مدیریت شیفت‌ها](https://docs.frappe.io/hr/shift-management)
+5. [حضور و غیاب خودکار](https://docs.frappe.io/hr/auto-attendance)
 
 ---
 

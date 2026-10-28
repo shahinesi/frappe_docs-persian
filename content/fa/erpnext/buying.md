@@ -26,7 +26,7 @@ flowchart LR
 
 [راهنمای «Material Request | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/material-request)، [راهنمای «Request for Quotation | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/request-for-quotation) و [تأمین‌کننده Quotation](https://docs.frappe.io/erpnext/supplier-quotation) سندهای اختیاری برای برنامه‌ریزی و مقایسه‌اند. آن‌ها به تصمیم‌گیری دربارهٔ کالای موردنیاز و تأمین‌کننده کمک می‌کنند، اما موجودی را جابه‌جا نمی‌کنند و ثبت حسابداری ایجاد نمی‌کنند.
 
-[سفارش خرید](purchase-order.md) تعهد تجاری شما به تأمین‌کننده است. اقلام توافق‌شده، مقدارها، نرخ‌ها، تاریخ‌های تحویل، مالیات و شرایط را ثبت می‌کند. ثبت نهایی آن به موجودی اضافه نمی‌کند و در دفترکل کل هم سندی ایجاد نمی‌کند.
+[سفارش خرید](purchase-order.md) تعهد تجاری شما به تأمین‌کننده است. اقلام توافق‌شده، مقدارها، نرخ‌ها، تاریخ‌های تحویل، مالیات و شرایط را ثبت می‌کند. ثبت نهایی آن به موجودی اضافه نمی‌کند و در دفترکل هم سندی ایجاد نمی‌کند.
 
 [راهنمای «Purchase Receipt | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-receipt) آنچه را که واقعاً تحویل گرفته‌اید ثبت می‌کند. برای اقلام انبارشونده، موجودی را افزایش می‌دهد و در صورت فعال‌بودن موجودی دائمی، ثبت حسابداری متناظر موجودی را هم ایجاد می‌کند. با رسید جزئی، مقدار باقیماندهٔ سفارش باز می‌ماند.
 
@@ -49,7 +49,7 @@ flowchart LR
     PI --> PE[Payment Entry]
 ```
 
-سفارش خرید تعهد را ثبت می‌کند، Purchase Receipt بر موجودی اثر می‌گذارد، Purchase Invoice بر دفترکل کل و ماندهٔ تأمین‌کننده اثر دارد و Payment Entry مانده را تسویه می‌کند. در صورت نیاز به تأیید، دریافت چند پیشنهاد یا بازرسی ورودی، می‌توانید Material Request، RFQ، تأمین‌کننده Quotation و [راهنمای «Quality Inspection» در ERPNext](https://docs.frappe.io/erpnext/quality-inspection) را هم اضافه کنید.
+سفارش خرید تعهد را ثبت می‌کند، Purchase Receipt بر موجودی اثر می‌گذارد، Purchase Invoice بر دفترکل و ماندهٔ تأمین‌کننده اثر دارد و Payment Entry مانده را تسویه می‌کند. در صورت نیاز به تأیید، دریافت چند پیشنهاد یا بازرسی ورودی، می‌توانید Material Request، RFQ، تأمین‌کننده Quotation و [راهنمای «Quality Inspection» در ERPNext](https://docs.frappe.io/erpnext/quality-inspection) را هم اضافه کنید.
 
 ### صورتحساب مستقیم همراه با به‌روزرسانی موجودی
 

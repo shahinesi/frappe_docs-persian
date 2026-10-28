@@ -22,7 +22,7 @@ Nova Industries در 1 ژانویه استفاده از ERPNext را آغاز ک
 
 ## استفادهٔ محتاطانه از نقش استثنا
 
-این نقش برای اصلاح‌های تأییدشده است، نه راهی برای ادامهٔ ثبت عادی با تاریخ گذشته. عضویت در آن را محدود کنید، مدرک پشتیبان بخواهید و پس از هر استثنا دفترکل کل و سابقهٔ Version را بررسی کنید.
+این نقش برای اصلاح‌های تأییدشده است، نه راهی برای ادامهٔ ثبت عادی با تاریخ گذشته. عضویت در آن را محدود کنید، مدرک پشتیبان بخواهید و پس از هر استثنا دفترکل و سابقهٔ Version را بررسی کنید.
 
 ## عیب‌یابی
 
@@ -48,7 +48,7 @@ Nova Industries در 1 ژانویه استفاده از ERPNext را آغاز ک
 
 - [نمای کلی حسابداری](/erpnext/accounting/introduction)
 - [Chart of Accounts](chart-of-accounts.md)
-- [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفترکل](https://docs.frappe.io/erpnext/general-ledger)
 - [راهنمای «Fiscal Year | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/fiscal-year)
 
 ---

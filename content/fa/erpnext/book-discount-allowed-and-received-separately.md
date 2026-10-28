@@ -61,7 +61,7 @@ ERPNext معمولاً مبلغ خالص صورتحساب را پس از تخف�
 ![Sales Invoice ثبت‌نهایی‌شده با تخفیف و Grand Total مشخص‌شده](https://novacompanies.m.frappe.cloud/files/docs-gl-2026-separate-discount-booking-sales-submitted-total.png)
 
 8. مالیات‌ها، گردکردن، **Grand Total** و ردیف هزینه را بررسی و سپس صورتحساب را ثبت نهایی کنید.
-9. **View > Accounting Ledger** را باز کنید و نتیجه را در [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger) بررسی کنید.
+9. **View > Accounting Ledger** را باز کنید و نتیجه را در [دفترکل](https://docs.frappe.io/erpnext/general-ledger) بررسی کنید.
 
 ![دفتر کل Sales Invoice با ردیف تخفیف جداگانه](https://novacompanies.m.frappe.cloud/files/docs-gl-2026-separate-discount-booking-sales-general-ledger.png)
 
@@ -147,7 +147,7 @@ ERPNext از این جدول برای مالیات و سایر افزایش‌ه
 
 ### آیا تخفیف خرید خودکار ارزش‌گذاری موجودی را به‌روز می‌کند؟
 
-نه در همهٔ توالی‌های خرید. نتیجه به این بستگی دارد که موجودی جداگانه دریافت شده باشد یا نه، از چه حساب‌هایی استفاده شده و تنظیمات ارزش‌گذاری رسید و صورتحساب چگونه است. Purchase Receipt، Purchase Invoice، Stock Ledger و دفترکل کل را با هم بررسی کنید.
+نه در همهٔ توالی‌های خرید. نتیجه به این بستگی دارد که موجودی جداگانه دریافت شده باشد یا نه، از چه حساب‌هایی استفاده شده و تنظیمات ارزش‌گذاری رسید و صورتحساب چگونه است. Purchase Receipt، Purchase Invoice، Stock Ledger و دفترکل را با هم بررسی کنید.
 
 ## موضوعات مرتبط
 
@@ -157,6 +157,6 @@ ERPNext از این جدول برای مالیات و سایر افزایش‌ه
 - [راهنمای «Purchase Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-invoice)
 - [Chart of Accounts](chart-of-accounts.md)
 - [راهنمای «Payment Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-entry)
-- [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفترکل](https://docs.frappe.io/erpnext/general-ledger)
 
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/book-discount-allowed-and-received-separately). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های رسمی مستندات پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

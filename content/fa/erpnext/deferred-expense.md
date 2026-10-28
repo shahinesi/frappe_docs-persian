@@ -93,13 +93,13 @@ ERPNext بدهی به تأمین‌کننده را ایجاد می‌کند؛ ا
 
 در هر دورهٔ واجد شرایط، شناسایی، Expense Head ردیف Purchase Invoice را بدهکار و دارایی هزینهٔ انتقالی را بستانکار می‌کند. اگر Accounts Settings از ثبت با Journal Entry استفاده کند، ERPNext سندهای Journal Entry می‌سازد. این سندها ممکن است برای بازبینی در Draft بمانند یا خودکار ثبت نهایی شوند.
 
-صفحهٔ اصلی، Journal Entryهای ماهانهٔ خودکار را توصیف می‌کرد. این گردش‌کار همچنان زمانی دیده می‌شود که ثبت از طریق Journal Entry انتخاب شده باشد. در حالت ثبت مستقیم نیز همان بدهکار و بستانکار در دفترکل کل ظاهر می‌شوند، اما سند جداگانهٔ Journal Entry ساخته نمی‌شود.
+صفحهٔ اصلی، Journal Entryهای ماهانهٔ خودکار را توصیف می‌کرد. این گردش‌کار همچنان زمانی دیده می‌شود که ثبت از طریق Journal Entry انتخاب شده باشد. در حالت ثبت مستقیم نیز همان بدهکار و بستانکار در دفترکل ظاهر می‌شوند، اما سند جداگانهٔ Journal Entry ساخته نمی‌شود.
 
 ## بررسی هزینهٔ شناسایی‌شده و در انتظار
 
 [Deferred Revenue/Expense گزارش](/erpnext/deferred-revenue-expense-report) را باز کنید و Purchase Invoice، دورهٔ خدمت، مبلغ صورتحساب‌شده، مبلغ شناسایی‌شده و ماندهٔ در انتظار را بررسی کنید.
 
-سپس [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger) را بازبینی کنید:
+سپس [دفترکل](https://docs.frappe.io/erpnext/general-ledger) را بازبینی کنید:
 
 - ماندهٔ دارایی انتقالی باید با مبلغ صورتحساب واجد شرایط آغاز شود؛
 - در هر دورهٔ شناسایی باید آن دارایی بستانکار شود؛
@@ -146,7 +146,7 @@ ERPNext بدهی به تأمین‌کننده را ایجاد می‌کند؛ ا
 
 ### چرا Journal Entryهای تولیدشده در دفتر کل دیده نمی‌شوند؟
 
-وقتی ارسال خودکار غیرفعال باشد، در وضعیت Draft می‌مانند. پیش از انتظار اثر در دفترکل کل، آن‌ها را بازبینی و ثبت نهایی کنید.
+وقتی ارسال خودکار غیرفعال باشد، در وضعیت Draft می‌مانند. پیش از انتظار اثر در دفترکل، آن‌ها را بازبینی و ثبت نهایی کنید.
 
 ### آیا برای استهلاک دارایی ثابت باید از این قابلیت استفاده کنم؟
 
@@ -160,4 +160,4 @@ ERPNext بدهی به تأمین‌کننده را ایجاد می‌کند؛ ا
 - [Deferred Revenue/Expense گزارش](/erpnext/deferred-revenue-expense-report)
 - [راهنمای «Purchase Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-invoice)
 - [راهنمای «Journal Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/journal-entry)
-- [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفترکل](https://docs.frappe.io/erpnext/general-ledger)

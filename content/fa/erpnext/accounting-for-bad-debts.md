@@ -34,7 +34,7 @@ Journal Entry باید تراز باشد:
 
 ## ساخت Journal Entry
 
-1. به **Accounting > دفترکل کل, Journals and Adjustments > Journal Entry** بروید.
+1. به **Accounting > دفترکل, Journals and Adjustments > Journal Entry** بروید.
 2. **Add Journal Entry** را انتخاب کنید؛ در تصویر زیر مشخص شده است.
 
 ![فهرست Journal Entry که گزینهٔ Add Journal Entry در آن مشخص شده است](https://novacompanies.m.frappe.cloud/files/bad-debt-journal-entry-list.png)
@@ -72,7 +72,7 @@ Journal Entry باید تراز باشد:
 
 ![مبلغ بستانکار و ارجاع Sales Invoice در ویرایشگر ردیف فرزند مشخص شده‌اند](https://novacompanies.m.frappe.cloud/files/bad-debt-journal-entry-reference.png)
 
-این ارجاع ضروری است. Journal Entry بدون آن هم می‌تواند دفترکل کل را تراز کند، اما Sales Invoice ممکن است در گزارش حساب‌های دریافتنی همچنان تسویه‌نشده نشان داده شود.
+این ارجاع ضروری است. Journal Entry بدون آن هم می‌تواند دفترکل را تراز کند، اما Sales Invoice ممکن است در گزارش حساب‌های دریافتنی همچنان تسویه‌نشده نشان داده شود.
 
 ## ذخیره و ارسال
 
@@ -82,7 +82,7 @@ Journal Entry باید تراز باشد:
 4. Journal Entry را ذخیره کنید.
 5. حساب‌ها، مشتری، ارجاع فاکتور و تاریخ ثبت را بررسی و سپس **ارسال** را انتخاب کنید.
 
-ارسال کردن، ردیف‌های دفترکل کل را می‌سازد. این کار حرکت موجودی ایجاد نمی‌کند و مقدار اقلام، درآمد یا مالیات Sales Invoice اصلی را تغییر نمی‌دهد.
+ارسال کردن، ردیف‌های دفترکل را می‌سازد. این کار حرکت موجودی ایجاد نمی‌کند و مقدار اقلام، درآمد یا مالیات Sales Invoice اصلی را تغییر نمی‌دهد.
 
 ## سوخت‌شدن بخشی از بدهی
 
@@ -98,7 +98,7 @@ Journal Entry باید تراز باشد:
 
 ## بررسی نتیجه
 
-پس از ارسال، [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger) و گزارش حساب‌های دریافتنی را با همان شرکت، تاریخ ثبت و ارز بررسی کنید.
+پس از ارسال، [دفترکل](https://docs.frappe.io/erpnext/general-ledger) و گزارش حساب‌های دریافتنی را با همان شرکت، تاریخ ثبت و ارز بررسی کنید.
 
 مطمئن شوید که:
 
@@ -148,7 +148,7 @@ Journal Entryهایی را پیدا کنید که به حساب دریافتنی
 - [راهنمای «Sales Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/sales-invoice)
 - [یادداشت بستانکار](credit-note.md)
 - [بهرهٔ فروش و اخطار دیرکرد پرداخت (Dunning)](dunning.md)
-- [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفترکل](https://docs.frappe.io/erpnext/general-ledger)
 
 ---
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/accounting-for-bad-debts). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

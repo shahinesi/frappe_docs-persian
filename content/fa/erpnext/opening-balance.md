@@ -33,7 +33,7 @@ Trial Balance تأییدشده و برنامه‌های پشتیبان را بر
 
 ## ایجاد Journal Entry افتتاحیه
 
-1. به **صفحهٔ اصلی > Accounting > دفترکل کل > Journal Entry** بروید.
+1. به **صفحهٔ اصلی > Accounting > دفترکل > Journal Entry** بروید.
 2. Journal Entry بسازید.
 3. شرکت و تاریخ برش را انتخاب کنید.
 4. **Is Opening** را روی **Yes** بگذارید.

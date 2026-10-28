@@ -80,7 +80,7 @@ ERPNext یک ردیف با مبلغ دقیق لازم برای برابرشدن 
 
 ![Journal Entry ثبت‌نهایی‌شده با هر سه ردیف حسابداری](https://novacompanies.m.frappe.cloud/files/docs-gl-2026-difference-entry-submitted-difference-journal-entry.png)
 
-4. **View > Ledger** را باز کنید یا گزارش [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger) را با Journal Entry به‌عنوان فیلتر voucher اجرا کنید.
+4. **View > Ledger** را باز کنید یا گزارش [دفترکل](https://docs.frappe.io/erpnext/general-ledger) را با Journal Entry به‌عنوان فیلتر voucher اجرا کنید.
 5. بدهکار و بستانکار هر حساب و صفر بودن ماندهٔ کل voucher را بررسی کنید.
 
 ![General Ledger با ردیف مابه‌التفاوت Bank Charges](https://novacompanies.m.frappe.cloud/files/docs-gl-2026-difference-entry-difference-entry-general-ledger.png)
@@ -149,7 +149,7 @@ ERPNext افزون بر توازن، شرکت، نوع حساب، طرف حسا�
 - [راهنمای «Journal Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/journal-entry)
 - [Understanding Debit and Credit](/erpnext/understanding-debit-and-credit)
 - [Chart of Accounts](chart-of-accounts.md)
-- [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفترکل](https://docs.frappe.io/erpnext/general-ledger)
 - [راهنمای «Payment Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-entry)
 - [راهنمای «Multi Currency Accounting | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/multi-currency-accounting)
 - [راهنمای «Journal Entry Template | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/journal-entry-template)

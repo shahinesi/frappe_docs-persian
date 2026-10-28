@@ -18,7 +18,7 @@ Chart of Accounts مناسب باید برای پاسخ‌دادن به پرسش
 
 به **صفحهٔ اصلی > Accounting > Accounting Masters > Chart of Accounts** بروید و شرکت را انتخاب کنید. تصویر درخت در [راهنمای رسمی](chart-of-accounts.md) موجود است و در این مخزن بازنشر نشده است.
 
-حساب‌های گروهی برای سازمان‌دهی درخت‌اند و نمی‌توان در آن‌ها ردیف دفترکل کل ثبت کرد. حساب‌های دفترکل آخرین گره‌های درخت‌اند و در تراکنش‌ها استفاده می‌شوند.
+حساب‌های گروهی برای سازمان‌دهی درخت‌اند و نمی‌توان در آن‌ها ردیف دفترکل ثبت کرد. حساب‌های دفترکل آخرین گره‌های درخت‌اند و در تراکنش‌ها استفاده می‌شوند.
 
 | نوع ریشه | مفهوم |
 |---|---|
@@ -55,7 +55,7 @@ Chart of Accounts مناسب باید برای پاسخ‌دادن به پرسش
 
 ## بررسی Chart of Accounts
 
-پیش‌نویس Sales Invoice، Purchase Invoice، Payment Entry و Journal Entry بسازید. مطمئن شوید فیلترهای حساب، دفترکل‌های موردنظر را نشان می‌دهند. سپس پس از یک ثبت آزمایشی کنترل‌شده، [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger)، Balance Sheet و Profit and Loss Statement را بررسی کنید.
+پیش‌نویس Sales Invoice، Purchase Invoice، Payment Entry و Journal Entry بسازید. مطمئن شوید فیلترهای حساب، دفترکل‌های موردنظر را نشان می‌دهند. سپس پس از یک ثبت آزمایشی کنترل‌شده، [دفترکل](https://docs.frappe.io/erpnext/general-ledger)، Balance Sheet و Profit and Loss Statement را بررسی کنید.
 
 ## عیب‌یابی
 

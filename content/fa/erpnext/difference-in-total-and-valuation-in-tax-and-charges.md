@@ -110,7 +110,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## درک اثر حسابداری و موجودی
 
-تراکنش خرید ثبت‌نهایی‌شده ممکن است هم بر [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger) و هم بر [Stock Ledger گزارش](https://docs.frappe.io/erpnext/stock-ledger) اثر بگذارد. ثبت دقیق به این بستگی دارد که موجودی از طریق [راهنمای «Purchase Receipt | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-receipt)، گزینهٔ **Update Stock** در Purchase Invoice یا گردش‌کار موجودی دائمی دیگری به‌روز شود.
+تراکنش خرید ثبت‌نهایی‌شده ممکن است هم بر [دفترکل](https://docs.frappe.io/erpnext/general-ledger) و هم بر [Stock Ledger گزارش](https://docs.frappe.io/erpnext/stock-ledger) اثر بگذارد. ثبت دقیق به این بستگی دارد که موجودی از طریق [راهنمای «Purchase Receipt | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-receipt)، گزینهٔ **Update Stock** در Purchase Invoice یا گردش‌کار موجودی دائمی دیگری به‌روز شود.
 
 | نحوهٔ ثبت | اثر بر بدهی | اثر بر ارزش موجودی |
 | --- | --- | --- |

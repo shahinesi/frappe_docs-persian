@@ -15,7 +15,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 >
 > تصویرها در این مخزن بازنشر نشده‌اند و پیوندشان به فایل‌های میزبان منبع اشاره می‌کند.
 
-قابلیت حسابداری تخفیف به ERPNext اجازه می‌دهد تخفیف فروش را به‌جای آنکه فقط درآمد کاهش‌یافته ثبت شود، جداگانه در [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger) نشان دهد. زمانی از آن استفاده کنید که واحد مالی به گزارش جداگانهٔ فروش ناخالص و تخفیف‌های اعطاشده نیاز دارد.
+قابلیت حسابداری تخفیف به ERPNext اجازه می‌دهد تخفیف فروش را به‌جای آنکه فقط درآمد کاهش‌یافته ثبت شود، جداگانه در [دفترکل](https://docs.frappe.io/erpnext/general-ledger) نشان دهد. زمانی از آن استفاده کنید که واحد مالی به گزارش جداگانهٔ فروش ناخالص و تخفیف‌های اعطاشده نیاز دارد.
 
 این تنظیم نحوهٔ نمایش حسابداری را تغییر می‌دهد. مشخص نمی‌کند چه کسی واجد دریافت تخفیف است و شرایط تبلیغاتی را محاسبه نمی‌کند. تخفیف تجاری را با [فیلدهای معمول تخفیف](applying-discount.md)، [راهنمای «Pricing Rule | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/pricing-rule) یا روش قیمت‌گذاری تأییدشدهٔ دیگری پیکربندی کنید.
 
@@ -115,7 +115,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 1. مبلغ تخفیف‌ها، مالیات، Grand Total و Discount Accountها را بازبینی کنید.
 2. Sales Invoice را ذخیره و ثبت نهایی کنید.
-3. **View > Ledger** را باز کنید یا گزارش دفترکل کل را برای voucher فاکتور اجرا کنید.
+3. **View > Ledger** را باز کنید یا گزارش دفترکل را برای voucher فاکتور اجرا کنید.
 
 در مثال ثبت‌نهایی‌شده، Grand Total و ماندهٔ پرداخت‌نشده 1,195.29 دلار است.
 
@@ -186,5 +186,5 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - [راهنمای «Pricing Rule | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/pricing-rule)
 - [راهنمای «Selling Settings | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/selling-settings)
 - [Chart of Accounts](chart-of-accounts.md)
-- [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفترکل](https://docs.frappe.io/erpnext/general-ledger)
 - [راهنمای «Purchase Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-invoice)

@@ -45,7 +45,7 @@ Cost Center اصلی و همهٔ Cost Centerهای دریافت‌کننده ر�
 
 در تراکنش حسابداری پشتیبانی‌شده، فقط Cost Center اصلی را انتخاب کنید. این روش برای [راهنمای «Purchase Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-invoice)، [راهنمای «Sales Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/sales-invoice) یا [راهنمای «Journal Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/journal-entry) کاربرد دارد. لازم نیست سهم هر دریافت‌کننده را جداگانه محاسبه و دستی وارد کنید.
 
-هنگام ثبت تراکنش، ERPNext تخصیصی را اعمال می‌کند که در آن تاریخ معتبر است. ردیف‌های حاصل در [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger) دارای Cost Centerهای دریافت‌کننده و سهم محاسبه‌شدهٔ آن‌ها هستند. تخصیص، دسته‌بندی گزارش را تغییر می‌دهد؛ نه تأمین‌کننده، جمع فاکتور، مالیات یا مبلغ پرداختنی را.
+هنگام ثبت تراکنش، ERPNext تخصیصی را اعمال می‌کند که در آن تاریخ معتبر است. ردیف‌های حاصل در [دفترکل](https://docs.frappe.io/erpnext/general-ledger) دارای Cost Centerهای دریافت‌کننده و سهم محاسبه‌شدهٔ آن‌ها هستند. تخصیص، دسته‌بندی گزارش را تغییر می‌دهد؛ نه تأمین‌کننده، جمع فاکتور، مالیات یا مبلغ پرداختنی را.
 
 ## نمونهٔ نتیجه
 
@@ -55,7 +55,7 @@ Cost Center اصلی و همهٔ Cost Centerهای دریافت‌کننده ر�
 | سهم تخصیص‌یافته | Retail Operations - NET | 6,000 دلار |
 | سهم تخصیص‌یافته | Online Sales - NET | 4,000 دلار |
 
-برای مقایسهٔ هزینهٔ هر تیم، [Profit and Loss Statement](/erpnext/profit-and-loss-statement) را با فیلتر Cost Center اجرا کنید. اگر می‌خواهید ردیف‌های بدهکار و بستانکار پشت گزارش را جداگانه ببینید، دفترکل کل را باز کنید. مبلغ [حساب‌های پرداختنی](/erpnext/accounts-payable) همچنان 10,000 دلار است، زیرا کل یک فاکتور به تأمین‌کننده بدهکار است.
+برای مقایسهٔ هزینهٔ هر تیم، [Profit and Loss Statement](/erpnext/profit-and-loss-statement) را با فیلتر Cost Center اجرا کنید. اگر می‌خواهید ردیف‌های بدهکار و بستانکار پشت گزارش را جداگانه ببینید، دفترکل را باز کنید. مبلغ [حساب‌های پرداختنی](/erpnext/accounts-payable) همچنان 10,000 دلار است، زیرا کل یک فاکتور به تأمین‌کننده بدهکار است.
 
 ## تغییر توزیع در آینده
 
@@ -75,7 +75,7 @@ Cost Center اصلی و همهٔ Cost Centerهای دریافت‌کننده ر�
 
 ### گزارش نسبت نامنتظره‌ای نشان می‌دهد
 
-بررسی کنید در تاریخ Posting Date تراکنش کدام تخصیص معتبر بوده است. سپس voucher و ردیف‌های دفترکل کل آن را ببینید تا Cost Center ذخیره‌شده در هر ردیف تأیید شود.
+بررسی کنید در تاریخ Posting Date تراکنش کدام تخصیص معتبر بوده است. سپس voucher و ردیف‌های دفترکل آن را ببینید تا Cost Center ذخیره‌شده در هر ردیف تأیید شود.
 
 ## پرسش‌های متداول
 
@@ -96,5 +96,5 @@ Cost Center اصلی و همهٔ Cost Centerهای دریافت‌کننده ر�
 - [Cost Center Allocation](/erpnext/cost-center-allocation)
 - [مرکز هزینه](cost-center.md)
 - [ابعاد حسابداری](accounting-dimensions.md)
-- [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفترکل](https://docs.frappe.io/erpnext/general-ledger)
 - [بودجه](budget.md)

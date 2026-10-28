@@ -20,13 +20,13 @@ license_status: "CC BY-SA (version unspecified by source policy)"
    ![ساخت مؤلفهٔ حقوق Overtime](https://docs.erpnext.com/files/IKY5KnC.png)
 
 3. یک ساختار حقوق بسازید و **اضافه‌کاری** را با مبلغ 0 در آن بگنجانید.
-4. در خود ساختار حقوق، گزینهٔ **فیش حقوق Based on Timesheet** را علامت بزنید، **اضافه‌کاری** را به‌عنوان مؤلفهٔ حقوق انتخاب کنید و **Hour Rate** را وارد کنید.
+4. در خود ساختار حقوق، گزینهٔ **فیش حقوق بر اساس برگهٔ زمان‌کار** را علامت بزنید، **اضافه‌کاری** را به‌عنوان مؤلفهٔ حقوق انتخاب کنید و **نرخ ساعتی** را وارد کنید.
 
-   ![تنظیم Hour Rate برای Overtime](https://docs.erpnext.com/files/RSBGOUP.png)
+   ![تنظیم نرخ ساعتی برای اضافه‌کاری](https://docs.erpnext.com/files/RSBGOUP.png)
 
 5. ساختار حقوق را ثبت نهایی کنید و از طریق ساختار حقوق Assignment آن را به کارمند اختصاص دهید.
 
-   ![تخصیص Salary Structure به Employee](https://docs.erpnext.com/files/qj9KVAu.png)
+   ![تخصیص ساختار حقوق و دستمزد به کارمند](https://docs.erpnext.com/files/qj9KVAu.png)
 
 6. با استفاده از DocType مربوط به Timesheet برای این کارمند Timesheet بسازید.
 
@@ -34,9 +34,9 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
    ![جزئیات Timesheet](https://docs.erpnext.com/files/W7vYYWt.png)
 
-   در نمونهٔ بالا، کارمند در مجموع 8 ساعت طی ماه January اضافه‌کاری کرده است.
+   در نمونهٔ بالا، کارمند در مجموع 8 ساعت طی ماه ژانویه اضافه‌کاری کرده است.
 
-7. برای ماه January یک سند پردازش حقوق و دستمزد جدید بسازید و گزینهٔ **فیش حقوق Based on Timesheet** را علامت بزنید. ذخیره کنید، سپس **Get Employees** و بعد **Create Salary Slips** را بزنید.
+7. برای ماه ژانویه یک سند پردازش حقوق و دستمزد جدید بسازید و گزینهٔ **فیش حقوق بر اساس برگهٔ زمان‌کار** را علامت بزنید. ذخیره کنید، سپس **دریافت کارمندان** و بعد **ایجاد فیش‌های حقوقی** را بزنید.
 
 فیش حقوق کارمند همهٔ Timesheetهایی را که او برای همان ماه ساخته است دریافت می‌کند و بر همان اساس مؤلفهٔ اضافه‌کاری را در فیش حقوق محاسبه می‌کند.
 

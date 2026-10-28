@@ -57,7 +57,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## بررسی حسابداری
 
-Journal Entry ایجادشده را باز کنید و حساب انتقالی را با حساب درآمد یا هزینه در [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger) مقایسه کنید. شناسایی درآمد معمولاً بدهکارکردن بدهی درآمد انتقالی و بستانکارکردن درآمد است. شناسایی هزینه معمولاً بستانکارکردن دارایی هزینهٔ انتقالی و بدهکارکردن هزینه است.
+Journal Entry ایجادشده را باز کنید و حساب انتقالی را با حساب درآمد یا هزینه در [دفترکل](https://docs.frappe.io/erpnext/general-ledger) مقایسه کنید. شناسایی درآمد معمولاً بدهکارکردن بدهی درآمد انتقالی و بستانکارکردن درآمد است. شناسایی هزینه معمولاً بستانکارکردن دارایی هزینهٔ انتقالی و بدهکارکردن هزینه است.
 
 ## عیب‌یابی
 
@@ -93,4 +93,4 @@ Posting Date، تاریخ‌های شروع و پایان خدمت و مبنای
 - [درآمد انتقالی](deferred-revenue.md)
 - [هزینهٔ انتقالی](deferred-expense.md)
 - [راهنمای «Process Deferred Accounting | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/process-deferred-accounting)
-- [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفترکل](https://docs.frappe.io/erpnext/general-ledger)

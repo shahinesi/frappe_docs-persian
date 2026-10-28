@@ -112,7 +112,7 @@ ERPNext یک Journal Entry سیستمی ایجاد و ثبت نهایی می‌�
 | Debtors، مشتری با نام Vertex Components | 0 دلار | 800 دلار | دریافتنی Sales Invoice را تسویه می‌کند. |
 | Creditors، تأمین‌کننده با نام Vertex Components | 800 دلار | 0 دلار | پیش‌پرداخت تخصیص‌نیافتهٔ تأمین‌کننده را ایجاد می‌کند. |
 
-پیش از تطبیق، ثبت ایجادشده را بازبینی کنید. شرکت، طرف‌ها، حساب‌ها، مبالغ، ارجاع صورتحساب، ارزها و تاریخ ثبت را تأیید کنید. ممکن است شمارهٔ Journal Entry در [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger) دیده شود؛ چون این سند همان واچری است که تعدیل بین دو طرف را انجام می‌دهد.
+پیش از تطبیق، ثبت ایجادشده را بازبینی کنید. شرکت، طرف‌ها، حساب‌ها، مبالغ، ارجاع صورتحساب، ارزها و تاریخ ثبت را تأیید کنید. ممکن است شمارهٔ Journal Entry در [دفترکل](https://docs.frappe.io/erpnext/general-ledger) دیده شود؛ چون این سند همان واچری است که تعدیل بین دو طرف را انجام می‌دهد.
 
 ## تطبیق پیش‌پرداخت
 
@@ -168,7 +168,7 @@ Journal Entry سیستمی به آن صورتحساب ارجاع می‌دهد �
 
 خیر. مبلغ ایجادشده تا زمانی که صورتحساب تسویه‌نشدهٔ درست را در Payment Reconciliation انتخاب نکنید، تخصیص‌نیافته می‌ماند.
 
-### آیا می‌توان تراکنش‌های مشتری و تأمین‌کننده را در یک فیلتر استاندارد طرف در دفترکل کل دید؟
+### آیا می‌توان تراکنش‌های مشتری و تأمین‌کننده را در یک فیلتر استاندارد طرف در دفترکل دید؟
 
 این‌ها دو نوع طرف جداگانه هستند. هر سمت را جدا بررسی کنید و برای ردیابی ارتباط از Party Link و Journal Entry ایجادشده کمک بگیرید. اگر سازمان به نمای یکپارچه نیاز دارد، ممکن است گزارش سفارشی لازم باشد.
 
@@ -180,4 +180,4 @@ Journal Entry سیستمی به آن صورتحساب ارجاع می‌دهد �
 - [راهنمای «Purchase Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-invoice)
 - [راهنمای «Journal Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/journal-entry)
 - [راهنمای «Payment Reconciliation | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-reconciliation)
-- [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفترکل](https://docs.frappe.io/erpnext/general-ledger)

@@ -31,7 +31,7 @@ source_version: "e879c533d3631c3b5d8a02b53ec40b18bf5369457b4596ea4b6098f1412f03b
 | Variance | تفاوت مبلغ برنامه‌ریزی‌شده و مبلغ واقعی. |
 | مقادیر تجمعی | بودجهٔ جاری، مبلغ واقعی و انحراف انباشته تا آن دوره. |
 
-اگر هزینهٔ واقعی ناقص به‌نظر می‌رسد، [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger) را برای همان حساب، تاریخ‌ها و Cost Center بررسی کنید. یک [راهنمای «Journal Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/journal-entry)، [راهنمای «Purchase Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-invoice) یا تراکنش هزینهٔ ثبت‌نهایی‌شدهٔ دیگر فقط وقتی در گزارش می‌آید که ابعاد آن با Budget مطابقت داشته باشند.
+اگر هزینهٔ واقعی ناقص به‌نظر می‌رسد، [دفترکل](https://docs.frappe.io/erpnext/general-ledger) را برای همان حساب، تاریخ‌ها و Cost Center بررسی کنید. یک [راهنمای «Journal Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/journal-entry)، [راهنمای «Purchase Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-invoice) یا تراکنش هزینهٔ ثبت‌نهایی‌شدهٔ دیگر فقط وقتی در گزارش می‌آید که ابعاد آن با Budget مطابقت داشته باشند.
 
 ## عیب‌یابی
 
@@ -41,7 +41,7 @@ source_version: "e879c533d3631c3b5d8a02b53ec40b18bf5369457b4596ea4b6098f1412f03b
 
 ### مبلغ واقعی کمتر از انتظار است
 
-بررسی کنید تراکنش‌های مفقود از Cost Center، Project، Account، Posting Date یا بُعد حسابداری دیگری استفاده نکرده باشند. گزارش و دفترکل کل را با فیلترهای یکسان مقایسه کنید.
+بررسی کنید تراکنش‌های مفقود از Cost Center، Project، Account، Posting Date یا بُعد حسابداری دیگری استفاده نکرده باشند. گزارش و دفترکل را با فیلترهای یکسان مقایسه کنید.
 
 ## پرسش‌های رایج
 

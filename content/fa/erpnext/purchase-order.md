@@ -8,7 +8,7 @@ source_version: "6614cc9439d97f766c83ea620d2217b809d28dec0f1ceac9e9549886df5dcd3
 
 Nova Industries پاسخ تأمین‌کنندگان را بررسی کرده و Keystone Cables را برای تأمین 200 آداپتور برق USB-C، هرکدام به قیمت $18، برگزیده است. تا اینجا اسناد نیاز داخلی و پیشنهاد تأمین‌کننده را ثبت کرده‌اند. Nova هنوز به سند رسمی نیاز دارد که دقیقاً مشخص کند چه چیزی را می‌خرد، کالا کجا باید تحویل شود و خرید با چه شرایطی انجام می‌شود.
 
-**سفارش خرید (سفارش خرید)** تعهد تجاری شرکت به خرید را ثبت می‌کند. این سند نرخ پذیرفته‌شده از تأمین‌کننده Quotation را نگه می‌دارد، تحویل را تا 5 نوامبر به Receiving Warehouse - NET تعیین می‌کند و جمع آن $3,600 است. ارسال کردن سفارش نه موجودی را دریافت می‌کند و نه در دفترکل کل ثبت ایجاد می‌کند؛ بلکه مبنایی فراهم می‌کند که [راهنمای «Purchase Receipt | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-receipt) و [راهنمای «Purchase Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-invoice) بعدی با آن تطبیق داده شوند.
+**سفارش خرید (سفارش خرید)** تعهد تجاری شرکت به خرید را ثبت می‌کند. این سند نرخ پذیرفته‌شده از تأمین‌کننده Quotation را نگه می‌دارد، تحویل را تا 5 نوامبر به Receiving Warehouse - NET تعیین می‌کند و جمع آن $3,600 است. ارسال کردن سفارش نه موجودی را دریافت می‌کند و نه در دفترکل ثبت ایجاد می‌کند؛ بلکه مبنایی فراهم می‌کند که [راهنمای «Purchase Receipt | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-receipt) و [راهنمای «Purchase Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/purchase-invoice) بعدی با آن تطبیق داده شوند.
 
 تصویرهای نمونهٔ فرم سفارش خرید در [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/purchase-order) دیده می‌شوند و در این مخزن بازنشر نشده‌اند.
 
@@ -133,7 +133,7 @@ Purchase Receipt کالای واقعاً دریافت‌شده را ثبت می�
 
 ## پرسش‌های متداول
 
-### آیا ارسال کردن سفارش خرید بر موجودی یا دفترکل کل اثر می‌گذارد؟
+### آیا ارسال کردن سفارش خرید بر موجودی یا دفترکل اثر می‌گذارد؟
 
 فقط تعهد تجاری را ثبت می‌کند. Purchase Receipt بر موجودی اثر می‌گذارد، Purchase Invoice حسابداری و بدهی تأمین‌کننده را ثبت می‌کند و Payment Entry تسویه را نشان می‌دهد.
 

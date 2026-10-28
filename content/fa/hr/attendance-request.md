@@ -41,7 +41,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 رکوردهای حضور و غیاب مربوطه به درخواست ثبت‌شده پیوند داده می‌شوند.
 
-![پیوند رکوردهای Attendance به درخواست](https://frappehr.com/files/attendance-request-link.png)
+![پیوند رکوردهای حضور و غیاب به درخواست](https://frappehr.com/files/attendance-request-link.png)
 
 اگر درخواست حضور و غیاب را لغو کنید، سندهای حضور و غیاب پیوندخورده‌ای که از آن ساخته شده‌اند نیز لغو خواهند شد.
 
@@ -72,9 +72,9 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ## 4. موضوعات مرتبط
 
 1. [ابزار حضور و غیاب کارکنان](employee-attendance-tool.md)
-2. [شیفت Management](https://docs.frappe.io/hr/shift-management)
-3. [Auto حضور و غیاب](https://docs.frappe.io/hr/auto-attendance)
-4. [Upload حضور و غیاب](https://docs.frappe.io/hr/upload-attendance)
+2. [مدیریت شیفت‌ها](https://docs.frappe.io/hr/shift-management)
+3. [حضور و غیاب خودکار](https://docs.frappe.io/hr/auto-attendance)
+4. [آپلود حضور و غیاب](https://docs.frappe.io/hr/upload-attendance)
 5. [حضور و غیاب](https://docs.frappe.io/hr/attendance)
 
 ---

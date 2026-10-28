@@ -6,7 +6,7 @@ source_id: "erpnext/accounting-entries"
 source_version: "435e57b6dc9bbb1927291e211a0fd2bdf66a4d2b9c1eabe491f8f21a8406d9bc"
 ---
 
-هر تراکنش حسابداریِ ارسالشده در ERPNext، ثبت‌های بدهکار و بستانکارِ متوازنی در [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger) ایجاد می‌کند. معمولاً لازم نیست این ردیف‌ها را خودتان ثبت کنید. سند کسب‌وکار، مانند Sales Invoice یا Payment Entry، را می‌سازید و ERPNext با استفاده از حساب‌ها و مبلغ‌های آن، اثر دفترکل را ایجاد می‌کند.
+هر تراکنش حسابداریِ ارسالشده در ERPNext، ثبت‌های بدهکار و بستانکارِ متوازنی در [دفترکل](https://docs.frappe.io/erpnext/general-ledger) ایجاد می‌کند. معمولاً لازم نیست این ردیف‌ها را خودتان ثبت کنید. سند کسب‌وکار، مانند Sales Invoice یا Payment Entry، را می‌سازید و ERPNext با استفاده از حساب‌ها و مبلغ‌های آن، اثر دفترکل را ایجاد می‌کند.
 
 این صفحه کسب‌وکار کوچکی را از سرمایه‌گذاری مالک تا خرید، فروش، پرداخت هزینه‌ها و بستن دوره دنبال می‌کند. مثال‌ها منطق حسابداریِ پشت سندها را توضیح می‌دهند و نیازی به حفظ‌کردن قواعد ثبت Journal Entry ندارند.
 
@@ -43,7 +43,7 @@ source_version: "435e57b6dc9bbb1927291e211a0fd2bdf66a4d2b9c1eabe491f8f21a8406d9b
 
 ![ثبت سرمایه‌گذاری مالک به‌صورت Journal Entry متوازن در ERPNext](https://novacompanies.m.frappe.cloud/files/accounting-entries-20260802-accounting-entries-owner-investment.png)
 
-پس از ارسال، از **View > Ledger** دو ردیف متوازن دفترکل کل را ببینید.
+پس از ارسال، از **View > Ledger** دو ردیف متوازن دفترکل را ببینید.
 
 ![ثبت‌های General Ledger ایجادشده برای سرمایه‌گذاری مالک](https://novacompanies.m.frappe.cloud/files/accounting-entries-20260802-accounting-entries-owner-investment-ledger.png)
 
@@ -137,7 +137,7 @@ Journal Entry زیر 845 دلار هزینهٔ نگهداری دفتر را که
 
 برای زیان، جهت ثبت برعکس می‌شود. ERPNext ثبت‌های واقعی را از همهٔ حساب‌های Profit and Loss دورهٔ انتخاب‌شده محاسبه می‌کند.
 
-شرکت، سال مالی، تاریخ آغاز و پایان دوره و حساب اختتامیه را انتخاب کنید. پیش از ارسال، Profit and Loss Statement و دفترکل کل را بررسی کنید.
+شرکت، سال مالی، تاریخ آغاز و پایان دوره و حساب اختتامیه را انتخاب کنید. پیش از ارسال، Profit and Loss Statement و دفترکل را بررسی کنید.
 
 ![تاریخ‌های دوره و Retained Earnings در Period Closing Voucher ERPNext](https://novacompanies.m.frappe.cloud/files/accounting-entries-20260802-accounting-entries-period-closing.png)
 
@@ -147,7 +147,7 @@ Journal Entry زیر 845 دلار هزینهٔ نگهداری دفتر را که
 
 | رویداد کسب‌وکار | سند معمول | اثر اصلی حسابداری هنگام ارسال |
 |---|---|---|
-| مشتری خرید را تعهد می‌کند | سفارش فروش | در دفترکل کل ثبت نمی‌شود |
+| مشتری خرید را تعهد می‌کند | سفارش فروش | در دفترکل ثبت نمی‌شود |
 | ارسال موجودی | Delivery Note | بدهکارشدن بهای تمام‌شدهٔ کالای فروش‌رفته و بستانکارشدن Stock in Hand |
 | صدور صورتحساب برای مشتری | Sales Invoice | بدهکارشدن حساب‌های دریافتنی و بستانکارشدن درآمد و بدهی مالیاتی |
 | دریافت پول از مشتری | Payment Entry | بدهکارشدن Bank یا Cash و بستانکارشدن حساب‌های دریافتنی |
@@ -161,7 +161,7 @@ Journal Entry زیر 845 دلار هزینهٔ نگهداری دفتر را که
 
 ## بررسی ثبت‌های حسابداری
 
-سند ثبت‌شده را باز کنید و **View > Ledger** را انتخاب کنید. همچنین می‌توانید گزارش دفترکل کل را اجرا و بر اساس شرکت، نوع Voucher یا شمارهٔ آن فیلتر کنید.
+سند ثبت‌شده را باز کنید و **View > Ledger** را انتخاب کنید. همچنین می‌توانید گزارش دفترکل را اجرا و بر اساس شرکت، نوع Voucher یا شمارهٔ آن فیلتر کنید.
 
 بررسی کنید که:
 
@@ -174,7 +174,7 @@ Journal Entry زیر 845 دلار هزینهٔ نگهداری دفتر را که
 
 ## عیب‌یابی
 
-### سفارش فروش در دفترکل کل دیده نمی‌شود
+### سفارش فروش در دفترکل دیده نمی‌شود
 
 این رفتار درست است. سفارش فروش تعهد است، نه ثبت درآمد. برای ثبت اثر حسابداری، Delivery Note و Sales Invoice مناسب را ارسال کنید یا Sales Invoice را با Update Stock ثبت کنید.
 
@@ -192,11 +192,11 @@ Payment Entry را باز کنید و مطمئن شوید فاکتور در **Re
 
 ### ماندهٔ گزارش با تراکنش تفاوت دارد
 
-شرکت گزارش، بازهٔ تاریخ، Finance Book، ارز، Cost Center و دیگر فیلترها را بررسی کنید. سپس دفترکل Voucher مبدأ را باز کنید و همهٔ ثبت‌ها را دنبال کنید. ردیف‌های دفترکل کل را مستقیم ویرایش نکنید.
+شرکت گزارش، بازهٔ تاریخ، Finance Book، ارز، Cost Center و دیگر فیلترها را بررسی کنید. سپس دفترکل Voucher مبدأ را باز کنید و همهٔ ثبت‌ها را دنبال کنید. ردیف‌های دفترکل را مستقیم ویرایش نکنید.
 
 ## پرسش‌های متداول
 
-### آیا سندهای Draft بر دفترکل کل اثر می‌گذارند؟
+### آیا سندهای Draft بر دفترکل اثر می‌گذارند؟
 
 خیر. Draftها می‌توانند جمع‌ها را برای بررسی محاسبه کنند، اما سندهای ثبت‌کننده فقط پس از ارسال روی دفترکل اثر می‌گذارند.
 
@@ -221,7 +221,7 @@ ERPNext برای محافظت از حساب‌های بسته‌شده، کنت�
 - [درک بدهکار و بستانکار](https://docs.frappe.io/erpnext/understanding-debit-and-credit)
 - [اثر تراکنش‌ها بر دفترکل](https://docs.frappe.io/erpnext/how-transactions-affect-the-ledger)
 - [راهنمای «Journal Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/journal-entry)
-- [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفترکل](https://docs.frappe.io/erpnext/general-ledger)
 - [Chart of Accounts](chart-of-accounts.md)
 - [راهنمای «Period Closing Voucher» در ERPNext](https://docs.frappe.io/erpnext/period-closing-voucher)
 - [راهنمای «Payment Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-entry)

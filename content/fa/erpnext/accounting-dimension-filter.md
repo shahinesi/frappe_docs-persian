@@ -120,7 +120,7 @@ source_version: "cc3bd7e5f63695cb139bbe45b541e59b84c795a3e01ac0d9fce8de96ad7d5a8
 
 - [ابعاد حسابداری](accounting-dimensions.md)
 - [مرکز هزینه](cost-center.md)
-- [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفترکل](https://docs.frappe.io/erpnext/general-ledger)
 - [راهنمای «Journal Entry | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/journal-entry)
 - [راهنمای «Sales Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/sales-invoice)
 - [بودجه](budget.md)

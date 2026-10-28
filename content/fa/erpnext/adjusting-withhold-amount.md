@@ -108,7 +108,7 @@ Draft را ذخیره و پیش از ارسال هر سه مؤلفه را برر
 
 Payment Entry را ارسال و سپس Sales Invoice را دوباره باز کنید. مبلغ تسویه‌نشده باید به‌اندازهٔ کل مبلغ تخصیص‌یافته کاهش یابد، نه فقط وجه نقد دریافتی.
 
-[دفترکل کل](https://docs.frappe.io/erpnext/general-ledger) را بررسی کنید:
+[دفترکل](https://docs.frappe.io/erpnext/general-ledger) را بررسی کنید:
 
 1. Bank به‌اندازهٔ وجه نقد دریافتی بدهکار شده باشد.
 2. دریافتنی مالیات تکلیفی به‌اندازهٔ مبلغ نگه‌داشته‌شده بدهکار شده باشد.
@@ -180,7 +180,7 @@ Payment Entry ثبت‌شده را مستقیم ویرایش نکنید. اگر 
 - [راهنمای «Sales Invoice | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/sales-invoice)
 - [راهنمای «Tax Withholding Category» در ERPNext](https://docs.frappe.io/erpnext/tax-withholding-category)
 - [راهنمای «Payment Reconciliation | ERPNext Documentation» در ERPNext](https://docs.frappe.io/erpnext/payment-reconciliation)
-- [دفترکل کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفترکل](https://docs.frappe.io/erpnext/general-ledger)
 - [حساب‌های دریافتنی](/erpnext/accounts-receivable)
 
 ---
