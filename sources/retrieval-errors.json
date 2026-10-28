@@ -1,22 +1,7 @@
 {
-  "generated_at": "2026-10-27T13:32:49.159Z",
+  "generated_at": "2026-10-28T09:55:07.100Z",
   "error_count": 122,
   "errors": [
-    {
-      "url": "https://docs.frappe.io/crm/invite-users",
-      "markdown_url": "https://docs.frappe.io/crm/invite-users.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/crm/web-form",
-      "markdown_url": "https://docs.frappe.io/crm/web-form.md",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://docs.frappe.io/crm/profile",
-      "markdown_url": "https://docs.frappe.io/crm/profile.md",
-      "error": "HTTP 404"
-    },
     {
       "url": "https://docs.frappe.io/about",
       "markdown_url": "https://docs.frappe.io/about.md",
@@ -610,6 +595,21 @@
     {
       "url": "https://docs.frappe.io/helpdesk/quick-first-steps",
       "markdown_url": "https://docs.frappe.io/helpdesk/quick-first-steps.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/crm/invite-users",
+      "markdown_url": "https://docs.frappe.io/crm/invite-users.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/crm/profile",
+      "markdown_url": "https://docs.frappe.io/crm/profile.md",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://docs.frappe.io/crm/web-form",
+      "markdown_url": "https://docs.frappe.io/crm/web-form.md",
       "error": "Error: HTTP 404"
     }
   ]

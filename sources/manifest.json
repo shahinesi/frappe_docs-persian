@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "sitemap_url": "https://docs.frappe.io/sitemap.xml",
-  "retrieved_at": "2026-10-28T00:00:00.000Z",
+  "retrieved_at": "2026-10-28T09:55:07.061Z",
   "page_count": 2018,
   "pages": [
     {
@@ -126,7 +126,8 @@
       "source_sitemap_lastmod": "2026-09-30",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/automations/actions",
@@ -150,7 +151,8 @@
       "source_sitemap_lastmod": "2026-09-30",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/automations/blocks",
@@ -174,7 +176,8 @@
       "source_sitemap_lastmod": "2026-09-30",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/automations/events",
@@ -198,7 +201,8 @@
       "source_sitemap_lastmod": "2026-09-30",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/automations/getting-started",
@@ -222,7 +226,8 @@
       "source_sitemap_lastmod": "2026-09-30",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/automations/introduction",
@@ -246,7 +251,8 @@
       "source_sitemap_lastmod": "2026-09-30",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/call-log",
@@ -255,10 +261,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "626d405c29bbadb0148315f8de14bc726fedfa73898bf87af7b67a920b5e7fea",
       "source_modified": "2026-02-05",
-      "translation_status": "not_started",
+      "translation_status": "translated",
       "quality_status": "not_reviewed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/crm/call-log.md",
       "discovered_at": "2026-10-27T05:52:36.582Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/crm/call-log.md",
@@ -268,9 +274,11 @@
       "source_metadata_status": "fetched",
       "source_repository": null,
       "source_sitemap_lastmod": "2026-02-05",
-      "license_status": "unverified",
+      "license_status": "CC BY-SA (version unspecified by source policy)",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched",
+      "source_snapshot_path": "sources/crm/call-log.md"
     },
     {
       "url": "https://docs.frappe.io/crm/capturing-leads/web-form",
@@ -294,7 +302,8 @@
       "source_sitemap_lastmod": "2026-07-17",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/comment",
@@ -303,10 +312,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "2a288042c739fae7c3dc647b6b1cf69862c7e9891e630f5b5b042f15e44b8c74",
       "source_modified": "2026-09-30",
-      "translation_status": "not_started",
+      "translation_status": "translated",
       "quality_status": "not_reviewed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/crm/comment.md",
       "discovered_at": "2026-10-27T05:52:36.582Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/crm/comment.md",
@@ -316,9 +325,11 @@
       "source_metadata_status": "fetched",
       "source_repository": null,
       "source_sitemap_lastmod": "2026-09-30",
-      "license_status": "unverified",
+      "license_status": "CC BY-SA (version unspecified by source policy)",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched",
+      "source_snapshot_path": "sources/crm/comment.md"
     },
     {
       "url": "https://docs.frappe.io/crm/contact",
@@ -327,10 +338,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "d2a62e9b1cbc1428b06255729f26b7c7cc532d753990f840a403c3f4399bbe16",
       "source_modified": "2026-04-20",
-      "translation_status": "not_started",
+      "translation_status": "translated",
       "quality_status": "not_reviewed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/crm/contact.md",
       "discovered_at": "2026-10-27T05:52:36.582Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/crm/contact.md",
@@ -340,9 +351,11 @@
       "source_metadata_status": "fetched",
       "source_repository": null,
       "source_sitemap_lastmod": "2026-04-20",
-      "license_status": "unverified",
+      "license_status": "CC BY-SA (version unspecified by source policy)",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched",
+      "source_snapshot_path": "sources/crm/contact.md"
     },
     {
       "url": "https://docs.frappe.io/crm/custom-actions",
@@ -366,7 +379,8 @@
       "source_sitemap_lastmod": "2026-05-26",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/custom-branding",
@@ -390,7 +404,8 @@
       "source_sitemap_lastmod": "2026-04-20",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/custom-fields",
@@ -414,7 +429,8 @@
       "source_sitemap_lastmod": "2026-02-05",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/custom-list-actions",
@@ -438,7 +454,8 @@
       "source_sitemap_lastmod": "2026-02-05",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/custom-script",
@@ -462,7 +479,8 @@
       "source_sitemap_lastmod": "2026-09-29",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/custom-statuses",
@@ -486,7 +504,8 @@
       "source_sitemap_lastmod": "2026-05-26",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/data",
@@ -510,7 +529,8 @@
       "source_sitemap_lastmod": "2026-09-30",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/deal",
@@ -534,7 +554,8 @@
       "source_sitemap_lastmod": "2026-09-29",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/email-communication",
@@ -558,7 +579,8 @@
       "source_sitemap_lastmod": "2026-02-05",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/email-template",
@@ -582,7 +604,8 @@
       "source_sitemap_lastmod": "2026-04-23",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/erpnext",
@@ -606,7 +629,8 @@
       "source_sitemap_lastmod": "2026-09-29",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/exotel",
@@ -630,7 +654,8 @@
       "source_sitemap_lastmod": "2026-09-29",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/general-and-defaults",
@@ -654,7 +679,8 @@
       "source_sitemap_lastmod": "2026-04-20",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/home-actions",
@@ -678,7 +704,8 @@
       "source_sitemap_lastmod": "2026-04-20",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/introduction",
@@ -728,7 +755,8 @@
       "source_sitemap_lastmod": "2026-04-21",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/invite-users",
@@ -750,7 +778,9 @@
       "source_sitemap_lastmod": "2025-06-23",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "unavailable",
+      "snapshot_error": "Error: HTTP 404"
     },
     {
       "url": "https://docs.frappe.io/crm/inviting-your-team",
@@ -774,7 +804,8 @@
       "source_sitemap_lastmod": "2026-04-20",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/lead",
@@ -798,7 +829,8 @@
       "source_sitemap_lastmod": "2026-04-20",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/lead-syncing/meta",
@@ -822,7 +854,8 @@
       "source_sitemap_lastmod": "2026-03-09",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/mobile-app-installation",
@@ -846,7 +879,8 @@
       "source_sitemap_lastmod": "2026-02-05",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/note",
@@ -870,7 +904,8 @@
       "source_sitemap_lastmod": "2026-04-21",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/notification",
@@ -894,7 +929,8 @@
       "source_sitemap_lastmod": "2026-09-30",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/organization",
@@ -918,7 +954,8 @@
       "source_sitemap_lastmod": "2026-04-21",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/pinned-view",
@@ -942,7 +979,8 @@
       "source_sitemap_lastmod": "2026-05-21",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/profile",
@@ -964,7 +1002,9 @@
       "source_sitemap_lastmod": "2025-04-10",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "unavailable",
+      "snapshot_error": "Error: HTTP 404"
     },
     {
       "url": "https://docs.frappe.io/crm/profile-and-preferences",
@@ -988,7 +1028,8 @@
       "source_sitemap_lastmod": "2026-10-14",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/public-view",
@@ -1012,7 +1053,8 @@
       "source_sitemap_lastmod": "2026-05-21",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/quick-entry-layout",
@@ -1036,7 +1078,8 @@
       "source_sitemap_lastmod": "2026-02-05",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/service-level-agreement",
@@ -1060,7 +1103,8 @@
       "source_sitemap_lastmod": "2026-09-30",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/setting-up",
@@ -1084,7 +1128,8 @@
       "source_sitemap_lastmod": "2026-04-20",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/settings/sales-hierarchy",
@@ -1108,7 +1153,8 @@
       "source_sitemap_lastmod": "2026-06-02",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/setup-guide/your-first-steps-with-frappe-crm",
@@ -1132,7 +1178,8 @@
       "source_sitemap_lastmod": "2026-09-30",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/task",
@@ -1156,7 +1203,8 @@
       "source_sitemap_lastmod": "2026-04-21",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/twilio",
@@ -1180,7 +1228,8 @@
       "source_sitemap_lastmod": "2026-09-29",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/view",
@@ -1204,7 +1253,8 @@
       "source_sitemap_lastmod": "2026-05-21",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/crm/web-form",
@@ -1226,7 +1276,9 @@
       "source_sitemap_lastmod": "2025-04-10",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "unavailable",
+      "snapshot_error": "Error: HTTP 404"
     },
     {
       "url": "https://docs.frappe.io/crm/whatsapp",
@@ -1250,7 +1302,8 @@
       "source_sitemap_lastmod": "2026-09-29",
       "license_status": "unverified",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/drive/file-access",
