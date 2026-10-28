@@ -38,7 +38,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ![فهرست درجه‌های کارمند](https://docs.frappe.io/files/image24f475.webp)
 
-همچنین می‌توانید صفحه‌های [کارمند](employee.md)، [الگوی ورود به کار](https://docs.frappe.io/hr/employee-onboarding) و [الگوی پایان همکاری](https://docs.frappe.io/hr/employee-separation) را ببینید.
+همچنین می‌توانید صفحه‌های [کارمند](employee.md)، [الگوی ورود به کار](employee-onboarding.md) و [الگوی پایان همکاری](https://docs.frappe.io/hr/employee-separation) را ببینید.
 
 ## 3. قابلیت‌ها
 
