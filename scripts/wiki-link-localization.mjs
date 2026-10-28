@@ -168,14 +168,23 @@ function localizeBreadcrumbs(text, terms, counters, mixedEntries = [], phraseTer
 
 function localizePlainTableCells(text, terms, counters) {
 	return text.replace(/^[ \t]*\|[^\r\n]*\|[ \t]*$/gm, (line) => {
-		if (/`|<\/?(?:code|pre)\b|!\[|\[[^\]]+\]\(/i.test(line)) return line;
 		const cells = line.split('|');
 		if (cells.length < 4) return line;
 		return cells.map((cell, index) => {
 			if (index === 0 || index === cells.length - 1) return cell;
 			const match = cell.match(/^(\s*)([\s\S]*?)(\s*)$/);
 			const label = match?.[2] || '';
-			if (!label || /^:?-{2,}:?$/.test(label) || /[*<>\[\]`]/.test(label)) return cell;
+			if (!label || /^:?-{2,}:?$/.test(label) || /<\/?(?:code|pre)\b|`|!\[|\[[^\]]+\]\(/i.test(label)) return cell;
+			if (label.includes('**')) {
+				const localized = label.replace(/\*\*([^*]+)\*\*/g, (token, value) => {
+					const translation = terms[value.trim()];
+					if (!translation || !FA_LETTER.test(translation)) return token;
+					if (counters) counters.translatedTerms++;
+					return `**${translation}**`;
+				});
+				return `${match[1]}${localized}${match[3]}`;
+			}
+			if (/[<>\[\]]/.test(label)) return cell;
 			const translation = terms[label];
 			if (!translation || !FA_LETTER.test(translation)) return cell;
 			if (counters) counters.translatedTerms++;
@@ -372,13 +381,13 @@ export function prepareMarkdownLinks(markdown, {
 	const reviewIssues = [];
 	const prefixMatch = markdown.match(/^\uFEFF?---\r?\n[\s\S]*?\r?\n---\r?\n/);
 	const prefix = prefixMatch?.[0] || '';
-	const body = markdown.slice(prefix.length);
+	const body = localizePlainTableCells(markdown.slice(prefix.length), allTerms, counters);
 	let result = '';
 	let lastIndex = 0;
 	for (const match of body.matchAll(MARKDOWN_TOKEN)) {
 		const token = match[0];
 		const index = match.index ?? 0;
-		const plainText = localizePlainTableCells(body.slice(lastIndex, index), allTerms, counters);
+		const plainText = body.slice(lastIndex, index);
 		result += localizeBreadcrumbs(localizeBareListLabels(replaceKnownUiEntities(localizeStatusMentions(replaceUiTerms(plainText, bodyTerms, counters, mixedEntries), allTerms, counters), allTerms, counters), allTerms, counters, mixedEntries, phraseTerms), allTerms, counters, mixedEntries, phraseTerms);
 		if (token.startsWith('```') || token.startsWith('`')) {
 			result += token;
@@ -402,7 +411,7 @@ export function prepareMarkdownLinks(markdown, {
 		}
 		lastIndex = index + token.length;
 	}
-	const trailingText = localizePlainTableCells(body.slice(lastIndex), allTerms, counters);
+	const trailingText = body.slice(lastIndex);
 	result += localizeBreadcrumbs(localizeBareListLabels(replaceKnownUiEntities(localizeStatusMentions(replaceUiTerms(trailingText, bodyTerms, counters, mixedEntries), allTerms, counters), allTerms, counters), allTerms, counters, mixedEntries, phraseTerms), allTerms, counters, mixedEntries, phraseTerms);
 	result = result.replace(/\*\*([^*\r\n]+)\*\*\s+\(([^()\r\n]+)\)/gu, (match, label, sourceLabel) => {
 		if (!/[A-Za-z]/.test(sourceLabel)) return match;

@@ -23,12 +23,12 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 | تابع | دستور و نمونه | توضیح و خروجی نمونه |
 |---|---|---|
-| Count | <code>count(column)</code><br><code>count(sales)</code> | تعداد مقدارهای غیرتهی ستون را برمی‌گرداند. نمونهٔ خروجی: <code>100</code>. |
+| تعداد | <code>count(column)</code><br><code>count(sales)</code> | تعداد مقدارهای غیرتهی ستون را برمی‌گرداند. نمونهٔ خروجی: <code>100</code>. |
 | Count Distinct | <code>distinct_count(column)</code><br><code>distinct_count(customer_id)</code> | تعداد مقدارهای متمایز ستون را برمی‌گرداند. نمونه: <code>50</code>. |
-| Sum | <code>sum(column)</code><br><code>sum(sales)</code> | مجموع مقدارهای ستون را برمی‌گرداند. نمونه: <code>10000</code>. |
-| Average | <code>avg(column)</code><br><code>avg(sales)</code> | میانگین مقدارهای ستون را برمی‌گرداند. نمونه: <code>100</code>. |
-| Minimum | <code>min(column)</code><br><code>min(sales)</code> | کمترین مقدار ستون را برمی‌گرداند. نمونه: <code>50</code>. |
-| Maximum | <code>max(column)</code><br><code>max(sales)</code> | بیشترین مقدار ستون را برمی‌گرداند. نمونه: <code>200</code>. |
+| مجموع | <code>sum(column)</code><br><code>sum(sales)</code> | مجموع مقدارهای ستون را برمی‌گرداند. نمونه: <code>10000</code>. |
+| میانگین | <code>avg(column)</code><br><code>avg(sales)</code> | میانگین مقدارهای ستون را برمی‌گرداند. نمونه: <code>100</code>. |
+| حداقل | <code>min(column)</code><br><code>min(sales)</code> | کمترین مقدار ستون را برمی‌گرداند. نمونه: <code>50</code>. |
+| حداکثر | <code>max(column)</code><br><code>max(sales)</code> | بیشترین مقدار ستون را برمی‌گرداند. نمونه: <code>200</code>. |
 | Group Concat | <code>group_concat(column)</code><br><code>group_concat(product_name)</code> | مقدارهای ستون را به هم می‌چسباند. نمونه: <code>"Product A, Product B, Product C"</code>. |
 | Sum if | <code>sum_if(condition, column)</code><br><code>sum_if(sales &gt; 1000, sales)</code> | مجموع مقدارهای ستون را که شرط را دارند برمی‌گرداند. نمونه: <code>5000</code>. |
 | Count if | <code>count_if(condition, column)</code><br><code>count_if(sales &gt; 1000, sales)</code> | تعداد مقدارهای ستون را که شرط را دارند برمی‌گرداند. نمونه: <code>5</code>. |
@@ -55,7 +55,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 | Not Contains | <code>not_contains(column, substring)</code><br><code>not_contains(product_name, "A")</code> | اگر ستون زیررشته را نداشته باشد <code>True</code> وگرنه <code>False</code> می‌دهد. |
 | Starts With | <code>starts_with(column, prefix)</code><br><code>starts_with(product_name, "Product")</code> | بررسی می‌کند مقدار ستون با پیشوند آغاز می‌شود یا نه؛ نمونه: <code>True</code>. |
 | Ends With | <code>ends_with(column, suffix)</code><br><code>ends_with(product_name, "A")</code> | بررسی می‌کند مقدار ستون به پسوند ختم می‌شود یا نه؛ نمونه: <code>True</code>. |
-| Length | <code>length(column)</code><br><code>length(product_name)</code> | طول مقدار ستون را برمی‌گرداند. نمونه: <code>10</code>. |
+| طول | <code>length(column)</code><br><code>length(product_name)</code> | طول مقدار ستون را برمی‌گرداند. نمونه: <code>10</code>. |
 
 ## توابع عددی
 
@@ -70,20 +70,20 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 | تابع | دستور و نمونه | توضیح و خروجی نمونه |
 |---|---|---|
-| Year | <code>year(column)</code><br><code>year(order_date)</code> | بخش سال تاریخ را برمی‌گرداند. نمونه: <code>2022</code>. |
+| سال | <code>year(column)</code><br><code>year(order_date)</code> | بخش سال تاریخ را برمی‌گرداند. نمونه: <code>2022</code>. |
 | Quarter | <code>quarter(column)</code><br><code>quarter(order_date)</code> | بخش فصل تاریخ را برمی‌گرداند. نمونه: <code>3</code>. |
-| Month | <code>month(column)</code><br><code>month(order_date)</code> | بخش ماه تاریخ را برمی‌گرداند. نمونه: <code>10</code>. |
+| ماه | <code>month(column)</code><br><code>month(order_date)</code> | بخش ماه تاریخ را برمی‌گرداند. نمونه: <code>10</code>. |
 | Week of Year | <code>week_of_year(column)</code><br><code>week_of_year(order_date)</code> | شمارهٔ هفتهٔ سال را برمی‌گرداند. نمونه: <code>41</code>. |
 | Day of Year | <code>day_of_year(column)</code><br><code>day_of_year(order_date)</code> | شمارهٔ روز در سال را برمی‌گرداند. نمونه: <code>288</code>. |
 | روز هفته | <code>day_of_week(column)</code><br><code>day_of_week(order_date)</code> | روز هفته را در بازهٔ <code>0-6</code> برمی‌گرداند. نمونه: <code>4</code>. |
-| Day | <code>day(column)</code><br><code>day(order_date)</code> | بخش روز تاریخ را برمی‌گرداند. نمونه: <code>15</code>. |
+| روز | <code>day(column)</code><br><code>day(order_date)</code> | بخش روز تاریخ را برمی‌گرداند. نمونه: <code>15</code>. |
 | Hour | <code>hour(column)</code><br><code>hour(order_date)</code> | بخش ساعت تاریخ را برمی‌گرداند. نمونه: <code>10</code>. |
 | Minute | <code>minute(column)</code><br><code>minute(order_date)</code> | بخش دقیقهٔ تاریخ را برمی‌گرداند. نمونه: <code>30</code>. |
 | Second | <code>second(column)</code><br><code>second(order_date)</code> | بخش ثانیهٔ تاریخ را برمی‌گرداند. نمونه: <code>45</code>. |
 | Microsecond | <code>microsecond(column)</code><br><code>microsecond(order_date)</code> | بخش میکروثانیهٔ تاریخ را برمی‌گرداند. نمونه: <code>500000</code>. |
 | Date Diff | <code>date_diff(column1, column2, unit)</code><br><code>date_diff(order_date, delivery_date, "day")</code> | اختلاف دو ستون تاریخ را در واحد مشخص‌شده برمی‌گرداند. واحدها: <code>year</code>، <code>quarter</code>، <code>month</code>، <code>week</code>، <code>day</code>، <code>hour</code>، <code>minute</code>، <code>second</code>، <code>millisecond</code>، <code>microsecond</code> و <code>nanosecond</code>. نمونه: <code>5</code>. |
 | Format Date | <code>format_date(column, format)</code><br><code>format_date(order_date, "%Y-%m-%d")</code> | تاریخ را با قالب مشخص‌شده قالب‌بندی می‌کند. قالب باید از دستورهای معتبر ANSI <code>strftime</code> باشد. نمونه: <code>"2022-10-15"</code>. |
-| Now | <code>now()</code> | تاریخ و زمان کنونی را برمی‌گرداند. نمونه: <code>"2022-10-15 10:30:00"</code>. |
+| اکنون | <code>now()</code> | تاریخ و زمان کنونی را برمی‌گرداند. نمونه: <code>"2022-10-15 10:30:00"</code>. |
 | امروز | <code>today()</code> | تاریخ امروز را برمی‌گرداند. نمونه: <code>"2022-10-15"</code>. |
 
 ## توابع بولی
