@@ -49,7 +49,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 نوع این فیلد سفارشی را **لینک پویا** قرار دهید. در فیلد Option، نام فیلد DocType Link را وارد کنید.
 
-![فیلد Dynamic سفارشی](https://docs.frappe.io/files/customize-dynamic-link-2.gif)
+![فیلد پویا سفارشی](https://docs.frappe.io/files/customize-dynamic-link-2.gif)
 
 این فیلد اجازه می‌دهد شناسهٔ سندی را انتخاب کنید که نوع آن بر اساس مقدار انتخاب‌شده در فیلد DocType Link تعیین می‌شود. برای نمونه، اگر در فیلد قبلی سفارش فروش را انتخاب کنیم، فیلد لینک پویا شناسه‌های سفارش فروش را برای انتخاب نمایش می‌دهد.
 

@@ -2035,7 +2035,7 @@
         "Deleted Documents": "اسناد حذف‌شده",
         "Total Order": "مجموع سفارش‌ها",
         "Forecast Value": "مقدار پیش‌بینی",
-        "Data (in years)": "داده‌های گذشته (به سال)",
+        "Data (in years)": "بر اساس داده‌ها (در سال)",
         "Doc Status": "وضعیت سند",
         "Rating": "امتیاز",
         "Banking": "بانکداری",
@@ -2043,6 +2043,53 @@
         "Fix These Steps": "اصلاح این مراحل"
       },
       "basis": "Reviewed Persian labels for ERPNext controls and chart values found in translated documentation; technical identifiers are kept where needed."
+    },
+    {
+      "product": "erpnext",
+      "source_labels": {
+        "App Folder": "پوشهٔ برنامه",
+        "Parts": "قطعات",
+        "Detailed": "تفصیلی",
+        "Summarised": "خلاصه‌شده",
+        "Dynamic": "پویا",
+        "Timeline": "خط زمانی",
+        "Based On Data ( in years )": "بر اساس داده‌ها (در سال)"
+      },
+      "basis": "Reviewed ERPNext UI names used in headings and image alternatives; standard locale labels are used where available."
+    },
+    {
+      "product": "insights",
+      "source_labels": {
+        "Data Store": "مخزن داده",
+        "Enable Data Store": "فعال‌کردن مخزن داده"
+      },
+      "basis": "Translated the Insights feature and its visible setting because the upstream Persian locale leaves both labels untranslated."
+    },
+    {
+      "product": "hr",
+      "source_labels": {
+        "Goal Tree": "درخت هدف‌ها"
+      },
+      "basis": "Localized the HR goal-tree display label using the upstream Persian translation for Goal."
+    },
+    {
+      "product": "erpnext",
+      "source_labels": {
+        "Campaign Naming By": "نام‌گذاری کمپین بر اساس",
+        "Allow Lead Duplication Based on Emails": "اجازهٔ تکرار سرنخ‌ها بر اساس ایمیل",
+        "Auto Creation of Contact": "ایجاد خودکار مخاطب",
+        "Close Replied Deals After Days": "بستن فرصت‌های فروشِ پاسخ‌داده‌شده پس از چند روز",
+        "Default Quotation Validity Days": "مدت اعتبار پیش‌فرض پیش‌فاکتور (روز)",
+        "Valid Till Date": "تاریخ اعتبار تا",
+        "Carry Forward Communication and Comments": "انتقال ایمیل‌ها و دیدگاه‌ها",
+        "Add Journal Entry": "افزودن ثبت در دفتر روزنامه",
+        "Journals and Adjustments": "ثبت‌ها و تعدیلات",
+        "Add Bank Guarantee": "افزودن ضمانت‌نامهٔ بانکی",
+        "Type of Bank Guarantee": "نوع ضمانت‌نامهٔ بانکی",
+        "Reference Type and Name": "نوع و نام سند مرجع",
+        "Customer or Supplier": "مشتری یا تأمین‌کننده"
+      },
+      "basis": "Reviewed source-verified ERPNext CRM and banking controls whose mixed Persian-English labels remained in translated guidance."
     }
   ],
   "source_files": {

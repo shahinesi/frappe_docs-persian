@@ -33,7 +33,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 #### گام 3: وارد کردن اطلاعات برنامه
 
-![انتخاب Dropbox API و نوع App Folder](https://docs.frappe.io/files/dropbox-open-1.png)
+![انتخاب API دراپ‌باکس و نوع پوشهٔ برنامه](https://docs.frappe.io/files/dropbox-open-1.png)
 
 ![تعیین نام برنامه](https://docs.frappe.io/files/dropbox-open-2.png)
 

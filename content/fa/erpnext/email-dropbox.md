@@ -31,11 +31,11 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ![نشانی ایمیل یکتا در رکورد](https://docs.frappe.io/files/unique_email_address_dropbox.png)
 
-## 3. نمایش ایمیل در Timeline
+## 3. نمایش ایمیل در خط زمانی
 
-پس از دریافت ایمیل، ERPNext آن را به رکورد مرتبط پیوست می‌کند و در Timeline همان رکورد نمایش می‌دهد.
+پس از دریافت ایمیل، ERPNext آن را به رکورد مرتبط پیوست می‌کند و در خط زمانی همان رکورد نمایش می‌دهد.
 
-![ایمیل در Timeline رکورد](https://docs.frappe.io/files/email_in_timeline.png)
+![ایمیل در خط زمانی رکورد](https://docs.frappe.io/files/email_in_timeline.png)
 
 ### موضوعات مرتبط
 

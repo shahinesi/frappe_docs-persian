@@ -354,7 +354,7 @@ BOM کالای نهایی از چهار قلم مجموعه استفاده می�
 
 زبانهٔ **قطعات** عملیاتی را نشان می‌دهد که هر جزء در آن مصرف می‌شود. **خروجی جوشکاری** یعنی این جزء را عملیات Welding تولید می‌کند.
 
-![زبانهٔ Parts](https://docs.frappe.io/files/bom-creator-parts-tab.webp)
+![زبانهٔ قطعات](https://docs.frappe.io/files/bom-creator-parts-tab.webp)
 
 ### 8.6 اختصاص BOM جداگانه به زیرمونتاژ
 
