@@ -34,7 +34,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 #### جدول (`Table`)
 
-فیلد جدول نوعی پیوند است که DocType دیگری را در فرم کنونی نمایش می‌دهد. برای نمونه، جدول اقلام در سفارش فروش فیلد جدولی است که به DocType **سفارش فروش Item** پیوند دارد.
+فیلد جدول نوعی پیوند است که DocType دیگری را در فرم کنونی نمایش می‌دهد. برای نمونه، جدول اقلام در سفارش فروش فیلد جدولی است که به DocType **قلم سفارش فروش** (`Sales Order Item`) پیوند دارد.
 
 ![نوع فیلد جدول](https://docs.frappe.io/files/field-type-table.png)
 

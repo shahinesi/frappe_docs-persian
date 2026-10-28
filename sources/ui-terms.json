@@ -43,7 +43,10 @@
         "Limit Percentage": "درصد محدودیت",
         "New Page": "صفحهٔ جدید",
         "Explore": "کاوش",
-        "Braintree Settings": "تنظیمات Braintree"
+        "Braintree Settings": "تنظیمات Braintree",
+        "Accounting Masters": "اطلاعات پایهٔ حسابداری",
+        "Sales Order Item": "قلم سفارش فروش",
+        "Enable Overdue Billing Threshold": "فعال‌کردن آستانهٔ صورتحساب سررسیدگذشته"
       },
       "basis": "بازبینی برچسب‌های قابل‌نمایش در راهنماهای ERPNext؛ موارد فاقد ترجمهٔ locale با واژه‌نامهٔ فارسی بافت‌محور تکمیل شدند."
     },
