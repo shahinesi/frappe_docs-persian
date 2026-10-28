@@ -32939,10 +32939,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "b34ec488edb844cf211e9046fc253f8ab101aa1586ed3b7445663974934582b0",
       "source_modified": "2026-10-07",
-      "translation_status": "not_started",
+      "translation_status": "translated",
       "quality_status": "not_reviewed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/hr/employee-grade.md",
       "discovered_at": "2026-10-27T05:52:36.583Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/hr/employee-grade.md",
@@ -32955,7 +32955,8 @@
       "license_status": "unverified",
       "attribution_required": true,
       "unofficial_translation": true,
-      "snapshot_status": "fetched"
+      "snapshot_status": "fetched",
+      "source_snapshot_path": "sources/hr/employee-grade.md"
     },
     {
       "url": "https://docs.frappe.io/hr/employee-group",
@@ -33564,10 +33565,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "a3884679c66b2372930833cdfc4800fc36e77dc1d4c6a4a927f25bd109d3e2ce",
       "source_modified": "2026-02-04",
-      "translation_status": "not_started",
+      "translation_status": "translated",
       "quality_status": "not_reviewed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/hr/holiday-list.md",
       "discovered_at": "2026-10-27T05:52:36.585Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/hr/holiday-list.md",
@@ -33580,7 +33581,8 @@
       "license_status": "unverified",
       "attribution_required": true,
       "unofficial_translation": true,
-      "snapshot_status": "fetched"
+      "snapshot_status": "fetched",
+      "source_snapshot_path": "sources/hr/holiday-list.md"
     },
     {
       "url": "https://docs.frappe.io/hr/how-to-encash-unused-leaves-using-salary-slips",
