@@ -193,6 +193,18 @@ function localizePlainTableCells(text, terms, counters) {
 	});
 }
 
+function localizeExactHeadings(text, terms, counters) {
+	return text.replace(/^(\s*#{1,6}\s+)([^\r\n]+)$/gm, (line, prefix, heading) => {
+		const match = heading.match(/^(\s*)([\s\S]*?)(\s*)$/);
+		const label = match?.[2] || '';
+		if (!label || /`|\[[^\]]+\]\(/.test(label)) return line;
+		const translation = terms[label];
+		if (!translation || !FA_LETTER.test(translation)) return line;
+		if (counters) counters.translatedTerms++;
+		return `${prefix}${match[1]}${translation}${match[3]}`;
+	});
+}
+
 function normalizeRepoPath(value) {
 	return path.posix.normalize(value.replaceAll('\\', '/')).replace(/^\.\//, '');
 }
@@ -381,7 +393,7 @@ export function prepareMarkdownLinks(markdown, {
 	const reviewIssues = [];
 	const prefixMatch = markdown.match(/^\uFEFF?---\r?\n[\s\S]*?\r?\n---\r?\n/);
 	const prefix = prefixMatch?.[0] || '';
-	const body = localizePlainTableCells(markdown.slice(prefix.length), allTerms, counters);
+	const body = localizeExactHeadings(localizePlainTableCells(markdown.slice(prefix.length), allTerms, counters), allTerms, counters);
 	let result = '';
 	let lastIndex = 0;
 	for (const match of body.matchAll(MARKDOWN_TOKEN)) {

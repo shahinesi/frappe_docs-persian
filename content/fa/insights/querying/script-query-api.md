@@ -49,7 +49,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 | رشته‌ها | <code>strip</code>، <code>strip_html</code>، <code>unique</code> |
 | JSON | <code>parse_json</code> |
 
-## Python
+## پایتون
 
 | دسته | APIها |
 |---|---|

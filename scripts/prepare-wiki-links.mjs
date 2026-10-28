@@ -97,7 +97,8 @@ for (const [currentPath, page] of pages) {
 		aliases,
 		titles,
 		terms,
-		uiTerms: productTerms,
+		// CRM status keys in this table are literal values stored by CRM, not display labels.
+		uiTerms: currentPath === 'content/fa/crm/custom-statuses.md' ? {} : productTerms,
 		linkLabels: linkTitleOverrides.descriptions,
 	});
 	for (const [key, value] of Object.entries(prepared.counters)) totals[key] += value;
