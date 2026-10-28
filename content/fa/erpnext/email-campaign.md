@@ -28,7 +28,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 پیش از ایجاد و استفاده از کمپین ایمیل، موارد زیر را بسازید:
 
 - [کارزار بازاریابی](campaign.md)
-- [سرنخ](https://docs.frappe.io/erpnext/lead)، [مخاطب (Contact)](contact.md) یا [گروه ایمیل](email_group.md)
+- [سرنخ](https://docs.frappe.io/erpnext/lead)، [مخاطب](contact.md) یا [گروه ایمیل](email_group.md)
 
 ## ایجاد کمپین ایمیل
 
@@ -102,6 +102,6 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 - [کارزار بازاریابی](campaign.md)
 - [سرنخ](https://docs.frappe.io/erpnext/lead)
-- [مخاطب (Contact)](contact.md)
+- [مخاطب](contact.md)
 
 بعدی: [خبرنامه](https://docs.frappe.io/erpnext/newsletter)

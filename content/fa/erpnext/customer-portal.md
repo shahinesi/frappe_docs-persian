@@ -72,7 +72,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ## موضوعات مرتبط
 
 - [مشتری](customer.md)
-- [مخاطب (Contact)](contact.md)
+- [مخاطب](contact.md)
 - [سفارش فروش](sales-order.md)
 - [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice)
 - [درخواست پشتیبانی](https://docs.frappe.io/erpnext/issue)

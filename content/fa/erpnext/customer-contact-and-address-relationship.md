@@ -15,7 +15,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 >
 > این صفحه تصویر ندارد.
 
-[مشتری](customer.md)، [مخاطب (Contact)](contact.md) و [نشانی](address.md) بخش‌های متفاوتی از یک رابطهٔ تجاری را توصیف می‌کنند. مشتری طرفی است که به او می‌فروشید؛ Contact شخصی است که با او ارتباط دارید؛ و Address مکانی است که برای صورتحساب، ارسال یا هدف دیگری به‌کار می‌رود.
+[مشتری](customer.md)، [مخاطب](contact.md) و [نشانی](address.md) بخش‌های متفاوتی از یک رابطهٔ تجاری را توصیف می‌کنند. مشتری طرفی است که به او می‌فروشید؛ Contact شخصی است که با او ارتباط دارید؛ و Address مکانی است که برای صورتحساب، ارسال یا هدف دیگری به‌کار می‌رود.
 
 جدا نگه‌داشتن این رکوردهای پیوندخورده به یک مشتری امکان می‌دهد چند شخص و مکان داشته باشد، بدون آنکه حساب‌های مشتری تکراری بسازید.
 
@@ -119,7 +119,7 @@ Nova Electronics Trading به **Summit Digital Stores** می‌فروشد. ERPNe
 ## موضوعات مرتبط
 
 - [مشتری](customer.md)
-- [مخاطب (Contact)](contact.md)
+- [مخاطب](contact.md)
 - [نشانی](address.md)
 - [الگوی نشانی](address-template.md)
 - [تفاوت Lead، Contact و Customer](difference_between_lead_contact_and_customer.md)
