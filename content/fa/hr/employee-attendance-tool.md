@@ -22,8 +22,8 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 پیش از ثبت حضور و غیاب، بهتر است موارد زیر را ایجاد کنید:
 
-- [کارمند](https://docs.frappe.io/hr/employee)
-- [دپارتمان](https://docs.frappe.io/hr/department)
+- [کارمند](employee.md)
+- [دپارتمان](department.md)
 - [شاخه](branch.md)
 
 ## 2. ثبت حضور و غیاب با ابزار حضور و غیاب کارکنان
@@ -39,13 +39,13 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 > **توجه:** برای تاریخ‌های آینده نمی‌توان حضور و غیاب ثبت کرد.
 
-پس از ثبت حضور و غیاب با این ابزار، رکورد آن در سند [حضور و غیاب](https://docs.frappe.io/hr/attendance) کارمند ذخیره می‌شود:
+پس از ثبت حضور و غیاب با این ابزار، رکورد آن در سند [حضور و غیاب](attendance.md) کارمند ذخیره می‌شود:
 
 ![رکورد حضور و غیاب ایجادشده](https://frappehr.com/files/dxhxNaV.png)
 
 ## 3. موضوعات مرتبط
 
-1. [حضور و غیاب](https://docs.frappe.io/hr/attendance)
+1. [حضور و غیاب](attendance.md)
 2. [درخواست حضور و غیاب](attendance-request.md)
 3. [آپلود حضور و غیاب](https://docs.frappe.io/hr/upload-attendance)
 4. [مدیریت شیفت‌ها](https://docs.frappe.io/hr/shift-management)

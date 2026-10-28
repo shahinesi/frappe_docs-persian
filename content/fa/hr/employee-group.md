@@ -16,7 +16,7 @@ source_version: "5ff080973ec3a67616d5de3ea0a938c7b5256f6286594d492269ed392ab249e
 
 پیش از ساخت گروه کارکنان، بهتر است سند زیر را ایجاد کنید:
 
-- [کارمند](https://docs.frappe.io/hr/employee)
+- [کارمند](employee.md)
 
 ## ساخت گروه کارکنان
 
@@ -31,7 +31,7 @@ source_version: "5ff080973ec3a67616d5de3ea0a938c7b5256f6286594d492269ed392ab249e
 
 1. [نوع استخدام](employment-type.md)
 2. [شاخه](branch.md)
-3. [دپارتمان](https://docs.frappe.io/hr/department)
+3. [دپارتمان](department.md)
 4. [عنوان شغلی](designation.md)
 5. [درجه کارمند](https://docs.frappe.io/hr/employee-grade)
 

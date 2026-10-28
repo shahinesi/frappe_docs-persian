@@ -20,7 +20,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 پیش از ساخت درخواست حضور و غیاب، بهتر است مورد زیر را ایجاد کنید:
 
-- [کارمند](https://docs.frappe.io/hr/employee)
+- [کارمند](employee.md)
 
 ## 2. ساخت درخواست حضور و غیاب
 
@@ -75,7 +75,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 2. [مدیریت شیفت‌ها](https://docs.frappe.io/hr/shift-management)
 3. [حضور و غیاب خودکار](https://docs.frappe.io/hr/auto-attendance)
 4. [آپلود حضور و غیاب](https://docs.frappe.io/hr/upload-attendance)
-5. [حضور و غیاب](https://docs.frappe.io/hr/attendance)
+5. [حضور و غیاب](attendance.md)
 
 ---
 

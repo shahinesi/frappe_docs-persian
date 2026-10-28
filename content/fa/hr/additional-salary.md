@@ -22,7 +22,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 پیش از ایجاد حقوق اضافی، بهتر است موارد زیر را ایجاد کرده باشید:
 
-- [کارمند](https://docs.frappe.io/hr/employee)
+- [کارمند](employee.md)
 - [مؤلفهٔ حقوق](https://docs.frappe.io/hr/salary-component)
 
 ## 2. ایجاد حقوق اضافی

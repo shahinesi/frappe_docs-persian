@@ -31,10 +31,10 @@ source_version: "035d0a3bb2e4554a7c48ed84de55b5bfb1af2837f125165ef34adfa89147de6
 
 ## موضوعات مرتبط
 
-1. [کارمند](https://docs.frappe.io/hr/employee)
+1. [کارمند](employee.md)
 2. [نوع استخدام](employment-type.md)
 3. [شاخه](branch.md)
-4. [دپارتمان](https://docs.frappe.io/hr/department)
+4. [دپارتمان](department.md)
 5. [درجه کارمند](https://docs.frappe.io/hr/employee-grade)
 6. [نقشه مهارت کارکنان](https://docs.frappe.io/hr/employee-skill-map)
 

@@ -18,7 +18,7 @@ source_version: "685d54758b37ac637ebaa05c16362092932b0b03068d170cf27b8ca5ec43eab
 
 - [تنظیمات رزرو قرار ملاقات](appointment-booking-settings.md)
 - [فهرست تعطیلات](https://docs.frappe.io/hr/holiday-list)
-- [کارمند](https://docs.frappe.io/hr/employee)
+- [کارمند](../hr/employee.md)
 - [سرنخ](https://docs.frappe.io/erpnext/lead)
 - [ایمیل](email-account.md)
 

@@ -32446,10 +32446,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "1acc7bdf9dc3f0010a4415837eff63938f109c2bfc63dc5d1af83db2ca8250ea",
       "source_modified": "2026-10-23",
-      "translation_status": "not_started",
+      "translation_status": "translated",
       "quality_status": "not_reviewed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/hr/attendance.md",
       "discovered_at": "2026-10-27T05:52:36.583Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/hr/attendance.md",
@@ -32462,7 +32462,8 @@
       "license_status": "unverified",
       "attribution_required": true,
       "unofficial_translation": true,
-      "snapshot_status": "fetched"
+      "snapshot_status": "fetched",
+      "source_snapshot_path": "sources/hr/attendance.md"
     },
     {
       "url": "https://docs.frappe.io/hr/attendance-request",
@@ -32654,10 +32655,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "50f60d4bfac6fe1bd115fb19a38bafa95dbb6bd0b5281eb6ae8eb797ed575f30",
       "source_modified": "2026-10-07",
-      "translation_status": "not_started",
+      "translation_status": "translated",
       "quality_status": "not_reviewed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/hr/department.md",
       "discovered_at": "2026-10-27T05:52:36.578Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/hr/department.md",
@@ -32670,7 +32671,8 @@
       "license_status": "unverified",
       "attribution_required": true,
       "unofficial_translation": true,
-      "snapshot_status": "fetched"
+      "snapshot_status": "fetched",
+      "source_snapshot_path": "sources/hr/department.md"
     },
     {
       "url": "https://docs.frappe.io/hr/department-wise-leave-approval-in-erpnext",
@@ -32756,10 +32758,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "a22d65a0666cadb900a810c1e40044b59b63aa0e0bcb138827922b69d802a4ec",
       "source_modified": "2026-10-07",
-      "translation_status": "not_started",
+      "translation_status": "translated",
       "quality_status": "not_reviewed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/hr/employee.md",
       "discovered_at": "2026-10-27T05:52:36.578Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/hr/employee.md",
@@ -32772,7 +32774,8 @@
       "license_status": "unverified",
       "attribution_required": true,
       "unofficial_translation": true,
-      "snapshot_status": "fetched"
+      "snapshot_status": "fetched",
+      "source_snapshot_path": "sources/hr/employee.md"
     },
     {
       "url": "https://docs.frappe.io/hr/employee-advance",
