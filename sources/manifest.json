@@ -32689,10 +32689,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "29861dd9d88dc53c893949eaa1df83b1f74f9891f28a9b8d9f5e4463d0426000",
       "source_modified": "2026-02-04",
-      "translation_status": "not_started",
+      "translation_status": "translated",
       "quality_status": "not_reviewed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/hr/daily-work-summary-group.md",
       "discovered_at": "2026-10-27T05:52:36.578Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/hr/daily-work-summary-group.md",
@@ -32702,10 +32702,11 @@
       "source_metadata_status": "fetched",
       "source_repository": null,
       "source_sitemap_lastmod": "2026-02-04",
-      "license_status": "unverified",
+      "license_status": "CC BY-SA (version unspecified by source policy)",
       "attribution_required": true,
       "unofficial_translation": true,
-      "snapshot_status": "fetched"
+      "snapshot_status": "fetched",
+      "source_snapshot_path": "sources/hr/daily-work-summary-group.md"
     },
     {
       "url": "https://docs.frappe.io/hr/department",
@@ -36697,10 +36698,11 @@
       "source_metadata_status": "fetched",
       "source_repository": null,
       "source_sitemap_lastmod": "2026-02-28",
-      "license_status": "unverified",
+      "license_status": "CC BY-SA (version unspecified by source policy)",
       "attribution_required": true,
       "unofficial_translation": true,
-      "snapshot_status": "fetched"
+      "snapshot_status": "fetched",
+      "source_snapshot_path": "sources/hr/upload-attendance.md"
     },
     {
       "url": "https://docs.frappe.io/hr/user-permission-based-on-hierarchy",
