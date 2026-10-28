@@ -100,7 +100,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## 4. موضوعات مرتبط
 
-1. [هدف](https://docs.frappe.io/hr/goal)
+1. [هدف](goal.md)
 2. [بازخورد عملکرد کارمند](employee-performance-feedback.md)
 
 ---

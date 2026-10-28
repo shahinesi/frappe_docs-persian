@@ -39,7 +39,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ## 3. موضوعات مرتبط
 
 1. [ورود به کار کارمند](employee-onboarding.md)
-2. [پایان همکاری کارمند](https://docs.frappe.io/hr/employee-separation)
+2. [پایان همکاری کارمند](employee-separation.md)
 3. [انتقال کارمند](employee-transfer.md)
 
 ---

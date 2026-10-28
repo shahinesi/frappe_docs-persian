@@ -78,7 +78,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ## 4. موضوعات مرتبط
 
 1. [ارتقای کارمند](employee-promotion.md)
-2. [قطع همکاری کارمند](https://docs.frappe.io/hr/employee-separation)
+2. [قطع همکاری کارمند](employee-separation.md)
 3. [انتقال کارمند](employee-transfer.md)
 
 ---
