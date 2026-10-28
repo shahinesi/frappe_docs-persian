@@ -89,6 +89,78 @@
     },
     {
       "product": "erpnext",
+      "source_label": "Change Password",
+      "translation": "تغییر گذرواژه",
+      "basis": "Visible User form section and action label, localized using the established ERPNext Persian term for password."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "More Information",
+      "translation": "اطلاعات بیشتر",
+      "basis": "Visible Website Settings section heading."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Disable Signup",
+      "translation": "غیرفعال‌کردن ثبت‌نام",
+      "basis": "Uses the Persian label already present in the Helpdesk locale for the same signup setting."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Signup",
+      "translation": "ثبت‌نام",
+      "basis": "Localized the customer-facing signup link using the established Persian term."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Website User",
+      "translation": "کاربر وب‌سایت",
+      "basis": "Visible ERPNext user type label."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "System User",
+      "translation": "کاربر سامانه",
+      "basis": "Visible ERPNext user type label."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Approve",
+      "translation": "تأیید",
+      "basis": "Visible workflow action label."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Reject",
+      "translation": "رد",
+      "basis": "Visible workflow action label."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Approved",
+      "translation": "تأییدشده",
+      "basis": "Visible workflow state label."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Disassembly Order",
+      "translation": "دستور بازکردن محصول",
+      "basis": "Localized the visible ERPNext DocType label; the source identifier is retained in inline code at first technical mention."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Disassemble",
+      "translation": "بازکردن محصول",
+      "basis": "Localized the Stock Entry purpose shown when a disassembly order is created."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Energy Point Settings",
+      "translation": "تنظیمات امتیاز انرژی",
+      "basis": "Localized the visible ERPNext settings DocType label; the source identifier is retained in inline code at first technical mention."
+    },
+    {
+      "product": "erpnext",
       "source_label": "Price Lists",
       "translation": "لیست‌های قیمت",
       "basis": "The current ERPNext locale translates the singular label Price List as لیست قیمت; this plural page title is curated for natural Persian wording."

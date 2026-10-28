@@ -346,6 +346,7 @@ export function prepareMarkdownLinks(markdown, {
 	result += localizeBreadcrumbs(localizeBareListLabels(replaceKnownUiEntities(replaceUiTerms(trailingText, bodyTerms, counters, mixedEntries), allTerms, counters), allTerms, counters, mixedEntries, phraseTerms), allTerms, counters, mixedEntries, phraseTerms);
 	result = result.replace(/\*\*([^*\r\n]+)\*\*\s+\(([^()\r\n]+)\)/gu, (match, label, sourceLabel) => {
 		if (!/[A-Za-z]/.test(sourceLabel)) return match;
+		if (sourceLabel.startsWith('`') && sourceLabel.endsWith('`')) return match;
 		const localized = localizeDisplayLabel(sourceLabel, allTerms, null, mixedEntries, phraseTerms).trim();
 		if (localized === sourceLabel) return match;
 		return localized === label.trim() ? `**${label}**` : `**${label}** (${localized})`;

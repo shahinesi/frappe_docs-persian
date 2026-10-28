@@ -323,6 +323,18 @@ test('localizes source labels in parentheses after a Persian field label', () =>
 	assert.equal(result.markdown, '**محل** و **عنوان**');
 });
 
+test('preserves inline-code identifiers in parentheses after translated labels', () => {
+	const input = '**دستور بازکردن محصول** (`Disassembly Order`)';
+	const result = prepareMarkdownLinks(input, {
+		currentPath: 'content/fa/erpnext/example.md',
+		manifest,
+		titles: new Map(),
+		terms: {},
+		uiTerms: { 'Disassembly Order': 'دستور بازکردن محصول' },
+	});
+	assert.equal(result.markdown, input);
+});
+
 test('matches translated composite terms without consuming an English plural suffix', () => {
 	const result = prepareMarkdownLinks('**All مشتری Groups**', {
 		currentPath: 'content/fa/erpnext/customer-group.md',
