@@ -5,8 +5,8 @@ source_url: "https://docs.frappe.io/insights/permissions-access-control/overview
 source_id: "insights/permissions-access-control/overview"
 source_version: "eff4a195324471ab65c9474509309d4555bbb3daef154ac04d1d1adef8686058"
 source_updated: "2026-01-06"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
@@ -25,7 +25,7 @@ Insights سه سطح کنترل دسترسی دارد:
 
 ### سلسله‌مراتب مجوزها
 
-    User → Team(s) → Resources (Data Sources/Tables) → Row Filters
+    User → Team(s) → Resources (منابع داده/Tables) → Row Filters
 
 - کاربران به یک یا چند تیم افزوده می‌شوند.
 - به تیم‌ها برای منابع مشخص دسترسی داده می‌شود.

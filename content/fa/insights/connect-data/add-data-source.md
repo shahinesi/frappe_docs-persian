@@ -5,8 +5,8 @@ source_url: "https://docs.frappe.io/insights/connect-data/add-data-source"
 source_id: "insights/connect-data/add-data-source"
 source_version: "e75628d2f7212ce0138ecde1a62760d36ea63f06fdc7288aa981dea65daad5db"
 source_updated: "2026-01-06"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
@@ -21,7 +21,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 | --- | --- |
 | میزبان | نشانی سرور؛ مانند <code>db.mycompany.com</code> یا <code>localhost</code>. |
 | پورت | درگاه اتصال؛ برای نمونه <code>3306</code> برای MariaDB و <code>5432</code> برای PostgreSQL. |
-| Database Name | نام پایگاه داده‌ای که می‌خواهید به آن وصل شوید. |
+| نام پایگاه داده | نام پایگاه داده‌ای که می‌خواهید به آن وصل شوید. |
 | Username | نام کاربری ورود. |
 | Password | گذرواژهٔ ورود. |
 | SSL (اختیاری) | مشخص می‌کند از اتصال امن استفاده شود یا نه. |
@@ -32,7 +32,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### گام 1: رفتن به منابع داده
 
-در نوار کناری روی **Data Sources** و سپس **+ Add Data منبع** کلیک کنید. نوع پایگاه داده را انتخاب کنید.
+در نوار کناری روی **منابع داده** و سپس **+ افزودن منبع داده** کلیک کنید. نوع پایگاه داده را انتخاب کنید.
 
 ### گام 2: واردکردن جزئیات اتصال
 
@@ -41,13 +41,13 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - **عنوان**: نامی گویا؛ مانند «پایگاه دادهٔ عملیاتی».
 - **میزبان**: نشانی سرور؛ مانند <code>localhost</code> یا <code>db.mycompany.com</code>.
 - **پورت**: برای MariaDB معمولاً <code>3306</code> است و از پیش پر شده است.
-- **Database Name**: نام دقیق پایگاه داده.
-- **Username / Password**: اطلاعات ورود پایگاه داده.
+- **نام پایگاه داده**: نام دقیق پایگاه داده.
+- **نام کاربری / گذرواژه**: اطلاعات ورود پایگاه داده.
 - **استفاده از SSL**: اگر لازم است، این گزینه را فعال کنید.
 
 ### گام 3: افزودن و آزمایش اتصال
 
-پس از تکمیل اطلاعات روی **Add Data منبع** کلیک کنید. Insights اتصال را ذخیره می‌کند، جدول‌ها را بارگذاری می‌کند و آن‌ها را برای پرس‌وجو در دسترس می‌گذارد.
+پس از تکمیل اطلاعات روی **افزودن منبع داده** کلیک کنید. Insights اتصال را ذخیره می‌کند، جدول‌ها را بارگذاری می‌کند و آن‌ها را برای پرس‌وجو در دسترس می‌گذارد.
 
 ## بارگذاری CSV یا Excel
 
@@ -55,11 +55,11 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### روش بارگذاری
 
-1. روی **+ Add Data منبع** و سپس **Upload CSV or Excel** کلیک کنید.
+1. روی **+ افزودن منبع داده** و سپس **بارگذاری CSV یا Excel** کلیک کنید.
 2. فایل را انتخاب کنید یا آن را بکشید و در محل مشخص‌شده رها کنید.
 3. پیش‌نمایش داده را ببینید و ستون‌ها و نوع داده‌ها را بررسی کنید.
 4. در صورت نیاز نام جدول را ویرایش کنید.
-5. روی **Import Table** کلیک کنید.
+5. روی **درون‌ریزی جدول** کلیک کنید.
 
 ### قالب‌های پشتیبانی‌شده
 

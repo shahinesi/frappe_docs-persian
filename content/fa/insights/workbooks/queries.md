@@ -5,8 +5,8 @@ source_url: "https://docs.frappe.io/insights/workbooks/queries"
 source_id: "insights/workbooks/queries"
 source_version: "41f8594fb63791dd45d44b91438a7c4990fc7a2e6124b6786bb7fe8ae2b8a136"
 source_updated: "2026-01-13"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
@@ -34,7 +34,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - **Append Table:** ردیف‌های جدول دیگری را که ستون‌های متناظر دارند می‌افزاید.
 - **فیلتر ردیف‌ها:** ردیف‌ها را بر اساس شرط مشخص پالایش می‌کند.
 - **Choose Columns:** ستون‌هایی را که باید در نتیجه باشند انتخاب می‌کند.
-- **Add جدید Column:** با استفاده از یک عبارت، ستون تازه‌ای می‌سازد.
+- **افزودن ستون جدید:** با استفاده از یک عبارت، ستون تازه‌ای می‌سازد.
 - **Group & Summarise:** داده‌ها را بر اساس یک ستون گروه‌بندی و مقدارها را تجمیع می‌کند.
 - **عملیات سفارشی:** برای تبدیل‌های پیچیده، عبارت‌های سفارشی Ibis می‌نویسید.
 

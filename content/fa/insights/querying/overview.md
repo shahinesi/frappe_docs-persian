@@ -5,8 +5,8 @@ source_url: "https://docs.frappe.io/insights/querying/overview"
 source_id: "insights/querying/overview"
 source_version: "66e2679a205292ea1856c7e7c1ad2672f2a38112b8f5c750db036cedd64f4698"
 source_updated: "2026-01-06"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
@@ -21,9 +21,9 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 در Insights سه روش برای ساخت پرس‌وجو وجود دارد:
 
-1. **پرس‌وجو Builder**: رابط دیداری و بدون کدنویسی؛ برای بیشتر کاربران پیشنهاد می‌شود.
-2. **SQL Editor**: نوشتن مستقیم SQL؛ برای کاربران مسلط به SQL.
-3. **Script Editor**: نوشتن اسکریپت Python برای تبدیل‌های پیچیده.
+1. **سازندهٔ پرس‌وجو**: رابط دیداری و بدون کدنویسی؛ برای بیشتر کاربران پیشنهاد می‌شود.
+2. **ویرایشگر SQL**: نوشتن مستقیم SQL؛ برای کاربران مسلط به SQL.
+3. **ویرایشگر اسکریپت**: نوشتن اسکریپت Python برای تبدیل‌های پیچیده.
 
 ## ساخت نخستین پرس‌وجو
 
@@ -36,17 +36,17 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 1. روی زبانهٔ **پرس‌وجوها** کلیک کنید.
 2. روی **جدید پرس‌وجو** کلیک کنید.
 3. نوع پرس‌وجو را انتخاب کنید:
-   - **Visual پرس‌وجو Builder**: ساخت دیداری.
-   - **SQL Editor**: نوشتن SQL.
-   - **Script Editor**: نوشتن Python.
+   - **سازندهٔ دیداری پرس‌وجو**: ساخت دیداری.
+   - **ویرایشگر SQL**: نوشتن SQL.
+   - **ویرایشگر اسکریپت**: نوشتن Python.
 
-![پرس‌وجو Builder](https://docs.frappe.io/files/Query_Builderfe073a.jpeg)
+![سازندهٔ پرس‌وجو](https://docs.frappe.io/files/Query_Builderfe073a.jpeg)
 
-در این راهنما روی پرس‌وجو Builder تمرکز می‌کنیم، چون شروع کار با آن آسان‌تر است.
+در این راهنما روی سازندهٔ پرس‌وجو تمرکز می‌کنیم، چون شروع کار با آن آسان‌تر است.
 
 #### 2. انتخاب منبع داده
 
-1. روی **Select a table** کلیک کنید.
+1. روی **انتخاب جدول** کلیک کنید.
 2. اتصال پایگاه دادهٔ خود را انتخاب کنید.
 3. برای شروع، یک جدول برگزینید.
 

@@ -5,8 +5,8 @@ source_url: "https://docs.frappe.io/insights/permissions-access-control/enable-p
 source_id: "insights/permissions-access-control/enable-permissions"
 source_version: "f6cd6545f64dfedc919eb4b651b762945faa008585f70b105c976ba8b0ae9fb4"
 source_updated: "2026-01-06"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
@@ -20,14 +20,14 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ![فعال‌کردن مجوزها](https://docs.frappe.io/files/SCR-20251027-eake.png)
 
 1. به **تنظیمات** ← **مجوزها** بروید.
-2. گزینهٔ **Enable مجوزها to restrict access...** را فعال کنید.
+2. گزینهٔ **فعال‌کردن مجوزها برای محدودکردن دسترسی** را فعال کنید.
 3. این کار کنترل دسترسی به منابع را بر اساس تیم فعال می‌کند.
 
 ### گام 2: فعال‌کردن مجوزهای کاربر
 
 این گزینه فقط برای منابع دادهٔ سایت Frappe کاربرد دارد:
 
-1. گزینهٔ **Apply مجوزهای کاربر** را فعال کنید.
+1. گزینهٔ **اعمال مجوزهای کاربر** را فعال کنید.
 2. این گزینه مجوزهای مبتنی بر نقش Frappe را علاوه بر مجوزهای تیمی اعمال می‌کند.
 3. فقط برای منابع دادهٔ سایت کار می‌کند و برای پایگاه‌های دادهٔ خارجی قابل استفاده نیست.
 

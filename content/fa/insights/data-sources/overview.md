@@ -5,8 +5,8 @@ source_url: "https://docs.frappe.io/insights/data-sources/overview"
 source_id: "insights/data-sources/overview"
 source_version: "59c90f0d20523c7cfaa4dd00078eb10b44eb25f1afcfb3e47fd9e2f577f9dd11"
 source_updated: "2026-01-13"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
@@ -19,7 +19,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## افزودن منبع داده
 
-برای افزودن منبعی تازه، به زبانهٔ **Data Sources** بروید و روی **جدید** کلیک کنید.
+برای افزودن منبعی تازه، به زبانهٔ **منابع داده** بروید و روی **جدید** کلیک کنید.
 
 ![منبع دادهٔ جدید](https://docs.frappe.io/files/insights-new-data-source.png)
 
@@ -33,7 +33,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 - **hostname** سروری که پایگاه داده روی آن قرار دارد؛ برای localhost خالی بگذارید.
 - **پورت** سرور پایگاه داده؛ برای درگاه پیش‌فرض خالی بگذارید.
-- **database name** پایگاه داده‌ای که می‌خواهید به آن وصل شوید.
+- **نام پایگاه داده** پایگاه داده‌ای که می‌خواهید به آن وصل شوید.
 - **username** کاربر پایگاه داده؛ ترجیحاً کاربری با دسترسی فقط‌خواندنی.
 - **password** گذرواژهٔ همان کاربر.
 
@@ -43,7 +43,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 - **hostname** سروری که پایگاه داده روی آن قرار دارد.
 - **پورت** سرور پایگاه داده.
-- **database name** پایگاه داده‌ای که می‌خواهید به آن وصل شوید.
+- **نام پایگاه داده** پایگاه داده‌ای که می‌خواهید به آن وصل شوید.
 - **username** کاربر پایگاه داده؛ ترجیحاً کاربری با دسترسی فقط‌خواندنی.
 - **password** گذرواژهٔ همان کاربر.
 
@@ -62,7 +62,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 Insights دو منبع دادهٔ استاندارد دارد:
 
 - **دادهٔ نمایشی**: مجموعه‌داده‌ای نمونه از یک فروشگاه تجارت الکترونیکی، با چند جدول دربارهٔ سفارش‌ها، مشتریان، محصولات و موارد دیگر.
-- **سایت Database**: داده‌های پایگاه دادهٔ سایت شما را در بر می‌گیرد و می‌توانید برای تحلیل داده‌های همان سایت از آن استفاده کنید.
+- **پایگاه دادهٔ سایت**: داده‌های پایگاه دادهٔ سایت شما را در بر می‌گیرد و می‌توانید برای تحلیل داده‌های همان سایت از آن استفاده کنید.
 
 ## همگام‌سازی جدول‌های پایگاه داده
 

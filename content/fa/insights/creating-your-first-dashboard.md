@@ -5,8 +5,8 @@ source_url: "https://docs.frappe.io/insights/creating-your-first-dashboard"
 source_id: "insights/creating-your-first-dashboard"
 source_version: "1cdc64f50ec04c7e8324ff74d21395ce913a2ae5b36145cee82b58feb0b6397e"
 source_updated: "2026-01-06"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
@@ -27,7 +27,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## 2. ایجاد پرس‌وجوی پایه
 
-یک پرس‌وجو می‌سازیم که داده‌های چند جدول را با هم ترکیب می‌کند. با بازشدن پرس‌وجو Builder، جدول مبدأ را <code>orders</code> انتخاب کنید. سپس عملیات زیر را به‌ترتیب اضافه کنید.
+یک پرس‌وجو می‌سازیم که داده‌های چند جدول را با هم ترکیب می‌کند. با بازشدن سازندهٔ پرس‌وجو، جدول مبدأ را <code>orders</code> انتخاب کنید. سپس عملیات زیر را به‌ترتیب اضافه کنید.
 
 ### پیوند جدول‌ها
 
