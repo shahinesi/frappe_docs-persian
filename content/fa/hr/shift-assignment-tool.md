@@ -68,7 +68,7 @@ license_status: "unverified"
 1. [نوع شیفت](shift-type.md)
 2. [تخصیص شیفت](shift-assignment.md)
 3. [درخواست شیفت](shift-request.md)
-4. [زمان‌بندی شیفت](https://docs.frappe.io/hr/shift-schedule)
+4. [زمان‌بندی شیفت](shift-schedule.md)
 5. [لیست شیفت کاری](https://docs.frappe.io/hr/roster)
 
 ---
