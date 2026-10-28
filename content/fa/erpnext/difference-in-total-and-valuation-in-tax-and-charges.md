@@ -96,7 +96,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ![ردیف‌های مالیات خرید با کرایهٔ منظورشده در ارزش‌گذاری و جمع کل](https://novacompanies.m.frappe.cloud/files/docs-tax-compliance-20260803-taxes-compliance-tax-calculation-valuation-and-total-tax-table.png)
 
-ردیف کرایه را باز کنید و **ارزش گذاری و کل** را انتخاب کنید. پیش از بستن ویرایشگر ردیف، سرفصل حساب، Type، توضیحات و مبلغ را بررسی کنید.
+ردیف کرایه را باز کنید و **ارزش‌گذاری و کل** را انتخاب کنید. پیش از بستن ویرایشگر ردیف، سرفصل حساب، **نوع**، توضیحات و مبلغ را بررسی کنید.
 
 ![تنظیم ردیف کرایه برای اثرگذاری بر ارزش‌گذاری و جمع کل](https://novacompanies.m.frappe.cloud/files/docs-tax-compliance-20260803-taxes-compliance-tax-calculation-valuation-and-total-freight-fields.png)
 

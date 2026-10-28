@@ -1,5 +1,5 @@
 ---
-title: "ابزار ورود Chart of Accounts"
+title: "ابزار درون‌برد درخت حساب‌ها"
 slug: "ورود-درخت-حساب‌ها"
 source_url: "https://docs.frappe.io/erpnext/chart-of-accounts-importer"
 source_id: "erpnext/chart-of-accounts-importer"
