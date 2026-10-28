@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/framework/user/en/guides/app-development/how
 source_id: "framework/user/en/guides/app-development/how-to-create-custom-fields-during-app-installation"
 source_version: "60f3bd797c91791b3799269068a48c974701794564bad54ceda210b113b86f46"
 source_updated: "2026-02-17"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/framework/user/en/guides/app-development/how-to-create-custom-fields-during-app-installation)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [ساخت فیلد سفارشی هنگام نصب برنامه](https://docs.frappe.io/framework/user/en/guides/app-development/how-to-create-custom-fields-during-app-installation)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 
 برنامهٔ سفارشی شما می‌تواند هنگام نصب روی سایتی تازه، به‌طور خودکار **فیلد سفارشی**هایی را به DocTypeهای بیرون از برنامه اضافه کند.

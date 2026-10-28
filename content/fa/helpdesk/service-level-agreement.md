@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/helpdesk/service-level-agreement"
 source_id: "helpdesk/service-level-agreement"
 source_version: "197ad35eee87646cce5c909452afd7a8176241fc1fd8d27d7c0346d9e88503c9"
 source_updated: "2026-10-23"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/helpdesk/service-level-agreement)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [توافق‌نامهٔ سطح خدمات (SLA)](https://docs.frappe.io/helpdesk/service-level-agreement)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویرهای صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/data-export"
 source_id: "erpnext/data-export"
 source_version: "e8ffe721d75074424a3b731973f2fd4a20df8c809cdbd6b179688dbfb945f4da"
 source_updated: "2026-03-02"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/data-export)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [خروجی‌گرفتن از داده‌ها (برون‌بُرد داده‌ها)](https://docs.frappe.io/erpnext/data-export)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویر صفحهٔ منبع بازنشر نشده است؛ مجوز جداگانهٔ آن تأیید نشده است.

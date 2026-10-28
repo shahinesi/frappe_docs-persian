@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/closing-accounting-books-in-erpnext"
 source_id: "erpnext/closing-accounting-books-in-erpnext"
 source_version: "5a75851e2a9766ce6e45b15ce56b48ee94a5677852884fb56b9025dea5675470"
 source_updated: "2026-08-14"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/closing-accounting-books-in-erpnext)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [بستن دفاتر حسابداری در ERPNext نسخهٔ 15](https://docs.frappe.io/erpnext/closing-accounting-books-in-erpnext)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویرهای صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

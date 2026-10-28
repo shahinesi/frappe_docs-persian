@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/e_commerce_search"
 source_id: "erpnext/e_commerce_search"
 source_version: "55b4206177ea1df836a69dc8da6a1ef521339943850ac8dc0461093226525646"
 source_updated: "2026-03-02"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/e_commerce_search)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [جست‌وجو در فروشگاه اینترنتی](https://docs.frappe.io/erpnext/e_commerce_search)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویرها در این مخزن بازنشر نشده‌اند و پیوندشان به فایل‌های میزبان منبع اشاره می‌کند.

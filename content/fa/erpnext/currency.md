@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/currency"
 source_id: "erpnext/currency"
 source_version: "936816b9268f299fcc70aaa30dbd25eaf29d2eb93b58e528ffb7445c83c29154"
 source_updated: "2026-08-14"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/currency)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [ارز (Currency)](https://docs.frappe.io/erpnext/currency)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویرهای صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

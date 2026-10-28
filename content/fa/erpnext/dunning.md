@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/dunning"
 source_id: "erpnext/dunning"
 source_version: "43a259cfe86057a6a8f8977c603dc6ea11d393571ed1da8bdac8ba76e545caf3"
 source_updated: "2026-08-14"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/dunning)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [بهرهٔ فروش و اخطار دیرکرد پرداخت (Dunning)](https://docs.frappe.io/erpnext/dunning)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویر در این مخزن بازنشر نشده و پیوندش به فایل میزبان منبع اشاره می‌کند.

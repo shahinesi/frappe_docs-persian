@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/fetch-the-entire-address-text-on-a-c
 source_id: "erpnext/fetch-the-entire-address-text-on-a-custom-field"
 source_version: "bf468cd37c3e120c28045aadcef7d7f07237a8437b0cd0442b2927c17062d5bb"
 source_updated: "2026-03-02"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/fetch-the-entire-address-text-on-a-custom-field)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [نمایش متن کامل نشانی در یک فیلد سفارشی](https://docs.frappe.io/erpnext/fetch-the-entire-address-text-on-a-custom-field)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویرها و پویانمایی در این مخزن بازنشر نشده‌اند و پیوندشان به فایل‌های میزبان منبع اشاره می‌کند.

@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/coupon-code"
 source_id: "erpnext/coupon-code"
 source_version: "d261fe17ae1ebe71bdeb7b2477134b8a8186015181ad24ce01bed27dd8c80224"
 source_updated: "2026-07-25"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/coupon-code)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [ایجاد و استفاده از کد تخفیف](https://docs.frappe.io/erpnext/coupon-code)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویرهای صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

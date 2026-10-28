@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/insights/dashboards/sharing-and-access-contr
 source_id: "insights/dashboards/sharing-and-access-control"
 source_version: "2416a97d132f9afe84d82d0cf52790c344f0e1035c8c198038116ffd268aee2e"
 source_updated: "2026-01-06"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Insights است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/insights/dashboards/sharing-and-access-control)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Insights است. [اشتراک‌گذاری و کنترل دسترسی](https://docs.frappe.io/insights/dashboards/sharing-and-access-control)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 
 #### روش‌های اشتراک‌گذاری

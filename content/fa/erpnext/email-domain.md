@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/email-domain"
 source_id: "erpnext/email-domain"
 source_version: "de079eac6c2bb9e02298ecb50e976b14d41a00ca620ff89c9147e3ca89d3d2de"
 source_updated: "2026-03-02"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/email-domain)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [دامنهٔ ایمیل](https://docs.frappe.io/erpnext/email-domain)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویرها در این مخزن بازنشر نشده‌اند و پیوندشان به فایل‌های میزبان منبع اشاره می‌کند.

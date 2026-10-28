@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/helpdesk/knowledge-base"
 source_id: "helpdesk/knowledge-base"
 source_version: "879c2dd88c505843d189d24ac36a8600a883e2ee311ab6f698f0f37c64b57bb5"
 source_updated: "2026-10-23"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/helpdesk/knowledge-base)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [پایگاه دانش](https://docs.frappe.io/helpdesk/knowledge-base)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصاویر و ویدیوهای صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

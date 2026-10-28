@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/customer-portal"
 source_id: "erpnext/customer-portal"
 source_version: "67b5c6c5992efb1caf698c6ae2b3561972fa2abc6601f79f067bd10bd9bc1e37"
 source_updated: "2026-10-22"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/customer-portal)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [پرتال مشتری (Customer Portal)](https://docs.frappe.io/erpnext/customer-portal)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویرهای صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

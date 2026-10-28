@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/delete-entries-linked-with-gl-entrie
 source_id: "erpnext/delete-entries-linked-with-gl-entries"
 source_version: "e6d0900450dce5b9ee6151ef79c9a6387ce1ecdf6d64abcfba31b242808993c3"
 source_updated: "2026-08-14"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/delete-entries-linked-with-gl-entries)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [حذف اسنادی که به ردیف‌های دفتر کل پیوند دارند](https://docs.frappe.io/erpnext/delete-entries-linked-with-gl-entries)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویر در این مخزن بازنشر نشده و پیوند آن به فایل میزبان منبع اشاره می‌کند.

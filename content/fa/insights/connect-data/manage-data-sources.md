@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/insights/connect-data/manage-data-sources"
 source_id: "insights/connect-data/manage-data-sources"
 source_version: "00fac708ac820fb2de0be68e4ec5807323e620dc39ee967baa43b57084f5059c"
 source_updated: "2026-01-06"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Insights است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/insights/connect-data/manage-data-sources)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Insights است. [مدیریت منابع داده](https://docs.frappe.io/insights/connect-data/manage-data-sources)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 
 ## مدیریت منابع داده

@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/depreciation-methods"
 source_id: "erpnext/depreciation-methods"
 source_version: "3be40176d87c87fce771fc7ea45667bca59810bdf6bde7afb2951097f05ea37f"
 source_updated: "2026-08-15"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/depreciation-methods)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [روش‌های استهلاک](https://docs.frappe.io/erpnext/depreciation-methods)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویرها در این مخزن بازنشر نشده‌اند و پیوندشان به فایل میزبان منبع اشاره می‌کند.

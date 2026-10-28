@@ -30,4 +30,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/brandwise-items-and-profitability-report). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [گزارش کالاها و سودآوری بر اساس برند](https://docs.frappe.io/erpnext/brandwise-items-and-profitability-report). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.

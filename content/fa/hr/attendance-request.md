@@ -5,8 +5,8 @@ source_url: "https://docs.frappe.io/hr/attendance-request"
 source_id: "hr/attendance-request"
 source_version: "c1f2bf9dee2ab0e1e16438b75fdb84c876b353e4fe2af2e0aff429efaaa7a24a"
 source_updated: "2026-02-04"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
@@ -79,4 +79,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe HR است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/hr/attendance-request). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe HR است. [درخواست حضور و غیاب](https://docs.frappe.io/hr/attendance-request). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.

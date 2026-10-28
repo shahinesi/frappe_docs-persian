@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/cost_center_allocation"
 source_id: "erpnext/cost_center_allocation"
 source_version: "1835684d2c7e67c8f273554c5da0ee66fbe0062dd8790783465b80ab02f3ef39"
 source_updated: "2026-08-14"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/cost_center_allocation)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [تخصیص مرکز هزینه](https://docs.frappe.io/erpnext/cost_center_allocation)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویرهای صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

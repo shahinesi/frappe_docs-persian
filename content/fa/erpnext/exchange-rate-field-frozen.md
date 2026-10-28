@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/exchange-rate-field-frozen"
 source_id: "erpnext/exchange-rate-field-frozen"
 source_version: "a58d64abb7563db93c9f10095721b6e0e7652595a932a54112941319d01517fe"
 source_updated: "2026-08-14"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/exchange-rate-field-frozen)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [چرا فیلد نرخ ارز غیرفعال است؟](https://docs.frappe.io/erpnext/exchange-rate-field-frozen)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویرها در این مخزن بازنشر نشده‌اند و پیوندشان به فایل‌های میزبان منبع اشاره می‌کند.

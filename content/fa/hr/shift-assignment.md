@@ -48,4 +48,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe HR است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/hr/shift-assignment). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe HR است. [تخصیص شیفت](https://docs.frappe.io/hr/shift-assignment). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.

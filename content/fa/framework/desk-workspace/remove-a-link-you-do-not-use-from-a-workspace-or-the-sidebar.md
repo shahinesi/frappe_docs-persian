@@ -5,8 +5,8 @@ source_url: "https://docs.frappe.io/framework/desk-workspace/remove-a-link-you-d
 source_id: "framework/desk-workspace/remove-a-link-you-do-not-use-from-a-workspace-or-the-sidebar"
 source_version: "157ad617909261c1f2192ca8ce22b72909ded620031f615dd79ee883cefed1e6"
 source_updated: "2026-10-13"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
@@ -51,4 +51,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/framework/desk-workspace/remove-a-link-you-do-not-use-from-a-workspace-or-the-sidebar). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [حذف پیوندی که در فضای کاری یا نوار کناری لازم ندارید](https://docs.frappe.io/framework/desk-workspace/remove-a-link-you-do-not-use-from-a-workspace-or-the-sidebar). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.

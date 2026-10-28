@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/framework/user/en/guides/portal-development/
 source_id: "framework/user/en/guides/portal-development/redirects"
 source_version: "9095b97dd5ce62dae475a3fe172cd010a715a607bc60a9393262e1197c8606a0"
 source_updated: "2026-02-17"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/framework/user/en/guides/portal-development/redirects)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [تغییرمسیرها](https://docs.frappe.io/framework/user/en/guides/portal-development/redirects)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 
 برای افزودن تغییرمسیر، hook با نام `website_redirects` را اضافه کنید.

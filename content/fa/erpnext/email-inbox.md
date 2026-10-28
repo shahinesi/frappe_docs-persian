@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/email-inbox"
 source_id: "erpnext/email-inbox"
 source_version: "1e72cbab5d7a295bf36cb9d93e373bf9bfb6d7057403e597c41b30114f9410c8"
 source_updated: "2026-03-02"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/email-inbox)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [صندوق ورودی ایمیل](https://docs.frappe.io/erpnext/email-inbox)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویرها در این مخزن بازنشر نشده‌اند و پیوندشان به فایل‌های میزبان منبع اشاره می‌کند.

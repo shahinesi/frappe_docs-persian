@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/energy-point-system"
 source_id: "erpnext/energy-point-system"
 source_version: "f0ee2ce6bdefa8e9ddbd20a633628b1f8f09b9aeb4d9c14ced0406ff0db56833"
 source_updated: "2026-05-28"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/energy-point-system)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [سامانهٔ امتیاز انرژی](https://docs.frappe.io/erpnext/energy-point-system)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویرها و تصویر متحرک در این مخزن بازنشر نشده‌اند و پیوندشان به فایل‌های میزبان منبع اشاره می‌کند.

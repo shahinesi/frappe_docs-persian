@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/framework/help/event-streaming"
 source_id: "framework/help/event-streaming"
 source_version: "ec900549d43d752862e2af552fc68f9f8e26e07bca8c83edf70e1f550681314c"
 source_updated: "2026-07-04"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/framework/help/event-streaming)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [جریان رویدادها](https://docs.frappe.io/framework/help/event-streaming)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 
 Event Streaming قابلیتی در Frappe بود که تغییرات سندها را از یک سایت Frappe منتشر می‌کرد تا سایتی دیگر آن‌ها را دریافت کند. این قابلیت زمانی مفید بود که لازم بود DocTypeهای منتخب میان سایت‌ها همگام شوند، بی‌آنکه برای هر نوع رکورد یکپارچه‌سازی جداگانه‌ای ساخته شود.

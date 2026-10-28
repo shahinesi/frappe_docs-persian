@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/helpdesk/custom-actions"
 source_id: "helpdesk/custom-actions"
 source_version: "1927d36d5a41d516ca7a4a5020dd825967942c9aedd9f9363ac051a3ba5d602f"
 source_updated: "2026-10-23"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/helpdesk/custom-actions)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [کنش‌های سفارشی](https://docs.frappe.io/helpdesk/custom-actions)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصاویر رابط کاربری صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

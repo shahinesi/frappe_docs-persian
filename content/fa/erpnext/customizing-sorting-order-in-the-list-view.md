@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/customizing-sorting-order-in-the-lis
 source_id: "erpnext/customizing-sorting-order-in-the-list-view"
 source_version: "6ca9af63914edd0eab1949554279f6a4de6aa3ab305cc995b990c4ef6de5601f"
 source_updated: "2026-03-04"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/customizing-sorting-order-in-the-list-view)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [ترتیب مرتب‌سازی در نمای فهرست](https://docs.frappe.io/erpnext/customizing-sorting-order-in-the-list-view)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویرهای صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

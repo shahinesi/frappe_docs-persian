@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/erpnext_integration"
 source_id: "erpnext/erpnext_integration"
 source_version: "0423b769c75f3698232795da5e3c5dd45889fafda710928640e181b9f148a996"
 source_updated: "2026-02-26"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/erpnext_integration)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [دسته‌بندی یکپارچه‌سازی‌ها](https://docs.frappe.io/erpnext/erpnext_integration)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 
 ERPNext قابلیت‌های متنوعی برای یکپارچه‌سازی دارد و به کسب‌وکارها کمک می‌کند برنامه‌ها و سرویس‌های گوناگون شخص ثالث را به‌سادگی متصل کنند تا کارایی عملیاتی و جریان داده بهبود یابد.
@@ -44,7 +44,7 @@ ERPNext قابلیت‌های متنوعی برای یکپارچه‌سازی د
 
 ### یکپارچه‌سازی‌های ارسال
 
-- [ERPNext Shipping](erpnext_shipping.md)
+- [ارسال با ERPNext](erpnext_shipping.md)
 
 ### یکپارچه‌سازی‌های پرداخت
 

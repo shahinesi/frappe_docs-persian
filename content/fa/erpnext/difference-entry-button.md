@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/difference-entry-button"
 source_id: "erpnext/difference-entry-button"
 source_version: "c1716573a41f26739841d794839bffa68bf32008d0606447a7c6eec3419c4910"
 source_updated: "2026-08-03"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/difference-entry-button)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [ثبت ردیف مابه‌التفاوت (ساختن ورودی تفاوت)](https://docs.frappe.io/erpnext/difference-entry-button)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویرهای منبع در این مخزن بازنشر نشده‌اند و پیوند آن‌ها به فایل‌های میزبان منبع اشاره می‌کند.

@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/education-module-in-erpnext"
 source_id: "erpnext/education-module-in-erpnext"
 source_version: "41815de543371e75b13345d9d5eb0b9d973e8303875cb1faa80bca4af0f2624a"
 source_updated: "2026-07-04"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/education-module-in-erpnext)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [ماژول آموزش در ERPNext](https://docs.frappe.io/erpnext/education-module-in-erpnext)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 
 ## نمای کلی

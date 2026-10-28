@@ -5,8 +5,8 @@ source_url: "https://docs.frappe.io/framework/portal-web-form/web-form-request"
 source_id: "framework/portal-web-form/web-form-request"
 source_version: "5d751a356b43ae74d6b7873a5d6264c54879e71a8afdba14febfbc0cfade4860"
 source_updated: "2026-06-26"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
@@ -84,4 +84,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/framework/portal-web-form/web-form-request). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [درخواست فرم وب](https://docs.frappe.io/framework/portal-web-form/web-form-request). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.

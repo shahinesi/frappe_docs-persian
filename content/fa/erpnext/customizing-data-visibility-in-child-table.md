@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/customizing-data-visibility-in-child
 source_id: "erpnext/customizing-data-visibility-in-child-table"
 source_version: "4a2331b5920745fb4dab26d23c1a025b8026c5c8c3c3e0efe4838071952ff62d"
 source_updated: "2026-03-04"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/customizing-data-visibility-in-child-table)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [نمایش داده در جدول‌های فرزند](https://docs.frappe.io/erpnext/customizing-data-visibility-in-child-table)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویرهای صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

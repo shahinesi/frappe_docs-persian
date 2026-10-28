@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/customise-cash-flow-report"
 source_id: "erpnext/customise-cash-flow-report"
 source_version: "a50277c46f71076a8dfba70db37a759ccd4777a357d438d6808ceb12c72f8f15"
 source_updated: "2026-08-14"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/customise-cash-flow-report)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [سفارشی‌سازی گزارش جریان وجوه نقد](https://docs.frappe.io/erpnext/customise-cash-flow-report)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویرهای صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

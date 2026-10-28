@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/framework/user/en/guides/app-development/sin
 source_id: "framework/user/en/guides/app-development/single-type-doctype"
 source_version: "c5a05baabf88ffa482e151761d66ea459bd0dda795365101c2f132b07821b5ea"
 source_updated: "2026-02-17"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/framework/user/en/guides/app-development/single-type-doctype)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [DocType از نوع Single](https://docs.frappe.io/framework/user/en/guides/app-development/single-type-doctype)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 
 هر DocType یک جدول متناظر دارد. برای نمونه، DocType **مشتری** با جدول `tabCustomer` متناظر است.

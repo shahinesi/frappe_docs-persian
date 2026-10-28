@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/close-sales-order"
 source_id: "erpnext/close-sales-order"
 source_version: "edad4c3185f05b914f82fb58b3235c448d3f230a1275870cb0919a0add75d357"
 source_updated: "2026-07-24"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/close-sales-order)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [بستن سفارش فروش](https://docs.frappe.io/erpnext/close-sales-order)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویرهای صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

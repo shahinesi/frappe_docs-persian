@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/helpdesk/twilio"
 source_id: "helpdesk/twilio"
 source_version: "c6359ef6df75057df70134ab18475ad3217a61818628745a2c454a460a24eb24"
 source_updated: "2026-05-21"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/helpdesk/twilio)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [یکپارچه‌سازی Twilio](https://docs.frappe.io/helpdesk/twilio)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصاویر رابط کاربری صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

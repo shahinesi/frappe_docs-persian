@@ -5,8 +5,8 @@ source_url: "https://docs.frappe.io/erpnext/closing-stock-balance"
 source_id: "erpnext/closing-stock-balance"
 source_version: "9dc530175ea99b2931e3705291eca1863797bddd0fd917ae1f8837b5c7a082cd"
 source_updated: "2026-03-02"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
@@ -39,4 +39,4 @@ Opening Stock + In Stock - Out Stock
 
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/closing-stock-balance). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [موجودی پایان دوره](https://docs.frappe.io/erpnext/closing-stock-balance). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.

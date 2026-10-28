@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/discount_accounting"
 source_id: "erpnext/discount_accounting"
 source_version: "d8be230557ce2561e129a302d382f33e4476b5a7d0a6b785d574c436179dec29"
 source_updated: "2026-08-03"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/discount_accounting)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [حسابداری تخفیف](https://docs.frappe.io/erpnext/discount_accounting)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویرها در این مخزن بازنشر نشده‌اند و پیوندشان به فایل‌های میزبان منبع اشاره می‌کند.

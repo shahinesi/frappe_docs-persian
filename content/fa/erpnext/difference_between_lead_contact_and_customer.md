@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/difference_between_lead_contact_and_
 source_id: "erpnext/difference_between_lead_contact_and_customer"
 source_version: "5c8f63f2c545bc2c31fe37276278392077132df863c436b1178a5e910df76053"
 source_updated: "2026-07-23"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/difference_between_lead_contact_and_customer)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [تفاوت Lead، Contact و Customer](https://docs.frappe.io/erpnext/difference_between_lead_contact_and_customer)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 
 سرنخ، Contact و مشتری در ERPNext بخش‌های متفاوتی از یک رابطهٔ تجاری را نشان می‌دهند. به‌جای آنکه این سه DocType را به‌جای یکدیگر به‌کار ببرید، رکورد متناسب با نقش فعلی طرف را انتخاب کنید.

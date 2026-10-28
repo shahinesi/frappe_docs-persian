@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/framework/help/can-i-store-my-files-on-s3-gc
 source_id: "framework/help/can-i-store-my-files-on-s3-gcs-or-google-drive-instead-of-the-server"
 source_version: "af01e06e76df7d80baddfdc59004b797dd4114952b6fcf5e1b94ff1338c56095"
 source_updated: "2026-10-13"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/framework/help/can-i-store-my-files-on-s3-gcs-or-google-drive-instead-of-the-server)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [ذخیره‌سازی فایل‌ها در S3، GCS یا درایو گوگل](https://docs.frappe.io/framework/help/can-i-store-my-files-on-s3-gcs-or-google-drive-instead-of-the-server)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویر منبع در این مخزن بازنشر نشده و دسترسی به فایل آن در زمان ترجمه تأیید نشد.

@@ -5,14 +5,14 @@ source_url: "https://docs.frappe.io/helpdesk/inviting-agents"
 source_id: "helpdesk/inviting-agents"
 source_version: "9be309798e6d430ac828f0728b3ee4fddfe939a780acc8869ee6f07c30e7ed5c"
 source_updated: "2026-01-06"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
 > این قابلیت فقط در شاخهٔ `develop` در دسترس است.
 >
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/helpdesk/inviting-agents)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [دعوت از کارشناسان](https://docs.frappe.io/helpdesk/inviting-agents)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصاویر رابط کاربری صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

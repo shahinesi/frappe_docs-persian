@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/helpdesk/other-features/bulk-reply"
 source_id: "helpdesk/other-features/bulk-reply"
 source_version: "1b18bc8ee0b9af92980a85b96a5a4c08517625101354fe8b4dfcb19d48d97ded"
 source_updated: "2026-05-29"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/helpdesk/other-features/bulk-reply)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [پاسخ گروهی](https://docs.frappe.io/helpdesk/other-features/bulk-reply)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 
 قابلیت **پاسخ گروهی** به کارشناس امکان می‌دهد یک پاسخ یکسان را هم‌زمان برای چند تیکت بفرستد؛ در نتیجه لازم نیست هر تیکت را جداگانه باز کند و به آن پاسخ دهد. هر مشتری پاسخی خصوصی و جداگانه در تیکت خودش دریافت می‌کند و از ارسال پیام برای افراد دیگر باخبر نمی‌شود.

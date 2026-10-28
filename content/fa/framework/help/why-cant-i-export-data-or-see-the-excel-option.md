@@ -5,8 +5,8 @@ source_url: "https://docs.frappe.io/framework/help/why-cant-i-export-data-or-see
 source_id: "framework/help/why-cant-i-export-data-or-see-the-excel-option"
 source_version: "c34fed89e3f3a950c5846841da5ce7e7518588e9ccf600865e50a63482def506"
 source_updated: "2026-10-21"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
@@ -88,4 +88,4 @@ You are not allowed to export <Doctype> doctype
 
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/framework/help/why-cant-i-export-data-or-see-the-excel-option). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [مجوز خروجی‌گرفتن از داده‌ها](https://docs.frappe.io/framework/help/why-cant-i-export-data-or-see-the-excel-option). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.

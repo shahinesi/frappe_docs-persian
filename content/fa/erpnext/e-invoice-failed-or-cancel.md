@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/e-invoice-failed-or-cancel"
 source_id: "erpnext/e-invoice-failed-or-cancel"
 source_version: "d7478c1261eecde0e1299a35610e9b287d7c8ba9660d51ceed528125a5dadb11"
 source_updated: "2026-10-24"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/e-invoice-failed-or-cancel)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [رفع خطای e-Invoice، نبود IRN یا لغو نشدن صورتحساب](https://docs.frappe.io/erpnext/e-invoice-failed-or-cancel)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویر در این مخزن بازنشر نشده و پیوندش به فایل میزبان منبع اشاره می‌کند.

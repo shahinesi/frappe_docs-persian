@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/client-scripts"
 source_id: "erpnext/client-scripts"
 source_version: "3519dee97f33a4fa6c73dcc3d93d458a76b889b1ea8bbad867ddbc0bd401aba6"
 source_updated: "2026-03-02"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/client-scripts)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [اسکریپت‌های سمت کاربر](https://docs.frappe.io/erpnext/client-scripts)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویر صفحهٔ منبع بازنشر نشده است؛ مجوز جداگانهٔ آن تأیید نشده است.

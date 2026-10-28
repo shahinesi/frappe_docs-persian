@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/correct-a-submitted-accounting-entry
 source_id: "erpnext/correct-a-submitted-accounting-entry"
 source_version: "ded4460f66cf65e4eb91a30d9f11a75a17709aed1d71d89a982a1489a130a96d"
 source_updated: "2026-10-24"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/correct-a-submitted-accounting-entry)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [اصلاح ثبت حسابداری ارسال‌شده](https://docs.frappe.io/erpnext/correct-a-submitted-accounting-entry)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > پویانمایی‌های صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

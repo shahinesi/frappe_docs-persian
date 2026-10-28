@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/deleting-custom-reports"
 source_id: "erpnext/deleting-custom-reports"
 source_version: "38ad4585c1f60bddb0b887ca4be9fe1fc5931632933a2acddb395b4845dba73b"
 source_updated: "2026-03-04"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/deleting-custom-reports)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [حذف گزارش‌های سفارشی](https://docs.frappe.io/erpnext/deleting-custom-reports)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویرهای منبع در این مخزن بازنشر نشده‌اند و پیوند آن‌ها به فایل‌های سایت رسمی اشاره می‌کند.

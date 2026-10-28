@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/due-date-and-payment-terms-problems"
 source_id: "erpnext/due-date-and-payment-terms-problems"
 source_version: "f84aee70ba4a9082ec649f1eba780c39ab18bc02fe680b92b2fe782eb6926b7f"
 source_updated: "2026-10-26"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/due-date-and-payment-terms-problems)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [چرا سررسید یا برنامهٔ پرداخت صورتحسابم اشتباه است؟](https://docs.frappe.io/erpnext/due-date-and-payment-terms-problems)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 
 فیلد **تاریخ سررسید** و جدول **زمان‌بندی پرداخت** در صورتحساب از **الگوی شرایط پرداخت** می‌آیند. ERPNext این الگو را از سفارش، مشتری یا تأمین‌کننده، یا گروه مشتری یا تأمین‌کننده می‌گیرد و تاریخ سررسید هر قسط را از یک تاریخ مبنا محاسبه می‌کند. اگر سررسید با انتظار شما مطابقت ندارد، معمولاً علت یکی از این سه مورد است: الگوی استفاده‌شده، تاریخ مبنا یا یکی از قواعد **تنظیمات حساب‌ها**.

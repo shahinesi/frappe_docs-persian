@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/dynamic-link-fields"
 source_id: "erpnext/dynamic-link-fields"
 source_version: "326efc16f8774543af41a2d1acfe85b93464114d31db924cb2729afc663d4e74"
 source_updated: "2026-03-04"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/dynamic-link-fields)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [فیلدهای پیوند پویا (لینک پویا)](https://docs.frappe.io/erpnext/dynamic-link-fields)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویرها و تصویرهای متحرک در این مخزن بازنشر نشده‌اند و پیوندشان به فایل‌های میزبان منبع اشاره می‌کند.

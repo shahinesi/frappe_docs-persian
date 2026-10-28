@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/default-receivable-payable-account"
 source_id: "erpnext/default-receivable-payable-account"
 source_version: "ef6a7ab168b37eab9ac09063a7e947dc076bd5537147201fcb5a2ea02ff772bf"
 source_updated: "2026-08-14"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/default-receivable-payable-account)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [حساب پیش‌فرض دریافتنی / پرداختنی](https://docs.frappe.io/erpnext/default-receivable-payable-account)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویر صفحهٔ منبع بازنشر نشده است؛ مجوز جداگانهٔ آن تأیید نشده است.

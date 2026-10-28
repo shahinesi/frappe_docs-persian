@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/customise-your-items-tables-within-y
 source_id: "erpnext/customise-your-items-tables-within-your-print-format-builder"
 source_version: "d9e8bcee02ecc9aaec4811288781bbb6e5ecfd875bec22a7cab018a7ac24e9d5"
 source_updated: "2026-03-02"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/customise-your-items-tables-within-your-print-format-builder)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [سفارشی‌سازی جدول اقلام در قالب چاپ Builder](https://docs.frappe.io/erpnext/customise-your-items-tables-within-your-print-format-builder)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویرهای رابط کاربری صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

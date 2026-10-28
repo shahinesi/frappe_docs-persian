@@ -5,8 +5,8 @@ source_url: "https://docs.frappe.io/erpnext/check-link-between-documents"
 source_id: "erpnext/check-link-between-documents"
 source_version: "c2ab63ca7b09b3a55db7daa0dbf54b6ee9359522f189534da1a00e3fa3522a58"
 source_updated: "2026-03-04"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
@@ -24,4 +24,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/check-link-between-documents). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [بررسی پیوند میان سندها](https://docs.frappe.io/erpnext/check-link-between-documents). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.

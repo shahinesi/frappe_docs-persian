@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/copy-pasting-multiple-records-from-e
 source_id: "erpnext/copy-pasting-multiple-records-from-excel"
 source_version: "8b0403cd4deff4befc97e5676251cabc33360d4ec3e8dd0f213cfdeb8dfc5416"
 source_updated: "2026-03-04"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/copy-pasting-multiple-records-from-excel)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [کپی و جای‌گذاری چند رکورد از Excel](https://docs.frappe.io/erpnext/copy-pasting-multiple-records-from-excel)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویر و پویانمایی صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

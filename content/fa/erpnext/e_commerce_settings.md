@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/e_commerce_settings"
 source_id: "erpnext/e_commerce_settings"
 source_version: "0a263b0eae88f7933af2ede6ccc5201ac05891170f06ced6f2ba06a9205118c9"
 source_updated: "2026-03-02"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/e_commerce_settings)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [تنظیمات فروشگاه اینترنتی](https://docs.frappe.io/erpnext/e_commerce_settings)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویرها در این مخزن بازنشر نشده‌اند و پیوندشان به فایل‌های میزبان منبع اشاره می‌کند.

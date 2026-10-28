@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/disassembly-order"
 source_id: "erpnext/disassembly-order"
 source_version: "836a41fb86c7721efb1a0326c604e73fda5555666b639404b69c0c6820f1f1e7"
 source_updated: "2026-02-26"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/disassembly-order)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [دستور بازکردن محصول (Disassembly Order)](https://docs.frappe.io/erpnext/disassembly-order)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویرها در این مخزن بازنشر نشده‌اند و پیوندشان به فایل‌های سایت رسمی اشاره می‌کند.

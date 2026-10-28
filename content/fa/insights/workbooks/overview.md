@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/insights/workbooks/overview"
 source_id: "insights/workbooks/overview"
 source_version: "b807179c821a3c0bce08d0ac38dc7689324016f9ca3d363c290eddd5307ffbcd"
 source_updated: "2026-01-13"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Insights است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/insights/workbooks/overview)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Insights است. [نمای کلی](https://docs.frappe.io/insights/workbooks/overview)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصاویر رابط کاربری صفحهٔ منبع در این مخزن بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/delivery-trip"
 source_id: "erpnext/delivery-trip"
 source_version: "21d740083fe488e3b009f58d81f7c8b6edbdbe3f19e35ef928a49cefa860e660"
 source_updated: "2026-02-27"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/delivery-trip)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [سفر تحویل (مسیر تحویل)](https://docs.frappe.io/erpnext/delivery-trip)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویرهای منبع در این مخزن بازنشر نشده‌اند و پیوند آن‌ها به فایل‌های سایت رسمی اشاره می‌کند.

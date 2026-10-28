@@ -68,6 +68,17 @@ test('uses the translated page title for a generic self-source attribution link'
 	}).markdown, result.markdown);
 });
 
+test('uses the translated page title for a generic source-view attribution link', () => {
+	const sourceUrl = 'https://docs.frappe.io/hr/branch';
+	const result = prepareMarkdownLinks(`منبع: [مشاهدهٔ منبع اصلی](${sourceUrl})`, {
+		currentPath: 'content/fa/hr/branch.md',
+		manifest: { pages: [{ ...manifest.pages[0], url: sourceUrl }] },
+		titles: new Map([['content/fa/hr/branch.md', 'شاخه']]),
+		terms: {},
+	});
+	assert.equal(result.markdown, `منبع: [شاخه](${sourceUrl})`);
+});
+
 test('keeps an untranslated frontmatter title self-source link external and idempotent', () => {
 	const sourceUrl = 'https://docs.frappe.io/erpnext/batch-split';
 	const localPath = 'content/fa/erpnext/batch-split.md';

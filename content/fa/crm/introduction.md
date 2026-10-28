@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/crm/introduction"
 source_id: "crm/introduction"
 source_version: "e299f99cf3f51031d107520f2157e0e6a83c0da669a2fbf921eafb5bc10889aa"
 source_updated: "2026-04-20"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe CRM است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/crm/introduction)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe CRM است. [معرفی Frappe CRM](https://docs.frappe.io/crm/introduction)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 
 ## Frappe CRM چیست؟

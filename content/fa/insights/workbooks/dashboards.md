@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/insights/workbooks/dashboards"
 source_id: "insights/workbooks/dashboards"
 source_version: "d5545510defc61cce5e67ca15b73a90402d88c16976fad701117a745cd3685fc"
 source_updated: "2026-01-13"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Insights است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/insights/workbooks/dashboards)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Insights است. [داشبوردها](https://docs.frappe.io/insights/workbooks/dashboards)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصاویر رابط کاربری صفحهٔ منبع در این مخزن بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

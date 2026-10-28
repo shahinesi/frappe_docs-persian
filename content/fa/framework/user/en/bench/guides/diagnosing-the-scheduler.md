@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/framework/user/en/bench/guides/diagnosing-th
 source_id: "framework/user/en/bench/guides/diagnosing-the-scheduler"
 source_version: "41fe0566e46a8798328a169c6826fec04b50f9b5a86f064448d35b739921293c"
 source_updated: "2026-02-17"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/framework/user/en/bench/guides/diagnosing-the-scheduler)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [عیب‌یابی زمان‌بند](https://docs.frappe.io/framework/user/en/bench/guides/diagnosing-the-scheduler)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 
 اگر jobهای زمان‌بندی‌شده با تأخیر اجرا می‌شوند یا اصلاً اجرا نمی‌شوند، برای عیب‌یابی می‌توانید چند فرمان را اجرا کنید.

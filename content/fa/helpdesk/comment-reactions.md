@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/helpdesk/helpdesk/other-features/comment-rea
 source_id: "helpdesk/helpdesk/other-features/comment-reactions"
 source_version: "f413c5e24d9ed704b8fa912312a7d2e5c0bd2e374f7ebc65bd84e89d1951bac7"
 source_updated: "2026-05-28"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/helpdesk/helpdesk/other-features/comment-reactions)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [واکنش به دیدگاه‌ها](https://docs.frappe.io/helpdesk/helpdesk/other-features/comment-reactions)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصاویر رابط کاربری صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

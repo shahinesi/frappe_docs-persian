@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/document-title"
 source_id: "erpnext/document-title"
 source_version: "1397e5531088dbdf5f29636d8bc2cfb377bae7b9a50fab89bc0313c0a2326ce5"
 source_updated: "2026-02-26"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/document-title)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [عنوان سند (Document Title)](https://docs.frappe.io/erpnext/document-title)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویرها در این مخزن بازنشر نشده‌اند و پیوندشان به فایل‌های سایت رسمی اشاره می‌کند.

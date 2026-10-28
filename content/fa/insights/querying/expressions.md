@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/insights/querying/expressions"
 source_id: "insights/querying/expressions"
 source_version: "9ee8315b8b5fea4c91611e7d115e67f05ba59b43b79e43ad52d741d8124853b4"
 source_updated: "2026-01-06"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Insights است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/insights/querying/expressions)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Insights است. [عبارت‌ها و توابع](https://docs.frappe.io/insights/querying/expressions)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 
 ## عبارت‌ها

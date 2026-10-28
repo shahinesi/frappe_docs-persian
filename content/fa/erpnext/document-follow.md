@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/document-follow"
 source_id: "erpnext/document-follow"
 source_version: "5f8de1cd9797e87a93dbc69e509d816e3dc29970e7f63c8a5acb2fb28646bec3"
 source_updated: "2026-03-02"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/document-follow)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [پیگیری سند (دنبال کردن سند)](https://docs.frappe.io/erpnext/document-follow)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویرها در این مخزن بازنشر نشده‌اند و پیوندشان به فایل‌های سایت رسمی اشاره می‌کند.

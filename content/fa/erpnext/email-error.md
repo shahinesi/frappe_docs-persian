@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/email-error"
 source_id: "erpnext/email-error"
 source_version: "8a3647c93ee93c685220cd3d455b2d9f9b761c7c5613f2d4c070810e0db9e8f4"
 source_updated: "2026-03-04"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/email-error)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [خطای ارسال یا دریافت ایمیل](https://docs.frappe.io/erpnext/email-error)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویر در این مخزن بازنشر نشده و پیوندش به فایل میزبان منبع اشاره می‌کند.

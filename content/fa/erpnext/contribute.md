@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/contribute"
 source_id: "erpnext/contribute"
 source_version: "87b065489586dc50f9d8a82f2cf5113eaff4da51056cd4654b001dd12c992b6b"
 source_updated: "2026-01-13"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/contribute)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشارکت در مستندات](https://docs.frappe.io/erpnext/contribute)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویرهای رابط کاربری صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

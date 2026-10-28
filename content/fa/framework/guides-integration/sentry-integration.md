@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/framework/guides-integration/sentry-integrat
 source_id: "framework/guides-integration/sentry-integration"
 source_version: "8cda3312f128f2728a2061c6c0006bebf89745a19d8cfb2a4e366b607c2ec0f7"
 source_updated: "2026-10-16"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/framework/guides-integration/sentry-integration)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [یکپارچه‌سازی Sentry](https://docs.frappe.io/framework/guides-integration/sentry-integration)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 
 [Sentry](https://sentry.io) سرویسی برای ردیابی خطا و پایش کارایی است. برنامه‌ها با رخ‌دادن هر خطا گزارشی به آن می‌فرستند. Sentry خطاهای یکسان را در یک مسئله گروه‌بندی می‌کند، رد پشته و زمینهٔ خطا را نشان می‌دهد و با ظاهرشدن مسئلهٔ تازه به تیم هشدار می‌دهد. می‌توانید از سرویس میزبانی‌شدهٔ sentry.io استفاده کنید یا آن را خودتان اجرا کنید. با Sentry خطاهای عملیاتی همهٔ سایت‌ها را یک‌جا پیدا می‌کنید و لازم نیست گزارش **لاگ خطا** هر سایت را جداگانه جست‌وجو کنید.

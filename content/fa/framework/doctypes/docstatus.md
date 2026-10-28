@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/framework/doctypes/docstatus"
 source_id: "framework/doctypes/docstatus"
 source_version: "8b16041175dcc1a841f2f6a58ead86971f9e7fa10670fe223a2307fb6eadc831"
 source_updated: "2026-07-05"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/framework/doctypes/docstatus)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [وضعیت سند (Docstatus)](https://docs.frappe.io/framework/doctypes/docstatus)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 
 Frappe از مفهوم «وضعیت سند» (`Docstatus`) برای پیگیری وضعیت تراکنش‌ها استفاده می‌کند. مقدار `docstatus` همیشه یکی از این سه مقدار است:

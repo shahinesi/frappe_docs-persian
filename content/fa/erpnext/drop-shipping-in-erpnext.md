@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/drop-shipping-in-erpnext"
 source_id: "erpnext/drop-shipping-in-erpnext"
 source_version: "98cbd67cdde2a0b2aaadcd41c4be8e62031062f64ee6bece8407ba3b94a63532"
 source_updated: "2026-07-23"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/drop-shipping-in-erpnext)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [ارسال مستقیم برای مشتری (Drop Shipping)](https://docs.frappe.io/erpnext/drop-shipping-in-erpnext)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویرها در این مخزن بازنشر نشده‌اند و پیوندشان به فایل‌های میزبان منبع اشاره می‌کند.

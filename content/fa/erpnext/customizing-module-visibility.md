@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/customizing-module-visibility"
 source_id: "erpnext/customizing-module-visibility"
 source_version: "c83b0ab1db2e17bdf49a404925466aecaa7af4eadd1e931d1681076d7eb2171a"
 source_updated: "2026-03-04"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/customizing-module-visibility)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [سفارشی‌سازی نمایش ماژول‌ها](https://docs.frappe.io/erpnext/customizing-module-visibility)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویرهای صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

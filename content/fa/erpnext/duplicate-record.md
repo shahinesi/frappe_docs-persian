@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/duplicate-record"
 source_id: "erpnext/duplicate-record"
 source_version: "16ac21ce1cd07c9e91fe13cb2ec7f0ec24cae970ebabd9c31fd67501a66133fe"
 source_updated: "2026-03-04"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/duplicate-record)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [ایجاد سند تکراری](https://docs.frappe.io/erpnext/duplicate-record)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویر متحرک در این مخزن بازنشر نشده و پیوند آن به فایل میزبان منبع اشاره می‌کند.

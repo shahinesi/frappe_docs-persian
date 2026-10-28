@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/delivery-note"
 source_id: "erpnext/delivery-note"
 source_version: "464b701d86041c001daf023ac73802cbf0165b7fec7c825d2420c7d690a810e9"
 source_updated: "2026-02-26"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/delivery-note)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [یادداشت تحویل (سند تحویل)](https://docs.frappe.io/erpnext/delivery-note)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویرها در این مخزن بازنشر نشده‌اند و پیوندشان به فایل‌های سایت رسمی اشاره می‌کند.

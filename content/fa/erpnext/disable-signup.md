@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/disable-signup"
 source_id: "erpnext/disable-signup"
 source_version: "bf752f5c8a46b1a12be6d264e41898d51507bf7ac96f1fd3c48b808f327256db"
 source_updated: "2026-02-28"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/disable-signup)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [غیرفعال‌کردن ثبت‌نام در وب‌سایت ERPNext](https://docs.frappe.io/erpnext/disable-signup)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویرها در این مخزن بازنشر نشده‌اند و پیوندشان به فایل‌های سایت رسمی اشاره می‌کند.

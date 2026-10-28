@@ -5,8 +5,8 @@ source_url: "https://docs.frappe.io/hr/create-payroll-entry-with-timesheets"
 source_id: "hr/create-payroll-entry-with-timesheets"
 source_version: "30a578694359d84ed02d5939b5aa855150a22e5a2e3923d99a084eb23248d56b"
 source_updated: "2026-02-04"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
@@ -46,4 +46,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe HR است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/hr/create-payroll-entry-with-timesheets). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe HR است. [ساخت ثبت حقوق و دستمزد با Timesheet](https://docs.frappe.io/hr/create-payroll-entry-with-timesheets). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.

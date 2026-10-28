@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/framework/help/change-or-reuse-a-users-email
 source_id: "framework/help/change-or-reuse-a-users-email-address"
 source_version: "09a76cf2a167215127eab2c760ed74e76671e3cf5861623fe406cabfa7d40d6c"
 source_updated: "2026-10-22"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/framework/help/change-or-reuse-a-users-email-address)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [تغییر یا استفادهٔ دوباره از نشانی ایمیل کاربر](https://docs.frappe.io/framework/help/change-or-reuse-a-users-email-address)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویرهای رابط کاربری منبع از راه پیوند اصلی نمایش داده می‌شوند و در این مخزن بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

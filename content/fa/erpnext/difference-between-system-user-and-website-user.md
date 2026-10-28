@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/difference-between-system-user-and-w
 source_id: "erpnext/difference-between-system-user-and-website-user"
 source_version: "b79a2411e3139c406018745871fd5c17a7e341cab2f1f6333cf4b3aa9a9a8c2a"
 source_updated: "2026-10-20"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/difference-between-system-user-and-website-user)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [تفاوت کاربر سیستمی و کاربر وب‌سایت](https://docs.frappe.io/erpnext/difference-between-system-user-and-website-user)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمهٔ غیررسمی با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است و این ترجمه تأیید رسمی Frappe نیست.
 
 **پرسش:** کارمندم را به‌عنوان User اضافه کرده‌ام و نقشهایی هم به او داده‌ام. بااین‌حال، پس از ورود نمی‌تواند داشبورد را ببیند. علت چیست؟

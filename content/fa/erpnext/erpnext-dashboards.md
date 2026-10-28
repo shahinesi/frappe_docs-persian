@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/erpnext-dashboards"
 source_id: "erpnext/erpnext-dashboards"
 source_version: "b05159e5b1de49410a4d4efd71fa598f54b7ef4591fa783c73688270df7ff471"
 source_updated: "2026-07-05"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/erpnext-dashboards)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [داشبوردها و گزارش‌های ERPNext](https://docs.frappe.io/erpnext/erpnext-dashboards)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 
 ERPNext داشبوردها، صفحه‌های تحلیل، گزارش‌ها و فضای کاریهایی دارد که به تیم‌ها کمک می‌کنند فعالیت‌های کسب‌وکار را در ماژول‌های مختلف زیر نظر بگیرند. این نماها اطلاعات مهم را یک‌جا گرد می‌آورند تا کاربران بدون بازکردن تک‌تک سندها، روندها، موارد استثنا، تراکنش‌ها و وضعیت عملیات را بررسی کنند.

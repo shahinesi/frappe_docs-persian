@@ -10,7 +10,7 @@ quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/helpdesk/faq/setting-up-outlook-for-frappe)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [اتصال Outlook به Frappe Helpdesk با OAuth](https://docs.frappe.io/helpdesk/faq/setting-up-outlook-for-frappe)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصاویر رابط کاربری صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.
@@ -38,7 +38,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 2. گزینهٔ **Microsoft Graph** و سپس **Microsoft Graph → Delegated permissions** را انتخاب کنید.
 3. روی **Grant admin consent for** کلیک و آن را تأیید کنید. وضعیت هر مجوز باید با علامت سبز نشان داده شود.
 
-> **یادداشت منبع:** snapshot متنی صفحه می‌گوید «مجوزهای زیر را اضافه کنید»، اما نام مجوزها در متن Markdown واکشی‌شده درج نشده است. برای فهرست دقیق، تصویرها و راهنمای رسمی مرتبط با ثبت برنامه را در [صفحهٔ منبع](https://docs.frappe.io/helpdesk/faq/setting-up-outlook-for-frappe) بررسی کنید؛ در این ترجمه نام مجوزها حدس زده نشده است.
+> **یادداشت منبع:** snapshot متنی صفحه می‌گوید «مجوزهای زیر را اضافه کنید»، اما نام مجوزها در متن Markdown واکشی‌شده درج نشده است. برای فهرست دقیق، تصویرها و راهنمای رسمی مرتبط با ثبت برنامه را در [اتصال Outlook به Frappe Helpdesk با OAuth](https://docs.frappe.io/helpdesk/faq/setting-up-outlook-for-frappe) بررسی کنید؛ در این ترجمه نام مجوزها حدس زده نشده است.
 
 ### گام 3: ساخت سیکرت کلاینت
 

@@ -5,8 +5,8 @@ source_url: "https://docs.frappe.io/hr/configuring-earned-leave"
 source_id: "hr/configuring-earned-leave"
 source_version: "3c6b3d41d9f3722e18b956c3881680b8491feabc0368fb0dcdfaef65ba402e8d"
 source_updated: "2026-02-04"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
@@ -38,4 +38,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe HR است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/hr/configuring-earned-leave). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe HR است. [پیکربندی مرخصی استحقاقی](https://docs.frappe.io/hr/configuring-earned-leave). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.

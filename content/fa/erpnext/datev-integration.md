@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/datev-integration"
 source_id: "erpnext/datev-integration"
 source_version: "0fbb6732ba5cccad8ccb389ac4c2c783d47052a37774e46d39b627b960614fb2"
 source_updated: "2026-07-04"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/datev-integration)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [یکپارچه‌سازی DATEV](https://docs.frappe.io/erpnext/datev-integration)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > این صفحه تصویر ندارد.

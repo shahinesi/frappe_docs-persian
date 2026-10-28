@@ -10,7 +10,7 @@ quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Insights است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/insights/permissions-access-control/overview)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Insights است. [نمای کلی کنترل دسترسی](https://docs.frappe.io/insights/permissions-access-control/overview)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 
 #### این راهنما روش کنترل دسترسی به داده‌ها در Insights را با استفاده از تیم‌ها، مجوزها و امنیت در سطح ردیف توضیح می‌دهد.

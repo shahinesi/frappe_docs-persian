@@ -5,8 +5,8 @@ source_url: "https://docs.frappe.io/framework/oauth2"
 source_id: "framework/oauth2"
 source_version: "a8e172b381e27c3fa4bf1c773e3e0f00ba4ad9ab8e42fbf8884f74de6e639c8e"
 source_updated: "2026-02-17"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
@@ -74,4 +74,4 @@ DocTypeهای مربوط به این نقش‌ها عبارت‌اند از:
 
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/framework/oauth2). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [OAuth2 در Frappe Framework](https://docs.frappe.io/framework/oauth2). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.

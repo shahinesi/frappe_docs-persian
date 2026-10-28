@@ -5,8 +5,8 @@ source_url: "https://docs.frappe.io/hr/additional-salary"
 source_id: "hr/additional-salary"
 source_version: "5d7548e653c42b2631d3053fda2e2647ee076a661262f34d8cddfa1a5424b9f9"
 source_updated: "2026-02-04"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
@@ -55,4 +55,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe HR است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/hr/additional-salary). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe HR است. [حقوق اضافی](https://docs.frappe.io/hr/additional-salary). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.

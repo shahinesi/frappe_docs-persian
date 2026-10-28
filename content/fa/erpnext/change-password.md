@@ -5,8 +5,8 @@ source_url: "https://docs.frappe.io/erpnext/change-password"
 source_id: "erpnext/change-password"
 source_version: "ddc66ca60d7cbcc8a10ed0859a9e0d2b92fc8091d54ece4199fced602a335abd"
 source_updated: "2026-02-26"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
@@ -27,4 +27,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/change-password). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [تغییر گذرواژهٔ کاربر](https://docs.frappe.io/erpnext/change-password). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.

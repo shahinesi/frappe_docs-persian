@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/drive/introduction"
 source_id: "drive/introduction"
 source_version: "d6d8eedbc394918c6cdbcfbffbc59cc018f30198f7ab5ba00bd92d2b5cf0c996"
 source_updated: "2026-01-06"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Drive است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/drive/introduction)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Drive است. [معرفی Frappe Drive](https://docs.frappe.io/drive/introduction)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویرهای صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

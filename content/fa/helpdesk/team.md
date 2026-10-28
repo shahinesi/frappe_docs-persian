@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/helpdesk/team"
 source_id: "helpdesk/team"
 source_version: "95a1c69d9aa6a697b2187fdd8aa8caa506a2af3c6a85d87793b8565c8265ca0b"
 source_updated: "2026-01-06"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/helpdesk/team)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [تیم‌ها در Frappe Helpdesk](https://docs.frappe.io/helpdesk/team)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 
 در Frappe Helpdesk، **تیم** گروهی از کارشناسان پشتیبانی یا کاربران است که برای مدیریت و حل تیکت‌های مشتریان با هم همکاری می‌کنند. تیم‌ها برای سازمان‌دهی و توزیع کار اهمیت دارند و کمک می‌کنند درخواست مشتریان کارآمدتر رسیدگی شود.

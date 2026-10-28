@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/centavo-being-printed-in-words-for-u
 source_id: "erpnext/centavo-being-printed-in-words-for-usd"
 source_version: "c40db289a357c97f9bd2513f4a5a62cf53ebc1dae36b330788ec0d2c5c10a1b6"
 source_updated: "2026-03-02"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/centavo-being-printed-in-words-for-usd)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [چاپ سنتاو به‌صورت واژه برای دلار آمریکا](https://docs.frappe.io/erpnext/centavo-being-printed-in-words-for-usd)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویرهای صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

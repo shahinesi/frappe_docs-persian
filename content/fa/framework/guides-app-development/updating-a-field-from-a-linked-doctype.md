@@ -5,8 +5,8 @@ source_url: "https://docs.frappe.io/framework/guides-app-development/updating-a-
 source_id: "framework/guides-app-development/updating-a-field-from-a-linked-doctype"
 source_version: "c92308a29fda74201bab302248e5974426185d878aef7864155dabe56596cd1c"
 source_updated: "2026-07-05"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
@@ -111,4 +111,4 @@ supplier.supplier_group
 
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/framework/guides-app-development/updating-a-field-from-a-linked-doctype). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [دریافت مقدار فیلد از DocType پیوندشده](https://docs.frappe.io/framework/guides-app-development/updating-a-field-from-a-linked-doctype). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.

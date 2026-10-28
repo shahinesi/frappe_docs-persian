@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/insights/charts/overview"
 source_id: "insights/charts/overview"
 source_version: "0c3dba717f2850faabcc42e8f20eaac3239794781dfeebaba7973ea9ccba901b"
 source_updated: "2026-01-06"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Insights است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/insights/charts/overview)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Insights است. [مروری بر نمودارها](https://docs.frappe.io/insights/charts/overview)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > ویدیوی صفحهٔ منبع در این نسخه بازنشر نشده است؛ مجوز جداگانهٔ آن تأیید نشده است.

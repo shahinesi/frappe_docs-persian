@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/customer-provided-items"
 source_id: "erpnext/customer-provided-items"
 source_version: "444a775fd8a36fdabc096e2a4aa0b0381e8204027ecee52d0f321d89ed34988b"
 source_updated: "2026-03-02"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/customer-provided-items)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [اقلام تأمین‌شده از سوی مشتری](https://docs.frappe.io/erpnext/customer-provided-items)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویرهای صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

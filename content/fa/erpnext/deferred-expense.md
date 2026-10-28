@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/deferred-expense"
 source_id: "erpnext/deferred-expense"
 source_version: "2ac09273134823d5ddd229e1723428be57ef5f515168afa35f5a6c6eb9105216"
 source_updated: "2026-08-14"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/deferred-expense)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [هزینهٔ انتقالی (هزینه معوق)](https://docs.frappe.io/erpnext/deferred-expense)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویرهای صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

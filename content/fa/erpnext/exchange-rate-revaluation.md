@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/exchange-rate-revaluation"
 source_id: "erpnext/exchange-rate-revaluation"
 source_version: "a791cb1be75c81f3bb13a8ccf5d4741c8033381783a19ac71eaf5905e5dc782f"
 source_updated: "2026-08-14"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/exchange-rate-revaluation)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [تجدید ارزیابی نرخ ارز](https://docs.frappe.io/erpnext/exchange-rate-revaluation)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویرها در این مخزن بازنشر نشده‌اند و پیوندشان به فایل‌های میزبان منبع اشاره می‌کند.

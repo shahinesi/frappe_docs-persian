@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/insights/data-sources/data-store"
 source_id: "insights/data-sources/data-store"
 source_version: "16e7394265db1459ada6dc6e4fd184043236356059065f18c0dc5cde208fae00"
 source_updated: "2026-01-13"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Insights است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/insights/data-sources/data-store)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Insights است. [مخزن داده](https://docs.frappe.io/insights/data-sources/data-store)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویر رابط کاربری صفحهٔ منبع بازنشر نشده است؛ مجوز جداگانهٔ آن تأیید نشده است.

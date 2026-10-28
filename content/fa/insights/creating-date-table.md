@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/insights/articles/creating-date-table"
 source_id: "insights/articles/creating-date-table"
 source_version: "e00271bf731fa5db12d78990474804cc933785226da50207a318fcf31387418a"
 source_updated: "2026-03-03"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Insights است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/insights/articles/creating-date-table)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Insights است. [ایجاد جدول تاریخ](https://docs.frappe.io/insights/articles/creating-date-table)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 
 ## ایجاد جدول تاریخ با ویرایشگر SQL

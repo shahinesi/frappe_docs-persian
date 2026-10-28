@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/document-naming"
 source_id: "erpnext/document-naming"
 source_version: "b627594da603a843a0954caf2abe050b5712652d0d49774228ec0a13dc38f4c4"
 source_updated: "2026-03-04"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/document-naming)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [قاعدهٔ نام‌گذاری سند](https://docs.frappe.io/erpnext/document-naming)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویرها در این مخزن بازنشر نشده‌اند و پیوندشان به فایل‌های سایت رسمی اشاره می‌کند.

@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/deferred-revenue"
 source_id: "erpnext/deferred-revenue"
 source_version: "a9125639fbbc58f015bae789ed9c3fd509586c35c8f3fe9729d9a389c09f7094"
 source_updated: "2026-08-14"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/deferred-revenue)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [درآمد انتقالی (درآمد معوق)](https://docs.frappe.io/erpnext/deferred-revenue)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویرهای صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

@@ -156,7 +156,7 @@ function rewriteLink(token, { currentPath, byPath, byTranslationPath, titles, li
 	const isOwnPageAttribution = Boolean(official?.page?.translation_path
 		&& normalizeRepoPath(official.page.translation_path) === currentPath);
 	const isAttribution = ATTRIBUTION_LABEL.test(originalLabel) || isOwnPageAttribution;
-	if (isOwnPageAttribution && isGenericPageLabel(originalLabel)) {
+	if (isOwnPageAttribution && (isGenericPageLabel(originalLabel) || ATTRIBUTION_LABEL.test(originalLabel))) {
 		const cleanSourceTitle = (official.page.source_title || '').replaceAll('\\n', ' ').replaceAll('\\r', ' ').replace(/\s*\|\s*(?:ERPNext|Frappe Framework|Frappe HR|Frappe Helpdesk|Insights|Frappe CRM|Frappe Builder|Frappe Learning|Frappe Drive) Documentation\s*$/i, '').trim();
 		const translatedSourceTitle = cleanSourceTitle
 			? localizeDisplayLabel(cleanSourceTitle, terms, null, mixedEntries, phraseTerms)

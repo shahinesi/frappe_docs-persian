@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/delete-submitted-document"
 source_id: "erpnext/delete-submitted-document"
 source_version: "153f263d5c7e4ce8860955a6d011b288789967346e18f9d840c477dc20b5ebb1"
 source_updated: "2026-03-04"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/delete-submitted-document)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [حذف سند ثبت‌نهایی‌شده](https://docs.frappe.io/erpnext/delete-submitted-document)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویرها در این مخزن بازنشر نشده‌اند و پیوندشان به فایل‌های سایت رسمی اشاره می‌کند.

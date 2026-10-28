@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/framework/user/en/guides/app-development/cus
 source_id: "framework/user/en/guides/app-development/custom_action_link_field"
 source_version: "e0ace907d6adb129943e0e9c79e51c5637583540087c2b9304614808692b6273"
 source_updated: "2026-02-17"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/framework/user/en/guides/app-development/custom_action_link_field)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [افزودن کنش سفارشی به فیلد پیوند](https://docs.frappe.io/framework/user/en/guides/app-development/custom_action_link_field)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویر نمونه در مخزن این مستندات بازنشر نشده است؛ مجوز جداگانهٔ آن تأیید نشده است.

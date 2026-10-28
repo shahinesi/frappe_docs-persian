@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/e-waybill-problems"
 source_id: "erpnext/e-waybill-problems"
 source_version: "f265f3377d88fd70de0b51d093fba4c42f83a590ca000700ced2660da7ebc24b"
 source_updated: "2026-10-24"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/e-waybill-problems)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [پرسش‌های متداول e-Waybill](https://docs.frappe.io/erpnext/e-waybill-problems)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویر در این مخزن بازنشر نشده و پیوندش به فایل میزبان منبع اشاره می‌کند.

@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/cheque-print-template"
 source_id: "erpnext/cheque-print-template"
 source_version: "bf0ab61e5392fc8f02b07f624abee33fe78cdb58b85d6078b769dbd5297dd49f"
 source_updated: "2026-03-02"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/cheque-print-template)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [قالب چاپ چک](https://docs.frappe.io/erpnext/cheque-print-template)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویر و پویانمایی صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

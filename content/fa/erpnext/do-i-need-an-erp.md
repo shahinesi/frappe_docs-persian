@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/do-i-need-an-erp"
 source_id: "erpnext/do-i-need-an-erp"
 source_version: "03ef9e39f1e5f4a25b6c27a60a7053d5c4a79570ea8d4cc3636bc000ea1a0ea2"
 source_updated: "2026-08-14"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/do-i-need-an-erp)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [آیا به ERP نیاز دارم؟](https://docs.frappe.io/erpnext/do-i-need-an-erp)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 
 آیا هنوز برای مدیریت عملیات خود از چند ابزار یا بستر تخصصی استفاده می‌کنید و حفظ یکپارچگی داده‌ها برایتان دشوار شده است؟

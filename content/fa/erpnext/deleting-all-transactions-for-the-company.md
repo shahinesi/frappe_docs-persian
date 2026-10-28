@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/deleting-all-transactions-for-the-co
 source_id: "erpnext/deleting-all-transactions-for-the-company"
 source_version: "1dd49da9cb5b68cd5e63977cb6b6d249f85399fe8f379b7d6d06e8b1dbd53486"
 source_updated: "2026-09-30"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/deleting-all-transactions-for-the-company)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [حذف همهٔ تراکنش‌های شرکت و نگه‌داشتن داده‌های پایه](https://docs.frappe.io/erpnext/deleting-all-transactions-for-the-company)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویرها در این مخزن بازنشر نشده‌اند و پیوندشان به فایل‌های سایت رسمی اشاره می‌کند.

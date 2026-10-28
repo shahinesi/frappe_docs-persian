@@ -5,8 +5,8 @@ source_url: "https://docs.frappe.io/erpnext/changing-the-properties-of-a-field-b
 source_id: "erpnext/changing-the-properties-of-a-field-based-on-role"
 source_version: "567289a3f8f92f23de2cddeff154c19b5afb0f67d94deb28f1767cf260e08c7e"
 source_updated: "2026-03-02"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
@@ -44,4 +44,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/changing-the-properties-of-a-field-based-on-role). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مدیریت مجوز سطح فیلد بر پایهٔ نقش](https://docs.frappe.io/erpnext/changing-the-properties-of-a-field-based-on-role). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.

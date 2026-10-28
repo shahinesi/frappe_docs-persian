@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/helpdesk/understanding-the-customer-portal"
 source_id: "helpdesk/understanding-the-customer-portal"
 source_version: "b9e8bc7bae8c6f9675a825b2f78c14f77da98a30beb73bf2971e3f6fdf021824"
 source_updated: "2026-10-23"
-translation_status: "quality_checked"
+translation_status: "translated"
 quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/helpdesk/understanding-the-customer-portal)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [آشنایی با پرتال مشتری](https://docs.frappe.io/helpdesk/understanding-the-customer-portal)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویرها و ویدیوهای صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

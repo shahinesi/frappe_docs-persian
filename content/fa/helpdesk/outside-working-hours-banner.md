@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/helpdesk/helpdesk/customization/outside-work
 source_id: "helpdesk/helpdesk/customization/outside-working-hours-banner"
 source_version: "a050a60571cc9669af0dc9d242daeab32d6482b211a0d8049348cf8cadd1eb3b"
 source_updated: "2026-10-23"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/helpdesk/helpdesk/customization/outside-working-hours-banner)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [اعلان خارج از ساعت کاری](https://docs.frappe.io/helpdesk/helpdesk/customization/outside-working-hours-banner)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصاویر و پویانمایی‌های رابط کاربری صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

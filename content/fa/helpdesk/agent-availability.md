@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/helpdesk/other-features/agent-availability"
 source_id: "helpdesk/other-features/agent-availability"
 source_version: "ce13fe48b78a8010490bf33d47b7b096265fce2408925815b995c34ccf32f4a0"
 source_updated: "2026-06-08"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/helpdesk/other-features/agent-availability)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [وضعیت دسترس‌پذیری کارشناس](https://docs.frappe.io/helpdesk/other-features/agent-availability)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویرها و پویانمایی‌های رابط کاربری صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

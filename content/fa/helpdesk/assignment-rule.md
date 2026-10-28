@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/helpdesk/assignment-rule"
 source_id: "helpdesk/assignment-rule"
 source_version: "2ccc45923f1ebec8b77942d912089e784d486414a3b03a809395012fe56d2f04"
 source_updated: "2026-05-28"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/helpdesk/assignment-rule)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [قاعدهٔ تخصیص](https://docs.frappe.io/helpdesk/assignment-rule)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصاویر رابط کاربری صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

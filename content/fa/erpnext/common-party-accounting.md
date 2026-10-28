@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/common-party-accounting"
 source_id: "erpnext/common-party-accounting"
 source_version: "e07268710ed30300c45be5a4c9a04bd3cd8ba2a27b822cd6f60e38896cbbedd3"
 source_updated: "2026-08-03"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/common-party-accounting)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [حسابداری طرف مشترک](https://docs.frappe.io/erpnext/common-party-accounting)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویرهای صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

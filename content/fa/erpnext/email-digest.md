@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/email-digest"
 source_id: "erpnext/email-digest"
 source_version: "04cf12a8100ec73394f4d373b0fb89ea7ae412bd6b8d40a8317cffe5e195b4cf"
 source_updated: "2026-03-02"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/email-digest)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [خلاصهٔ دوره‌ای ایمیل](https://docs.frappe.io/erpnext/email-digest)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویر در این مخزن بازنشر نشده و پیوندش به فایل میزبان منبع اشاره می‌کند.

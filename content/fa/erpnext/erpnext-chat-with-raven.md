@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/erpnext-chat-with-raven"
 source_id: "erpnext/erpnext-chat-with-raven"
 source_version: "036ee5a665ad672fcf65662a6c39d5b569aa5f208585cd851a1bda886fefbfc7"
 source_updated: "2026-07-05"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/erpnext-chat-with-raven)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [گفت‌وگوی تیمی با Raven در اکوسیستم ERPNext](https://docs.frappe.io/erpnext/erpnext-chat-with-raven)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 
 ERPNext Chat منسوخ شده و نباید در پیاده‌سازی‌های تازه استفاده شود. اگر سازمان شما به پیام‌رسانی فوری، کانال‌های تیمی، اشتراک‌گذاری سند و همکاری درون اکوسیستم Frappe نیاز دارد، از **Raven** استفاده کنید.

@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/helpdesk/pwa-installation"
 source_id: "helpdesk/pwa-installation"
 source_version: "3a059e5a5b26d81b3bdde78b3eff4bb04deceb242812c32cce79b8bdd8d1335b"
 source_updated: "2026-01-06"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/helpdesk/pwa-installation)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [نصب Helpdesk به‌صورت PWA](https://docs.frappe.io/helpdesk/pwa-installation)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویرهای صفحهٔ منبع که از GitHub پیوند داده شده‌اند بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

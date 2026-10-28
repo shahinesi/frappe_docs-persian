@@ -5,8 +5,8 @@ source_url: "https://docs.frappe.io/hr/appraisal-template"
 source_id: "hr/appraisal-template"
 source_version: "3bc525a8b179a3fc5c9bb3113189ac181b5d9d921b2a13af3235a834efa969df"
 source_updated: "2026-02-04"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
@@ -48,4 +48,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe HR است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/hr/appraisal-template). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe HR است. [الگوی ارزیابی عملکرد](https://docs.frappe.io/hr/appraisal-template). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.

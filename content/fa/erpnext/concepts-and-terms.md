@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/concepts-and-terms"
 source_id: "erpnext/concepts-and-terms"
 source_version: "640e2d34fd9d2d12378e30978f0a7e4c5936ca4843921b4cc8fec4c6193f51de"
 source_updated: "2026-08-14"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/concepts-and-terms)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مفاهیم و اصطلاحات ERPNext](https://docs.frappe.io/erpnext/concepts-and-terms)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > این صفحه تصویر ندارد.

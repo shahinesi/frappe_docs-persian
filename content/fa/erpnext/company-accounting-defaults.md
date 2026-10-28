@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/company-accounting-defaults"
 source_id: "erpnext/company-accounting-defaults"
 source_version: "34b9d794f1456e98d8708cc28920bfadc56d3990976b79be0f02badb740c8926"
 source_updated: "2026-08-14"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/company-accounting-defaults)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [پیش‌فرض‌های حسابداری شرکت](https://docs.frappe.io/erpnext/company-accounting-defaults)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصاویر صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/helpdesk/ticket-type"
 source_id: "helpdesk/ticket-type"
 source_version: "607b6553948f89864b75a76fb335d4f18316daa88baeede3c1f5170803035cca"
 source_updated: "2026-10-23"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/helpdesk/ticket-type)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [نوع تیکت](https://docs.frappe.io/helpdesk/ticket-type)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 
 نوع تیکت برای دسته‌بندی تیکت‌های دریافتی بر اساس ماهیت مسئله به کار می‌رود؛ برای نمونه «باگ»، «درخواست قابلیت» یا «صورتحساب». تعریف نوع‌های معنادار به تیم‌ها کمک می‌کند عملیات و گزارش‌گیری را سامان دهند.

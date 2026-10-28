@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/email-template"
 source_id: "erpnext/email-template"
 source_version: "757ddf5d646f022e512f164987427422d28c9cfe1253abb8b4cb84cd19d30b2d"
 source_updated: "2026-03-02"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/email-template)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [قالب ایمیل](https://docs.frappe.io/erpnext/email-template)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویر در این مخزن بازنشر نشده و پیوندش به فایل میزبان منبع اشاره می‌کند.

@@ -5,8 +5,8 @@ source_url: "https://docs.frappe.io/framework/keyboard-shortcuts"
 source_id: "framework/keyboard-shortcuts"
 source_version: "a8cb2a7cb2bfce26298c791636b45b833080f90f50d40b5903cb4e55f63eef27"
 source_updated: "2026-09-30"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
@@ -56,4 +56,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/framework/keyboard-shortcuts). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [میانبرهای صفحه‌کلید](https://docs.frappe.io/framework/keyboard-shortcuts). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.

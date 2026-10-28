@@ -5,8 +5,8 @@ source_url: "https://docs.frappe.io/framework/permission-types"
 source_id: "framework/permission-types"
 source_version: "49f14e61d614a7de30716f9cff2a516fcc6a1f3a8104108e625f576363b3e61a"
 source_updated: "2026-02-17"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
@@ -83,4 +83,4 @@ if frappe.has_permission("Invoice", "approve"):
 
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/framework/permission-types). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [نوع‌های مجوز](https://docs.frappe.io/framework/permission-types). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.

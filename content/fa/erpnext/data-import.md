@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/data-import"
 source_id: "erpnext/data-import"
 source_version: "6bae6da1027347224c02fbf1aaeee27eef170964c2d26dca082a7ae0a6f3d41a"
 source_updated: "2026-04-27"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/data-import)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [واردکردن داده‌ها (درون‌بُرد داده)](https://docs.frappe.io/erpnext/data-import)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویرها و ویدئوی صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

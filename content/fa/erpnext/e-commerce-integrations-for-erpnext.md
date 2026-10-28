@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/e-commerce-integrations-for-erpnext"
 source_id: "erpnext/e-commerce-integrations-for-erpnext"
 source_version: "a8efe2f4eb9832976acf4db0ba90780219147323a2aeb30722c4f7611aa9c1bf"
 source_updated: "2026-07-04"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/e-commerce-integrations-for-erpnext)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [یکپارچه‌سازی فروشگاه‌های اینترنتی با ERPNext](https://docs.frappe.io/erpnext/e-commerce-integrations-for-erpnext)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 
 یکپارچه‌سازی ERPNext با پلتفرم‌های تجارت مجدد و فروشگاه‌های اینترنتی ساده است، چون داده‌های کسب‌وکار در ERPNext از طریق REST API فریم‌ورک Frappe در دسترس‌اند. محصولات، مشتریان، سفارش‌ها، صورتحساب‌ها، پرداخت‌ها، محموله‌ها، مرجوعی‌ها و جابه‌جایی‌های موجودی به‌صورت DocType ذخیره می‌شوند و می‌توان آن‌ها را از طریق نقطه‌های پایانی استاندارد API خواند یا به‌روزرسانی کرد.

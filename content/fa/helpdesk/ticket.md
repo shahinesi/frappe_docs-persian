@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/helpdesk/ticket"
 source_id: "helpdesk/ticket"
 source_version: "326b0d0cee9b64f75b9aca3d0736320f4242846e9bd65e94aaffe40bd23208dd"
 source_updated: "2026-08-03"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/helpdesk/ticket)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [تیکت](https://docs.frappe.io/helpdesk/ticket)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصاویر صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

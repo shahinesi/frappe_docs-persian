@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/exotel_integration"
 source_id: "erpnext/exotel_integration"
 source_version: "e1ffa65bd50eecd363520ffee066af0dac6f5dfde2b89cecdfac36fc85131edc"
 source_updated: "2026-02-26"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/exotel_integration)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [یکپارچه‌سازی Exotel](https://docs.frappe.io/erpnext/exotel_integration)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویرها در این مخزن بازنشر نشده‌اند و پیوندشان به فایل‌های میزبان منبع اشاره می‌کند.

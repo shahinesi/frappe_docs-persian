@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/crm_settings"
 source_id: "erpnext/crm_settings"
 source_version: "4031ea0a3ad6af9f3ca125973b66d2d48b0115b4b5853c00e7307c7f61814554"
 source_updated: "2026-07-23"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/crm_settings)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [تنظیمات CRM](https://docs.frappe.io/erpnext/crm_settings)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویرهای صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

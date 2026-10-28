@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/contact"
 source_id: "erpnext/contact"
 source_version: "ffb905a4d972e1a1d22c3a58382941b1beb9e5874f313cf7f5b357f896093352"
 source_updated: "2026-10-26"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/contact)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مخاطب (Contact)](https://docs.frappe.io/erpnext/contact)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویرهای صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

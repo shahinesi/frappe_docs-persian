@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/accounting-period"
 source_id: "erpnext/accounting-period"
 source_version: "f71c9aca7b9bceefdba84bde20a69f728598cf09c382549f2e4c9a4c4ebf8b42"
 source_updated: "2026-08-14"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/accounting-period)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [دورهٔ حسابداری](https://docs.frappe.io/erpnext/accounting-period)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویر منبع بازنشر نشده است؛ مجوز جداگانهٔ آن تأیید نشده است.

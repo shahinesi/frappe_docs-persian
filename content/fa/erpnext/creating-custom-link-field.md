@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/creating-custom-link-field"
 source_id: "erpnext/creating-custom-link-field"
 source_version: "68118a8c318b642c410e15a54288782bdce1d8923d499f05823f147514930588"
 source_updated: "2026-03-04"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/creating-custom-link-field)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [ایجاد فیلد پیوند سفارشی](https://docs.frappe.io/erpnext/creating-custom-link-field)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویرها و پویانمایی صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

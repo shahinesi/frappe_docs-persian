@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/insights/querying/script-query-api"
 source_id: "insights/querying/script-query-api"
 source_version: "0378da51b07274438cf049c0782f84eb73ca870e1e20d541e4914b3610e752ed"
 source_updated: "2026-08-31"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Insights است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/insights/querying/script-query-api)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Insights است. [API پرس‌وجوی اسکریپتی](https://docs.frappe.io/insights/querying/script-query-api)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 
 پرس‌وجوی اسکریپتی، Python را با <code>safe_exec</code> در sandbox مربوط به اسکریپت سرور اجرا می‌کند. برای فعال‌کردن آن، مقدار <code>"server_script_enabled": 1</code> را در <code>common_site_config.json</code> قرار دهید.

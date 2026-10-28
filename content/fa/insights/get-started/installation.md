@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/insights/get-started/installation"
 source_id: "insights/get-started/installation"
 source_version: "f648114dcb86b3295cb911b460e51a09d620fff3bfb7d1a8423b30c82e011fd0"
 source_updated: "2026-01-06"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Insights است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/insights/get-started/installation)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Insights است. [نصب](https://docs.frappe.io/insights/get-started/installation)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 
 Frappe Insights را می‌توان به چند روش، متناسب با نیازتان، نصب کرد: روی Frappe Cloud (نسخهٔ ابری مدیریت‌شدهٔ Frappe Insights) یا روی سرور خودتان. روش‌های نصب در بخش‌های زیر شرح داده شده‌اند.

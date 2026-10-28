@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/email_group"
 source_id: "erpnext/email_group"
 source_version: "cfebd4b00ebfe835f5881edd5fefdbbeb25c544bc3083fee9b693c92851c07d2"
 source_updated: "2026-07-23"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/email_group)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [گروه ایمیل](https://docs.frappe.io/erpnext/email_group)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویر در این مخزن بازنشر نشده و پیوندش به فایل میزبان منبع اشاره می‌کند.

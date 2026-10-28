@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/customize-form"
 source_id: "erpnext/customize-form"
 source_version: "c64077a9ee0b75a3b5c15840b930898a08df1231d27417edcc311f7bf3d2ac6f"
 source_updated: "2026-02-27"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/customize-form)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [سفارشی‌سازی فرم (سفارشی‌سازی فرم)](https://docs.frappe.io/erpnext/customize-form)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویرهای صفحهٔ منبع بازنشر نشده‌اند. ویدئوی آموزشی نیز بازنشر نشده و فقط پیوند منبع آن ارائه شده است.

@@ -5,8 +5,8 @@ source_url: "https://docs.frappe.io/framework/user/en/api/full-text-search"
 source_id: "framework/user/en/api/full-text-search"
 source_version: "de12121819e72207b32455cdf11e9b640dbec3bd574df04caa206080b41633e0"
 source_updated: "2026-02-17"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
@@ -59,4 +59,4 @@ Wrapper مربوط به Frappe برای [Whoosh](https://pypi.org/project/Whoosh
 
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/framework/user/en/api/full-text-search). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [API جست‌وجوی تمام‌متن (FullTextSearch)](https://docs.frappe.io/framework/user/en/api/full-text-search). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.

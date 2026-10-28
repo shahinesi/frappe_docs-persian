@@ -10,7 +10,7 @@ quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Insights است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/insights/connect-data/add-data-source)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Insights است. [افزودن منبع داده](https://docs.frappe.io/insights/connect-data/add-data-source)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 
 ## پیش‌نیازها

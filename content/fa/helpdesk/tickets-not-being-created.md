@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/helpdesk/tickets-not-being-created"
 source_id: "helpdesk/tickets-not-being-created"
 source_version: "204fe7c53a45f78ca1fc40cd5a0f0c8112ea133d783fd5d25c82765fa81c639a"
 source_updated: "2026-01-06"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/helpdesk/tickets-not-being-created)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [چرا تیکت‌ها ساخته نمی‌شوند؟](https://docs.frappe.io/helpdesk/tickets-not-being-created)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویرهای رابط کاربری صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

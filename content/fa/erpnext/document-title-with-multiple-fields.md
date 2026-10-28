@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/document-title-with-multiple-fields"
 source_id: "erpnext/document-title-with-multiple-fields"
 source_version: "2ffe1672818d442524ce2fb3f3a2eb70e204fd4b8aa3951f1098904b7f50b047"
 source_updated: "2026-03-04"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/document-title-with-multiple-fields)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [ساخت عنوان سند از چند فیلد](https://docs.frappe.io/erpnext/document-title-with-multiple-fields)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویرها در این مخزن بازنشر نشده‌اند و پیوندشان به فایل‌های سایت رسمی اشاره می‌کند.

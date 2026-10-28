@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/credit-limit"
 source_id: "erpnext/credit-limit"
 source_version: "2031729def1d3a531a43784093a364b04fa088f07fd845e642c61b7404c2fbae"
 source_updated: "2026-07-23"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/credit-limit)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [سقف اعتباری](https://docs.frappe.io/erpnext/credit-limit)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویرهای صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

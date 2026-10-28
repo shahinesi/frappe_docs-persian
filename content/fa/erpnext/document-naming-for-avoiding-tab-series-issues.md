@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/document-naming-for-avoiding-tab-ser
 source_id: "erpnext/document-naming-for-avoiding-tab-series-issues"
 source_version: "5959c730215db9d9438068b3e72e9afe160c9d255517380b2c6ef545b362dc98"
 source_updated: "2026-08-12"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/document-naming-for-avoiding-tab-series-issues)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [جلوگیری از مشکلات tabSeries در نام‌گذاری اسناد](https://docs.frappe.io/erpnext/document-naming-for-avoiding-tab-series-issues)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 
 وقتی در ERPNext سندی را ذخیره می‌کنید—مانند فاکتور فروش، ثبت موجودی یا پرداخت که شماره‌اش خودکار ساخته می‌شود—سیستم باید شمارهٔ بعدی توالی را پیدا کند؛ برای نمونه 0001، 0002، 0003 و به همین ترتیب.

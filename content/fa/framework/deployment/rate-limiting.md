@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/framework/deployment/rate-limiting"
 source_id: "framework/deployment/rate-limiting"
 source_version: "002609eaca63c99d4a2317e345aedcc948f5f5d72c92dc41d48b2fc4084facfb"
 source_updated: "2026-09-29"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/framework/deployment/rate-limiting)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [محدودسازی نرخ درخواست‌ها](https://docs.frappe.io/framework/deployment/rate-limiting)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 
 Frappe Framework به‌صورت پیش‌فرض از محدودسازی نرخ درخواست‌های HTTP پشتیبانی می‌کند.

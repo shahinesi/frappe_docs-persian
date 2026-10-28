@@ -5,8 +5,8 @@ source_url: "https://docs.frappe.io/erpnext/change-valuation-method"
 source_id: "erpnext/change-valuation-method"
 source_version: "499266eda7cec009a799d84c821288cdadf4f3846cb79caa9aaed770dc9ee2d1"
 source_updated: "2026-02-20"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
@@ -20,4 +20,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/change-valuation-method). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [تغییر روش ارزش‌گذاری موجودی](https://docs.frappe.io/erpnext/change-valuation-method). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.

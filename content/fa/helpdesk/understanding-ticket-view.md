@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/helpdesk/lesson-2understanding-ticket-view"
 source_id: "helpdesk/lesson-2understanding-ticket-view"
 source_version: "a2d51da41f1b00a15bc273208c7bee042368638f26c9c44ca07b6c14bfa70977"
 source_updated: "2026-01-16"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/helpdesk/lesson-2understanding-ticket-view)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Helpdesk است. [آشنایی با نمای تیکت](https://docs.frappe.io/helpdesk/lesson-2understanding-ticket-view)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصاویر رابط کاربری صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.

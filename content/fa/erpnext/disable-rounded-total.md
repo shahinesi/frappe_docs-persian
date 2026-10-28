@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/disable-rounded-total"
 source_id: "erpnext/disable-rounded-total"
 source_version: "7c00e8681f2ee21612682451e907a502291142b2527158b80c41cba4007e138a"
 source_updated: "2026-03-04"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/disable-rounded-total)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [غیرفعال‌کردن مجموع گرد شده](https://docs.frappe.io/erpnext/disable-rounded-total)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویرها در این مخزن بازنشر نشده‌اند و پیوندشان به فایل‌های سایت رسمی اشاره می‌کند.

@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/distributed-cost-center"
 source_id: "erpnext/distributed-cost-center"
 source_version: "b481ea0809113ab910fe8ce65df7647cb94018e7a43a5f7b3b71c71e63f7686e"
 source_updated: "2026-08-14"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/distributed-cost-center)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [توزیع هزینه میان مراکز هزینه](https://docs.frappe.io/erpnext/distributed-cost-center)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویرها در این مخزن بازنشر نشده‌اند و پیوندشان به فایل‌های میزبان منبع اشاره می‌کند.

@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/erpnext/domain-settings"
 source_id: "erpnext/domain-settings"
 source_version: "0980469b57e253f55bf72c1f5aaa339f606c0719d66510d2836b724789822a37"
 source_updated: "2026-08-15"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/erpnext/domain-settings)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [تنظیمات دامنه (تنظیمات دامنه)](https://docs.frappe.io/erpnext/domain-settings)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویر در این مخزن بازنشر نشده و پیوندش به فایل میزبان منبع اشاره می‌کند.

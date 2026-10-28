@@ -5,12 +5,12 @@ source_url: "https://docs.frappe.io/framework/doctypes/allow-on-submit"
 source_id: "framework/doctypes/allow-on-submit"
 source_version: "4faca3388ffd3e4642f78229163bb0964025dbd35b63e2338fac6e59126507e4"
 source_updated: "2026-09-30"
-translation_status: "quality_checked"
-quality_status: "passed"
+translation_status: "translated"
+quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [مشاهدهٔ منبع اصلی](https://docs.frappe.io/framework/doctypes/allow-on-submit)
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [ویرایش فیلد پس از ثبت سند](https://docs.frappe.io/framework/doctypes/allow-on-submit)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصاویر صفحهٔ منبع در این نسخه بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.
