@@ -6,6 +6,10 @@ const root = new URL('../', import.meta.url);
 const contentRoot = new URL('../content/fa/', import.meta.url);
 const manifest = JSON.parse(await readFile(new URL('../sources/manifest.json', import.meta.url), 'utf8'));
 const byUrl = new Map(manifest.pages.map((page) => [page.url, page]));
+const byOfficialPath = new Map(manifest.pages.map((page) => {
+  const url = new URL(page.url);
+  return [`${url.hostname}${url.pathname.replace(/\/$/, '')}`, page];
+}));
 const failures = [];
 const pages = [];
 const genericLinkLabel = /^(?:مستندات رسمی(?:\s+.+)?|مستندات|صفحه(?:ٔ|‌ی|ی)? رسمی|راهنمای «.*» در .+|این صفحه|این راهنما|این سند|اینجا|برای اطلاعات بیشتر|برای جزئیات بیشتر|بیشتر بخوانید|کلیک کنید|مشاهده کنید|راهنمای رسمی|this page|this guide|this document|here|read more|learn more|click here|official documentation|documentation)$/i;
@@ -56,6 +60,21 @@ for (const file of pages) {
     const pointsToMarkdown = !/^[a-z]+:/i.test(href) && !href.startsWith('#') && /\.md(?:[?#]|$)/i.test(href);
     if ((pointsToExternalSite || pointsToMarkdown) && genericLinkLabel.test(label.trim())) {
       failures.push(`${relative}: generic link label "${label.trim()}" must describe its destination`);
+    }
+    if (/^https?:\/\//i.test(href)) {
+      try {
+        const url = new URL(href);
+        if (['docs.frappe.io', 'docs.erpnext.com'].includes(url.hostname.toLowerCase())
+          && !url.pathname.startsWith('/files/')) {
+          const officialTarget = byOfficialPath.get(`${url.hostname}${url.pathname.replace(/\/$/, '')}`);
+          const isThisPageSource = source && officialTarget === source && href.split(/[?#]/, 1)[0] === sourceUrl;
+          if (officialTarget?.translation_path && !isThisPageSource) {
+            failures.push(`${relative}: official link to a translated page must use its local Persian Markdown target: ${href}`);
+          }
+        }
+      } catch {
+        failures.push(`${relative}: malformed official documentation URL: ${href}`);
+      }
     }
   }
   const fences = [...body.matchAll(/^\s*```/gm)].length;
