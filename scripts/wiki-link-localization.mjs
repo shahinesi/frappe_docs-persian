@@ -41,12 +41,16 @@ function buildMixedTermEntries(terms) {
 	const mixedEntries = [];
 	for (const [english, persian] of entries) {
 		if (!english.includes(' ') || !persian || !FA_LETTER.test(persian)) continue;
-	const partialTerms = Object.fromEntries(entries.filter(([candidate]) => candidate !== english
+		const candidates = entries.filter(([candidate]) => candidate !== english
 		&& candidate.length < english.length
-		&& english.toLowerCase().includes(candidate.toLowerCase())));
-		const partial = replaceUiTerms(english, partialTerms);
-		if (partial !== english && partial !== persian && FA_LETTER.test(partial) && /[A-Za-z]/.test(partial)) {
-			mixedEntries.push([partial, persian]);
+			&& english.toLowerCase().includes(candidate.toLowerCase()));
+		const partialTermSets = candidates.map((entry) => [entry]);
+		if (candidates.length > 1) partialTermSets.push(candidates);
+		for (const partialTermSet of partialTermSets) {
+			const partial = replaceUiTerms(english, Object.fromEntries(partialTermSet));
+			if (partial !== english && partial !== persian && FA_LETTER.test(partial) && /[A-Za-z]/.test(partial)) {
+				mixedEntries.push([partial, persian]);
+			}
 		}
 	}
 	const result = mixedEntries.sort(([left], [right]) => left.length - right.length);
@@ -71,7 +75,7 @@ export function replaceUiTerms(text, terms, counters, mixedEntries = []) {
 	result = result.replace(compiled.pattern, (match) => {
 		const english = match.toLowerCase();
 		const persian = compiled.lookup.get(english);
-		return match === match.toUpperCase() && english !== match ? match : persian || match;
+		return /^[A-Z0-9 _-]+$/.test(match) && english !== match ? match : persian || match;
 	});
 	return result;
 }
@@ -339,6 +343,13 @@ export function prepareMarkdownLinks(markdown, {
 	}
 	const trailingText = body.slice(lastIndex);
 	result += localizeBreadcrumbs(localizeBareListLabels(replaceKnownUiEntities(replaceUiTerms(trailingText, bodyTerms, counters, mixedEntries), allTerms, counters), allTerms, counters, mixedEntries, phraseTerms), allTerms, counters, mixedEntries, phraseTerms);
+	result = result.replace(/\*\*([^*\r\n]+)\*\*\s+\(([^()\r\n]+)\)/gu, (match, label, sourceLabel) => {
+		if (!/[A-Za-z]/.test(sourceLabel)) return match;
+		const localized = localizeDisplayLabel(sourceLabel, allTerms, null, mixedEntries, phraseTerms).trim();
+		if (localized === sourceLabel) return match;
+		return localized === label.trim() ? `**${label}**` : `**${label}** (${localized})`;
+	});
+	result = result.replace(/\*\*([^*\r\n]+)\*\*\s+\(\s*\1\s*\)/gu, '**$1**');
 	return { markdown: prefix + result, counters, reviewIssues };
 }
 

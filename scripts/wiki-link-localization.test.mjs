@@ -258,6 +258,49 @@ test('repairs partial product translations using the full locale term', () => {
 	assert.equal(result.markdown, '**گروه مشتریان**');
 });
 
+test('repairs every partially localized form of a composite UI term in prose', () => {
+	const result = prepareMarkdownLinks('پرداخت Terms و Payment مقررات را بررسی کنید.', {
+		currentPath: 'content/fa/erpnext/example.md',
+		manifest,
+		titles: new Map(),
+		terms: {},
+		uiTerms: { Payment: 'پرداخت', Terms: 'مقررات', 'Payment Terms': 'شرایط پرداخت' },
+	});
+	assert.equal(result.markdown, 'شرایط پرداخت و شرایط پرداخت را بررسی کنید.');
+});
+
+test('translates mixed Persian and acronym UI terms while preserving standalone identifiers', () => {
+	const result = prepareMarkdownLinks('دسته ID را تعیین کنید؛ مقدار API را حفظ کنید.', {
+		currentPath: 'content/fa/erpnext/example.md',
+		manifest,
+		titles: new Map(),
+		terms: {},
+		uiTerms: { 'دسته ID': 'شناسهٔ دسته', API: 'رابط برنامه‌نویسی کاربردی' },
+	});
+	assert.equal(result.markdown, 'شناسهٔ دسته را تعیین کنید؛ مقدار API را حفظ کنید.');
+});
+
+test('removes a duplicated Persian UI label left beside its translated label', () => {
+	const result = prepareMarkdownLinks('گزینهٔ **افزودن دارایی** (افزودن دارایی) را انتخاب کنید.', {
+		currentPath: 'content/fa/erpnext/example.md',
+		manifest,
+		titles: new Map(),
+		terms: {},
+	});
+	assert.equal(result.markdown, 'گزینهٔ **افزودن دارایی** را انتخاب کنید.');
+});
+
+test('localizes source labels in parentheses after a Persian field label', () => {
+	const result = prepareMarkdownLinks('**محل** (Location) و **عنوان** (Title)', {
+		currentPath: 'content/fa/erpnext/example.md',
+		manifest,
+		titles: new Map(),
+		terms: {},
+		uiTerms: { Location: 'محل', Title: 'عنوان' },
+	});
+	assert.equal(result.markdown, '**محل** و **عنوان**');
+});
+
 test('matches translated composite terms without consuming an English plural suffix', () => {
 	const result = prepareMarkdownLinks('**All مشتری Groups**', {
 		currentPath: 'content/fa/erpnext/customer-group.md',
@@ -337,6 +380,22 @@ test('translates standalone UI labels in Markdown lists without changing example
 		uiTerms: { Employee: 'کارمند', Department: 'دپارتمان', Branch: 'شعبه' },
 	});
 	assert.equal(result.markdown, '- کارمند\n- دپارتمان\n- شعبه\n- Nova Electronics Trading');
+});
+
+test('localizes attendance prerequisites and a mixed attendance tool heading', () => {
+	const result = prepareMarkdownLinks('پیش‌نیازها:\n- Employee\n- Department\n- Branch\n\n2. ثبت حضور و غیاب با Employee Attendance', {
+		currentPath: 'content/fa/hr/example.md',
+		manifest,
+		titles: new Map(),
+		terms: {},
+		uiTerms: {
+			Employee: 'کارمند',
+			Department: 'دپارتمان',
+			Branch: 'شعبه',
+			'Employee Attendance': 'حضور و غیاب کارکنان',
+		},
+	});
+	assert.equal(result.markdown, 'پیش‌نیازها:\n- کارمند\n- دپارتمان\n- شعبه\n\n2. ثبت حضور و غیاب با حضور و غیاب کارکنان');
 });
 
 test('localizes UI labels in navigation breadcrumbs while preserving code identifiers', () => {

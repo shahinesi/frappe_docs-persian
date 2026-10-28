@@ -76,7 +76,7 @@ Domain نمایانگر یک زمینهٔ کسب‌وکار است و می‌ت�
 ## موضوعات مرتبط
 
 - [تنظیمات ماژول](https://docs.frappe.io/erpnext/module-settings)
-- [نقش Based Permissions](https://docs.frappe.io/erpnext/role-based-permissions)
+- [مجوزهای مبتنی بر نقش](https://docs.frappe.io/erpnext/role-based-permissions)
 - [مجوزهای کاربر](https://docs.frappe.io/erpnext/user-permissions)
 - [فضای کاری](https://docs.frappe.io/erpnext/workspace)
 - [تنظیمات سیستم](https://docs.frappe.io/erpnext/system-settings)
