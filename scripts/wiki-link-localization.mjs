@@ -65,9 +65,13 @@ export function replaceUiTerms(text, terms, counters, mixedEntries = []) {
 		const leftBoundary = /^[\p{L}\p{N}_]/u.test(partial) ? '(?<![\\p{L}\\p{N}_])' : '';
 		const rightBoundary = /[\p{L}\p{N}_]$/u.test(partial) ? '(?![\\p{L}\\p{N}_])' : '';
 		const pattern = new RegExp(`${leftBoundary}${escapeRegExp(partial)}${rightBoundary}`, 'gu');
+		const leadingPersian = partial.match(/^([\u0600-\u06FF][\u0600-\u06FF\s‌َُِّٔ]*)\s+\S/u)?.[1]?.trimEnd();
+		const replacement = leadingPersian && persian.startsWith(`${leadingPersian} `)
+			? `${leadingPersian} ${persian.slice(leadingPersian.length).trimStart()}`
+			: persian;
 		const count = [...result.matchAll(pattern)].length;
 		if (counters) counters.translatedTerms += count;
-		result = result.replace(pattern, persian);
+		result = result.replace(pattern, replacement);
 	}
 	const compiled = getCompiledTerms(terms);
 	if (!compiled.pattern) return result;
@@ -81,20 +85,28 @@ export function replaceUiTerms(text, terms, counters, mixedEntries = []) {
 }
 
 function localizeDisplayLabel(text, terms, counters, mixedEntries = [], phraseTerms = terms) {
+	const protectedTokens = [];
+	const protectCode = (value) => value.replace(/`[^`\n]*`|<code\b[^>]*>[\s\S]*?<\/code\s*>/gi, (token) => {
+		const marker = `\uE000${protectedTokens.length}\uE001`;
+		protectedTokens.push(token);
+		return marker;
+	});
+	const restoreCode = (value) => value.replace(/\uE000(\d+)\uE001/g, (marker, index) => protectedTokens[Number(index)] ?? marker);
+	text = protectCode(text);
 	const trimmedText = text.trim();
 	if (/^\/[A-Za-z0-9._~!$&'()*+,;=:@%/-]+$/.test(trimmedText)
-		|| /^[a-z][A-Za-z0-9]*(?:_[A-Za-z0-9]+)+$/.test(trimmedText)) return text;
-	if (FA_LETTER.test(text) && !/[A-Za-z]/.test(text)) return text;
+		|| /^[a-z][A-Za-z0-9]*(?:_[A-Za-z0-9]+)+$/.test(trimmedText)) return restoreCode(text);
+	if (FA_LETTER.test(text) && !/[A-Za-z]/.test(text)) return restoreCode(text);
 	const punctuated = trimmedText.match(/^([\s\S]*?)([:!?.,;])$/);
 	if (punctuated?.[1] && terms[punctuated[1]]) {
 		if (counters) counters.translatedTerms++;
-		return `${text.slice(0, text.indexOf(trimmedText))}${terms[punctuated[1]]}${punctuated[2]}${text.slice(text.indexOf(trimmedText) + trimmedText.length)}`;
+		return restoreCode(`${text.slice(0, text.indexOf(trimmedText))}${terms[punctuated[1]]}${punctuated[2]}${text.slice(text.indexOf(trimmedText) + trimmedText.length)}`);
 	}
 	let result = replaceUiTerms(text, phraseTerms, counters, mixedEntries);
 	const trimmed = text.trim();
 	const exactTranslation = terms[trimmed];
 	if (exactTranslation) result = result.replace(trimmed, exactTranslation);
-	return result;
+	return restoreCode(result);
 }
 
 function localizeBareListLabels(text, terms, counters, mixedEntries = [], phraseTerms = terms) {
@@ -380,7 +392,7 @@ export function prepareMarkdownLinks(markdown, {
 	result += localizeBreadcrumbs(localizeBareListLabels(replaceKnownUiEntities(localizeStatusMentions(replaceUiTerms(trailingText, bodyTerms, counters, mixedEntries), allTerms, counters), allTerms, counters), allTerms, counters, mixedEntries, phraseTerms), allTerms, counters, mixedEntries, phraseTerms);
 	result = result.replace(/\*\*([^*\r\n]+)\*\*\s+\(([^()\r\n]+)\)/gu, (match, label, sourceLabel) => {
 		if (!/[A-Za-z]/.test(sourceLabel)) return match;
-		if (sourceLabel.startsWith('`') && sourceLabel.endsWith('`')) return match;
+		if (sourceLabel.includes('`') || /<code\b/i.test(sourceLabel)) return match;
 		const localized = localizeDisplayLabel(sourceLabel, allTerms, null, mixedEntries, phraseTerms).trim();
 		if (localized === sourceLabel) return match;
 		return localized === label.trim() ? `**${label}**` : `**${label}** (${localized})`;

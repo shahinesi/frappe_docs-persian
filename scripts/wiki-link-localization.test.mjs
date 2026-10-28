@@ -335,6 +335,18 @@ test('preserves inline-code identifiers in parentheses after translated labels',
 	assert.equal(result.markdown, input);
 });
 
+test('preserves inline-code identifiers inside links and DocType parentheticals', () => {
+	const input = 'از DocType: `Customer Group` استفاده کنید و [مستندات `Flow Builder`](https://example.com) را ببینید.';
+	const result = prepareMarkdownLinks(input, {
+		currentPath: 'content/fa/erpnext/example.md',
+		manifest,
+		titles: new Map(),
+		terms: {},
+		uiTerms: { 'Customer Group': 'گروه مشتریان', 'Flow Builder': 'سازندهٔ گردش‌کار' },
+	});
+	assert.equal(result.markdown, input);
+});
+
 test('matches translated composite terms without consuming an English plural suffix', () => {
 	const result = prepareMarkdownLinks('**All مشتری Groups**', {
 		currentPath: 'content/fa/erpnext/customer-group.md',

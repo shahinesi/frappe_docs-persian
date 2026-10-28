@@ -2019,6 +2019,15 @@
       "source_label": "Public",
       "translation": "عمومی",
       "basis": "Reuse the established Persian public-sharing option."
+    },
+    {
+      "product": "erpnext",
+      "source_labels": {
+        "Template Name": "نام الگو",
+        "Standard Print Format": "قالب چاپ استاندارد",
+        "Print Format Templates": "قالب‌های چاپ"
+      },
+      "basis": "Reviewed Persian labels for the visible template name and print format selector in ERPNext documentation."
     }
   ],
   "source_files": {
