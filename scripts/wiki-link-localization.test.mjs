@@ -51,6 +51,43 @@ test('resolves any official documentation label from its destination URL', () =>
 	assert.equal(result.markdown, '[شاخه](branch.md)');
 });
 
+test('uses the linked page title for a generic ERPNext documentation label', () => {
+	const sourceUrl = 'https://docs.frappe.io/hr/branch';
+	const result = prepareMarkdownLinks(`[مستندات رسمی ERPNext](${sourceUrl})`, {
+		currentPath: 'content/fa/hr/example.md',
+		manifest: { pages: [{ ...manifest.pages[0], url: sourceUrl }] },
+		titles: new Map([['content/fa/hr/branch.md', 'شعبه']]),
+		terms: {},
+	});
+	assert.equal(result.markdown, '[شعبه](branch.md)');
+});
+
+test('translates English HR entities in prerequisite lists and mixed headings', () => {
+	const result = prepareMarkdownLinks([
+		'پیش از ثبت حضور و غیاب، موارد زیر را آماده کنید:',
+		'- Employee',
+		'- Department',
+		'- Branch',
+		'## 2. ثبت حضور و غیاب با Employee Attendance',
+	].join('\n'), {
+		currentPath: 'content/fa/hr/example.md',
+		manifest,
+		uiTerms: {
+			Employee: 'کارمند',
+			Department: 'دپارتمان',
+			Branch: 'شعبه',
+			'Employee Attendance': 'ابزار حضور و غیاب کارکنان',
+		},
+	});
+	assert.equal(result.markdown, [
+		'پیش از ثبت حضور و غیاب، موارد زیر را آماده کنید:',
+		'- کارمند',
+		'- دپارتمان',
+		'- شعبه',
+		'## 2. ثبت حضور و غیاب با ابزار حضور و غیاب کارکنان',
+	].join('\n'));
+});
+
 test('replaces product documentation labels with the title of the linked destination', () => {
 	const sourceUrl = 'https://docs.frappe.io/framework/user/en/basics/users-and-permissions';
 	const result = prepareMarkdownLinks(`[مستندات Frappe Framework](${sourceUrl})`, {
