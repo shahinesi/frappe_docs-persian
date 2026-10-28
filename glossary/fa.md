@@ -149,6 +149,8 @@
 | Expense Claim | مطالبه هزینه | برچسب رابط فارسی رسمی Frappe HR برای درخواست بازپرداخت هزینه؛ در API نام `Expense Claim` حفظ شود. |
 | Employee Benefit Application | درخواست مزایای کارکنان | برچسب رابط رسمی Frappe HR؛ در API نام DocType حفظ شود. |
 | Employee Benefit Claim | مطالبه مزایای کارکنان | برچسب رابط رسمی Frappe HR؛ در API نام DocType حفظ شود. |
+| Flexible Benefits | مزایای انعطاف‌پذیر | برچسب رابط رسمی Frappe HR برای مجموعه مزایای انتخابی کارمند. |
+| Employee Other Income | سایر درآمدهای کارمند | برچسب رابط رسمی Frappe HR؛ در API نام DocType حفظ شود. |
 | Appraisal | ارزیابی عملکرد | چرخه و سند بررسی عملکرد کارکنان. |
 | Appraisal Template | الگوی ارزیابی عملکرد | قالب شامل KRA و معیارهای بازخورد برای امتیازدهی. |
 | Appraisal Cycle | چرخهٔ ارزیابی عملکرد | بازه و فرایند برنامه‌ریزی ارزیابی کارکنان. |

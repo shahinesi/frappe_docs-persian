@@ -32916,10 +32916,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "973d27091778b1312e98f8965d20f3cf810dd99ae358d4fdcc067aab2a64efe6",
       "source_modified": "2026-02-04",
-      "translation_status": "not_started",
+      "translation_status": "translated",
       "quality_status": "not_reviewed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/hr/employee-flexible-benefits.md",
       "discovered_at": "2026-10-27T05:52:36.574Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/hr/employee-flexible-benefits.md",
@@ -32932,7 +32932,8 @@
       "license_status": "unverified",
       "attribution_required": true,
       "unofficial_translation": true,
-      "snapshot_status": "fetched"
+      "snapshot_status": "fetched",
+      "source_snapshot_path": "sources/hr/employee-flexible-benefits.md"
     },
     {
       "url": "https://docs.frappe.io/hr/employee-grade",
@@ -33092,10 +33093,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "7d1a697ada8c4701e0c359a6445898a8b15d5a518ad6716f7aa51d1257a16db1",
       "source_modified": "2026-02-04",
-      "translation_status": "not_started",
+      "translation_status": "translated",
       "quality_status": "not_reviewed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/hr/employee-other-income.md",
       "discovered_at": "2026-10-27T05:52:36.582Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/hr/employee-other-income.md",
@@ -33108,7 +33109,8 @@
       "license_status": "unverified",
       "attribution_required": true,
       "unofficial_translation": true,
-      "snapshot_status": "fetched"
+      "snapshot_status": "fetched",
+      "source_snapshot_path": "sources/hr/employee-other-income.md"
     },
     {
       "url": "https://docs.frappe.io/hr/employee-performance-feedback",
