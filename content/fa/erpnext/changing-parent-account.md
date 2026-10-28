@@ -34,7 +34,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 | به همان [شرکت](company-setup.md) تعلق داشته باشد. | هر شرکت درخت حساب‌های جداگانه دارد. |
 | یک حساب گروهی باشد. | حساب دفترکل نمی‌تواند حساب فرزند داشته باشد. |
 | در شاخهٔ ریشهٔ درست قرار گیرد. | حساب باید در ساختار موردنظر دارایی، بدهی، حقوق صاحبان سهام، درآمد یا هزینه باقی بماند. |
-| طبقه‌بندی گزارش موردنظر را پشتیبانی کند. | والد تعیین می‌کند مانده در [ترازنامه](balance-sheet.md) یا [صورت سود و زیان](https://docs.frappe.io/erpnext/profit-and-loss-statement) تجمیع شود. |
+| طبقه‌بندی گزارش موردنظر را پشتیبانی کند. | والد تعیین می‌کند مانده در [ترازنامه](balance-sheet.md) یا [صورت سود و زیان](https://docs.frappe.io/erpnext/profit-and-loss-report) تجمیع شود. |
 
 از این روش برای یکی‌کردن حساب‌های تکراری استفاده نکنید؛ برای مورد تکراری واقعی **ادغام حساب** را به‌کار ببرید. صرفاً برای اصلاح سلسله‌مراتب حساب، مرکز هزینهٔ تازه‌ای نسازید؛ [مراکز هزینه](cost-center.md) کاربرد گزارش‌گیری دیگری دارند.
 
@@ -138,7 +138,7 @@ ERPNext مقدارهای ساختاری را از حساب والد به‌دس�
 ## موضوعات مرتبط
 
 - [ادغام حساب‌ها](https://docs.frappe.io/erpnext/merging-accounts)
-- [مسدودکردن حساب](https://docs.frappe.io/erpnext/freeze-an-account)
+- [مسدودکردن حساب](freeze-accounting-entries.md)
 - [بازسازی درخت](https://docs.frappe.io/erpnext/rebuild-tree)
 - [ابعاد حسابداری](accounting-dimensions.md)
 - [تنظیمات حساب‌ها](accounts-settings.md)

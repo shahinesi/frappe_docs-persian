@@ -87,7 +87,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 برای هند، اطلاعات GST زیر را نیز می‌توان وارد کرد:
 
 - مشتری GSTIN
-- Place of Supply
+- محل عرضه
 - آدرس صورتحساب GSTIN
 - شرکت GSTIN
 - شرکت Address Name
@@ -169,7 +169,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای هند، اطلاعات GST زیر نیز ثبت می‌شود:
 
-- GST Transporter ID
+- شناسه حمل‌کننده GST
 - شماره رسید حمل و نقل
 - شماره وسیله نقلیه
 
@@ -248,6 +248,6 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 1. [انبار](https://docs.frappe.io/erpnext/warehouse)
 2. [خطای موجودی یادداشت تحویل](delivery-note-stock-error.md)
-3. [انتقال مواد از یادداشت تحویل و رسید خرید](/erpnext/material-transfer-from-delivery-note-and-purchase-receipt)
+3. [انتقال مواد از یادداشت تحویل و رسید خرید](https://docs.frappe.io/erpnext/material-transfer-from-delivery-note)
 4. [یادداشت نصب](https://docs.frappe.io/erpnext/installation-note)
 5. [سفر تحویل (مسیر تحویل)](delivery-trip.md)

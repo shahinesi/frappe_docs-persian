@@ -108,6 +108,6 @@ ERPNext پیش از ذخیره، تغییر را با تراکنش‌های پی
 
 - [سفارش فروش](sales-order.md)
 - [بستن سفارش فروش](close-sales-order.md)
-- [بستن نهایی چند سفارش](/erpnext/short-close-multiple-orders)
+- [بستن نهایی چند سفارش](https://docs.frappe.io/erpnext/how-to-short-close-multiple-orders-in-erpnext)
 
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/amending-sales-order-after-submit). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های منبع پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

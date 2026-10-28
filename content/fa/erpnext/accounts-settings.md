@@ -198,7 +198,7 @@ Nova Industries ممکن است تصمیم بگیرد شمارهٔ فاکتور�
 - [پیش‌فرض‌های حسابداری شرکت](company-accounting-defaults.md)
 - [درخت حساب‌ها](chart-of-accounts.md)
 - [تطبیق پرداخت](https://docs.frappe.io/erpnext/payment-reconciliation)
-- [بازنشر دفتر حسابداری](https://docs.frappe.io/erpnext/accounting/tools/repost-accounting-ledger)
+- [بازنشر دفتر حسابداری](https://docs.frappe.io/erpnext/repost-accounting-ledger)
 - [دورهٔ حسابداری](accounting-period.md)
 - [سند مالی پایان دوره](https://docs.frappe.io/erpnext/period-closing-voucher)
 - [استهلاک دارایی](asset-depreciation.md)

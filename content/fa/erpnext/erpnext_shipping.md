@@ -33,9 +33,9 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ### 1.1 SendCloud
 
 1. در [SendCloud](https://panel.sendcloud.sc/accounts/signup/) ثبت‌نام کنید.
-2. برای تولید **Public Key** و **Secret Key**، [این مراحل](https://support.sendcloud.com/hc/en-us/articles/360024967612-Service-points-for-API-Integrations#step-1-) را دنبال کنید.
+2. برای تولید **کلید عمومی** و **Secret Key**، [این مراحل](https://support.sendcloud.com/hc/en-us/articles/360024967612-Service-points-for-API-Integrations#step-1-) را دنبال کنید.
 3. در Awesome Bar عبارت **SendCloud** را جست‌وجو کنید.
-4. **Public Key** را در فیلد **کلید API** و **Secret Key** را در فیلد **API Secret** در DocTypeِ SendCloud وارد کنید.
+4. **کلید عمومی** را در فیلد **کلید API** و **Secret Key** را در فیلد **API Secret** در DocTypeِ SendCloud وارد کنید.
 5. گزینهٔ **فعال** را فعال کنید.
 6. ذخیره کنید.
 

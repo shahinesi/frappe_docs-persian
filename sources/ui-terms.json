@@ -20,6 +20,198 @@
         "HD Settings": "تنظیمات"
       },
       "basis": "These are document UI labels whose upstream Helpdesk Persian locale entries have empty msgstr values. The Persian documentation uses the reviewed local terms; code spans and technical identifiers remain protected."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "BOM Update Tool",
+      "translation": "ابزار به‌روزرسانی BOM",
+      "basis": "Reviewed manually against surrounding Persian documentation text; translated because it is a visible UI label or generic prose term. Product names and technical identifiers remain unchanged."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Current BOM",
+      "translation": "BOM فعلی",
+      "basis": "Reviewed manually against surrounding Persian documentation text; translated because it is a visible UI label or generic prose term. Product names and technical identifiers remain unchanged."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "New BOM",
+      "translation": "BOM جدید",
+      "basis": "Reviewed manually against surrounding Persian documentation text; translated because it is a visible UI label or generic prose term. Product names and technical identifiers remain unchanged."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Monitor",
+      "translation": "نمایشگر",
+      "basis": "Reviewed manually against surrounding Persian documentation text; translated because it is a visible UI label or generic prose term. Product names and technical identifiers remain unchanged."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Key Board",
+      "translation": "صفحه‌کلید",
+      "basis": "Reviewed manually against surrounding Persian documentation text; translated because it is a visible UI label or generic prose term. Product names and technical identifiers remain unchanged."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Keyboard",
+      "translation": "صفحه‌کلید",
+      "basis": "Reviewed manually against surrounding Persian documentation text; translated because it is a visible UI label or generic prose term. Product names and technical identifiers remain unchanged."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Mouse",
+      "translation": "ماوس",
+      "basis": "Reviewed manually against surrounding Persian documentation text; translated because it is a visible UI label or generic prose term. Product names and technical identifiers remain unchanged."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Hard Disk",
+      "translation": "دیسک سخت",
+      "basis": "Reviewed manually against surrounding Persian documentation text; translated because it is a visible UI label or generic prose term. Product names and technical identifiers remain unchanged."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "MotherBoard",
+      "translation": "مادربرد",
+      "basis": "Reviewed manually against surrounding Persian documentation text; translated because it is a visible UI label or generic prose term. Product names and technical identifiers remain unchanged."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Motherboard",
+      "translation": "مادربرد",
+      "basis": "Reviewed manually against surrounding Persian documentation text; translated because it is a visible UI label or generic prose term. Product names and technical identifiers remain unchanged."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Processor",
+      "translation": "پردازنده",
+      "basis": "Reviewed manually against surrounding Persian documentation text; translated because it is a visible UI label or generic prose term. Product names and technical identifiers remain unchanged."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Merchant ID",
+      "translation": "شناسه پذیرنده",
+      "basis": "Reviewed manually against surrounding Persian documentation text; translated because it is a visible UI label or generic prose term. Product names and technical identifiers remain unchanged."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Public Key",
+      "translation": "کلید عمومی",
+      "basis": "Reviewed manually against surrounding Persian documentation text; translated because it is a visible UI label or generic prose term. Product names and technical identifiers remain unchanged."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Private Key",
+      "translation": "کلید خصوصی",
+      "basis": "Reviewed manually against surrounding Persian documentation text; translated because it is a visible UI label or generic prose term. Product names and technical identifiers remain unchanged."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Attach File",
+      "translation": "پیوست فایل",
+      "basis": "Reviewed manually against surrounding Persian documentation text; translated because it is a visible UI label or generic prose term. Product names and technical identifiers remain unchanged."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Import Using Google Sheets",
+      "translation": "واردکردن با Google Sheets",
+      "basis": "Reviewed manually against surrounding Persian documentation text; translated because it is a visible UI label or generic prose term. Product names and technical identifiers remain unchanged."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Place of Supply",
+      "translation": "محل عرضه",
+      "basis": "Reviewed manually against surrounding Persian documentation text; translated because it is a visible UI label or generic prose term. Product names and technical identifiers remain unchanged."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "GST Transporter ID",
+      "translation": "شناسه حمل‌کننده GST",
+      "basis": "Reviewed manually against surrounding Persian documentation text; translated because it is a visible UI label or generic prose term. Product names and technical identifiers remain unchanged."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Attachment Limit",
+      "translation": "محدودیت پیوست",
+      "basis": "Reviewed manually against surrounding Persian documentation text; translated because it is a visible UI label or generic prose term. Product names and technical identifiers remain unchanged."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Manufacturing",
+      "translation": "تولید",
+      "basis": "Reviewed manually against surrounding Persian documentation text; translated because it is a visible UI label or generic prose term. Product names and technical identifiers remain unchanged."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Tools",
+      "translation": "ابزارها",
+      "basis": "Reviewed manually against surrounding Persian documentation text; translated because it is a visible UI label or generic prose term. Product names and technical identifiers remain unchanged."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Current BOM and New BOM",
+      "translation": "BOM فعلی و BOM جدید",
+      "basis": "Reviewed manually against surrounding Persian documentation text; translated because it is a visible UI label or generic prose term. Product names and technical identifiers remain unchanged."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Bill of Materials",
+      "translation": "صورت مواد اولیه",
+      "basis": "Reviewed manually against surrounding Persian documentation text; translated because it is a visible UI label or generic prose term. Product names and technical identifiers remain unchanged."
+    },
+    {
+      "product": "framework",
+      "source_label": "Authorization Server",
+      "translation": "سرور احراز هویت",
+      "basis": "Reviewed manually against surrounding Persian documentation text; translated because it is a visible UI label or generic prose term. Product names and technical identifiers remain unchanged."
+    },
+    {
+      "product": "framework",
+      "source_label": "Authorization Server Metadata Discovery",
+      "translation": "کشف فرادادهٔ سرور احراز هویت",
+      "basis": "Reviewed manually against surrounding Persian documentation text; translated because it is a visible UI label or generic prose term. Product names and technical identifiers remain unchanged."
+    },
+    {
+      "product": "helpdesk",
+      "source_label": "Bug",
+      "translation": "اشکال",
+      "basis": "Reviewed manually against surrounding Persian documentation text; translated because it is a visible UI label or generic prose term. Product names and technical identifiers remain unchanged."
+    },
+    {
+      "product": "helpdesk",
+      "source_label": "Incident",
+      "translation": "رخداد",
+      "basis": "Reviewed manually against surrounding Persian documentation text; translated because it is a visible UI label or generic prose term. Product names and technical identifiers remain unchanged."
+    },
+    {
+      "product": "helpdesk",
+      "source_label": "Question",
+      "translation": "پرسش",
+      "basis": "Reviewed manually against surrounding Persian documentation text; translated because it is a visible UI label or generic prose term. Product names and technical identifiers remain unchanged."
+    },
+    {
+      "product": "helpdesk",
+      "source_label": "Copy as Markdown",
+      "translation": "کپی به‌شکل Markdown",
+      "basis": "Reviewed manually against surrounding Persian documentation text; translated because it is a visible UI label or generic prose term. Product names and technical identifiers remain unchanged."
+    },
+    {
+      "product": "helpdesk",
+      "source_label": "View as Markdown",
+      "translation": "نمایش به‌شکل Markdown",
+      "basis": "Reviewed manually against surrounding Persian documentation text; translated because it is a visible UI label or generic prose term. Product names and technical identifiers remain unchanged."
+    },
+    {
+      "product": "insights",
+      "source_label": "Demo Data",
+      "translation": "دادهٔ نمایشی",
+      "basis": "Reviewed manually against surrounding Persian documentation text; translated because it is a visible UI label or generic prose term. Product names and technical identifiers remain unchanged."
+    },
+    {
+      "product": "insights",
+      "source_label": "Uploads",
+      "translation": "بارگذاری‌ها",
+      "basis": "Reviewed manually against surrounding Persian documentation text; translated because it is a visible UI label or generic prose term. Product names and technical identifiers remain unchanged."
     }
   ],
   "source_files": {
@@ -599,7 +791,9 @@
       "Submitted": "ارسال شده",
       "Cancelled": "لغو شده",
       "Amended From": "اصلاح شده از",
-      "Is Single": "مجرد است"
+      "Is Single": "مجرد است",
+      "Authorization Server": "سرور احراز هویت",
+      "Authorization Server Metadata Discovery": "کشف فرادادهٔ سرور احراز هویت"
     },
     "erpnext": {
       "Accounting Dimensions": "ابعاد حسابداری",
@@ -1511,7 +1705,7 @@
       "Batch Number Series": "سری شماره دسته",
       "Weight Per Piece": "وزن هر عدد",
       "Batch Split Tree": "درخت تقسیم دسته",
-      "Bill of Materials": "صورتحساب مواد",
+      "Bill of Materials": "صورت مواد اولیه",
       "Warehouses": "انبارها",
       "Work Order": "دستور کار",
       "Job Cards": "کارت کارها",
@@ -2416,7 +2610,29 @@
       "Electricity": "برق",
       "Rent": "اجاره",
       "Consumables": "مواد مصرفی",
-      "Wages": "دستمزد"
+      "Wages": "دستمزد",
+      "BOM Update Tool": "ابزار به‌روزرسانی BOM",
+      "Current BOM": "BOM فعلی",
+      "New BOM": "BOM جدید",
+      "Monitor": "نمایشگر",
+      "Key Board": "صفحه‌کلید",
+      "Keyboard": "صفحه‌کلید",
+      "Mouse": "ماوس",
+      "Hard Disk": "دیسک سخت",
+      "MotherBoard": "مادربرد",
+      "Motherboard": "مادربرد",
+      "Processor": "پردازنده",
+      "Merchant ID": "شناسه پذیرنده",
+      "Public Key": "کلید عمومی",
+      "Private Key": "کلید خصوصی",
+      "Attach File": "پیوست فایل",
+      "Import Using Google Sheets": "واردکردن با Google Sheets",
+      "Place of Supply": "محل عرضه",
+      "GST Transporter ID": "شناسه حمل‌کننده GST",
+      "Attachment Limit": "محدودیت پیوست",
+      "Manufacturing": "تولید",
+      "Tools": "ابزارها",
+      "Current BOM and New BOM": "BOM فعلی و BOM جدید"
     },
     "hr": {
       "Additional Salary": "حقوق اضافی",
@@ -3136,7 +3352,12 @@
       "Rate this ticket": "به این تیکت امتیاز دهید",
       "Timezone": "منطقه زمانی",
       "Getting Started": "شروع کار",
-      "Support": "پشتیبانی"
+      "Support": "پشتیبانی",
+      "Bug": "اشکال",
+      "Incident": "رخداد",
+      "Question": "پرسش",
+      "Copy as Markdown": "کپی به‌شکل Markdown",
+      "View as Markdown": "نمایش به‌شکل Markdown"
     },
     "insights": {
       "Charts": "نمودار",
@@ -3176,7 +3397,9 @@
       "Filter Rows": "فیلتر ردیف‌ها",
       "Site Database": "پایگاه داده سایت",
       "Update Tables": "به‌روزرسانی جداول",
-      "Custom Operation": "عملیات سفارشی"
+      "Custom Operation": "عملیات سفارشی",
+      "Demo Data": "دادهٔ نمایشی",
+      "Uploads": "بارگذاری‌ها"
     },
     "crm": {
       "Actions": "اقدامات",

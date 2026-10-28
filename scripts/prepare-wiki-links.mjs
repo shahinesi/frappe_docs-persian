@@ -15,8 +15,12 @@ const localeStacks = {
 	wiki: ['framework'], other: ['framework'],
 };
 const linkAudit = JSON.parse(await readFile(path.join(root, 'sources', 'link-target-audit.json'), 'utf8'));
+const curatedAliases = JSON.parse(await readFile(path.join(root, 'sources', 'link-aliases.json'), 'utf8'));
 const aliases = new Map();
 const manifestPaths = new Set(manifest.pages.map((page) => new URL(page.url).pathname.replace(/\/$/, '')));
+for (const [alias, canonical] of Object.entries(curatedAliases.aliases || {})) {
+	if (manifestPaths.has(canonical)) aliases.set(alias, canonical);
+}
 for (const record of linkAudit.records) {
 	if (!record.canonical_url) continue;
 	const alias = new URL(record.url).pathname.replace(/\/$/, '');

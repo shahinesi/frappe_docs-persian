@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "method": "Curated redirects for legacy official documentation URLs confirmed to be unavailable; each target is a current page present in the official sitemap manifest.",
+  "aliases": {
+    "/erpnext/profit-and-loss-statement": "/erpnext/profit-and-loss-report",
+    "/erpnext/understanding-debit-and-credit": "/erpnext/understand-debit-and-credit",
+    "/erpnext/drop-ship": "/erpnext/drop-shipping-in-erpnext",
+    "/erpnext/why-not-to-use-a-customer-specific-receivable-account": "/erpnext/common-receivable-account",
+    "/erpnext/accounting/tools/repost-accounting-ledger": "/erpnext/repost-accounting-ledger",
+    "/erpnext/difference-between-system-user": "/erpnext/difference-between-system-user-and-website-user",
+    "/framework/customize-a-doctype": "/erpnext/customize-form",
+    "/framework/print-format": "/erpnext/print-format",
+    "/erpnext/short-close-multiple-orders": "/erpnext/how-to-short-close-multiple-orders-in-erpnext",
+    "/erpnext/price-list": "/erpnext/price-lists",
+    "/erpnext/workstation-type": "/erpnext/workstation_type",
+    "/erpnext/discount-accounting": "/erpnext/discount_accounting",
+    "/erpnext/accounts-payable": "/erpnext/accounts-receivable-and-payable",
+    "/erpnext/freeze-an-account": "/erpnext/freeze-accounting-entries",
+    "/erpnext/difference-between-lead-contact-and-customer": "/erpnext/difference_between_lead_contact_and_customer",
+    "/erpnext/automate-lead-creation": "/erpnext/automate_lead_capturing",
+    "/erpnext/opportunity-type": "/erpnext/opportunity_type",
+    "/erpnext/lead-source": "/erpnext/lead_source",
+    "/erpnext/deferred-revenue-expense-report": "/erpnext/expense_report",
+    "/erpnext/material-transfer-from-delivery-note-and-purchase-receipt": "/erpnext/material-transfer-from-delivery-note",
+    "/erpnext/managing-transactions-in-multiple-currency": "/erpnext/managing-transactions-in-multiple-currencies",
+    "/erpnext/sales-stage": "/erpnext/sales_stage",
+    "/erpnext/role-permission-manager": "/erpnext/role-based-permissions",
+    "/erpnext/validate-and-correct-the-migration": "/erpnext/validate-the-migration",
+    "/erpnext/incoterm": "/erpnext/incoterm-and-named-place",
+    "/recurring-sales-orders-with-auto-repeat": "/erpnext/auto-repeat-recurring-orders-and-invoices"
+  }
+}

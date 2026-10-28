@@ -54,7 +54,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 می‌توانید جدولی از این منابع انتخاب کنید:
 
-- Demo Data
+- دادهٔ نمایشی
 - سایت DB
 - Uploads
 - پرس‌وجوهای دیگر در همان کارپوشه

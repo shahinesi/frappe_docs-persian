@@ -59,7 +59,7 @@ Metro City, California 94016
 
 ## استفادهٔ ایمن از فیلدهای نشانی
 
-نام‌های رایج فیلدها عبارت‌اند از `address_line1`، `address_line2`، `city`، `county`، `state`، `pincode` و `country`. نام فیلدها به بزرگی و کوچکی حروف حساس‌اند. پیش از استفاده از فیلد سفارشی، [سفارشی‌سازی فرم](/framework/customize-a-doctype) را بررسی کنید.
+نام‌های رایج فیلدها عبارت‌اند از `address_line1`، `address_line2`، `city`، `county`، `state`، `pincode` و `country`. نام فیلدها به بزرگی و کوچکی حروف حساس‌اند. پیش از استفاده از فیلد سفارشی، [سفارشی‌سازی فرم](customize-form.md) را بررسی کنید.
 
 مقدار اختیاری و نشانه‌گذاری مربوط به آن را داخل یک شرط Jinja قرار دهید تا خالی‌بودن فیلد، برچسب یا ویرگول بی‌مورد باقی نگذارد. برای شکست خطِ عمدی از `<br>` استفاده کنید و قواعد پیچیدهٔ کسب‌وکار را وارد الگو نکنید.
 
@@ -70,7 +70,7 @@ Metro City, California 94016
 1. نشانی نمونه‌ای از مشتری یا تأمین‌کننده‌ای در همان کشور باز کنید.
 2. بررسی کنید فیلدهای استفاده‌شده در الگو در آن نشانی مقدار داشته باشند.
 3. یک [پیش‌فاکتور](https://docs.frappe.io/erpnext/quotation)، [سفارش فروش](sales-order.md)، [یادداشت تحویل](delivery-note.md) یا صورتحساب فروش باز کنید.
-4. نشانی قالب‌بندی‌شده را بررسی و پیش‌نمایش [قالب چاپ](/framework/print-format) مربوط را ببینید.
+4. نشانی قالب‌بندی‌شده را بررسی و پیش‌نمایش [قالب چاپ](https://docs.frappe.io/erpnext/print-format) مربوط را ببینید.
 
 [مشاهدهٔ تصویر رسمی: نشانی صورتحساب Northstar Retail در صورتحساب فروش](https://novacompanies.m.frappe.cloud/files/address-template-20261026-sales-invoice-formatted-address.png)
 
@@ -106,6 +106,6 @@ Metro City, California 94016
 - [مشتری](customer.md)
 - [تأمین‌کننده](https://docs.frappe.io/erpnext/supplier)
 - [صورتحساب فروش](https://docs.frappe.io/erpnext/sales-invoice)
-- [قالب چاپ](/framework/print-format)
+- [قالب چاپ](https://docs.frappe.io/erpnext/print-format)
 
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/address-template). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های منبع پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

@@ -99,7 +99,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 پس از پردازش، هر سه لایه را بررسی کنید:
 
 1. صورتحساب را باز کنید و حساب انتقالی و تاریخ‌های خدمت را در هر ردیف مربوط تأیید کنید.
-2. [درآمد معوق/هزینه گزارش](/erpnext/deferred-revenue-expense-report) را برای مبلغ‌های صورتحساب‌شده، شناسایی‌شده و در انتظار بررسی کنید.
+2. [درآمد معوق/هزینه گزارش](expense_report.md) را برای مبلغ‌های صورتحساب‌شده، شناسایی‌شده و در انتظار بررسی کنید.
 3. دفترکل حساب انتقالی و حساب نهایی درآمد یا هزینه را بازبینی کنید.
 
 ماندهٔ انتقالی باید با ثبت شناسایی کاهش یابد. درآمد یا هزینهٔ نهایی باید به همان میزان افزایش یابد. در کل دورهٔ خدمت، مجموع مبلغ شناسایی‌شده باید با مبلغ صورتحساب واجد شرایط برابر باشد؛ با درنظرگرفتن لغوها، برگشت‌ها، بستانکاری‌ها و گردکردن.
@@ -147,7 +147,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - [درآمد انتقالی (درآمد معوق)](deferred-revenue.md)
 - [هزینهٔ انتقالی (هزینه معوق)](deferred-expense.md)
 - [فرآیند حسابداری معوق](https://docs.frappe.io/erpnext/process-deferred-accounting)
-- [درآمد معوق/هزینه گزارش](/erpnext/deferred-revenue-expense-report)
+- [درآمد معوق/هزینه گزارش](expense_report.md)
 - [تنظیمات حساب‌ها](accounts-settings.md)
 - [ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry)
 - [دفترکل](https://docs.frappe.io/erpnext/general-ledger)

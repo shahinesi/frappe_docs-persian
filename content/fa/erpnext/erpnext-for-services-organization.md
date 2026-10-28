@@ -98,7 +98,7 @@ ERPNext از سازمان‌های خدماتی مانند شرکت‌های ن�
 
 ## پیکربندی مجوزها
 
-دسترسی در ERPNext بر اساس نقش و مجوز کنترل می‌شود. پنهان‌کردن فضای کاری جایگزین کنترل دسترسی نیست: با [نقش Permissions Manager](/erpnext/role-permission-manager) تعیین کنید هر نقش چه سندهایی را می‌تواند بخواند، بسازد، ثبت نهایی کند، اصلاح کند یا لغو کند.
+دسترسی در ERPNext بر اساس نقش و مجوز کنترل می‌شود. پنهان‌کردن فضای کاری جایگزین کنترل دسترسی نیست: با [نقش Permissions Manager](https://docs.frappe.io/erpnext/role-based-permissions) تعیین کنید هر نقش چه سندهایی را می‌تواند بخواند، بسازد، ثبت نهایی کند، اصلاح کند یا لغو کند.
 
 مجوزها را با حسابی غیر از مدیر سامانه آزمایش کنید که همان نقش‌های کاربر موردنظر را دارد. هم آنچه کاربر می‌تواند ببیند و هم آنچه می‌تواند انجام دهد بررسی کنید.
 
@@ -146,4 +146,4 @@ ERPNext از سازمان‌های خدماتی مانند شرکت‌های ن�
 - [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice)
 - [پروژه](https://docs.frappe.io/erpnext/project)
 - [جدول زمانی](https://docs.frappe.io/erpnext/timesheets)
-- [نقش مجوز Manager](/erpnext/role-permission-manager)
+- [نقش مجوز Manager](https://docs.frappe.io/erpnext/role-based-permissions)

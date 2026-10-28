@@ -92,7 +92,7 @@ ERPNext هنگام بارگذاری مانده‌های تفصیلی از افت
 - [ابزار ایجاد فاکتور افتتاحیه](https://docs.frappe.io/erpnext/opening-invoice-creation-tool)
 - [ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry)
 - [تطبیق موجودی](https://docs.frappe.io/erpnext/stock-reconciliation)
-- [اعتبارسنجی و اصلاح مهاجرت](https://docs.frappe.io/erpnext/validate-and-correct-the-migration)
+- [اعتبارسنجی و اصلاح مهاجرت](https://docs.frappe.io/erpnext/validate-the-migration)
 
 ---
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/opening-balance). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویر اصلی فقط به فایل رسمی پیوند داده شده و در مخزن بازنشر نشده است.

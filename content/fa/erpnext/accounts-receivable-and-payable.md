@@ -114,7 +114,7 @@ ERPNext معمولاً یک حساب دریافتنی مشترک نگه می‌�
 - [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
 - [دفتر پرداخت](https://docs.frappe.io/erpnext/payment_ledger)
 - [پردازش صورت‌حساب حساب‌ها](https://docs.frappe.io/erpnext/process-statement-of-accounts)
-- [حساب دریافتنی مشترک](/erpnext/why-not-to-use-a-customer-specific-receivable-account)
+- [حساب دریافتنی مشترک](common-receivable-account.md)
 
 ---
 منبع: [مستندات رسمی ERPNext](https://docs.frappe.io/erpnext/accounts-receivable-and-payable). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

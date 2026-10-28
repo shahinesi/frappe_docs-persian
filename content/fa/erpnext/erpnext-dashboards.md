@@ -115,15 +115,15 @@ ERPNext داشبوردها، صفحه‌های تحلیل، گزارش‌ها و
 
 داشبوردها و گزارش‌های تسهیلات به تیم‌ها کمک می‌کنند درخواست‌های وام، پرداخت وام، بازپرداخت، مانده‌های تسویه‌نشده، وثیقه‌ها و جریان نقدی را پیگیری کنند.
 
-- [گزارش‌های تسهیلات](/lending/lending-reports): فهرست گزارش‌های تسهیلات.
-- [گزارش وام‌های تسویه‌نشده](/lending/loan-outstanding-report): بررسی ماندهٔ وام‌های تسویه‌نشده.
-- [گزارش جریان نقدی آینده](/lending/future-cashflow-report): بررسی جریان‌های نقدی پیش‌بینی‌شده.
-- [گزارش جریان نقدی گذشته](/lending/past-cashflow-report): بررسی جریان‌های نقدی گذشته.
-- [صورت‌حساب وام](/lending/loan-management/lending-reports/loan-statement-of-account): بررسی صورت‌حساب وام‌ها.
-- [بازپرداخت وام و بستن آن](/lending/loan-management/lending-reports/loan-repayment-and-closure): پیگیری جزئیات بازپرداخت و بستن وام.
-- [وضعیت وثیقهٔ وام](/lending/loan-management/lending-reports/loan-security-status): بررسی وضعیت وثیقهٔ وام.
-- [میزان استفاده از وثیقهٔ وام](/lending/loan-management/lending-reports/loan-security-exposure): بررسی میزان تعهد در برابر وثیقه‌ها.
-- [گزارش اعتباری](/lending/credit-reporting): بررسی ابزارهای گزارش اعتباری.
+- [گزارش‌های تسهیلات](https://docs.frappe.io/lending/loan-outstanding-report): فهرست گزارش‌های تسهیلات.
+- [گزارش وام‌های تسویه‌نشده](https://docs.frappe.io/lending/loan-outstanding-report): بررسی ماندهٔ وام‌های تسویه‌نشده.
+- [گزارش جریان نقدی آینده](https://docs.frappe.io/lending/future-cashflow-report): بررسی جریان‌های نقدی پیش‌بینی‌شده.
+- [گزارش جریان نقدی گذشته](https://docs.frappe.io/lending/past-cashflow-report): بررسی جریان‌های نقدی گذشته.
+- [صورت‌حساب وام](https://docs.frappe.io/lending/loan-management/lending-reports/loan-statement-of-account): بررسی صورت‌حساب وام‌ها.
+- [بازپرداخت وام و بستن آن](https://docs.frappe.io/lending/loan-management/lending-reports/loan-repayment-and-closure): پیگیری جزئیات بازپرداخت و بستن وام.
+- [وضعیت وثیقهٔ وام](https://docs.frappe.io/lending/loan-management/lending-reports/loan-security-status): بررسی وضعیت وثیقهٔ وام.
+- [میزان استفاده از وثیقهٔ وام](https://docs.frappe.io/lending/loan-management/lending-reports/loan-security-exposure): بررسی میزان تعهد در برابر وثیقه‌ها.
+- [گزارش اعتباری](https://docs.frappe.io/lending/npa-classification): بررسی ابزارهای گزارش اعتباری.
 
 ## تحلیل و داشبوردهای سفارشی
 

@@ -28,7 +28,7 @@ BOMها را می‌توان به دو روش ساخت:
 پیش از ساخت BOM Creator، موارد زیر را آماده کنید:
 
 1. در صورت تمایل، فایل طراحی محصول را آماده کنید. فایل STEP با پسوند `.step` یا `.stp` یا فایل CSV قابل‌استفاده است. بیشتر ابزارهای CAD می‌توانند مجموعه را به STEP صادر کنند.
-2. رکوردهای [راهنمای «Manufacturing Operation» در ERPNext](https://docs.frappe.io/erpnext/operation) و [نوع ایستگاه کاری](https://docs.frappe.io/erpnext/workstation-type) را ایجاد کنید. این رکوردها فقط برای حالت **Produce an کالا at Each Operation** لازم‌اند.
+2. رکوردهای [راهنمای «Manufacturing Operation» در ERPNext](https://docs.frappe.io/erpnext/operation) و [نوع ایستگاه کاری](https://docs.frappe.io/erpnext/workstation_type) را ایجاد کنید. این رکوردها فقط برای حالت **Produce an کالا at Each Operation** لازم‌اند.
 
 لازم نیست پیش از شروع، اقلام را ایجاد کرده باشید؛ سامانه می‌تواند آن‌ها را از روی اجزا بسازد.
 
@@ -403,7 +403,7 @@ BOM کالای نهایی از چهار قلم مجموعه استفاده می�
 
 1. [فهرست مواد (BOM)](bill-of-materials.md)
 2. [راهنمای «Manufacturing Operation» در ERPNext](https://docs.frappe.io/erpnext/operation)
-3. [نوع ایستگاه کاری](https://docs.frappe.io/erpnext/workstation-type)
+3. [نوع ایستگاه کاری](https://docs.frappe.io/erpnext/workstation_type)
 4. [مسیریابی](https://docs.frappe.io/erpnext/routing)
 5. [Create and process a دستور کار | ERPNext](https://docs.frappe.io/erpnext/work-order)
 6. [کارت کار](https://docs.frappe.io/erpnext/job-card)

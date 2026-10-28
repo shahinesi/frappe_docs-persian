@@ -1,6 +1,57 @@
 {
   "schema_version": 1,
   "checked_files": 425,
-  "changed_files": 247,
-  "unresolved": []
+  "changed_files": 5,
+  "unresolved": [
+    {
+      "file": "content/fa/erpnext/buying.md",
+      "href": "https://docs.frappe.io/erpnext/purchase-analytics",
+      "kind": "official-page-not-in-manifest"
+    },
+    {
+      "file": "content/fa/erpnext/CRM.md",
+      "href": "/erpnext/crm-reports",
+      "kind": "official-page-not-in-manifest"
+    },
+    {
+      "file": "content/fa/erpnext/CRM.md",
+      "href": "/erpnext/crm-analytics",
+      "kind": "official-page-not-in-manifest"
+    },
+    {
+      "file": "content/fa/erpnext/customer-group.md",
+      "href": "/erpnext/sales-reports",
+      "kind": "official-page-not-in-manifest"
+    },
+    {
+      "file": "content/fa/erpnext/drop-shipping-in-erpnext.md",
+      "href": "/erpnext/drop-ship-between-subsidiary-companies",
+      "kind": "official-page-not-in-manifest"
+    },
+    {
+      "file": "content/fa/erpnext/erpnext-dashboards.md",
+      "href": "/erpnext/brandwise-items-and-profitability-report",
+      "kind": "official-page-not-in-manifest"
+    },
+    {
+      "file": "content/fa/erpnext/erpnext-dashboards.md",
+      "href": "/erpnext/analytics",
+      "kind": "official-page-not-in-manifest"
+    },
+    {
+      "file": "content/fa/erpnext/erpnext-dashboards.md",
+      "href": "/erpnext/analytics",
+      "kind": "official-page-not-in-manifest"
+    },
+    {
+      "file": "content/fa/helpdesk/setting-up.md",
+      "href": "/miscellaneous/faq#admin-account",
+      "kind": "official-page-not-in-manifest"
+    },
+    {
+      "file": "content/fa/insights/get-started/complete-setup.md",
+      "href": "https://docs.frappe.io/miscellaneous/faq#admin-account",
+      "kind": "official-page-not-in-manifest"
+    }
+  ]
 }
