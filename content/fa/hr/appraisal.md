@@ -62,7 +62,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### 3.2 بازخورد
 
-بازخورد عملکرد در سند [بازخورد عملکرد کارمند](https://docs.frappe.io/hr/employee-performance-feedback) ثبت می‌شود. برای دیدن سابقهٔ بازخوردهای کارمند در چرخه، زبانهٔ **بازخورد** را باز کنید. در آنجا میانگین امتیاز، تعداد ارزیابی‌ها و توزیع درصدی ستاره‌ها نمایش داده می‌شود.
+بازخورد عملکرد در سند [بازخورد عملکرد کارمند](employee-performance-feedback.md) ثبت می‌شود. برای دیدن سابقهٔ بازخوردهای کارمند در چرخه، زبانهٔ **بازخورد** را باز کنید. در آنجا میانگین امتیاز، تعداد ارزیابی‌ها و توزیع درصدی ستاره‌ها نمایش داده می‌شود.
 
 ![تاریخچهٔ بازخورد](https://frappehr.com/files/feedback-history.png)
 
@@ -101,7 +101,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ## 4. موضوعات مرتبط
 
 1. [هدف](https://docs.frappe.io/hr/goal)
-2. [بازخورد عملکرد کارمند](https://docs.frappe.io/hr/employee-performance-feedback)
+2. [بازخورد عملکرد کارمند](employee-performance-feedback.md)
 
 ---
 
