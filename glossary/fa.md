@@ -15,6 +15,10 @@
 | Print Format | قالب چاپ (Print Format) | قالب نمایش یا چاپ سند در Frappe؛ نام فنی حفظ شود. |
 | Notification | اعلان (Notification) | سند پیکربندی ارسال اعلان در ERPNext؛ نام DocType و برچسب فنی حفظ شود. |
 | Workspace | فضای کاری | نام فنی Workspace در متن API حفظ شود. |
+| Add Wiki Space | افزودن فضای Wiki | برچسب دکمهٔ ساخت فضای Wiki؛ مخزن Wiki فاقد locale فارسی بود. |
+| Add Group | افزودن گروه | برچسب دکمه در نوار کناری Wiki؛ مخزن Wiki فاقد locale فارسی بود. |
+| Revisions | بازبینی‌ها | گزینهٔ نمایش بازبینی‌های صفحه در منوی Wiki؛ مخزن Wiki فاقد locale فارسی بود. |
+| Install Now | نصب اکنون | دکمهٔ نصب برنامه در Frappe Cloud Marketplace. |
 | Web Form | Web Form (فرم وب) | نام DocType و برچسب فنی حفظ شود؛ در توضیح عمومی «فرم وب» به‌کار رود. |
 | Web Form Request | درخواست Web Form | سندی برای تولید پیوند خصوصی با کلید دسترسی به فرم. |
 | Workspace Manager | مدیر محیط کار (Workspace Manager) | ترجمهٔ فعلی رابط رسمی؛ نام فنی نقش در کد محفوظ بماند. |

@@ -11,7 +11,7 @@ Wiki از طریق [Marketplace در Frappe Cloud](https://frappecloud.com/marke
 برای راه‌اندازی سریع یک نمونهٔ Wiki، مراحل زیر را دنبال کنید:
 
 1. به [frappecloud.com/marketplace/apps/wiki](https://frappecloud.com/marketplace/apps/wiki) بروید.
-2. دکمهٔ **Install Now** را بزنید.
+2. دکمهٔ **نصب اکنون** را بزنید.
 3. منطقه را انتخاب کنید.
 4. زیردامنه را تعیین کنید.
 5. سایتی تازه ساخته می‌شود که Wiki روی آن نصب شده است.
