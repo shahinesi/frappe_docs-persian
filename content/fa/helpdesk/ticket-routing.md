@@ -15,7 +15,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 >
 > تصاویر رابط کاربری صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.
 
-در Frappe Helpdesk می‌توانید با قابلیت **اسکریپت سرور** مسیردهی تیکت‌ها را خودکار کنید. DocType به‌نام `Server Script` اجازه می‌دهد کد Python سمت سرور بنویسید، بدون آنکه لازم باشد اپ سفارشی بسازید یا چیزی مستقر کنید. برای اطلاعات بیشتر به [مستندات اسکریپت سرور](https://docs.frappe.io/framework/user/en/desk/scripting/server-script) مراجعه کنید.
+در Frappe Helpdesk می‌توانید با قابلیت **اسکریپت سرور** مسیردهی تیکت‌ها را خودکار کنید. DocType به‌نام `Server Script` اجازه می‌دهد کد Python سمت سرور بنویسید، بدون آنکه لازم باشد اپ سفارشی بسازید یا چیزی مستقر کنید. برای اطلاعات بیشتر به [اسکریپت سرور](https://docs.frappe.io/framework/user/en/desk/scripting/server-script) مراجعه کنید.
 
 ## 1. مسیردهی بر اساس نوع تیکت
 
