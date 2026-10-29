@@ -29148,10 +29148,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "959240c4cc4b570c0fe9473a8936c9ee0d4c23a1fa24810d881b7d182921e8e4",
       "source_modified": "2026-02-17",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/framework/user/en/guides/portal-development/portal-roles.md",
       "discovered_at": "2026-10-27T05:52:36.584Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/framework/user/en/guides/portal-development/portal-roles.md",
@@ -29161,10 +29161,12 @@
       "source_metadata_status": "fetched",
       "source_repository": null,
       "source_sitemap_lastmod": "2026-02-17",
-      "license_status": "unverified",
+      "license_status": "CC BY-SA (version unspecified by source policy)",
       "attribution_required": true,
       "unofficial_translation": true,
-      "snapshot_status": "fetched"
+      "snapshot_status": "fetched",
+      "quality_reviewed_at": "2026-10-29",
+      "source_snapshot_path": "sources/framework/user/en/guides/portal-development/portal-roles.md"
     },
     {
       "url": "https://docs.frappe.io/framework/user/en/guides/portal-development/redirects",
