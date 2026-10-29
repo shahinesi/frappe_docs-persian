@@ -122,7 +122,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای نگه‌داری GeoJSON از فیلد مکان جغرافیایی استفاده کنید. این فیلد چندضلعی، خط و نقطه را ذخیره می‌کند. برای شناسایی دایره از ویژگی‌های سفارشی مشخصی در پشت‌صحنه استفاده می‌شود. تعریف `feature_collection` در [استاندارد RFC 7946](https://tools.ietf.org/html/rfc7946#section-3.3) آمده است.
 
-برای جزئیات بیشتر، [راهنمای فیلد مکان جغرافیایی](https://docs.frappe.io/erpnext/geolocation-field) را بخوانید.
+برای جزئیات بیشتر، [راهنمای فیلد مکان جغرافیایی](geolocation-field.md) را بخوانید.
 
 ![نوع فیلد مکان جغرافیایی](https://docs.frappe.io/files/field-type-geolocation.png)
 
