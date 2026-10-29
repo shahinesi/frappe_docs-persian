@@ -413,6 +413,130 @@ filters_nested = [
 query = frappe.qb.get_query("User", filters=filters_nested)
 ```
 
+## اجرای پرس‌وجو
+
+### اجرای پایه
+
+پس از آماده‌شدن شیء `query`، با `.run()` آن را اجرا کنید:
+
+```python
+# به‌طور پیش‌فرض فهرستی از تاپل‌ها برمی‌گرداند
+results = query.run()
+
+# فهرستی از دیکشنری‌ها برمی‌گرداند
+results = query.run(as_dict=True)
+
+# فهرستی از فهرست‌ها برمی‌گرداند
+results = query.run(as_list=True)
+
+# اگر فقط یک فیلد انتخاب شود، فهرستی تخت از مقدارها برمی‌گرداند
+results = query.run(pluck=True)
+
+# پرس‌وجوی SQL تولیدشده و زمان اجرا را چاپ می‌کند
+results = query.run(debug=True)
+```
+
+### دریافت رشتهٔ SQL
+
+می‌توانید رشتهٔ SQL تولیدشده را بدون اجرا دریافت کنید:
+
+```python
+# دریافت رشتهٔ SQL با مقدارهای جایگزین‌شده؛ برای اشکال‌زدایی
+sql_string = query.get_sql()
+print(sql_string)
+# نمونهٔ خروجی: SELECT `name`, `email` FROM `tabUser` WHERE `first_name`='Admin'
+```
+
+### استفاده از iterator برای مجموعه‌داده‌های بزرگ
+
+برای مجموعه‌داده‌های بزرگ، از `as_iterator=True` استفاده کنید تا نتیجه‌ها ردیف‌به‌ردیف پردازش شوند و همهٔ داده‌ها یک‌باره در حافظه بارگذاری نشوند:
+
+```python
+# پردازش تعداد زیادی کار بدون بارگذاری همهٔ آن‌ها در حافظه
+query = frappe.qb.get_query(
+    "Task",
+    fields=["name", "subject", "status"],
+    filters={"status": "Open"}
+)
+
+# برای مصرف بهینهٔ حافظه همراه iterator از unbuffered_cursor استفاده کنید
+with frappe.db.unbuffered_cursor():
+    task_iterator = query.run(as_iterator=True, as_dict=True)
+
+    processed_count = 0
+    for task in task_iterator:
+        # پردازش دیکشنری هر کار به‌صورت جداگانه
+        print(f"در حال پردازش کار: {task['name']} - {task['subject']}")
+        processed_count += 1
+        if processed_count % 1000 == 0:
+            print(f"{processed_count} کار پردازش شد...")
+```
+
+**الزامات:**
+
+- باید `as_iterator=True` را همراه با یکی از `as_dict=True` یا `as_list=True` به‌کار ببرید.
+- برای بهره‌وری بهینهٔ حافظه، آن را درون مدیر زمینهٔ `frappe.db.unbuffered_cursor()` اجرا کنید.
+
+## مرتب‌سازی، گروه‌بندی و صفحه‌بندی
+
+### مرتب‌سازی نتیجه‌ها
+
+برای مرتب‌کردن نتیجه‌ها از آرگومان `order_by` استفاده کنید:
+
+```python
+# مرتب‌سازی کاربران بر اساس تاریخ ایجاد، به‌صورت صعودی
+query = frappe.qb.get_query("User", fields=["name", "creation"], order_by="creation asc")
+
+# مرتب‌سازی بر اساس چند فیلد
+query = frappe.qb.get_query(
+    "Sales Invoice",
+    fields=["name", "customer", "grand_total"],
+    order_by="customer asc, grand_total desc"
+)
+```
+
+### گروه‌بندی نتیجه‌ها
+
+برای تجمیع از `group_by` استفاده کنید:
+
+```python
+# شمارش فاکتورها برای هر مشتری
+query = frappe.qb.get_query(
+    "Sales Invoice",
+    fields=["customer", {"COUNT": "'*'", "as": "invoice_count"}],
+    filters={"docstatus": 1},
+    group_by="customer"
+)
+results = query.run(as_dict=True)
+# نتیجه: [{'customer': 'Cust A', 'invoice_count': 5}, {'customer': 'Cust B', 'invoice_count': 3}, ...]
+```
+
+### صفحه‌بندی
+
+برای صفحه‌بندی از `limit` و `offset` استفاده کنید:
+
+```python
+# دریافت 10 کاربر نخست
+query = frappe.qb.get_query("User", limit=10)
+
+# دریافت 10 کاربر بعدی (صفحهٔ دوم)
+query = frappe.qb.get_query("User", limit=10, offset=10)
+```
+
+### نتیجه‌های یکتا
+
+برای دریافت ردیف‌های یکتا، `distinct=True` را تنظیم کنید:
+
+```python
+# دریافت مشتریان یکتای فاکتورهای فروش ثبت‌شده
+query = frappe.qb.get_query(
+    "Sales Invoice",
+    fields=["customer"],
+    filters={"docstatus": 1},
+    distinct=True
+)
+```
+
 ---
 
 > این صفحه ترجمهٔ غیررسمیِ در حال تکمیل مستندات Frappe Framework است و هنوز برای انتشار آماده نیست. منبع: [ساخت پرس‌وجو با frappe.qb.get_query](https://docs.frappe.io/framework/get_query). متن منبع تحت شرایط CC BY-SA بازنشر می‌شود و این ترجمه نیز با انتساب به منبع و تحت شرایط همان مجوز منتشر خواهد شد.
