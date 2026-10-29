@@ -13,7 +13,7 @@ const byOfficialPath = new Map(manifest.pages.map((page) => {
 }));
 const failures = [];
 const pages = [];
-const genericLinkLabel = /^(?:مستندات(?:\s+.+)?|صفحه(?:ٔ|‌ی|ی)? رسمی|راهنمای «.*» در .+|این صفحه|این راهنما|این سند|اینجا|برای اطلاعات بیشتر|برای جزئیات بیشتر|بیشتر بخوانید|کلیک کنید|مشاهده کنید|راهنمای رسمی|this page|this guide|this document|here|read more|learn more|click here|official documentation|documentation)$/i;
+const genericLinkLabel = /^(?:مستندات(?:\s+.+)?|صفحه(?:ٔ|‌ی|ی)? رسمی|راهنمای «.*» در .+|این صفحه|این راهنما|این سند|اینجا|برای اطلاعات بیشتر|برای جزئیات بیشتر|بیشتر بخوانید|کلیک کنید|مشاهده کنید|راهنمای رسمی(?:\s+.+)?|this page|this guide|this document|here|read more|learn more|click here|official documentation|documentation)$/i;
 const localeStacks = {
   framework: ['framework'], erpnext: ['framework', 'erpnext'], hr: ['framework', 'erpnext', 'hr'],
   helpdesk: ['framework', 'helpdesk'], insights: ['framework', 'insights'], crm: ['framework', 'crm'],

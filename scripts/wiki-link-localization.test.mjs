@@ -137,7 +137,7 @@ test('localizes individual UI labels inside mixed-language navigation paths', ()
 
 test('replaces product documentation labels with the title of the linked destination', () => {
 	const sourceUrl = 'https://docs.frappe.io/framework/user/en/basics/users-and-permissions';
-	const result = prepareMarkdownLinks(`[مستندات Frappe Framework](${sourceUrl})`, {
+	const result = prepareMarkdownLinks(`[راهنمای رسمی مستندات Frappe Framework](${sourceUrl})`, {
 		currentPath: 'content/fa/helpdesk/example.md',
 		manifest: { pages: [{ url: sourceUrl, section: 'framework', source_title: 'Users and Permissions', translation_path: null }] },
 		terms: { 'Users and Permissions': 'کاربران و مجوزها' },

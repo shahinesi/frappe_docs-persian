@@ -242,7 +242,7 @@ function isGenericPageLabel(label) {
 		|| /^مستندات$/.test(normalized)
 		|| /^صفحه(?:ٔ|‌ی|ی)? رسمی$/.test(normalized)
 		|| /^راهنمای «.*» در .+$/.test(normalized)
-		|| /^(?:این صفحه|این راهنما|این سند|اینجا|برای اطلاعات بیشتر|برای جزئیات بیشتر|بیشتر بخوانید|کلیک کنید|مشاهده کنید|راهنمای رسمی|مستندات رسمی(?: Frappe)?|مستندات)$/i.test(normalized)
+		|| /^(?:این صفحه|این راهنما|این سند|اینجا|برای اطلاعات بیشتر|برای جزئیات بیشتر|بیشتر بخوانید|کلیک کنید|مشاهده کنید|راهنمای رسمی(?:\s+.+)?|مستندات رسمی(?: Frappe)?|مستندات)$/i.test(normalized)
 		|| /^(?:this page|this guide|this document|here|read more|learn more|click here|official documentation|documentation)$/i.test(normalized);
 }
 
