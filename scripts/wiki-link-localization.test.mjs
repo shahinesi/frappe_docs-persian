@@ -145,6 +145,17 @@ test('replaces product documentation labels with the title of the linked destina
 	assert.equal(result.markdown, `[کاربران و مجوزها](${sourceUrl})`);
 });
 
+test('replaces a generic linked-document label with the translated destination title', () => {
+	const sourceUrl = 'https://docs.frappe.io/erpnext/contact';
+	const result = prepareMarkdownLinks(`[مستندات مخاطب](${sourceUrl})`, {
+		currentPath: 'content/fa/erpnext/example.md',
+		manifest: { pages: [{ url: sourceUrl, section: 'erpnext', source_title: 'Contact', translation_path: 'content/fa/erpnext/contact.md' }] },
+		titles: new Map([['content/fa/erpnext/contact.md', 'مخاطب']]),
+		terms: {},
+	});
+	assert.equal(result.markdown, '[مخاطب](contact.md)');
+});
+
 test('uses the translated page title for a generic self-source attribution link', () => {
 	const sourceUrl = 'https://docs.frappe.io/hr/branch';
 	const result = prepareMarkdownLinks(`منبع: [مستندات رسمی Frappe HR](${sourceUrl})`, {
@@ -256,7 +267,7 @@ test('gives an unindexed official link a destination-derived Persian label', () 
 		titles: new Map(),
 		terms: { 'Profit and Loss Statement': 'صورت سود و زیان' },
 	});
-	assert.equal(result.markdown, '[راهنمای «صورت سود و زیان» در ERPNext](https://docs.frappe.io/erpnext/profit-and-loss-statement)');
+	assert.equal(result.markdown, '[صورت سود و زیان](https://docs.frappe.io/erpnext/profit-and-loss-statement)');
 	assert.equal(result.reviewIssues[0]?.kind, 'official-page-not-in-manifest');
 });
 
@@ -274,14 +285,14 @@ test('keeps source attribution external while translating known UI terms', () =>
 	assert.equal(result.markdown, `کارمند; \`Employee\`; [منبع رسمی](${sourceUrl})`);
 });
 
-test('uses a Persian product label when the target page is not translated yet', () => {
+test('uses a Persian destination title when the target page is not translated yet', () => {
 	const result = prepareMarkdownLinks('[Employee](https://docs.frappe.io/hr/employee)', {
 		currentPath: 'content/fa/hr/example.md',
 		manifest,
 		titles: new Map(),
-		terms: {},
+		terms: { Employee: 'کارمند' },
 	});
-	assert.equal(result.markdown, '[راهنمای «Employee» در Frappe HR](https://docs.frappe.io/hr/employee)');
+	assert.equal(result.markdown, '[کارمند](https://docs.frappe.io/hr/employee)');
 });
 
 test('uses the translated source title for an untranslated destination when available', () => {

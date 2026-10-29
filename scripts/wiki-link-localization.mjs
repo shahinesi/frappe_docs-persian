@@ -235,25 +235,9 @@ function getOfficialPage(href, byPath, aliases = new Map()) {
 	}
 }
 
-function productLinkLabel(section) {
-	const labels = {
-		builder: 'مستندات رسمی Frappe Builder',
-		crm: 'مستندات رسمی Frappe CRM',
-		drive: 'مستندات رسمی Frappe Drive',
-		erpnext: 'مستندات رسمی ERPNext',
-		framework: 'مستندات رسمی Frappe Framework',
-		helpdesk: 'مستندات رسمی Helpdesk',
-		hr: 'مستندات رسمی Frappe HR',
-		insights: 'مستندات رسمی Insights',
-		learning: 'مستندات رسمی Frappe Learning',
-		wiki: 'مستندات رسمی Frappe Wiki',
-	};
-	return labels[section] || 'مستندات رسمی Frappe';
-}
-
 function isGenericPageLabel(label) {
 	const normalized = label.trim().replace(/[.!؟?،,:;؛]+$/u, '').trim();
-	return /^مستندات رسمی(?:\s+.+)?$/.test(normalized)
+	return /^مستندات(?:\s+.+)?$/.test(normalized)
 		|| /^مستندات\s+(?:Frappe\s+)?(?:ERPNext|Framework|Helpdesk|Insights|CRM|HR|Wiki|Builder|Learning|Drive|Education)(?:\s+.*)?$/i.test(normalized)
 		|| /^مستندات$/.test(normalized)
 		|| /^صفحه(?:ٔ|‌ی|ی)? رسمی$/.test(normalized)
@@ -308,7 +292,7 @@ function rewriteLink(token, { currentPath, byPath, byTranslationPath, titles, li
 			if (!isAttribution && (!FA_LETTER.test(label) || isGenericPageLabel(originalLabel))) {
 				const slug = pathname.split('/').filter(Boolean).at(-1) || section || 'Frappe';
 				const sourceTitle = localizeDisplayLabel(slug.replaceAll('-', ' ').replaceAll('_', ' '), terms, null, mixedEntries, phraseTerms);
-				label = `راهنمای «${sourceTitle}» در ${productLinkLabel(section).replace(/^مستندات رسمی /, '')}`;
+				label = sourceTitle;
 			}
 		} else if (page && !isAttribution) {
 			nextHref = `${page.url}${hash}`;
@@ -316,9 +300,10 @@ function rewriteLink(token, { currentPath, byPath, byTranslationPath, titles, li
 			if (!FA_LETTER.test(label) || isGenericProductLabel) {
 				const cleanSourceTitle = (page.source_title || '').replaceAll('\\n', ' ').replaceAll('\\r', ' ').replace(/[\r\n]+/g, ' ').replace(/\s*\|\s*(?:ERPNext|Frappe Framework|Frappe HR|Frappe Helpdesk|Insights|Frappe CRM|Frappe Builder|Frappe Learning|Frappe Drive) Documentation\s*$/i, '').trim();
 				const sourceTitle = cleanSourceTitle ? localizeDisplayLabel(cleanSourceTitle, terms, null, mixedEntries, phraseTerms) : '';
-				label = FA_LETTER.test(sourceTitle)
-					? sourceTitle
-					: `راهنمای «${sourceTitle || cleanSourceTitle || label}» در ${productLinkLabel(page.section).replace(/^مستندات رسمی /, '')}`;
+				const translatedTitle = page.translation_path ? titles.get(normalizeRepoPath(page.translation_path)) : null;
+				const pageSlug = (page.source_id || pathname).split('/').filter(Boolean).at(-1) || pathname;
+				const slugTitle = localizeDisplayLabel(pageSlug.replaceAll('-', ' ').replaceAll('_', ' '), terms, null, mixedEntries, phraseTerms);
+				label = translatedTitle || (FA_LETTER.test(sourceTitle) ? sourceTitle : slugTitle || sourceTitle || cleanSourceTitle || label);
 			}
 		}
 		if (!page && !reviewIssues.some((issue) => issue.file === currentPath && issue.href === href)) {

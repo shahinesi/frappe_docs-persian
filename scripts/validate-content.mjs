@@ -13,7 +13,7 @@ const byOfficialPath = new Map(manifest.pages.map((page) => {
 }));
 const failures = [];
 const pages = [];
-const genericLinkLabel = /^(?:مستندات رسمی(?:\s+.+)?|مستندات|صفحه(?:ٔ|‌ی|ی)? رسمی|راهنمای «.*» در .+|این صفحه|این راهنما|این سند|اینجا|برای اطلاعات بیشتر|برای جزئیات بیشتر|بیشتر بخوانید|کلیک کنید|مشاهده کنید|راهنمای رسمی|this page|this guide|this document|here|read more|learn more|click here|official documentation|documentation)$/i;
+const genericLinkLabel = /^(?:مستندات(?:\s+.+)?|صفحه(?:ٔ|‌ی|ی)? رسمی|راهنمای «.*» در .+|این صفحه|این راهنما|این سند|اینجا|برای اطلاعات بیشتر|برای جزئیات بیشتر|بیشتر بخوانید|کلیک کنید|مشاهده کنید|راهنمای رسمی|this page|this guide|this document|here|read more|learn more|click here|official documentation|documentation)$/i;
 const localeStacks = {
   framework: ['framework'], erpnext: ['framework', 'erpnext'], hr: ['framework', 'erpnext', 'hr'],
   helpdesk: ['framework', 'helpdesk'], insights: ['framework', 'insights'], crm: ['framework', 'crm'],
@@ -106,7 +106,7 @@ for (const file of pages) {
   }
   for (const [, label, wrappedHref] of visibleMarkdown.matchAll(/(?<!!)\[([^\]]+)\]\((<[^>]+>|[^\s)]+)(?:[^)]*)\)/g)) {
     const href = wrappedHref.replace(/^<|>$/g, '');
-    const pointsToExternalSite = /^[a-z]+:/i.test(href);
+    const pointsToExternalSite = /^https?:\/\/(?:docs\.frappe\.io|docs\.erpnext\.com)\//i.test(href);
     const pointsToMarkdown = !/^[a-z]+:/i.test(href) && !href.startsWith('#') && /\.md(?:[?#]|$)/i.test(href);
     if ((pointsToExternalSite || pointsToMarkdown) && genericLinkLabel.test(label.trim())) {
       failures.push(`${relative}: generic link label "${label.trim()}" must describe its destination`);

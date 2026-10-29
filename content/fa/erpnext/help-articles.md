@@ -174,7 +174,7 @@ description: "فهرست راهنماهای ERPNext به تفکیک سامانه
 
 - [ساخت نمودار گانت رنگی](https://docs.frappe.io/erpnext/make-a-colorful-gantt-chart)
 - [واگذاری گروهی وظایف یک پروژه](bulk-assign-tasks-in-a-project.md)
-- [سودآوری پروژه](https://docs.frappe.io/erpnext/project-profitability)
+- [سودآوری پروژه](project-profitability.md)
 - [مدیریت هزینه‌های پروژه](https://docs.frappe.io/erpnext/project-expense-claims)
 - [ساخت پروژه از پرتال مشتری](https://docs.frappe.io/erpnext/project-customer-portal)
 

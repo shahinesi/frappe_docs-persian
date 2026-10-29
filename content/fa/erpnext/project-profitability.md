@@ -1,7 +1,19 @@
 ---
 title: "سودآوری پروژه"
-source: "https://docs.frappe.io/erpnext/project-profitability"
+slug: "project-profitability"
+source_url: "https://docs.frappe.io/erpnext/project-profitability"
+source_id: "erpnext/project-profitability"
+source_version: "bc286351fa02af7a019d8b637ac07b72505a84bedc1038780b7654cf2b621571"
+source_updated: "2026-02-26"
+translation_status: "translated"
+quality_status: "not_reviewed"
+license_status: "unverified"
 ---
+
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [سودآوری پروژه](https://docs.frappe.io/erpnext/project-profitability)
+> متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
+
+تصویرها از فایل‌های رسمی منبع پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.
 
 پروژه‌ها و فعالیت‌های مرتبط با آن‌ها معمولاً برای مدتی طولانی ادامه دارند. در طول پیشرفت پروژه، تراکنش‌های گوناگونی برای آن ثبت می‌شود. ادامهٔ فعالیت‌ها ممکن است به صرف زمان، پول و مواد بیشتری نیاز داشته باشد؛ بنابراین، پیگیری سودآوری پروژه اهمیت دارد تا هزینه‌ها از حد موردنظر فراتر نروند.
 
@@ -9,15 +21,15 @@ source: "https://docs.frappe.io/erpnext/project-profitability"
 
 ### پروژه در تراکنش‌های فروش
 
-می‌توانید پروژه را به همهٔ تراکنش‌های فروش، مانند سفارش فروش (Sales Order)، حوالهٔ تحویل (Delivery Note)، صورتحساب فروش (Sales Invoice) و پرداخت (Payment) پیوند دهید. این کار کمک می‌کند درآمد دریافت‌شده از هر پروژه را پیگیری کنید.
+می‌توانید پروژه را به همهٔ تراکنش‌های فروش، مانند [سفارش فروش](sales-order.md)، [یادداشت تحویل](delivery-note.md)، [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice) و [پرداخت](https://docs.frappe.io/erpnext/payment-entry) پیوند دهید. این کار کمک می‌کند درآمد دریافت‌شده از هر پروژه را پیگیری کنید.
 
-در تراکنش‌های فروش، فیلد `Project` معمولاً در بخش «اطلاعات بیشتر» (More Information) قرار دارد.
+در تراکنش‌های فروش، فیلد «پروژه» (`Project`) معمولاً در بخش «اطلاعات بیشتر» قرار دارد.
 
 ![](/files/Screenshot 2026-01-09 at 11.33.39 AM.png)
 
 #### پروژه در تراکنش‌های خرید
 
-همچنین می‌توانید پروژه را به تراکنش‌های خرید، مانند سفارش خرید (Purchase Order)، رسید خرید (Purchase Receipt) و صورتحساب خرید (Purchase Invoice) پیوند دهید.
+همچنین می‌توانید پروژه را به تراکنش‌های خرید، مانند [سفارش خرید](purchase-order.md)، [رسید خرید](https://docs.frappe.io/erpnext/purchase-receipt) و [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice) پیوند دهید.
 
 در تراکنش‌های خرید، گزینهٔ پیوند پروژه در جدول اقلام قرار دارد؛ زیرا ممکن است در یک سند خرید، برای چند پروژه مواد تهیه کنید.
 
@@ -33,7 +45,7 @@ source: "https://docs.frappe.io/erpnext/project-profitability"
 
 با توجه به همهٔ درآمدها و هزینه‌های ثبت‌شده برای پروژه، می‌توانید سودآوری آن را مشاهده کنید.
 
-> حسابداری > تحلیل سودآوری (Profitability Analysis)
+> حسابداری > تحلیل سودآوری
 
 می‌توانید گزارش را بر اساس پروژه فیلتر کنید تا سودآوری هر پروژه را جداگانه ببینید.
 
