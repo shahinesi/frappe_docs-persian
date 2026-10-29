@@ -5,6 +5,13 @@
   "curated_terms": [
     {
       "product": "framework",
+      "source_labels": {
+        "Export Customizations": "برون‌بُرد سفارشی‌سازی‌ها"
+      },
+      "basis": "اصلاح فاصله‌گذاری نیم‌فاصله در برچسب فارسی رابط سفارشی‌سازی فرم."
+    },
+    {
+      "product": "framework",
       "source_label": "Users and Permissions",
       "translation": "کاربران و مجوزها",
       "basis": "Reviewed Persian destination title for the official Framework page; used to make links identify their actual destination."
