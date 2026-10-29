@@ -89,9 +89,16 @@ for (const file of pages) {
   if (!/منبع|Source:/i.test(body.slice(fm[0].length))) failures.push(`${relative}: missing visible source attribution`);
   if (!/ترجمهٔ غیررسمی/.test(body)) failures.push(`${relative}: missing unofficial-translation notice`);
   if (!/تحت شرایط CC BY-SA/.test(body)) failures.push(`${relative}: missing ShareAlike attribution notice`);
-  const visibleMarkdown = body.replace(/```[\s\S]*?```|~~~[\s\S]*?~~~/g, '').replace(/`[^`\n]*`/g, '');
+  const visibleMarkdown = body.replace(/```[\s\S]*?```|~~~[\s\S]*?~~~/g, '').replace(/<code\b[^>]*>[\s\S]*?<\/code\s*>|<pre\b[^>]*>[\s\S]*?<\/pre\s*>/gi, '').replace(/`[^`\n]*`/g, '');
   const product = relative.match(/^content\/fa\/([^/]+)\//)?.[1];
   const { terms: productTerms, phraseLookup, phrasePattern } = getProductUiTerms(product);
+  for (const [, boldLabel] of visibleMarkdown.matchAll(/\*\*([^*\n]+)\*\*/g)) {
+    const label = boldLabel.trim();
+    const translation = productTerms[label];
+    if (translation && /[\u0600-\u06FF]/.test(translation) && !/[A-Za-z]/.test(translation)) {
+      failures.push(`${relative}: highlighted UI label "${label}" has a Persian translation "${translation}"`);
+    }
+  }
   for (const line of visibleMarkdown.split(/\r?\n/)) {
     const bareListLabel = line.match(/^\s*(?:[-*+]|\d+[.)])\s+([A-Z][A-Za-z0-9 &/'()-]*)\s*$/)?.[1]?.trim();
     if (bareListLabel && productTerms[bareListLabel] && /[\u0600-\u06FF]/.test(productTerms[bareListLabel])) {
