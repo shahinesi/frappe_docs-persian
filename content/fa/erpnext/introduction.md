@@ -1,5 +1,5 @@
 ---
-title: "معرفی"
+title: "معرفی ERPNext"
 slug: "معرفی"
 source_url: "https://docs.frappe.io/erpnext/introduction"
 source_id: "erpnext/introduction"
