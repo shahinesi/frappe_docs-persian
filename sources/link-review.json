@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "checked_files": 531,
-  "changed_files": 0,
+  "checked_files": 532,
+  "changed_files": 2,
   "unresolved": [
     {
       "file": "content/fa/erpnext/finance-book.md",
