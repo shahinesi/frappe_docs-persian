@@ -109,7 +109,7 @@ India Compliance هنگام راه‌اندازی GST این الگوها را �
 
 ## موضوعات مرتبط
 
-- [پاسخ پرسش‌های GST هند، فاکتور الکترونیکی و بارنامهٔ الکترونیکی](https://docs.frappe.io/erpnext/india-gst-help)
+- [پرسش‌های رایج GST هند: فاکتور الکترونیکی و بارنامهٔ الکترونیکی](https://docs.frappe.io/erpnext/india-gst-help)
 - [چرا مالیات کالا و خدمات در فاکتور اشتباه است یا نمایش داده نمی‌شود؟](gst-wrong-on-invoice.md)
 - [راهنمای راه‌اندازی GST](https://docs.indiacompliance.app/docs/configuration/gst_setup)
 

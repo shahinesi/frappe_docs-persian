@@ -49,7 +49,7 @@ ERPNext قابلیت‌های متنوعی برای یکپارچه‌سازی د
 ### یکپارچه‌سازی‌های پرداخت
 
 - [یکپارچه‌سازی Razorpay](https://docs.frappe.io/erpnext/razorpay-integration)
-- [راه‌اندازی GoCardless](https://docs.frappe.io/erpnext/gocardless-integration)
+- [راه‌اندازی GoCardless](gocardless-integration.md)
 - [راه‌اندازی Stripe](https://docs.frappe.io/erpnext/stripe-integration)
 - [راه‌اندازی Braintree](braintree-integration.md)
 - [یکپارچه‌سازی Paytm](https://docs.frappe.io/erpnext/paytm-integration)
