@@ -17,7 +17,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 گزارش پیش‌فرض جریان وجوه نقد Nova Industries نشان می‌دهد وجه نقد چگونه میان فعالیت‌های عملیاتی، سرمایه‌گذاری و تأمین مالی جابه‌جا شده است. تیم مالی می‌خواهد گزارشی با قالب‌بندیِ قابل استفادهٔ مجدد و همسو با IFRS داشته باشد؛ گزارشی با سطرهای روشن‌تر برای سود پیش از مالیات، استهلاک، هزینه‌های مالی، مطالبات، بدهی‌ها، موجودی، خرید تجهیزات و تأمین مالی.
 
-در نسخهٔ فعلی develop از ERPNext، Nova می‌تواند یک [الگوی گزارش مالی](https://docs.frappe.io/erpnext/financial-report-template) با **نوع گزارش** برابر **جریان نقدی** بسازد یا الگوی موجودی را تغییر دهد. الگو عنوان‌های گزارش، انتخاب حساب، محاسبات، تورفتگی، علامت مقادیر، سطرهای پنهان و نمودارها را کنترل می‌کند. این کار نحوهٔ نمایش را تغییر می‌دهد، نه ثبت‌های زیرین [دفترکل](https://docs.frappe.io/erpnext/general-ledger) را.
+در نسخهٔ فعلی develop از ERPNext، Nova می‌تواند یک [الگوی گزارش مالی](financial-report-template.md) با **نوع گزارش** برابر **جریان نقدی** بسازد یا الگوی موجودی را تغییر دهد. الگو عنوان‌های گزارش، انتخاب حساب، محاسبات، تورفتگی، علامت مقادیر، سطرهای پنهان و نمودارها را کنترل می‌کند. این کار نحوهٔ نمایش را تغییر می‌دهد، نه ثبت‌های زیرین [دفترکل](https://docs.frappe.io/erpnext/general-ledger) را.
 
 ## پیش از شروع
 
@@ -91,4 +91,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - [درخت حساب‌ها](chart-of-accounts.md)
 - [تنظیمات حساب‌ها](accounts-settings.md)
 - [دفترکل](https://docs.frappe.io/erpnext/general-ledger)
-- [الگوی گزارش مالی](https://docs.frappe.io/erpnext/financial-report-template)
+- [الگوی گزارش مالی](financial-report-template.md)
