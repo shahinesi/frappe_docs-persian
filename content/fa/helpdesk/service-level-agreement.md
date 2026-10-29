@@ -38,7 +38,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 | کم | 24h | 72h |
 | متوسط | 8h | 24h |
 | بالا | 1h | 4h |
-| Urgent | 30m | 2h |
+| فوری | 30m | 2h |
 
 ### محرک‌های مبتنی بر وضعیت
 

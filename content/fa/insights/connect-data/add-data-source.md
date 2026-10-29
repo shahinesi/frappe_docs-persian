@@ -22,7 +22,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 | میزبان | نشانی سرور؛ مانند <code>db.mycompany.com</code> یا <code>localhost</code>. |
 | پورت | درگاه اتصال؛ برای نمونه <code>3306</code> برای MariaDB و <code>5432</code> برای PostgreSQL. |
 | نام پایگاه داده | نام پایگاه داده‌ای که می‌خواهید به آن وصل شوید. |
-| Username | نام کاربری ورود. |
+| نام کاربری | نام کاربری ورود. |
 | گذرواژه | گذرواژهٔ ورود. |
 | SSL (اختیاری) | مشخص می‌کند از اتصال امن استفاده شود یا نه. |
 

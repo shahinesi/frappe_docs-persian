@@ -18,9 +18,9 @@ source_version: "2587f12de3904b67a15070da279002596c973bd6d4e0611952799b8c47ef8a2
 
 1. یک مخزن S3 جدید ایجاد کنید.
 
-در تنظیمات مخزن، گزینهٔ «Block all public access» را فعال کنید تا داده‌هایتان خصوصی بمانند. در صورت نیاز می‌توانید رمزنگاری، نسخه‌بندی یا قفل‌کردن شیء را هم فعال کنید؛ برای جزئیات به [مستندات Amazon](https://docs.aws.amazon.com/AmazonS3/latest/user-guide/create-bucket.html) مراجعه کنید.
-2. بخش Identity and Access Management (IAM) را باز کنید.
-3. برای سرویس «S3» یک سیاست جدید بسازید و دسترسی‌های «ListBucket» و «PutObject» را مجاز کنید.
+در تنظیمات مخزن، گزینهٔ «مسدودکردن همهٔ دسترسی‌های عمومی» را فعال کنید تا داده‌هایتان خصوصی بمانند. در صورت نیاز می‌توانید رمزنگاری، نسخه‌بندی یا قفل‌کردن شیء را هم فعال کنید؛ برای جزئیات به [مستندات Amazon](https://docs.aws.amazon.com/AmazonS3/latest/user-guide/create-bucket.html) مراجعه کنید.
+2. بخش مدیریت هویت و دسترسی (IAM) را باز کنید.
+3. برای سرویس «S3» یک سیاست جدید بسازید و دسترسی‌های `ListBucket` و `PutObject` را مجاز کنید.
 
 ![تصویر صفحهٔ ایجاد سیاست در AWS](https://docs.frappe.io/files/s3-backup-policy.png)
 

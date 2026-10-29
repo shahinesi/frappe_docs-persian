@@ -88,8 +88,8 @@ docker compose up -d
 اکنون برنامه باید در نشانی [http://lms.localhost:8000/lms](http://lms.localhost:8000/lms) در دسترس باشد. اطلاعات ورود پیش‌فرض:
 
 ```text
-Username: Administrator
-Password: admin
+نام کاربری: `Administrator`
+گذرواژه: `admin`
 ```
 
 > **نکتهٔ امنیتی:** پس از ورود، گذرواژهٔ پیش‌فرض را تغییر دهید.
