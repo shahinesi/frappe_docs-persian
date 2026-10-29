@@ -54,8 +54,8 @@ description: "توضیح تفاوت گزارش سود ناخالص با صورت
 
 ## موضوعات مرتبط
 
-- [صورت سود و زیان](https://docs.frappe.io/erpnext/profit-and-loss-report)
-- [چرا اعداد صورت‌های مالی غیرمنتظره‌اند؟](https://docs.frappe.io/erpnext/financial-statements-show-unexpected-numbers)
+- [گزارش سود و زیان](https://docs.frappe.io/erpnext/profit-and-loss-report)
+- [چرا گزارش سود و زیان، ترازنامه یا تراز آزمایشی نتایج غیرمنتظره نشان می‌دهند؟](https://docs.frappe.io/erpnext/financial-statements-show-unexpected-numbers)
 - [بازپردازش موجودی](https://docs.frappe.io/erpnext/repost-item-valuation)
 
 منبع: [چرا گزارش سود ناخالص با صورت سود و زیان یا دفتر فروش تفاوت دارد؟](https://docs.frappe.io/erpnext/gross-profit-report-differences). این صفحه ترجمهٔ غیررسمی است و محتوای مستندات تحت شرایط CC BY-SA با انتساب به منبع بازنشر شده است.
