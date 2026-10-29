@@ -17,11 +17,11 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## نمای کلی
 
-اپ یکپارچه‌سازی DATEV، ERPNext را به گردش‌کارهای DATEV که تیم‌های حسابداری و مشاوران مالیاتی آلمان استفاده می‌کنند متصل می‌کند. این اپ در [بازارگاه Frappe Cloud](https://cloud.frappe.io/marketplace/apps/erpnext_datev) با نام **DATEV Integration** فهرست شده و ناشر آن ALYF GmbH، تیم Raffael است.
+برنامهٔ یکپارچه‌سازی DATEV، ERPNext را به گردش‌کارهای DATEV که تیم‌های حسابداری و مشاوران مالیاتی آلمان استفاده می‌کنند متصل می‌کند. این برنامه در [بازارگاه Frappe Cloud](https://cloud.frappe.io/marketplace/apps/erpnext_datev) با نام انگلیسی **DATEV Integration** فهرست شده و ناشر آن ALYF GmbH، تیم Raffael است.
 
 ## قابلیت‌ها
 
-- **DATEV Unternehmen Online:** اسناد ثبت‌نهایی‌شده را از طریق ایمیل به DATEV Unternehmen Online می‌فرستد. اسناد خروجی را می‌توان به PDF تبدیل کرد و برای اسناد ورودی، فایل‌های پیوست‌شده قابل ارسال‌اند.
+- **سرویس آنلاین DATEV Unternehmen Online:** اسناد ثبت‌نهایی‌شده را از طریق ایمیل به این سرویس می‌فرستد. اسناد خروجی را می‌توان به PDF تبدیل کرد و برای اسناد ورودی، فایل‌های پیوست‌شده قابل ارسال‌اند.
 - **خروجی CSV در DATEV:** ثبت‌های خام دفترکل را از ERPNext در قالب CSVِ DATEV خروجی می‌گیرد.
 - **تحویل به مشاور مالیاتی:** گزارش DATEV را همراه با اطلاعات پایه به‌صورت فایل ZIP خروجی می‌گیرد تا در سامانهٔ DATEV مشاور مالیاتی وارد شود.
 

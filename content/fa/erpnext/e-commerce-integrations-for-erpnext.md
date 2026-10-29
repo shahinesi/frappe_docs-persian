@@ -38,7 +38,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 - [Ecommerce Integrations](https://cloud.frappe.io/marketplace/apps/ecommerce_integrations): یکپارچه‌سازی‌های بازارگاه‌های فروش اینترنتی با ERPNext.
 - [WooCommerce Connector](https://cloud.frappe.io/marketplace/apps/woocommerceconnector): کالاها، موجودی، مشتریان، نشانی‌ها، سفارش‌های فروش، صورتحساب‌های فروش و اسناد پرداخت را با WooCommerce همگام می‌کند.
-- [ERPNext Shipping](https://cloud.frappe.io/marketplace/apps/erpnext_shipping): یکپارچه‌سازی ارسال برای ERPNext، مناسب آماده‌سازی و رهگیری محموله.
+- [برنامهٔ ارسال ERPNext](https://cloud.frappe.io/marketplace/apps/erpnext_shipping): یکپارچه‌سازی ارسال برای ERPNext، مناسب آماده‌سازی و رهگیری محموله.
 - [Frappe Paystack](https://cloud.frappe.io/marketplace/apps/frappe_paystack): یکپارچه‌سازی درگاه پرداخت با ERPNext و Frappe.
 
 ## چه زمانی اتصال‌دهندهٔ اختصاصی بسازیم؟

@@ -17,14 +17,14 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 > این برنامه از نسخهٔ 13 معرفی شده است.
 
-**برنامهٔ ERPNext Shipping** امکان مقایسهٔ نرخ‌های ارسال ارائه‌شده از سوی چند شرکت خدماتی، تولید برچسب و پیگیری وضعیت محموله‌ها را فراهم می‌کند.
+**برنامهٔ ارسال ERPNext (ERPNext Shipping)** امکان مقایسهٔ نرخ‌های ارسال ارائه‌شده از سوی چند شرکت خدماتی، تولید برچسب و پیگیری وضعیت محموله‌ها را فراهم می‌کند.
 
 یکپارچه‌سازی با ارائه‌دهندگان خدمات زیر در دسترس است:
 
 1. [LetMeShip](https://www.letmeship.com/en/)
 2. [SendCloud](https://www.sendcloud.com)
 
-> برای استفاده از این قابلیت‌ها، باید برنامهٔ **ERPNext Shipping** را روی سایت خود نصب کنید. برنامه را می‌توانید از [GitHub](https://github.com/frappe/erpnext-shipping/tree/master)، [بازارگاه Frappe Cloud](https://cloud.frappe.io/marketplace/apps/erpnext_shipping) دریافت کنید یا از ارائه‌دهندهٔ میزبانی خود بخواهید آن را نصب کند.
+> برای استفاده از این قابلیت‌ها، باید این برنامه را روی سایت خود نصب کنید. برنامه را می‌توانید از [GitHub](https://github.com/frappe/erpnext-shipping/tree/master) یا [بازارگاه Frappe Cloud](https://cloud.frappe.io/marketplace/apps/erpnext_shipping) دریافت کنید یا از ارائه‌دهندهٔ میزبانی خود بخواهید آن را نصب کند.
 
 ## 1. راه‌اندازی
 
