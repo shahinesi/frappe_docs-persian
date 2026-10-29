@@ -18,7 +18,7 @@ bench migrate-csv-to-po [OPTIONS]
 
 ### پیش‌نیاز
 
-مطمئن شوید برنامهٔ شما از قبل فایل POT دارد. اگر ندارد، [فایل الگوی ترجمه را تولید کنید](https://docs.frappe.io/framework/user/en/bench-generate-pot-file).
+مطمئن شوید برنامهٔ شما از قبل فایل POT دارد. اگر ندارد، [تولید فایل الگوی ترجمه با Bench](bench-generate-pot-file.md) را ببینید.
 
 ### توضیح
 
