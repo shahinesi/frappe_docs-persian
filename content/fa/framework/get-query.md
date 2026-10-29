@@ -145,6 +145,274 @@ results = query.run(as_dict=True)
 
 این روش پس از دریافت رکوردهای والد، پرس‌وجوی جداگانه‌ای برای رکوردهای فرزند اجرا می‌کند و آن‌ها را به‌شکل کارآمد بر اساس والد گروه‌بندی می‌کند.
 
+### تابع‌های SQL در فیلدها
+
+برای استفاده از تابع‌های SQL در عبارت‌های `SELECT`، می‌توانید در آرگومان `fields` از نگارش مبتنی بر دیکشنری استفاده کنید.
+
+#### تابع‌های تجمیعی
+
+```python
+# COUNT - شمارش ردیف‌ها یا مقدارهای غیرتهی
+query = frappe.qb.get_query(
+    "User",
+    fields=["user_type", {"COUNT": "name", "as": "total_users"}],
+    group_by="user_type"
+)
+
+# COUNT(*) - شمارش همهٔ ردیف‌ها، از جمله مقدارهای تهی
+query = frappe.qb.get_query(
+    "Sales Invoice",
+    fields=[{"COUNT": "'*'", "as": "total_invoices"}]
+)
+
+# SUM - محاسبهٔ مجموع مقدارهای عددی
+query = frappe.qb.get_query(
+    "Sales Invoice",
+    fields=[{"SUM": "grand_total", "as": "total_sales"}],
+    filters={"docstatus": 1}
+)
+
+# AVG - محاسبهٔ میانگین مقدارهای عددی
+query = frappe.qb.get_query(
+    "Sales Invoice",
+    fields=[{"AVG": "grand_total", "as": "avg_invoice_amount"}],
+    group_by="customer"
+)
+
+# MAX - یافتن بیشترین مقدار
+query = frappe.qb.get_query(
+    "User",
+    fields=[{"MAX": "creation", "as": "latest_user_date"}]
+)
+
+# MIN - یافتن کمترین مقدار
+query = frappe.qb.get_query(
+    "User",
+    fields=[{"MIN": "creation", "as": "earliest_user_date"}]
+)
+```
+
+#### تابع‌های اسکالر
+
+```python
+# ABS - قدرمطلق
+query = frappe.qb.get_query(
+    "Journal Entry Account",
+    fields=[{"ABS": "debit_in_account_currency", "as": "abs_amount"}]
+)
+
+# IFNULL - مدیریت مقدارهای تهی (دو آرگومان می‌گیرد)
+query = frappe.qb.get_query(
+    "User",
+    fields=[{"IFNULL": ["first_name", "'Unknown'"], "as": "display_name"}]
+)
+
+# CONCAT - چسباندن رشته‌ها (چند آرگومان می‌گیرد)
+query = frappe.qb.get_query(
+    "User",
+    fields=[{"CONCAT": ["first_name", "' '", "last_name"], "as": "full_name"}]
+)
+
+# EXTRACT - استخراج بخشی از تاریخ/زمان (دو آرگومان: واحد و تاریخ)
+query = frappe.qb.get_query(
+    "User",
+    fields=[{"EXTRACT": ["'YEAR'", "creation"], "as": "creation_year"}]
+)
+
+# NOW - زمان‌مهر کنونی (بدون آرگومان)
+query = frappe.qb.get_query(
+    "User",
+    fields=[{"NOW": None, "as": "current_time"}]
+)
+```
+
+## پالایه‌گذاری
+
+### پالایه‌های پایه
+
+آرگومان `filters` امکان افزودن عبارت‌های `WHERE` را فراهم می‌کند.
+
+#### پالایه‌های دیکشنری (برابری)
+
+این ساده‌ترین روش و در بسیاری از موارد روش ترجیحی برای بررسی برابری است.
+
+```python
+# دریافت کاربران با first_name برابر Admin
+query = frappe.qb.get_query(
+    "User",
+    fields=["name", "email"],
+    filters={"first_name": "Admin"} # جفت کلید و مقدار ساده به معنی '=' است
+)
+```
+
+#### پالایه‌های دیکشنری (عملگرهای دیگر)
+
+برای عملگرهایی غیر از `=`، دیکشنری‌ای بدهید که مقدار آن فهرستی به‌شکل `[operator, value]` باشد.
+
+```python
+# دریافت کاربرانی که پس از تاریخ مشخص‌شده ساخته شده‌اند
+query = frappe.qb.get_query(
+    "User",
+    fields=["name", "creation"],
+    filters={"creation": [">", "2023-01-01 00:00:00"]}
+)
+
+# دریافت کاربرانی که نامشان با الگوی test% مطابقت دارد
+query = frappe.qb.get_query(
+    "User",
+    fields=["name"],
+    filters={"name": ["like", "test%"]}
+)
+
+# دریافت کاربرانی که نامشان در فهرستی قرار دارد
+query = frappe.qb.get_query(
+    "User",
+    fields=["name"],
+    filters={"name": ["in", ["test1@example.com", "test2@example.com"]]}
+)
+
+# دریافت کاربرانی که نامشان در فهرست نیست
+query = frappe.qb.get_query(
+    "User",
+    fields=["name"],
+    filters={"name": ["not in", ["Administrator", "Guest"]]}
+)
+```
+
+#### پالایه‌های فهرستی (قالب جایگزین)
+
+می‌توانید فهرستی از فهرست‌های پالایه به‌شکل `[[fieldname, operator, value]]` هم بدهید.
+
+```python
+# دریافت کاربرانی که پس از تاریخ مشخص ساخته شده‌اند (قالب فهرستی)
+query = frappe.qb.get_query(
+    "User",
+    fields=["name", "creation"],
+    filters=[["creation", ">", "2023-01-01 00:00:00"]]
+)
+
+# چند پالایه که با AND ترکیب می‌شوند
+query = frappe.qb.get_query(
+    "User",
+    fields=["name"],
+    filters=[
+        ["enabled", "=", 1],
+        ["user_type", "=", "System User"]
+    ]
+)
+```
+
+### عملگرهای پالایه
+
+`frappe.qb.get_query` از عملگرهای گوناگونی پشتیبانی می‌کند:
+
+| رشتهٔ عملگر | معادل SQL | نمونه (قالب دیکشنری) | نمونه (قالب فهرستی) |
+|---|---|---|---|
+| `=` | `=` | `{"name": "Test"}` | `[["name", "=", "Test"]]` |
+| `!=` | `!=` | `{"name": ["!=", "Test"]}` | `[["name", "!=", "Test"]]` |
+| `>` | `>` | `{"creation": [">", "2023-01-01"]}` | `[["creation", ">", "2023-01-01"]]` |
+| `<` | `<` | `{"creation": ["<", "2023-01-01"]}` | `[["creation", "<", "2023-01-01"]]` |
+| `>=` | `>=` | `{"age": [">=", 18]}` | `[["age", ">=", 18]]` |
+| `<=` | `<=` | `{"age": ["<=", 65]}` | `[["age", "<=", 65]]` |
+| `like` | `LIKE` | `{"subject": ["like", "%urgent%"]}` | `[["subject", "like", "%urgent%"]]` |
+| `not like` | `NOT LIKE` | `{"subject": ["not like", "spam%"]}` | `[["subject", "not like", "spam%"]]` |
+| `in` | `IN` | `{"status": ["in", ["Open", "Pending"]]}` | `[["status", "in", ["Open", "Pending"]]]` |
+| `not in` | `NOT IN` | `{"role": ["not in", ["Guest"]]}` | `[["role", "not in", ["Guest"]]]` |
+| `is` | `IS NULL` یا `IS NOT NULL` | `{"customer": ["is", "set"]}` یا `{"email": ["is", "not set"]}` | `[["customer", "is", "set"]]` یا `[["email", "is", "not set"]]` |
+| `descendants of` | مجموعهٔ تو‌در‌تو | `{"parent_account": ["descendants of", "Assets"]}` | `[["parent_account", "descendants of", "Assets"]]` |
+| `ancestors of` | مجموعهٔ تو‌در‌تو | `{"location": ["ancestors of", "Room 101"]}` | `[["location", "ancestors of", "Room 101"]]` |
+| `not descendants of` | مجموعهٔ تو‌در‌تو | `{"category": ["not descendants of", "Internal"]}` | `[["category", "not descendants of", "Internal"]]` |
+| `not ancestors of` | مجموعهٔ تو‌در‌تو | `{"territory": ["not ancestors of", "West Coast"]}` | `[["territory", "not ancestors of", "West Coast"]]` |
+
+**دربارهٔ `is set` و `is not set`:** این عملگرها بررسی می‌کنند که فیلد مقداری دارد یا نه (`IS NOT NULL` و `IS NULL`).
+
+### پالایه‌گذاری بر اساس فیلدهای سند پیوندشده
+
+با نگارش نقطه‌ای `link_fieldname.target_fieldname` می‌توانید بر اساس فیلدهای سندهای پیوندشده پالایه‌گذاری کنید.
+
+```python
+# دریافت سفارش‌های فروشی که قلمرو مشتری پیوندشده‌شان North America است
+query = frappe.qb.get_query(
+    "Sales Order",
+    fields=["name", "customer"],
+    filters={"customer.territory": "North America"} # پالایه بر اساس فیلد پیوندشده
+)
+north_america_orders = query.run(as_dict=True)
+```
+
+### پالایه‌گذاری بر اساس فیلدهای جدول فرزند
+
+با نگارش نقطه‌ای `child_table_fieldname.target_fieldname` می‌توانید رکوردهای والد را بر اساس مقدارهای رکوردهای جدول فرزند پالایه کنید.
+
+```python
+# دریافت سفارش‌های فروشی که جدول items آن‌ها Item A را دارد
+# برای اطمینان از نمایش یکتای هر سفارش فروش، distinct=True بگذارید
+query = frappe.qb.get_query(
+    "Sales Order",
+    fields=["name", "customer"],
+    filters={"items.item_code": "Item A"}, # پالایه بر اساس فیلد جدول فرزند
+    distinct=True
+)
+orders_with_item_a = query.run(as_dict=True)
+```
+
+**نکته:** هنگام پالایه‌گذاری بر اساس فیلدهای جدول فرزند، اگر فقط رکوردهای والد یکتا را می‌خواهید، از `distinct=True` استفاده کنید.
+
+### پالایه‌های مجموعهٔ تو‌در‌تو
+
+برای DocTypeهای درختی (با ستون‌های `lft` و `rgt` مانند حساب، قلمرو، انبار و غیره)، می‌توانید از پالایه‌های ویژه استفاده کنید:
+
+```python
+# دریافت همهٔ حساب‌های زیرمجموعهٔ Assets
+query = frappe.qb.get_query(
+    "Account",
+    fields=["name"],
+    filters={"parent_account": ["descendants of", "Assets"]}
+)
+
+# دریافت قلمروهای والد West Coast
+query = frappe.qb.get_query(
+    "Territory",
+    fields=["name"],
+    filters={"parent_territory": ["ancestors of", "West Coast"]}
+)
+```
+
+### عملگرهای منطقی (AND/OR)
+
+برای شرط‌های پیچیده، `filters` را به‌شکل فهرستی از شرط‌ها بسازید و آن‌ها را با `'and'` یا `'or'` ترکیب کنید.
+
+```python
+# یافتن کاربران فعال که نام کوچکشان Admin است
+filters_and = [
+    ["enabled", "=", 1],
+    "and",
+    ["first_name", "=", "Admin"],
+]
+query = frappe.qb.get_query("User", filters=filters_and)
+
+# یافتن کاربرانی که نام کوچکشان Admin یا Guest است
+filters_or = [
+    ["first_name", "=", "Admin"],
+    "or",
+    ["first_name", "=", "Guest"],
+]
+query = frappe.qb.get_query("User", filters=filters_or)
+
+# ترکیب AND و OR؛ برای گروه‌بندی از فهرست‌های تو‌در‌تو استفاده کنید
+# یافتن کاربران فعالی که نام کوچکشان Admin یا Guest است
+filters_nested = [
+    ["enabled", "=", 1],
+    "and",
+    [
+        ["first_name", "=", "Admin"],
+        "or",
+        ["first_name", "=", "Guest"],
+    ]
+]
+query = frappe.qb.get_query("User", filters=filters_nested)
+```
+
 ---
 
 > این صفحه ترجمهٔ غیررسمیِ در حال تکمیل مستندات Frappe Framework است و هنوز برای انتشار آماده نیست. منبع: [ساخت پرس‌وجو با frappe.qb.get_query](https://docs.frappe.io/framework/get_query). متن منبع تحت شرایط CC BY-SA بازنشر می‌شود و این ترجمه نیز با انتساب به منبع و تحت شرایط همان مجوز منتشر خواهد شد.
