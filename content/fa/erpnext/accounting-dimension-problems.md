@@ -20,11 +20,11 @@ source_version: "79437768ded14e6c24a1398035de09dd7daf62e2da56f1957b07e42b9c59a58
 
 ## پیام «بُعد حسابداری اجباری است»
 
-نمونهٔ متن خام خطا در سامانه:
+نمونهٔ پیام خطا در سامانه:
 
 ```text
-Accounting Dimension Branch is required for 'Profit and Loss' account Sales - BBS.
-Accounting Dimension Branch is required for 'Balance Sheet' account Debtors - BBS.
+بُعد حسابداری «شعبه» برای حساب «سود و زیان» با شناسهٔ Sales - BBS الزامی است.
+بُعد حسابداری «شعبه» برای حساب «ترازنامه» با شناسهٔ Debtors - BBS الزامی است.
 ```
 
 برای شرکت، این بُعد در جدول **پیش‌فرض‌های بُعد** در بُعد حسابداری به‌صورت **اجباری برای حساب سود و زیان** یا **اجباری برای ترازنامه** اجباری شده است.
