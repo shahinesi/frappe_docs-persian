@@ -73,7 +73,10 @@ for (const file of pages) {
   if (source && sourceId !== source.source_id) failures.push(`${relative}: source_id does not match manifest`);
   if (source && sourceVersion !== source.source_content_sha256) failures.push(`${relative}: source_version is stale versus manifest`);
   if (source) {
-    const sourceFile = new URL(`../sources/${source.source_id}.md`, import.meta.url);
+    const sourcePath = source.source_snapshot_path
+      ? source.source_snapshot_path.split('/').map(encodeURIComponent).join('/')
+      : `sources/${source.source_id.split('/').map(encodeURIComponent).join('/')}.md`;
+    const sourceFile = new URL(`../${sourcePath}`, import.meta.url);
     try {
       const sourceText = await readFile(sourceFile, 'utf8');
       const digest = createHash('sha256').update(sourceText).digest('hex');
