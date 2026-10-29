@@ -27,7 +27,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## پیش از شروع
 
-برای شرکت، [درخت حساب‌ها](chart-of-accounts.md)، [سال مالی](https://docs.frappe.io/erpnext/fiscal-year) و [مرکز هزینه](cost-center.md) را ایجاد کنید. حساب‌ها باید به همان شرکت تعلق داشته باشند.
+برای شرکت، [درخت حساب‌ها](chart-of-accounts.md)، [سال مالی](fiscal-year.md) و [مرکز هزینه](cost-center.md) را ایجاد کنید. حساب‌ها باید به همان شرکت تعلق داشته باشند.
 
 ## پیکربندی حساب‌های پیش‌فرض طرف حساب
 

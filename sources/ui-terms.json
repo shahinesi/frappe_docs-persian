@@ -2296,6 +2296,15 @@
         "Expiry Date": "تاریخ انقضا"
       },
       "basis": "برچسب‌های «اسکریپت سفارشی» و «تاریخ انقضا» در نمونهٔ رسمی واکشی داده؛ این صورت‌ها در snapshot جاری locale ERPNext برگردان فارسی مستقیم نداشتند."
+    },
+    {
+      "product": "erpnext",
+      "source_labels": {
+        "Home": "خانه",
+        "Add Fiscal Year": "افزودن سال مالی",
+        "Is Short Year": "سال مالی کوتاه است"
+      },
+      "basis": "برچسب‌های راهنمای رسمی سال مالی که در snapshot جاری locale ERPNext ترجمهٔ مستقیمی نداشتند."
     }
   ],
   "source_files": {

@@ -63,4 +63,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - [نمای کلی حسابداری](accounting-introduction.md)
 - [درخت حساب‌ها](chart-of-accounts.md)
 - [دفترکل](https://docs.frappe.io/erpnext/general-ledger)
-- [سال مالی](https://docs.frappe.io/erpnext/fiscal-year)
+- [سال مالی](fiscal-year.md)
