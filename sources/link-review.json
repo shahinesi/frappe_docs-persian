@@ -1,6 +1,17 @@
 {
   "schema_version": 1,
-  "checked_files": 524,
-  "changed_files": 0,
-  "unresolved": []
+  "checked_files": 525,
+  "changed_files": 1,
+  "unresolved": [
+    {
+      "file": "content/fa/erpnext/finance-book.md",
+      "href": "https://docs.frappe.io/erpnext/company",
+      "kind": "official-page-not-in-manifest"
+    },
+    {
+      "file": "content/fa/erpnext/finance-book.md",
+      "href": "https://docs.frappe.io/erpnext/trial-balance",
+      "kind": "official-page-not-in-manifest"
+    }
+  ]
 }

@@ -144,7 +144,7 @@ ERPNext امکان خروجی‌گرفتن از بسیاری از گزارش‌�
 - [حساب‌های دریافتنی و پرداختنی](accounts-receivable-and-payable.md)
 - [الگوی گزارش مالی](https://docs.frappe.io/erpnext/financial-report-template)
 - [ابعاد حسابداری](accounting-dimensions.md)
-- [دفتر مالی](https://docs.frappe.io/erpnext/finance-book)
+- [دفتر مالی](finance-book.md)
 
 ---
 منبع: [گزارش‌های حسابداری](https://docs.frappe.io/erpnext/accounting-reports). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.
