@@ -153,7 +153,7 @@ function replaceKnownUiEntities(text, terms, counters, labels = ['Contact', 'Add
 }
 
 function localizeStatusMentions(text, terms, counters) {
-	const statuses = ['Draft', 'Submitted', 'Cancelled', 'Completed', 'Pending', 'Unreconciled', 'Reconciled', 'Settled']
+	const statuses = ['Draft', 'Submitted', 'Cancelled', 'Completed', 'Pending', 'Failed', 'Unreconciled', 'Reconciled', 'Settled']
 		.filter((status) => terms[status] && FA_LETTER.test(terms[status]));
 	if (!statuses.length) return text;
 	const pattern = new RegExp(`(?<![A-Za-z0-9_])(${statuses.map(escapeRegExp).join('|')})(?![A-Za-z0-9_])`, 'g');

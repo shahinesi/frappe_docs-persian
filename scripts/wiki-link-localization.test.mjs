@@ -514,14 +514,14 @@ test('localizes exact UI labels in plain table cells and preserves code cells', 
 });
 
 test('localizes visible document status mentions while preserving code identifiers', () => {
-	const input = 'سند را در وضعیت Draft نگه دارید. مقدار API برابر `Draft` است.';
+	const input = 'سند را در وضعیت Draft نگه دارید و وضعیت درگاه Failed می‌شود. مقدارهای API برابر `Draft` و `Failed` هستند.';
 	const result = prepareMarkdownLinks(input, {
 		currentPath: 'content/fa/erpnext/example.md',
 		manifest: { pages: [] },
 		terms: {},
-		uiTerms: { Draft: 'پیش‌نویس' },
+		uiTerms: { Draft: 'پیش‌نویس', Failed: 'ناموفق' },
 	});
-	assert.equal(result.markdown, 'سند را در وضعیت پیش‌نویس نگه دارید. مقدار API برابر `Draft` است.');
+	assert.equal(result.markdown, 'سند را در وضعیت پیش‌نویس نگه دارید و وضعیت درگاه ناموفق می‌شود. مقدارهای API برابر `Draft` و `Failed` هستند.');
 });
 
 test('localizes punctuated bold status labels', () => {
