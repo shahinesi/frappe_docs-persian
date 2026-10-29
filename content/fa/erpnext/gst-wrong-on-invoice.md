@@ -72,9 +72,9 @@ description: "عیب‌یابی نوع، محاسبه و نمایش مالیات
 +
 +## موضوعات مرتبط
 +
-+- [راهنمای GST هند، فاکتور الکترونیکی و بارنامهٔ الکترونیکی](https://docs.frappe.io/erpnext/india-gst-help)
++- [پرسش‌های رایج GST هند: فاکتور الکترونیکی و بارنامهٔ الکترونیکی](https://docs.frappe.io/erpnext/india-gst-help)
 +- [راه‌اندازی GST در India Compliance](https://docs.indiacompliance.app/docs/configuration/gst_setup)
 +- [الگوی مالیات کالا](https://docs.frappe.io/erpnext/item-tax-template)
-+- [GST برای چند شعبه](https://docs.frappe.io/erpnext/gst-for-multiple-branches)
++- [تنظیم GST برای چند شعبه](gst-for-multiple-branches.md)
 +
 +منبع: [چرا GST در فاکتور اشتباه است یا نمایش داده نمی‌شود؟](https://docs.frappe.io/erpnext/gst-wrong-on-invoice). این صفحه ترجمهٔ غیررسمی است و محتوای مستندات تحت شرایط CC BY-SA با انتساب به منبع بازنشر شده است.
