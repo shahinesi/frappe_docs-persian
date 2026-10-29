@@ -17,7 +17,7 @@ ERPNext با Google Calendar یکپارچه می‌شود تا کاربران ب
 
 برای همگام‌سازی، باید به ERPNext اجازه دهید داده‌های رویدادهای تقویم را از Google دریافت کند. مراحل راه‌اندازی:
 
-- از طریق [تنظیمات Google](https://docs.frappe.io/erpnext/google_settings)، اعتبارنامه‌های OAuth 2.0 را ایجاد کنید.
+- از طریق [تنظیمات Google](google_settings.md)، اعتبارنامه‌های OAuth 2.0 را ایجاد کنید.
 - در فهرست **Google Calendar** روی **جدید** کلیک کنید. نام تقویم و کاربری را که می‌خواهید تقویمش همگام شود وارد و ذخیره کنید.
 - با توجه به جهت همگام‌سازی موردنیاز، یکی از گزینه‌ها را انتخاب کنید:
   - **دریافت از Google Calendar (Pull from Google Calendar):** همهٔ رویدادها از Google Calendar به ERPNext منتقل می‌شوند.

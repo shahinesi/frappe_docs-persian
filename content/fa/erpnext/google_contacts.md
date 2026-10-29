@@ -17,7 +17,7 @@ ERPNext با Google Contacts یکپارچه می‌شود تا کاربران ب
 
 برای همگام‌سازی باید به ERPNext اجازه دهید داده‌های مخاطبان را از Google دریافت کند. مراحل راه‌اندازی:
 
-- از طریق [تنظیمات Google](https://docs.frappe.io/erpnext/google_settings)، اعتبارنامه‌های OAuth 2.0 را ایجاد کنید.
+- از طریق [تنظیمات Google](google_settings.md)، اعتبارنامه‌های OAuth 2.0 را ایجاد کنید.
 - در فهرست **Google Contacts** روی **جدید** کلیک کنید. نشانی ایمیل حساب Google موردنظر برای همگام‌سازی را وارد و ذخیره کنید. سپس **مجازکردن دسترسی به مخاطبان (Authorize Contacts Access)** را بزنید تا ERPNext اجازهٔ دریافت داده‌های مخاطبان از Google را بگیرد.
 
 ## استفاده از یکپارچه‌سازی با Google Contacts

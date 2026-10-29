@@ -15,7 +15,7 @@ ERPNext با Google Maps یکپارچه می‌شود تا زمان سفرهای
 
 ## راه‌اندازی یکپارچه‌سازی با Google Maps
 
-برای فعال‌کردن محاسبه و بهینه‌سازی زمان سفر تحویل در ERPNext، دسترسی API را در [تنظیمات Google](https://docs.frappe.io/erpnext/google_settings#for-google-maps) فعال کنید.
+برای فعال‌کردن محاسبه و بهینه‌سازی زمان سفر تحویل در ERPNext، دسترسی API را در [تنظیمات Google](google_settings.md#for-google-maps) فعال کنید.
 
 ## استفاده از یکپارچه‌سازی با Google Maps
 

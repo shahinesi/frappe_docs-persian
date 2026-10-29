@@ -61,7 +61,7 @@ ERPNext قابلیت‌های متنوعی برای یکپارچه‌سازی د
 
 ### یکپارچه‌سازی‌های Google
 
-- [تنظیمات Google](https://docs.frappe.io/erpnext/google_settings)
+- [تنظیمات Google](google_settings.md)
 - [یکپارچه‌سازی با Google Calendar](google_calendar.md)
 - [یکپارچه‌سازی با Google Contacts](google_contacts.md)
 - [یکپارچه‌سازی با Google Maps](google_maps.md)
