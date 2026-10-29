@@ -76,7 +76,7 @@ https://{yourwebsite.com}/api/method/frappe.integrations.doctype.dropbox_setting
 
 #### گام 8: پیش از ادامه، ذخیره را بزنید
 
-#### گام 9: پس از ذخیره، انتخاب کنید «Allow Dropbox Access»
+#### گام 9: پس از ذخیره، گزینهٔ «اجازهٔ دسترسی به Dropbox» را انتخاب کنید.
 
 صفحهٔ ورود Dropbox در زبانه‌ای تازه باز می‌شود. ممکن است لازم باشد بازشدن پنجره‌های بازشو را برای حساب ERPNext خود مجاز کنید.
 
