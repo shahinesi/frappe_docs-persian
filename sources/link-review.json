@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_files": 541,
+  "checked_files": 542,
   "changed_files": 1,
   "unresolved": [
     {
@@ -11,6 +11,41 @@
     {
       "file": "content/fa/erpnext/finance-book.md",
       "href": "https://docs.frappe.io/erpnext/trial-balance",
+      "kind": "official-page-not-in-manifest"
+    },
+    {
+      "file": "content/fa/erpnext/help-articles.md",
+      "href": "/erpnext/reports-showing-multiple-lines-for-one-document",
+      "kind": "official-page-not-in-manifest"
+    },
+    {
+      "file": "content/fa/erpnext/help-articles.md",
+      "href": "/erpnext/change-custom-field-datatype-after-field-creation",
+      "kind": "official-page-not-in-manifest"
+    },
+    {
+      "file": "content/fa/erpnext/help-articles.md",
+      "href": "/erpnext/sales-return-use-cases",
+      "kind": "official-page-not-in-manifest"
+    },
+    {
+      "file": "content/fa/erpnext/help-articles.md",
+      "href": "/erpnext/accounts/articles/default-receivable-payable-account",
+      "kind": "official-page-not-in-manifest"
+    },
+    {
+      "file": "content/fa/erpnext/help-articles.md",
+      "href": "/erpnext/need-to-change-rate-of-items-during-sales-cycle",
+      "kind": "official-page-not-in-manifest"
+    },
+    {
+      "file": "content/fa/erpnext/help-articles.md",
+      "href": "/erpnext/sales-return-use-cases",
+      "kind": "official-page-not-in-manifest"
+    },
+    {
+      "file": "content/fa/erpnext/help-articles.md",
+      "href": "/erpnext/project-profitability-report",
       "kind": "official-page-not-in-manifest"
     }
   ]
