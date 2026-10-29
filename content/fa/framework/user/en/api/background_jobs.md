@@ -67,7 +67,7 @@ Frappe به‌طور پیش‌فرض سه صف دارد: `short`، `default` و 
 
 ### صف‌های سفارشی
 
-برای افزودن صف سفارشی، آن را در فایل `common_site_config.json` پیکربندی کنید. دربارهٔ [پیکربندی مشترک سایت‌های Frappe](https://docs.frappe.io/framework/user/en/guides/basics/sites#common_site_config_json) بیشتر بخوانید:
+برای افزودن صف سفارشی، آن را در فایل `common_site_config.json` پیکربندی کنید. جزئیات را در [بخش پیکربندی مشترک سایت‌ها](../guides/basics/sites.md#s1) بخوانید:
 
 ```json
 {
@@ -144,7 +144,7 @@ def update_database_usage():
 
 - `hourly`، `daily`، `weekly` و `monthly`: به‌ترتیب هر ساعت، هر روز، هر هفته و هر ماه اجرا می‌شوند.
 - `hourly_long`، `daily_long`، `weekly_long` و `monthly_long`: مانند موارد بالا هستند، اما کارها را با پردازشگر بلندمدت اجرا می‌کنند. دربارهٔ [ساختار پوشه‌ها و پردازشگر بلندمدت](https://docs.frappe.io/framework/user/en/basics/directory-structure#worker_long) بخوانید.
-- `all`: هر 4 دقیقه اجرا می‌شود. فاصلهٔ اجرا را می‌توان با کلید `scheduler_interval` در [پیکربندی مشترک سایت‌ها](https://docs.frappe.io/framework/user/en/guides/basics/sites#common_site_config_json) تنظیم کرد.
+- `all`: هر 4 دقیقه اجرا می‌شود. فاصلهٔ اجرا را می‌توان با کلید `scheduler_interval` در [بخش پیکربندی مشترک سایت‌ها](../guides/basics/sites.md#s1) تنظیم کرد.
 - `cron`: رشتهٔ معتبر cron که کتابخانهٔ [croniter در PyPI](https://pypi.org/project/croniter/) می‌تواند آن را تجزیه کند.
 
 ### نمونهٔ استفاده
