@@ -36,11 +36,11 @@ function getProductUiTerms(product) {
     Object.assign(terms, curated.source_labels || {});
   }
   const phraseTerms = Object.entries(terms)
-    .filter(([english, persian]) => english.includes(' ') && /[A-Za-z]/.test(english) && /[\u0600-\u06FF]/.test(persian))
+    .filter(([english, persian]) => english.includes(' ') && /[A-Za-z]/.test(english) && !/[\u0600-\u06FF]/.test(english) && /[\u0600-\u06FF]/.test(persian) && english.toLowerCase() !== persian.toLowerCase())
     .sort(([left], [right]) => right.length - left.length);
   const phraseLookup = new Map(phraseTerms.map(([english, persian]) => [english.toLowerCase(), persian]));
   const phrasePattern = phraseTerms.length
-    ? new RegExp(`(?:با|از|بر اساس|در)\\s+(${phraseTerms.map(([english]) => english.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})\\s*$`, 'i')
+    ? new RegExp(`(?<![A-Za-z0-9])(${phraseTerms.map(([english]) => english.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})(?![A-Za-z0-9])`, 'i')
     : null;
   const result = { terms, phraseLookup, phrasePattern };
   productUiTermCache.set(product, result);
@@ -95,7 +95,7 @@ for (const file of pages) {
       failures.push(`${relative}: visible list label "${bareListLabel}" has a Persian UI translation "${productTerms[bareListLabel]}"`);
     }
     const heading = line.match(/^\s*#{1,6}\s+(.+)$/)?.[1];
-    const untranslatedHeadingLabel = heading && /[\u0600-\u06FF]/.test(heading) ? heading.match(phrasePattern || /$^/)?.[1] : null;
+    const untranslatedHeadingLabel = heading?.replace(/`[^`]*`/g, '')?.match(phrasePattern || /$^/)?.[1] || null;
     if (untranslatedHeadingLabel) {
       const persianLabel = phraseLookup.get(untranslatedHeadingLabel.toLowerCase());
       failures.push(`${relative}: heading contains the untranslated UI label "${untranslatedHeadingLabel}"; use "${persianLabel}"`);

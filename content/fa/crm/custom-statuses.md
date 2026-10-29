@@ -66,7 +66,7 @@ class CRMDeal {
 
   custom_deal_type() {
     this._updateStatuses();
-    // Reset status if the current value isn't in the new pipeline
+    // اگر وضعیت فعلی در روند جدید نیست، آن را بازنشانی کن
     if (this.doc.status && !this.statuses.includes(this.doc.status)) {
       this.doc.status = this.statuses[0];
     }
@@ -107,7 +107,7 @@ class CRMDeal {
   }
   _updateStatuses() {
     this.statuses = [
-      "Consultation/Inquiry", // custom — create in CRM Settings first
+      "Consultation/Inquiry", // سفارشی است؛ ابتدا آن را در تنظیمات CRM بسازید
       "Proposal/Quotation",
       "Negotiation",
       "Won",

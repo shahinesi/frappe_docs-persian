@@ -73,7 +73,7 @@ data.user = frappe.get_doc("User", "<user-email>")
 برای دریافت داده بر اساس پارامترهای مسیر پویا:
 
 ```python
-# Example route: /blog/:blog_slug
+# نمونهٔ مسیر: /blog/:blog_slug
 blog_slug = frappe.form_dict.blog_slug
 data.blog_post = frappe.get_doc("Blog Post", {"slug": blog_slug})
 ```
@@ -123,11 +123,11 @@ data.posts = frappe.make_get_request("https://jsonplaceholder.typicode.com/posts
 ```python
 data.users = frappe.db.get_all("User", fields=["name", "first_name", "last_name"])
 
-# Processing data
+# پردازش داده
 for user in data.users:
     user.full_name = user.first_name + " " + user.last_name
 
-# Adding routes to each user
+# افزودن مسیر به هر کاربر
 for user in data.users:
     user.route = "/user/" + user.name
 ```

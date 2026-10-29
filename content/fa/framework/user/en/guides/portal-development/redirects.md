@@ -21,13 +21,13 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ```python
 website_redirects = [
-    # absolute location
+    # نشانی مطلق
     {"source": "/from", "target": "https://mysite/from"},
 
-    # relative location
+    # نشانی نسبی
     {"source": "/from", "target": "/main", "redirect_http_status": 307},
 
-    # use regex
+    # استفاده از عبارت منظم
     {"source": "/from/(.*)", "target": "/main/\1"}
 ]
 ```

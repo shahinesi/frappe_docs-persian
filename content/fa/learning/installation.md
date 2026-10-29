@@ -70,10 +70,10 @@ python3 ./easy-install.py deploy \
 mkdir frappe-learning
 cd frappe-learning
 
-# Download the docker-compose file
+# دریافت فایل docker-compose
 wget -O docker-compose.yml https://raw.githubusercontent.com/frappe/lms/develop/docker/docker-compose.yml
 
-# Download the setup script
+# دریافت اسکریپت راه‌اندازی
 wget -O init.sh https://raw.githubusercontent.com/frappe/lms/develop/docker/init.sh
 ```
 

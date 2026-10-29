@@ -9,11 +9,11 @@ source_version: "6a026b5e589dbc241ff29a041fc60db8a89822bfc8773c95f5d591a4a8bada7
 Wiki یک برنامهٔ Frappe است؛ بنابراین نیازی به تغییر ابزارهای استقرار ندارید. برای نصب دستی روی Bench، فرمان‌های زیر را اجرا کنید:
 
 ```sh
-# get-app
+# دریافت برنامه
 
 $ bench get-app https://github.com/frappe/wiki
 
-# install on site
+# نصب روی سایت
 
 $ bench --site sitename install-app wiki
 ```

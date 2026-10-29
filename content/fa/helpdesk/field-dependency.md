@@ -87,7 +87,7 @@ function setupForm({doc, applyFilters}) {
     
     return {
         onChange:{
-//          works only for new ticket page
+//          فقط در صفحهٔ ایجاد تیکت جدید کار می‌کند
             "custom_app":(newVal)=>update_category(newVal)
         }
     }

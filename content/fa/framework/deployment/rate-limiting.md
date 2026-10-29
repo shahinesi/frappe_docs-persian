@@ -94,8 +94,8 @@ Retry-After: 1242
 ```python
 from frappe.rate_limiter import rate_limit
 
-# Limits authenticated users to 10 requests per minute per account.
-# Guests hitting this mixed-auth endpoint are limited to 10 requests per minute per IP.
+# برای کاربران واردشده، سقف هر حساب 10 درخواست در دقیقه است.
+# درخواست مهمان به این نقطهٔ پایانیِ دارای دو شیوهٔ احراز هویت، به 10 درخواست در دقیقه برای هر IP محدود می‌شود.
 @frappe.whitelist()
 @rate_limit(limit=10, seconds=60, user_based=True)
 def generate_heavy_report():

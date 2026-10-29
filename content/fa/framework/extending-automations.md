@@ -157,7 +157,7 @@ source_version: "7d12de95b341951022a6ccf746df1082f3585e37231ca2da537d7785fac5fa2
         ...
 
     with skip_automations():
-        doc.save()  # no Automation Flow fires for this save
+        doc.save()  # با این ذخیره‌سازی هیچ جریان خودکارسازی اجرا نمی‌شود
 
 ---
 

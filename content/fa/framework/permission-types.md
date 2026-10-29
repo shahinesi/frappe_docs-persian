@@ -53,7 +53,7 @@ def approve_invoice(invoice_name):
 
 ```python
 if frappe.has_permission(invoice, "approve"):
-    # show approve button on frontend
+    # نمایش دکمهٔ تأیید در بخش کاربری
 ```
 
 ### مرحلهٔ 3: اختصاص به نقش‌ها (مدیر سیستم)
@@ -72,13 +72,13 @@ if frappe.has_permission(invoice, "approve"):
 برای بررسی مجوز در کد Python از `frappe.has_permission()` استفاده کنید:
 
 ```python
-# Check document-level permission
+# بررسی مجوز در سطح سند
 if frappe.has_permission(invoice_doc, "approve"):
-    # User can approve this invoice
+    # کاربر می‌تواند این صورتحساب را تأیید کند
 
-# Check DocType-level permission
+# بررسی مجوز در سطح DocType
 if frappe.has_permission("Invoice", "approve"):
-    # User can approve any invoice
+    # کاربر می‌تواند هر صورتحسابی را تأیید کند
 ```
 
 ---
