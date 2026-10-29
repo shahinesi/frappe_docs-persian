@@ -19,7 +19,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 - DocType سفارشی
 - فرم وب
-- اعلان (Notification)
+- اعلان
 
 مراحل زیر را برای پیکربندی این قابلیت و شروع جمع‌آوری بازخورد دنبال کنید.
 

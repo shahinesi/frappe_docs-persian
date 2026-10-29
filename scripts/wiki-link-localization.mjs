@@ -136,7 +136,7 @@ function localizeBareListLabels(text, terms, counters, mixedEntries = [], phrase
 	});
 }
 
-function replaceKnownUiEntities(text, terms, counters, labels = ['Contact', 'Address', 'Warehouse', 'Campaign', 'Communication', 'Currency', 'Employee', 'Department', 'Branch', 'Payroll', 'Performance', 'Settings', 'Task']) {
+function replaceKnownUiEntities(text, terms, counters, labels = ['Contact', 'Address', 'Warehouse', 'Campaign', 'Communication', 'Currency', 'Employee', 'Department', 'Branch', 'Notification', 'Country', 'Prefix', 'Condition', 'Formula', 'Payroll', 'Performance', 'Settings', 'Task']) {
 	const entries = labels.filter((label) => terms[label] && FA_LETTER.test(terms[label]));
 	if (!entries.length) return text;
 	const pattern = new RegExp(`(?<![\\p{L}\\p{N}])(${entries.map(escapeRegExp).join('|')})(های|ها|ای|ی)?(?![\\p{L}\\p{N}])`, 'gu');

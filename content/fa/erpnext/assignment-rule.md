@@ -69,7 +69,7 @@ source_version: "b15755f496595f1ca7ba9d71768df891f60c2c7c85977439954d8cf4e9d3c9c
 
 نمونه:
 
-اگر می‌خواهید موعد تخصیص یک درخواست پشتیبانی بر اساس تاریخ «Resolution By» همان درخواست پشتیبانی تعیین شود، در گزینهٔ `Due Date Based On` قاعدهٔ تخصیص، فیلد «Resolution By» را انتخاب کنید.
+اگر می‌خواهید موعد تخصیص یک درخواست پشتیبانی بر اساس تاریخ «حل و فصل توسط» همان درخواست پشتیبانی تعیین شود، در گزینهٔ `Due Date Based On` قاعدهٔ تخصیص، فیلد «حل و فصل توسط» را انتخاب کنید.
 
 ![تعیین فیلد مبنای موعد](https://github.com/frappe/frappe_docs/blob/master/erpnext/public/images/assignment-rule-due-date-based-on.png?raw=true)
 

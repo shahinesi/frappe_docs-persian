@@ -560,6 +560,20 @@ test('localizes attendance prerequisites and a mixed attendance tool heading', (
 	assert.equal(result.markdown, 'پیش‌نیازها:\n- کارمند\n- دپارتمان\n- شعبه\n\n2. ثبت حضور و غیاب با حضور و غیاب کارکنان');
 });
 
+test('localizes UI labels quoted in Persian prose and single-word field names', () => {
+	const result = prepareMarkdownLinks('در بخش Notification گزینهٔ «Notify by Email» را فعال کنید و مقدار Country را تعیین کنید؛ کد `Notification` را تغییر ندهید.', {
+		currentPath: 'content/fa/erpnext/example.md',
+		manifest: { pages: [] },
+		terms: {},
+		uiTerms: {
+			Notification: 'اعلان',
+			'Notify by Email': 'اطلاع‌رسانی از طریق ایمیل',
+			Country: 'کشور',
+		},
+	});
+	assert.equal(result.markdown, 'در بخش اعلان گزینهٔ «اطلاع‌رسانی از طریق ایمیل» را فعال کنید و مقدار کشور را تعیین کنید؛ کد `Notification` را تغییر ندهید.');
+});
+
 test('localizes UI labels in navigation breadcrumbs while preserving code identifiers', () => {
 	const result = prepareMarkdownLinks('> صفحهٔ اصلی > Manufacturing > Tools > BOM Update Tool\n\n`Warehouse`', {
 		currentPath: 'content/fa/erpnext/example.md',
