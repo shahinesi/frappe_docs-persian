@@ -1,0 +1,55 @@
+---
+title: "Lead"
+space: "Books"
+url: "https://docs.frappe.io/books/introduction"
+updated: "2026-10-05"
+---
+
+A lead is a person or a company that is interested in your products or services. Record leads before they buy. When a lead becomes a customer, make a customer from the lead.
+
+## Turn On Leads
+
+1. Click **Setup** > **Settings** in the sidebar.
+2. In the **General** tab, turn on **Enable Lead**.
+3. Click **Save** and click **Yes** to reload Frappe Books.
+
+**Lead** now shows in the **Sales** group of the sidebar. You cannot turn off leads after you save the setting.
+
+## Create a Lead
+
+1. Click **Sales** > **Lead** in the sidebar.
+2. Click **New**.
+3. Enter the **Name** of the lead. Each lead must have a different name.
+4. Optional: Enter the **Email**, the **Mobile**, and the **Address**.
+5. Click **Save**.
+
+A Books User can create, edit, and delete leads. For more information, see [Roles and Permissions](/books/roles-and-permissions).
+
+## Lead Status
+
+A new lead starts as **Open**. Change the **Status** as you work with the lead: **Replied**, **Interested**, **Opportunity**, **Quotation**, **Converted**, or **Do not Contact**. Frappe Books also changes the status for some actions:
+
+- When you submit a sales quote to the lead, the status changes to **Quotation**.
+- When you save a customer that you made from the lead, the status changes to **Converted**.
+- When you delete that customer, the status changes back to **Interested**.
+
+## Create a Customer From a Lead
+
+1. Open the lead.
+2. Click **Create** > **Customer** in the page header.
+3. Check the details of the new customer. If a party with the same name exists, change the **Name**.
+4. Click **Save**.
+
+![Lead Zenith Academy with the status Interested and the Create menu open, which shows Customer and Sales Quote.](/files/books-docs-introduction-1-lead-create-menu-v4.png)
+
+The new customer gets the name, the email, the address, and the mobile number of the lead. The mobile number goes to the **Phone** field. The **From Lead** field shows the lead. For more information, see [Party](/books/party).
+
+## Create a Sales Quote for a Lead
+
+1. Open the lead.
+2. Click **Create** > **Sales Quote** in the page header.
+3. Add the items.
+4. Click **Save**.
+5. Click **Submit** and click **Yes**.
+
+You cannot make a sales invoice from a quote to a lead. First create a customer from the lead. Then make the sales invoice for the customer. For more information, see [Sales Quotes](/books/sales-quotes).

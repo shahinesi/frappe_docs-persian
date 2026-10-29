@@ -9,7 +9,7 @@ const localeStacks = {
 	framework: ['framework'], erpnext: ['framework', 'erpnext'], hr: ['framework', 'erpnext', 'hr'],
 	helpdesk: ['framework', 'helpdesk'], insights: ['framework', 'insights'], crm: ['framework', 'crm'],
 	builder: ['framework', 'builder'], learning: ['framework', 'learning'], drive: ['framework', 'drive'],
-	wiki: ['framework', 'wiki'], other: ['framework'],
+	wiki: ['framework', 'wiki'], books: ['framework', 'books'], other: ['framework'],
 };
 const knownTechnical = /^(?:API|REST API|SQL|JSON|CSV|HTML|CSS|JavaScript|Python|Linux|Windows|Mac|Git|GitHub|OAuth|DocType|ERPNext|Frappe(?: (?:Cloud|Framework|HR|Helpdesk|CRM|Builder|Learning|Drive|Insights))?|CRM|SLA|GST|KPI|CI|CD|SDK|CLI|URL|Docker|Redis|MariaDB|PostgreSQL|MySQL|SQLite|AWS|S3|GCS|Amazon|Google|Microsoft|Twilio|Stripe|PayPal|Razorpay|UPI|IRN|QR|Vue|React|Node\.js|TypeScript|Bench|Ubuntu|Debian|Nginx|Supervisor|Systemd|Jinja|YAML|XML|PDF|Excel|OAuth2|JWT|SMTP|IMAP|DNS|SSL|TLS|TCP|SSH|PWA|WebSocket|Markdown|TipTap|ProseMirror|YJS|Ibis|Awesomebar|Command|Option|Ctrl|Alt|Enter|Esc)$/i;
 const findings = [];

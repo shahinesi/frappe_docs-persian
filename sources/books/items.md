@@ -1,0 +1,75 @@
+---
+title: "Items"
+space: "Books"
+url: "https://docs.frappe.io/books/items"
+updated: "2026-10-05"
+---
+
+An item is a product or a service that you buy or sell. You add items to quotes, invoices, and stock documents.
+
+## Item Lists
+
+The **Purpose** of an item tells which documents can use it. The sidebar has a list for each purpose:
+
+| List | Sidebar | Shows the Items With the Purpose | A New Item Gets the Purpose |
+| --- | --- | --- | --- |
+| Sales Items | **Sales** > **Sales Items** | **Sales** or **Both** | **Sales** |
+| Purchase Items | **Purchases** > **Purchase Items** | **Purchases** or **Both** | **Purchases** |
+| Items | **Common** > **Items** | **Both** | **Both** |
+
+Sales quotes and sales invoices use items with the purpose **Sales** or **Both**. Purchase invoices use **Purchases** or **Both**. A document with an item of the wrong purpose does not save.
+
+## Create an Item
+
+1. Click **Sales** > **Sales Items** in the sidebar.
+2. Click **New**.
+3. Enter the **Item Name**.
+4. Check the **Purpose** and the **Type**.
+5. Enter the **Rate**.
+6. In **Tax**, select a tax template.
+7. Click **Save**.
+
+On the phone dashboard, you can also tap the **+** button in the header, and then tap **Item**. This item gets the purpose **Both**.
+
+You can also make an item from an invoice row. Type the name in **Item**, and click **Create**. The item gets the purpose **Sales** in a sales document, and **Purchases** in a purchase invoice.
+
+Each item must have a unique **Item Name**. You can change the **Purpose** later, but not the **Item Name**, **Type**, **Unit Type**, **Track Inventory**, **Has Batch**, or **Has Serial Number**.
+
+## Item Fields
+
+| Field | Description |
+| --- | --- |
+| Item Code | Optional. Your own code for the item. Frappe Books copies it to the invoice rows. |
+| Unit Type | The unit of the quantity. The default is **Unit**. A quantity in **Unit** must be a whole number. Only a **Books Manager** or a **System Manager** can add a unit. |
+| Rate | The rate of one unit. You can change it in the invoice rows. A [price list](/books/price-list) can also set the rate. |
+| Sales Acc. | The income account. A new product gets the **Sales** account, and a new service gets the **Service** account, if your chart of accounts has it. |
+| Purchase Acc. | The expense account. A new item gets the newest ledger account with the account type **Cost of Goods Sold**. |
+| Tax | Optional. The tax template for the invoice rows of the item. See [Taxes](/books/taxes). |
+| HSN/SAC | Only for a company in India. The HSN or SAC code of the item, for GST. It has 4 to 8 digits. |
+
+![Item Darjeeling Tea 250g with item code, item group, purpose, type, rate, sales and purchase accounts, and tax.](/files/books-docs-items-1-item-form-v4.png)
+
+The **Inventory** section has **Barcode**, **Track Inventory**, **Has Batch**, **Has Serial Number**, and their series. They show only when their feature is on in the [inventory settings](/books/inventory-settings). You can select **Track Inventory** only on a new product. Its **Purchase Acc.** must then be a liability account. See [Introduction to Inventory](/books/introduction-to-inventory), [Batches](/books/batches), and [Serial Number](/books/serial-number).
+
+In **UOM Conversions**, the **Conversion Factor** is the quantity of the **Unit Type** in one **UOM**. For example, a `Box` of 12 units has the factor `12`.
+
+When you add an item to an invoice, Frappe Books copies the rate, the tax, the account, and the description to the row. If you change the item later, the rows of earlier invoices do not change.
+
+## Item Groups
+
+Item groups put items into categories. To use them, turn on **Enable Item Group** in **Setup** > **Settings** > **General**. You cannot turn off item groups after you turn them on.
+
+To make a group, click **Item Group** on the item, type the name, and click **Create**. If an item has no **HSN/SAC** code, it gets the code of its group. If an item has no **Tax**, its invoice rows get the tax of its group.
+
+## Create a Document From Items
+
+1. Open an item list, such as **Sales** > **Sales Items**.
+2. Click **Select** in the page header. On a phone, tap **Select** next to **Filters**.
+3. Click the items that you want.
+4. Click **Create**, and then click **Sales Quote**, **Sales Invoice**, or **Purchase Invoice**.
+
+A new draft opens with one row for each item, with a quantity of 1. The menu shows only the documents that you can create and that can use all the selected items.
+
+To make an invoice from one item, open the item and click **Create** > **Sales Invoice** or **Create** > **Purchase Invoice**. On a phone, these actions are in the **…** menu in the header.
+
+You cannot delete an item that a document uses. See [Roles and Permissions](/books/roles-and-permissions).

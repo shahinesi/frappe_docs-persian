@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "sitemap_url": "https://docs.frappe.io/sitemap.xml",
-  "retrieved_at": "2026-10-28T09:55:07.061Z",
+  "retrieved_at": "2026-10-29T09:50:46.640Z",
   "page_count": 2018,
   "pages": [
     {
@@ -38810,10 +38810,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "856c4009327ef16629d9e54297e18dff389da13b1a4ef862705e994508ea3935",
       "source_modified": "2026-10-05",
-      "translation_status": "not_started",
+      "translation_status": "translated",
       "quality_status": "not_reviewed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/books/introduction.md",
       "discovered_at": "2026-10-27T05:52:36.586Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/books/introduction.md",
@@ -38823,9 +38823,10 @@
       "source_metadata_status": "fetched",
       "source_repository": null,
       "source_sitemap_lastmod": "2026-10-05",
-      "license_status": "unverified",
+      "license_status": "CC BY-SA (version unspecified by source policy)",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/books/introduction-to-inventory",
@@ -38882,10 +38883,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "5dda0114f2e7b1aa62519de66f0edde6818320e2e22f488670f55ef345100e70",
       "source_modified": "2026-10-05",
-      "translation_status": "not_started",
+      "translation_status": "translated",
       "quality_status": "not_reviewed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/books/items.md",
       "discovered_at": "2026-10-27T05:52:36.573Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/books/items.md",
@@ -38895,9 +38896,10 @@
       "source_metadata_status": "fetched",
       "source_repository": null,
       "source_sitemap_lastmod": "2026-10-05",
-      "license_status": "unverified",
+      "license_status": "CC BY-SA (version unspecified by source policy)",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/books/journal-entries",
@@ -39050,10 +39052,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "a1ec6cb7aba8d1a6805eb1fd00ef4e48ba93fa08f45d653a625eb13368561b10",
       "source_modified": "2026-10-05",
-      "translation_status": "not_started",
+      "translation_status": "translated",
       "quality_status": "not_reviewed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/books/payments.md",
       "discovered_at": "2026-10-27T05:52:36.581Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/books/payments.md",
@@ -39063,9 +39065,10 @@
       "source_metadata_status": "fetched",
       "source_repository": null,
       "source_sitemap_lastmod": "2026-10-05",
-      "license_status": "unverified",
+      "license_status": "CC BY-SA (version unspecified by source policy)",
       "attribution_required": true,
-      "unofficial_translation": true
+      "unofficial_translation": true,
+      "snapshot_status": "fetched"
     },
     {
       "url": "https://docs.frappe.io/books/price-list",

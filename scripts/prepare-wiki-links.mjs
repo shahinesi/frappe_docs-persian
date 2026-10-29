@@ -12,7 +12,7 @@ const localeStacks = {
 	framework: ['framework'], erpnext: ['framework', 'erpnext'], hr: ['framework', 'erpnext', 'hr'],
 	helpdesk: ['framework', 'helpdesk'], insights: ['framework', 'insights'], crm: ['framework', 'crm'],
 	builder: ['framework', 'builder'], learning: ['framework', 'learning'], drive: ['framework', 'drive'],
-	wiki: ['framework', 'wiki'], other: ['framework'],
+	wiki: ['framework', 'wiki'], books: ['framework', 'books'], other: ['framework'],
 };
 const linkAudit = JSON.parse(await readFile(path.join(root, 'sources', 'link-target-audit.json'), 'utf8'));
 const linkTitleOverrides = JSON.parse(await readFile(path.join(root, 'sources', 'link-title-overrides.json'), 'utf8'));

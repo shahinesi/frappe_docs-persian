@@ -46,6 +46,10 @@ const localeFiles = {
 		url: 'https://raw.githubusercontent.com/frappe/drive/develop/drive/locale/fa.po',
 		repository: 'frappe/drive', branch: 'develop', path: 'drive/locale/fa.po',
 	},
+	books: {
+		url: 'https://raw.githubusercontent.com/frappe/books/master/translations/fa.csv',
+		repository: 'frappe/books', branch: 'master', path: 'translations/fa.csv',
+	},
 };
 
 const productLocales = {
@@ -58,6 +62,7 @@ const productLocales = {
 	builder: ['framework', 'builder'],
 	learning: ['framework', 'learning'],
 	drive: ['framework', 'drive'],
+	books: ['framework', 'books'],
 	wiki: ['framework'],
 	other: ['framework'],
 };
@@ -81,6 +86,35 @@ function parsePo(content) {
 		const msgstr = readPoField(block, 'msgstr');
 		if (!msgid || !msgstr || msgid === msgstr || /\{\d+\}/.test(msgid)) continue;
 		entries.set(msgid, msgstr);
+	}
+	return entries;
+}
+
+function parseCsvRow(line) {
+	const fields = [];
+	let field = '';
+	let quoted = false;
+	for (let index = 0; index < line.length; index++) {
+		const character = line[index];
+		if (quoted && character === '"' && line[index + 1] === '"') {
+			field += '"';
+			index++;
+		} else if (character === '"') quoted = !quoted;
+		else if (character === ',' && !quoted) {
+			fields.push(field);
+			field = '';
+		} else field += character;
+	}
+	fields.push(field);
+	return fields;
+}
+
+function parseCsv(content) {
+	const entries = new Map();
+	for (const line of content.split(/\r?\n/)) {
+		if (!line.trim()) continue;
+		const [source = '', translated = ''] = parseCsvRow(line);
+		if (source && translated && source !== translated && !/\$\{\d+\}/.test(source)) entries.set(source, translated);
 	}
 	return entries;
 }
@@ -124,7 +158,7 @@ async function getSourceMarkdown(page) {
 	const sourceUrl = page.source_markdown_url || `${page.url.replace(/\/$/, '')}.md`;
 	const parts = new URL(sourceUrl).pathname.split('/').filter(Boolean);
 	if (parts.length < 2) return null;
-	const sourceSection = page.section === 'wiki' ? 'wiki-v2' : page.section;
+	const sourceSection = page.source_id?.startsWith('books/') ? 'books' : page.section === 'wiki' ? 'wiki-v2' : page.section;
 	const sourceFile = path.join(root, 'sources', sourceSection, ...parts.slice(1));
 	try {
 		return await readFile(sourceFile, 'utf8');
@@ -146,7 +180,7 @@ await Promise.all(Object.entries(localeFiles).map(async ([product, source]) => {
 			const bytes = Buffer.from(await response.arrayBuffer());
 			const content = bytes.toString('utf8');
 			localeContent[product] = content;
-			localeMaps[product] = parsePo(content);
+			localeMaps[product] = product === 'books' ? parseCsv(content) : parsePo(content);
 			sourceFiles[product] = { ...source, sha256: createHash('sha256').update(bytes).digest('hex'), status: 'current' };
 			return;
 		} catch (error) {
@@ -161,10 +195,11 @@ await Promise.all(Object.entries(localeFiles).map(async ([product, source]) => {
 
 const candidates = Object.fromEntries(Object.keys(productLocales).map((product) => [product, new Set()]));
 for (const page of manifest.pages) {
-	if (!(page.section in candidates)) continue;
-	addCandidate(candidates[page.section], page.source_title || '');
+	const product = page.source_id?.startsWith('books/') ? 'books' : page.section;
+	if (!(product in candidates)) continue;
+	addCandidate(candidates[product], page.source_title || '');
 	const source = await getSourceMarkdown(page);
-	if (source) extractCandidates(source, candidates[page.section]);
+	if (source) extractCandidates(source, candidates[product]);
 }
 
 const terms = {};
@@ -191,7 +226,7 @@ for (const [product, localeStack] of Object.entries(productLocales)) {
 const updated = {
 	schema_version: 1,
 	generated_at: new Date().toISOString(),
-	method: 'Exact UI labels found in upstream source Markdown and page titles, matched to non-fuzzy non-empty msgstr entries in each product locale. Framework locale terms are inherited by Frappe apps; product locales override them. Reviewed curated terms are applied last and take precedence over upstream entries.',
+	method: 'Exact UI labels found in upstream source Markdown and page titles, matched to translated entries in each product locale. Framework locale terms are inherited by Frappe apps; product locales override them. Frappe Books uses its official CSV locale. Reviewed curated terms are applied last and take precedence over upstream entries.',
 	curated_terms: previous.curated_terms || [],
 	source_files: sourceFiles,
 	fetch_errors: fetchErrors,
