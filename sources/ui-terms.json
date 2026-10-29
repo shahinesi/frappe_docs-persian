@@ -2278,7 +2278,14 @@
         "AI Agents": "عامل‌های هوش مصنوعی",
         "Enable MCP": "فعال‌کردن MCP",
         "Server Name": "نام سرور",
-        "Agent Instructions": "دستورالعمل‌های عامل"
+        "Agent Instructions": "دستورالعمل‌های عامل",
+        "User List": "فهرست کاربران",
+        "Roles & Permissions": "نقش‌ها و مجوزها",
+        "Role Permission Manager": "مدیر مجوزهای نقش",
+        "Access site Database": "دسترسی به پایگاه دادهٔ سایت",
+        "Enable Access": "فعال‌کردن دسترسی",
+        "Access Request": "درخواست دسترسی",
+        "Not Saved": "ذخیره‌نشده"
       },
       "basis": "ترجمهٔ برچسب‌های تنظیمات تازهٔ سرور MCP که در عکس‌برداری جاری از واژه‌نامهٔ فارسی رابط موجود نبودند."
     }
