@@ -38,6 +38,7 @@
 | Create Dunning | ایجاد اخطار بدهی | کنش ساخت اخطار بدهی از فاکتور فروش. |
 | Docstatus | وضعیت سند (`docstatus`) | یکی از Draft، Submitted یا Cancelled است؛ مقدار فنی در کد دست‌نخورده بماند. |
 | Document | سند | رکوردی از یک DocType. |
+| Controller | کنترل‌گر | ماژولی که رفتار و متدهای چرخهٔ عمر یک DocType را پیاده‌سازی می‌کند. |
 | Address | Address (نشانی) | در ERPNext نام DocType نشانی است و در کد و پیوندها ترجمه نمی‌شود. |
 | Client Script | اسکریپت کلاینت (Client Script) | برچسب فارسی رابط Framework؛ شناسهٔ ابزار در کد حفظ شود. |
 | Custom Field | فیلد سفارشی (Custom Field) | فیلدی افزوده‌شده به DocType بدون تغییر کد اصلی؛ نام فنی حفظ شود. |
