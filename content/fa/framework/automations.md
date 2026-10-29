@@ -18,7 +18,7 @@ Frappe برای کارهای رایج ابزارهای تک‌منظوره دا�
 
 | نیاز | ابزار |
 | --- | --- |
-| ارسال یک ایمیل یا اعلان سامانه هنگام رخداد | [اعلان‌ها](https://docs.frappe.io/framework/notifications) |
+| ارسال یک ایمیل یا اعلان سامانه هنگام رخداد | [اعلان‌ها](notifications.md) |
 | ارسال یک سند به نشانی URL خارجی هنگام رخداد | [وب‌هوک‌ها](https://docs.frappe.io/framework/user/en/guides/integration/webhooks) |
 | توزیع اسناد جدید میان اعضای تیم | قاعدهٔ تخصیص |
 | تغییر رفتار سند با کد | [اسکریپت سرور](https://docs.frappe.io/framework/user/en/desk/scripting/server-script) |
