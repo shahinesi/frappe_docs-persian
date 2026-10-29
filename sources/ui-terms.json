@@ -2271,6 +2271,16 @@
         "Cancel": "لغو"
       },
       "basis": "Reviewed Frappe Books labels absent or untranslated in the official fa.csv; terminology follows the surrounding Persian Frappe docs."
+    },
+    {
+      "product": "framework",
+      "source_labels": {
+        "AI Agents": "عامل‌های هوش مصنوعی",
+        "Enable MCP": "فعال‌کردن MCP",
+        "Server Name": "نام سرور",
+        "Agent Instructions": "دستورالعمل‌های عامل"
+      },
+      "basis": "ترجمهٔ برچسب‌های تنظیمات تازهٔ سرور MCP که در عکس‌برداری جاری از واژه‌نامهٔ فارسی رابط موجود نبودند."
     }
   ],
   "source_files": {
