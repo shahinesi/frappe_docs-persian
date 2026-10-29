@@ -614,6 +614,16 @@ test('localizes known UI entities in prose but preserves code and compound Engli
 	assert.equal(result.markdown, 'این مخاطب اصلی و نشانی مرتبط را بررسی کنید. همه مخاطب‌های مرتبط. از انباری دیگر. S3 Backup Settings را باز کنید. `Contact`');
 });
 
+test('localizes the Learning Course entity inside Persian UI labels but preserves code identifiers', () => {
+	const result = prepareMarkdownLinks('گزینهٔ **درون‌بُرد Course** را بزنید؛ `Course` شناسهٔ فنی است.', {
+		currentPath: 'content/fa/learning/create-a-course.md',
+		manifest: { pages: [] },
+		terms: {},
+		uiTerms: { Course: 'دوره' },
+	});
+	assert.equal(result.markdown, 'گزینهٔ **درون‌بُرد دوره** را بزنید؛ `Course` شناسهٔ فنی است.');
+});
+
 test('localizes a linked label nested inside bold markup', () => {
 	const result = prepareMarkdownLinks('**[Branch](https://docs.frappe.io/hr/branch)**', {
 		currentPath: 'content/fa/hr/example.md',

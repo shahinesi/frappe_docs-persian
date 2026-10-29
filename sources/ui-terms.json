@@ -753,6 +753,12 @@
     },
     {
       "product": "learning",
+      "source_label": "Import Course",
+      "translation": "درون‌بُرد دوره",
+      "basis": "Composed from the current Learning Persian UI labels Import and Course; used for the visible course-import action in upstream documentation."
+    },
+    {
+      "product": "learning",
       "source_label": "Disable Self Enrollment",
       "translation": "غیرفعال‌کردن ثبت‌نام مستقیم",
       "basis": "Localized the visible Learning course enrollment option."
