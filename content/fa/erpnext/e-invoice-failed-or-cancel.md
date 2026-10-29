@@ -1,5 +1,5 @@
 ---
-title: "رفع خطای e-Invoice، نبود IRN یا لغو نشدن صورتحساب"
+title: "رفع خطای صورتحساب الکترونیکی، نبود IRN یا لغو نشدن صورتحساب"
 slug: "e-invoice-failed-or-cancel"
 source_url: "https://docs.frappe.io/erpnext/e-invoice-failed-or-cancel"
 source_id: "erpnext/e-invoice-failed-or-cancel"
@@ -10,7 +10,7 @@ quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [رفع خطای e-Invoice، نبود IRN یا لغو نشدن صورتحساب](https://docs.frappe.io/erpnext/e-invoice-failed-or-cancel)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [رفع خطای صورتحساب الکترونیکی، نبود IRN یا لغو نشدن صورتحساب](https://docs.frappe.io/erpnext/e-invoice-failed-or-cancel)
 > طبق [سیاست رسمی مجوز و علامت تجاری Frappe](https://docs.frappe.io/legal/others/license-and-trademark)، مستندات تحت شرایط CC BY-SA هستند. این ترجمه با انتساب به منبع بازنشر می‌شود؛ نسخهٔ مجوز در سیاست مشخص نشده است.
 >
 > تصویر در این مخزن بازنشر نشده و پیوندش به فایل میزبان منبع اشاره می‌کند.
@@ -20,7 +20,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ## پیام خطا
 
 ```text
-e-Invoice can only be cancelled upto 24 hours after it is generated
+صورتحساب الکترونیکی را فقط تا 24 ساعت پس از صدور می‌توان لغو کرد.
 ```
 
 نشانه‌های دیگر همین مشکل عبارت‌اند از: **وضعیت صورتحساب الکترونیکی** برابر ناموفق یا در انتظار باشد، IRN یا کد QR روی نسخهٔ چاپی صورتحساب نباشد، یا در درگاه GST صورتحساب الکترونیکی دیده شود که در ERPNext وجود ندارد.
@@ -74,7 +74,7 @@ e-Invoice can only be cancelled upto 24 hours after it is generated
 
 ## چاپ صورتحساب الکترونیکی همراه IRN و کد QR
 
-فاکتور فروش را با قالب چاپ **صورتحساب الکترونیکی (e-Invoice)** (یا قالب سفارشی دارای کد QR) چاپ کنید. راهنمای [کد QR صورتحساب الکترونیکی در قالب‌های چاپ](https://docs.indiacompliance.app/docs/developer-guide/e_invoice_qr) را ببینید.
+فاکتور فروش را با قالب چاپ **صورتحساب الکترونیکی** (یا قالب سفارشی دارای کد QR) چاپ کنید. راهنمای [کد QR صورتحساب الکترونیکی در قالب‌های چاپ](https://docs.indiacompliance.app/docs/developer-guide/e_invoice_qr) را ببینید.
 
 ## موضوعات مرتبط
 

@@ -80,4 +80,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - [پرسش‌های رایج GST هند: فاکتور الکترونیکی و بارنامهٔ الکترونیکی](https://docs.frappe.io/erpnext/india-gst-help)
 - [e-Waybill](https://docs.indiacompliance.app/docs/ewaybill-and-einvoice/generating_e_waybill)
 - [اعتبارسنجی تراکنش‌ها](https://docs.indiacompliance.app/docs/miscellaneous/transaction_validations)
-- [رفع خطای e-Invoice، نبود IRN یا لغو نشدن صورتحساب](e-invoice-failed-or-cancel.md)
+- [رفع خطای صورتحساب الکترونیکی، نبود IRN یا لغو نشدن صورتحساب](e-invoice-failed-or-cancel.md)
