@@ -10,7 +10,7 @@ quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-هر صفحه در Desk درون یک شیء `frappe.ui.Page` نمایش داده می‌شود.
+هر صفحه در میزکار درون یک شیء `frappe.ui.Page` نمایش داده می‌شود.
 
 ## `frappe.ui.make_app_page`
 

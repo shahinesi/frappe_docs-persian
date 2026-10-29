@@ -5,7 +5,7 @@ source_url: "https://docs.frappe.io/framework/get_query"
 source_id: "framework/get_query"
 source_version: "860b16a74f8a215bb03c1982fd647f41a85d99af06db95b17d8f067a39c11562"
 source_updated: "2026-02-17"
-translation_status: "in_progress"
+translation_status: "translated"
 quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
@@ -537,6 +537,222 @@ query = frappe.qb.get_query(
 )
 ```
 
+## مجوزها
+
+### پرچم `ignore_permissions`
+
+به‌طور پیش‌فرض، `frappe.qb.get_query` مجوزها را **نادیده می‌گیرد** (`ignore_permissions=True`). برای اعمال مجوزها، `ignore_permissions=False` بگذارید:
+
+```python
+# این پرس‌وجو همهٔ بررسی‌های مجوز را دور می‌زند (رفتار پیش‌فرض)
+query_ignore = frappe.qb.get_query("DocType", fields=["name"], filters={"istable": 1})
+
+# این پرس‌وجو مجوزهای استاندارد Frappe را برای کاربر جاری اعمال می‌کند
+query_enforce = frappe.qb.get_query(
+    "DocType",
+    fields=["name"],
+    filters={"istable": 1},
+    ignore_permissions=False # فعال‌سازی صریح بررسی مجوزها
+)
+
+try:
+    results = query_enforce.run()
+except frappe.PermissionError:
+    print("کاربر مجوز خواندن DocType را ندارد!")
+```
+
+### نحوهٔ اعمال مجوزها
+
+وقتی `ignore_permissions=False` باشد:
+
+1. **مجوزهای نقش:** بررسی می‌شود کاربر بر اساس نقش‌هایش مجوز `read` یا `select` دارد یا نه.
+2. **مجوزهای کاربر:** مجوزهای کاربر از نوع Allow/Restrict که برای DocType و DocTypeهای پیوندشده تعریف شده‌اند، اعمال می‌شوند.
+3. **اشتراک‌گذاری:** سندهایی که مشخصاً با کاربر به‌اشتراک گذاشته شده‌اند، در نتیجه می‌آیند.
+4. **محدودیت مالک:** اگر مجوزهای نقش فقط دسترسی `if_owner` بدهند، نتیجه به سندهای متعلق به کاربر محدود می‌شود.
+5. **شرط‌های پرس‌وجوی مجوز:** شرط‌های تعریف‌شده از طریق Hookها یا اسکریپت‌های سرور اعمال می‌شوند.
+6. **امنیت سطح فیلد:** فیلدهای انتخاب‌شده پالایه می‌شوند و اگر کاربر دسترسی سطح مجوز لازم را نداشته باشد، فیلدهای استفاده‌شده در `filters`، `group_by` و `order_by` مجاز نیستند. این بررسی نگارش‌های `link_field.target_field` و `child_field.target_field` را نیز پوشش می‌دهد.
+
+### امنیت در سطح فیلد
+
+وقتی `ignore_permissions=False` باشد:
+
+- **`fields`:** فقط فیلدهایی برگردانده می‌شوند که در بالاترین سطح مجاز کاربر قابل‌دسترسی باشند. فیلدهای غیرمجازِ درخواستی، بی‌سروصدا از انتخاب حذف می‌شوند.
+- **`filters`:** فقط فیلدهایی را می‌توان پالایه کرد که کاربر مجوز دسترسی به آن‌ها را دارد. پالایه‌گذاری بر فیلد غیرمجاز باعث `frappe.PermissionError` می‌شود.
+- **`group_by`:** فقط بر اساس فیلدهای مجاز کاربر می‌توان گروه‌بندی کرد. گروه‌بندی بر فیلد غیرمجاز باعث `frappe.PermissionError` می‌شود.
+- **`order_by`:** فقط فیلدهای مجاز کاربر را می‌توان مرتب کرد. مرتب‌سازی بر فیلد غیرمجاز باعث `frappe.PermissionError` می‌شود.
+- **فیلدهای پیوندشده و جدول‌های فرزند:** در هر یک از عبارت‌های بالا، اگر از `link_field.target_field` یا `child_field.target_field` استفاده شود، مجوز هر دو فیلد پیوند/فرزند و فیلد مقصد در DocType پیوندشده/فرزند بررسی می‌شود.
+
+```python
+# فرض کنید فیلد published در Blog Post سطح مجوز 1 دارد
+# کاربر test@example.com فقط به سطح مجوز 0 دسترسی دارد
+
+# این کار اجرا می‌شود، اما فیلد published بی‌سروصدا از نتیجه حذف می‌شود
+query = frappe.qb.get_query(
+    "Blog Post",
+    fields=["name", "title", "published"], # published درخواست شده، اما دسترسی نداریم
+    ignore_permissions=False,
+    user="test@example.com"
+)
+# نتیجه شامل name و title است، اما published را ندارد
+
+# این کار شکست می‌خورد، چون این کاربر اجازهٔ پالایه‌گذاری بر published را ندارد
+try:
+    query = frappe.qb.get_query(
+        "Blog Post",
+        fields=["name"],
+        filters={"published": 1}, # پالایه‌گذاری بر فیلد محدودشده
+        ignore_permissions=False,
+        user="test@example.com"
+    )
+    query.run()
+except frappe.PermissionError as e:
+    print(f"خطای مجوز: {e}")
+```
+
+### تعیین کاربر و زمینهٔ والد
+
+```python
+# بررسی مجوزهای کاربر مشخص
+query = frappe.qb.get_query(
+    "Task",
+    ignore_permissions=False,
+    user="test@example.com" # بررسی مجوزهای این کاربر
+)
+
+# تعیین زمینهٔ والد برای DocTypeهای فرزند
+query = frappe.qb.get_query(
+    "Sales Order Item",
+    fields=["item_code", "qty"],
+    filters={"parent": "SO-00001"},
+    ignore_permissions=False,
+    parent_doctype="Sales Order" # تعیین زمینهٔ والد برای بررسی مجوزها
+)
+```
+
+## قابلیت‌های پیشرفته
+
+### استفاده از شیءهای Pypika
+
+برای سناریوهای پیچیده شامل زیرپرس‌وجو، شرط‌های پیشرفته یا تابع‌هایی که در نگارش دیکشنری وجود ندارند، می‌توانید مستقیماً از شیءهای Pypika استفاده کنید.
+
+#### شیءهای Pypika در فیلدها
+
+```python
+from frappe.query_builder import Field, functions, Query
+
+# تعریف شیءهای Pypika
+user_table = frappe.qb.DocType("User")
+todo_table = frappe.qb.DocType("ToDo")
+
+# ساخت زیرپرس‌وجویی برای شمارش کارهای باز هر کاربر
+open_todo_subquery = (
+    Query.from_(todo_table)
+    .select(functions.Count("*"))
+    .where(todo_table.owner == user_table.name) # زیرپرس‌وجوی هم‌بسته
+    .where(todo_table.status == "Open")
+).as_("open_todos_count")
+
+# استفاده از شیءهای Pypika در فیلدها
+query = frappe.qb.get_query(
+    "User",
+    fields=[
+        user_table.name,
+        user_table.email,
+        open_todo_subquery # شیء زیرپرس‌وجو
+    ],
+    filters={"user_type": "System User"}
+)
+users_with_counts = query.run(as_dict=True)
+```
+
+#### شیءهای Pypika در پالایه‌ها
+
+```python
+from frappe.query_builder import Field, functions
+
+# تعریف شیءهای Pypika
+task_table = frappe.qb.DocType("Task")
+modified_field = task_table.modified
+creation_field = task_table.creation
+subject_field = task_table.subject
+status_field = task_table.status
+
+# ساخت معیار پیچیده
+complex_filter = (
+    (modified_field > creation_field) & (functions.Length(subject_field) > 10)
+) | (status_field == "Cancelled")
+
+# استفاده از شیء Criterion در پالایه‌ها
+query = frappe.qb.get_query(
+    "Task",
+    fields=["name", "subject", "status", "creation", "modified"],
+    filters=complex_filter
+)
+results = query.run(as_dict=True)
+```
+
+### قفل‌کردن رکوردها
+
+در تراکنش‌های پایگاه داده، برای جلوگیری از تغییر ردیف‌های مشخص توسط تراکنش‌های دیگر، از قفل رکورد استفاده کنید.
+
+#### قفل‌کردن پایه
+
+```python
+# قفل‌کردن ردیف‌های مشخص دفترکل موجودی
+query = frappe.qb.get_query(
+    "Stock Ledger Entry",
+    fields=["name", "qty_after_transaction"],
+    filters={"item_code": "ITEM001", "warehouse": "WH001"},
+    for_update=True # افزودن عبارت FOR UPDATE؛ اگر ردیف‌ها قفل باشند منتظر می‌ماند
+)
+entries = query.run(as_dict=True)
+```
+
+#### ردکردن ردیف‌های قفل‌شده
+
+```python
+# ردکردن ردیف‌هایی که تراکنش دیگری قفل کرده است
+query = frappe.qb.get_query(
+    "ToDo",
+    fields=["name", "description"],
+    filters={"status": "Pending"},
+    limit=5,
+    order_by="creation asc",
+    for_update=True,
+    skip_locked=True # ردکردن ردیف‌های قفل‌شده
+)
+available_tasks = query.run(as_dict=True)
+```
+
+#### تلاش برای قفل‌کردن بدون انتظار
+
+```python
+# اگر ردیف‌ها قفل باشند، بی‌درنگ شکست می‌خورد
+try:
+    query = frappe.qb.get_query(
+        "System Settings",
+        fields=["name"],
+        filters={"name": "System Settings"},
+        for_update=True,
+        wait=False # برای قفل‌ها منتظر نمی‌ماند
+    )
+    settings = query.run(as_dict=True)
+except Exception as e:
+    print(f"قفل فوراً به‌دست نیامد: {e}")
+```
+
+## ملاحظات امنیتی
+
+`frappe.qb.get_query` با درنظرگرفتن امنیت طراحی شده است:
+
+- **اعتبارسنجی فیلد:** نام فیلدها با الگوهای سخت‌گیرانه بررسی می‌شوند تا از تزریق SQL جلوگیری شود.
+- **پارامتردهی:** درایور پایگاه داده مقدارهای پالایه را به‌صورت پارامتری ارسال می‌کند.
+- **اعمال مجوزها:** استفاده از `ignore_permissions=False` سامانهٔ مجوزدهی قدرتمند Frappe را به‌کار می‌گیرد.
+
+اگر مقدارهای پویایی که برای ساخت کلید پالایه یا نام فیلد به‌کار می‌روند از منبع نامطمئن می‌آیند، حتماً آن‌ها را پاک‌سازی کنید. **همیشه ورودی کاربر را به‌عنوان مقدار پالایه ارسال کنید.**
+
 ---
 
-> این صفحه ترجمهٔ غیررسمیِ در حال تکمیل مستندات Frappe Framework است و هنوز برای انتشار آماده نیست. منبع: [ساخت پرس‌وجو با frappe.qb.get_query](https://docs.frappe.io/framework/get_query). متن منبع تحت شرایط CC BY-SA بازنشر می‌شود و این ترجمه نیز با انتساب به منبع و تحت شرایط همان مجوز منتشر خواهد شد.
+> این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. منبع: [ساخت پرس‌وجو با frappe.qb.get_query](https://docs.frappe.io/framework/get_query). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.
+
+نویسندهٔ متن مبدأ: Claude Sonnet 4؛ بازبینی‌شده توسط انسان.
