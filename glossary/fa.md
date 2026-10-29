@@ -39,8 +39,10 @@
 | Docstatus | وضعیت سند (`docstatus`) | یکی از Draft، Submitted یا Cancelled است؛ مقدار فنی در کد دست‌نخورده بماند. |
 | Document | سند | رکوردی از یک DocType. |
 | Address | Address (نشانی) | در ERPNext نام DocType نشانی است و در کد و پیوندها ترجمه نمی‌شود. |
-| Client Script | Client Script (اسکریپت سمت کاربر) | اسکریپت سفارشی اجراشونده در مرورگر؛ نام ابزار UI حفظ شود. |
+| Client Script | اسکریپت کلاینت (Client Script) | برچسب فارسی رابط Framework؛ شناسهٔ ابزار در کد حفظ شود. |
 | Custom Field | فیلد سفارشی (Custom Field) | فیلدی افزوده‌شده به DocType بدون تغییر کد اصلی؛ نام فنی حفظ شود. |
+| Property Setter | تنظیم‌کنندهٔ ویژگی (Property Setter) | رکوردی برای بازنویسی ویژگی DocType بدون تغییر تعریف پایه. |
+| Custom DocPerm | مجوز سفارشی سند (Custom DocPerm) | رکورد فنی مجوز اضافی برای DocType. |
 | Link | Link (پیوند) | نوع فیلدی که به سندی از DocType دیگر اشاره می‌کند؛ مقدار DocType مقصد فنی باقی بماند. |
 | Read Only | فقط‌خواندنی (Read Only) | ویژگی فیلد؛ نام گزینهٔ UI نیز هنگام راهنما حفظ شود. |
 | Child Table | جدول فرزند (Child Table) | جدول ردیف‌هایی که به سند والد تعلق دارند؛ نام فیلد جدول و DocType فرزند ترجمه نشود. |
