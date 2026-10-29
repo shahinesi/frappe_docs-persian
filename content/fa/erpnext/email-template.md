@@ -49,7 +49,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### 1.4 قالب‌بندی
 
-قالب‌ها با Jinja پردازش می‌شوند. برای آشنایی بیشتر با Jinja، [مستندات Jinja](https://jinja.palletsprojects.com/en/stable/) را ببینید.
+قالب‌ها با Jinja پردازش می‌شوند. برای آشنایی بیشتر با Jinja، [صفحهٔ اصلی مستندات Jinja](https://jinja.palletsprojects.com/en/stable/) را ببینید.
 
 ## 2. موضوعات مرتبط
 
