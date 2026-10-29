@@ -33006,7 +33006,7 @@
       "source_version": "51de66d67b81234b2d2fbb548221d2649ae0896ca5547db95fa0b6dacfe46875",
       "source_modified": "2026-10-01",
       "translation_status": "translated",
-      "quality_status": "not_reviewed",
+      "quality_status": "reviewed",
       "published": false,
       "translation_path": "content/fa/hr/employee-attendance-tool.md",
       "discovered_at": "2026-10-27T05:52:36.583Z",
@@ -33022,7 +33022,7 @@
       "attribution_required": true,
       "unofficial_translation": true,
       "snapshot_status": "fetched",
-      "quality_reviewed_at": "2026-10-27",
+      "quality_reviewed_at": "2026-10-29",
       "source_snapshot_path": "sources/hr/employee-attendance-tool.md"
     },
     {

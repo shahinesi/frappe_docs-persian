@@ -1906,9 +1906,11 @@
     },
     {
       "product": "hr",
-      "source_label": "Employee Attendance",
-      "translation": "حضور و غیاب کارکنان",
-      "basis": "برگردان دقیق موجودیت رابط HR برای استفاده در عنوان‌ها و متن‌های ترکیبی؛ Employee، Department و Branch نیز از واژه‌نامهٔ رسمی فارسی HR می‌آیند."
+      "source_labels": {
+        "Employee Attendance": "حضور و غیاب کارکنان",
+        "Marked Attendance": "حضورهای ثبت‌شده"
+      },
+      "basis": "برگردان‌های دقیق موجودیت‌ها و برچسب‌های رابط HR؛ Employee، Department و Branch نیز از واژه‌نامهٔ رسمی فارسی HR می‌آیند."
     },
     {
       "product": "hr",
