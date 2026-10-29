@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-29T05:38:58.613Z",
+  "generated_at": "2026-10-29T05:46:41.487Z",
   "method": "Exact UI labels found in upstream source Markdown and page titles, matched to non-fuzzy non-empty msgstr entries in each product locale. Framework locale terms are inherited by Frappe apps; product locales override them. Reviewed curated terms are applied last and take precedence over upstream entries.",
   "curated_terms": [
     {
@@ -46,7 +46,11 @@
         "Braintree Settings": "تنظیمات Braintree",
         "Accounting Masters": "اطلاعات پایهٔ حسابداری",
         "Sales Order Item": "قلم سفارش فروش",
-        "Enable Overdue Billing Threshold": "فعال‌کردن آستانهٔ صورتحساب سررسیدگذشته"
+        "Enable Overdue Billing Threshold": "فعال‌کردن آستانهٔ صورتحساب سررسیدگذشته",
+        "Default Buying Cost Center": "مرکز هزینهٔ خرید پیش‌فرض",
+        "Default Supplier": "تأمین‌کنندهٔ پیش‌فرض",
+        "Default Expense Account": "حساب هزینهٔ پیش‌فرض",
+        "Default Selling Cost Center": "مرکز هزینهٔ فروش پیش‌فرض"
       },
       "basis": "بازبینی برچسب‌های قابل‌نمایش در راهنماهای ERPNext؛ موارد فاقد ترجمهٔ locale با واژه‌نامهٔ فارسی بافت‌محور تکمیل شدند."
     },
@@ -2259,14 +2263,6 @@
       "sha256": "7e139d2c2e8cad43f93142fca8c889eaa42a8752208057ee0db333fe130c0b1d",
       "status": "current"
     },
-    "helpdesk": {
-      "url": "https://raw.githubusercontent.com/frappe/helpdesk/develop/helpdesk/locale/fa.po",
-      "repository": "frappe/helpdesk",
-      "branch": "develop",
-      "path": "helpdesk/locale/fa.po",
-      "sha256": "95721b12b95ed7b301fe257553e73117c1744630c715a5bd88dc702aeba2224d",
-      "status": "current"
-    },
     "hr": {
       "url": "https://raw.githubusercontent.com/frappe/hrms/develop/hrms/locale/fa.po",
       "repository": "frappe/hrms",
@@ -2275,12 +2271,12 @@
       "sha256": "5fa17710b44b3fd644fa45dcdbac1cb2eb6464003849964b637eef8e740a1092",
       "status": "current"
     },
-    "crm": {
-      "url": "https://raw.githubusercontent.com/frappe/crm/develop/crm/locale/fa.po",
-      "repository": "frappe/crm",
+    "helpdesk": {
+      "url": "https://raw.githubusercontent.com/frappe/helpdesk/develop/helpdesk/locale/fa.po",
+      "repository": "frappe/helpdesk",
       "branch": "develop",
-      "path": "crm/locale/fa.po",
-      "sha256": "d616dd0c25bdb1b258f6e3d70cb1e4c8a147f1919df807aef0e5e4308d297396",
+      "path": "helpdesk/locale/fa.po",
+      "sha256": "95721b12b95ed7b301fe257553e73117c1744630c715a5bd88dc702aeba2224d",
       "status": "current"
     },
     "learning": {
@@ -2291,12 +2287,12 @@
       "sha256": "06a19ab505ed02aab283640ba3840343adceeb53c73ced6bb1ce467c025a1910",
       "status": "current"
     },
-    "framework": {
-      "url": "https://raw.githubusercontent.com/frappe/frappe/develop/frappe/locale/fa.po",
-      "repository": "frappe/frappe",
+    "crm": {
+      "url": "https://raw.githubusercontent.com/frappe/crm/develop/crm/locale/fa.po",
+      "repository": "frappe/crm",
       "branch": "develop",
-      "path": "frappe/locale/fa.po",
-      "sha256": "c7c87e3a9deb63e19eb7a0d5444efd755c86210b28eb0f2e278b1e98aed72c58",
+      "path": "crm/locale/fa.po",
+      "sha256": "d616dd0c25bdb1b258f6e3d70cb1e4c8a147f1919df807aef0e5e4308d297396",
       "status": "current"
     },
     "erpnext": {
@@ -2305,6 +2301,14 @@
       "branch": "develop",
       "path": "erpnext/locale/fa.po",
       "sha256": "2186c75daf409c61c16862c20a52dfdd67d2211d3cd15fa7aacb4173c3ba752e",
+      "status": "current"
+    },
+    "framework": {
+      "url": "https://raw.githubusercontent.com/frappe/frappe/develop/frappe/locale/fa.po",
+      "repository": "frappe/frappe",
+      "branch": "develop",
+      "path": "frappe/locale/fa.po",
+      "sha256": "c7c87e3a9deb63e19eb7a0d5444efd755c86210b28eb0f2e278b1e98aed72c58",
       "status": "current"
     }
   },
@@ -5890,7 +5894,11 @@
       "Biweekly": "دو هفته یک بار",
       "Operating Costs": "هزینه‌های عملیاتی",
       "Insurance": "بیمه",
-      "Expiry": "انقضا"
+      "Expiry": "انقضا",
+      "Default Buying Cost Center": "مرکز هزینهٔ خرید پیش‌فرض",
+      "Default Supplier": "تأمین‌کنندهٔ پیش‌فرض",
+      "Default Expense Account": "حساب هزینهٔ پیش‌فرض",
+      "Default Selling Cost Center": "مرکز هزینهٔ فروش پیش‌فرض"
     },
     "hr": {
       "Additional Salary": "حقوق اضافی",
