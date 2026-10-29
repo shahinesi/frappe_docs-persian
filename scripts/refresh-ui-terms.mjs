@@ -104,6 +104,9 @@ function extractCandidates(markdown, set) {
 	for (const match of body.matchAll(/[“‘«'\"]([A-Z][A-Za-z0-9 &/'()_-]{1,80})[”’»'\"]/g)) {
 		addCandidate(set, match[1]);
 	}
+	for (const match of body.matchAll(/\(([^()\r\n]{1,200})\)/g)) {
+		for (const candidate of match[1].split(/\s*,\s*|\s+or\s+/i)) addCandidate(set, candidate);
+	}
 	for (const line of body.split(/\r?\n/)) {
 		const heading = line.match(/^\s*#{1,6}\s+(.+?)\s*#*\s*$/);
 		if (heading) addCandidate(set, heading[1].replace(/\*\*/g, '').replace(/`/g, ''));
@@ -133,15 +136,28 @@ async function getSourceMarkdown(page) {
 const localeContent = {};
 const localeMaps = {};
 const sourceFiles = {};
-for (const [product, source] of Object.entries(localeFiles)) {
-	const response = await fetch(source.url, { signal: AbortSignal.timeout(30000) });
-	if (!response.ok) throw new Error(`Could not fetch ${product} Persian locale: HTTP ${response.status}`);
-	const bytes = Buffer.from(await response.arrayBuffer());
-	const content = bytes.toString('utf8');
-	localeContent[product] = content;
-	localeMaps[product] = parsePo(content);
-	sourceFiles[product] = { ...source, sha256: createHash('sha256').update(bytes).digest('hex') };
-}
+const fetchErrors = [];
+await Promise.all(Object.entries(localeFiles).map(async ([product, source]) => {
+	let lastError;
+	for (let attempt = 0; attempt < 3; attempt++) {
+		try {
+			const response = await fetch(source.url, { signal: AbortSignal.timeout(30000) });
+			if (!response.ok) throw new Error(`HTTP ${response.status}`);
+			const bytes = Buffer.from(await response.arrayBuffer());
+			const content = bytes.toString('utf8');
+			localeContent[product] = content;
+			localeMaps[product] = parsePo(content);
+			sourceFiles[product] = { ...source, sha256: createHash('sha256').update(bytes).digest('hex'), status: 'current' };
+			return;
+		} catch (error) {
+			lastError = error;
+			if (attempt < 2) await new Promise((resolve) => setTimeout(resolve, 500 * (attempt + 1)));
+		}
+	}
+	localeMaps[product] = new Map(Object.entries(previous.terms?.[product] || {}));
+	sourceFiles[product] = { ...(previous.source_files?.[product] || source), status: 'stale', last_checked_at: new Date().toISOString() };
+	fetchErrors.push({ product, url: source.url, message: lastError?.message || 'Unknown fetch error' });
+}));
 
 const candidates = Object.fromEntries(Object.keys(productLocales).map((product) => [product, new Set()]));
 for (const page of manifest.pages) {
@@ -178,8 +194,9 @@ const updated = {
 	method: 'Exact UI labels found in upstream source Markdown and page titles, matched to non-fuzzy non-empty msgstr entries in each product locale. Framework locale terms are inherited by Frappe apps; product locales override them. Reviewed curated terms are applied last and take precedence over upstream entries.',
 	curated_terms: previous.curated_terms || [],
 	source_files: sourceFiles,
+	fetch_errors: fetchErrors,
 	terms,
 };
 
-console.log(JSON.stringify({ dry_run: dryRun, counts }, null, 2));
+console.log(JSON.stringify({ dry_run: dryRun, counts, fetch_errors: fetchErrors }, null, 2));
 if (!dryRun) await writeFile(snapshotPath, `${JSON.stringify(updated, null, 2)}\n`, 'utf8');

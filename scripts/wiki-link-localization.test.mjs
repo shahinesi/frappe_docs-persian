@@ -561,7 +561,7 @@ test('localizes attendance prerequisites and a mixed attendance tool heading', (
 });
 
 test('localizes UI labels quoted in Persian prose and single-word field names', () => {
-	const result = prepareMarkdownLinks('در بخش Notification گزینهٔ «Notify by Email» را فعال کنید و مقدار Country را تعیین کنید؛ کد `Notification` را تغییر ندهید.', {
+	const result = prepareMarkdownLinks('در بخش Notification گزینهٔ «Notify by Email» را فعال کنید و مقدار Country را تعیین کنید؛ فیلدهای Recipients و Subject و Message را هم بررسی کنید؛ کد `Notification` را تغییر ندهید.', {
 		currentPath: 'content/fa/erpnext/example.md',
 		manifest: { pages: [] },
 		terms: {},
@@ -569,9 +569,29 @@ test('localizes UI labels quoted in Persian prose and single-word field names', 
 			Notification: 'اعلان',
 			'Notify by Email': 'اطلاع‌رسانی از طریق ایمیل',
 			Country: 'کشور',
+			Recipients: 'گیرندگان',
+			Subject: 'موضوع',
+			Message: 'پیام',
 		},
 	});
-	assert.equal(result.markdown, 'در بخش اعلان گزینهٔ «اطلاع‌رسانی از طریق ایمیل» را فعال کنید و مقدار کشور را تعیین کنید؛ کد `Notification` را تغییر ندهید.');
+	assert.equal(result.markdown, 'در بخش اعلان گزینهٔ «اطلاع‌رسانی از طریق ایمیل» را فعال کنید و مقدار کشور را تعیین کنید؛ فیلدهای گیرندگان و موضوع و پیام را هم بررسی کنید؛ کد `Notification` را تغییر ندهید.');
+});
+
+test('localizes contextual Helpdesk feedback filters', () => {
+	const result = prepareMarkdownLinks('فیلتر بازخورد (All Time, Last Week, Last Month, Last 3 Months) و ترتیب (Positive first, Negative first).', {
+		currentPath: 'content/fa/helpdesk/agent-home-page.md',
+		manifest: { pages: [] },
+		terms: {},
+		uiTerms: {
+			'Last Week': 'هفته گذشته',
+			'Last Month': 'ماه گذشته',
+			'All Time': 'تمام مدت',
+			'Last 3 Months': '3 ماه گذشته',
+			'Positive first': 'ابتدا دیدگاه‌های مثبت',
+			'Negative first': 'ابتدا دیدگاه‌های منفی',
+		},
+	});
+	assert.equal(result.markdown, 'فیلتر بازخورد (تمام مدت، هفته گذشته، ماه گذشته، 3 ماه گذشته) و ترتیب (ابتدا دیدگاه‌های مثبت، ابتدا دیدگاه‌های منفی).');
 });
 
 test('localizes UI labels in navigation breadcrumbs while preserving code identifiers', () => {

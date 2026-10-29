@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-29T05:28:21.558Z",
+  "generated_at": "2026-10-29T05:38:58.613Z",
   "method": "Exact UI labels found in upstream source Markdown and page titles, matched to non-fuzzy non-empty msgstr entries in each product locale. Framework locale terms are inherited by Frappe apps; product locales override them. Reviewed curated terms are applied last and take precedence over upstream entries.",
   "curated_terms": [
     {
@@ -85,9 +85,13 @@
         "Business holidays": "تعطیلات کاری",
         "Recurring holidays": "تعطیلات تکرارشونده",
         "IMAP Folder": "پوشهٔ IMAP",
-        "WebForm": "فرم وب"
+        "WebForm": "فرم وب",
+        "All Time": "تمام مدت",
+        "Last 3 Months": "3 ماه گذشته",
+        "Positive first": "ابتدا دیدگاه‌های مثبت",
+        "Negative first": "ابتدا دیدگاه‌های منفی"
       },
-      "basis": "Reviewed Helpdesk role labels; these labels are absent from the current Persian locale snapshot."
+      "basis": "Reviewed visible Helpdesk role and feedback-filter labels; the feedback labels are missing Persian msgstr values in the official locale."
     },
     {
       "product": "crm",
@@ -2231,70 +2235,80 @@
     }
   ],
   "source_files": {
-    "framework": {
-      "url": "https://raw.githubusercontent.com/frappe/frappe/develop/frappe/locale/fa.po",
-      "repository": "frappe/frappe",
+    "drive": {
+      "url": "https://raw.githubusercontent.com/frappe/drive/develop/drive/locale/fa.po",
+      "repository": "frappe/drive",
       "branch": "develop",
-      "path": "frappe/locale/fa.po",
-      "sha256": "c7c87e3a9deb63e19eb7a0d5444efd755c86210b28eb0f2e278b1e98aed72c58"
-    },
-    "erpnext": {
-      "url": "https://raw.githubusercontent.com/frappe/erpnext/develop/erpnext/locale/fa.po",
-      "repository": "frappe/erpnext",
-      "branch": "develop",
-      "path": "erpnext/locale/fa.po",
-      "sha256": "2186c75daf409c61c16862c20a52dfdd67d2211d3cd15fa7aacb4173c3ba752e"
-    },
-    "hr": {
-      "url": "https://raw.githubusercontent.com/frappe/hrms/develop/hrms/locale/fa.po",
-      "repository": "frappe/hrms",
-      "branch": "develop",
-      "path": "hrms/locale/fa.po",
-      "sha256": "5fa17710b44b3fd644fa45dcdbac1cb2eb6464003849964b637eef8e740a1092"
-    },
-    "helpdesk": {
-      "url": "https://raw.githubusercontent.com/frappe/helpdesk/develop/helpdesk/locale/fa.po",
-      "repository": "frappe/helpdesk",
-      "branch": "develop",
-      "path": "helpdesk/locale/fa.po",
-      "sha256": "95721b12b95ed7b301fe257553e73117c1744630c715a5bd88dc702aeba2224d"
+      "path": "drive/locale/fa.po",
+      "sha256": "458bfc21171be1849e904a66fdbdd608198c413dcdbbfbf7be5765f8dca5ccb8",
+      "status": "current"
     },
     "insights": {
       "url": "https://raw.githubusercontent.com/frappe/insights/develop/insights/locale/fa.po",
       "repository": "frappe/insights",
       "branch": "develop",
       "path": "insights/locale/fa.po",
-      "sha256": "963321f7368a50f38751c81a290b889aa42fe00b78b8f65b67d284c2a1b3a1b5"
-    },
-    "crm": {
-      "url": "https://raw.githubusercontent.com/frappe/crm/develop/crm/locale/fa.po",
-      "repository": "frappe/crm",
-      "branch": "develop",
-      "path": "crm/locale/fa.po",
-      "sha256": "d616dd0c25bdb1b258f6e3d70cb1e4c8a147f1919df807aef0e5e4308d297396"
+      "sha256": "963321f7368a50f38751c81a290b889aa42fe00b78b8f65b67d284c2a1b3a1b5",
+      "status": "current"
     },
     "builder": {
       "url": "https://raw.githubusercontent.com/frappe/builder/develop/builder/locale/fa.po",
       "repository": "frappe/builder",
       "branch": "develop",
       "path": "builder/locale/fa.po",
-      "sha256": "7e139d2c2e8cad43f93142fca8c889eaa42a8752208057ee0db333fe130c0b1d"
+      "sha256": "7e139d2c2e8cad43f93142fca8c889eaa42a8752208057ee0db333fe130c0b1d",
+      "status": "current"
+    },
+    "helpdesk": {
+      "url": "https://raw.githubusercontent.com/frappe/helpdesk/develop/helpdesk/locale/fa.po",
+      "repository": "frappe/helpdesk",
+      "branch": "develop",
+      "path": "helpdesk/locale/fa.po",
+      "sha256": "95721b12b95ed7b301fe257553e73117c1744630c715a5bd88dc702aeba2224d",
+      "status": "current"
+    },
+    "hr": {
+      "url": "https://raw.githubusercontent.com/frappe/hrms/develop/hrms/locale/fa.po",
+      "repository": "frappe/hrms",
+      "branch": "develop",
+      "path": "hrms/locale/fa.po",
+      "sha256": "5fa17710b44b3fd644fa45dcdbac1cb2eb6464003849964b637eef8e740a1092",
+      "status": "current"
+    },
+    "crm": {
+      "url": "https://raw.githubusercontent.com/frappe/crm/develop/crm/locale/fa.po",
+      "repository": "frappe/crm",
+      "branch": "develop",
+      "path": "crm/locale/fa.po",
+      "sha256": "d616dd0c25bdb1b258f6e3d70cb1e4c8a147f1919df807aef0e5e4308d297396",
+      "status": "current"
     },
     "learning": {
       "url": "https://raw.githubusercontent.com/frappe/lms/develop/lms/locale/fa.po",
       "repository": "frappe/lms",
       "branch": "develop",
       "path": "lms/locale/fa.po",
-      "sha256": "06a19ab505ed02aab283640ba3840343adceeb53c73ced6bb1ce467c025a1910"
+      "sha256": "06a19ab505ed02aab283640ba3840343adceeb53c73ced6bb1ce467c025a1910",
+      "status": "current"
     },
-    "drive": {
-      "url": "https://raw.githubusercontent.com/frappe/drive/develop/drive/locale/fa.po",
-      "repository": "frappe/drive",
+    "framework": {
+      "url": "https://raw.githubusercontent.com/frappe/frappe/develop/frappe/locale/fa.po",
+      "repository": "frappe/frappe",
       "branch": "develop",
-      "path": "drive/locale/fa.po",
-      "sha256": "458bfc21171be1849e904a66fdbdd608198c413dcdbbfbf7be5765f8dca5ccb8"
+      "path": "frappe/locale/fa.po",
+      "sha256": "c7c87e3a9deb63e19eb7a0d5444efd755c86210b28eb0f2e278b1e98aed72c58",
+      "status": "current"
+    },
+    "erpnext": {
+      "url": "https://raw.githubusercontent.com/frappe/erpnext/develop/erpnext/locale/fa.po",
+      "repository": "frappe/erpnext",
+      "branch": "develop",
+      "path": "erpnext/locale/fa.po",
+      "sha256": "2186c75daf409c61c16862c20a52dfdd67d2211d3cd15fa7aacb4173c3ba752e",
+      "status": "current"
     }
   },
+  "fetch_errors": [],
   "terms": {
     "framework": {
       "Allow on Submit": "در ارسال مجاز است",
@@ -3048,7 +3062,22 @@
       "Optimize": "بهینه‌سازی",
       "Option 1": "انتخاب 1",
       "Open Link": "باز کردن پیوند",
-      "Get Fields": "دریافت فیلدها"
+      "Get Fields": "دریافت فیلدها",
+      "e.g.": "مثلاً",
+      "Days": "روزها",
+      "default": "پیش‌فرض",
+      "Too Many Requests": "درخواست های خیلی زیاد",
+      "Warehouse": "انبار",
+      "user": "کاربر",
+      "status": "وضعیت",
+      "delete": "حذف",
+      "JavaScript": "جاوااسکریپت",
+      "short": "کوتاه",
+      "long": "طولانی",
+      "row": "ردیف",
+      "ID": "شناسه",
+      "Active Directory": "اکتیو دایرکتوری",
+      "Mandatory": "اجباری"
     },
     "erpnext": {
       "Accounting Dimensions": "ابعاد حسابداری",
@@ -5836,7 +5865,32 @@
       "Include Item In Manufacturing": "گنجاندن آیتم در تولید",
       "Enable Perpetual Inventory": "فعال کردن موجودی دائمی",
       "Date of Birth": "تاریخ تولد",
-      "Date of Joining": "تاریخ پیوستن"
+      "Date of Joining": "تاریخ پیوستن",
+      "Half-yearly": "نیم سال",
+      "Accounts User": "کاربر حسابداری",
+      "e.g.": "مثلاً",
+      "Official Documentation": "اسناد رسمی",
+      "email": "ایمیل",
+      "submit": "ارسال",
+      "Dr": "دکتر",
+      "Cr": "بس",
+      "Green": "سبز",
+      "blue": "آبی",
+      "row": "ردیف",
+      "Users": "کاربران",
+      "Manager": "مدیر",
+      "Computer": "کامپیوتر",
+      "Consolidated": "تلفیقی",
+      "Large": "بزرگ",
+      "Raw Material": "مواد اولیه",
+      "production": "تولید",
+      "description": "شرح",
+      "Petrol": "بنزین",
+      "on": "در",
+      "Biweekly": "دو هفته یک بار",
+      "Operating Costs": "هزینه‌های عملیاتی",
+      "Insurance": "بیمه",
+      "Expiry": "انقضا"
     },
     "hr": {
       "Additional Salary": "حقوق اضافی",
@@ -6478,7 +6532,32 @@
       "Max Benefit Amount (Yearly)": "حداکثر مبلغ مزایا (سالانه)",
       "Log Type": "نوع لاگ",
       "Has Certificate": "دارای گواهینامه",
-      "Get Template": "دریافت الگو"
+      "Get Template": "دریافت الگو",
+      "e.g.": "مثلاً",
+      "Automatic": "خودکار",
+      "Days": "روزها",
+      "default": "پیش‌فرض",
+      "Campaign": "کمپین",
+      "In Days": "بر حسب روز",
+      "Yearly": "سالانه",
+      "Beginner": "مبتدی",
+      "Intermediate": "متوسط",
+      "Expert": "متخصص",
+      "Brand": "برند",
+      "Last": "آخرین",
+      "out of 5": "از 5",
+      "General Ledger": "دفتر کل",
+      "Walk In": "مراجعه حضوری",
+      "today": "امروز",
+      "Cash": "پول نقد",
+      "Cheque": "چک",
+      "May": "می",
+      "Scheduled On": "برنامه‌ریزی شده در",
+      "KRAs": "KRA ها",
+      "Website Listing": "لیست وب سایت",
+      "Awaiting Response": "در انتظار پاسخ",
+      "Sick Leave": "مرخصی استعلاجی",
+      "HR": "منابع انسانی"
     },
     "helpdesk": {
       "HD Customer": "مشتری",
@@ -7050,7 +7129,22 @@
       "Append To": "الحاق به",
       "Cc": "رونوشت",
       "Bcc": "رونوشت پنهان",
-      "To date": "تا تاریخ"
+      "To date": "تا تاریخ",
+      "e.g.": "مثلاً",
+      "Unique": "یکتا",
+      "Summary": "خلاصه",
+      "Last Week": "هفته گذشته",
+      "Last Month": "ماه گذشته",
+      "and": "و",
+      "or": "یا",
+      "Days": "روزها",
+      "Company": "شرکت",
+      "Individual": "شخصی",
+      "Partnership": "شراکت",
+      "All Time": "تمام مدت",
+      "Last 3 Months": "3 ماه گذشته",
+      "Positive first": "ابتدا دیدگاه‌های مثبت",
+      "Negative first": "ابتدا دیدگاه‌های منفی"
     },
     "insights": {
       "Charts": "نمودار",
@@ -7201,7 +7295,7 @@
       "Text:": "متن:",
       "Text": "متن",
       "Number:": "عدد:",
-      "Number": "عدد",
+      "Number": "شماره",
       "Date:": "تاریخ:",
       "Date": "تاریخ",
       "Apply": "اعمال",
@@ -7258,7 +7352,11 @@
       "Date Range": "محدوده زمانی",
       "Last Updated": "آخرین به‌روزرسانی",
       "High": "بالا",
-      "Email": "ایمیل"
+      "Email": "ایمیل",
+      "Users": "کاربران",
+      "Visit": "بازدید",
+      "e.g.": "مثلاً",
+      "Default": "پیش‌فرض"
     },
     "crm": {
       "Actions": "اقدامات",
@@ -7445,7 +7543,14 @@
       "App": "برنامه",
       "Replied": "پاسخ داده شده",
       "Add User": "افزودن کاربر",
-      "Last Modified": "آخرین ویرایش"
+      "Last Modified": "آخرین ویرایش",
+      "default": "پیش‌فرض",
+      "event": "رویداد",
+      "e.g.": "مثلاً",
+      "Skipped": "رد شده",
+      "Close": "بستن",
+      "ascending": "صعودی",
+      "descending": "نزولی"
     },
     "builder": {
       "Note:": "یادداشت:",
@@ -7464,7 +7569,9 @@
       "Setup": "تنظیمات",
       "Links": "پیوندها",
       "Settings": "تنظیمات",
-      "API Key": "کلید API"
+      "API Key": "کلید API",
+      "e.g.": "مثلاً",
+      "Beta": "بتا"
     },
     "learning": {
       "Add a Lesson": "افزودن درس",
@@ -7558,7 +7665,13 @@
       "Example": "مثال",
       "Learning Paths": "مسیرهای یادگیری",
       "User Input": "ورودی کاربر",
-      "Complete": "کامل"
+      "Complete": "کامل",
+      "e.g.": "مثلاً",
+      "Python": "پایتون",
+      "Image": "تصویر",
+      "Document": "سند",
+      "Data Import": "درون‌بُرد داده",
+      "or": "یا"
     },
     "drive": {
       "Storage": "ذخیره‌سازی",
