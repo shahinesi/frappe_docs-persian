@@ -28364,10 +28364,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "8ad0eb9a59f78015b139745695b00fac640e0985ecd29ce5afceed0c7cacade7",
       "source_modified": "2026-02-17",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/framework/user/en/guides/data/import-large-csv-file.md",
       "discovered_at": "2026-10-27T05:52:36.573Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/framework/user/en/guides/data/import-large-csv-file.md",
@@ -28377,10 +28377,12 @@
       "source_metadata_status": "fetched",
       "source_repository": null,
       "source_sitemap_lastmod": "2026-02-17",
-      "license_status": "unverified",
+      "license_status": "CC BY-SA (version unspecified by source policy)",
       "attribution_required": true,
       "unofficial_translation": true,
-      "snapshot_status": "fetched"
+      "snapshot_status": "fetched",
+      "quality_reviewed_at": "2026-10-29",
+      "source_snapshot_path": "sources/framework/user/en/guides/data/import-large-csv-file.md"
     },
     {
       "url": "https://docs.frappe.io/framework/user/en/guides/data/using-data-migration-tool",
