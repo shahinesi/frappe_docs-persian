@@ -100,7 +100,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### عبارت‌ها
 
-زبان عبارت‌ها و فرمول‌ها در Insights بر پایهٔ نحو Python است. کتابخانهٔ زیربنایی ساخت پرس‌وجو `ibis` است؛ برای آشنایی بیشتر، [مستندات Ibis](https://ibis-project.org/tutorials/ibis-for-sql-users) را ببینید.
+زبان عبارت‌ها و فرمول‌ها در Insights بر پایهٔ نحو Python است. کتابخانهٔ زیربنایی ساخت پرس‌وجو `ibis` است؛ برای آشنایی بیشتر با این کتابخانه برای کاربران SQL، [آشنایی با Ibis برای کاربران SQL](https://ibis-project.org/tutorials/coming-from/sql) را ببینید.
 
 در ادامه تابع‌های کمکی Insights آمده‌اند که نوشتن عبارت‌ها را ساده‌تر می‌کنند.
 

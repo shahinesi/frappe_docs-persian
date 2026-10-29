@@ -206,7 +206,7 @@ def get_xlsx_styles(metadata: XLSXMetadata) -> dict:
 
 ## مرجع
 
-- برای مشاهدهٔ همهٔ ویژگی‌های سبک، [مستندات ویژگی‌های قالب در XlsxWriter](https://xlsxwriter.readthedocs.io/format.html#format-methods-and-format-properties) را ببینید.
+- برای مشاهدهٔ همهٔ ویژگی‌های سبک، [کلاس قالب‌بندی در XlsxWriter](https://xlsxwriter.readthedocs.io/format.html#format-methods-and-format-properties) را ببینید.
 
 منبع: [قالب‌بندی خروجی Excel با XLSX](https://docs.frappe.io/framework/desk-reports/excel-xlsx-export-styling). این صفحه ترجمهٔ غیررسمی است؛ مجوز محتوای نوشتاری منبع هنوز تأیید نشده است و تا زمان بررسی، بازنشر تحت شرایط CC BY-SA تأیید نمی‌شود. تصویر به منبع رسمی پیوند دارد و در این مخزن بازنشر نشده است.
 

@@ -62,7 +62,7 @@ python3 ./easy-install.py deploy \
 - Docker Compose
 - Git
 
-به [مستندات Docker](https://docs.docker.com/) مراجعه کنید و سپس مراحل زیر را انجام دهید.
+به [صفحهٔ اصلی مستندات Docker](https://docs.docker.com/) مراجعه کنید و سپس مراحل زیر را انجام دهید.
 
 **گام ۱: ساخت پوشه و دریافت فایل‌های لازم**
 

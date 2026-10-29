@@ -16,7 +16,7 @@ Amazon Connector از ERPNext جدا شده و به‌صورت یک برنامه
 
 - اگر سایت ERPNext شما روی Frappe Cloud میزبانی می‌شود، می‌توانید برنامه را از داشبورد سایت نصب کنید. برنامه در [بازارگاه Frappe Cloud](https://frappecloud.com/marketplace/apps/ecommerce_integrations) موجود است.
 - اگر سایت شما را Frappe میزبانی می‌کند، برای نصب برنامه یک درخواست پشتیبانی ثبت کنید.
-- اگر ERPNext را خودتان میزبانی می‌کنید، برنامه را با Frappe bench نصب کنید. برای نصب برنامه‌های Frappe به [مستندات bench](https://frappeframework.com/docs/user/en/bench/frappe-commands#app-installation) مراجعه کنید:
+- اگر ERPNext را خودتان میزبانی می‌کنید، برنامه را با Frappe bench نصب کنید. برای نصب برنامه‌های Frappe به [فرمان‌های Frappe Bench](https://docs.frappe.io/framework/user/en/bench/frappe-commands#app-installation) مراجعه کنید:
 
   ```sh
   bench get-app ecommerce_integrations --branch main
