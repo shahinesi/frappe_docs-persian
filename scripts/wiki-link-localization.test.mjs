@@ -624,6 +624,16 @@ test('localizes the Learning Course entity inside Persian UI labels but preserve
 	assert.equal(result.markdown, 'گزینهٔ **درون‌بُرد دوره** را بزنید؛ `Course` شناسهٔ فنی است.');
 });
 
+test('translates mixed single-word UI labels and removes duplicate Persian parentheticals', () => {
+	const result = prepareMarkdownLinks('| **Manual (دستی)** | **نوع فعالیت (نوع فعالیت)** |\n', {
+		currentPath: 'content/fa/erpnext/depreciation-methods.md',
+		manifest: { pages: [] },
+		terms: {},
+		uiTerms: { Manual: 'دستی' },
+	});
+	assert.equal(result.markdown, '| **دستی** | **نوع فعالیت** |\n');
+});
+
 test('localizes a linked label nested inside bold markup', () => {
 	const result = prepareMarkdownLinks('**[Branch](https://docs.frappe.io/hr/branch)**', {
 		currentPath: 'content/fa/hr/example.md',

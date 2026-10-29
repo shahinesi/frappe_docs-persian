@@ -89,6 +89,7 @@ export function replaceUiTerms(text, terms, counters, mixedEntries = []) {
 }
 
 function localizeDisplayLabel(text, terms, counters, mixedEntries = [], phraseTerms = terms) {
+	const removeDuplicateParenthetical = (value) => value.replace(/^(\s*)([^()\r\n]+?)\s+\(\s*\2\s*\)(\s*)$/u, '$1$2$3');
 	const protectedTokens = [];
 	const protectCode = (value) => value.replace(/`[^`\n]*`|<code\b[^>]*>[\s\S]*?<\/code\s*>/gi, (token) => {
 		const marker = `\uE000${protectedTokens.length}\uE001`;
@@ -113,7 +114,7 @@ function localizeDisplayLabel(text, terms, counters, mixedEntries = [], phraseTe
 	const trimmedText = text.trim();
 	if (/^\/[A-Za-z0-9._~!$&'()*+,;=:@%/-]+$/.test(trimmedText)
 		|| /^[a-z][A-Za-z0-9]*(?:_[A-Za-z0-9]+)+$/.test(trimmedText)) return restoreCode(text);
-	if (FA_LETTER.test(text) && !/[A-Za-z]/.test(text)) return restoreCode(text);
+	if (FA_LETTER.test(text) && !/[A-Za-z]/.test(text)) return restoreCode(removeDuplicateParenthetical(text));
 	const punctuated = trimmedText.match(/^([\s\S]*?)([:!?.,;])$/);
 	if (punctuated?.[1] && terms[punctuated[1]]) {
 		if (counters) counters.translatedTerms++;
@@ -123,7 +124,7 @@ function localizeDisplayLabel(text, terms, counters, mixedEntries = [], phraseTe
 	const trimmed = text.trim();
 	const exactTranslation = terms[trimmed];
 	if (exactTranslation) result = result.replace(trimmed, exactTranslation);
-	result = replaceKnownUiEntities(result, terms, counters);
+	result = removeDuplicateParenthetical(replaceKnownUiEntities(result, terms, counters));
 	return restoreCode(result);
 }
 
@@ -136,7 +137,7 @@ function localizeBareListLabels(text, terms, counters, mixedEntries = [], phrase
 	});
 }
 
-function replaceKnownUiEntities(text, terms, counters, labels = ['Contact', 'Address', 'Warehouse', 'Campaign', 'Communication', 'Currency', 'Employee', 'Department', 'Branch', 'Notification', 'Country', 'Prefix', 'Condition', 'Formula', 'Recipients', 'Subject', 'Message', 'Payroll', 'Performance', 'Settings', 'Task', 'Course', 'Courses']) {
+function replaceKnownUiEntities(text, terms, counters, labels = ['Contact', 'Address', 'Warehouse', 'Campaign', 'Communication', 'Currency', 'Employee', 'Department', 'Branch', 'Notification', 'Country', 'Prefix', 'Condition', 'Formula', 'Recipients', 'Subject', 'Message', 'Payroll', 'Performance', 'Settings', 'Task', 'Course', 'Courses', 'Manual']) {
 	const entries = labels.filter((label) => terms[label] && FA_LETTER.test(terms[label]));
 	if (!entries.length) return text;
 	const pattern = new RegExp(`(?<![\\p{L}\\p{N}])(${entries.map(escapeRegExp).join('|')})(های|ها|ای|ی)?(?![\\p{L}\\p{N}])`, 'gu');
