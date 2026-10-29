@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-29T05:46:41.487Z",
+  "generated_at": "2026-10-29T09:36:02.776Z",
   "method": "Exact UI labels found in upstream source Markdown and page titles, matched to non-fuzzy non-empty msgstr entries in each product locale. Framework locale terms are inherited by Frappe apps; product locales override them. Reviewed curated terms are applied last and take precedence over upstream entries.",
   "curated_terms": [
     {
@@ -2247,6 +2247,14 @@
     }
   ],
   "source_files": {
+    "builder": {
+      "url": "https://raw.githubusercontent.com/frappe/builder/develop/builder/locale/fa.po",
+      "repository": "frappe/builder",
+      "branch": "develop",
+      "path": "builder/locale/fa.po",
+      "sha256": "7e139d2c2e8cad43f93142fca8c889eaa42a8752208057ee0db333fe130c0b1d",
+      "status": "current"
+    },
     "drive": {
       "url": "https://raw.githubusercontent.com/frappe/drive/develop/drive/locale/fa.po",
       "repository": "frappe/drive",
@@ -2263,36 +2271,12 @@
       "sha256": "963321f7368a50f38751c81a290b889aa42fe00b78b8f65b67d284c2a1b3a1b5",
       "status": "current"
     },
-    "builder": {
-      "url": "https://raw.githubusercontent.com/frappe/builder/develop/builder/locale/fa.po",
-      "repository": "frappe/builder",
-      "branch": "develop",
-      "path": "builder/locale/fa.po",
-      "sha256": "7e139d2c2e8cad43f93142fca8c889eaa42a8752208057ee0db333fe130c0b1d",
-      "status": "current"
-    },
-    "hr": {
-      "url": "https://raw.githubusercontent.com/frappe/hrms/develop/hrms/locale/fa.po",
-      "repository": "frappe/hrms",
-      "branch": "develop",
-      "path": "hrms/locale/fa.po",
-      "sha256": "5fa17710b44b3fd644fa45dcdbac1cb2eb6464003849964b637eef8e740a1092",
-      "status": "current"
-    },
     "helpdesk": {
       "url": "https://raw.githubusercontent.com/frappe/helpdesk/develop/helpdesk/locale/fa.po",
       "repository": "frappe/helpdesk",
       "branch": "develop",
       "path": "helpdesk/locale/fa.po",
       "sha256": "95721b12b95ed7b301fe257553e73117c1744630c715a5bd88dc702aeba2224d",
-      "status": "current"
-    },
-    "learning": {
-      "url": "https://raw.githubusercontent.com/frappe/lms/develop/lms/locale/fa.po",
-      "repository": "frappe/lms",
-      "branch": "develop",
-      "path": "lms/locale/fa.po",
-      "sha256": "06a19ab505ed02aab283640ba3840343adceeb53c73ced6bb1ce467c025a1910",
       "status": "current"
     },
     "crm": {
@@ -2303,12 +2287,20 @@
       "sha256": "d616dd0c25bdb1b258f6e3d70cb1e4c8a147f1919df807aef0e5e4308d297396",
       "status": "current"
     },
-    "erpnext": {
-      "url": "https://raw.githubusercontent.com/frappe/erpnext/develop/erpnext/locale/fa.po",
-      "repository": "frappe/erpnext",
+    "learning": {
+      "url": "https://raw.githubusercontent.com/frappe/lms/develop/lms/locale/fa.po",
+      "repository": "frappe/lms",
       "branch": "develop",
-      "path": "erpnext/locale/fa.po",
-      "sha256": "2186c75daf409c61c16862c20a52dfdd67d2211d3cd15fa7aacb4173c3ba752e",
+      "path": "lms/locale/fa.po",
+      "sha256": "06a19ab505ed02aab283640ba3840343adceeb53c73ced6bb1ce467c025a1910",
+      "status": "current"
+    },
+    "hr": {
+      "url": "https://raw.githubusercontent.com/frappe/hrms/develop/hrms/locale/fa.po",
+      "repository": "frappe/hrms",
+      "branch": "develop",
+      "path": "hrms/locale/fa.po",
+      "sha256": "5fa17710b44b3fd644fa45dcdbac1cb2eb6464003849964b637eef8e740a1092",
       "status": "current"
     },
     "framework": {
@@ -2317,6 +2309,14 @@
       "branch": "develop",
       "path": "frappe/locale/fa.po",
       "sha256": "c7c87e3a9deb63e19eb7a0d5444efd755c86210b28eb0f2e278b1e98aed72c58",
+      "status": "current"
+    },
+    "erpnext": {
+      "url": "https://raw.githubusercontent.com/frappe/erpnext/develop/erpnext/locale/fa.po",
+      "repository": "frappe/erpnext",
+      "branch": "develop",
+      "path": "erpnext/locale/fa.po",
+      "sha256": "2186c75daf409c61c16862c20a52dfdd67d2211d3cd15fa7aacb4173c3ba752e",
       "status": "current"
     }
   },
@@ -5906,7 +5906,9 @@
       "Default Buying Cost Center": "مرکز هزینهٔ خرید پیش‌فرض",
       "Default Supplier": "تأمین‌کنندهٔ پیش‌فرض",
       "Default Expense Account": "حساب هزینهٔ پیش‌فرض",
-      "Default Selling Cost Center": "مرکز هزینهٔ فروش پیش‌فرض"
+      "Default Selling Cost Center": "مرکز هزینهٔ فروش پیش‌فرض",
+      "E-commerce Settings": "تنظیمات فروشگاه اینترنتی",
+      "GST Settings": "تنظیمات GST"
     },
     "hr": {
       "Additional Salary": "حقوق اضافی",
@@ -7687,7 +7689,8 @@
       "Image": "تصویر",
       "Document": "سند",
       "Data Import": "درون‌بُرد داده",
-      "or": "یا"
+      "or": "یا",
+      "Import Course": "درون‌بُرد دوره"
     },
     "drive": {
       "Storage": "ذخیره‌سازی",
