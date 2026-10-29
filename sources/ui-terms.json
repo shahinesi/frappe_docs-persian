@@ -50,7 +50,9 @@
         "Default Buying Cost Center": "مرکز هزینهٔ خرید پیش‌فرض",
         "Default Supplier": "تأمین‌کنندهٔ پیش‌فرض",
         "Default Expense Account": "حساب هزینهٔ پیش‌فرض",
-        "Default Selling Cost Center": "مرکز هزینهٔ فروش پیش‌فرض"
+        "Default Selling Cost Center": "مرکز هزینهٔ فروش پیش‌فرض",
+        "E-commerce Settings": "تنظیمات فروشگاه اینترنتی",
+        "GST Settings": "تنظیمات GST"
       },
       "basis": "بازبینی برچسب‌های قابل‌نمایش در راهنماهای ERPNext؛ موارد فاقد ترجمهٔ locale با واژه‌نامهٔ فارسی بافت‌محور تکمیل شدند."
     },
