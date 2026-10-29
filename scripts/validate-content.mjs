@@ -113,9 +113,7 @@ for (const file of pages) {
   }
   for (const [, label, wrappedHref] of visibleMarkdown.matchAll(/(?<!!)\[([^\]]+)\]\((<[^>]+>|[^\s)]+)(?:[^)]*)\)/g)) {
     const href = wrappedHref.replace(/^<|>$/g, '');
-    const pointsToExternalSite = /^https?:\/\/(?:docs\.frappe\.io|docs\.erpnext\.com)\//i.test(href);
-    const pointsToMarkdown = !/^[a-z]+:/i.test(href) && !href.startsWith('#') && /\.md(?:[?#]|$)/i.test(href);
-    if ((pointsToExternalSite || pointsToMarkdown) && genericLinkLabel.test(label.trim())) {
+    if (genericLinkLabel.test(label.trim())) {
       failures.push(`${relative}: generic link label "${label.trim()}" must describe its destination`);
     }
     if (/^https?:\/\//i.test(href)) {
