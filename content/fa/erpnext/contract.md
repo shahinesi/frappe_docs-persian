@@ -93,7 +93,7 @@ The parties enter into this contract on {{ start_date }}.
 - [سفارش خرید](purchase-order.md)
 - [سفارش فروش](sales-order.md)
 - [رسید خرید](https://docs.frappe.io/erpnext/purchase-receipt)
-- [یادداشت تحویل (سند تحویل)](delivery-note.md)
+- [یادداشت تحویل](delivery-note.md)
 - [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice)
 - [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice)
 

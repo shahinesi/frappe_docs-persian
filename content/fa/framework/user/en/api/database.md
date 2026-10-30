@@ -281,7 +281,7 @@ data = frappe.db.sql("""
 """, values=values, as_dict=0)
 ```
 
-> از این روش پرهیز کنید، چون اعتبارسنجی‌ها و بررسی‌های یکپارچگی را دور می‌زند. اگر امکان دارد، روش‌هایی مانند [document](https://docs.frappe.io/framework/user/en/api/document#frappeget_doc)، [`frappe.db.get_list`](#frappedbget_list) و موارد مشابه را به‌کار ببرید.
+> از این روش پرهیز کنید، چون اعتبارسنجی‌ها و بررسی‌های یکپارچگی را دور می‌زند. اگر امکان دارد، روش‌هایی مانند [Document API](https://docs.frappe.io/framework/user/en/api/document#frappeget_doc)، [`frappe.db.get_list`](#frappedbget_list) و موارد مشابه را به‌کار ببرید.
 
 ## frappe.db.multisql
 

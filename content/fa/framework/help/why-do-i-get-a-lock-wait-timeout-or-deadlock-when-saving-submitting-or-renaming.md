@@ -89,7 +89,7 @@ Frappe کارهای پس‌زمینه را خودکار دوباره امتحا�
 
 ## مطالب مرتبط
 
-- [کارهای پس‌زمینه](../user/en/api/background_jobs.md)
+- [کارهای پس‌زمینه در Frappe](../user/en/api/background_jobs.md)
 - [کنسول سیستم](../desk/system-console.md)
 - [پروفایل‌سازی و پایش](https://docs.frappe.io/framework/user/en/profiling)
 

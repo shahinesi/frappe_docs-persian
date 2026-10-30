@@ -62,6 +62,42 @@ test('uses the linked page title for a generic ERPNext documentation label', () 
 	assert.equal(result.markdown, '[شعبه](branch.md)');
 });
 
+test('uses the linked page title even when an existing Persian label names something else', () => {
+	const sourceUrl = 'https://docs.frappe.io/hr/branch';
+	const result = prepareMarkdownLinks(`[فهرست کارکنان](${sourceUrl})`, {
+		currentPath: 'content/fa/hr/example.md',
+		manifest: { pages: [{ ...manifest.pages[0], url: sourceUrl }] },
+		titles: new Map([['content/fa/hr/branch.md', 'شعبه']]),
+		terms: {},
+	});
+	assert.equal(result.markdown, '[شعبه](branch.md)');
+});
+
+test('uses the translated title for an existing relative Markdown target', () => {
+	const targetPath = 'content/fa/framework/user/en/guides/basics/apps.md';
+	const result = prepareMarkdownLinks('[مبانی](guides/basics/apps.md)', {
+		currentPath: 'content/fa/framework/user/en/guides.md',
+		manifest: { pages: [{ url: 'https://docs.frappe.io/framework/user/en/guides/basics/apps', source_title: 'Apps', translation_path: targetPath }] },
+		titles: new Map([[targetPath, 'برنامه‌های Frappe']]),
+		terms: {},
+	});
+	assert.equal(result.markdown, '[برنامه‌های Frappe](guides/basics/apps.md)');
+});
+
+test('uses a canonical address title for a legacy link to an untranslated page', () => {
+	const canonical = 'https://docs.frappe.io/framework/user/en/guides/database-settings/setup-read-from-secondary-db';
+	const legacyPath = '/framework/v14/user/en/guides/database-settings/setup-read-from-secondary-db';
+	const canonicalPath = '/framework/user/en/guides/database-settings/setup-read-from-secondary-db';
+	const result = prepareMarkdownLinks(`[تنظیمات پایگاه داده](${legacyPath})`, {
+		currentPath: 'content/fa/framework/user/en/guides.md',
+		manifest: { pages: [{ url: canonical, section: 'framework', source_title: 'Setup read operations from slave/secondary mysql system', source_id: 'framework/user/en/guides/database-settings/setup-read-from-secondary-db', translation_path: null }] },
+		aliases: new Map([[legacyPath, canonicalPath]]),
+		linkLabels: { [canonicalPath]: 'خواندن از پایگاه دادهٔ ثانویه' },
+		terms: {},
+	});
+	assert.equal(result.markdown, `[خواندن از پایگاه دادهٔ ثانویه](${canonical})`);
+});
+
 test('uses the destination title when a generic documentation label ends with punctuation', () => {
 	const sourceUrl = 'https://docs.frappe.io/hr/branch';
 	const result = prepareMarkdownLinks(`[مستندات رسمی ERPNext.](${sourceUrl})`, {

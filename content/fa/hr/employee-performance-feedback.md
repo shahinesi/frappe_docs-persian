@@ -18,7 +18,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## 1. پیش‌نیازها
 
-پیش از ثبت بازخورد عملکرد، [الگوی ارزیابی](appraisal-template.md)، [چرخهٔ ارزیابی](appraisal-cycle.md) و [ارزیابی عملکرد](appraisal.md) را ایجاد کنید.
+پیش از ثبت بازخورد عملکرد، [الگوی ارزیابی عملکرد](appraisal-template.md)، [چرخهٔ ارزیابی عملکرد](appraisal-cycle.md) و [ارزیابی عملکرد](appraisal.md) را ایجاد کنید.
 
 ## 2. ایجاد بازخورد عملکرد کارکنان
 

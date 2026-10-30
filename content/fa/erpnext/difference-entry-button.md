@@ -35,7 +35,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 1. علت نامتوازن‌بودن را می‌دانید و برای مبلغ مدرک دارید.
 2. حساب درست در [درخت حساب‌ها](chart-of-accounts.md) شرکت وجود دارد. حسابی غیرگروهی را انتخاب کنید که به شرکت انتخاب‌شده تعلق دارد.
 3. تاریخ ارسال باز است و به سال مالی و [دورهٔ حسابداری](accounting-period.md) موردنظر تعلق دارد.
-4. مرکز هزینه، پروژه، دفتر مالی یا [بُعد حسابداری](accounting-dimensions.md) دیگری که لازم است در دسترس باشد.
+4. مرکز هزینه، پروژه، دفتر مالی یا [ابعاد حسابداری](accounting-dimensions.md) دیگری که لازم است در دسترس باشد.
 5. برای ثبت بانکی، شماره و تاریخ مرجع بانک را داشته باشید. برای دریافت یا پرداخت معمول مشتری یا تأمین‌کننده، بررسی کنید که آیا [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry) گردش‌کار مناسب‌تری است.
 
 ## اختلاف را پیدا کنید
@@ -80,7 +80,7 @@ ERPNext یک ردیف با مبلغ دقیق لازم برای برابرشدن 
 
 ![ثبت در دفتر روزنامه ثبت‌نهایی‌شده با هر سه ردیف حسابداری](https://novacompanies.m.frappe.cloud/files/docs-gl-2026-difference-entry-submitted-difference-journal-entry.png)
 
-4. **مشاهده > دفتر کل** را باز کنید یا گزارش [دفترکل](https://docs.frappe.io/erpnext/general-ledger) را با ثبت در دفتر روزنامه به‌عنوان فیلتر voucher اجرا کنید.
+4. **مشاهده > دفتر کل** را باز کنید یا گزارش [دفتر کل](https://docs.frappe.io/erpnext/general-ledger) را با ثبت در دفتر روزنامه به‌عنوان فیلتر voucher اجرا کنید.
 5. بدهکار و بستانکار هر حساب و صفر بودن ماندهٔ کل voucher را بررسی کنید.
 
 ![دفتر کل با ردیف مابه‌التفاوت هزینه‌های بانکی](https://novacompanies.m.frappe.cloud/files/docs-gl-2026-difference-entry-difference-entry-general-ledger.png)
@@ -149,7 +149,7 @@ ERPNext افزون بر توازن، شرکت، نوع حساب، طرف حسا�
 - [ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry)
 - [آشنایی با بدهکار و بستانکار](https://docs.frappe.io/erpnext/understand-debit-and-credit)
 - [درخت حساب‌ها](chart-of-accounts.md)
-- [دفترکل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفتر کل](https://docs.frappe.io/erpnext/general-ledger)
 - [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
 - [حسابداری چندارزی](https://docs.frappe.io/erpnext/multi-currency-accounting)
 - [الگوی ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry-template)

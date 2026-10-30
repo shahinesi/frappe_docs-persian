@@ -103,7 +103,7 @@ function setupForm({doc, applyFilters}) {
 
 ## چند سفارشی‌سازی دیگر
 
-- برای پنهان یا نمایش‌دادن فیلد، از قابلیت `display_depends_on` در **سفارشی‌سازی فرم** استفاده کنید. [راهنمای سفارشی‌سازی فرم](../erpnext/customize-form.md) و [ویدئوی آموزشی](https://www.youtube.com/watch?v=H_gWt0EPZCE) را ببینید.
+- برای پنهان یا نمایش‌دادن فیلد، از قابلیت `display_depends_on` در **سفارشی‌سازی فرم** استفاده کنید. [سفارشی‌سازی فرم](../erpnext/customize-form.md) و [ویدئوی آموزشی](https://www.youtube.com/watch?v=H_gWt0EPZCE) را ببینید.
 
   برای نمونه، شرط به‌روزرسانی دسته می‌تواند چنین باشد: `eval:doc.custom_app!==""`
 

@@ -10,9 +10,9 @@ Frappe HR مدیریت و پیگیری چند مرحلهٔ مصاحبه را ب�
 
 در این زیربرنامه می‌توانید:
 
-1. [نوع‌های مصاحبه](https://docs.frappe.io/hr/interview-type) را تعریف کنید (اختیاری).
-2. [مرحله‌های مصاحبه](https://docs.frappe.io/hr/interview-round) را تنظیم کنید.
-3. [مصاحبه‌ها](https://docs.frappe.io/hr/interview) را بسازید.
+1. [نوع مصاحبه](https://docs.frappe.io/hr/interview-type) را تعریف کنید (اختیاری).
+2. [مرحلهٔ مصاحبه](https://docs.frappe.io/hr/interview-round) را تنظیم کنید.
+3. [مصاحبه](https://docs.frappe.io/hr/interview) را بسازید.
 4. [بازخورد مصاحبه](https://docs.frappe.io/hr/interview-feedback) را ثبت کنید.
 
 ---

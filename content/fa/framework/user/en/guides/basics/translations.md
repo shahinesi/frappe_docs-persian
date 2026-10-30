@@ -177,6 +177,6 @@ _("charge", context="mobile phone charge")  # منظور «شحن» است
 _("charge", context="invoice line")  # منظور «رسوم» است
 ```
 
-> **یادداشت مترجم:** این راهنما دربارهٔ بارگذاری پویا و کش ترجمه‌ها توضیح‌های ناسازگار دارد. روش مدیریت ترجمه به نسخهٔ Frappe و قالب فایل وابسته است؛ مستندات جاری، برای نسخه‌های تا v15 فایل‌های CSV و برای v16 به بعد قالب PO را شرح می‌دهد. پیش از استقرار، [روش مدیریت ترجمه‌ها در Frappe Framework](https://docs.frappe.io/framework/user/en/translations) و [فرمان‌های ترجمهٔ Bench](https://docs.frappe.io/framework/user/en/bench/frappe-commands) را برای نسخهٔ نصب‌شده بررسی کنید.
+> **یادداشت مترجم:** این راهنما دربارهٔ بارگذاری پویا و کش ترجمه‌ها توضیح‌های ناسازگار دارد. روش مدیریت ترجمه به نسخهٔ Frappe و قالب فایل وابسته است؛ مستندات جاری، برای نسخه‌های تا v15 فایل‌های CSV و برای v16 به بعد قالب PO را شرح می‌دهد. پیش از استقرار، [ترجمه ها](https://docs.frappe.io/framework/user/en/translations) و [فرمان‌های ترجمهٔ Bench](https://docs.frappe.io/framework/user/en/bench/frappe-commands) را برای نسخهٔ نصب‌شده بررسی کنید.
 
 > این صفحه ترجمهٔ غیررسمی مستندات Frappe Framework است. [ترجمه‌ها در برنامهٔ سفارشی Frappe](https://docs.frappe.io/framework/user/en/guides/basics/translations). محتوای نوشتاری با انتساب به منبع و تحت شرایط CC BY-SA آن بازنشر شده است؛ نسخهٔ مجوز در سیاست منبع مشخص نشده است.

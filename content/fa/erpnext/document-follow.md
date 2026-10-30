@@ -53,4 +53,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ## 2. موضوعات مرتبط
 
 1. [پیوند ایمیل‌ها به سند](https://docs.frappe.io/erpnext/linking-emails-to-document)
-2. [اعلان‌ها](https://docs.frappe.io/erpnext/notifications)
+2. [اعلان](https://docs.frappe.io/erpnext/notifications)

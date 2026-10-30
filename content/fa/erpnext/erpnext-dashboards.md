@@ -22,10 +22,10 @@ ERPNext داشبوردها، صفحه‌های تحلیل، گزارش‌ها و
 داشبورد و گزارش‌های حسابداری به تیم مالی کمک می‌کنند حساب‌های دریافتنی و پرداختنی، سودآوری، مالیات، دفترها و صورت‌های مالی را پیگیری کنند.
 
 - [گزارش‌های حسابداری](accounting-reports.md): فهرست گزارش‌های استاندارد حسابداری.
-- [الگوی گزارش مالی](financial-report-template.md): تنظیم چیدمان سفارشی گزارش مالی.
+- [قالب گزارش مالی](financial-report-template.md): تنظیم چیدمان سفارشی گزارش مالی.
 - [گزارش انحراف بودجه](budget-variance-report.md): مقایسهٔ بودجه با عملکرد واقعی.
 - [گزارش درآمدها و هزینه‌های انتقالی](expense_report.md): بررسی برنامه‌های درآمد و هزینهٔ انتقالی.
-- [سفارشی‌سازی گزارش جریان نقدی](customise-cash-flow-report.md): سفارشی‌کردن گزارش جریان نقدی.
+- [سفارشی‌سازی گزارش جریان وجوه نقد](customise-cash-flow-report.md): سفارشی‌کردن گزارش جریان نقدی.
 - [گزارش حسابرسی مالیات بر ارزش افزوده](https://docs.frappe.io/erpnext/vat_audit_report): بررسی گزارش حسابرسی VAT.
 - [گزارش VAT 201 امارات متحدهٔ عربی](https://docs.frappe.io/erpnext/uae-vat-201-report): بررسی گزارش VAT امارات.
 
@@ -33,7 +33,7 @@ ERPNext داشبوردها، صفحه‌های تحلیل، گزارش‌ها و
 
 داشبوردها و گزارش‌های فروش به تیم‌ها کمک می‌کنند عملکرد فروش، پیش‌فاکتورها، سفارش‌های فروش، صورتحساب‌ها، مشتریان و روندهای فروش را بررسی کنند.
 
-- [گزارش‌های فروش](https://docs.frappe.io/erpnext/sales-analytics): بررسی تحلیل‌ها و گزارش‌های فروش.
+- [تجزیه و تحلیل فروش](https://docs.frappe.io/erpnext/sales-analytics): بررسی تحلیل‌ها و گزارش‌های فروش.
 - [گزارش وضعیت شرایط پرداخت](https://docs.frappe.io/erpnext/payment_terms_status_report): پیگیری وضعیت شرایط پرداخت در تراکنش‌ها.
 - [گزارش کالاها و سودآوری بر اساس برند](brandwise-items-and-profitability-report.md): تحلیل سودآوری بر پایهٔ برند و کالا.
 - [تعیین هدف فروش شرکت](https://docs.frappe.io/erpnext/setting-company-sales-goal): تعیین و پیگیری هدف‌های فروش شرکت.
@@ -44,18 +44,18 @@ ERPNext داشبوردها، صفحه‌های تحلیل، گزارش‌ها و
 
 - [گزارش‌های خرید](buying_reports.md): بررسی گزارش‌های خرید و تأمین.
 - [گزارش ردیاب تدارکات](https://docs.frappe.io/erpnext/procurement-tracker-report): پیگیری روند تدارکات.
-- [کارت امتیاز تأمین‌کننده](https://docs.frappe.io/erpnext/supplier-scorecard): ارزیابی عملکرد تأمین‌کنندگان.
+- [کارت امتیازی تأمین‌کننده](https://docs.frappe.io/erpnext/supplier-scorecard): ارزیابی عملکرد تأمین‌کنندگان.
 
 ## داشبورد انبار و گزارش‌های موجودی
 
 داشبوردها و گزارش‌های انبار به تیم‌های موجودی کمک می‌کنند سطح موجودی، ارزش‌گذاری، گردش دفتر موجودی، بچ‌ها، شماره‌های سریال و تطبیق موجودی را پیگیری کنند.
 
 - [گزارش سطح موجودی](https://docs.frappe.io/erpnext/stock-level-report): بررسی سطح فعلی موجودی.
-- [گزارش دفتر موجودی](https://docs.frappe.io/erpnext/stock-ledger): بررسی ردیف‌های دفتر موجودی و جابه‌جایی کالا.
+- [دفتر موجودی](https://docs.frappe.io/erpnext/stock-ledger): بررسی ردیف‌های دفتر موجودی و جابه‌جایی کالا.
 - [گزارش مقایسهٔ ارزش موجودی با ارزش حسابداری](https://docs.frappe.io/erpnext/stock-value-account-value-comparison): مقایسهٔ ارزش موجودی با ارزش حسابداری.
 - [گزارش انحراف دفتر موجودی](https://docs.frappe.io/erpnext/stock-reposting): بررسی انحراف دفتر موجودی و ثبت دوباره.
 - [گزارش ردیابی شمارهٔ سریال و بچ](https://docs.frappe.io/erpnext/serial-and-batch-traceability-report): ردیابی شماره‌های سریال و بچ‌ها.
-- [گزارش بچ‌های منفی](https://docs.frappe.io/erpnext/stock/reports/negative-batch-report): شناسایی مشکل مقدار منفی در بچ‌ها.
+- [گزارش دسته‌های منفی](https://docs.frappe.io/erpnext/stock/reports/negative-batch-report): شناسایی مشکل مقدار منفی در بچ‌ها.
 
 ## داشبورد و گزارش‌های تولید
 
@@ -63,9 +63,9 @@ ERPNext داشبوردها، صفحه‌های تحلیل، گزارش‌ها و
 
 - [داشبورد تولید](https://docs.frappe.io/erpnext/manufacturing-dashboard): بررسی فعالیت‌های تولید در نمایی شبیه داشبورد.
 - [گزارش‌های تولید](https://docs.frappe.io/erpnext/manufacturing-reports): فهرست گزارش‌های تولید.
-- [تحلیل تولید](https://docs.frappe.io/erpnext/production-analytics): تحلیل روندهای تولید.
+- [تجزیه و تحلیل تولید](https://docs.frappe.io/erpnext/production-analytics): تحلیل روندهای تولید.
 - [گزارش برنامه‌ریزی تولید](https://docs.frappe.io/erpnext/production-planning-report): بررسی داده‌های برنامه‌ریزی تولید.
-- [گزارش دستور کارهای باز](https://docs.frappe.io/erpnext/open-work-orders): پیگیری دستور کارهای باز.
+- [دستور کارهای باز](https://docs.frappe.io/erpnext/open-work-orders): پیگیری دستور کارهای باز.
 - [گزارش موجودی BOM](bom-stock-report.md): بررسی موجودی مرتبط با BOM.
 - [گزارش محل استفاده از کالا](https://docs.frappe.io/erpnext/item-where-used-report): یافتن محل استفاده از کالا در BOMها.
 
@@ -91,7 +91,7 @@ ERPNext داشبوردها، صفحه‌های تحلیل، گزارش‌ها و
 
 - [گزارش‌های پشتیبانی](https://docs.frappe.io/erpnext/support_reports): بررسی گزارش‌های مرتبط با پشتیبانی.
 - [تنظیمات پشتیبانی](https://docs.frappe.io/erpnext/support-settings): پیکربندی پشتیبانی پیش از استفاده از داشبوردها و گزارش‌های آن.
-- [بازدید نگه‌داری](https://docs.frappe.io/erpnext/maintenance-visit): پیگیری بازدیدهای نگه‌داری و فعالیت‌های خدماتی.
+- [بازدید تعمیر و نگهداری](https://docs.frappe.io/erpnext/maintenance-visit): پیگیری بازدیدهای نگه‌داری و فعالیت‌های خدماتی.
 
 ## داشبورد و گزارش‌های دارایی
 
@@ -109,7 +109,7 @@ ERPNext داشبوردها، صفحه‌های تحلیل، گزارش‌ها و
 - [گزارش نمای کلی ارزیابی عملکرد](../hr/appraisal-overview-report.md): بررسی پیشرفت و وضعیت ارزیابی عملکرد.
 - [گزارش دفتر مرخصی](https://docs.frappe.io/hr/leave-ledger-report): بررسی ردیف‌های دفتر مرخصی.
 - [جزئیات هزینهٔ کل کارفرما برای کارمند](https://docs.frappe.io/hr/reports/employee-ctc-break-up): بررسی جزئیات هزینهٔ کل کارمند برای شرکت.
-- [گزارش‌های حقوق و دستمزد هند](https://docs.frappe.io/hr/india-payroll/reports): بررسی گزارش‌های حقوق و دستمزد هند.
+- [گزارش‌ها](https://docs.frappe.io/hr/india-payroll/reports): بررسی گزارش‌های حقوق و دستمزد هند.
 
 ## داشبوردهای وام و تسهیلات
 
@@ -129,14 +129,14 @@ ERPNext داشبوردها، صفحه‌های تحلیل، گزارش‌ها و
 
 ERPNext با ابزارهای گزارش‌گیری و داشبورد در اکوسیستم Frappe نیز کار می‌کند. این ابزارها زمانی مفیدند که گزارش استاندارد کافی نیست و تیم به نمودارهای سفارشی، شاخص‌های گروه‌بندی‌شده یا تحلیل میان‌ماژولی نیاز دارد.
 
-- [تحلیل فروش](https://docs.frappe.io/erpnext/sales-analytics): بررسی قابلیت‌های تحلیلی ERPNext.
+- [تجزیه و تحلیل فروش](https://docs.frappe.io/erpnext/sales-analytics): بررسی قابلیت‌های تحلیلی ERPNext.
 - [نمای کلی داشبوردها](../insights/dashboards/overview.md): ساخت داشبورد با Frappe Insights.
 - [نمای کلی داشبوردها](../insights/dashboards/overview.md): آشنایی با مفاهیم داشبورد در Insights.
 - [ساخت نخستین داشبورد](../insights/dashboards/creating-your-first-dashboard.md): ایجاد داشبورد سفارشی در Insights.
 - [اشتراک‌گذاری و کنترل دسترسی](../insights/dashboards/sharing-and-access-control.md): تعیین افرادی که می‌توانند داشبوردها را ببینند.
-- [گزارش‌های میزکار](https://docs.frappe.io/framework/user/en/desk/reports/script-report): آشنایی با انواع گزارش در Frappe میزکار.
+- [گزارش اسکریپت](https://docs.frappe.io/framework/user/en/desk/reports/script-report): آشنایی با انواع گزارش در Frappe میزکار.
 - [گزارش‌ساز](../framework/user/en/desk/reports/report-builder.md): ساخت گزارش بدون کدنویسی.
-- [پرس‌وجو گزارش](https://docs.frappe.io/framework/user/en/desk/reports/query-report): ساخت گزارش مبتنی بر SQL.
+- [گزارش پرسمان](https://docs.frappe.io/framework/user/en/desk/reports/query-report): ساخت گزارش مبتنی بر SQL.
 - [گزارش اسکریپت](https://docs.frappe.io/framework/user/en/desk/reports/script-report): ساخت گزارش مبتنی بر اسکریپت.
 - [فضای کاری](https://docs.frappe.io/framework/user/en/desk/workspace): سازمان‌دهی میان‌برها، نمودارها و پیوندهای سطح ماژول.
 
@@ -145,23 +145,23 @@ ERPNext با ابزارهای گزارش‌گیری و داشبورد در اک�
 برای پایش یک بخش مشخص از ERPNext، از داشبورد یا گزارش همان ماژول استفاده کنید:
 
 1. برای بررسی مالی از [گزارش‌های حسابداری](accounting-reports.md) استفاده کنید.
-2. برای بررسی عملکرد فروش از [گزارش‌های فروش](https://docs.frappe.io/erpnext/sales-analytics) استفاده کنید.
+2. برای بررسی عملکرد فروش از [تجزیه و تحلیل فروش](https://docs.frappe.io/erpnext/sales-analytics) استفاده کنید.
 3. برای پیگیری تدارکات از [گزارش‌های خرید](buying_reports.md) استفاده کنید.
-4. برای پایش موجودی از [گزارش سطح موجودی](https://docs.frappe.io/erpnext/stock-level-report) و [گزارش دفتر موجودی](https://docs.frappe.io/erpnext/stock-ledger) استفاده کنید.
-5. برای بررسی تولید از [داشبورد تولید](https://docs.frappe.io/erpnext/manufacturing-dashboard) و [تحلیل تولید](https://docs.frappe.io/erpnext/production-analytics) استفاده کنید.
+4. برای پایش موجودی از [گزارش سطح موجودی](https://docs.frappe.io/erpnext/stock-level-report) و [دفتر موجودی](https://docs.frappe.io/erpnext/stock-ledger) استفاده کنید.
+5. برای بررسی تولید از [داشبورد تولید](https://docs.frappe.io/erpnext/manufacturing-dashboard) و [تجزیه و تحلیل تولید](https://docs.frappe.io/erpnext/production-analytics) استفاده کنید.
 6. برای پیگیری پروژه از [گزارش‌های پروژه](https://docs.frappe.io/erpnext/project-reports) استفاده کنید.
 7. برای بررسی پشتیبانی مشتری از [گزارش‌های پشتیبانی](https://docs.frappe.io/erpnext/support_reports) استفاده کنید.
 8. وقتی به داشبورد سفارشی در چند ماژول نیاز دارید، از [نمای کلی داشبوردها](../insights/dashboards/overview.md) بهره ببرید.
 
 ## موضوعات مرتبط
 
-- [تحلیل فروش](https://docs.frappe.io/erpnext/sales-analytics)
+- [تجزیه و تحلیل فروش](https://docs.frappe.io/erpnext/sales-analytics)
 - [گزارش‌های حسابداری](accounting-reports.md)
-- [گزارش‌های فروش](https://docs.frappe.io/erpnext/sales-analytics)
+- [تجزیه و تحلیل فروش](https://docs.frappe.io/erpnext/sales-analytics)
 - [گزارش‌های خرید](buying_reports.md)
 - [داشبورد تولید](https://docs.frappe.io/erpnext/manufacturing-dashboard)
 - [گزارش‌های پروژه](https://docs.frappe.io/erpnext/project-reports)
 - [گزارش‌های پشتیبانی](https://docs.frappe.io/erpnext/support_reports)
-- [گزارش‌های میزکار](https://docs.frappe.io/framework/user/en/desk/reports/script-report)
+- [گزارش اسکریپت](https://docs.frappe.io/framework/user/en/desk/reports/script-report)
 - [فضای کاری](https://docs.frappe.io/framework/user/en/desk/workspace)
 - [نمای کلی داشبوردها](../insights/dashboards/overview.md)

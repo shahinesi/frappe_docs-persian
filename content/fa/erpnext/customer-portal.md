@@ -75,5 +75,5 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - [مخاطب](contact.md)
 - [سفارش فروش](sales-order.md)
 - [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice)
-- [درخواست پشتیبانی](https://docs.frappe.io/erpnext/issue)
+- [مشکل](https://docs.frappe.io/erpnext/issue)
 - [تنظیمات وب سایت](https://docs.frappe.io/erpnext/website-settings)

@@ -137,7 +137,7 @@ ERPNext ابتدا رکورد ذخیره‌شدهٔ واجد شرایط را ج�
 ## موضوعات مرتبط
 
 - [نرخ تبدیل ارز (تبدیل ارز)](currency-exchange.md)
-- [تنظیمات تبدیل ارز](currency-exchange-settings.md)
+- [تنظیمات نرخ تبدیل ارز](currency-exchange-settings.md)
 - [تنظیمات حساب‌ها](accounts-settings.md)
 - [مدیریت تراکنش‌های چندارزی](https://docs.frappe.io/erpnext/managing-transactions-in-multiple-currencies)
 - [مدیریت اختلاف تسعیر ارز](https://docs.frappe.io/erpnext/manage-foreign-exchange-difference)

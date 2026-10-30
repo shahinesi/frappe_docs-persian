@@ -23,7 +23,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 پیش از ایجاد حقوق اضافی، بهتر است موارد زیر را ایجاد کرده باشید:
 
 - [کارمند](employee.md)
-- [مؤلفهٔ حقوق](https://docs.frappe.io/hr/salary-component)
+- [مؤلفه حقوق و دستمزد](https://docs.frappe.io/hr/salary-component)
 
 ## 2. ایجاد حقوق اضافی
 
@@ -48,9 +48,9 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 1. [پاداش نگهداشت](https://docs.frappe.io/hr/retention-bonus)
 2. [مشوق کارکنان](employee-incentive.md)
-3. [ساختار حقوق](https://docs.frappe.io/hr/salary-structure)
-4. [تخصیص ساختار حقوق](https://docs.frappe.io/hr/salary-structure-assignment)
-5. [سند پردازش حقوق و دستمزد](https://docs.frappe.io/hr/payroll-entry)
+3. [ساختار حقوق و دستمزد](https://docs.frappe.io/hr/salary-structure)
+4. [تخصیص ساختار حقوق و دستمزد](https://docs.frappe.io/hr/salary-structure-assignment)
+5. [ثبت حقوق و دستمزد](https://docs.frappe.io/hr/payroll-entry)
 6. [دوره حقوق و دستمزد](https://docs.frappe.io/hr/payroll-period)
 
 ---

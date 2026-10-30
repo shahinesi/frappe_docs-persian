@@ -32,6 +32,7 @@
     "/erpnext/crm-reports": "/erpnext/crm_reports",
     "/erpnext/crm-analytics": "/erpnext/sales_funnel",
     "/erpnext/sales-reports": "/erpnext/sales-analytics",
-    "/erpnext/drop-ship-between-subsidiary-companies": "/erpnext/inter-company-invoices"
+    "/erpnext/drop-ship-between-subsidiary-companies": "/erpnext/inter-company-invoices",
+    "/framework/v14/user/en/guides/data/using-data-migration-tool": "/framework/user/en/guides/data/using-data-migration-tool"
   }
 }

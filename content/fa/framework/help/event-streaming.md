@@ -44,7 +44,7 @@ Event Streaming قابلیتی در Frappe بود که تغییرات سندها
 - [وصلهٔ حذف Event Streaming در نسخهٔ 15 فریم‌ورک Frappe](https://github.com/frappe/frappe/blob/version-15/frappe/patches/v15_0/remove_event_streaming.py)
 - [REST API در Frappe Framework](https://docs.frappe.io/framework/user/en/api/rest)
 - [وب‌هوک‌ها](../user/en/guides/integration/webhooks.md)
-- [کارهای پس‌زمینه](../user/en/api/background_jobs.md)
+- [کارهای پس‌زمینه در Frappe](../user/en/api/background_jobs.md)
 
 ---
 

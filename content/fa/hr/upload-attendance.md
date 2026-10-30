@@ -38,10 +38,10 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ## 3. موضوعات مرتبط
 
 1. [ابزار حضور و غیاب کارکنان](employee-attendance-tool.md)
-2. [مدیریت شیفت‌ها](shift-management.md)
+2. [مدیریت شیفت](shift-management.md)
 3. [حضور و غیاب خودکار](auto-attendance.md)
 4. [درخواست حضور و غیاب](attendance-request.md)
-5. [حضور و غیاب](attendance.md)
+5. [راهنمای حضور و غیاب: ایجاد و بررسی رکوردها](attendance.md)
 
 ---
 

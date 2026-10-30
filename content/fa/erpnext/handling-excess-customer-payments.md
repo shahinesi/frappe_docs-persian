@@ -75,10 +75,10 @@ ERPNext مبلغی را که بیش از تخصیص فاکتور دریافت ش
 
 ## موضوعات مرتبط
 
-- [سند پرداخت](https://docs.frappe.io/erpnext/payment-entry)
-- [تطبیق پرداخت‌ها](https://docs.frappe.io/erpnext/payment-reconciliation)
+- [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
+- [تطبیق پرداخت](https://docs.frappe.io/erpnext/payment-reconciliation)
 - [تطبیق بانکی](bank-reconciliation.md)
 - [تراکنش بانکی](bank-transaction.md)
-- [سند حسابداری](https://docs.frappe.io/erpnext/journal-entry)
+- [ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry)
 
 منبع: [مدیریت اضافه‌پرداخت مشتری](https://docs.frappe.io/erpnext/handling-excess-customer-payments). این صفحه ترجمهٔ غیررسمی است و محتوای مستندات تحت شرایط CC BY-SA با انتساب به منبع بازنشر شده است.

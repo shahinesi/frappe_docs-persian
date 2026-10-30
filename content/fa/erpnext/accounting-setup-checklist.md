@@ -16,7 +16,7 @@ Nova Industries ابتدا سال مالی و درخت حساب‌ها را تن
 
 - شخصیت حقوقی را در [شرکت](company-setup.md) بسازید.
 - سرواژه، کشور، ارز، شناسهٔ مالیاتی و نشانی را تأیید کنید.
-- [سال مالی](fiscal-year.md) را بسازید و تخصیص دهید.
+- [سال مالی در ERPNext](fiscal-year.md) را بسازید و تخصیص دهید.
 
 ## 2. درخت حساب‌ها و پیش‌فرض‌ها
 
@@ -70,8 +70,8 @@ Nova Industries ابتدا سال مالی و درخت حساب‌ها را تن
 
 ## موضوعات مرتبط
 
-- [ماندهٔ آغازین](opening-balance.md)
-- [ابزار ساخت فاکتور آغازین](https://docs.frappe.io/erpnext/opening-invoice-creation-tool)
+- [ماندهٔ آغازین حساب‌ها](opening-balance.md)
+- [ابزار ایجاد فاکتور افتتاحیه](https://docs.frappe.io/erpnext/opening-invoice-creation-tool)
 - [واردکردن داده‌ها (درون‌بُرد داده)](data-import.md)
 - [دورهٔ حسابداری](accounting-period.md)
 

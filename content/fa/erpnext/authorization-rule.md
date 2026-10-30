@@ -36,7 +36,7 @@ source_version: "94b4bf08956e783fe53bdb416a98a154ca8f84d69a5dab3cea6db5c5edb759b
 
 ![پیام اعتبارسنجی قاعدهٔ مجوزدهی](https://github.com/frappe/frappe_docs/blob/master/erpnext/public/images/authorization-rule-validation-message.png?raw=true)
 
-> اگر می‌خواهید کاربر فروش را به‌طور کلی از ثبت سفارش فروش منع کنید، به‌جای ساخت قانون مجوز، مجوز ثبت او را در [مدیر مجوز نقش](https://docs.frappe.io/erpnext/role-based-permissions) حذف کنید.
+> اگر می‌خواهید کاربر فروش را به‌طور کلی از ثبت سفارش فروش منع کنید، به‌جای ساخت قانون مجوز، مجوز ثبت او را در [مجوزهای مبتنی بر نقش](https://docs.frappe.io/erpnext/role-based-permissions) حذف کنید.
 
 ### سندهایی که می‌توان قاعدهٔ مجوزدهی را روی آن‌ها اعمال کرد
 

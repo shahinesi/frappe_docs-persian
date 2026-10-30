@@ -22,6 +22,6 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - [ابعاد حسابداری](accounting-dimensions.md)
 - [مرکز هزینه](cost-center.md)
 - [تخصیص مرکز هزینه](cost_center_allocation.md)
-- [بودجه‌بندی](budget.md)
+- [بودجه](budget.md)
 
 **منبع:** [مرکز هزینه و بودجه‌بندی](https://docs.frappe.io/erpnext/cost-center-and-budgeting). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

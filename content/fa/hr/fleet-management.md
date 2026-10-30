@@ -18,7 +18,7 @@ source_version: "fa2e44f1edd6e6f26aab0cc3f4b7fd9f4a756c6f7d5adb3fb8536a048cc4d41
 ## موضوعات مرتبط
 
 1. [وسیله نقلیه](https://docs.frappe.io/hr/vehicle)
-2. [گزارش کارکرد خودرو](https://docs.frappe.io/hr/vehicle-log)
+2. [لاگ وسیله نقلیه](https://docs.frappe.io/hr/vehicle-log)
 
 ---
 منبع: [مدیریت ناوگان](https://docs.frappe.io/hr/fleet-management). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

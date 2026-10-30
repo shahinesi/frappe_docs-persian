@@ -53,7 +53,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## موضوعات مرتبط
 
-1. [قالب نشانی](address-template.md)
-2. [قالب شرایط و ضوابط](https://docs.frappe.io/erpnext/terms-and-conditions)
+1. [الگوی نشانی](address-template.md)
+2. [شرایط و ضوابط](https://docs.frappe.io/erpnext/terms-and-conditions)
 
 **منبع:** [قالب چاپ چک](https://docs.frappe.io/erpnext/cheque-print-template). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویر و پویانمایی اصلی در این مخزن بازنشر نشده‌اند.

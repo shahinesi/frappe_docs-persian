@@ -77,7 +77,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - مبلغ یادداشت بدهکاری با اعتبار توافق‌شدهٔ تأمین‌کننده برابر باشد؛
 - مبلغ تسویه‌نشدهٔ فاکتور خرید اصلی به‌درستی کاهش یافته باشد؛
 - تعداد موجودی کالا تغییر نکرده باشد؛
-- ماندهٔ تأمین‌کننده در [حساب‌های پرداختنی](accounts-receivable-and-payable.md) تعدیل را منعکس کند؛
+- ماندهٔ تأمین‌کننده در [حساب‌های دریافتنی و پرداختنی](accounts-receivable-and-payable.md) تعدیل را منعکس کند؛
 - دفترکل کاهش موردنظر را در بدهی و هزینه، دارایی یا ارزش تسویهٔ دریافت نشان دهد.
 
 اگر صورتحساب اصلی قبلاً پرداخت شده باشد، یادداشت بدهکاری برای تأمین‌کننده اعتبار ایجاد می‌کند. آن را از طریق [تطبیق پرداخت](https://docs.frappe.io/erpnext/payment-reconciliation) به صورتحساب آینده تخصیص دهید یا بازپرداخت تأمین‌کننده را با گردش‌کار پرداخت درست ثبت کنید.
@@ -118,6 +118,6 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 - [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice)
 - [یادداشت بدهکار (یادداشت بدهکاری)](debit-note.md)
-- [حساب‌های پرداختنی](accounts-receivable-and-payable.md)
+- [حساب‌های دریافتنی و پرداختنی](accounts-receivable-and-payable.md)
 - [تطبیق پرداخت](https://docs.frappe.io/erpnext/payment-reconciliation)
 - [الگوی مالیات و هزینه‌های خرید](https://docs.frappe.io/erpnext/purchase-taxes-and-charges-template)

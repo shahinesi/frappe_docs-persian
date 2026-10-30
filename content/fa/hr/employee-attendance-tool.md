@@ -39,16 +39,16 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 > **توجه:** برای تاریخ‌های آینده نمی‌توان حضور و غیاب ثبت کرد.
 
-پس از ثبت حضور و غیاب با این ابزار، رکورد آن در سند [حضور و غیاب](attendance.md) کارمند ذخیره می‌شود:
+پس از ثبت حضور و غیاب با این ابزار، رکورد آن در سند [راهنمای حضور و غیاب: ایجاد و بررسی رکوردها](attendance.md) کارمند ذخیره می‌شود:
 
 ![رکورد حضور و غیاب ایجادشده](https://frappehr.com/files/dxhxNaV.png)
 
 ## 3. موضوعات مرتبط
 
-1. [حضور و غیاب](attendance.md)
+1. [راهنمای حضور و غیاب: ایجاد و بررسی رکوردها](attendance.md)
 2. [درخواست حضور و غیاب](attendance-request.md)
-3. [آپلود حضور و غیاب](upload-attendance.md)
-4. [مدیریت شیفت‌ها](shift-management.md)
+3. [بارگذاری حضور و غیاب](upload-attendance.md)
+4. [مدیریت شیفت](shift-management.md)
 5. [حضور و غیاب خودکار](auto-attendance.md)
 
 ---

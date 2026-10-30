@@ -201,7 +201,7 @@ Nova Industries ممکن است تصمیم بگیرد شمارهٔ فاکتور�
 - [بازنشر دفتر حسابداری](https://docs.frappe.io/erpnext/repost-accounting-ledger)
 - [دورهٔ حسابداری](accounting-period.md)
 - [سند مالی پایان دوره](https://docs.frappe.io/erpnext/period-closing-voucher)
-- [استهلاک دارایی](asset-depreciation.md)
+- [استهلاک](asset-depreciation.md)
 
 ---
 منبع: [تنظیمات حساب‌ها](https://docs.frappe.io/erpnext/accounts-settings). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

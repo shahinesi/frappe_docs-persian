@@ -28,9 +28,9 @@ Frappe راهی ساده برای ساخت فرم در وب‌سایت ارائ�
 
 ![فیلدهای فرم وب](https://docs.frappe.io/files/v-14-webform-fields.png)
 
-[سفارشی‌سازی فرم وب](https://docs.frappe.io/framework/user/en/web-form/customization)
+[سفارشی‌سازی](https://docs.frappe.io/framework/user/en/web-form/customization)
 
-[درخواست خصوصی فرم وب](../../portal-web-form/web-form-request.md)
+[درخواست فرم وب](../../portal-web-form/web-form-request.md)
 
 ## فرم‌های وب استاندارد
 

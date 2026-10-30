@@ -37,7 +37,7 @@ source_version: "7173722dd98e84fb44053b95b02dbf68744be5a8899c5473dce5ffe664dc333
 
 ## راه‌اندازی چند شرکت
 
-برای شرکت‌هایی در یک سطح از ساختار، از شرکت‌های هم‌سطح استفاده کنید. برای شرکت‌های فرعی ساختار والد و فرزند بسازید. فروش و خرید بین‌شرکتی همچنان باید در شخصیت حقوقی مربوط ثبت شود. برای ثبت کنترل‌شدهٔ تراکنش‌های بین‌شرکتی، راهنماهای [فاکتورهای بین‌شرکتی](https://docs.frappe.io/erpnext/inter-company-invoices) و [سند روزنامهٔ بین‌شرکتی](https://docs.frappe.io/erpnext/inter-company-journal-entry) را ببینید.
+برای شرکت‌هایی در یک سطح از ساختار، از شرکت‌های هم‌سطح استفاده کنید. برای شرکت‌های فرعی ساختار والد و فرزند بسازید. فروش و خرید بین‌شرکتی همچنان باید در شخصیت حقوقی مربوط ثبت شود. برای ثبت کنترل‌شدهٔ تراکنش‌های بین‌شرکتی، راهنماهای [فاکتورهای بین‌شرکتی](https://docs.frappe.io/erpnext/inter-company-invoices) و [ثبت دفتر روزنامه بین شرکتی](https://docs.frappe.io/erpnext/inter-company-journal-entry) را ببینید.
 
 ## مواردی که ERPNext ایجاد می‌کند
 
@@ -65,7 +65,7 @@ source_version: "7173722dd98e84fb44053b95b02dbf68744be5a8899c5473dce5ffe664dc333
 
 ## موضوعات مرتبط
 
-- [ساختار حساب‌ها](chart-of-accounts.md)
+- [درخت حساب‌ها](chart-of-accounts.md)
 - [پیش‌فرض‌های حسابداری شرکت](company-accounting-defaults.md)
 - [مرکز هزینه](cost-center.md)
 - [فاکتورهای بین‌شرکتی](https://docs.frappe.io/erpnext/inter-company-invoices)

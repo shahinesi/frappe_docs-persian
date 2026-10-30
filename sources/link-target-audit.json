@@ -1,170 +1,163 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-28T07:35:16.833Z",
+  "checked_at": "2026-10-30T08:03:27.049Z",
   "checked_count": 10,
-  "valid_markdown_sources": 10,
-  "missing_or_unavailable": 0,
+  "valid_markdown_sources": 9,
+  "missing_or_unavailable": 1,
   "records": [
     {
-      "url": "https://docs.erpnext.com/docs/v14/user/manual/en/customize-erpnext/articles/dynamic-link-fields",
+      "url": "https://docs.frappe.io/framework/v14/user/en/guides/basics/apps",
       "references": [
-        "content/fa/erpnext/feedback-request-using-web-form.md"
+        "content/fa/framework/user/en/guides.md"
       ],
       "page_status": 200,
-      "final_page_url": "https://docs.frappe.io/erpnext/dynamic-link-fields",
-      "markdown_url": "https://docs.frappe.io/erpnext/dynamic-link-fields.md",
+      "final_page_url": "https://docs.frappe.io/framework/user/en/guides/basics/apps",
+      "markdown_url": "https://docs.frappe.io/framework/user/en/guides/basics/apps.md",
       "http_status": 200,
-      "final_markdown_url": "https://docs.frappe.io/erpnext/dynamic-link-fields.md",
-      "title": "Dynamic Link Fields\\n",
-      "canonical_url": "https://docs.frappe.io/erpnext/dynamic-link-fields",
-      "updated": "2026-03-04",
-      "content_sha256": "326efc16f8774543af41a2d1acfe85b93464114d31db924cb2729afc663d4e74",
+      "final_markdown_url": "https://docs.frappe.io/framework/user/en/guides/basics/apps.md",
+      "title": "Frappe Apps",
+      "canonical_url": "https://docs.frappe.io/framework/user/en/guides/basics/apps",
+      "updated": "2026-02-17",
+      "content_sha256": "3859e1d023cccc584df8c0762aeeb515e2f59c5446ff01a0ec202ac9b6e5cbc0",
       "source_kind": "official-markdown-export-endpoint"
     },
     {
-      "url": "https://docs.erpnext.com/docs/v13/user/manual/en/customize-erpnext/custom-field",
+      "url": "https://docs.frappe.io/framework/v14/user/en/guides/app-development/custom_action_link_field",
       "references": [
-        "content/fa/erpnext/fetch-the-entire-address-text-on-a-custom-field.md"
+        "content/fa/framework/user/en/guides.md"
       ],
       "page_status": 200,
-      "final_page_url": "https://docs.frappe.io/erpnext/custom-field",
-      "markdown_url": "https://docs.frappe.io/erpnext/custom-field.md",
+      "final_page_url": "https://docs.frappe.io/framework/user/en/guides/app-development/custom_action_link_field",
+      "markdown_url": "https://docs.frappe.io/framework/user/en/guides/app-development/custom_action_link_field.md",
       "http_status": 200,
-      "final_markdown_url": "https://docs.frappe.io/erpnext/custom-field.md",
-      "title": "Custom Field",
-      "canonical_url": "https://docs.frappe.io/erpnext/custom-field",
-      "updated": "2026-03-02",
-      "content_sha256": "614170ced5947127e5e10c692c58be2f561daedc7a8cb9b060e119ca248097f4",
+      "final_markdown_url": "https://docs.frappe.io/framework/user/en/guides/app-development/custom_action_link_field.md",
+      "title": "Custom Action in Link Field",
+      "canonical_url": "https://docs.frappe.io/framework/user/en/guides/app-development/custom_action_link_field",
+      "updated": "2026-02-17",
+      "content_sha256": "e0ace907d6adb129943e0e9c79e51c5637583540087c2b9304614808692b6273",
       "source_kind": "official-markdown-export-endpoint"
     },
     {
-      "url": "https://docs.erpnext.com/docs/user/manual/en/email-inbox",
+      "url": "https://docs.frappe.io/framework/v14/user/en/guides/deployment/packages",
       "references": [
-        "content/fa/helpdesk/email-communication.md"
+        "content/fa/framework/user/en/guides.md"
       ],
       "page_status": 200,
-      "final_page_url": "https://docs.frappe.io/erpnext/email-inbox",
-      "markdown_url": "https://docs.frappe.io/erpnext/email-inbox.md",
+      "final_page_url": "https://docs.frappe.io/framework/user/en/guides/deployment/packages",
+      "markdown_url": "https://docs.frappe.io/framework/user/en/guides/deployment/packages.md",
       "http_status": 200,
-      "final_markdown_url": "https://docs.frappe.io/erpnext/email-inbox.md",
-      "title": "Email Inbox\\n",
-      "canonical_url": "https://docs.frappe.io/erpnext/email-inbox",
-      "updated": "2026-03-02",
-      "content_sha256": "1e72cbab5d7a295bf36cb9d93e373bf9bfb6d7057403e597c41b30114f9410c8",
+      "final_markdown_url": "https://docs.frappe.io/framework/user/en/guides/deployment/packages.md",
+      "title": "Packages\\n",
+      "canonical_url": "https://docs.frappe.io/framework/user/en/guides/deployment/packages",
+      "updated": "2026-02-17",
+      "content_sha256": "186ae3530c869cadcaa30bfffc0922935dddae07ba7eb940d9181f0b7ff6228d",
       "source_kind": "official-markdown-export-endpoint"
     },
     {
-      "url": "https://docs.erpnext.com/docs/user/manual/en/email-account",
+      "url": "https://docs.frappe.io/framework/v14/user/en/guides/reports-and-printing/getting-information-from-another-document-in-print-format",
       "references": [
-        "content/fa/helpdesk/email-communication.md"
+        "content/fa/framework/user/en/guides.md"
       ],
       "page_status": 200,
-      "final_page_url": "https://docs.frappe.io/erpnext/email-account",
-      "markdown_url": "https://docs.frappe.io/erpnext/email-account.md",
+      "final_page_url": "https://docs.frappe.io/framework/user/en/guides/reports-and-printing/getting-information-from-another-document-in-print-format",
+      "markdown_url": "https://docs.frappe.io/framework/user/en/guides/reports-and-printing/getting-information-from-another-document-in-print-format.md",
       "http_status": 200,
-      "final_markdown_url": "https://docs.frappe.io/erpnext/email-account.md",
-      "title": "Email Account",
-      "canonical_url": "https://docs.frappe.io/erpnext/email-account",
-      "updated": "2026-03-02",
-      "content_sha256": "da8d4820424fb5013667886086e56a1d5d8e8b4d8b2ed4d093442c0bbc9207c1",
+      "final_markdown_url": "https://docs.frappe.io/framework/user/en/guides/reports-and-printing/getting-information-from-another-document-in-print-format.md",
+      "title": "Getting Information From Another Document In Print Format",
+      "canonical_url": "https://docs.frappe.io/framework/user/en/guides/reports-and-printing/getting-information-from-another-document-in-print-format",
+      "updated": "2026-02-17",
+      "content_sha256": "c0d0a2341dcbec4d0ff6af85f0616b50104d7afcf9d559d86c9327d30ca1c519",
       "source_kind": "official-markdown-export-endpoint"
     },
     {
-      "url": "https://docs.erpnext.com/docs/v14/user/manual/en/setting-up/workflows",
+      "url": "https://docs.frappe.io/framework/v14/user/en/guides/portal-development",
       "references": [
-        "content/fa/hr/attendance-request.md"
+        "content/fa/framework/user/en/guides.md"
       ],
       "page_status": 200,
-      "final_page_url": "https://docs.frappe.io/erpnext/workflows",
-      "markdown_url": "https://docs.frappe.io/erpnext/workflows.md",
+      "final_page_url": "https://docs.frappe.io/framework/user/en/guides/portal-development",
+      "markdown_url": "https://docs.frappe.io/framework/user/en/guides/portal-development.md",
       "http_status": 200,
-      "final_markdown_url": "https://docs.frappe.io/erpnext/workflows.md",
-      "title": "Workflows",
-      "canonical_url": "https://docs.frappe.io/erpnext/workflows",
-      "updated": "2026-03-02",
-      "content_sha256": "f30240c7c0187d3b6bc62d573a459a1c96a6c483f2fc3b9bc152c2b2b03a3030",
+      "final_markdown_url": "https://docs.frappe.io/framework/user/en/guides/portal-development.md",
+      "title": "Pages\\n",
+      "canonical_url": "https://docs.frappe.io/framework/user/en/guides/portal-development",
+      "updated": "2026-02-17",
+      "content_sha256": "2f995186c22233e1bf2de579ff447626ad0d8b7cf14e1ab07a2308778b9bb982",
       "source_kind": "official-markdown-export-endpoint"
     },
     {
-      "url": "https://docs.erpnext.com/docs/user/manual/en/chart-of-accounts",
+      "url": "https://docs.frappe.io/framework/v14/user/en/guides/data/using-data-migration-tool",
       "references": [
-        "content/fa/hr/employee-advance.md",
-        "content/fa/hr/expense-claim.md"
+        "content/fa/framework/user/en/guides.md"
+      ],
+      "page_status": 500,
+      "final_page_url": "https://docs.frappe.io/framework/user/en/guides/data/using-data-migration-tool",
+      "markdown_url": "https://docs.frappe.io/framework/v14/user/en/guides/data/using-data-migration-tool.md",
+      "http_status": 500,
+      "final_markdown_url": null
+    },
+    {
+      "url": "https://docs.frappe.io/framework/v14/user/en/guides/integration/google_gsuite",
+      "references": [
+        "content/fa/framework/user/en/guides.md"
       ],
       "page_status": 200,
-      "final_page_url": "https://docs.frappe.io/erpnext/chart-of-accounts",
-      "markdown_url": "https://docs.frappe.io/erpnext/chart-of-accounts.md",
+      "final_page_url": "https://docs.frappe.io/framework/user/en/guides/integration/google_gsuite",
+      "markdown_url": "https://docs.frappe.io/framework/user/en/guides/integration/google_gsuite.md",
       "http_status": 200,
-      "final_markdown_url": "https://docs.frappe.io/erpnext/chart-of-accounts.md",
-      "title": "Chart of Accounts | ERPNext Documentation",
-      "canonical_url": "https://docs.frappe.io/erpnext/chart-of-accounts",
-      "updated": "2026-08-14",
-      "content_sha256": "2710004b2e02e7f7fab860fe6341d870e737935e425825e8dd16fe5ec383c58e",
+      "final_markdown_url": "https://docs.frappe.io/framework/user/en/guides/integration/google_gsuite.md",
+      "title": "Google GSuite\\n",
+      "canonical_url": "https://docs.frappe.io/framework/user/en/guides/integration/google_gsuite",
+      "updated": "2026-02-17",
+      "content_sha256": "950af7a19b4c0466850cc310d8224e394052ce0449247238d804250adaff8833",
       "source_kind": "official-markdown-export-endpoint"
     },
     {
-      "url": "https://docs.erpnext.com/docs/user/manual/en/payment-entry",
+      "url": "https://docs.frappe.io/framework/v14/user/en/guides/database-settings/setup-read-from-secondary-db",
       "references": [
-        "content/fa/hr/employee-advance.md"
+        "content/fa/framework/user/en/guides.md"
       ],
       "page_status": 200,
-      "final_page_url": "https://docs.frappe.io/erpnext/payment-entry",
-      "markdown_url": "https://docs.frappe.io/erpnext/payment-entry.md",
+      "final_page_url": "https://docs.frappe.io/framework/user/en/guides/database-settings/setup-read-from-secondary-db",
+      "markdown_url": "https://docs.frappe.io/framework/user/en/guides/database-settings/setup-read-from-secondary-db.md",
       "http_status": 200,
-      "final_markdown_url": "https://docs.frappe.io/erpnext/payment-entry.md",
-      "title": "Payment Entry | ERPNext Documentation",
-      "canonical_url": "https://docs.frappe.io/erpnext/payment-entry",
-      "updated": "2026-08-02",
-      "content_sha256": "b66c4a1952d3b44dfb1b9b00d9e54762ea607ea90306260045b9a26bf6f617e2",
+      "final_markdown_url": "https://docs.frappe.io/framework/user/en/guides/database-settings/setup-read-from-secondary-db.md",
+      "title": "Setup read operations from slave/secondary mysql system\\n",
+      "canonical_url": "https://docs.frappe.io/framework/user/en/guides/database-settings/setup-read-from-secondary-db",
+      "updated": "2026-09-18",
+      "content_sha256": "b21db94b6492fcddd1b4e7d6d9b1c30190c9f90cb8478732119ac9ae3e7313ac",
       "source_kind": "official-markdown-export-endpoint"
     },
     {
-      "url": "https://docs.erpnext.com/docs/v14/user/manual/en/using-erpnext/assignment",
+      "url": "https://docs.frappe.io/framework/v14/user/en/guides/automated-testing",
       "references": [
-        "content/fa/hr/employee-advance.md",
-        "content/fa/hr/expense-claim.md"
+        "content/fa/framework/user/en/guides.md"
       ],
       "page_status": 200,
-      "final_page_url": "https://docs.frappe.io/erpnext/assignment-rule",
-      "markdown_url": "https://docs.frappe.io/erpnext/assignment-rule.md",
+      "final_page_url": "https://docs.frappe.io/framework/user/en/guides/automated-testing",
+      "markdown_url": "https://docs.frappe.io/framework/user/en/guides/automated-testing.md",
       "http_status": 200,
-      "final_markdown_url": "https://docs.frappe.io/erpnext/assignment-rule.md",
-      "title": "Assignment Rule\\n",
-      "canonical_url": "https://docs.frappe.io/erpnext/assignment-rule",
-      "updated": "2026-03-02",
-      "content_sha256": "b15755f496595f1ca7ba9d71768df891f60c2c7c85977439954d8cf4e9d3c9cb",
+      "final_markdown_url": "https://docs.frappe.io/framework/user/en/guides/automated-testing.md",
+      "title": "Automated Testing\\n",
+      "canonical_url": "https://docs.frappe.io/framework/user/en/guides/automated-testing",
+      "updated": "2026-02-17",
+      "content_sha256": "b93104a7b6a9a543dee19b0f0344c223a38a16c6778a554b50df3f7036c591ef",
       "source_kind": "official-markdown-export-endpoint"
     },
     {
-      "url": "https://docs.erpnext.com/docs/user/manual/en/notifications",
+      "url": "https://docs.frappe.io/framework/v14/user/en/guides/desk",
       "references": [
-        "content/fa/hr/employee-advance.md"
+        "content/fa/framework/user/en/guides.md"
       ],
       "page_status": 200,
-      "final_page_url": "https://docs.frappe.io/erpnext/notifications",
-      "markdown_url": "https://docs.frappe.io/erpnext/notifications.md",
+      "final_page_url": "https://docs.frappe.io/framework/user/en/guides/desk",
+      "markdown_url": "https://docs.frappe.io/framework/user/en/guides/desk.md",
       "http_status": 200,
-      "final_markdown_url": "https://docs.frappe.io/erpnext/notifications.md",
-      "title": "Notification",
-      "canonical_url": "https://docs.frappe.io/erpnext/notifications",
-      "updated": "2026-03-02",
-      "content_sha256": "9e0b6fe6777cfed22cc33e16fe91e0e119b1b5fca73d892d23244e7b1ba1a75e",
-      "source_kind": "official-markdown-export-endpoint"
-    },
-    {
-      "url": "https://docs.erpnext.com/docs/user/manual/en/journal-entry",
-      "references": [
-        "content/fa/hr/employee-advance.md"
-      ],
-      "page_status": 200,
-      "final_page_url": "https://docs.frappe.io/erpnext/journal-entry",
-      "markdown_url": "https://docs.frappe.io/erpnext/journal-entry.md",
-      "http_status": 200,
-      "final_markdown_url": "https://docs.frappe.io/erpnext/journal-entry.md",
-      "title": "Journal Entry | ERPNext Documentation",
-      "canonical_url": "https://docs.frappe.io/erpnext/journal-entry",
-      "updated": "2026-08-14",
-      "content_sha256": "8b1fdc9a82bb6eb38c2711b2b0dd53ff16f37ff00957118ec4843a92d57902ea",
+      "final_markdown_url": "https://docs.frappe.io/framework/user/en/guides/desk.md",
+      "title": "Desk Customization\\n",
+      "canonical_url": "https://docs.frappe.io/framework/user/en/guides/desk",
+      "updated": "2026-02-17",
+      "content_sha256": "bb38a2181765dfc2ed0be846ab83bc469feb654325f98c4c702b52ee62f0ee7c",
       "source_kind": "official-markdown-export-endpoint"
     }
   ]

@@ -44,7 +44,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ## گردش‌کار رایج
 
 1. درخواست اولیه را به‌صورت سرنخ ثبت کنید.
-2. نیاز را ارزیابی و یک [فرصت فروش](https://docs.frappe.io/erpnext/opportunity) ایجاد کنید.
+2. نیاز را ارزیابی و یک [فرصت](https://docs.frappe.io/erpnext/opportunity) ایجاد کنید.
 3. هنگامی که حساب مشتری لازم است، مشتری را ایجاد یا انتخاب کنید.
 4. مخاطب‌ها و [نشانی](address.md)های مربوط را به مشتری پیوند دهید.
 5. کار را با [پیش‌فاکتور](https://docs.frappe.io/erpnext/quotation) یا [سفارش فروش](sales-order.md) ادامه دهید.
@@ -53,6 +53,6 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## موضوعات مرتبط
 
-- [ثبت خودکار سرنخ](automate_lead_capturing.md)
+- [ایجاد خودکار سرنخ](automate_lead_capturing.md)
 - [گروه مشتریان](customer-group.md)
 - [تنظیمات CRM](crm_settings.md)

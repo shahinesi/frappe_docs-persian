@@ -78,7 +78,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 پس از ثبت نهایی:
 
 - مبلغ تسویه‌نشدهٔ صورتحساب اصلی را بررسی کنید؛
-- ماندهٔ تأمین‌کننده را در [حساب‌های پرداختنی](accounts-receivable-and-payable.md) بازبینی کنید؛
+- ماندهٔ تأمین‌کننده را در [حساب‌های دریافتنی و پرداختنی](accounts-receivable-and-payable.md) بازبینی کنید؛
 - ثبت‌های دفترکل را از مسیر **مشاهده > دفتر کل** ببینید؛
 - اگر **به‌روزرسانی موجودی** فعال بود، دفتر موجودی را بررسی کنید؛
 - هر اعتبار باقیماندهٔ تأمین‌کننده را به فاکتور خرید یا پرداخت بعدی تخصیص دهید.
@@ -132,4 +132,4 @@ ERPNext در بعضی پیکربندی‌ها از برگشتِ بدون پیو�
 - [رسید خرید](https://docs.frappe.io/erpnext/purchase-receipt)
 - [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
 - [تطبیق پرداخت](https://docs.frappe.io/erpnext/payment-reconciliation)
-- [حساب‌های پرداختنی](accounts-receivable-and-payable.md)
+- [حساب‌های دریافتنی و پرداختنی](accounts-receivable-and-payable.md)

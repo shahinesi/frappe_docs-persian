@@ -15,9 +15,9 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 >
 > تصویرها در این مخزن بازنشر نشده‌اند و پیوندشان به فایل‌های میزبان منبع اشاره می‌کند.
 
-قابلیت حسابداری تخفیف به ERPNext اجازه می‌دهد تخفیف فروش را به‌جای آنکه فقط درآمد کاهش‌یافته ثبت شود، جداگانه در [دفترکل](https://docs.frappe.io/erpnext/general-ledger) نشان دهد. زمانی از آن استفاده کنید که واحد مالی به گزارش جداگانهٔ فروش ناخالص و تخفیف‌های اعطاشده نیاز دارد.
+قابلیت حسابداری تخفیف به ERPNext اجازه می‌دهد تخفیف فروش را به‌جای آنکه فقط درآمد کاهش‌یافته ثبت شود، جداگانه در [دفتر کل](https://docs.frappe.io/erpnext/general-ledger) نشان دهد. زمانی از آن استفاده کنید که واحد مالی به گزارش جداگانهٔ فروش ناخالص و تخفیف‌های اعطاشده نیاز دارد.
 
-این تنظیم نحوهٔ نمایش حسابداری را تغییر می‌دهد. مشخص نمی‌کند چه کسی واجد دریافت تخفیف است و شرایط تبلیغاتی را محاسبه نمی‌کند. تخفیف تجاری را با [فیلدهای معمول تخفیف](applying-discount.md)، [قانون قیمت گذاری](https://docs.frappe.io/erpnext/pricing-rule) یا روش قیمت‌گذاری تأییدشدهٔ دیگری پیکربندی کنید.
+این تنظیم نحوهٔ نمایش حسابداری را تغییر می‌دهد. مشخص نمی‌کند چه کسی واجد دریافت تخفیف است و شرایط تبلیغاتی را محاسبه نمی‌کند. تخفیف تجاری را با [اعمال تخفیف بر تراکنش‌های فروش](applying-discount.md)، [قانون قیمت گذاری](https://docs.frappe.io/erpnext/pricing-rule) یا روش قیمت‌گذاری تأییدشدهٔ دیگری پیکربندی کنید.
 
 برای نمونه، Nova Electronics Trading دو گوشی را با قیمت فهرست هرکدام 699 دلار فاکتور می‌کند. تخفیف 10% برای کالا و سپس تخفیف اضافی 5% اعمال می‌شود. با فعال‌بودن حسابداری تخفیف، ERPNext این ثبت‌ها را ایجاد می‌کند:
 
@@ -125,7 +125,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ![ثبت جداگانهٔ تخفیف مجاز فروش در دفتر کل](https://novacompanies.m.frappe.cloud/files/docs-gl-2026-discount-accounting-discount-account-general-ledger.png)
 
-فقط به این دلیل که جمع فاکتور درست به نظر می‌رسد، آن را تأییدشده فرض نکنید. حساب تخفیف، درآمد ناخالص، دریافتنی، مالیات، ارز، مرکز هزینه و هر [بُعد حسابداری](accounting-dimensions.md) دیگری را بررسی کنید تا مطابق انتظار ثبت شده باشند.
+فقط به این دلیل که جمع فاکتور درست به نظر می‌رسد، آن را تأییدشده فرض نکنید. حساب تخفیف، درآمد ناخالص، دریافتنی، مالیات، ارز، مرکز هزینه و هر [ابعاد حسابداری](accounting-dimensions.md) دیگری را بررسی کنید تا مطابق انتظار ثبت شده باشند.
 
 ## فیلدهای مهم و کاربرد آن‌ها
 
@@ -181,10 +181,10 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## موضوعات مرتبط
 
-- [اعمال تخفیف به تراکنش‌های فروش](applying-discount.md)
+- [اعمال تخفیف بر تراکنش‌های فروش](applying-discount.md)
 - [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice)
 - [قانون قیمت گذاری](https://docs.frappe.io/erpnext/pricing-rule)
 - [تنظیمات فروش](https://docs.frappe.io/erpnext/selling-settings)
 - [درخت حساب‌ها](chart-of-accounts.md)
-- [دفترکل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفتر کل](https://docs.frappe.io/erpnext/general-ledger)
 - [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice)

@@ -70,7 +70,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 سفارش خریدِ ارسال مستقیم برای شرکت شما رسید انبار ایجاد نمی‌کند. وقتی تأمین‌کننده تحویل را تأیید کرد، با توجه به نسخهٔ ERPNext و فرایند کاری خود، از اقدام‌های موجود در سفارش فروش یا سفارش خرید پیوندخورده برای ثبت وضعیت تحویل استفاده کنید.
 
-برای مشتری [صورتحساب فروش](https://docs.frappe.io/erpnext/sales-invoice) و برای تأمین‌کننده صورتحساب خرید ایجاد کنید. مقدارهای اسناد پیوندخورده را بررسی کنید تا سفارش فروش، سفارش خرید، حساب دریافتنی و حساب پرداختنی همگی همان تحویل را منعکس کنند.
+برای مشتری [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice) و برای تأمین‌کننده صورتحساب خرید ایجاد کنید. مقدارهای اسناد پیوندخورده را بررسی کنید تا سفارش فروش، سفارش خرید، حساب دریافتنی و حساب پرداختنی همگی همان تحویل را منعکس کنند.
 
 اگر فقط بخشی از سفارش به‌صورت مستقیم ارسال می‌شود، اقلام دیگر را در مسیر عادی تأمین از انبار نگه دارید. هر ردیف می‌تواند مسیر مناسب خود را داشته باشد، اما تیم‌ها باید اسناد پیوندخورده را با دقت بررسی کنند.
 
@@ -106,7 +106,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 - [سفارش فروش](sales-order.md)
 - [سفارش خرید](purchase-order.md)
-- [یادداشت تحویل (سند تحویل)](delivery-note.md)
-- [صورتحساب فروش](https://docs.frappe.io/erpnext/sales-invoice)
-- [مرجوعی فروش](https://docs.frappe.io/erpnext/sales-return)
+- [یادداشت تحویل](delivery-note.md)
+- [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice)
+- [بازگشت فروش](https://docs.frappe.io/erpnext/sales-return)
 - [فاکتورهای بین‌شرکتی](https://docs.frappe.io/erpnext/inter-company-invoices)

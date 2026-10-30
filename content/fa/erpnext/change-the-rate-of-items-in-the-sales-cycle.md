@@ -15,13 +15,13 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 >
 > تصویرهای صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.
 
-ERPNext می‌تواند بررسی کند که نرخ کالا هنگام انتقال از [سفارش فروش](sales-order.md) به [یادداشت تحویل](delivery-note.md) یا [صورتحساب فروش](https://docs.frappe.io/erpnext/sales-invoice) تغییر می‌کند یا نه. وقتی باید نرخ تأییدشدهٔ سفارش در مرحلهٔ تحویل و صورتحساب ثابت بماند، از این کنترل استفاده کنید.
+ERPNext می‌تواند بررسی کند که نرخ کالا هنگام انتقال از [سفارش فروش](sales-order.md) به [یادداشت تحویل](delivery-note.md) یا [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice) تغییر می‌کند یا نه. وقتی باید نرخ تأییدشدهٔ سفارش در مرحلهٔ تحویل و صورتحساب ثابت بماند، از این کنترل استفاده کنید.
 
 ## پیش از شروع
 
 موارد زیر را مشخص کنید:
 
-- قیمت‌های کالا و [فهرست قیمت](https://docs.frappe.io/erpnext/price-lists) موردنظر؛
+- قیمت‌های کالا و [لیست‌های قیمت](https://docs.frappe.io/erpnext/price-lists) موردنظر؛
 - نقش‌هایی که مجازند استثناهای قیمت را تأیید کنند؛
 - اینکه فرایند شما به هشدار نیاز دارد یا باید ذخیره را کاملاً متوقف کند؛
 - نحوهٔ رسیدگی به اصلاحیه‌ها و برگشت‌های مجاز.
@@ -65,7 +65,7 @@ ERPNext می‌تواند بررسی کند که نرخ کالا هنگام ان
 نرخ یک تراکنش ممکن است از این موارد تأثیر بگیرد:
 
 - قیمت کالا و فهرست قیمت؛
-- [قواعد قیمت‌گذاری](https://docs.frappe.io/erpnext/pricing-rule)؛
+- [قانون قیمت گذاری](https://docs.frappe.io/erpnext/pricing-rule)؛
 - [ایجاد طرح‌های تشویقی و پلکان تخفیف](https://docs.frappe.io/erpnext/promotional-scheme)؛
 - حاشیهٔ سود یا تخفیف در سطح کالا؛
 - تخفیف اضافی؛
@@ -116,9 +116,9 @@ ERPNext می‌تواند بررسی کند که نرخ کالا هنگام ان
 
 - [تنظیمات فروش](https://docs.frappe.io/erpnext/selling-settings)
 - [سفارش فروش](sales-order.md)
-- [اصلاح سفارش فروش پس از ثبت](amending-sales-order-after-submit.md)
+- [اصلاح سفارش فروش پس از ثبت نهایی](amending-sales-order-after-submit.md)
 - [قانون قیمت گذاری](https://docs.frappe.io/erpnext/pricing-rule)
-- [اعمال تخفیف](applying-discount.md)
+- [اعمال تخفیف بر تراکنش‌های فروش](applying-discount.md)
 
 **منبع:** [کنترل تغییر نرخ کالا در چرخهٔ فروش](https://docs.frappe.io/erpnext/change-the-rate-of-items-in-the-sales-cycle). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر اصلی در این مخزن بازنشر نشده‌اند.
 

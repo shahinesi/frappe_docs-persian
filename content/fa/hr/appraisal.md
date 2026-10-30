@@ -18,7 +18,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## 1. پیش‌نیازها
 
-پیش از ایجاد ارزیابی، [الگوی ارزیابی](appraisal-template.md) و [چرخهٔ ارزیابی](appraisal-cycle.md) را ایجاد کنید.
+پیش از ایجاد ارزیابی، [الگوی ارزیابی عملکرد](appraisal-template.md) و [چرخهٔ ارزیابی عملکرد](appraisal-cycle.md) را ایجاد کنید.
 
 ## 2. ایجاد ارزیابی عملکرد
 
@@ -62,7 +62,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### 3.2 بازخورد
 
-بازخورد عملکرد در سند [بازخورد عملکرد کارمند](employee-performance-feedback.md) ثبت می‌شود. برای دیدن سابقهٔ بازخوردهای کارمند در چرخه، زبانهٔ **بازخورد** را باز کنید. در آنجا میانگین امتیاز، تعداد ارزیابی‌ها و توزیع درصدی ستاره‌ها نمایش داده می‌شود.
+بازخورد عملکرد در سند [بازخورد عملکرد کارکنان](employee-performance-feedback.md) ثبت می‌شود. برای دیدن سابقهٔ بازخوردهای کارمند در چرخه، زبانهٔ **بازخورد** را باز کنید. در آنجا میانگین امتیاز، تعداد ارزیابی‌ها و توزیع درصدی ستاره‌ها نمایش داده می‌شود.
 
 ![تاریخچهٔ بازخورد](https://frappehr.com/files/feedback-history.png)
 
@@ -101,7 +101,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ## 4. موضوعات مرتبط
 
 1. [هدف](goal.md)
-2. [بازخورد عملکرد کارمند](employee-performance-feedback.md)
+2. [بازخورد عملکرد کارکنان](employee-performance-feedback.md)
 
 ---
 

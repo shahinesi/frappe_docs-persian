@@ -71,7 +71,7 @@ Raven فقط یک ابزار گفت‌وگوی مستقل نیست. چون بر 
 
 ## موضوعات مرتبط
 
-- [معرفی](introduction.md)
+- [معرفی ERPNext](introduction.md)
 - [معرفی](../framework/user/en/introduction.md)
 - [Raven در بازارگاه Frappe Cloud](https://cloud.frappe.io/marketplace/apps/raven)
 - [مخزن GitHub برنامهٔ Raven](https://github.com/The-Commit-Company/raven)

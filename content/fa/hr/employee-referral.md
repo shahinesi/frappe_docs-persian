@@ -22,7 +22,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 1. [کارمند](employee.md)
 2. [حقوق اضافی](additional-salary.md)
-3. [متقاضی استخدام](https://docs.frappe.io/hr/job-applicant)
+3. [متقاضی کار](https://docs.frappe.io/hr/job-applicant)
 
 ## 2. ایجاد ارجاع کارمند
 

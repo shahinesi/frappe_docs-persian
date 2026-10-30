@@ -16,7 +16,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ![جست‌وجوی اقدام‌های سرنخ در انتخاب‌گر گام](https://docs.frappe.io/files/crm-automations-picker-search.png)
 
-بیشتر تنظیم‌های متنی از الگوهایی مانند `{{ doc.lead_name }}` پشتیبانی می‌کنند. برای جزئیات، [راهنمای شروع به کار](getting-started.md) را ببینید.
+بیشتر تنظیم‌های متنی از الگوهایی مانند `{{ doc.lead_name }}` پشتیبانی می‌کنند. برای جزئیات، [شروع به کار با خودکارسازی گردش‌کار](getting-started.md) را ببینید.
 
 ## اقدام‌های CRM
 

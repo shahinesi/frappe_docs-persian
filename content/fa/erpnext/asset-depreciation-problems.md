@@ -59,10 +59,10 @@ ERPNext نرخ را بر ارزش ابتدای هر **سال دارایی** اع
 
 ## موضوعات مرتبط
 
-- [استهلاک دارایی](asset-depreciation.md)
+- [استهلاک](asset-depreciation.md)
 - [روش‌های استهلاک](depreciation-methods.md)
-- [استهلاک روزانه](daily-depreciation.md)
+- [محاسبهٔ روزانهٔ استهلاک](daily-depreciation.md)
 - [گزارش‌های دارایی](asset-reports.md)
-- [دارایی: مشکلات ایجاد، فروش، اسقاط و وضعیت](asset-create-sell-scrap-problems.md)
+- [پرسش‌های دارایی: ایجاد از خرید، فروش، اسقاط و وضعیت](asset-create-sell-scrap-problems.md)
 
 منبع: [چرا استهلاک دارایی آن‌طور که انتظار دارم نیست؟](https://docs.frappe.io/erpnext/asset-depreciation-problems). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود.

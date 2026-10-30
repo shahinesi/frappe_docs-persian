@@ -20,7 +20,7 @@ bench show-config [OPTIONS]
 
 پیکربندی نهایی هر سایت از ترکیب `common_site_config.json` در پوشهٔ bench و فایل `site_config.json` همان سایت به دست می‌آید. Bench راهی برای مشاهدهٔ مقدارهای اعمال‌شدهٔ `frappe.conf` در سایت‌ها فراهم می‌کند. می‌توانید این اطلاعات را به شکل جدولی یا JSON ببینید.
 
-برای آشنایی بیشتر با پیکربندی سایت و اولویت کلیدها، به [پیکربندی سایت](https://docs.frappe.io/framework/user/en/basics/site_config) مراجعه کنید.
+برای آشنایی بیشتر با پیکربندی سایت و اولویت کلیدها، به [پیکربندی](https://docs.frappe.io/framework/user/en/basics/site_config) مراجعه کنید.
 
 ## گزینه‌ها
 

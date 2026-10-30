@@ -6,20 +6,20 @@ source_id: "erpnext/applying-discount"
 source_version: "648c3eeb571263a99f5825c166e69b2e14baed203be161d9f08328583a21797d"
 ---
 
-ERPNext از تخفیف برای هر قلم یا برای جمع کل تراکنش پشتیبانی می‌کند. برای یک تصمیم تجاری موردی، تخفیف دستی وارد کنید. اگر قرار است شرایط واجدبودن به‌طور خودکار ارزیابی شود، از [قاعدهٔ قیمت‌گذاری](https://docs.frappe.io/erpnext/pricing-rule)، [ایجاد طرح‌های تشویقی و پلکان تخفیف](https://docs.frappe.io/erpnext/promotional-scheme) یا [کد تخفیف](coupon-code.md) استفاده کنید.
+ERPNext از تخفیف برای هر قلم یا برای جمع کل تراکنش پشتیبانی می‌کند. برای یک تصمیم تجاری موردی، تخفیف دستی وارد کنید. اگر قرار است شرایط واجدبودن به‌طور خودکار ارزیابی شود، از [قانون قیمت گذاری](https://docs.frappe.io/erpnext/pricing-rule)، [ایجاد طرح‌های تشویقی و پلکان تخفیف](https://docs.frappe.io/erpnext/promotional-scheme) یا [ایجاد و استفاده از کد تخفیف](coupon-code.md) استفاده کنید.
 
 ## پیش از شروع
 
 موارد زیر را بررسی کنید:
 
-- برای قلم، [قیمت قلم](https://docs.frappe.io/erpnext/item-price) مناسبی وجود داشته باشد.
-- تراکنش از [فهرست قیمت](https://docs.frappe.io/erpnext/price-lists) موردنظر استفاده کند.
+- برای قلم، [قیمت آیتم](https://docs.frappe.io/erpnext/item-price) مناسبی وجود داشته باشد.
+- تراکنش از [لیست‌های قیمت](https://docs.frappe.io/erpnext/price-lists) موردنظر استفاده کند.
 - کاربر اجازهٔ ویرایش فیلدهای تخفیف را داشته باشد.
 - سیاست مالیات و حسابداری تخفیف پیکربندی شده باشد.
 
 ## اعمال تخفیف به یک قلم
 
-1. یک [پیش‌فاکتور](https://docs.frappe.io/erpnext/quotation)، [سفارش فروش](sales-order.md)، [یادداشت تحویل](delivery-note.md) یا [صورتحساب فروش](https://docs.frappe.io/erpnext/sales-invoice) ایجاد کنید.
+1. یک [پیش‌فاکتور](https://docs.frappe.io/erpnext/quotation)، [سفارش فروش](sales-order.md)، [یادداشت تحویل](delivery-note.md) یا [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice) ایجاد کنید.
 2. قلم را اضافه کنید.
 3. نماد مدادِ مشخص‌شده را انتخاب کنید تا ویرایشگر کامل ردیف باز شود.
 4. بخش **تخفیف و حاشیهٔ سود** (تخفیف و حاشیه) را باز کنید.
@@ -62,7 +62,7 @@ ERPNext تخفیف را با توجه به جمع پس از مالیات‌ها 
 | نیاز به چند پلهٔ تعداد یا مبلغ | طرح تشویقی |
 | واردکردن کد توسط خریدار در وب‌سایت | کد تخفیف |
 | ارائهٔ یک قلم رایگان | قاعدهٔ قیمت‌گذاری با تخفیف محصول |
-| افزودن افزایش قیمت به نرخ فروش | [افزودن حاشیهٔ سود](adding-margin.md) |
+| افزودن افزایش قیمت به نرخ فروش | [افزودن حاشیهٔ سود به پیش‌فاکتور و سفارش فروش](adding-margin.md) |
 
 ## حسابداری تخفیف
 
@@ -100,10 +100,10 @@ ERPNext تخفیف را با توجه به جمع پس از مالیات‌ها 
 
 ## موضوعات مرتبط
 
-- [قاعدهٔ قیمت‌گذاری](https://docs.frappe.io/erpnext/pricing-rule)
+- [قانون قیمت گذاری](https://docs.frappe.io/erpnext/pricing-rule)
 - [ایجاد طرح‌های تشویقی و پلکان تخفیف](https://docs.frappe.io/erpnext/promotional-scheme)
-- [کد تخفیف](coupon-code.md)
-- [افزودن حاشیهٔ سود](adding-margin.md)
+- [ایجاد و استفاده از کد تخفیف](coupon-code.md)
+- [افزودن حاشیهٔ سود به پیش‌فاکتور و سفارش فروش](adding-margin.md)
 - [تنظیمات فروش](https://docs.frappe.io/erpnext/selling-settings)
 
 منبع: [اعمال تخفیف بر تراکنش‌های فروش](https://docs.frappe.io/erpnext/applying-discount). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های منبع پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

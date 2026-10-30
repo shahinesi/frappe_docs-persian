@@ -33,7 +33,7 @@ source_version: "5ff080973ec3a67616d5de3ea0a938c7b5256f6286594d492269ed392ab249e
 2. [شعبه](branch.md)
 3. [دپارتمان](department.md)
 4. [عنوان شغلی](designation.md)
-5. [درجه کارمند](employee-grade.md)
+5. [درجهٔ کارمند](employee-grade.md)
 
 ---
 منبع: [گروه کارکنان](https://docs.frappe.io/hr/employee-group). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

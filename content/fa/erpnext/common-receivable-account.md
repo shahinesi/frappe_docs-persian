@@ -57,6 +57,6 @@ ERPNext معمولاً هر مشتری را در حساب دریافتنی پی�
 - [مشتری](customer.md)
 - [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice)
 - [حساب‌های دریافتنی](accounts-receivables.md)
-- [دفترکل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفتر کل](https://docs.frappe.io/erpnext/general-ledger)
 
 **منبع:** [حساب دریافتنی مشترک](https://docs.frappe.io/erpnext/common-receivable-account). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویر اصلی در این مخزن بازنشر نشده است.

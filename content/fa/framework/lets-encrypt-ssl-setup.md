@@ -30,7 +30,7 @@ sudo -H bench setup lets-encrypt [site-name]
 
 ### دامنه‌های سفارشی
 
-می‌توانید Let's Encrypt را برای [دامنه‌های سفارشی](adding-custom-domains.md) نیز تنظیم کنید. برای این کار گزینهٔ `--custom-domain` را به‌کار ببرید:
+می‌توانید Let's Encrypt را برای [افزودن دامنه‌های سفارشی به سایت](adding-custom-domains.md) نیز تنظیم کنید. برای این کار گزینهٔ `--custom-domain` را به‌کار ببرید:
 
 ```sh
 sudo -H bench setup lets-encrypt [site-name] --custom-domain [custom-domain]

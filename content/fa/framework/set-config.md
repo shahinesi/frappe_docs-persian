@@ -20,7 +20,7 @@ bench set-config [OPTIONS] KEY VALUE
 
 Bench فرمانی پوششی برای افزودن یا به‌روزرسانی مقدارها در فایل‌های پیکربندی سایت فراهم می‌کند. با همین فرمان می‌توانید هم `site_config.json` یک سایت و هم `common_site_config.json` پوشهٔ Bench را تغییر دهید.
 
-برای آشنایی بیشتر با پیکربندی سایت و اولویت کلیدها، به [راهنمای پیکربندی سایت](https://docs.frappe.io/framework/user/en/basics/site_config) مراجعه کنید.
+برای آشنایی بیشتر با پیکربندی سایت و اولویت کلیدها، به [پیکربندی](https://docs.frappe.io/framework/user/en/basics/site_config) مراجعه کنید.
 
 ## پرچم‌ها
 

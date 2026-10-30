@@ -6,7 +6,7 @@ source_id: "erpnext/address-template"
 source_version: "f6bf198f180e946f7e843f4f4728efccf1155449b14c5909e77c95eb58cf91e1"
 ---
 
-شرکت Nova Industries، توزیع‌کننده‌ای نمونه در حوزهٔ لوازم الکترونیکی، برای Northstar Retail، یکی از مشتریانش، [صورتحساب فروشی](https://docs.frappe.io/erpnext/sales-invoice) می‌فرستد. نشانی مشتری در ایالات متحده باید به‌شکل **100 Market Avenue, Metro City, California 94016** نمایش داده شود؛ اما نشانی کشورهای دیگر ممکن است به ترتیب متفاوتی نیاز داشته باشد.
+شرکت Nova Industries، توزیع‌کننده‌ای نمونه در حوزهٔ لوازم الکترونیکی، برای Northstar Retail، یکی از مشتریانش، [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice) می‌فرستد. نشانی مشتری در ایالات متحده باید به‌شکل **100 Market Avenue, Metro City, California 94016** نمایش داده شود؛ اما نشانی کشورهای دیگر ممکن است به ترتیب متفاوتی نیاز داشته باشد.
 
 **الگوی نشانی** (الگوی آدرس) این ترتیب را کنترل می‌کند.
 
@@ -45,7 +45,7 @@ Metro City, California 94016
 
 [مشاهدهٔ تصویر رسمی: ویرایشگر الگوی نشانی ایالات متحده](https://novacompanies.m.frappe.cloud/files/address-template-20261026-address-template-editor.png)
 
-پیش از ویرایش عمده، از الگوی فعلی یک نسخه بردارید. تغییر الگو می‌تواند بر همهٔ [مشتریان](customer.md)، [تأمین‌کنندگان](https://docs.frappe.io/erpnext/supplier) و تراکنش‌هایی اثر بگذارد که نشانی آن کشور را نمایش می‌دهند.
+پیش از ویرایش عمده، از الگوی فعلی یک نسخه بردارید. تغییر الگو می‌تواند بر همهٔ [مشتری](customer.md)، [تأمین‌کننده](https://docs.frappe.io/erpnext/supplier) و تراکنش‌هایی اثر بگذارد که نشانی آن کشور را نمایش می‌دهند.
 
 ## نحوهٔ انتخاب الگو در ERPNext
 
@@ -105,7 +105,7 @@ Metro City, California 94016
 - [نشانی](address.md)
 - [مشتری](customer.md)
 - [تأمین‌کننده](https://docs.frappe.io/erpnext/supplier)
-- [صورتحساب فروش](https://docs.frappe.io/erpnext/sales-invoice)
+- [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice)
 - [قالب چاپ](https://docs.frappe.io/erpnext/print-format)
 
 منبع: [الگوی نشانی](https://docs.frappe.io/erpnext/address-template). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های منبع پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

@@ -15,7 +15,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 >
 > تصاویر رابط کاربری صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.
 
-پس از [تنظیم](settings.md) حساب ایمیل، می‌توانید کار با Helpdesk را آغاز کنید.
+پس از [تنظیمات Frappe Helpdesk](settings.md) حساب ایمیل، می‌توانید کار با Helpdesk را آغاز کنید.
 
 هنگامی که برای نخستین بار وارد Helpdesk می‌شوید، نشانی صفحه باید `/helpdesk/tickets` باشد. این نما فهرست همهٔ تیکت‌ها را نشان می‌دهد و در شروع فقط یک تیکت در آن خواهید دید.
 
@@ -58,7 +58,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 نخستین تیکت خود را با موفقیت ساختید. 🎉
 
-برای آشنایی جزئی‌تر با نمای تیکت، به [بخش بعدی](understanding-ticket-view.md) بروید.
+برای آشنایی جزئی‌تر با نمای تیکت، به [آشنایی با نمای تیکت](understanding-ticket-view.md) بروید.
 
 ---
 

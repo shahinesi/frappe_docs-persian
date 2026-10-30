@@ -8,7 +8,7 @@ source_version: "685d54758b37ac637ebaa05c16362092932b0b03068d170cf27b8ca5ec43eab
 
 **قرار ملاقات، دیداری از پیش برنامه‌ریزی‌شده میان یک سرنخ و کارمند شرکت شماست.**
 
-نوع سند **قرار ملاقات** برای برنامه‌ریزی و مدیریت تعامل با یک [سرنخ](https://docs.frappe.io/erpnext/lead) یا [فرصت فروش](https://docs.frappe.io/erpnext/opportunity) به‌کار می‌رود.
+نوع سند **قرار ملاقات** برای برنامه‌ریزی و مدیریت تعامل با یک [سرنخ](https://docs.frappe.io/erpnext/lead) یا [فرصت](https://docs.frappe.io/erpnext/opportunity) به‌کار می‌رود.
 
 برای دسترسی به فهرست قرار ملاقات‌ها، از مسیر زیر بروید:
 
@@ -20,7 +20,7 @@ source_version: "685d54758b37ac637ebaa05c16362092932b0b03068d170cf27b8ca5ec43eab
 - [لیست تعطیلات](../hr/holiday-list.md)
 - [کارمند](../hr/employee.md)
 - [سرنخ](https://docs.frappe.io/erpnext/lead)
-- [ایمیل](email-account.md)
+- [حساب ایمیل](email-account.md)
 
 ## ایجاد قرار ملاقات
 

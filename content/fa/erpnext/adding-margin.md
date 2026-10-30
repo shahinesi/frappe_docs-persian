@@ -6,15 +6,15 @@ source_id: "erpnext/adding-margin"
 source_version: "68dd17e983e527082b31e05ced1cd21bd4657e70f3c2df61ea9574d79ea393fc"
 ---
 
-حاشیهٔ سود (Margin) نرخ معاملهٔ یک قلم را نسبت به **نرخ فهرست قیمت** (لیست قیمت نرخ) افزایش می‌دهد. ERPNext می‌تواند درصد یا مبلغ ثابتی را مستقیماً روی قلم [پیش‌فاکتور](https://docs.frappe.io/erpnext/quotation) یا [سفارش فروش](sales-order.md) اعمال کند، یا این کار را به‌صورت خودکار از طریق [قاعدهٔ قیمت‌گذاری](https://docs.frappe.io/erpnext/pricing-rule) انجام دهد.
+حاشیهٔ سود (Margin) نرخ معاملهٔ یک قلم را نسبت به **نرخ فهرست قیمت** (لیست قیمت نرخ) افزایش می‌دهد. ERPNext می‌تواند درصد یا مبلغ ثابتی را مستقیماً روی قلم [پیش‌فاکتور](https://docs.frappe.io/erpnext/quotation) یا [سفارش فروش](sales-order.md) اعمال کند، یا این کار را به‌صورت خودکار از طریق [قانون قیمت گذاری](https://docs.frappe.io/erpnext/pricing-rule) انجام دهد.
 
 ## پیش‌نیازها
 
 موارد زیر را ایجاد کنید:
 
-- [قلم](item.md) موردنیاز.
-- یک [فهرست قیمت فروش](https://docs.frappe.io/erpnext/price-lists).
-- یک [قیمت قلم](https://docs.frappe.io/erpnext/item-price) که نرخ فهرست قیمت را فراهم کند.
+- [کالا](item.md) موردنیاز.
+- یک [لیست‌های قیمت](https://docs.frappe.io/erpnext/price-lists).
+- یک [قیمت آیتم](https://docs.frappe.io/erpnext/item-price) که نرخ فهرست قیمت را فراهم کند.
 
 برای محاسبهٔ حاشیهٔ سود، نرخ فهرست قیمت مرجع لازم است. اگر نرخی دریافت نشده، پیش از عیب‌یابی محاسبهٔ حاشیهٔ سود، قیمت قلم را بررسی کنید.
 
@@ -73,14 +73,14 @@ source_version: "68dd17e983e527082b31e05ced1cd21bd4657e70f3c2df61ea9574d79ea393f
 حاشیهٔ سود و تخفیف برای نیازهای متفاوت قیمت‌گذاری هستند:
 
 - حاشیهٔ سود، افزایش قیمت را به نرخ فهرست قیمت اضافه می‌کند.
-- [اعمال تخفیف](applying-discount.md) قیمت یا مبلغ کل را کاهش می‌دهد.
+- [اعمال تخفیف بر تراکنش‌های فروش](applying-discount.md) قیمت یا مبلغ کل را کاهش می‌دهد.
 - نرخ ثابت در قاعدهٔ قیمت‌گذاری می‌تواند جایگزین نرخ دریافت‌شده شود.
 
 بدون سیاست قیمت‌گذاری مستند، این روش‌ها را بی‌برنامه با هم ترکیب نکنید. کاربران باید بتوانند توضیح دهند نرخ نهایی چگونه به‌دست آمده است.
 
 ## تراکنش‌های بعدی
 
-وقتی سفارش فروش از روی پیش‌فاکتور ساخته می‌شود یا در ادامهٔ چرخه [صورتحساب فروش](https://docs.frappe.io/erpnext/sales-invoice) ایجاد می‌شود، نرخ منتقل‌شده را بررسی کنید. [تنظیمات فروش](https://docs.frappe.io/erpnext/selling-settings) می‌تواند هنگام تغییر نرخ در چرخهٔ فروش به کاربران هشدار دهد یا جلوی ادامهٔ کار را بگیرد.
+وقتی سفارش فروش از روی پیش‌فاکتور ساخته می‌شود یا در ادامهٔ چرخه [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice) ایجاد می‌شود، نرخ منتقل‌شده را بررسی کنید. [تنظیمات فروش](https://docs.frappe.io/erpnext/selling-settings) می‌تواند هنگام تغییر نرخ در چرخهٔ فروش به کاربران هشدار دهد یا جلوی ادامهٔ کار را بگیرد.
 
 ## عیب‌یابی
 
@@ -112,10 +112,10 @@ source_version: "68dd17e983e527082b31e05ced1cd21bd4657e70f3c2df61ea9574d79ea393f
 
 ## موضوعات مرتبط
 
-- [فهرست‌های قیمت](https://docs.frappe.io/erpnext/price-lists)
-- [قیمت قلم](https://docs.frappe.io/erpnext/item-price)
-- [قاعدهٔ قیمت‌گذاری](https://docs.frappe.io/erpnext/pricing-rule)
-- [اعمال تخفیف](applying-discount.md)
-- [تغییر نرخ اقلام در چرخهٔ فروش](change-the-rate-of-items-in-the-sales-cycle.md)
+- [لیست‌های قیمت](https://docs.frappe.io/erpnext/price-lists)
+- [قیمت آیتم](https://docs.frappe.io/erpnext/item-price)
+- [قانون قیمت گذاری](https://docs.frappe.io/erpnext/pricing-rule)
+- [اعمال تخفیف بر تراکنش‌های فروش](applying-discount.md)
+- [کنترل تغییر نرخ کالا در چرخهٔ فروش](change-the-rate-of-items-in-the-sales-cycle.md)
 
 منبع: [افزودن حاشیهٔ سود به پیش‌فاکتور و سفارش فروش](https://docs.frappe.io/erpnext/adding-margin). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های منبع پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

@@ -19,7 +19,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 راهنماهای مرتبط:
 
-- [تعیین ترتیب صفحه‌ها](portal-development/ordering.md)
+- [ترتیب صفحه‌ها](portal-development/ordering.md)
 - [تغییرمسیرها](portal-development/redirects.md)
 - [فهرست مطالب](portal-development/table-of-contents.md)
 

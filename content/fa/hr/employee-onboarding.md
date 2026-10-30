@@ -24,7 +24,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 پیش از ایجاد سند آماده‌سازی، این اطلاعات را آماده کنید:
 
-- [متقاضی استخدام](https://docs.frappe.io/hr/job-applicant)
+- [متقاضی کار](https://docs.frappe.io/hr/job-applicant)
 - [کارمند](employee.md)
 - [دپارتمان](department.md)
 - [عنوان شغلی](designation.md)
@@ -59,7 +59,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### 3.2 کارها و تخصیص‌ها
 
-با ثبت نهایی سند آماده‌سازی، یک [پروژه](https://docs.frappe.io/erpnext/project) ساخته می‌شود و برای هر فعالیت، [کار](https://docs.frappe.io/erpnext/tasks) در پروژه ایجاد می‌شود. اگر تاریخ و مدت فعالیت‌ها را تعیین کرده باشید، تاریخ شروع و پایان کارها با کنارگذاشتن تعطیلات محاسبه می‌شود.
+با ثبت نهایی سند آماده‌سازی، یک [پروژه](https://docs.frappe.io/erpnext/project) ساخته می‌شود و برای هر فعالیت، [تسک‌ها](https://docs.frappe.io/erpnext/tasks) در پروژه ایجاد می‌شود. اگر تاریخ و مدت فعالیت‌ها را تعیین کرده باشید، تاریخ شروع و پایان کارها با کنارگذاشتن تعطیلات محاسبه می‌شود.
 
 ![پروژه و کارهای آماده‌سازی](https://frappehr.com/files/project-task.png)
 
@@ -78,7 +78,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ## 4. موضوعات مرتبط
 
 1. [ارتقای کارمند](employee-promotion.md)
-2. [قطع همکاری کارمند](employee-separation.md)
+2. [جدایی کارکنان](employee-separation.md)
 3. [انتقال کارمند](employee-transfer.md)
 
 ---

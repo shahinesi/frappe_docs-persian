@@ -25,12 +25,12 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 پیش از ساخت درخواست مرخصی جبرانی، باید سندهای زیر را ایجاد کنید:
 
 - [کارمند](employee.md)
-- [دورهٔ مرخصی](https://docs.frappe.io/hr/leave-period)
+- [دوره مرخصی](https://docs.frappe.io/hr/leave-period)
 - [نوع مرخصی](https://docs.frappe.io/hr/leave-type)
 - [سیاست مرخصی](https://docs.frappe.io/hr/leave-policy)
 - [تخصیص مرخصی](https://docs.frappe.io/hr/leave-allocation)
 - [لیست تعطیلات](holiday-list.md)
-- [حضور و غیاب](attendance.md)
+- [راهنمای حضور و غیاب: ایجاد و بررسی رکوردها](attendance.md)
 
 ## 2. ساخت درخواست مرخصی جبرانی
 

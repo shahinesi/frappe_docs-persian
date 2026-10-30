@@ -6,7 +6,7 @@ source_id: "erpnext/assistance-sales-purchase-between-companies"
 source_version: "a7153ec0dc19f5a0a77b791385e099bc6cb8b65906a0e6b9ba801d0f97dfb2d7"
 ---
 
-از ارسال مستقیم بین‌شرکتی (Inter-شرکت drop shipping) زمانی استفاده کنید که یک شرکت کالا را به مشتری می‌فروشد، اما شرکت دیگری در همان سایت ERPNext آن را مستقیماً برای مشتری ارسال می‌کند. این فرایند، گردش کار [ارسال مستقیم](drop-shipping-in-erpnext.md) را با رابطه‌های مشتری و تأمین‌کنندهٔ بین‌شرکتی ترکیب می‌کند.
+از ارسال مستقیم بین‌شرکتی (Inter-شرکت drop shipping) زمانی استفاده کنید که یک شرکت کالا را به مشتری می‌فروشد، اما شرکت دیگری در همان سایت ERPNext آن را مستقیماً برای مشتری ارسال می‌کند. این فرایند، گردش کار [ارسال مستقیم برای مشتری (Drop Shipping)](drop-shipping-in-erpnext.md) را با رابطه‌های مشتری و تأمین‌کنندهٔ بین‌شرکتی ترکیب می‌کند.
 
 ## پیش از شروع
 
@@ -102,7 +102,7 @@ source_version: "a7153ec0dc19f5a0a77b791385e099bc6cb8b65906a0e6b9ba801d0f97dfb2d
 
 ## موضوعات مرتبط
 
-- [ارسال مستقیم](drop-shipping-in-erpnext.md)
+- [ارسال مستقیم برای مشتری (Drop Shipping)](drop-shipping-in-erpnext.md)
 - [فاکتورهای بین‌شرکتی](https://docs.frappe.io/erpnext/inter-company-invoices)
 - [سفارش فروش](sales-order.md)
 - [سفارش خرید](purchase-order.md)

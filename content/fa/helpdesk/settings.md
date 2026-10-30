@@ -49,7 +49,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 برای بازکردن آن:
 
-1. به [میزکار](service-level-agreement.md) بروید.
+1. به [توافق‌نامهٔ سطح خدمات (SLA)](service-level-agreement.md) بروید.
 2. در نوار جست‌وجوی بالای صفحه **تنظیمات** را وارد و Enter را فشار دهید. مسیر URL آن `app/hd-settings/HD%20Settings` است.
 
 ### زبانهٔ جزئیات

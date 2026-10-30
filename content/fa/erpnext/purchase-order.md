@@ -20,7 +20,7 @@ Nova Industries پاسخ تأمین‌کنندگان را بررسی کرده و
 
 ## ساخت سفارش خرید از تأمین‌کننده پیش‌فاکتور
 
-1. [تأمین‌کننده پیش‌فاکتور](https://docs.frappe.io/erpnext/supplier-quotation) ثبت‌شده را باز کنید.
+1. [پیش‌فاکتور تأمین‌کننده](https://docs.frappe.io/erpnext/supplier-quotation) ثبت‌شده را باز کنید.
 2. **ایجاد > سفارش خرید** را انتخاب کنید.
 3. تأمین‌کننده، شرکت، تاریخ سفارش و تاریخ **مورد نیاز در** را بررسی کنید.
 4. انبار مقصد را انتخاب کنید.
@@ -155,10 +155,10 @@ ERPNext می‌تواند اجازه دهد، اما تنظیمات خرید م�
 
 ## موضوعات مرتبط
 
-- [معرفی بخش خرید](buying.md)
+- [آشنایی با ماژول خرید](buying.md)
 - [درخواست مواد](https://docs.frappe.io/erpnext/material-request)
 - [درخواست برای پیش‌فاکتور](https://docs.frappe.io/erpnext/request-for-quotation)
-- [تأمین‌کننده پیش‌فاکتور](https://docs.frappe.io/erpnext/supplier-quotation)
+- [پیش‌فاکتور تأمین‌کننده](https://docs.frappe.io/erpnext/supplier-quotation)
 - [رسید خرید](https://docs.frappe.io/erpnext/purchase-receipt)
 - [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice)
 - [تنظیمات خرید](buying-settings.md)

@@ -34,7 +34,7 @@ source_version: "307f38c5097af083b485be7118b5744da84d646e92c4b151227cdee5310000b
 2. [نوع استخدام](employment-type.md)
 3. [دپارتمان](department.md)
 4. [عنوان شغلی](designation.md)
-5. [درجه کارمند](employee-grade.md)
+5. [درجهٔ کارمند](employee-grade.md)
 6. [گروه کارکنان](employee-group.md)
 
 ---

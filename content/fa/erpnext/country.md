@@ -62,6 +62,6 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - [تنظیمات سیستم](https://docs.frappe.io/erpnext/system-settings)
 - [پیش‌فرض‌های سراسری ERPNext](https://docs.frappe.io/erpnext/global-defaults)
 - [نشانی](address.md)
-- [ارز](currency.md)
+- [ارز (واحد پول)](currency.md)
 
 **منبع:** [کشور](https://docs.frappe.io/erpnext/country). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر اصلی در این مخزن بازنشر نشده‌اند.

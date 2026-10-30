@@ -86,7 +86,7 @@ TimeoutError: timed out
 
 ## مطالب مرتبط
 
-- [حساب کاربری ایمیل](../../erpnext/email-account.md)
+- [حساب ایمیل](../../erpnext/email-account.md)
 - [دامنهٔ ایمیل](../../erpnext/email-domain.md)
 - [OAuth ایمیل Microsoft آفیس 365](https://docs.frappe.io/framework/user/en/microsoft-email-oauth)
 - [دریافت IP ثابت](https://docs.frappe.io/cloud/how-to-get-static-ip)

@@ -108,9 +108,9 @@ ERPNext سوابق حسابداری مرتبط و در صورت لزوم مبا�
 
 ## موضوعات مرتبط
 
-- [سند پرداخت](https://docs.frappe.io/erpnext/payment-entry)
+- [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
 - [تطبیق پرداخت](https://docs.frappe.io/erpnext/payment-reconciliation)
 - [تراکنش بانکی](bank-transaction.md)
-- [سند حسابداری](https://docs.frappe.io/erpnext/journal-entry)
+- [ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry)
 
 منبع: [تطبیق بانکی](https://docs.frappe.io/erpnext/bank-reconciliation). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های رسمی پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

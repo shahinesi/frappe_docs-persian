@@ -10,7 +10,7 @@ source_version: "eb3ae3d17b726eb4abbcbcee4ed5b77e10cf5c6121b596aa4804aa8ffbf4eb8
 
 ## پیش از شروع
 
-رکورد [بانک](bank.md) را ایجاد کنید و اگر حساب متعلق به شرکت است، در بخش بانک حساب‌ها از [جدول حساب‌ها](chart-of-accounts.md) یک حساب دفتر کل بسازید. **نوع حساب** حساب دفتر کل را روی **بانک** بگذارید و شرکت و ارز درست را انتخاب کنید.
+رکورد [بانک](bank.md) را ایجاد کنید و اگر حساب متعلق به شرکت است، در بخش بانک حساب‌ها از [درخت حساب‌ها](chart-of-accounts.md) یک حساب دفتر کل بسازید. **نوع حساب** حساب دفتر کل را روی **بانک** بگذارید و شرکت و ارز درست را انتخاب کنید.
 
 این رکوردها را با هم اشتباه نگیرید:
 
@@ -67,14 +67,14 @@ source_version: "eb3ae3d17b726eb4abbcbcee4ed5b77e10cf5c6121b596aa4804aa8ffbf4eb8
 
 حساب بانکی شرکت در موارد زیر به کار می‌رود:
 
-- [سند پرداخت](https://docs.frappe.io/erpnext/payment-entry) و درخواست‌های پرداخت؛
+- [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry) و درخواست‌های پرداخت؛
 - همگام‌سازی یا واردکردن صورتحساب؛
 - رکوردهای [تراکنش بانکی](bank-transaction.md)؛
 - [تطبیق بانکی](bank-reconciliation.md)؛
 - [ضمانت‌نامهٔ بانکی](bank-guarantee.md)؛
 - یکپارچه‌سازی‌ها و گزارش‌های بانکی دیگر.
 
-پیش‌فرض‌های شرکت را در [روش پرداخت](https://docs.frappe.io/erpnext/mode-of-payment) پیکربندی کنید تا پرداخت‌های نقدی، چکی، کارتی و حواله‌ای از حساب دفتر کل موردنظر استفاده کنند.
+پیش‌فرض‌های شرکت را در [نحوه پرداخت](https://docs.frappe.io/erpnext/mode-of-payment) پیکربندی کنید تا پرداخت‌های نقدی، چکی، کارتی و حواله‌ای از حساب دفتر کل موردنظر استفاده کنند.
 
 ## حفاظت از داده‌ها
 
@@ -121,9 +121,9 @@ source_version: "eb3ae3d17b726eb4abbcbcee4ed5b77e10cf5c6121b596aa4804aa8ffbf4eb8
 ## موضوعات مرتبط
 
 - [بانک](bank.md)
-- [جدول حساب‌ها](chart-of-accounts.md)
-- [روش پرداخت](https://docs.frappe.io/erpnext/mode-of-payment)
-- [سند پرداخت](https://docs.frappe.io/erpnext/payment-entry)
+- [درخت حساب‌ها](chart-of-accounts.md)
+- [نحوه پرداخت](https://docs.frappe.io/erpnext/mode-of-payment)
+- [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
 - [تراکنش بانکی](bank-transaction.md)
 - [تطبیق بانکی](bank-reconciliation.md)
 

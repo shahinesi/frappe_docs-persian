@@ -14,11 +14,11 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## موضوعات
 
-1. [آماده‌سازی کارمند](employee-onboarding.md)
+1. [آشناسازی کارکنان](employee-onboarding.md)
 2. [ارتقای کارمند](employee-promotion.md)
-3. [قطع همکاری کارمند](employee-separation.md)
+3. [جدایی کارکنان](employee-separation.md)
 4. [انتقال کارمند](employee-transfer.md)
-5. [نقشهٔ مهارت کارمند](employee-skill-map.md)
+5. [نقشهٔ مهارت کارکنان](employee-skill-map.md)
 
 ---
 

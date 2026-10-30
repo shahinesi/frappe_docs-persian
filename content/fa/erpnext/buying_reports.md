@@ -18,7 +18,7 @@ source_version: "2fa3652ac8244c53d2fa8da5563a0ce500795d1e8b5d2f813141c806ce4ec3b
 | کدام سفارش‌ها دیر شده‌اند؟ | تجزیه و تحلیل سفارش خرید | تاریخ مورد نیاز در، مقدار دریافت‌شده و تأخیر |
 | چه کالاهایی فیزیکی رسیده‌اند؟ | رسید خرید Trends یا گزارش رسید خرید | تأمین‌کننده، قلم، انبار و مقدار پذیرفته یا ردشده |
 | چه چیزی دریافت شده اما صورتحساب نشده است؟ | گزارش‌های تجزیه و تحلیل سفارش خرید و فاکتور خرید | درصد دریافت، درصد صورتحساب‌شده و موجودی دریافت شده اما صورتحساب نشده |
-| چه مبلغی به تأمین‌کنندگان بدهکاریم؟ | [حساب‌های پرداختنی](accounts-receivable-and-payable.md) | مبلغ تسویه‌نشده، مدت بدهی و سررسید |
+| چه مبلغی به تأمین‌کنندگان بدهکاریم؟ | [حساب‌های دریافتنی و پرداختنی](accounts-receivable-and-payable.md) | مبلغ تسویه‌نشده، مدت بدهی و سررسید |
 | آیا قیمت‌های خرید تغییر می‌کنند؟ | تجزیه و تحلیل خرید یا تاریخچهٔ خرید به تفکیک کالا | نرخ، مقدار، دوره و تأمین‌کننده |
 | یک نیاز در چه مرحله‌ای است؟ | [گزارش ردیاب تدارکات](https://docs.frappe.io/erpnext/procurement-tracker-report) | مسیر از درخواست مواد تا رسید و صورتحساب |
 | کدام تأمین‌کنندگان عملکرد قابل‌اتکایی دارند؟ | کارت امتیازی تأمین‌کننده و خرید به تفکیک تأمین‌کننده | تحویل، اقلام ردشده، پاسخ‌گویی و ارزش خرید |
@@ -99,17 +99,17 @@ source_version: "2fa3652ac8244c53d2fa8da5563a0ce500795d1e8b5d2f813141c806ce4ec3b
 
 اگر کاربر مجوز داشته باشد، می‌تواند از گزارش‌ها خروجی بگیرد. ابتدا فیلترها را اعمال و بررسی کنید تا خروجی دقیقاً پاسخ‌گوی پرسش موردنظر باشد، نه صرفاً تخلیهٔ دادهٔ بررسی‌نشده.
 
-برای بررسی تراکنش‌های مبدأِ نتیجه، از [درخواست مواد](https://docs.frappe.io/erpnext/material-request)، [درخواست برای پیش‌فاکتور](https://docs.frappe.io/erpnext/request-for-quotation)، [تأمین‌کننده پیش‌فاکتور](https://docs.frappe.io/erpnext/supplier-quotation)، [سفارش خرید](purchase-order.md)، [رسید خرید](https://docs.frappe.io/erpnext/purchase-receipt) و [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice) استفاده کنید. اگر پرسش دربارهٔ پیشرفت، بدهی، موجودی یا تسویه است، [گزارش ردیاب تدارکات](https://docs.frappe.io/erpnext/procurement-tracker-report)، [حساب‌های پرداختنی](accounts-receivable-and-payable.md)، [دفتر موجودی گزارش](https://docs.frappe.io/erpnext/stock-ledger) و [دفتر پرداخت](https://docs.frappe.io/erpnext/payment_ledger) را ببینید.
+برای بررسی تراکنش‌های مبدأِ نتیجه، از [درخواست مواد](https://docs.frappe.io/erpnext/material-request)، [درخواست برای پیش‌فاکتور](https://docs.frappe.io/erpnext/request-for-quotation)، [پیش‌فاکتور تأمین‌کننده](https://docs.frappe.io/erpnext/supplier-quotation)، [سفارش خرید](purchase-order.md)، [رسید خرید](https://docs.frappe.io/erpnext/purchase-receipt) و [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice) استفاده کنید. اگر پرسش دربارهٔ پیشرفت، بدهی، موجودی یا تسویه است، [گزارش ردیاب تدارکات](https://docs.frappe.io/erpnext/procurement-tracker-report)، [حساب‌های دریافتنی و پرداختنی](accounts-receivable-and-payable.md)، [دفتر موجودی](https://docs.frappe.io/erpnext/stock-ledger) و [دفتر پرداخت](https://docs.frappe.io/erpnext/payment_ledger) را ببینید.
 
 ## موضوعات مرتبط
 
-- [آشنایی با خرید](buying.md)
+- [آشنایی با ماژول خرید](buying.md)
 - [درخواست مواد](https://docs.frappe.io/erpnext/material-request)
 - [سفارش خرید](purchase-order.md)
 - [رسید خرید](https://docs.frappe.io/erpnext/purchase-receipt)
 - [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice)
 - [گزارش ردیاب تدارکات](https://docs.frappe.io/erpnext/procurement-tracker-report)
 - [کارت امتیازی تأمین‌کننده](https://docs.frappe.io/erpnext/supplier-scorecard)
-- [حساب‌های پرداختنی](accounts-receivable-and-payable.md)
+- [حساب‌های دریافتنی و پرداختنی](accounts-receivable-and-payable.md)
 
 منبع: [گزارش‌های خرید](https://docs.frappe.io/erpnext/buying_reports). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های رسمی مستندات پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

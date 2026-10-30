@@ -247,7 +247,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ## موضوعات مرتبط
 
 1. [انبار](https://docs.frappe.io/erpnext/warehouse)
-2. [خطای موجودی یادداشت تحویل](delivery-note-stock-error.md)
-3. [انتقال مواد از یادداشت تحویل و رسید خرید](https://docs.frappe.io/erpnext/material-transfer-from-delivery-note)
+2. [خطای موجودی منفی در یادداشت تحویل (یادداشت تحویل)](delivery-note-stock-error.md)
+3. [انتقال مواد از یادداشت تحویل](https://docs.frappe.io/erpnext/material-transfer-from-delivery-note)
 4. [یادداشت نصب](https://docs.frappe.io/erpnext/installation-note)
-5. [سفر تحویل (مسیر تحویل)](delivery-trip.md)
+5. [سفر تحویل](delivery-trip.md)

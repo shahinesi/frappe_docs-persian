@@ -63,7 +63,7 @@ ERPNext می‌تواند کمی پیش از پایان سال جاری، سال
 ## موضوعات مرتبط
 
 - [دورهٔ حسابداری](accounting-period.md)
-- [سند مالی پایان دوره در ERPNext](https://docs.frappe.io/erpnext/period-closing-voucher)
+- [سند مالی پایان دوره](https://docs.frappe.io/erpnext/period-closing-voucher)
 - [پیش‌فرض‌های حسابداری شرکت](company-accounting-defaults.md)
 - [فهرست بررسی راه‌اندازی حسابداری](accounting-setup-checklist.md)
 

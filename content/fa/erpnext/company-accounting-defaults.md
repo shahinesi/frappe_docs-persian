@@ -27,7 +27,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## پیش از شروع
 
-برای شرکت، [درخت حساب‌ها](chart-of-accounts.md)، [سال مالی](fiscal-year.md) و [مرکز هزینه](cost-center.md) را ایجاد کنید. حساب‌ها باید به همان شرکت تعلق داشته باشند.
+برای شرکت، [درخت حساب‌ها](chart-of-accounts.md)، [سال مالی در ERPNext](fiscal-year.md) و [مرکز هزینه](cost-center.md) را ایجاد کنید. حساب‌ها باید به همان شرکت تعلق داشته باشند.
 
 ## پیکربندی حساب‌های پیش‌فرض طرف حساب
 
@@ -83,6 +83,6 @@ ERPNext معمولاً پیش‌فرض تراکنش را از مشخص‌تری�
 - [تنظیمات حساب‌ها](accounts-settings.md)
 - [درخت حساب‌ها](chart-of-accounts.md)
 - [حساب‌های بانکی و روش‌های پرداخت](bank-accounts-and-modes-of-payment.md)
-- [ماندهٔ افتتاحیه](opening-balance.md)
+- [ماندهٔ آغازین حساب‌ها](opening-balance.md)
 
 **منبع:** [پیش‌فرض‌های حسابداری شرکت](https://docs.frappe.io/erpnext/company-accounting-defaults). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر اصلی در این مخزن بازنشر نشده‌اند.

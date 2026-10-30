@@ -17,7 +17,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 شرکت Nova Industries صورت‌های مالی آوریل تا ژوئن را تأیید کرده است. تیم مالی می‌خواهد ارقام این دوره ثابت بمانند، درحالی‌که ثبت تراکنش‌های ژوئیه ادامه دارد. یک **دورهٔ حسابداری** انواع سندهای قابل‌ثبت را برای بازهٔ زمانی پایان‌یافته قفل می‌کند و مانع می‌شود فاکتور دیرهنگام، لغو یا اصلاح سند، گزارش‌هایی را که پیش‌تر بررسی شده‌اند تغییر دهد.
 
-این قفل انتخابی است: خودتان تعیین می‌کنید کدام انواع سند بسته شوند. این قابلیت با [سند مالی پایان دوره](https://docs.frappe.io/erpnext/period-closing-voucher) که سود یا زیان را منتقل می‌کند، و [قفل‌کردن ورودی‌های حسابداری](freeze-accounting-entries.md) که محدودیت گسترده‌تری بر ثبت بر اساس تاریخ اعمال می‌کند، تفاوت دارد.
+این قفل انتخابی است: خودتان تعیین می‌کنید کدام انواع سند بسته شوند. این قابلیت با [سند مالی پایان دوره](https://docs.frappe.io/erpnext/period-closing-voucher) که سود یا زیان را منتقل می‌کند، و [قفل‌کردن ثبت‌های حسابداری](freeze-accounting-entries.md) که محدودیت گسترده‌تری بر ثبت بر اساس تاریخ اعمال می‌کند، تفاوت دارد.
 
 ## پیش از شروع
 
@@ -68,7 +68,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## موضوعات مرتبط
 
-- [مروری بر حسابداری](accounting-introduction.md)
+- [معرفی حسابداری ERPNext](accounting-introduction.md)
 - [درخت حساب‌ها](chart-of-accounts.md)
-- [دفترکل](https://docs.frappe.io/erpnext/general-ledger)
-- [سال مالی](fiscal-year.md)
+- [دفتر کل](https://docs.frappe.io/erpnext/general-ledger)
+- [سال مالی در ERPNext](fiscal-year.md)

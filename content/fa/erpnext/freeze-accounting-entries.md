@@ -46,10 +46,10 @@ Nova Industries در 1 ژانویه استفاده از ERPNext را آغاز ک
 
 ## موضوعات مرتبط
 
-- [نمای کلی حسابداری](accounting-introduction.md)
+- [معرفی حسابداری ERPNext](accounting-introduction.md)
 - [درخت حساب‌ها](chart-of-accounts.md)
-- [دفترکل](https://docs.frappe.io/erpnext/general-ledger)
-- [سال مالی](fiscal-year.md)
+- [دفتر کل](https://docs.frappe.io/erpnext/general-ledger)
+- [سال مالی در ERPNext](fiscal-year.md)
 
 ---
 منبع: [قفل‌کردن ثبت‌های حسابداری](https://docs.frappe.io/erpnext/freeze-accounting-entries). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصویر اصلی فقط به فایل رسمی پیوند داده شده و در مخزن بازنشر نشده است.

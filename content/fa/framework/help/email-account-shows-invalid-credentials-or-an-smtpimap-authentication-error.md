@@ -126,7 +126,7 @@ Google دیگر گذرواژهٔ معمول حساب را برای ورود Frap
 
 ## مطالب مرتبط
 
-- [حساب کاربری ایمیل](../../erpnext/email-account.md)
+- [حساب ایمیل](../../erpnext/email-account.md)
 - [دامنهٔ ایمیل](../../erpnext/email-domain.md)
 - [راه‌اندازی ایمیل SMTP در SendGrid برای ERPNext](https://docs.frappe.io/erpnext/setting-up-sendgrid-smtp-email-in-erpnext)
 - [راه‌اندازی OAuth ایمیل Microsoft آفیس 365](https://docs.frappe.io/framework/user/en/microsoft-email-oauth)

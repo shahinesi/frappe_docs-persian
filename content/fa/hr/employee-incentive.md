@@ -23,7 +23,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 پیش از ایجاد مشوق کارکنان، این موارد را آماده کنید:
 
 - [کارمند](employee.md)
-- [مؤلفهٔ حقوق و دستمزد](https://docs.frappe.io/hr/salary-component)
+- [مؤلفه حقوق و دستمزد](https://docs.frappe.io/hr/salary-component)
 
 ## 2. ایجاد مشوق کارکنان
 
@@ -31,7 +31,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 2. کارمند را انتخاب کنید.
 3. مبلغ مشوق را وارد کنید.
 4. تاریخ حقوق و دستمزد را انتخاب کنید.
-5. [مؤلفهٔ حقوق و دستمزد](https://docs.frappe.io/hr/salary-component)‌ای را انتخاب کنید که مشوق باید در قالب آن پرداخت شود.
+5. [مؤلفه حقوق و دستمزد](https://docs.frappe.io/hr/salary-component)‌ای را انتخاب کنید که مشوق باید در قالب آن پرداخت شود.
 6. سند را ذخیره و ثبت نهایی کنید.
 7. پس از ثبت نهایی، سند **حقوق اضافی** برای مؤلفهٔ حقوق و دستمزد مشخص‌شده ایجاد می‌شود. این سند هنگام اجرای ثبت حقوق و دستمزد بازیابی خواهد شد.
 
@@ -41,7 +41,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 1. [پاداش نگهداشت](https://docs.frappe.io/hr/retention-bonus)
 2. [حقوق اضافی](additional-salary.md)
-3. [مؤلفهٔ حقوق و دستمزد](https://docs.frappe.io/hr/salary-component)
+3. [مؤلفه حقوق و دستمزد](https://docs.frappe.io/hr/salary-component)
 4. [ساختار حقوق و دستمزد](https://docs.frappe.io/hr/salary-structure)
 5. [ثبت حقوق و دستمزد](https://docs.frappe.io/hr/payroll-entry)
 

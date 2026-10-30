@@ -335,18 +335,28 @@ function rewriteLink(token, { currentPath, byPath, byTranslationPath, titles, li
 			}
 		}
 	}
-	if (official?.page && !official.page.translation_path && !isAttribution && linkLabels?.[official.pathname]) {
-		label = linkLabels[official.pathname];
-	}
-
 	const rawTranslatedTitle = targetPath ? titles.get(targetPath) : null;
 	const translatedTitle = rawTranslatedTitle
 		? localizeDisplayLabel(rawTranslatedTitle, terms, null, mixedEntries, phraseTerms)
 		: null;
-	if (translatedTitle && !isAttribution) {
-		if (!FA_LETTER.test(label) || /[A-Za-z]/.test(label) || label.trim() === (official?.page.source_title || '').trim() || isGenericPageLabel(originalLabel)) {
-			label = translatedTitle;
-		}
+	if (!official && targetPath && !href.includes('#') && translatedTitle) {
+		label = translatedTitle;
+	} else if (official?.page && !isAttribution) {
+		let canonicalPath = '';
+		try { canonicalPath = new URL(official.page.url).pathname.replace(/\/$/, ''); } catch {}
+		const curatedTitle = linkLabels?.[official.pathname] || linkLabels?.[canonicalPath];
+		const sourceTitle = (official.page.source_title || '').replaceAll('\\n', ' ').replaceAll('\\r', ' ').replace(/[\r\n]+/g, ' ').replace(/\s*\|\s*(?:ERPNext|Frappe Framework|Frappe HR|Frappe Helpdesk|Insights|Frappe CRM|Frappe Builder|Frappe Learning|Frappe Drive) Documentation\s*$/i, '').trim();
+		const localizedSourceTitle = sourceTitle
+			? localizeDisplayLabel(sourceTitle, terms, null, mixedEntries, phraseTerms)
+			: '';
+		const pageSlug = (official.page.source_id || official.pathname).split('/').filter(Boolean).at(-1) || official.pathname;
+		const localizedSlug = localizeDisplayLabel(pageSlug.replaceAll('-', ' ').replaceAll('_', ' '), terms, null, mixedEntries, phraseTerms);
+		const isCompletePersianTitle = (value) => FA_LETTER.test(value) && !/[A-Za-z]{3,}/.test(value);
+		const addressTitle = translatedTitle || curatedTitle
+			|| (isCompletePersianTitle(localizedSourceTitle) ? localizedSourceTitle : '')
+			|| (isCompletePersianTitle(localizedSlug) ? localizedSlug : '');
+		if (addressTitle) label = addressTitle;
+		else if (!FA_LETTER.test(label) || isGenericPageLabel(originalLabel)) label = localizedSourceTitle || localizedSlug || label;
 	}
 	if (label !== originalLabel) counters.localizedLabels++;
 	if (nextHref !== href) counters.changedUrls++;

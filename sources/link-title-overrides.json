@@ -76,6 +76,8 @@
     "/framework/user/en/using_frappe_as_oauth_service": "استفاده از Frappe به‌عنوان سرویس OAuth",
     "/framework/user/en/guides/app-development/connected-app": "راه‌اندازی برنامهٔ متصل جدید",
     "/framework/user/en/basics/doctypes/docfield": "فیلدهای DocField",
-    "/framework/user/en/basics/doctypes/naming": "عبارت نام‌گذاری"
+    "/framework/user/en/basics/doctypes/naming": "عبارت نام‌گذاری",
+    "/framework/user/en/guides/database-settings/setup-read-from-secondary-db": "راه‌اندازی خواندن از پایگاه دادهٔ ثانویه",
+    "/framework/user/en/guides/data/using-data-migration-tool": "استفاده از ابزار مهاجرت داده"
   }
 }
