@@ -5,8 +5,8 @@ source_url: "https://docs.frappe.io/hr/employee-attendance-tool"
 source_id: "hr/employee-attendance-tool"
 source_version: "51de66d67b81234b2d2fbb548221d2649ae0896ca5547db95fa0b6dacfe46875"
 source_updated: "2026-10-01"
-translation_status: "translated"
-quality_status: "not_reviewed"
+translation_status: "quality_checked"
+quality_status: "passed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
@@ -31,7 +31,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 1. تاریخ را وارد کنید.
 2. دپارتمان و در صورت تمایل شعبه را انتخاب کنید.
 3. کارکنان را انتخاب کنید.
-4. وضعیت **حاضر**، **غایب** یا **نیم‌روز** را برای هرکدام تعیین کنید.
+4. وضعیت **حاضر**، **غایب** یا **نیم روز** را برای هرکدام تعیین کنید.
 5. همچنین می‌توانید شیفت را انتخاب کنید و از همین نما برای کارمندان **ورود دیرهنگام** یا **خروج زودهنگام** ثبت کنید.
 6. جدول **حضورهای ثبت‌شده** در پایین ابزار، همهٔ کارکنانی را که حضورشان ثبت کرده‌اید همراه با وضعیت نشان می‌دهد. می‌توانید از فیلتر ستون‌ها برای جست‌وجوی کارمند مشخص یا کارکنان دارای وضعیت خاص استفاده کنید.
 
