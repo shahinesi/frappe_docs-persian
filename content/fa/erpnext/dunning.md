@@ -99,7 +99,7 @@ ERPNext بهره و هزینه را از طریق بخش کسورات یا زی�
 ## موضوعات مرتبط
 
 - [فاکتور فروش](sales-invoice.md)
-- [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
+- [ثبت پرداخت](payment-entry.md)
 - [حساب‌های دریافتنی](accounts-receivables.md)
 - [پردازش صورت‌حساب‌ها](https://docs.frappe.io/erpnext/process-statement-of-accounts)
 - [شرایط پرداخت](https://docs.frappe.io/erpnext/payment-terms)

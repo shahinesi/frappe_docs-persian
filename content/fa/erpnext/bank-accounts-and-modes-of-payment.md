@@ -68,7 +68,7 @@ source_version: "18f8f2ae5675eb32f122c47fa968992d4eb8f945a3bbe56c2dfccb777294e54
 
 ## موضوعات مرتبط
 
-- [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
+- [ثبت پرداخت](payment-entry.md)
 - [تطبیق بانکی](bank-reconciliation.md)
 - [بانکداری در ERPNext](banking-in-erpnext.md)
 - [پیش‌فرض‌های حسابداری شرکت](company-accounting-defaults.md)

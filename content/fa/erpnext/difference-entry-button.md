@@ -36,7 +36,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 2. حساب درست در [درخت حساب‌ها](chart-of-accounts.md) شرکت وجود دارد. حسابی غیرگروهی را انتخاب کنید که به شرکت انتخاب‌شده تعلق دارد.
 3. تاریخ ارسال باز است و به سال مالی و [دورهٔ حسابداری](accounting-period.md) موردنظر تعلق دارد.
 4. مرکز هزینه، پروژه، دفتر مالی یا [ابعاد حسابداری](accounting-dimensions.md) دیگری که لازم است در دسترس باشد.
-5. برای ثبت بانکی، شماره و تاریخ مرجع بانک را داشته باشید. برای دریافت یا پرداخت معمول مشتری یا تأمین‌کننده، بررسی کنید که آیا [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry) گردش‌کار مناسب‌تری است.
+5. برای ثبت بانکی، شماره و تاریخ مرجع بانک را داشته باشید. برای دریافت یا پرداخت معمول مشتری یا تأمین‌کننده، بررسی کنید که آیا [ثبت پرداخت](payment-entry.md) گردش‌کار مناسب‌تری است.
 
 ## اختلاف را پیدا کنید
 
@@ -150,6 +150,6 @@ ERPNext افزون بر توازن، شرکت، نوع حساب، طرف حسا�
 - [آشنایی با بدهکار و بستانکار](https://docs.frappe.io/erpnext/understand-debit-and-credit)
 - [درخت حساب‌ها](chart-of-accounts.md)
 - [دفتر کل](general-ledger.md)
-- [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
+- [ثبت پرداخت](payment-entry.md)
 - [حسابداری چندارزی](https://docs.frappe.io/erpnext/multi-currency-accounting)
 - [الگوی ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry-template)

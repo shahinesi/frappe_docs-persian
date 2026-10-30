@@ -120,7 +120,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 اگر به‌روزرسانی موجودی روشن باشد، ERPNext ردیف‌هایی در دفتر موجودی و، در صورت فعال‌بودن موجودی دائمی، ثبت‌های مرتبط بهای تمام‌شده را نیز ایجاد می‌کند.
 
-پس از ثبت نهایی، از **ایجاد > پرداخت** برای ساخت [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry) استفاده کنید. پرداخت، مبلغ تسویه‌نشدهٔ فاکتور را کاهش می‌دهد.
+پس از ثبت نهایی، از **ایجاد > پرداخت** برای ساخت [ثبت پرداخت](payment-entry.md) استفاده کنید. پرداخت، مبلغ تسویه‌نشدهٔ فاکتور را کاهش می‌دهد.
 
 ![گزینهٔ پرداخت برای فاکتور فروش ثبت‌نهایی‌شده](https://novacompanies.m.frappe.cloud/files/08-create-payment.png)
 
@@ -187,7 +187,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 - [سفارش فروش](sales-order.md)
 - [یادداشت تحویل](delivery-note.md)
-- [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
+- [ثبت پرداخت](payment-entry.md)
 - [بازگشت فروش](https://docs.frappe.io/erpnext/sales-return)
 - [تطبیق پرداخت](https://docs.frappe.io/erpnext/payment-reconciliation)
 - [اعمال تخفیف بر تراکنش‌های فروش](applying-discount.md)

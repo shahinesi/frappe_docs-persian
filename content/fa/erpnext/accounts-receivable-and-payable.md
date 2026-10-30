@@ -44,7 +44,7 @@ Nova Electronics Trading کالا را نسیه به Northstar Retail فروخت
 | یافته | اقدام بعدی |
 |---|---|
 | فاکتور مشتری سررسید گذشته است | مکاتبات را بررسی کنید، صورت‌حساب بفرستید، در صورت لزوم [بهرهٔ فروش و اخطار دیرکرد پرداخت (Dunning)](dunning.md) بسازید یا پرداخت را ثبت کنید. |
-| پرداخت وجود دارد اما فاکتور هنوز باز است | ارجاع [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry) را بررسی یا از [تطبیق پرداخت](https://docs.frappe.io/erpnext/payment-reconciliation) استفاده کنید. |
+| پرداخت وجود دارد اما فاکتور هنوز باز است | ارجاع [ثبت پرداخت](payment-entry.md) را بررسی یا از [تطبیق پرداخت](https://docs.frappe.io/erpnext/payment-reconciliation) استفاده کنید. |
 | سررسید فاکتور تأمین‌کننده رسیده است | بر اساس فرایند تأیید، ثبت پرداخت، درخواست پرداخت یا دستور پرداخت بسازید یا بررسی کنید. |
 | مانده مورد اختلاف است | پیش از تغییر تراکنش، فاکتور، یادداشت بستانکاری یا یادداشت بدهکاری و دفترکل را بازبینی کنید. |
 
@@ -111,7 +111,7 @@ ERPNext معمولاً یک حساب دریافتنی مشترک نگه می‌�
 
 - [فاکتور فروش](sales-invoice.md)
 - [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice)
-- [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
+- [ثبت پرداخت](payment-entry.md)
 - [دفتر پرداخت](https://docs.frappe.io/erpnext/payment_ledger)
 - [پردازش صورت‌حساب‌ها](https://docs.frappe.io/erpnext/process-statement-of-accounts)
 - [حساب دریافتنی مشترک](common-receivable-account.md)

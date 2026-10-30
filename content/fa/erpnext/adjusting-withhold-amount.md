@@ -44,7 +44,7 @@ source_version: "c0e21554cc8d204c4a7fc702c7a90f903e0e094568e5f5279c658b001f6c3c6
 
 ## ایجاد ثبت پرداخت از فاکتور
 
-از فاکتور ارسالشده، **ایجاد > پرداخت** را انتخاب کنید. ERPNext یک [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry) با نوع پرداخت برابر **دریافت**، به‌همراه مشتری، حساب دریافتنی، حساب بانک و ارجاع فاکتور باز می‌کند.
+از فاکتور ارسالشده، **ایجاد > پرداخت** را انتخاب کنید. ERPNext یک [ثبت پرداخت](payment-entry.md) با نوع پرداخت برابر **دریافت**، به‌همراه مشتری، حساب دریافتنی، حساب بانک و ارجاع فاکتور باز می‌کند.
 
 می‌توانید ثبت پرداخت را از فهرست هم بسازید، اما شروع از خود فاکتور احتمال انتخاب طرف یا ارجاع اشتباه را کم می‌کند.
 
@@ -176,7 +176,7 @@ source_version: "c0e21554cc8d204c4a7fc702c7a90f903e0e094568e5f5279c658b001f6c3c6
 
 ## موضوعات مرتبط
 
-- [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
+- [ثبت پرداخت](payment-entry.md)
 - [فاکتور فروش](sales-invoice.md)
 - [دسته‌بندی کسر مالیات](https://docs.frappe.io/erpnext/tax-withholding-category)
 - [تطبیق پرداخت](https://docs.frappe.io/erpnext/payment-reconciliation)

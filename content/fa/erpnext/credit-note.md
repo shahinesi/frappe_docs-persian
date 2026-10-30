@@ -48,7 +48,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 پس از ارسال، یادداشت بستانکاری یک دریافتنی منفی برای مشتری ایجاد می‌کند.
 
-- برای بازپرداخت به مشتری، یک [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry) در برابر یادداشت بستانکاری بسازید.
+- برای بازپرداخت به مشتری، یک [ثبت پرداخت](payment-entry.md) در برابر یادداشت بستانکاری بسازید.
 - برای استفاده از اعتبار در فاکتور فروش دیگری، آن را از طریق [تطبیق پرداخت](https://docs.frappe.io/erpnext/payment-reconciliation) یا ثبت در دفتر روزنامهای با ارجاع درست تخصیص دهید.
 - برای نگه‌داشتن اعتبار جهت خرید آینده، آن را تا آماده‌شدن صورتحساب بعدی تخصیص‌نیافته بگذارید.
 
@@ -85,7 +85,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 - [فاکتور فروش](sales-invoice.md)
 - [بازگشت فروش](https://docs.frappe.io/erpnext/sales-return)
-- [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
+- [ثبت پرداخت](payment-entry.md)
 - [تطبیق پرداخت](https://docs.frappe.io/erpnext/payment-reconciliation)
 - [حساب‌های دریافتنی](accounts-receivables.md)
 - [یادداشت بدهکار (یادداشت بدهکاری)](debit-note.md)

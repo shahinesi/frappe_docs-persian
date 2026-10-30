@@ -71,7 +71,7 @@ source_version: "bd34bfcc374c4e3142209ed0031b60d01b8395f05dbaab4d099c7de6c775b7b
 
 ### تطبیق با سند موجود
 
-اگر تراکنش از قبل در دفاتر ثبت شده است، سند [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry) یا [ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry) موجود را انتخاب کنید. اگر بانک چند فعالیت را در یک ردیف ترکیب کرده باشد، می‌توان آن ردیف را با چند سند تطبیق داد. اگر بانک یک مبلغ را به چند ردیف شکسته باشد، ممکن است لازم باشد سند مربوط را با دقت رسیدگی کنید.
+اگر تراکنش از قبل در دفاتر ثبت شده است، سند [ثبت پرداخت](payment-entry.md) یا [ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry) موجود را انتخاب کنید. اگر بانک چند فعالیت را در یک ردیف ترکیب کرده باشد، می‌توان آن ردیف را با چند سند تطبیق داد. اگر بانک یک مبلغ را به چند ردیف شکسته باشد، ممکن است لازم باشد سند مربوط را با دقت رسیدگی کنید.
 
 ### ایجاد سند جاافتاده
 
@@ -137,7 +137,7 @@ source_version: "bd34bfcc374c4e3142209ed0031b60d01b8395f05dbaab4d099c7de6c775b7b
 
 - [حساب بانکی](bank-account.md)
 - [تطبیق بانکی](bank-reconciliation.md)
-- [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
+- [ثبت پرداخت](payment-entry.md)
 - [ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry)
 - [تطبیق پرداخت](https://docs.frappe.io/erpnext/payment-reconciliation)
 - [واردکردن داده‌ها (درون‌بُرد داده)](data-import.md)

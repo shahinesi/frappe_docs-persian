@@ -36,6 +36,7 @@
     "/framework/v14/user/en/guides/data/using-data-migration-tool": "/framework/user/en/guides/data/using-data-migration-tool",
     "/framework/v14/user/en/guides/integration/social_login_key": "/framework/user/en/guides/integration/social_login_key",
     "/erpnext/accounts-receivable": "/erpnext/accounts-receivable-and-payable",
-    "/erpnext/immutable-ledger": "/erpnext/immutable-ledger-in-erpnext"
+    "/erpnext/immutable-ledger": "/erpnext/immutable-ledger-in-erpnext",
+    "/erpnext/unreconcile-payments": "/erpnext/unreconciliation"
   }
 }

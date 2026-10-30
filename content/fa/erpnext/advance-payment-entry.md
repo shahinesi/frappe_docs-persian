@@ -78,7 +78,7 @@ ERPNext سوابق حسابداری مربوط و در صورت کاربرد، �
 
 ## موضوعات مرتبط
 
-- [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
+- [ثبت پرداخت](payment-entry.md)
 - [تطبیق پرداخت](https://docs.frappe.io/erpnext/payment-reconciliation)
 - [تطبیق بانکی](bank-reconciliation.md)
 - [تراکنش بانکی](bank-transaction.md)

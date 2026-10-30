@@ -241,7 +241,7 @@ flowchart LR
 - [اثر تراکنش‌ها بر دفترکل](https://docs.frappe.io/erpnext/how-transactions-affect-the-ledger)
 - [فاکتور فروش](sales-invoice.md)
 - [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice)
-- [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
+- [ثبت پرداخت](payment-entry.md)
 - [ارسال مستقیم برای مشتری (Drop Shipping)](drop-shipping-in-erpnext.md)
 
 ---

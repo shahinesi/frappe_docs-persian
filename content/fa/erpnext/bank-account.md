@@ -67,7 +67,7 @@ source_version: "eb3ae3d17b726eb4abbcbcee4ed5b77e10cf5c6121b596aa4804aa8ffbf4eb8
 
 حساب بانکی شرکت در موارد زیر به کار می‌رود:
 
-- [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry) و درخواست‌های پرداخت؛
+- [ثبت پرداخت](payment-entry.md) و درخواست‌های پرداخت؛
 - همگام‌سازی یا واردکردن صورتحساب؛
 - رکوردهای [تراکنش بانکی](bank-transaction.md)؛
 - [تطبیق بانکی](bank-reconciliation.md)؛
@@ -123,7 +123,7 @@ source_version: "eb3ae3d17b726eb4abbcbcee4ed5b77e10cf5c6121b596aa4804aa8ffbf4eb8
 - [بانک](bank.md)
 - [درخت حساب‌ها](chart-of-accounts.md)
 - [نحوه پرداخت](https://docs.frappe.io/erpnext/mode-of-payment)
-- [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
+- [ثبت پرداخت](payment-entry.md)
 - [تراکنش بانکی](bank-transaction.md)
 - [تطبیق بانکی](bank-reconciliation.md)
 

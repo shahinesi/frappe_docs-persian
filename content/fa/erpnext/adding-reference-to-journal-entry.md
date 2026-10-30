@@ -16,7 +16,7 @@ source_version: "a7e1d41ba3d7c24294de46efdededdaf593b8440707796f8df8a65245f143a1
 
 1. سند مورد ارجاع متعلق به همان شرکت باشد و برای تعدیل موردنظر شرایط لازم را داشته باشد.
 2. حساب، طرف حساب، جهت بدهکار یا بستانکار و مبلغ درست باشند.
-3. استفاده از سند اختصاصی مانند [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)، برگشت، [یادداشت بستانکار](credit-note.md) یا [یادداشت بدهکار (یادداشت بدهکاری)](debit-note.md) مناسب‌تر نباشد.
+3. استفاده از سند اختصاصی مانند [ثبت پرداخت](payment-entry.md)، برگشت، [یادداشت بستانکار](credit-note.md) یا [یادداشت بدهکار (یادداشت بدهکاری)](debit-note.md) مناسب‌تر نباشد.
 4. فاکتور برای تخصیص، ماندهٔ باز کافی داشته باشد.
 5. برای حذف از حساب یا تعدیل دستی، تأیید حسابداری و مدارک پشتیبان را داشته باشید.
 
@@ -136,7 +136,7 @@ source_version: "a7e1d41ba3d7c24294de46efdededdaf593b8440707796f8df8a65245f143a1
 ## موضوعات مرتبط
 
 - [ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry)
-- [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
+- [ثبت پرداخت](payment-entry.md)
 - [ثبت مطالبات سوخت‌شده](accounting-for-bad-debts.md)
 - [تطبیق پرداخت](https://docs.frappe.io/erpnext/payment-reconciliation)
 - [دفتر کل](general-ledger.md)

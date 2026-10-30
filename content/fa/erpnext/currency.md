@@ -84,7 +84,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 2. اگر طرف تجاری معمولاً از آن ارز استفاده می‌کند، ارز صورتحساب و حساب پیش‌فرضش را تنظیم کنید.
 3. اگر قیمت‌ها با ارز خارجی نگهداری می‌شوند، لیست قیمت متناظر بسازید.
 4. نرخ دستی را در تبدیل ارز اضافه کنید یا [تنظیمات نرخ تبدیل ارز](currency-exchange-settings.md) پیکربندی‌شده را بررسی کنید.
-5. پیش‌نویس [فاکتور فروش](sales-invoice.md)، [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice) یا [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry) را بیازمایید و جمع تراکنش و معادل آن با ارز شرکت را مقایسه کنید.
+5. پیش‌نویس [فاکتور فروش](sales-invoice.md)، [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice) یا [ثبت پرداخت](payment-entry.md) را بیازمایید و جمع تراکنش و معادل آن با ارز شرکت را مقایسه کنید.
 
 ## عیب‌یابی
 

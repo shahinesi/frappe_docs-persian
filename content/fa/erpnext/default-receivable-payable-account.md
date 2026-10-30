@@ -91,6 +91,6 @@ ERPNext ابتدا بررسی می‌کند آیا طرف تجاری برای ش
 ## موضوعات مرتبط
 
 - [پیش‌فرض‌های حسابداری شرکت](company-accounting-defaults.md)
-- [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
+- [ثبت پرداخت](payment-entry.md)
 - [تطبیق پرداخت](https://docs.frappe.io/erpnext/payment-reconciliation)
 - [ابعاد حسابداری](accounting-dimensions.md)

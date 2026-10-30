@@ -2360,6 +2360,14 @@
         "Get Items From &gt; Timesheet": "دریافت آیتم‌ها از > جدول زمانی"
       },
       "basis": "این برچسب‌ها در locale فارسی ERPNext ترجمه نشده‌اند؛ معادل‌های فارسی برای گروه ناوبری فروش، دکمهٔ فاکتور فروش و مسیرهای دریافت اقلام و پرداخت بازبینی شدند."
+    },
+    {
+      "product": "erpnext",
+      "source_labels": {
+        "Unreconcile Payments": "لغو تطبیق پرداخت‌ها",
+        "Deductions or Losses": "کسورات یا زیان‌ها"
+      },
+      "basis": "Unreconcile Payments در locale ERPNext ترجمه نشده؛ معادل فارسی برای کنش لغو تطبیق ثبت شد. شکل جمع Deductions or Losses نیز برای متن چند موردی راهنما بازبینی شد."
     }
   ],
   "source_files": {

@@ -18,7 +18,7 @@ source_version: "e01faa070fac749250e3dcd4404c3a718cf499d1f46244f3f3ee1e0aa623f7f
 
 - رکوردهای اصلی بانک و حساب بانکی را نگهداری کنند؛
 - صورتحساب وارد کنند یا بانک متصل را همگام‌سازی کنند؛
-- [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry) ایجاد و ثبت کنند؛
+- [ثبت پرداخت](payment-entry.md) ایجاد و ثبت کنند؛
 - ردیف‌های صورتحساب را تطبیق دهند؛
 - تطبیق‌های تکمیل‌شده را لغو یا از حالت تطبیق خارج کنند.
 
@@ -144,7 +144,7 @@ source_version: "e01faa070fac749250e3dcd4404c3a718cf499d1f46244f3f3ee1e0aa623f7f
 - [بانک](bank.md)
 - [حساب بانکی](bank-account.md)
 - [تراکنش بانکی](bank-transaction.md)
-- [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
+- [ثبت پرداخت](payment-entry.md)
 - [تطبیق بانکی](bank-reconciliation.md)
 - [دفتر پرداخت](https://docs.frappe.io/erpnext/payment_ledger)
 

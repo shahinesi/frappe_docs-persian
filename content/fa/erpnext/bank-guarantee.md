@@ -23,7 +23,7 @@ Northstar Retail، مشتری Nova Industries، سفارش بزرگی از تج�
 - بانک صادرکننده و حساب بانکی؛
 - وجه‌الضمان، هزینه‌ها، سپردهٔ مدت‌دار و ثبت‌های حسابداری مرتبط.
 
-ابتدا [بانک](bank.md) و [حساب بانکی](bank-account.md) را ایجاد کنید. با واحد مالی هماهنگ کنید که وجه‌الضمان و هزینه‌ها چطور از طریق [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry) یا [ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry) ثبت شوند.
+ابتدا [بانک](bank.md) و [حساب بانکی](bank-account.md) را ایجاد کنید. با واحد مالی هماهنگ کنید که وجه‌الضمان و هزینه‌ها چطور از طریق [ثبت پرداخت](payment-entry.md) یا [ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry) ثبت شوند.
 
 ## ایجاد ضمانت‌نامهٔ بانکی
 
@@ -136,7 +136,7 @@ Northstar Retail، مشتری Nova Industries، سفارش بزرگی از تج�
 
 - [بانک](bank.md)
 - [حساب بانکی](bank-account.md)
-- [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
+- [ثبت پرداخت](payment-entry.md)
 - [ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry)
 - [سفارش فروش](sales-order.md)
 - [سفارش خرید](purchase-order.md)

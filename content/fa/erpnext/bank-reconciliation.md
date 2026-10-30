@@ -108,7 +108,7 @@ ERPNext سوابق حسابداری مرتبط و در صورت لزوم مبا�
 
 ## موضوعات مرتبط
 
-- [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
+- [ثبت پرداخت](payment-entry.md)
 - [تطبیق پرداخت](https://docs.frappe.io/erpnext/payment-reconciliation)
 - [تراکنش بانکی](bank-transaction.md)
 - [ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry)

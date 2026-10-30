@@ -99,7 +99,7 @@ source_version: "13a2e3f54576d175184680e633969bab079e9b4511eb0d3bc00ec608863d237
 
 ## موضوعات مرتبط
 
-- [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
+- [ثبت پرداخت](payment-entry.md)
 - [تطبیق بانکی](bank-reconciliation.md)
 - [تطبیق موجودی](https://docs.frappe.io/erpnext/stock-reconciliation)
 - [دارایی](asset.md)

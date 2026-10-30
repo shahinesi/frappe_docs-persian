@@ -68,7 +68,7 @@ source_version: "435e57b6dc9bbb1927291e211a0fd2bdf66a4d2b9c1eabe491f8f21a8406d9b
 
 ![اقلام موجودی در فاکتور خرید ثبت‌شدهٔ ERPNext](https://novacompanies.m.frappe.cloud/files/accounting-entries-20260802-accounting-entries-purchase-invoice.png)
 
-برای 2,000 دلاری که همان لحظه پرداخت شده، [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry) بسازید و آن را به فاکتور تأمین‌کننده تخصیص دهید. ERPNext در این پرداخت حساب‌های پرداختنی را بدهکار و بانک را بستانکار می‌کند. 3,000 دلار باقی‌مانده تا زمان پرداخت یا تعدیل، تسویه‌نشده می‌ماند.
+برای 2,000 دلاری که همان لحظه پرداخت شده، [ثبت پرداخت](payment-entry.md) بسازید و آن را به فاکتور تأمین‌کننده تخصیص دهید. ERPNext در این پرداخت حساب‌های پرداختنی را بدهکار و بانک را بستانکار می‌کند. 3,000 دلار باقی‌مانده تا زمان پرداخت یا تعدیل، تسویه‌نشده می‌ماند.
 
 ## 3. فروش موجودی
 
@@ -224,7 +224,7 @@ ERPNext برای محافظت از حساب‌های بسته‌شده، کنت�
 - [دفتر کل](general-ledger.md)
 - [درخت حساب‌ها](chart-of-accounts.md)
 - [سند مالی پایان دوره](https://docs.frappe.io/erpnext/period-closing-voucher)
-- [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
+- [ثبت پرداخت](payment-entry.md)
 
 ---
 منبع: [ثبت‌های حسابداری](https://docs.frappe.io/erpnext/accounting-entries). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

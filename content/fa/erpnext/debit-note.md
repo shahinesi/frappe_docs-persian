@@ -130,6 +130,6 @@ ERPNext در بعضی پیکربندی‌ها از برگشتِ بدون پیو�
 - [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice)
 - [یادداشت بدهکاری برای تعدیل قیمت](debit-note-for-price-adjustment.md)
 - [رسید خرید](https://docs.frappe.io/erpnext/purchase-receipt)
-- [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
+- [ثبت پرداخت](payment-entry.md)
 - [تطبیق پرداخت](https://docs.frappe.io/erpnext/payment-reconciliation)
 - [حساب‌های دریافتنی و پرداختنی](accounts-receivable-and-payable.md)

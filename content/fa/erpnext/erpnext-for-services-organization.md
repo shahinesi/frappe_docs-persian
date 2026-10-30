@@ -52,7 +52,7 @@ ERPNext از سازمان‌های خدماتی مانند شرکت‌های ن�
 
 فرایند پیشنهادی برای خدمتی که بر سر آن توافق شده است:
 
-**[پیش‌فاکتور](https://docs.frappe.io/erpnext/quotation) → [سفارش فروش](sales-order.md) → [فاکتور فروش](sales-invoice.md) → [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)**
+**[پیش‌فاکتور](https://docs.frappe.io/erpnext/quotation) → [سفارش فروش](sales-order.md) → [فاکتور فروش](sales-invoice.md) → [ثبت پرداخت](payment-entry.md)**
 
 اگر مشتری قبلاً انجام کار را تأیید کرده است، پیش‌فاکتور اختیاری است.
 

@@ -60,7 +60,7 @@ source_version: "f67353fe32ac7791f28480396b66ca33e860f3dfada079ab65cbe7f4d7a1d02
 ## موضوعات مرتبط
 
 - [یادداشت بستانکار](credit-note.md)
-- [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
+- [ثبت پرداخت](payment-entry.md)
 - [تطبیق پرداخت](https://docs.frappe.io/erpnext/payment-reconciliation)
 - [حساب‌های دریافتنی](accounts-receivables.md)
 - [ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry)

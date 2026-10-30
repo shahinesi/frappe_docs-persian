@@ -82,7 +82,7 @@ description: "فهرست راهنماهای ERPNext به تفکیک سامانه
 - [ثبت چک تاریخ‌دار](https://docs.frappe.io/erpnext/post-dated-cheque-entry)
 - [ثبت ردیف مابه‌التفاوت (ساختن ورودی تفاوت)](difference-entry-button.md)
 - [پیکربندی مالیات‌ها](https://docs.frappe.io/erpnext/setting-up-taxes)
-- [تطبیق نشده](https://docs.frappe.io/erpnext/unreconciliation)
+- [لغو تطبیق پرداخت‌ها](https://docs.frappe.io/erpnext/unreconciliation)
 - [سند مالی پایان دوره](https://docs.frappe.io/erpnext/period-closing-voucher)
 - [ابزار مهاجرت QuickBooks (منسوخ)](https://docs.frappe.io/erpnext/quickbooks-migrator)
 - [پردازش صورت‌حساب‌ها](https://docs.frappe.io/erpnext/process-statement-of-accounts)
