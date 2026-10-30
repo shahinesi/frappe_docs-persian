@@ -230,6 +230,31 @@ test('maps legacy docs.erpnext.com URLs through their verified redirect to a tra
 	assert.equal(result.counters.localizedUrls, 1);
 });
 
+test('maps legacy Frappe ERPNext manual URLs to the translated current page', () => {
+	const result = prepareMarkdownLinks('[Email Account](https://docs.frappe.io/erpnext/user/manual/en/email-account)', {
+		currentPath: 'content/fa/framework/help/example.md',
+		manifest: { pages: [{
+			url: 'https://docs.frappe.io/erpnext/email-account',
+			section: 'erpnext',
+			source_title: 'Email Account',
+			translation_path: 'content/fa/erpnext/email-account.md',
+		}] },
+		titles: new Map([['content/fa/erpnext/email-account.md', 'حساب کاربری ایمیل']]),
+		terms: {},
+	});
+	assert.equal(result.markdown, '[حساب کاربری ایمیل](../../erpnext/email-account.md)');
+	assert.equal(result.counters.localizedUrls, 1);
+});
+
+test('preserves English identifiers in raw HTML attributes while localizing prose', () => {
+	const result = prepareMarkdownLinks('**Email Account**\n<a id="provider-rejects-the-connection-or-account"></a>', {
+		currentPath: 'content/fa/framework/help/example.md',
+		manifest,
+		terms: { 'Email Account': 'حساب کاربری ایمیل', Account: 'حساب' },
+	});
+	assert.equal(result.markdown, '**حساب کاربری ایمیل**\n<a id="provider-rejects-the-connection-or-account"></a>');
+});
+
 test('treats translated labels containing the word source as normal page links', () => {
 	const leadSource = {
 		pages: [{

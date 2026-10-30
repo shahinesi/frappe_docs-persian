@@ -121,7 +121,11 @@ for (const file of pages) {
         const url = new URL(href);
         if (['docs.frappe.io', 'docs.erpnext.com'].includes(url.hostname.toLowerCase())
           && !url.pathname.startsWith('/files/')) {
-          const officialTarget = byOfficialPath.get(`${url.hostname}${url.pathname.replace(/\/$/, '')}`);
+          const pathname = url.pathname.replace(/\/$/, '');
+          const legacyErpNextPath = pathname.match(/^\/erpnext\/user\/manual\/en\/(.+)$/);
+          const canonicalPath = legacyErpNextPath ? `/erpnext/${legacyErpNextPath[1]}` : pathname;
+          const officialTarget = byOfficialPath.get(`${url.hostname}${pathname}`)
+            || byOfficialPath.get(`${url.hostname}${canonicalPath}`);
           const isThisPageSource = source && officialTarget === source && href.split(/[?#]/, 1)[0] === sourceUrl;
           if (officialTarget?.translation_path && !isThisPageSource) {
             failures.push(`${relative}: official link to a translated page must use its local Persian Markdown target: ${href}`);

@@ -1,6 +1,6 @@
 import path from 'node:path';
 
-const MARKDOWN_TOKEN = /```[\s\S]*?```|~~~[\s\S]*?~~~|(?:^(?: {4}|\t)[^\n]*(?:\r?\n|$))+|`[^`\n]*`|<code\b[^>]*>[\s\S]*?<\/code\s*>|<pre\b[^>]*>[\s\S]*?<\/pre\s*>|!\[[^\]]*\]\([^)]*\)|\[[^\]]*\]\([^)]*\)|\*\*(?![^*\n]*(?:\]\(|`))[^*\n]+\*\*/gim;
+const MARKDOWN_TOKEN = /```[\s\S]*?```|~~~[\s\S]*?~~~|(?:^(?: {4}|\t)[^\n]*(?:\r?\n|$))+|`[^`\n]*`|<code\b[^>]*>[\s\S]*?<\/code\s*>|<pre\b[^>]*>[\s\S]*?<\/pre\s*>|<\/?[A-Za-z][^>\n]*>|<!--[\s\S]*?-->|!\[[^\]]*\]\([^)]*\)|\[[^\]]*\]\([^)]*\)|\*\*(?![^*\n]*(?:\]\(|`))[^*\n]+\*\*/gim;
 const FA_LETTER = /[\u0600-\u06FF]/;
 const ATTRIBUTION_LABEL = /^(?:منبع رسمی|منبع اصلی|مشاهده\s*(?:ٔ|ی|ِ)?\s*منبع(?:\s*(?:ٔ|ی|ِ)?\s*اصلی)?|صفحهٔ منبع|original source|source)$/i;
 const mixedEntriesCache = new Map();
@@ -228,7 +228,9 @@ function getOfficialPage(href, byPath, aliases = new Map()) {
 		if (url.pathname.startsWith('/files/')) return null;
 		const pathname = decodeURI(url.pathname).replace(/\/$/, '').replace(/\.md$/i, '');
 		const section = pathname.split('/')[1];
-		const page = byPath.get(pathname) || byPath.get(aliases.get(pathname));
+		const legacyErpNextPath = pathname.match(/^\/erpnext\/user\/manual\/en\/(.+)$/);
+		const canonicalPath = legacyErpNextPath ? `/erpnext/${legacyErpNextPath[1]}` : pathname;
+		const page = byPath.get(pathname) || byPath.get(aliases.get(pathname)) || byPath.get(canonicalPath);
 		return { page, hash: url.hash, section: page?.section || section, pathname };
 	} catch {
 		return null;
@@ -391,7 +393,7 @@ export function prepareMarkdownLinks(markdown, {
 		const index = match.index ?? 0;
 		const plainText = body.slice(lastIndex, index);
 		result += localizeBreadcrumbs(localizeBareListLabels(replaceKnownUiEntities(localizeStatusMentions(replaceUiTerms(plainText, bodyTerms, counters, mixedEntries), allTerms, counters), allTerms, counters), allTerms, counters, mixedEntries, phraseTerms), allTerms, counters, mixedEntries, phraseTerms);
-		if (token.startsWith('```') || token.startsWith('`')) {
+		if (token.startsWith('```') || token.startsWith('`') || token.startsWith('<')) {
 			result += token;
 		} else if (token.startsWith('![')) {
 			result += localizeImageAlt(token, allTerms, counters, mixedEntries, phraseTerms);
