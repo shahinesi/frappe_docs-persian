@@ -70,5 +70,5 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 - [معرفی حسابداری ERPNext](accounting-introduction.md)
 - [درخت حساب‌ها](chart-of-accounts.md)
-- [دفتر کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفتر کل](general-ledger.md)
 - [سال مالی در ERPNext](fiscal-year.md)

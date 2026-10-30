@@ -63,7 +63,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 پس از ارسال تراکنشی که از مرکز هزینهٔ اصلی استفاده می‌کند، از منوی سند **دفتر حسابداری** آن را باز کنید. بررسی کنید مبلغ دفترکل مربوط میان مراکز هزینهٔ موردانتظار تقسیم شده و جمع سهم‌ها با مبلغ اصلی برابر باشد.
 
-همچنین می‌توانید گزارش [دفتر کل](https://docs.frappe.io/erpnext/general-ledger) را باز و بر اساس هر مرکز هزینهٔ دریافت‌کننده فیلتر کنید. برای مقایسهٔ یک دوره، از [گزارش سود و زیان](https://docs.frappe.io/erpnext/profit-and-loss-report) با فیلتر مرکز هزینه استفاده کنید.
+همچنین می‌توانید گزارش [دفتر کل](general-ledger.md) را باز و بر اساس هر مرکز هزینهٔ دریافت‌کننده فیلتر کنید. برای مقایسهٔ یک دوره، از [گزارش سود و زیان](https://docs.frappe.io/erpnext/profit-and-loss-report) با فیلتر مرکز هزینه استفاده کنید.
 
 ## تغییر تخصیص
 
@@ -107,7 +107,7 @@ ERPNext جدیدترین قاعدهٔ ارسال‌شده و قابل‌اعما
 
 - [مرکز هزینه](cost-center.md)
 - [ابعاد حسابداری](accounting-dimensions.md)
-- [دفتر کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفتر کل](general-ledger.md)
 - [ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry)
 - [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice)
 - [بودجه](budget.md)

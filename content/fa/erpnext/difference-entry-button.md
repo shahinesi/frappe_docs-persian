@@ -80,7 +80,7 @@ ERPNext یک ردیف با مبلغ دقیق لازم برای برابرشدن 
 
 ![ثبت در دفتر روزنامه ثبت‌نهایی‌شده با هر سه ردیف حسابداری](https://novacompanies.m.frappe.cloud/files/docs-gl-2026-difference-entry-submitted-difference-journal-entry.png)
 
-4. **مشاهده > دفتر کل** را باز کنید یا گزارش [دفتر کل](https://docs.frappe.io/erpnext/general-ledger) را با ثبت در دفتر روزنامه به‌عنوان فیلتر voucher اجرا کنید.
+4. **مشاهده > دفتر کل** را باز کنید یا گزارش [دفتر کل](general-ledger.md) را با ثبت در دفتر روزنامه به‌عنوان فیلتر voucher اجرا کنید.
 5. بدهکار و بستانکار هر حساب و صفر بودن ماندهٔ کل voucher را بررسی کنید.
 
 ![دفتر کل با ردیف مابه‌التفاوت هزینه‌های بانکی](https://novacompanies.m.frappe.cloud/files/docs-gl-2026-difference-entry-difference-entry-general-ledger.png)
@@ -149,7 +149,7 @@ ERPNext افزون بر توازن، شرکت، نوع حساب، طرف حسا�
 - [ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry)
 - [آشنایی با بدهکار و بستانکار](https://docs.frappe.io/erpnext/understand-debit-and-credit)
 - [درخت حساب‌ها](chart-of-accounts.md)
-- [دفتر کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفتر کل](general-ledger.md)
 - [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
 - [حسابداری چندارزی](https://docs.frappe.io/erpnext/multi-currency-accounting)
 - [الگوی ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry-template)

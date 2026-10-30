@@ -43,7 +43,7 @@ Nova در حساب‌های دریافتنی $316,212 و در حساب‌های 
 
 ## بررسی جزئیات یک مانده
 
-مبلغ یک حساب را انتخاب کنید تا ردیف‌های آن در [دفتر کل](https://docs.frappe.io/erpnext/general-ledger) باز شود. پیش از مقایسهٔ مقادیر، شرکت، تاریخ، دفتر مالی، ارز و ابعاد حسابداری را با فیلترهای ترازنامه یکسان نگه دارید.
+مبلغ یک حساب را انتخاب کنید تا ردیف‌های آن در [دفتر کل](general-ledger.md) باز شود. پیش از مقایسهٔ مقادیر، شرکت، تاریخ، دفتر مالی، ارز و ابعاد حسابداری را با فیلترهای ترازنامه یکسان نگه دارید.
 
 ![جزئیات دفتر کل که از یک حساب در ترازنامه باز شده است](https://novacompanies.m.frappe.cloud/files/docs-20260814-nova-industries-balance-sheet-loaded-drilldown.png)
 
@@ -92,7 +92,7 @@ Nova در حساب‌های دریافتنی $316,212 و در حساب‌های 
 - [گزارش سود و زیان](https://docs.frappe.io/erpnext/profit-and-loss-report)
 - [گزارش جریان نقدی](cash-flow-report.md)
 - [تراز آزمایشی](https://docs.frappe.io/books/trial-balance)
-- [دفتر کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفتر کل](general-ledger.md)
 - [سند مالی پایان دوره](https://docs.frappe.io/erpnext/period-closing-voucher)
 
 منبع: [ترازنامه](https://docs.frappe.io/erpnext/balance-sheet). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های رسمی پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

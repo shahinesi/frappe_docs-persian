@@ -98,7 +98,7 @@ source_version: "7fc92e3fa2d1d02b6760a415be8fd7c303efd4f82b1950519f4edcaaa279553
 
 ## بررسی نتیجه
 
-پس از ارسال، [دفتر کل](https://docs.frappe.io/erpnext/general-ledger) و گزارش حساب‌های دریافتنی را با همان شرکت، تاریخ ثبت و ارز بررسی کنید.
+پس از ارسال، [دفتر کل](general-ledger.md) و گزارش حساب‌های دریافتنی را با همان شرکت، تاریخ ثبت و ارز بررسی کنید.
 
 مطمئن شوید که:
 
@@ -148,7 +148,7 @@ source_version: "7fc92e3fa2d1d02b6760a415be8fd7c303efd4f82b1950519f4edcaaa279553
 - [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice)
 - [یادداشت بستانکار](credit-note.md)
 - [بهرهٔ فروش و اخطار دیرکرد پرداخت (Dunning)](dunning.md)
-- [دفتر کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفتر کل](general-ledger.md)
 
 ---
 منبع: [ثبت مطالبات سوخت‌شده](https://docs.frappe.io/erpnext/accounting-for-bad-debts). این صفحه ترجمهٔ غیررسمی است و محتوای آن تحت شرایط CC BY-SA بازنشر شده است.

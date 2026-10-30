@@ -99,7 +99,7 @@ ERPNext حساب دریافتنی معمول مشتری را ایجاد می‌�
 
 گزارش [گزارش درآمدها و هزینه‌های انتقالی](expense_report.md) را اجرا کنید و فاکتور، دورهٔ خدمت، مبلغ فاکتور، مبلغ شناسایی‌شده و ماندهٔ در انتظار را بررسی کنید.
 
-سپس [دفتر کل](https://docs.frappe.io/erpnext/general-ledger) را بازبینی کنید:
+سپس [دفتر کل](general-ledger.md) را بازبینی کنید:
 
 - ماندهٔ بدهی انتقالی باید با مبلغ فاکتور آغاز شود.
 - هر دورهٔ شناسایی باید از این بدهی کم کند.
@@ -158,5 +158,5 @@ ERPNext حساب دریافتنی معمول مشتری را ایجاد می‌�
 - [گزارش درآمدها و هزینه‌های انتقالی](expense_report.md)
 - [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice)
 - [ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry)
-- [دفتر کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفتر کل](general-ledger.md)
 

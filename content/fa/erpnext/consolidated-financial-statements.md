@@ -56,4 +56,4 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 - [سند مالی پایان دوره](https://docs.frappe.io/erpnext/period-closing-voucher)
 - [درخت حساب‌ها](chart-of-accounts.md)
-- [دفتر کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفتر کل](general-ledger.md)

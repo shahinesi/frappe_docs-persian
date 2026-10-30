@@ -15,7 +15,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 >
 > تصویرها در این مخزن بازنشر نشده‌اند و پیوندشان به فایل‌های میزبان منبع اشاره می‌کند.
 
-قابلیت حسابداری تخفیف به ERPNext اجازه می‌دهد تخفیف فروش را به‌جای آنکه فقط درآمد کاهش‌یافته ثبت شود، جداگانه در [دفتر کل](https://docs.frappe.io/erpnext/general-ledger) نشان دهد. زمانی از آن استفاده کنید که واحد مالی به گزارش جداگانهٔ فروش ناخالص و تخفیف‌های اعطاشده نیاز دارد.
+قابلیت حسابداری تخفیف به ERPNext اجازه می‌دهد تخفیف فروش را به‌جای آنکه فقط درآمد کاهش‌یافته ثبت شود، جداگانه در [دفتر کل](general-ledger.md) نشان دهد. زمانی از آن استفاده کنید که واحد مالی به گزارش جداگانهٔ فروش ناخالص و تخفیف‌های اعطاشده نیاز دارد.
 
 این تنظیم نحوهٔ نمایش حسابداری را تغییر می‌دهد. مشخص نمی‌کند چه کسی واجد دریافت تخفیف است و شرایط تبلیغاتی را محاسبه نمی‌کند. تخفیف تجاری را با [اعمال تخفیف بر تراکنش‌های فروش](applying-discount.md)، [قانون قیمت گذاری](https://docs.frappe.io/erpnext/pricing-rule) یا روش قیمت‌گذاری تأییدشدهٔ دیگری پیکربندی کنید.
 
@@ -186,5 +186,5 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - [قانون قیمت گذاری](https://docs.frappe.io/erpnext/pricing-rule)
 - [تنظیمات فروش](https://docs.frappe.io/erpnext/selling-settings)
 - [درخت حساب‌ها](chart-of-accounts.md)
-- [دفتر کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفتر کل](general-ledger.md)
 - [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice)

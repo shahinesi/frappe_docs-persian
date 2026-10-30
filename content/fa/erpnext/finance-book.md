@@ -62,7 +62,7 @@ description: "استفاده از دفترهای مالی برای گزارشگ�
 
 ## بررسی گزارش‌ها بر پایهٔ دفتر مالی
 
-گزارش [دفتر کل](https://docs.frappe.io/erpnext/general-ledger)، [تراز آزمایشی](https://docs.frappe.io/books/trial-balance)، [ترازنامه](balance-sheet.md) یا [گزارش سود و زیان](https://docs.frappe.io/erpnext/profit-and-loss-report) را باز کنید. شرکت، تاریخ‌ها و دفتر مالی را انتخاب و گزارش را تازه‌سازی کنید.
+گزارش [دفتر کل](general-ledger.md)، [تراز آزمایشی](https://docs.frappe.io/books/trial-balance)، [ترازنامه](balance-sheet.md) یا [گزارش سود و زیان](https://docs.frappe.io/erpnext/profit-and-loss-report) را باز کنید. شرکت، تاریخ‌ها و دفتر مالی را انتخاب و گزارش را تازه‌سازی کنید.
 
 ![دفتر کل با فیلتر دفتر مالی گزارشگری قانونی](https://novacompanies.m.frappe.cloud/files/docs-gl-refresh-20260803-finance-book-general-ledger-finance-book-filter.png)
 
@@ -145,7 +145,7 @@ ERPNext می‌تواند برای هر دفتر مالی یک [استهلاک](
 ## موضوعات مرتبط
 
 - [ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry)
-- [دفتر کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفتر کل](general-ledger.md)
 - [دارایی](asset.md)
 - [استهلاک](asset-depreciation.md)
 - [ابعاد حسابداری](accounting-dimensions.md)

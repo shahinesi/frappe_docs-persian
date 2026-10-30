@@ -50,7 +50,7 @@ source_version: "79437768ded14e6c24a1398035de09dd7daf62e2da56f1957b07e42b9c59a58
 ## موضوعات مرتبط
 
 - [ابعاد حسابداری](accounting-dimensions.md)
-- [دفتر کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفتر کل](general-ledger.md)
 - [مرکز هزینه](cost-center.md)
 
 ---

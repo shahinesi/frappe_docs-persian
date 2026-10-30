@@ -60,7 +60,7 @@ source_version: "a7e1d41ba3d7c24294de46efdededdaf593b8440707796f8df8a65245f143a1
 
 برای تعدیل تأمین‌کننده، ردیف پرداختنی و جهت بدهکار یا بستانکار به رویداد تجاری بستگی دارد. فقط برای اینکه سند ثبت نهایی شود، علامت‌ها را برعکس نکنید. اثر موردنظر در دفتر کل را با حسابدار خود تأیید کنید.
 
-پس از ثبت نهایی، صورتحسابِ مورد ارجاع را باز کنید و مبلغ باز آن را بررسی کنید. همچنین می‌توانید از **مشاهده > دفتر کل**، [دفتر کل](https://docs.frappe.io/erpnext/general-ledger) و [حساب‌های دریافتنی و پرداختنی](accounts-receivable-and-payable.md) برای بررسی تخصیص استفاده کنید.
+پس از ثبت نهایی، صورتحسابِ مورد ارجاع را باز کنید و مبلغ باز آن را بررسی کنید. همچنین می‌توانید از **مشاهده > دفتر کل**، [دفتر کل](general-ledger.md) و [حساب‌های دریافتنی و پرداختنی](accounts-receivable-and-payable.md) برای بررسی تخصیص استفاده کنید.
 
 ## اسنادی که می‌توان به آن‌ها ارجاع داد
 
@@ -139,7 +139,7 @@ source_version: "a7e1d41ba3d7c24294de46efdededdaf593b8440707796f8df8a65245f143a1
 - [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
 - [ثبت مطالبات سوخت‌شده](accounting-for-bad-debts.md)
 - [تطبیق پرداخت](https://docs.frappe.io/erpnext/payment-reconciliation)
-- [دفتر کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفتر کل](general-ledger.md)
 - [دفتر کل تغییرناپذیر](https://docs.frappe.io/erpnext/immutable-ledger-in-erpnext)
 
 منبع: [افزودن ارجاع به سند حسابداری](https://docs.frappe.io/erpnext/adding-reference-to-journal-entry). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های منبع پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

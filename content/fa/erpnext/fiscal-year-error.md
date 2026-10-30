@@ -43,7 +43,7 @@ description: "بررسی و رفع خطای تاریخ ثبت خارج از سا
 
 - [معرفی حسابداری ERPNext](accounting-introduction.md)
 - [درخت حساب‌ها](chart-of-accounts.md)
-- [دفتر کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفتر کل](general-ledger.md)
 - [سال مالی در ERPNext](fiscal-year.md)
 
 منبع: [رفع خطای سال مالی در ERPNext](https://docs.frappe.io/erpnext/fiscal-year-error). این صفحه ترجمهٔ غیررسمی است؛ مجوز محتوای منبع هنوز تأیید نشده است و تا زمان بررسی، بازنشر تحت شرایط CC BY-SA تأیید نمی‌شود. تصویر به منبع رسمی پیوند دارد و در این مخزن بازنشر نشده است.

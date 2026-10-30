@@ -6,7 +6,7 @@ source_id: "erpnext/accounting-entries"
 source_version: "435e57b6dc9bbb1927291e211a0fd2bdf66a4d2b9c1eabe491f8f21a8406d9bc"
 ---
 
-هر تراکنش حسابداریِ ارسالشده در ERPNext، ثبت‌های بدهکار و بستانکارِ متوازنی در [دفتر کل](https://docs.frappe.io/erpnext/general-ledger) ایجاد می‌کند. معمولاً لازم نیست این ردیف‌ها را خودتان ثبت کنید. سند کسب‌وکار، مانند فاکتور فروش یا ثبت پرداخت، را می‌سازید و ERPNext با استفاده از حساب‌ها و مبلغ‌های آن، اثر دفترکل را ایجاد می‌کند.
+هر تراکنش حسابداریِ ارسالشده در ERPNext، ثبت‌های بدهکار و بستانکارِ متوازنی در [دفتر کل](general-ledger.md) ایجاد می‌کند. معمولاً لازم نیست این ردیف‌ها را خودتان ثبت کنید. سند کسب‌وکار، مانند فاکتور فروش یا ثبت پرداخت، را می‌سازید و ERPNext با استفاده از حساب‌ها و مبلغ‌های آن، اثر دفترکل را ایجاد می‌کند.
 
 این صفحه کسب‌وکار کوچکی را از سرمایه‌گذاری مالک تا خرید، فروش، پرداخت هزینه‌ها و بستن دوره دنبال می‌کند. مثال‌ها منطق حسابداریِ پشت سندها را توضیح می‌دهند و نیازی به حفظ‌کردن قواعد ثبت ثبت در دفتر روزنامه ندارند.
 
@@ -221,7 +221,7 @@ ERPNext برای محافظت از حساب‌های بسته‌شده، کنت�
 - [آشنایی با بدهکار و بستانکار](https://docs.frappe.io/erpnext/understand-debit-and-credit)
 - [اثر تراکنش‌ها بر دفترکل](https://docs.frappe.io/erpnext/how-transactions-affect-the-ledger)
 - [ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry)
-- [دفتر کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفتر کل](general-ledger.md)
 - [درخت حساب‌ها](chart-of-accounts.md)
 - [سند مالی پایان دوره](https://docs.frappe.io/erpnext/period-closing-voucher)
 - [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)

@@ -73,6 +73,6 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - [بازنشر دفتر حسابداری](https://docs.frappe.io/erpnext/repost-accounting-ledger)
 - [ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry)
 - [قفل‌کردن ثبت‌های حسابداری](freeze-accounting-entries.md)
-- [دفتر کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفتر کل](general-ledger.md)
 
 **منبع:** [اصلاح ثبت حسابداری ارسال‌شده](https://docs.frappe.io/erpnext/correct-a-submitted-accounting-entry). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. پویانمایی‌های اصلی در این مخزن بازنشر نشده‌اند.

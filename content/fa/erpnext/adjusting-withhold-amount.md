@@ -108,7 +108,7 @@ source_version: "c0e21554cc8d204c4a7fc702c7a90f903e0e094568e5f5279c658b001f6c3c6
 
 ثبت پرداخت را ارسال و سپس فاکتور فروش را دوباره باز کنید. مبلغ تسویه‌نشده باید به‌اندازهٔ کل مبلغ تخصیص‌یافته کاهش یابد، نه فقط وجه نقد دریافتی.
 
-[دفتر کل](https://docs.frappe.io/erpnext/general-ledger) را بررسی کنید:
+[دفتر کل](general-ledger.md) را بررسی کنید:
 
 1. بانک به‌اندازهٔ وجه نقد دریافتی بدهکار شده باشد.
 2. دریافتنی مالیات تکلیفی به‌اندازهٔ مبلغ نگه‌داشته‌شده بدهکار شده باشد.
@@ -180,7 +180,7 @@ source_version: "c0e21554cc8d204c4a7fc702c7a90f903e0e094568e5f5279c658b001f6c3c6
 - [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice)
 - [دسته‌بندی کسر مالیات](https://docs.frappe.io/erpnext/tax-withholding-category)
 - [تطبیق پرداخت](https://docs.frappe.io/erpnext/payment-reconciliation)
-- [دفتر کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفتر کل](general-ledger.md)
 - [حساب‌های دریافتنی و پرداختنی](accounts-receivable-and-payable.md)
 
 ---

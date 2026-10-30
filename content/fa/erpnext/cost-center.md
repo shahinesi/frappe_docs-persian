@@ -83,6 +83,6 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - [پیش‌فرض‌های حسابداری شرکت](company-accounting-defaults.md)
 - [ابعاد حسابداری](accounting-dimensions.md)
 - [بودجه](budget.md)
-- [دفتر کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفتر کل](general-ledger.md)
 
 **منبع:** [مرکز هزینه](https://docs.frappe.io/erpnext/cost-center). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر اصلی در این مخزن بازنشر نشده‌اند.

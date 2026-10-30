@@ -99,7 +99,7 @@ ERPNext بدهی به تأمین‌کننده را ایجاد می‌کند؛ ا
 
 [گزارش درآمدها و هزینه‌های انتقالی](expense_report.md) را باز کنید و فاکتور خرید، دورهٔ خدمت، مبلغ صورتحساب‌شده، مبلغ شناسایی‌شده و ماندهٔ در انتظار را بررسی کنید.
 
-سپس [دفتر کل](https://docs.frappe.io/erpnext/general-ledger) را بازبینی کنید:
+سپس [دفتر کل](general-ledger.md) را بازبینی کنید:
 
 - ماندهٔ دارایی انتقالی باید با مبلغ صورتحساب واجد شرایط آغاز شود؛
 - در هر دورهٔ شناسایی باید آن دارایی بستانکار شود؛
@@ -160,4 +160,4 @@ ERPNext بدهی به تأمین‌کننده را ایجاد می‌کند؛ ا
 - [گزارش درآمدها و هزینه‌های انتقالی](expense_report.md)
 - [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice)
 - [ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry)
-- [دفتر کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفتر کل](general-ledger.md)

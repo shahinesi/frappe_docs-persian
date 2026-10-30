@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "method": "Curated redirects for legacy official documentation URLs confirmed to be unavailable; each target is a current page present in the official sitemap manifest.",
+  "method": "Curated canonical mappings for legacy or product-mismatched official documentation URLs; each target is a current page present in the official sitemap manifest.",
   "aliases": {
     "/erpnext/profit-and-loss-statement": "/erpnext/profit-and-loss-report",
     "/erpnext/understanding-debit-and-credit": "/erpnext/understand-debit-and-credit",
@@ -34,6 +34,8 @@
     "/erpnext/sales-reports": "/erpnext/sales-analytics",
     "/erpnext/drop-ship-between-subsidiary-companies": "/erpnext/inter-company-invoices",
     "/framework/v14/user/en/guides/data/using-data-migration-tool": "/framework/user/en/guides/data/using-data-migration-tool",
-    "/framework/v14/user/en/guides/integration/social_login_key": "/framework/user/en/guides/integration/social_login_key"
+    "/framework/v14/user/en/guides/integration/social_login_key": "/framework/user/en/guides/integration/social_login_key",
+    "/erpnext/accounts-receivable": "/erpnext/accounts-receivable-and-payable",
+    "/erpnext/immutable-ledger": "/erpnext/immutable-ledger-in-erpnext"
   }
 }

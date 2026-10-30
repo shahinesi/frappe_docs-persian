@@ -61,7 +61,7 @@ ERPNext معمولاً مبلغ خالص صورتحساب را پس از تخف�
 ![فاکتور فروش ثبت‌نهایی‌شده با تخفیف و جمع کل مشخص‌شده](https://novacompanies.m.frappe.cloud/files/docs-gl-2026-separate-discount-booking-sales-submitted-total.png)
 
 8. مالیات‌ها، گردکردن، **جمع کل** و ردیف هزینه را بررسی و سپس صورتحساب را ثبت نهایی کنید.
-9. **مشاهده > دفتر کل** را باز کنید و نتیجه را در [دفتر کل](https://docs.frappe.io/erpnext/general-ledger) بررسی کنید.
+9. **مشاهده > دفتر کل** را باز کنید و نتیجه را در [دفتر کل](general-ledger.md) بررسی کنید.
 
 ![دفتر کل فاکتور فروش با ردیف تخفیف جداگانه](https://novacompanies.m.frappe.cloud/files/docs-gl-2026-separate-discount-booking-sales-general-ledger.png)
 
@@ -157,6 +157,6 @@ ERPNext از این جدول برای مالیات و سایر افزایش‌ه
 - [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice)
 - [درخت حساب‌ها](chart-of-accounts.md)
 - [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
-- [دفتر کل](https://docs.frappe.io/erpnext/general-ledger)
+- [دفتر کل](general-ledger.md)
 
 منبع: [ثبت جداگانهٔ تخفیف‌های اعطایی و دریافتی](https://docs.frappe.io/erpnext/book-discount-allowed-and-received-separately). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های رسمی مستندات پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.
