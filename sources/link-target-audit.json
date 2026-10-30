@@ -1,163 +1,88 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-30T08:03:27.049Z",
-  "checked_count": 10,
-  "valid_markdown_sources": 9,
-  "missing_or_unavailable": 1,
+  "checked_at": "2026-10-30T08:24:58.803Z",
+  "checked_count": 5,
+  "valid_markdown_sources": 5,
+  "missing_or_unavailable": 0,
   "records": [
     {
-      "url": "https://docs.frappe.io/framework/v14/user/en/guides/basics/apps",
+      "url": "https://docs.frappe.io/framework/v14/user/en/installation",
       "references": [
-        "content/fa/framework/user/en/guides.md"
+        "content/fa/framework/user/en/bench.md"
       ],
       "page_status": 200,
-      "final_page_url": "https://docs.frappe.io/framework/user/en/guides/basics/apps",
-      "markdown_url": "https://docs.frappe.io/framework/user/en/guides/basics/apps.md",
+      "final_page_url": "https://docs.frappe.io/framework/user/en/installation",
+      "markdown_url": "https://docs.frappe.io/framework/user/en/installation.md",
       "http_status": 200,
-      "final_markdown_url": "https://docs.frappe.io/framework/user/en/guides/basics/apps.md",
-      "title": "Frappe Apps",
-      "canonical_url": "https://docs.frappe.io/framework/user/en/guides/basics/apps",
-      "updated": "2026-02-17",
-      "content_sha256": "3859e1d023cccc584df8c0762aeeb515e2f59c5446ff01a0ec202ac9b6e5cbc0",
+      "final_markdown_url": "https://docs.frappe.io/framework/user/en/installation.md",
+      "title": "Installation",
+      "canonical_url": "https://docs.frappe.io/framework/user/en/installation",
+      "updated": "2026-10-29",
+      "content_sha256": "2c9d8578c08dba2ec820cd8cd3b72d26d46ffa7781de1f56ee59efb5162f49d9",
       "source_kind": "official-markdown-export-endpoint"
     },
     {
-      "url": "https://docs.frappe.io/framework/v14/user/en/guides/app-development/custom_action_link_field",
+      "url": "https://docs.frappe.io/framework/v14/user/en/bench/bench-commands",
       "references": [
-        "content/fa/framework/user/en/guides.md"
+        "content/fa/framework/user/en/bench.md"
       ],
       "page_status": 200,
-      "final_page_url": "https://docs.frappe.io/framework/user/en/guides/app-development/custom_action_link_field",
-      "markdown_url": "https://docs.frappe.io/framework/user/en/guides/app-development/custom_action_link_field.md",
+      "final_page_url": "https://docs.frappe.io/framework/user/en/bench/bench-commands",
+      "markdown_url": "https://docs.frappe.io/framework/user/en/bench/bench-commands.md",
       "http_status": 200,
-      "final_markdown_url": "https://docs.frappe.io/framework/user/en/guides/app-development/custom_action_link_field.md",
-      "title": "Custom Action in Link Field",
-      "canonical_url": "https://docs.frappe.io/framework/user/en/guides/app-development/custom_action_link_field",
+      "final_markdown_url": "https://docs.frappe.io/framework/user/en/bench/bench-commands.md",
+      "title": "Bench Commands\\n",
+      "canonical_url": "https://docs.frappe.io/framework/user/en/bench/bench-commands",
       "updated": "2026-02-17",
-      "content_sha256": "e0ace907d6adb129943e0e9c79e51c5637583540087c2b9304614808692b6273",
+      "content_sha256": "27a183ec65fb12910b71f07432d1caebc81b2a30c0abb4ab894d2b4bbac5aad4",
       "source_kind": "official-markdown-export-endpoint"
     },
     {
-      "url": "https://docs.frappe.io/framework/v14/user/en/guides/deployment/packages",
+      "url": "https://docs.frappe.io/framework/v14/user/en/bench/frappe-commands",
       "references": [
-        "content/fa/framework/user/en/guides.md"
+        "content/fa/framework/user/en/bench.md"
       ],
       "page_status": 200,
-      "final_page_url": "https://docs.frappe.io/framework/user/en/guides/deployment/packages",
-      "markdown_url": "https://docs.frappe.io/framework/user/en/guides/deployment/packages.md",
+      "final_page_url": "https://docs.frappe.io/framework/user/en/bench/frappe-commands",
+      "markdown_url": "https://docs.frappe.io/framework/user/en/bench/frappe-commands.md",
       "http_status": 200,
-      "final_markdown_url": "https://docs.frappe.io/framework/user/en/guides/deployment/packages.md",
-      "title": "Packages\\n",
-      "canonical_url": "https://docs.frappe.io/framework/user/en/guides/deployment/packages",
+      "final_markdown_url": "https://docs.frappe.io/framework/user/en/bench/frappe-commands.md",
+      "title": "Frappe Commands",
+      "canonical_url": "https://docs.frappe.io/framework/user/en/bench/frappe-commands",
       "updated": "2026-02-17",
-      "content_sha256": "186ae3530c869cadcaa30bfffc0922935dddae07ba7eb940d9181f0b7ff6228d",
+      "content_sha256": "7f12d23242adf3e07b99517a1539bea334ff43dd66d807fe29e5f9f346ef98c4",
       "source_kind": "official-markdown-export-endpoint"
     },
     {
-      "url": "https://docs.frappe.io/framework/v14/user/en/guides/reports-and-printing/getting-information-from-another-document-in-print-format",
+      "url": "https://docs.frappe.io/framework/v14/user/en/bench/reference",
       "references": [
-        "content/fa/framework/user/en/guides.md"
+        "content/fa/framework/user/en/bench.md"
       ],
       "page_status": 200,
-      "final_page_url": "https://docs.frappe.io/framework/user/en/guides/reports-and-printing/getting-information-from-another-document-in-print-format",
-      "markdown_url": "https://docs.frappe.io/framework/user/en/guides/reports-and-printing/getting-information-from-another-document-in-print-format.md",
+      "final_page_url": "https://docs.frappe.io/framework/user/en/bench/reference",
+      "markdown_url": "https://docs.frappe.io/framework/user/en/bench/reference.md",
       "http_status": 200,
-      "final_markdown_url": "https://docs.frappe.io/framework/user/en/guides/reports-and-printing/getting-information-from-another-document-in-print-format.md",
-      "title": "Getting Information From Another Document In Print Format",
-      "canonical_url": "https://docs.frappe.io/framework/user/en/guides/reports-and-printing/getting-information-from-another-document-in-print-format",
+      "final_markdown_url": "https://docs.frappe.io/framework/user/en/bench/reference.md",
+      "title": "Commands Reference",
+      "canonical_url": "https://docs.frappe.io/framework/user/en/bench/reference",
       "updated": "2026-02-17",
-      "content_sha256": "c0d0a2341dcbec4d0ff6af85f0616b50104d7afcf9d559d86c9327d30ca1c519",
+      "content_sha256": "2577fc0253418cdc11628d45018f4577a69f0828d7ec2b036b75065da5940ce0",
       "source_kind": "official-markdown-export-endpoint"
     },
     {
-      "url": "https://docs.frappe.io/framework/v14/user/en/guides/portal-development",
+      "url": "https://docs.frappe.io/framework/v14/user/en/bench/extending-the-cli",
       "references": [
-        "content/fa/framework/user/en/guides.md"
+        "content/fa/framework/user/en/bench.md"
       ],
       "page_status": 200,
-      "final_page_url": "https://docs.frappe.io/framework/user/en/guides/portal-development",
-      "markdown_url": "https://docs.frappe.io/framework/user/en/guides/portal-development.md",
+      "final_page_url": "https://docs.frappe.io/framework/user/en/bench/extending-the-cli",
+      "markdown_url": "https://docs.frappe.io/framework/user/en/bench/extending-the-cli.md",
       "http_status": 200,
-      "final_markdown_url": "https://docs.frappe.io/framework/user/en/guides/portal-development.md",
-      "title": "Pages\\n",
-      "canonical_url": "https://docs.frappe.io/framework/user/en/guides/portal-development",
+      "final_markdown_url": "https://docs.frappe.io/framework/user/en/bench/extending-the-cli.md",
+      "title": "Bench - Extending the CLI\\n",
+      "canonical_url": "https://docs.frappe.io/framework/user/en/bench/extending-the-cli",
       "updated": "2026-02-17",
-      "content_sha256": "2f995186c22233e1bf2de579ff447626ad0d8b7cf14e1ab07a2308778b9bb982",
-      "source_kind": "official-markdown-export-endpoint"
-    },
-    {
-      "url": "https://docs.frappe.io/framework/v14/user/en/guides/data/using-data-migration-tool",
-      "references": [
-        "content/fa/framework/user/en/guides.md"
-      ],
-      "page_status": 500,
-      "final_page_url": "https://docs.frappe.io/framework/user/en/guides/data/using-data-migration-tool",
-      "markdown_url": "https://docs.frappe.io/framework/v14/user/en/guides/data/using-data-migration-tool.md",
-      "http_status": 500,
-      "final_markdown_url": null
-    },
-    {
-      "url": "https://docs.frappe.io/framework/v14/user/en/guides/integration/google_gsuite",
-      "references": [
-        "content/fa/framework/user/en/guides.md"
-      ],
-      "page_status": 200,
-      "final_page_url": "https://docs.frappe.io/framework/user/en/guides/integration/google_gsuite",
-      "markdown_url": "https://docs.frappe.io/framework/user/en/guides/integration/google_gsuite.md",
-      "http_status": 200,
-      "final_markdown_url": "https://docs.frappe.io/framework/user/en/guides/integration/google_gsuite.md",
-      "title": "Google GSuite\\n",
-      "canonical_url": "https://docs.frappe.io/framework/user/en/guides/integration/google_gsuite",
-      "updated": "2026-02-17",
-      "content_sha256": "950af7a19b4c0466850cc310d8224e394052ce0449247238d804250adaff8833",
-      "source_kind": "official-markdown-export-endpoint"
-    },
-    {
-      "url": "https://docs.frappe.io/framework/v14/user/en/guides/database-settings/setup-read-from-secondary-db",
-      "references": [
-        "content/fa/framework/user/en/guides.md"
-      ],
-      "page_status": 200,
-      "final_page_url": "https://docs.frappe.io/framework/user/en/guides/database-settings/setup-read-from-secondary-db",
-      "markdown_url": "https://docs.frappe.io/framework/user/en/guides/database-settings/setup-read-from-secondary-db.md",
-      "http_status": 200,
-      "final_markdown_url": "https://docs.frappe.io/framework/user/en/guides/database-settings/setup-read-from-secondary-db.md",
-      "title": "Setup read operations from slave/secondary mysql system\\n",
-      "canonical_url": "https://docs.frappe.io/framework/user/en/guides/database-settings/setup-read-from-secondary-db",
-      "updated": "2026-09-18",
-      "content_sha256": "b21db94b6492fcddd1b4e7d6d9b1c30190c9f90cb8478732119ac9ae3e7313ac",
-      "source_kind": "official-markdown-export-endpoint"
-    },
-    {
-      "url": "https://docs.frappe.io/framework/v14/user/en/guides/automated-testing",
-      "references": [
-        "content/fa/framework/user/en/guides.md"
-      ],
-      "page_status": 200,
-      "final_page_url": "https://docs.frappe.io/framework/user/en/guides/automated-testing",
-      "markdown_url": "https://docs.frappe.io/framework/user/en/guides/automated-testing.md",
-      "http_status": 200,
-      "final_markdown_url": "https://docs.frappe.io/framework/user/en/guides/automated-testing.md",
-      "title": "Automated Testing\\n",
-      "canonical_url": "https://docs.frappe.io/framework/user/en/guides/automated-testing",
-      "updated": "2026-02-17",
-      "content_sha256": "b93104a7b6a9a543dee19b0f0344c223a38a16c6778a554b50df3f7036c591ef",
-      "source_kind": "official-markdown-export-endpoint"
-    },
-    {
-      "url": "https://docs.frappe.io/framework/v14/user/en/guides/desk",
-      "references": [
-        "content/fa/framework/user/en/guides.md"
-      ],
-      "page_status": 200,
-      "final_page_url": "https://docs.frappe.io/framework/user/en/guides/desk",
-      "markdown_url": "https://docs.frappe.io/framework/user/en/guides/desk.md",
-      "http_status": 200,
-      "final_markdown_url": "https://docs.frappe.io/framework/user/en/guides/desk.md",
-      "title": "Desk Customization\\n",
-      "canonical_url": "https://docs.frappe.io/framework/user/en/guides/desk",
-      "updated": "2026-02-17",
-      "content_sha256": "bb38a2181765dfc2ed0be846ab83bc469feb654325f98c4c702b52ee62f0ee7c",
+      "content_sha256": "90017237648cd1b262ea5c3728c8a061329acf36a681950c3a80b0f342c315c6",
       "source_kind": "official-markdown-export-endpoint"
     }
   ]
