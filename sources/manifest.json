@@ -28261,10 +28261,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "4b857dddb10e2ab5b7819e92ef9b235736f6e8034a4338d8704f015bfe5867bf",
       "source_modified": "2026-02-17",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/framework/user/en/guides/basics/frappe_ajax_call.md",
       "discovered_at": "2026-10-27T05:52:36.584Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/framework/user/en/guides/basics/frappe_ajax_call.md",
@@ -28274,10 +28274,11 @@
       "source_metadata_status": "fetched",
       "source_repository": null,
       "source_sitemap_lastmod": "2026-02-17",
-      "license_status": "unverified",
+      "license_status": "CC BY-SA (version unspecified by source policy)",
       "attribution_required": true,
       "unofficial_translation": true,
-      "snapshot_status": "fetched"
+      "snapshot_status": "fetched",
+      "quality_reviewed_at": "2026-10-30"
     },
     {
       "url": "https://docs.frappe.io/framework/user/en/guides/basics/how-to-enable-backup-encryption",
