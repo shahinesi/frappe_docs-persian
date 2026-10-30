@@ -1,12 +1,6 @@
 {
   "schema_version": 1,
   "checked_files": 602,
-  "changed_files": 0,
-  "unresolved": [
-    {
-      "file": "content/fa/framework/user/en/basics/users-and-permissions.md",
-      "href": "/framework/v14/user/en/guides/integration/social_login_key",
-      "kind": "official-page-not-in-manifest"
-    }
-  ]
+  "changed_files": 1,
+  "unresolved": []
 }

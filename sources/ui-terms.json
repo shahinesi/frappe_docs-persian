@@ -2334,6 +2334,14 @@
         "Exotel Settings": "تنظیمات Exotel"
       },
       "basis": "برچسب‌های اعتبارنامه از README جاری مخزن رسمی frappe/exotel_integration گرفته و برای مستندات فارسی ترجمه شدند. برچسب‌های رابط خارجی Exotel نیز در نثر راهنما فارسی‌سازی شدند؛ نام فنی APIها و دستگاه ExoPhone حفظ شد."
+    },
+    {
+      "product": "framework",
+      "source_labels": {
+        "Security": "امنیت",
+        "Minimum Password Score": "حداقل امتیاز گذرواژه"
+      },
+      "basis": "برچسب های Security و Minimum Password Score در locale فارسی Framework ترجمه نشده اند؛ معادل های متنی برای راهنمای فارسی بازبینی شد."
     }
   ],
   "source_files": {
