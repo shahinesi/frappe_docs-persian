@@ -29,7 +29,7 @@ license_status: "unverified"
 
 #### پروژه در تراکنش‌های خرید
 
-همچنین می‌توانید پروژه را به تراکنش‌های خرید، مانند [سفارش خرید](purchase-order.md)، [رسید خرید](https://docs.frappe.io/erpnext/purchase-receipt) و [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice) پیوند دهید.
+همچنین می‌توانید پروژه را به تراکنش‌های خرید، مانند [سفارش خرید](purchase-order.md)، [رسید خرید](https://docs.frappe.io/erpnext/purchase-receipt) و [فاکتور خرید](purchase-invoice.md) پیوند دهید.
 
 در تراکنش‌های خرید، گزینهٔ پیوند پروژه در جدول اقلام قرار دارد؛ زیرا ممکن است در یک سند خرید، برای چند پروژه مواد تهیه کنید.
 

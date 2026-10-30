@@ -1,5 +1,5 @@
 ---
-title: "یادداشت بدهکار (Debit Note)"
+title: "یادداشت بدهکاری"
 slug: "debit-note"
 source_url: "https://docs.frappe.io/erpnext/debit-note"
 source_id: "erpnext/debit-note"
@@ -10,7 +10,7 @@ quality_status: "not_reviewed"
 license_status: "CC BY-SA (version unspecified by source policy)"
 ---
 
-> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [یادداشت بدهکار (یادداشت بدهکاری)](https://docs.frappe.io/erpnext/debit-note)
+> این صفحه ترجمهٔ غیررسمی مستندات ERPNext است. [یادداشت بدهکاری](https://docs.frappe.io/erpnext/debit-note)
 > متن این صفحه ترجمه و اقتباسی از منبع بالاست و تحت شرایط CC BY-SA آن منبع بازنشر می‌شود (نسخه در سیاست منبع مشخص نشده است). این ترجمه مستقل و غیررسمی است.
 >
 > تصویرهای صفحهٔ منبع بازنشر نشده‌اند؛ مجوز جداگانهٔ آن‌ها تأیید نشده است.
@@ -23,7 +23,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## پیش از شروع
 
-به یک [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice) ثبت‌نهایی‌شده نیاز دارید. این موارد را تأیید کنید:
+به یک [فاکتور خرید](purchase-invoice.md) ثبت‌نهایی‌شده نیاز دارید. این موارد را تأیید کنید:
 
 - کدام کالاها و چه تعداد از آن‌ها برگشت داده می‌شوند؛
 - آیا ERPNext باید موجودی را نیز معکوس کند؛
@@ -127,7 +127,7 @@ ERPNext در بعضی پیکربندی‌ها از برگشتِ بدون پیو�
 
 ## موضوعات مرتبط
 
-- [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice)
+- [فاکتور خرید](purchase-invoice.md)
 - [یادداشت بدهکاری برای تعدیل قیمت](debit-note-for-price-adjustment.md)
 - [رسید خرید](https://docs.frappe.io/erpnext/purchase-receipt)
 - [ثبت پرداخت](payment-entry.md)

@@ -109,7 +109,7 @@ ERPNext جدیدترین قاعدهٔ ارسال‌شده و قابل‌اعما
 - [ابعاد حسابداری](accounting-dimensions.md)
 - [دفتر کل](general-ledger.md)
 - [ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry)
-- [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice)
+- [فاکتور خرید](purchase-invoice.md)
 - [بودجه](budget.md)
 
 **منبع:** [تخصیص مرکز هزینه](https://docs.frappe.io/erpnext/cost_center_allocation). این صفحه ترجمهٔ غیررسمی است. محتوای نوشتاری تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر اصلی در این مخزن بازنشر نشده‌اند.

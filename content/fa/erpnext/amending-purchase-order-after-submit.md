@@ -90,13 +90,13 @@ ERPNext رسیدهای خرید و صورتحساب‌های خرید پیوند
 
 خیر. تغییر سفارش خرید، اسناد پایین‌دستیِ ثبت‌نهایی‌شده را بازنویسی نمی‌کند. هر سند مقدار، نرخ و اثر حسابداری یا موجودی خودش را حفظ می‌کند. هرکدام را جداگانه بررسی کنید.
 
-برای مشاهدهٔ سابقهٔ مراحل پیشین، از [درخواست مواد](https://docs.frappe.io/erpnext/material-request)، [درخواست برای پیش‌فاکتور](https://docs.frappe.io/erpnext/request-for-quotation) و [پیش‌فاکتور تأمین‌کننده](https://docs.frappe.io/erpnext/supplier-quotation) استفاده کنید. پس از اصلاح، اثر مراحل بعدی را در [رسید خرید](https://docs.frappe.io/erpnext/purchase-receipt)، [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice)، [بازگشت خرید](https://docs.frappe.io/erpnext/purchase-return)، [ثبت پرداخت](payment-entry.md) و [گزارش ردیاب تدارکات](https://docs.frappe.io/erpnext/procurement-tracker-report) بررسی کنید. اگر گردش‌کار مجاز با توجه به تأمین‌کننده فرق دارد، [تنظیمات خرید](buying-settings.md) و رکورد [تأمین‌کننده](https://docs.frappe.io/erpnext/supplier) را هم بررسی کنید.
+برای مشاهدهٔ سابقهٔ مراحل پیشین، از [درخواست مواد](https://docs.frappe.io/erpnext/material-request)، [درخواست برای پیش‌فاکتور](https://docs.frappe.io/erpnext/request-for-quotation) و [پیش‌فاکتور تأمین‌کننده](https://docs.frappe.io/erpnext/supplier-quotation) استفاده کنید. پس از اصلاح، اثر مراحل بعدی را در [رسید خرید](https://docs.frappe.io/erpnext/purchase-receipt)، [فاکتور خرید](purchase-invoice.md)، [بازگشت خرید](https://docs.frappe.io/erpnext/purchase-return)، [ثبت پرداخت](payment-entry.md) و [گزارش ردیاب تدارکات](https://docs.frappe.io/erpnext/procurement-tracker-report) بررسی کنید. اگر گردش‌کار مجاز با توجه به تأمین‌کننده فرق دارد، [تنظیمات خرید](buying-settings.md) و رکورد [تأمین‌کننده](https://docs.frappe.io/erpnext/supplier) را هم بررسی کنید.
 
 ## موضوعات مرتبط
 
 - [سفارش خرید](purchase-order.md)
 - [رسید خرید](https://docs.frappe.io/erpnext/purchase-receipt)
-- [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice)
+- [فاکتور خرید](purchase-invoice.md)
 - [بازگشت خرید](https://docs.frappe.io/erpnext/purchase-return)
 - [تنظیمات خرید](buying-settings.md)
 

@@ -99,7 +99,7 @@ source_version: "2fa3652ac8244c53d2fa8da5563a0ce500795d1e8b5d2f813141c806ce4ec3b
 
 اگر کاربر مجوز داشته باشد، می‌تواند از گزارش‌ها خروجی بگیرد. ابتدا فیلترها را اعمال و بررسی کنید تا خروجی دقیقاً پاسخ‌گوی پرسش موردنظر باشد، نه صرفاً تخلیهٔ دادهٔ بررسی‌نشده.
 
-برای بررسی تراکنش‌های مبدأِ نتیجه، از [درخواست مواد](https://docs.frappe.io/erpnext/material-request)، [درخواست برای پیش‌فاکتور](https://docs.frappe.io/erpnext/request-for-quotation)، [پیش‌فاکتور تأمین‌کننده](https://docs.frappe.io/erpnext/supplier-quotation)، [سفارش خرید](purchase-order.md)، [رسید خرید](https://docs.frappe.io/erpnext/purchase-receipt) و [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice) استفاده کنید. اگر پرسش دربارهٔ پیشرفت، بدهی، موجودی یا تسویه است، [گزارش ردیاب تدارکات](https://docs.frappe.io/erpnext/procurement-tracker-report)، [حساب‌های دریافتنی و پرداختنی](accounts-receivable-and-payable.md)، [دفتر موجودی](https://docs.frappe.io/erpnext/stock-ledger) و [دفتر پرداخت](https://docs.frappe.io/erpnext/payment_ledger) را ببینید.
+برای بررسی تراکنش‌های مبدأِ نتیجه، از [درخواست مواد](https://docs.frappe.io/erpnext/material-request)، [درخواست برای پیش‌فاکتور](https://docs.frappe.io/erpnext/request-for-quotation)، [پیش‌فاکتور تأمین‌کننده](https://docs.frappe.io/erpnext/supplier-quotation)، [سفارش خرید](purchase-order.md)، [رسید خرید](https://docs.frappe.io/erpnext/purchase-receipt) و [فاکتور خرید](purchase-invoice.md) استفاده کنید. اگر پرسش دربارهٔ پیشرفت، بدهی، موجودی یا تسویه است، [گزارش ردیاب تدارکات](https://docs.frappe.io/erpnext/procurement-tracker-report)، [حساب‌های دریافتنی و پرداختنی](accounts-receivable-and-payable.md)، [دفتر موجودی](https://docs.frappe.io/erpnext/stock-ledger) و [دفتر پرداخت](https://docs.frappe.io/erpnext/payment_ledger) را ببینید.
 
 ## موضوعات مرتبط
 
@@ -107,7 +107,7 @@ source_version: "2fa3652ac8244c53d2fa8da5563a0ce500795d1e8b5d2f813141c806ce4ec3b
 - [درخواست مواد](https://docs.frappe.io/erpnext/material-request)
 - [سفارش خرید](purchase-order.md)
 - [رسید خرید](https://docs.frappe.io/erpnext/purchase-receipt)
-- [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice)
+- [فاکتور خرید](purchase-invoice.md)
 - [گزارش ردیاب تدارکات](https://docs.frappe.io/erpnext/procurement-tracker-report)
 - [کارت امتیازی تأمین‌کننده](https://docs.frappe.io/erpnext/supplier-scorecard)
 - [حساب‌های دریافتنی و پرداختنی](accounts-receivable-and-payable.md)

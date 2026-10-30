@@ -19,7 +19,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ERPNext، [مشتری](customer.md) و [تأمین‌کننده](https://docs.frappe.io/erpnext/supplier) را به‌صورت اطلاعات پایهٔ جدا نگه می‌دارد؛ چون رفتار فروش، خرید، قیمت‌گذاری، مالیات، اعتبار و پرتال آن‌ها متفاوت است. یک **لینک طرف** به ERPNext می‌گوید این دو رکورد برای این گردش‌کار حسابداری، معرف یک طرف تجاری واحد هستند.
 
-برای نمونه، شرکت Nova Electronics Trading از Vertex Components خدمات می‌خرد و 1,200 دلار به آن بدهکار است. سپس Vertex خدمات راه‌اندازی دستگاه به ارزش 800 دلار از Nova می‌خرد. وقتی رکوردها پیوند داده شده‌اند و تأمین‌کننده طرف اصلی و مشتری طرف ثانویه است، ثبت نهایی [فاکتور فروش](sales-invoice.md) به مبلغ 800 دلار، یک [ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry) سیستمی ایجاد می‌کند. فاکتور فروش تسویه می‌شود و 800 دلار پیش‌پرداخت تأمین‌کننده برای تطبیق با [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice) به مبلغ 1,200 دلار در دسترس قرار می‌گیرد؛ در نتیجه 400 دلار بدهی باقی می‌ماند.
+برای نمونه، شرکت Nova Electronics Trading از Vertex Components خدمات می‌خرد و 1,200 دلار به آن بدهکار است. سپس Vertex خدمات راه‌اندازی دستگاه به ارزش 800 دلار از Nova می‌خرد. وقتی رکوردها پیوند داده شده‌اند و تأمین‌کننده طرف اصلی و مشتری طرف ثانویه است، ثبت نهایی [فاکتور فروش](sales-invoice.md) به مبلغ 800 دلار، یک [ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry) سیستمی ایجاد می‌کند. فاکتور فروش تسویه می‌شود و 800 دلار پیش‌پرداخت تأمین‌کننده برای تطبیق با [فاکتور خرید](purchase-invoice.md) به مبلغ 1,200 دلار در دسترس قرار می‌گیرد؛ در نتیجه 400 دلار بدهی باقی می‌ماند.
 
 ## چه زمانی از این قابلیت استفاده کنیم؟
 
@@ -177,7 +177,7 @@ ERPNext یک ثبت در دفتر روزنامه سیستمی ایجاد و ثب
 - [مشتری](customer.md)
 - [تأمین‌کننده](https://docs.frappe.io/erpnext/supplier)
 - [فاکتور فروش](sales-invoice.md)
-- [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice)
+- [فاکتور خرید](purchase-invoice.md)
 - [ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry)
 - [تطبیق پرداخت](https://docs.frappe.io/erpnext/payment-reconciliation)
 - [دفتر کل](general-ledger.md)

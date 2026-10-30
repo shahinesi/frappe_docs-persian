@@ -69,7 +69,7 @@ ERPNext معمولاً مبلغ خالص صورتحساب را پس از تخف�
 
 ## ثبت تخفیف دریافتی در فاکتور خرید
 
-1. یک [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice) بسازید و اقلام را با نرخ ناخالص خرید اضافه کنید.
+1. یک [فاکتور خرید](purchase-invoice.md) بسازید و اقلام را با نرخ ناخالص خرید اضافه کنید.
 2. در **مالیات و هزینه‌های خرید** یک ردیف اضافه کنید. اگر همین روش را تکرار می‌کنید، از [الگوی مالیات و هزینه‌های خرید](https://docs.frappe.io/erpnext/purchase-taxes-and-charges-template) استفاده کنید.
 3. آیکون مداد ردیف را انتخاب کنید.
 4. **نوع** را روی **بر کل خالص** بگذارید.
@@ -154,7 +154,7 @@ ERPNext از این جدول برای مالیات و سایر افزایش‌ه
 - [حسابداری تخفیف](discount_accounting.md)
 - [اعمال تخفیف بر تراکنش‌های فروش](applying-discount.md)
 - [فاکتور فروش](sales-invoice.md)
-- [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice)
+- [فاکتور خرید](purchase-invoice.md)
 - [درخت حساب‌ها](chart-of-accounts.md)
 - [ثبت پرداخت](payment-entry.md)
 - [دفتر کل](general-ledger.md)

@@ -30,7 +30,7 @@ flowchart LR
 
 [رسید خرید](https://docs.frappe.io/erpnext/purchase-receipt) آنچه را که واقعاً تحویل گرفته‌اید ثبت می‌کند. برای اقلام انبارشونده، موجودی را افزایش می‌دهد و در صورت فعال‌بودن موجودی دائمی، ثبت حسابداری متناظر موجودی را هم ایجاد می‌کند. با رسید جزئی، مقدار باقیماندهٔ سفارش باز می‌ماند.
 
-[فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice) مبلغی را که تأمین‌کننده صورتحساب کرده است ثبت می‌کند و سندهای حسابداری پرداختنی و هزینه، دارایی یا موجودی را می‌سازد. [ثبت پرداخت](payment-entry.md) وجه پرداخت‌شده را ثبت و ماندهٔ بدهی به تأمین‌کننده را کاهش می‌دهد.
+[فاکتور خرید](purchase-invoice.md) مبلغی را که تأمین‌کننده صورتحساب کرده است ثبت می‌کند و سندهای حسابداری پرداختنی و هزینه، دارایی یا موجودی را می‌سازد. [ثبت پرداخت](payment-entry.md) وجه پرداخت‌شده را ثبت و ماندهٔ بدهی به تأمین‌کننده را کاهش می‌دهد.
 
 ![سفارش خرید ثبت‌نهایی‌شده برای Keystone Cables، پیش از دریافت یا صدور صورتحساب](https://docs.frappe.io/files/purchase-order-commitment.png)
 
@@ -142,7 +142,7 @@ ERPNext می‌تواند اجازه دهد رسید خرید یا فاکتور 
 - [تأمین‌کننده](https://docs.frappe.io/erpnext/supplier)
 - [سفارش خرید](purchase-order.md)
 - [رسید خرید](https://docs.frappe.io/erpnext/purchase-receipt)
-- [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice)
+- [فاکتور خرید](purchase-invoice.md)
 - [ثبت پرداخت](payment-entry.md)
 - [پیمانکاری فرعی](https://docs.frappe.io/erpnext/subcontracting)
 

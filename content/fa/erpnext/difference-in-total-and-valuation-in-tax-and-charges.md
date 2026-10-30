@@ -54,7 +54,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## افزودن هزینه‌ای که فقط بر Total اثر می‌گذارد
 
-وقتی هزینه باید مبلغ قابل پرداخت در [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice) را افزایش دهد، اما نباید به ارزش‌گذاری کالا تخصیص یابد، **جمع** را انتخاب کنید.
+وقتی هزینه باید مبلغ قابل پرداخت در [فاکتور خرید](purchase-invoice.md) را افزایش دهد، اما نباید به ارزش‌گذاری کالا تخصیص یابد، **جمع** را انتخاب کنید.
 
 در این مثال:
 
@@ -182,7 +182,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ## موضوعات مرتبط
 
 - [الگوی مالیات و هزینه‌های خرید](https://docs.frappe.io/erpnext/purchase-taxes-and-charges-template)
-- [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice)
+- [فاکتور خرید](purchase-invoice.md)
 - [رسید خرید](https://docs.frappe.io/erpnext/purchase-receipt)
 - [سند مالی بهای تمام‌شده در مقصد](https://docs.frappe.io/erpnext/landed-cost-voucher)
 - [انواع در الگوی مالیات](https://docs.frappe.io/erpnext/types-in-tax-template)

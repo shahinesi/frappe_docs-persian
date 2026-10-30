@@ -173,7 +173,7 @@ Nova برای Keystone Cables، فاکتور خرید با شناسهٔ ACC-PINV
 - [تأمین‌کننده](https://docs.frappe.io/erpnext/supplier)
 - [سفارش خرید](purchase-order.md)
 - [رسید خرید](https://docs.frappe.io/erpnext/purchase-receipt)
-- [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice)
+- [فاکتور خرید](purchase-invoice.md)
 - [توافق‌نامهٔ خرید یا فروش (سفارش کلی)](blanket-order.md)
 - [پیمانکاری فرعی](https://docs.frappe.io/erpnext/subcontracting)
 

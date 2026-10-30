@@ -43,7 +43,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - رئیس هزینه نهایی که باید هزینهٔ شناسایی‌شده به آن منتقل شود؛
 - یک [کالا](item.md) خدماتیِ غیرانبارداری؛
 - تاریخ شروع و پایان قرارداد یا دورهٔ پوشش؛
-- تأمین‌کننده و پیکربندی معتبر [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice)؛
+- تأمین‌کننده و پیکربندی معتبر [فاکتور خرید](purchase-invoice.md)؛
 - سیاست شناسایی روزمحور یا ماه‌محور در [تنظیمات حساب‌ها](accounts-settings.md).
 
 برای موجودی‌ای که باید از طریق موجودی دریافت و ارزش‌گذاری شود، از این گردش‌کار استفاده نکنید. هزینه معوق برای هزینه‌ای است که به‌مرور مصرف می‌شود، نه برای مقدار کالایی که منتظر صدور از انبار است.
@@ -158,6 +158,6 @@ ERPNext بدهی به تأمین‌کننده را ایجاد می‌کند؛ ا
 - [درآمد انتقالی (درآمد معوق)](deferred-revenue.md)
 - [فرآیند حسابداری معوق](https://docs.frappe.io/erpnext/process-deferred-accounting)
 - [گزارش درآمدها و هزینه‌های انتقالی](expense_report.md)
-- [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice)
+- [فاکتور خرید](purchase-invoice.md)
 - [ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry)
 - [دفتر کل](general-ledger.md)

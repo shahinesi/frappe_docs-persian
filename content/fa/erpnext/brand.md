@@ -61,6 +61,6 @@ source_version: "2cfbd036f4e22633bd5bbbc8bc609149b2a07f79eb7f27de9ef4856fb8ba141
 3. [رسید خرید](https://docs.frappe.io/erpnext/purchase-receipt)
 4. [یادداشت تحویل](delivery-note.md)
 5. [فاکتور فروش](sales-invoice.md)
-6. [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice)
+6. [فاکتور خرید](purchase-invoice.md)
 
 منبع: [برند](https://docs.frappe.io/erpnext/brand). این صفحه ترجمهٔ غیررسمی است؛ محتوای مستندات تحت شرایط CC BY-SA منتشر شده و این ترجمه نیز با انتساب به منبع بازنشر می‌شود. تصاویر به فایل‌های رسمی مستندات پیوند داده شده‌اند و در این مخزن بازنشر نشده‌اند.

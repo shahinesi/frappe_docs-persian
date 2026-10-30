@@ -2374,6 +2374,24 @@
       "source_label": "Payroll Cost Center",
       "translation": "مرکز هزینهٔ حقوق و دستمزد",
       "basis": "The current Frappe HR Persian locale snapshot has no entry for this visible field label; reviewed Persian UI wording based on the translated Cost Center label."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Add Purchase Invoice",
+      "translation": "افزودن فاکتور خرید",
+      "basis": "This visible ERPNext label is absent from the current Persian locale snapshot; the Persian UI wording was reviewed against the translated component labels and source context."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Posting Date and Time",
+      "translation": "تاریخ و زمان ارسال",
+      "basis": "This visible ERPNext label is absent from the current Persian locale snapshot; the Persian UI wording was reviewed against the translated component labels and source context."
+    },
+    {
+      "product": "erpnext",
+      "source_label": "Apply Tax Withholding Amount",
+      "translation": "اعمال مبلغ کسر مالیات",
+      "basis": "This visible ERPNext label is absent from the current Persian locale snapshot; the Persian UI wording was reviewed against the translated component labels and source context."
     }
   ],
   "source_files": {
