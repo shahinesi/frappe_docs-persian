@@ -59,4 +59,3 @@ description: "توضیح تفاوت گزارش سود ناخالص با صورت
 - [بازپردازش موجودی](https://docs.frappe.io/erpnext/repost-item-valuation)
 
 منبع: [چرا گزارش سود ناخالص با صورت سود و زیان یا دفتر فروش تفاوت دارد؟](https://docs.frappe.io/erpnext/gross-profit-report-differences). این صفحه ترجمهٔ غیررسمی است و محتوای مستندات تحت شرایط CC BY-SA با انتساب به منبع بازنشر شده است.
-
