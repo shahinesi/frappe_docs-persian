@@ -112,7 +112,7 @@ bench --site yoursite.com set-admin-password "a-strong-new-password"
 
 ## مطالب مرتبط
 
-- [کاربران و مجوزها](https://docs.frappe.io/framework/user/en/basics/users-and-permissions)
+- [کاربران و مجوزها](user/en/basics/users-and-permissions.md)
 - [نوع‌های مجوز](permission-types.md)
 - [دسترسی SSH در Frappe Cloud](https://docs.frappe.io/cloud/benches/ssh)
 - [دسترسی به پایگاه دادهٔ سایت در Frappe Cloud](https://docs.frappe.io/cloud/sites/database-access)

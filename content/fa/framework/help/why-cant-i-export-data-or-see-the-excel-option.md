@@ -82,7 +82,7 @@ You are not allowed to export <Doctype> doctype
 
 ## مطالب مرتبط
 
-- [کاربران و مجوزها](https://docs.frappe.io/framework/user/en/basics/users-and-permissions)
+- [کاربران و مجوزها](../user/en/basics/users-and-permissions.md)
 - [خروجی‌گرفتن از داده‌ها (برون‌بُرد داده‌ها)](../../erpnext/data-export.md)
 - [اعطای مجوزهای خروجی/چاپ برای گزارش‌ها](https://docs.frappe.io/erpnext/how-to-grant-permissions-for-reports)
 

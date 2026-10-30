@@ -47,7 +47,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ## مطالب مرتبط
 
 - [فضای کاری](https://docs.frappe.io/erpnext/workspace)
-- [کاربران و مجوزها](https://docs.frappe.io/framework/user/en/basics/users-and-permissions)
+- [کاربران و مجوزها](../user/en/basics/users-and-permissions.md)
 
 ---
 
