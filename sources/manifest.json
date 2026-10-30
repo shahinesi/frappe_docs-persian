@@ -24357,10 +24357,10 @@
       "source_kind": "official-markdown-export-endpoint",
       "source_version": "f5d465f95a83a9cbc9872eefc98f3a7506b7828d18fc59309bd7f72d15775eb3",
       "source_modified": "2026-10-22",
-      "translation_status": "not_started",
-      "quality_status": "not_reviewed",
+      "translation_status": "quality_checked",
+      "quality_status": "passed",
       "published": false,
-      "translation_path": null,
+      "translation_path": "content/fa/framework/help/im-not-receiving-a-password-reset-login-link-or-two-factor-authentication-email.md",
       "discovered_at": "2026-10-27T05:52:36.586Z",
       "source_status": "present",
       "source_markdown_url": "https://docs.frappe.io/framework/help/im-not-receiving-a-password-reset-login-link-or-two-factor-authentication-email.md",
@@ -24370,10 +24370,11 @@
       "source_metadata_status": "fetched",
       "source_repository": null,
       "source_sitemap_lastmod": "2026-10-22",
-      "license_status": "unverified",
+      "license_status": "CC BY-SA (version unspecified by source policy)",
       "attribution_required": true,
       "unofficial_translation": true,
-      "snapshot_status": "fetched"
+      "snapshot_status": "fetched",
+      "quality_reviewed_at": "2026-10-30"
     },
     {
       "url": "https://docs.frappe.io/framework/help/my-workspaces-or-desktop-icons-disappeared-after-updating-to-v16",

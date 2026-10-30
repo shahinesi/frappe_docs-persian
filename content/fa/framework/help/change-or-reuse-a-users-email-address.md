@@ -76,7 +76,7 @@ Frappe شناسهٔ کاربر و همهٔ رکوردهای پیوندخورده
 ## مطالب مرتبط
 
 - [تغییر ایمیل کاربر یا تغییر نام کاربر](../../erpnext/change-existing-users-email-id.md)
-- [ایمیل بازنشانی گذرواژه، پیوند ورود یا احراز هویت دومرحله‌ای را دریافت نمی‌کنم](https://docs.frappe.io/framework/help/im-not-receiving-a-password-reset-login-link-or-two-factor-authentication-email)
+- [ایمیل بازنشانی گذرواژه، پیوند ورود یا احراز هویت دومرحله‌ای را دریافت نمی‌کنم](./im-not-receiving-a-password-reset-login-link-or-two-factor-authentication-email.md)
 
 ---
 
