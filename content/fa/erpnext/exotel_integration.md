@@ -17,6 +17,8 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 این یکپارچه‌سازی به شما امکان می‌دهد Exotel را به حساب ERPNext خود وصل کنید. سرنخ‌ها و شماره‌تلفن‌هایشان که از طریق Exotel دریافت می‌شوند، مستقیماً در ERPNext ذخیره خواهند شد.
 
+> **یادداشت نسخه:** در ERPNext v15، یکپارچه‌سازی Exotel از مخزن ERPNext جدا و به برنامه‌ای مستقل منتقل شد؛ این تغییر در [تغییر جایگاه Exotel در راهنمای مهاجرت ERPNext v15](https://github.com/frappe/erpnext/wiki/Migration-Guide-to-ERPNext-version-15#separating-modules-from-erpnext-to-new-apps) نیز آمده است. در نسخهٔ جاری، ابتدا [مخزن رسمی برنامهٔ یکپارچه‌سازی Exotel](https://github.com/frappe/exotel_integration) را نصب کنید. این مخزن برای تنظیم اعتبارنامه‌ها سه فیلد دارد: شناسهٔ حساب، کلید API و توکن API. مسیرهای API و بخشی از نام گزینه‌ها در ادامه از صفحهٔ قدیمی مستندات نقل شده‌اند؛ برای مسیرهای نسخهٔ نصب‌شده، به راهنمای نصب و پیکربندی همان برنامه را ببینید.
+
 ## 1. قابلیت‌ها
 
 - ثبت تماس‌های ورودی در حساب ERPNext.
@@ -26,10 +28,10 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ### 2.1 تنظیم حساب Exotel
 
-- وارد حساب Exotel شوید و به App Bazar بروید.
-- برای یک جریان کاری تازه، App جدیدی بسازید.
+- وارد حساب Exotel شوید و به بازار اپلیکیشن‌ها بروید.
+- برای گردش‌کاری تازه، برنامه‌ای بسازید.
 - جریان را مطابق نیاز خود تنظیم کنید.
-- در رابط Connect API، زیر بخش **ایجاد پنجرهٔ بازشو...** (`Create popup...`) نشانی زیر را وارد کنید:
+- در رابط API، در بخش «ساخت پنجرهٔ بازشو...» نشانی زیر را وارد کنید:
 
 ```text
 https://<your-site>/api/method/erpnext.erpnext_integrations.exotel_integration.handle_incoming_call
@@ -45,7 +47,7 @@ https://<your-site>/api/method/erpnext.erpnext_integrations.exotel_integration.h
 https://frappe.erpnext.com/api/method/erpnext.erpnext_integrations.exotel_integration.handle_incoming_call
 ```
 
-- سپس در بخش **پس از پایان مکالمهٔ تماس** یک اپلت Passthru اضافه و نشانی زیر را وارد کنید:
+- سپس در بخش «پس از پایان مکالمهٔ تماس» یک اپلت انتقال تماس اضافه و نشانی زیر را وارد کنید:
 
 ```text
 https://<your-site>/api/method/erpnext.erpnext_integrations.exotel_integration.handle_end_call
@@ -53,11 +55,11 @@ https://<your-site>/api/method/erpnext.erpnext_integrations.exotel_integration.h
 
 ![بخش پس از پایان مکالمه](https://docs.frappe.io/files/after_conversation_ends_section.png)
 
-![بخش Passthru پس از پایان تماس](https://docs.frappe.io/files/passthru_end_call.png)
+![بخش اپلت انتقال تماس پس از پایان مکالمه](https://docs.frappe.io/files/passthru_end_call.png)
 
-> **یادداشت:** گزینهٔ **اجرای ناهمگام Passthru** را حتماً فعال کنید.
+> **یادداشت:** گزینهٔ **اجرای ناهمگام اپلت انتقال تماس** را حتماً فعال کنید.
 
-- به همین ترتیب، در بخش **اگر کسی پاسخ نداد...** یک اپلت Passthru اضافه و نشانی زیر را وارد کنید:
+- به همین ترتیب، در بخش «اگر کسی پاسخ نداد...» یک اپلت انتقال تماس اضافه و نشانی زیر را وارد کنید:
 
 ```text
 https://<your-site>/api/method/erpnext.erpnext_integrations.exotel_integration.handle_missed_call
@@ -65,16 +67,16 @@ https://<your-site>/api/method/erpnext.erpnext_integrations.exotel_integration.h
 
 ![بخش بی‌پاسخ](https://docs.frappe.io/files/no_response.png)
 
-![بخش Passthru برای تماس بی‌پاسخ](https://docs.frappe.io/files/passthru_missed_call.png)
+![بخش اپلت انتقال تماس برای تماس بی‌پاسخ](https://docs.frappe.io/files/passthru_missed_call.png)
 
-> **یادداشت:** گزینهٔ **اجرای ناهمگام Passthru** را حتماً فعال کنید.
+> **یادداشت:** گزینهٔ **اجرای ناهمگام اپلت انتقال تماس** را حتماً فعال کنید.
 
 - جریان را ذخیره کنید.
-- اکنون برنامهٔ تازه‌ساخته‌شده را به ExoPhoneای اختصاص دهید که تماس‌های کاری را از آن دریافت می‌کنید.
+- اکنون برنامهٔ تازه‌ساخته‌شده را به دستگاه ExoPhone اختصاص دهید که تماس‌های کاری را از آن دریافت می‌کنید.
 
 ### 2.2 تنظیم در ERPNext
 
-- از نوار جست‌وجوی سراسری (`Awesome Bar`) به **تنظیمات Exotel** (`Exotel Settings`) بروید.
-- شناسهٔ حساب Exotel (**Exotel SID**) و توکن Exotel (**Exotel Token**) را وارد کنید. کلید API و توکن مربوط به Exotel را در [داشبورد Exotel](https://my.exotel.com/apisettings/site#api-credentials) می‌یابید.
-- به **رسانه ارتباطی** بروید.
-- ExoPhone خود را اضافه و برای آن برنامهٔ زمان‌بندی تعیین کنید. کارکنان بر اساس این برنامه پنجرهٔ بازشو را دریافت می‌کنند.
+- از نوار جست‌وجوی سراسری به **تنظیمات Exotel** بروید.
+- شناسهٔ حساب، کلید API و توکن API را در **تنظیمات Exotel** وارد کنید. این مقادیر را از [تنظیمات API در داشبورد Exotel](https://my.exotel.com/apisettings/site#api-credentials) دریافت کنید.
+- به **رسانهٔ ارتباطی** بروید.
+- دستگاه ExoPhone خود را در رسانهٔ ارتباطی اضافه و برای آن برنامهٔ زمان‌بندی تعیین کنید. کارکنان بر اساس این برنامه پنجرهٔ بازشو را دریافت می‌کنند.

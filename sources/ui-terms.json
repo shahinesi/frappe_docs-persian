@@ -2317,6 +2317,23 @@
         "Is Short Year": "سال مالی کوتاه است"
       },
       "basis": "برچسب‌های راهنمای رسمی سال مالی که در snapshot جاری locale ERPNext ترجمهٔ مستقیمی نداشتند."
+    },
+    {
+      "product": "erpnext",
+      "source_labels": {
+        "Account SID": "شناسهٔ حساب",
+        "API Key": "کلید API",
+        "API Token": "توکن API",
+        "App Bazar": "بازار اپلیکیشن‌ها",
+        "Create popup...": "ساخت پنجرهٔ بازشو...",
+        "After Call Conversation ends": "پس از پایان مکالمهٔ تماس",
+        "If nobody answers...": "اگر کسی پاسخ نداد...",
+        "Make Passthru Async": "اجرای ناهمگام اپلت انتقال تماس",
+        "Connect API": "رابط API",
+        "Communication Medium": "رسانهٔ ارتباطی",
+        "Exotel Settings": "تنظیمات Exotel"
+      },
+      "basis": "برچسب‌های اعتبارنامه از README جاری مخزن رسمی frappe/exotel_integration گرفته و برای مستندات فارسی ترجمه شدند. برچسب‌های رابط خارجی Exotel نیز در نثر راهنما فارسی‌سازی شدند؛ نام فنی APIها و دستگاه ExoPhone حفظ شد."
     }
   ],
   "source_files": {
