@@ -122,7 +122,7 @@ source_version: "cc3bd7e5f63695cb139bbe45b541e59b84c795a3e01ac0d9fce8de96ad7d5a8
 - [مرکز هزینه](cost-center.md)
 - [دفتر کل](general-ledger.md)
 - [ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry)
-- [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice)
+- [فاکتور فروش](sales-invoice.md)
 - [بودجه](budget.md)
 
 ---

@@ -43,7 +43,7 @@ ERPNext معمولاً مبلغ خالص صورتحساب را پس از تخف�
 
 ## ثبت تخفیف اعطایی در فاکتور فروش
 
-1. یک [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice) بسازید و اقلام را با نرخ ناخالص فروش اضافه کنید.
+1. یک [فاکتور فروش](sales-invoice.md) بسازید و اقلام را با نرخ ناخالص فروش اضافه کنید.
 2. در **مالیات و عوارض فروش** یک ردیف اضافه کنید. اگر این روش در حالت معمول تکرار می‌شود، [الگوی مالیات و هزینه‌های فروش](https://docs.frappe.io/erpnext/sales-taxes-and-charges-template) می‌تواند همین ردیف را فراهم کند.
 3. آیکون مداد مشخص‌شده را انتخاب کنید تا ویرایشگر کامل ردیف باز شود.
 
@@ -153,7 +153,7 @@ ERPNext از این جدول برای مالیات و سایر افزایش‌ه
 
 - [حسابداری تخفیف](discount_accounting.md)
 - [اعمال تخفیف بر تراکنش‌های فروش](applying-discount.md)
-- [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice)
+- [فاکتور فروش](sales-invoice.md)
 - [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice)
 - [درخت حساب‌ها](chart-of-accounts.md)
 - [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)

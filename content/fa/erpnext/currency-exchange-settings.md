@@ -82,7 +82,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## آزمایش پیکربندی
 
-یک [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice) یا [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice) پیش‌نویس با تاریخ یک روز کاری شناخته‌شده بسازید. ارز خارجی پشتیبانی‌شده‌ای انتخاب کنید و موارد زیر را بررسی کنید:
+یک [فاکتور فروش](sales-invoice.md) یا [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice) پیش‌نویس با تاریخ یک روز کاری شناخته‌شده بسازید. ارز خارجی پشتیبانی‌شده‌ای انتخاب کنید و موارد زیر را بررسی کنید:
 
 - نرخ تبدیل مقداردهی شود؛
 - جهت نرخ در برچسب فیلد درست باشد؛

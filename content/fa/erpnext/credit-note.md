@@ -23,7 +23,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## پیش از شروع
 
-[فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice) اصلی و ارسال‌شده را پیدا کنید. اگر کالا به انبار برمی‌گردد، انبار دریافت‌کننده را مشخص کنید. اگر مشتری قبلاً پرداخت کرده، تصمیم بگیرید اعتبار بازپرداخت شود یا به صورتحساب دیگری تخصیص یابد.
+[فاکتور فروش](sales-invoice.md) اصلی و ارسال‌شده را پیدا کنید. اگر کالا به انبار برمی‌گردد، انبار دریافت‌کننده را مشخص کنید. اگر مشتری قبلاً پرداخت کرده، تصمیم بگیرید اعتبار بازپرداخت شود یا به صورتحساب دیگری تخصیص یابد.
 
 ## ساخت یادداشت بستانکاری از فاکتور فروش
 
@@ -83,7 +83,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## موضوعات مرتبط
 
-- [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice)
+- [فاکتور فروش](sales-invoice.md)
 - [بازگشت فروش](https://docs.frappe.io/erpnext/sales-return)
 - [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
 - [تطبیق پرداخت](https://docs.frappe.io/erpnext/payment-reconciliation)

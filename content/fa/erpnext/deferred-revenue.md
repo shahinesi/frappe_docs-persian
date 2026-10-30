@@ -41,7 +41,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 - حساب نهایی درآمد، مانند درآمد خدمات.
 - یک [کالا](item.md) برای خدمت.
 - تاریخ شروع و پایان قرارداد یا پوشش خدمت.
-- مشتری و تنظیمات معتبر [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice).
+- مشتری و تنظیمات معتبر [فاکتور فروش](sales-invoice.md).
 - [تنظیمات حساب‌ها](accounts-settings.md) مناسب برای پردازش خودکار و تخصیص بر مبنای روز یا ماه.
 
 از حساب درآمد عادی به‌عنوان حساب انتقالی استفاده نکنید. ماندهٔ کسب‌نشده تا زمان ارائهٔ خدمت باید در ترازنامه باقی بماند.
@@ -156,7 +156,7 @@ ERPNext حساب دریافتنی معمول مشتری را ایجاد می‌�
 - [هزینهٔ انتقالی (هزینه معوق)](deferred-expense.md)
 - [فرآیند حسابداری معوق](https://docs.frappe.io/erpnext/process-deferred-accounting)
 - [گزارش درآمدها و هزینه‌های انتقالی](expense_report.md)
-- [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice)
+- [فاکتور فروش](sales-invoice.md)
 - [ثبت در دفتر روزنامه](https://docs.frappe.io/erpnext/journal-entry)
 - [دفتر کل](general-ledger.md)
 

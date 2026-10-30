@@ -35,7 +35,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 1. حساب تخفیف در [درخت حساب‌ها](chart-of-accounts.md) برای هر شرکتی که از آن استفاده می‌کند وجود داشته باشد. با حسابدار بررسی کنید که در ساختار گزارش‌دهی شما باید حساب هزینه باشد یا حساب کاهندهٔ درآمد.
 2. برای [کالا](item.md)، یک [قیمت آیتم](https://docs.frappe.io/erpnext/item-price) قابل‌اعمال در [لیست‌های قیمت](https://docs.frappe.io/erpnext/price-lists) موردنظر وجود داشته باشد. مرجع تخفیف کالا، نرخ لیست قیمت است.
-3. کاربران بتوانند [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice) ایجاد و ثبت نهایی کنند و دفتر کل آن را ببینند.
+3. کاربران بتوانند [فاکتور فروش](sales-invoice.md) ایجاد و ثبت نهایی کنند و دفتر کل آن را ببینند.
 4. پیش از فعال‌سازی گردش‌کار برای تراکنش‌های روزمره، ثبت مورد انتظار را با مالیات، ارز، گردکردن و تخفیف‌های نمونه آزمایش کرده باشید.
 
 ## فعال‌کردن حسابداری تخفیف برای فروش
@@ -182,7 +182,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 ## موضوعات مرتبط
 
 - [اعمال تخفیف بر تراکنش‌های فروش](applying-discount.md)
-- [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice)
+- [فاکتور فروش](sales-invoice.md)
 - [قانون قیمت گذاری](https://docs.frappe.io/erpnext/pricing-rule)
 - [تنظیمات فروش](https://docs.frappe.io/erpnext/selling-settings)
 - [درخت حساب‌ها](chart-of-accounts.md)

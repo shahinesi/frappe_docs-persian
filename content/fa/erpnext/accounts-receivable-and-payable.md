@@ -109,7 +109,7 @@ ERPNext معمولاً یک حساب دریافتنی مشترک نگه می‌�
 
 ## موضوعات مرتبط
 
-- [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice)
+- [فاکتور فروش](sales-invoice.md)
 - [فاکتور خرید](https://docs.frappe.io/erpnext/purchase-invoice)
 - [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
 - [دفتر پرداخت](https://docs.frappe.io/erpnext/payment_ledger)

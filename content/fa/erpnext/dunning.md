@@ -23,7 +23,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## پیش‌نیازها
 
-- [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice) باید ثبت نهایی شده و سررسیدش گذشته باشد.
+- [فاکتور فروش](sales-invoice.md) باید ثبت نهایی شده و سررسیدش گذشته باشد.
 - دست‌کم یک نوع اخطار بدهی بسازید.
 - حساب درآمد و مرکز هزینه‌ای را انتخاب کنید که بهره و هزینه‌های اخطار در آن ثبت شوند.
 
@@ -98,7 +98,7 @@ ERPNext بهره و هزینه را از طریق بخش کسورات یا زی�
 
 ## موضوعات مرتبط
 
-- [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice)
+- [فاکتور فروش](sales-invoice.md)
 - [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
 - [حساب‌های دریافتنی](accounts-receivables.md)
 - [پردازش صورت‌حساب‌ها](https://docs.frappe.io/erpnext/process-statement-of-accounts)

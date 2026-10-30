@@ -24,7 +24,7 @@ source_version: "c0e21554cc8d204c4a7fc702c7a90f903e0e094568e5f5279c658b001f6c3c6
 
 موارد زیر را آماده کنید:
 
-- [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice) با ماندهٔ تسویه‌نشده که ارسال شده باشد؛
+- [فاکتور فروش](sales-invoice.md) با ماندهٔ تسویه‌نشده که ارسال شده باشد؛
 - مبلغ حوالهٔ بانکی مشتری؛
 - مبلغ تأییدشدهٔ کسرشده؛
 - حساب دارایی مناسب در [درخت حساب‌ها](chart-of-accounts.md)، مانند Withholding Tax دریافتنی؛
@@ -177,7 +177,7 @@ source_version: "c0e21554cc8d204c4a7fc702c7a90f903e0e094568e5f5279c658b001f6c3c6
 ## موضوعات مرتبط
 
 - [ثبت پرداخت](https://docs.frappe.io/erpnext/payment-entry)
-- [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice)
+- [فاکتور فروش](sales-invoice.md)
 - [دسته‌بندی کسر مالیات](https://docs.frappe.io/erpnext/tax-withholding-category)
 - [تطبیق پرداخت](https://docs.frappe.io/erpnext/payment-reconciliation)
 - [دفتر کل](general-ledger.md)

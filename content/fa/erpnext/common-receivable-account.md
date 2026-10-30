@@ -55,7 +55,7 @@ ERPNext معمولاً هر مشتری را در حساب دریافتنی پی�
 - [درخت حساب‌ها](chart-of-accounts.md)
 - [پیش‌فرض‌های حسابداری شرکت](company-accounting-defaults.md)
 - [مشتری](customer.md)
-- [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice)
+- [فاکتور فروش](sales-invoice.md)
 - [حساب‌های دریافتنی](accounts-receivables.md)
 - [دفتر کل](general-ledger.md)
 

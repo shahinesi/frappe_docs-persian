@@ -19,7 +19,7 @@ ERPNext از تخفیف برای هر قلم یا برای جمع کل تراک�
 
 ## اعمال تخفیف به یک قلم
 
-1. یک [پیش‌فاکتور](https://docs.frappe.io/erpnext/quotation)، [سفارش فروش](sales-order.md)، [یادداشت تحویل](delivery-note.md) یا [فاکتور فروش](https://docs.frappe.io/erpnext/sales-invoice) ایجاد کنید.
+1. یک [پیش‌فاکتور](https://docs.frappe.io/erpnext/quotation)، [سفارش فروش](sales-order.md)، [یادداشت تحویل](delivery-note.md) یا [فاکتور فروش](sales-invoice.md) ایجاد کنید.
 2. قلم را اضافه کنید.
 3. نماد مدادِ مشخص‌شده را انتخاب کنید تا ویرایشگر کامل ردیف باز شود.
 4. بخش **تخفیف و حاشیهٔ سود** (تخفیف و حاشیه) را باز کنید.
