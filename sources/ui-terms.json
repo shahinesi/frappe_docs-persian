@@ -2368,6 +2368,12 @@
         "Deductions or Losses": "کسورات یا زیان‌ها"
       },
       "basis": "Unreconcile Payments در locale ERPNext ترجمه نشده؛ معادل فارسی برای کنش لغو تطبیق ثبت شد. شکل جمع Deductions or Losses نیز برای متن چند موردی راهنما بازبینی شد."
+    },
+    {
+      "product": "hr",
+      "source_label": "Payroll Cost Center",
+      "translation": "مرکز هزینهٔ حقوق و دستمزد",
+      "basis": "The current Frappe HR Persian locale snapshot has no entry for this visible field label; reviewed Persian UI wording based on the translated Cost Center label."
     }
   ],
   "source_files": {
