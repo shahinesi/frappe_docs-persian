@@ -2342,6 +2342,14 @@
         "Minimum Password Score": "حداقل امتیاز گذرواژه"
       },
       "basis": "برچسب های Security و Minimum Password Score در locale فارسی Framework ترجمه نشده اند؛ معادل های متنی برای راهنمای فارسی بازبینی شد."
+    },
+    {
+      "product": "hr",
+      "source_labels": {
+        "Branch": "شعبه",
+        "In Time": "زمان ورود"
+      },
+      "basis": "Branch در locale فارسی HR ترجمه نشده است و «شعبه» معادل دستی بازبینی‌شده است. ترجمهٔ لفظی In Time در locale («به موقع») در نام فیلد زمان حضور مبهم است؛ برای متن راهنما «زمان ورود» به‌کار می‌رود."
     }
   ],
   "source_files": {
