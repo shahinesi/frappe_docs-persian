@@ -27,7 +27,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 
 ## ساخت نخستین پرس‌وجو
 
-<video controls width="100%" height="auto"><منبع src="https://docs.frappe.io/files/پرس‌وجو.mp4" type="video/mp4"></video>
+<video controls width="100%" height="auto"><source src="https://docs.frappe.io/files/query.mp4" type="video/mp4"></video>
 
 ### آغاز یک پرس‌وجوی تازه
 

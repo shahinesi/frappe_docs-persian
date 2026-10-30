@@ -27,7 +27,7 @@ function getCompiledTerms(terms) {
 	const lookup = new Map(entries.map(([english, persian]) => [english.toLowerCase(), persian]));
 	const alternatives = entries.map(([english]) => escapeRegExp(english)).join('|');
 	const result = alternatives
-		? { lookup, pattern: new RegExp(`(?<![A-Za-z0-9])(?:${alternatives})(?![A-Za-z0-9])`, 'gi') }
+		? { lookup, pattern: new RegExp(`(?<![A-Za-z0-9._])(?:${alternatives})(?![A-Za-z0-9._])`, 'gi') }
 		: { lookup, pattern: null };
 	compiledTermsCache.set(cacheKey, result);
 	compiledTermsObjectCache.set(terms, result);
@@ -140,7 +140,7 @@ function localizeBareListLabels(text, terms, counters, mixedEntries = [], phrase
 function replaceKnownUiEntities(text, terms, counters, labels = ['Contact', 'Address', 'Warehouse', 'Campaign', 'Communication', 'Currency', 'Employee', 'Department', 'Branch', 'Notification', 'Country', 'Prefix', 'Condition', 'Formula', 'Recipients', 'Subject', 'Message', 'Payroll', 'Performance', 'Settings', 'Task', 'Course', 'Courses', 'Manual']) {
 	const entries = labels.filter((label) => terms[label] && FA_LETTER.test(terms[label]));
 	if (!entries.length) return text;
-	const pattern = new RegExp(`(?<![\\p{L}\\p{N}])(${entries.map(escapeRegExp).join('|')})(های|ها|ای|ی)?(?![\\p{L}\\p{N}])`, 'gu');
+	const pattern = new RegExp(`(?<![\\p{L}\\p{N}._])(${entries.map(escapeRegExp).join('|')})(های|ها|ای|ی)?(?![\\p{L}\\p{N}._])`, 'gu');
 	const lookup = new Map(entries.map((label) => [label, terms[label]]));
 	return text.replace(pattern, (match, label, suffix, offset, source) => {
 		const before = source.slice(0, offset);
@@ -156,7 +156,7 @@ function localizeStatusMentions(text, terms, counters) {
 	const statuses = ['Draft', 'Submitted', 'Cancelled', 'Completed', 'Pending', 'Failed', 'Unreconciled', 'Reconciled', 'Settled']
 		.filter((status) => terms[status] && FA_LETTER.test(terms[status]));
 	if (!statuses.length) return text;
-	const pattern = new RegExp(`(?<![A-Za-z0-9_])(${statuses.map(escapeRegExp).join('|')})(?![A-Za-z0-9_])`, 'g');
+	const pattern = new RegExp(`(?<![A-Za-z0-9._])(${statuses.map(escapeRegExp).join('|')})(?![A-Za-z0-9._])`, 'g');
 	return text.replace(pattern, (match) => {
 		if (counters) counters.translatedTerms++;
 		return terms[match];

@@ -111,6 +111,21 @@ test('applies a complete UI label before translating its shared English suffix',
 	assert.equal(result.markdown, '## تغییر به جدول غیرقابل‌ویرایش');
 });
 
+test('preserves qualified API identifiers when their final segment matches a glossary term', () => {
+	const result = prepareMarkdownLinks([
+		'## frappe.db.count',
+		'Use the Count label in the report.',
+	].join('\n'), {
+		currentPath: 'content/fa/framework/example.md',
+		manifest,
+		terms: { Count: 'شمارش' },
+	});
+	assert.equal(result.markdown, [
+		'## frappe.db.count',
+		'Use the شمارش label in the report.',
+	].join('\n'));
+});
+
 test('localizes individual UI labels inside mixed-language navigation paths', () => {
 	const result = prepareMarkdownLinks([
 		'**خرید > Settings > تنظیمات خرید**',
@@ -253,6 +268,16 @@ test('preserves English identifiers in raw HTML attributes while localizing pros
 		terms: { 'Email Account': 'حساب کاربری ایمیل', Account: 'حساب' },
 	});
 	assert.equal(result.markdown, '**حساب کاربری ایمیل**\n<a id="provider-rejects-the-connection-or-account"></a>');
+});
+
+test('preserves HTML media tags and source URLs while localizing surrounding prose', () => {
+	const media = '<video controls><source src="/files/dashboard-new.mp4" type="video/mp4"></video>';
+	const result = prepareMarkdownLinks(`**Source**\n${media}`, {
+		currentPath: 'content/fa/insights/example.md',
+		manifest,
+		terms: { Source: 'منبع', Dashboard: 'داشبورد', New: 'جدید' },
+	});
+	assert.equal(result.markdown, `**منبع**\n${media}`);
 });
 
 test('treats translated labels containing the word source as normal page links', () => {

@@ -15,7 +15,7 @@ license_status: "CC BY-SA (version unspecified by source policy)"
 >
 > ویدیوی صفحهٔ منبع به‌صورت پیوندی به فایل رسمی حفظ شده است و در این مخزن بازنشر نشده است.
 
-<video controls width="100%" height="auto"><منبع src="https://docs.frappe.io/files/داشبورد-جدید.mp4" type="video/mp4"></video>
+<video controls width="100%" height="auto"><source src="https://docs.frappe.io/files/dashboard-new.mp4" type="video/mp4"></video>
 
 1. **رفتن به داشبوردها**: در صفحهٔ کارپوشه روی **داشبوردها** و سپس نماد **+** کلیک کنید.
 2. **نام‌گذاری**: روی عنوان کلیک کنید تا نام را تغییر دهید. نامی روشن و توصیفی مانند «نمای کلی فروش» یا «عملکرد ماهانه» انتخاب کنید.
